@@ -1,4 +1,4 @@
-# Algebra-Context
+# Coordinate Geometry
 
 ## Help wanted
 If you can create new and difficult problems to the topics then please help by
