@@ -1,6 +1,5 @@
-coordinate.pdf: *.tex images/*.pdf
-	context coordinate.tex
-	context coordinate.tex
+coordinate.pdf: *.typ images/*.pdf
+	typst compile cg.typ
 
-clean: coordinate.pdf
-	rm coordinate.pdf
+clean: cg.pdf
+	rm cg.pdf

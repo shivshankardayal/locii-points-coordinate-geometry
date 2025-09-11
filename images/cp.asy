@@ -3,7 +3,9 @@ import graph;
 import fontsize;
 
 settings.tex="lualatex";
-settings.outformat="svg";
+settings.outformat="pdf";
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+
 size(17.6cm, 25cm); // Page width fixed, height auto
 //unitsize(1cm);
 // Page dimensions
@@ -33,9 +35,9 @@ pair Yn = O - (0,r);
 fill(circle(O,6cm),white);
 draw(X--Xn, Arrows());
 draw(Y--Yn, Arrows());
-label("$x$", X-(0.1cm,0), align=N);
-label("$y$", Y-(0,0.1cm), align=E);
-label("$O$", O-(0,0.1cm));
+label("$x$", X-(0.2cm,0), align=N);
+label("$y$", Y-(0,0.2cm), align=E);
+label("$O$", O-(0.1cm,0.1cm), align=SW);
 
 // Graphs
 real step = 0.01;
