@@ -4,7 +4,7 @@ import fontsize;
 
 settings.tex="lualatex";
 settings.outformat="pdf";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus  Math}");
 
 size(17.6cm, 25cm); // Page width fixed, height auto
 //unitsize(1cm);
@@ -16,7 +16,7 @@ real H = 25cm; // b5 paper size
 fill((0,0)--(W,0)--(W,H)--(0,H)--cycle, rgb(0.0,0.4,0.6)); // purple
 
 // Title and Author text
-label("Locii of Points in Coordinate Geometry",
+label("Loci of Points in Coordinate Geometry",
       (0, H/4.5), align=SE, p=white + fontsize(28pt));
 draw((0,H/5.6)--(W,H/5.6), white+1.5bp);
 label("A problem-oriented approach",

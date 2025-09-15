@@ -1,18 +1,28 @@
 #import "lib.typ": *
 
-//#set text(font: "Liberation Serif")
-//#show math.equation: set text(font: "XITS Math")
+//#set text(font: "XCharter")
+//#show math.equation: set text(font: "STIX Math")
 //#show raw: set text(font: " Mono")
-
+#let mycolor = rgb(0, 96, 176);
 #set par(spacing: 1.5em)
 #set text(spacing: 150%)
+#show math.equation.where(block: false): set text(bottom-edge: "bounds")
+#set par(first-line-indent: 0em)
+
+#show ref: it => {
+  // Skip bibliography citations.
+    if it.element == none { return it }
+    set text(fill: mycolor)
+    it
+    set text(fill: black)
+}
 
 #show: book.with(
     title: "Locii of Pointss in Coordinate Geomerty",
     subtitle: "A Problem-Oriented Approach",
     date: datetime.today,
     author: "Shiv Shankar Dayal",
-    main-color: rgb("#0064B0"),
+    main-color: mycolor,
     lang: "en",
     cover: image("images/cp.pdf"),
     //  image-index: image(""),
@@ -68,9 +78,9 @@
 #include "preface.typ"
 #set heading(numbering: "1.1.1")
 
-//#part("Part One Title")
+#part("Theory and Problems")
 
-//#include "introduction.typ"
+#include "introduction.typ"
 //#include "basics.typ"
 
 #show: appendices.with("Appendices", hide-parent: false)

@@ -1,4 +1,5 @@
 #import "lib.typ": *
+#set par(first-line-indent: 0em)
 
 #set heading(numbering: none)
 #chapter("Preface", l: "Preface")
