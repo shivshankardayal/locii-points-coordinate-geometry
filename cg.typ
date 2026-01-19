@@ -4,13 +4,13 @@
 //#show math.equation: set text(font: "STIX Math")
 //#show raw: set text(font: " Mono")
 #let mycolor = rgb(0, 96, 176);
-#set par(spacing: 1.5em)
-#set text(spacing: 150%)
+#set par(spacing: 1.7em)
+#set text(spacing: 170%)
 #show math.equation.where(block: false): set text(bottom-edge: "bounds")
 #set par(first-line-indent: 0em)
 
 #show ref: it => {
-  // Skip bibliography citations.
+    // Skip bibliography citations.
     if it.element == none { return it }
     set text(fill: mycolor)
     it
@@ -18,7 +18,7 @@
 }
 
 #show: book.with(
-    title: "Locii of Pointss in Coordinate Geomerty",
+    title: "Loci of Points in Coordinate Geomerty",
     subtitle: "A Problem-Oriented Approach",
     date: datetime.today,
     author: "Shiv Shankar Dayal",
@@ -59,6 +59,10 @@
         (It is dedicated to Lord Shiv. It is his and not mine.)
 ],
 )
+#let det(content) = math.mat(
+    content,
+    delim: "|", // The desired delimiter
+)
 
 // Custom thmbox
 #let solution(name: none, body) = {
@@ -80,7 +84,7 @@
 
 #part("Theory and Problems")
 
-#include "introduction.typ"
+#include "coordinates.typ"
 //#include "basics.typ"
 
 #show: appendices.with("Appendices", hide-parent: false)

@@ -1,4 +1,4 @@
-coordinate.pdf: *.typ images/*.pdf
+cg.pdf: *.typ images/*.pdf
 	typst compile cg.typ
 
 clean: cg.pdf
