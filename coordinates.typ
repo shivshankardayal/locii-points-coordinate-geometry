@@ -266,48 +266,70 @@ would represent the equivalent polar coordinates.
 )
 
 Find the areas of the triangles the coordinates of whose vertices are respectively:
+//1
 + $(1,3), (-7, 6)$ and $(5, -1)$.
+//2
 + $(0, 4), (3, 6)$ and $(-8, -2)$.
+//3
 + $(5, 2), (-9, -3)$ and $(-3, -5)$.
+//4
 + $(a, b + c), (a, b - c)$ and $(-a, c)$.
+//5
 + $(a cos phi_1, a sin phi_1), (a cos phi_2, a sin phi_2)$ and $(a cos phi_3, a sin phi_3)$.
+//6
 + $(\am_1^2, 2\am_1),(\am_2^2, 2\am_2) $ and $(\am_3^2, 2\am_3)$.
 
 Prove by showing that the area of the triangle formed by them is zero that the following points are in
 a straight line:
 
+//7
 + $(1, 4), (3, -2)$ and $(-3, 16)$.
+//8
 + $(-1/2, 3), (-5, 6)$ and $(-8, 8)$.
+//9
 + $(a, b + c), (b, c + a)$ and $(c, a + b)$.
+//10
 + In any $triangle \AB\C$ prove that $\AB^2 + \AC^2 = 2(\AC^2 + \CD^2)$ where $D$ is the middle point of
   $\BC$.
+//11
 + $\AB\C$ is a triangle and $D, E$ and $F$ are the middle points of the sides $\BC, \CA$ and $\AB$; prove
   that the point which divides $\AD$ internally in the ratio $2:1$ also divides the line $\BE$ and $\CF$ in
   the same ratio.
+//12
 + Find the area of a quadrilateral whose vertices are $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ and $(x_4, y_4)$.
 
 Find the areas of the quadrilaterals the coordinates of whose vertices, taken in order, are
 
+//13
 + $(1, 1), (3, 4), (5, -2)$ and $(4, -7)$.
+//14
 + $(-1, 0), (-3, -9), (5, 8)$ and $(3, 9)$.
 
 Find the lengths of the straight lines joining the pairs of points whose polar coordinates are
 
+//15
 + $(r_1, theta_1)$ and $(r_2, theta_2)$.
+//16
 + $(2, 30^degree)$ and $(4, 120^degree)$.
+//17
 + $(-3, 45^degree)$ and $(7, 105^degree)$.
+//18
 + $(a, pi/2)$ and $(3a, pi/6)$.
-+ Prove that the points $(0, 0), (3, pi/2)$ and $(3, pi/6)$.
 
 Find the areas of the triangle whose coordinates are
 
+//19
 + $(r_1, theta_1), (r_2, theta_2)$ and $(r_3, theta_3)$.
+//20
 + $(1, 30^degree), (2, 60^degree)$ and $(3, 90^degree)$.
+//21
 + $(-3, 30^degree), (5, 150^degree)$ and $(7, 210^degree)$.
+//22
 + $(-a, pi/6), (a, pi/2)$ and $(-2a, (2pi)/3)$.
 
 Find the distance between the points.
 
+//23
 + $(a cos alpha, a sin alpha)$ and $(a cos beta, a sin beta)$.
 + $(a t_1^2, 2a t_1)$ and $(a t_2^2, 2a t_2)$.
 
