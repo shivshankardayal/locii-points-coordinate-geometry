@@ -87,6 +87,11 @@
 #include "coordinates.typ"
 //#include "basics.typ"
 
+#part("Answers")
+#counter(heading).update(0)
+
+#include "coordinates-solutions.typ"
+
 #show: appendices.with("Appendices", hide-parent: false)
 #include "fdl-1.3.typ"
 
