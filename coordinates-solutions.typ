@@ -283,3 +283,366 @@ cos(theta_1 - theta_2))$
 
   Take $a (t_2 - t_1)$ out of the square root:
   $L = a abs(t_2 - t_1) sqrt((t_2 + t_1)^2 + 4)$.
+//25
++ The equation $x^2 + y^2 = a^2$ can be rewritten in polar coordinates.
+  Recall that $x = r cos theta$ and $y = r sin theta$. Substituting, we get:
+
+  $x^2 + y^2 = r^2 cos^2 theta + r^2 sin^2 theta = r^2 (cos^2 theta + sin^2 theta) = r^2$
+
+  Hence, the equation becomes $r^2 = a^2$, or equivalently:
+
+  $r = a$
+//26
++ Consider the equation $y = x tan alpha$.
+  In polar coordinates, we have $x = r cos theta$ and $y = r sin theta$.
+
+  Substituting, we get: $r sin theta = r cos theta tan alpha$
+
+  Dividing both sides by $r cos theta$ (assuming $r != 0$ and $cos theta != 0$), we obtain: $tan theta = tan alpha$
+
+  Hence, in polar coordinates, the equation becomes: $theta = alpha + n pi$, where $n$ is any integer.
+//27
++ Consider the equation $x^2 + y^2 = 2 a x$. In polar coordinates, $x = r cos theta$ and $y = r sin theta$.
+
+  Substituting these, we get: $r^2 cos^2 theta + r^2 sin^2 theta = 2 a r cos theta$
+
+  Simplifying the left side: $r^2 (cos^2 theta + sin^2 theta) = r^2 = 2 a r cos theta$
+
+  Dividing both sides by $r$ (assuming $r != 0$), we obtain: $r = 2 a cos theta$
+
+  Thus, in polar coordinates, the equation becomes: $r = 2 a cos theta$.
+//28
++ Consider the equation $x^2 - y^2 = 2 a y$.  In polar coordinates, $x = r cos theta$ and $y = r sin theta$.
+
+  Substituting these, we get: $r^2 cos^2 theta - r^2 sin^2 theta = 2 a r sin theta$
+
+  Factor $r^2$ on the left: $r^2 (cos^2 theta - sin^2 theta) = 2 a r sin theta$
+
+  Divide both sides by $r$ (assuming $r != 0$): $r (cos^2 theta - sin^2 theta) = 2 a sin theta$
+
+  Hence, in polar coordinates, the equation becomes: $r = 2 a sin theta / (cos^2 theta - sin^2 theta)$.
+//29
++ Consider the equation $x^2 = y^2 (2 a - x)$. In polar coordinates, $x = r cos theta$ and $y = r sin theta$.
+
+  Substituting these, we get: $(r cos theta)^2 = (r sin theta)^2 (2 a - r cos theta)$
+
+  Simplifying both sides: $r^2 cos^2 theta = r^2 sin^2 theta (2 a - r cos theta)$
+
+  Divide both sides by $r^2$ (assuming $r != 0$): $cos^2 theta = sin^2 theta (2 a - r cos theta)$
+
+  Solving for $r$: $r = (2 a sin^2 theta - cos^2 theta) / (sin^2 theta cos theta)$.
+//30
++ Consider the equation $(x^2 + y^2)^2 = a^2 (x^2 - y^2)$.
+
+  Using $x = r cos theta$ and $y = r sin theta$, we have: $(r^2)^2 = a^2 r^2 (cos^2 theta - sin^2 theta)$
+
+  Dividing both sides by $r^2$: $r^2 = a^2 (cos^2 theta - sin^2 theta)$.
+//31
++ Given the polar equation $r = a$, we square both sides to obtain $r^2 = a^2$.
+
+  Since $r^2 = x^2 + y^2$, the Cartesian form is: $x^2 + y^2 = a^2$.
+//32
++ Given the polar equation $theta = tan^(-1) m$, taking the tangent gives: $tan theta = m$
+
+  Since $tan theta = y / x$, we obtain the Cartesian equation: $y = m x$.
+//33
++ Given the polar equation $r = a cos theta$, multiply both sides by $r$: $r^2 = a r cos theta$
+
+  Using $r^2 = x^2 + y^2$ and $r cos theta = x$, we obtain: $x^2 + y^2 = a x$.
+//34
++ Given $r^2 = a^2 * sin(2*theta)$
+
+  Using $x = r*cos(theta)$, $y = r*sin(theta)$, and $r^2 = x^2 + y^2$, $sin(2*theta) = 2*sin(theta)*cos(theta)$
+
+  Substituting: $x^2 + y^2 = a^2 * 2 * (y / sqrt(x^2 + y^2)) * (x / sqrt(x^2 + y^2))$
+
+  $x^2 + y^2 = 2*a^2 * x * y / (x^2 + y^2)$
+
+  Multiplying both sides by $x^2 + y^2$: $(x^2 + y^2)^2 = 2*a^2 * x * y$.
++ Given the polar equation $r^2 sin 2theta = 2 a^2$, use the identity $sin 2theta = 2 sin theta cos theta$.
+
+  Since $r sin theta = y$ and $r cos theta = x$, we have: $2 x y = 2 a^2$
+
+  Dividing both sides by 2 gives the Cartesian equation: $x y = a^2$.
++ Given the polar equation $sqrt(r) cos(theta / 2) = sqrt(a)$, square both sides: $r cos^2(theta / 2) = a$
+
+  Using $cos^2(theta / 2) = (1 + cos theta) / 2$, we get: $r (1 + cos theta) = 2 a$
+
+  Since $cos theta = x / r$, this gives: $r + x = 2 a$
+
+  With $r = sqrt(x^2 + y^2)$, the Cartesian equation is: $x^2 + y^2 = (2 a - x)^2$.
++ Given the polar equation $sqrt(r) = sqrt(a) sin(theta / 2)$, squaring gives: $r = a sin^2(theta / 2)$
+
+  Using $sin^2(theta / 2) = (1 - cos theta) / 2$, we obtain: $r = a (1 - cos theta) / 2$
+
+  Substituting $cos theta = x / r$ and $r^2 = x^2 + y^2$ leads to: $(x^2 + y^2 + a x / 2)^2 = a^2 (x^2 +
+  y^2) / 4$.
++ The polar equation $r (cos 3theta + sin 3theta) = 5 k sin theta cos theta$ can be converted to Cartesian
+  coordinates using $x = r cos theta$, $y = r sin theta$, and $r^2 = x^2 + y^2$.
+
+  Using the triple-angle formulas $cos 3theta = 4 cos^3 theta - 3 cos theta$ and $sin 3theta = 3 sin theta -
+  4 sin^3 theta$, we can write:
+
+  $cos 3theta = (4 x^3 - 3 x r^2) / r^3$ and $sin 3theta = (3 y r^2 - 4 y^3) / r^3$
+
+  Adding these gives: $cos 3theta + sin 3theta = (4 (x^3 - y^3) + 3 r^2 (y - x)) / r^3$
+
+  Multiplying both sides of the original equation by $r$: $r (cos 3theta + sin 3theta) = (4 (x^3 - y^3) + 3
+  r^2 (y - x)) / r^2$
+
+  The right-hand side $5 k sin theta cos theta$ becomes $5 k x y / r^2$
+
+  Multiplying both sides by $r^2$ to eliminate the denominator: $4 (x^3 - y^3) + 3 r^2 (y - x) = 5 k x y$
+
+  Substituting $r^2 = x^2 + y^2$ yields the final Cartesian equation: $4 (x^3 - y^3) + 3 (x^2 + y^2) (y - x)
+  = 5 k x y$
++ Distance formula is $sqrt((x_1 - x_2)^2 + (y_1 - y_2)^2) = d^2$
+
+  Substituting given coordinate in the formula: $sqrt{(a - 3)^2 + (2 - 4)^2} = 8^2$
+
+  Simplifying gives us $a = 3 + 2sqrt(15)$ (rejecting negative value for distance).
++ Like previous problem substituting the coordinates gives us
+
+  $sqrt((a + r cos theta - a)^2 + (b + r sin theta - b)^2) = r^2$, which is independent of $theta$.
++ Let the points be $A = (csc^2(theta), 0)$, $B = (0, sec^2(theta))$, and $C = (1, 1)$.
+
+  The distance formula between two points $(x_1, y_1)$ and $(x_2, y_2)$ is: $d = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)$
+
+  Compute the distance $A\B$:
+  $A\B = sqrt((0 - csc^2(theta))^2 + (sec^2(theta) - 0)^2)$
+
+  $= sqrt((csc^2(theta))^2 + (sec^2(theta))^2) = sqrt(csc^4(theta) + sec^4(theta))$
+
+  Compute the distance $B\C$:
+
+  $B\C = sqrt((1 - 0)^2 + (1 - sec^2(theta))^2) = sqrt(1 + (1 - sec^2(theta))^2)$
+
+  Compute the distance $A\C$:
+
+  $A\C = sqrt((1 - csc^2(theta))^2 + (1 - 0)^2) = sqrt((1 - csc^2(theta))^2 + 1)$
+
+  Using the Pythagorean identities: $csc^2(theta) = 1 / sin^2(theta)$ and $sec^2(theta) = 1 / cos^2(theta)$
+
+  Substitute these into the distances and simplify. After simplification, we find that: $A\B + B\C = A\C$
+
+  Therefore, the points $A$, $B$, and $C$ are collinear.
++ Let $P = (x, y)$, $A = (a + b, b - a)$, and $B = (a - b, a + b)$.
+
+  Since $P$ is equidistant from $A$ and $B$, we have:
+
+  $sqrt((x - (a + b))^2 + (y - (b - a))^2) = sqrt((x - (a - b))^2 + (y - (a + b))^2)$
+
+  Squaring both sides: $(x - (a + b))^2 + (y - (b - a))^2 = (x - (a - b))^2 + (y - (a + b))^2$
+
+  Expanding both sides: $(x - a - b)^2 + (y - b + a)^2 = (x - a + b)^2 + (y - a - b)^2$
+
+  Expanding each square:
+
+  $(x - a - b)^2 = x^2 - 2 x (a + b) + (a + b)^2 =>(y - b + a)^2 = y^2 - 2 y (b - a) + (b - a)^2$
+
+  $=>(x - a + b)^2 = x^2 - 2 x (a - b) + (a - b)^2 => (y - a - b)^2 = y^2 - 2 y (a + b) + (a + b)^2$
+
+  Adding the terms on each side:
+
+  Left: $x^2 + y^2 - 2 x (a + b) - 2 y (b - a) + (a + b)^2 + (b - a)^2$
+
+  Right: $x^2 + y^2 - 2 x (a - b) - 2 y (a + b) + (a - b)^2 + (a + b)^2$
+
+  Subtracting $x^2 + y^2 + (a + b)^2$ from both sides:
+
+  $-2 x (a + b) - 2 y (b - a) + (b - a)^2 = -2 x (a - b) - 2 y (a + b) + (a - b)^2$
+
+  Simplifying $(b - a)^2 = (a - b)^2$: $-2 x (a + b) - 2 y (b - a) = -2 x (a - b) - 2 y (a + b)$
+
+  Divide both sides by -2: $x (a + b) + y (b - a) = x (a - b) + y (a + b)$
+
+  Bringing all terms to left-hand side:$x (a + b - a + b) + y (b - a - a - b) = 0 =>x (2 b) + y (-2 a) = 0$
+
+  Simplifying: $2 b x - 2 a y = 0$
+
+  Dividing both sides by $b (x + y)$: $(a - b)/(a + b) = (x - y)/(x + y)$
++ Let the points be $A = (3, 4)$, $B = (8, -6)$, and $C = (13, 9)$.
+
+  Computing the sides:
+
+  $A\B = sqrt((8 - 3)^2 + (-6 - 4)^2) = sqrt(5^2 + (-10)^2) = sqrt(25 + 100) = sqrt(125)$
+
+  $B\C = sqrt((13 - 8)^2 + (9 - (-6))^2) = sqrt(5^2 + 15^2) = sqrt(25 + 225) = sqrt(250)$
+
+  $A\C = sqrt((13 - 3)^2 + (9 - 4)^2) = sqrt(10^2 + 5^2) = sqrt(100 + 25) = sqrt(125)$
+
+  Since $A\B^2 + A\C^2 = B\C^2$, the triangle ABC is right-angled at $A$.
++ Solution is given below:
+    + Computing the sides using the distance formula:
+
+      $A\B = sqrt((-sqrt(3) - 1)^2 + (sqrt(3) - 1)^2) = 2 sqrt(2)$
+
+      $B\C = sqrt((-1 + sqrt(3))^2 + (-1 - sqrt(3))^2) = 2 sqrt(2)$
+
+      $A\C = sqrt((-1 - 1)^2 + (-1 - 1)^2) = 2 sqrt(2)$
+
+      Since $A\B = B\C = A\C$, the triangle is _equilateral_.
+    + Let the points be $A = (0, 2)$, $B = (7, 0)$, and $C = (2, 5)$.
+
+      Computing the sides using the distance formula:
+
+      $A\B = sqrt((7 - 0)^2 + (0 - 2)^2) = sqrt(49 + 4) = sqrt(53)$
+
+      $B\C = sqrt((2 - 7)^2 + (5 - 0)^2) = sqrt((-5)^2 + 5^2) = sqrt(25 + 25) = sqrt(50)$
+
+      $A\C = sqrt((2 - 0)^2 + (5 - 2)^2) = sqrt(4 + 9) = sqrt(13)$
+
+      No combination satisfies the Pythagoras theorem exactly, so the triangle is not right-angled.
+
+      Since all sides are different ($sqrt(53)$, $sqrt(50)$, $sqrt(13)$), the triangle is _scalene_.
+    + Let the points be $A = (-2, 5)$, $B = (7, 10)$, and $C = (3, -4)$.
+
+      Computing the sides using the distance formula:
+
+      $A\B = sqrt((7 - (-2))^2 + (10 - 5)^2) = sqrt(9^2 + 5^2) = sqrt(81 + 25) = sqrt(106)$
+
+      $B\C = sqrt((3 - 7)^2 + (-4 - 10)^2) = sqrt((-4)^2 + (-14)^2) = sqrt(16 + 196) = sqrt(212)$
+
+      $A\C = sqrt((3 - (-2))^2 + (-4 - 5)^2) = sqrt(5^2 + (-9)^2) = sqrt(25 + 81) = sqrt(106)$
+
+      $A\B = A\C = sqrt(106)$, $B\C = sqrt(212)$
+
+      Since two sides are equal, the triangle is _isosceles_.
+
+      Check for a right angle using the Pythagoras theorem:
+
+      $A\B^2 + A\C^2 = 106 + 106 = 212 = B\C^2$
+
+      Hence, the triangle is _right-angled isosceles_ at angle $A$.
++ Let the point be $P = (a*cos(alpha), a*sin(alpha))$ and the origin be $O = (0, 0)$.
+
+  The distance formula between two points $(x_1, y_1)$ and $(x_2, y_2)$ is:
+
+  $d = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)$
+
+  Computing the distance $O\P$:
+
+  $\OP = sqrt((a*cos(alpha) - 0)^2 + (a*sin(alpha) - 0)^2)$
+
+  Using the Pythagorean identity $cos(alpha)^2 + sin(alpha)^2 = 1$:
+
+  $\OP = sqrt(a^2 * 1) = sqrt(a^2) = a$, which is independent of $alpha$
++ Let the points be $A = (6, -1)$, $B = (1, 3)$, and $C = (x, 8)$.
+
+  Given $A\B = B\C$
+
+  $A\B = sqrt((1 - 6)^2 + (3 - (-1))^2) = sqrt((-5)^2 + 4^2) = sqrt(25 + 16) = sqrt(41)$
+
+  $B\C = sqrt((x - 1)^2 + (8 - 3)^2) = sqrt((x - 1)^2 + 5^2) = sqrt((x - 1)^2 + 25)$
+
+  $=>sqrt(41) = sqrt((x - 1)^2 + 25)$
+
+  Squaring both sides: $41 = (x - 1)^2 + 25 => (x - 1)^2 = 16$
+
+  $=>x - 1 = 4$  or  $x - 1 = -4=>x = 5$  or  $x = -3$
++ Let the points be $A = (1, 5)$, $B = (2, 4)$, and $C = (3, 3)$.
+
+  $A\B = sqrt((2 - 1)^2 + (4 - 5)^2) = sqrt(1^2 + (-1)^2) = sqrt(1 + 1) = sqrt(2)$
+
+  $B\C = sqrt((3 - 2)^2 + (3 - 4)^2) = sqrt(1^2 + (-1)^2) = sqrt(1 + 1) = sqrt(2)$
+
+  $A\C = sqrt((3 - 1)^2 + (3 - 5)^2) = sqrt(2^2 + (-2)^2) = sqrt(4 + 4) = sqrt(8)$
+
+  Check if $A\B + B\C = A\C$:
+
+  $A\B + \BC = sqrt(2) + sqrt(2) = 2*sqrt(2)$
+
+  $A\C = sqrt(8) = 2*sqrt(2)$
+
+  Since $A\B + B\C = A\C$, the points $A$, $B$, and $C$ are collinear.
++ Let the points be $A = (2a, 4a)$, $B = (2a, 6a)$, $C = (2a + sqrt(3)*a, 5a)$.
+
+  $\AB = sqrt((2a - 2a)^2 + (6a - 4a)^2) = sqrt(0 + (2a)^2) = sqrt(4a^2) = 2a$
+
+  $B\C = sqrt((2a + sqrt(3)*a - 2a)^2 + (5a - 6a)^2) = sqrt((sqrt(3)*a)^2 + (-a)^2) = sqrt(3a^2 + a^2) =
+  sqrt(4a^2) = 2a$
+
+  $A\C = sqrt((2a + sqrt(3)*a - 2a)^2 + (5a - 4a)^2) = sqrt((sqrt(3)*a)^2 + (a)^2) = sqrt(3a^2 + a^2) =
+  sqrt(4a^2) = 2a$
+
+  Since $A\B = B\C = A\C = 2a$, all sides are equal.
+
+  Hence, the triangle with vertices $A$, $B$, and $C$ is equilateral.
++ Let the points be $O = (0, 0)$, $A = (a, b)$, and $B = (c, d)$.
+
+  $O\A = sqrt((a - 0)^2 + (b - 0)^2) = sqrt(a^2 + b^2)$
+
+  $O\B = sqrt((c - 0)^2 + (d - 0)^2) = sqrt(c^2 + d^2)$
+
+  $A\B = sqrt((c - a)^2 + (d - b)^2) = sqrt((c - a)^2 + (d - b)^2)$
+
+  By the cosine law, for triangle $O\A\B$ with angle $theta$ at $O$:
+
+  $cos theta = (O\A^2 + O\B^2 - A\B^2) / (2   O\A   O\B)$
+
+  Substituting the distances:
+
+  $cos theta = ( (a^2 + b^2) + (c^2 + d^2) - ((c - a)^2 + (d - b)^2) ) / (2   sqrt(a^2 + b^2)   sqrt(c^2 +
+  d^2))$
+
+  Expanding $A\B^2 = (c - a)^2 + (d - b)^2 = c^2 - 2a\c + a^2 + d^2 - 2b\d + b^2 = a^2 + b^2 + c^2 + d^2 -
+  2(a\c + b\d)$
+
+  Substituting: $cos(theta) = ( (a^2 + b^2) + (c^2 + d^2) - (a^2 + b^2 + c^2 + d^2 - 2(a\c + b\d)) ) / (2
+  sqrt(a^2 + b^2)   sqrt(c^2 + d^2))$
+
+  $=> cos theta = (2(a c + b d)) / (2   sqrt(a^2 + b^2)   sqrt(c^2 + d^2))$
+
+  $=>cos theta = (a c + b d) / (sqrt(a^2 + b^2)   sqrt(c^2 + d^2))$.
++ Let the vertices be $A = (-2, -3)$, $B = (-1, 0)$, and $C = (7, -6)$.
+
+  #figure(
+      image("images/1_1.pdf"),
+  )
+
+
+  Let the circumcenter be $O = (x, y)$, which is equidistant from all three vertices:
+
+  $sqrt((x + 2)^2 + (y + 3)^2) = sqrt((x + 1)^2 + y^2)$
+
+  Squaring both sides: $(x + 2)^2 + (y + 3)^2 = (x + 1)^2 + y^2$
+
+  $=>x^2 + 4x + 4 + y^2 + 6y + 9 = x^2 + 2x + 1 + y^2 => 2x + 6y + 12 = 0 => x + 3y + 6 = 0$
+
+  Also, $sqrt((x + 1)^2 + y^2) = sqrt((x - 7)^2 + (y + 6)^2)$
+
+  Squaring both sides: $(x + 1)^2 + y^2 = (x - 7)^2 + (y + 6)^2$
+
+  $=>x^2 + 2x + 1 + y^2 = x^2 - 14x + 49 + y^2 + 12y + 36$
+
+  $=>16x - 12y - 84 = 0 => 4x - 3y - 21 = 0$
+
+  Solving the system: From $x + 3y + 6 = 0$, we get $x = -3y - 6$
+
+  Substitute into $4x - 3y - 21 = 0$: $4(-3y - 6) - 3y - 21 = 0 => -15y - 45 = 0 => y = -3$
+
+  Then $x = -3(-3) - 6 = 3$
+
+  Thus, the circumcenter is $O = (3, -3)$
+
+  The circumradius is: $R = sqrt((3 - (-2))^2 + (-3 - (-3))^2) = sqrt(5^2 + 0^2) = 5$
++ The diagram is given below:
+
+  #figure(
+      image("images/1_2.pdf"),
+  )
+
+  Let $P\Q = Q\R = R\P = r$ and $angle \PQ\X = theta$ then $angle \RQ\X = 60^degree + theta$.
+
+  Given $P\L = a, \RN = 1$.
+
+  We take $Q$ as the pole and $Q\X$ as the initial line. Polar co-ordinates of $P$ and $R$ will be $(r,
+  theta)$ and $(r, theta + 60^degree)$, respectively.
+
+  Now $r sin theta = y$, co-ordinate of $P = a$ and $r sin (60^degree + theta) = y$, co-ordinate of $R = 1$
+
+  $=> r(sin 60^degree cos theta + cos 60^degree sin theta) = 1$
+
+  $=> r(sqrt(3)/2 sqrt(1 - (a^2)/r^2) + 1/2.a/r) = 1$
+
+  $=>r = 2/sqrt(3)sqrt(a^2 - a + 1)$.

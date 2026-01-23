@@ -198,6 +198,64 @@ ways to fix this. The first is to take modulus of the equation. The second is to
 triangle in clockwise direction. If we plot the points in anti-clockwise direction then area of the
 triangle will be negative in that case we can take modulus of the value obtained.
 
+=== Condition of Collinearity of Three Points
+From the above relation we can extrapolate that if the area of the triangle is zero then the three
+vertexes would collapse into a straight line. Thus the condition of collinearity of these three
+points can be written as:
+
+$ mat(delim: "|", x_1, y_1, 1;x_2, y_2, 1;x_3, y_3, 1) = 0 $
+
+Now that we have area of a trapezium and area of a triangle finding area of other polygons is
+trivial and we will find them in our exercises.
+
+== Centroid of a Triangle
+The point of intersection of the medians of the triangle is called the _centroid_ of the triangle.
+
+#figure(
+  image("images/centroid.pdf"),
+  caption: [Centroid of a triangle.],
+)
+
+Let $A(x_1, y_1), B(x_2, y_2)$ and $C(x_3, y_3)$ be the vertices of the $triangle \AB\C$. Let $A\D, B\E$ and
+$C\F$ be the three medians.
+
+Since $D$ is middle point of $\BC => D = ((x_1 + x_2)/2, (y_1 + y_2)/2)$
+
+Let $G$ be the centroid i.e. intersection of the three medians. $G$ will divide $\BC$ in the ratio $2:1$
+i.e. $\AG:\GC = 2:1$ then
+
+$G = ((2(x_2 + x_3)/2 + 1.x_1)/2, (2(y_2 + y_3)/2 + 1.y_1)/2) = ((x_1 + x_2 + x_3)/3, (y_1 + y_2 +
+y_3)/2)$
+
+Similarly it can be shown that $G$ has same coordinates for other medians. Thus, $G$ lies on the same
+coordinates for all three medians.
+
+Thus, $G((x_1 + x_2 + x_3)/3, (y_1 + y_2 + y_3)/2)$ is the centroid of the triangle.
+
+== Incenter of a Triangle
+The point of intersection of the bisectors of the angles of the triangle is called the _incenter_ of the triangle.
+
+#figure(
+  image("images/incenter.pdf"),
+  caption: [Incenter of a triangle.],
+)
+
+Let $A(x_1, y_1), B(x_2, y_2)$ and $C(x_3, y_3)$ be the vertices of the $triangle \AB\C$. Let $A\D, B\E$ and
+$C\F$ be the three internal bisectors of the angles $A, B$ and $C$, respectively. Let these bisectors meet
+at the incenter $I$.
+
+Since $B\C$ is internal bisector of $angle \BA\C$, therefore $frac(B\D, \DC) = frac(B\A, A\C) = c/b$
+
+$=> D = ((b\x_2 + c\x_3)/(b + c), (b\y_2 + c\y_3)/(b + c))$
+
+The incenter $I$ divides $A\D$ internally in the ratio $b + c:a=. A\I:I\D = b + c:a$
+
+$=> I = ((a\x_1 + b\x_2 + c\x_3)/(a + b + c), (a\y_1 + b\y_2 + c\y_3)/(a + b + c))$
+
+Similarly it can be shown for two other bisectors that $I$ has the same coordinate.
+
+Thus, $I((a\x_1 + b\x_2 + c\x_3)/(a + b + c), (a\y_1 + b\y_2 + c\y_3)/(a + b + c))$ is the incenter of the triangle.
+
 == Area of a Quadrilateral
 Consider following diagram with $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ and $D(x_4, y_4)$:
 
@@ -213,16 +271,6 @@ Area of $square A B C D = Delta A B C + Delta A C D$
 
 Another way to find area of a quadrilateral is $ square A B C D = 1/2 [mat(delim: "|", x_1, y_1; x_2 y_2) +
 mat(delim: "|", x_2, y_2; x_3, y_3) + mat(delim: "|", x_3, y_3; x_4, y_4) + mat(delim: "|", x_4, y_4; x_1, y_1)] $
-
-=== Condition of Collinearity of Three Points
-From the above relation we can extrapolate that if the area of the triangle is zero then the three
-vertexes would collapse into a straight line. Thus the condition of collinearity of these three
-points can be written as:
-
-$ mat(delim: "|", x_1, y_1, 1;x_2, y_2, 1;x_3, y_3, 1) = 0 $
-
-Now that we have area of a trapezium and area of a triangle finding area of other polygons is
-trivial and we will find them in our exercises.
 
 == Polar Coordinates
 Consider a line $\OX$ through a point $O$. We call the line _initial line_ and we call the _the
@@ -331,44 +379,61 @@ Find the distance between the points.
 
 //23
 + $(a cos alpha, a sin alpha)$ and $(a cos beta, a sin beta)$.
+//24
 + $(a t_1^2, 2a t_1)$ and $(a t_2^2, 2a t_2)$.
 
 Change the following equations to polar coordinates
 
+//25
 + $x^2 + y^2 = a^2$.
+//26
 + $y = x tan alpha$.
+//27
 + $x^2 + y^2 = 2a x$.
+//28
 + $x^2 - y^2 = 2a y$.
+//29
 + $x^2 = y^2(2a - x)$.
+//30
 + $(x^2 + y^2)^2 = a^2(x^2 - y^2)$.
 
 Change the following equations to cartesian coordinates
-
+//31
 + $r = a$.
+//32
 + $theta = tan^(-1)m$.
+//33
 + $r = a cos theta$.
+//34
 + $r^2 = a^2 sin 2theta$.
+//35
 + $r^2sin 2 theta = 2a^2$.
+//36
 + $sqrt(r)cos theta/2 = sqrt(a)$.
+//37
 + $sqrt(r) = sqrt(a)sin theta/2$.
+//38
 + $r(cos 3 theta + sin 3 theta) = 5k sin theta cos theta$.
-
+//39
 + Find $a$ if the distance between $(a, 2)$ and $(3,4)$ is $8$.
+//40
 + Prove that the distance between the points $(a + r cos theta, b + r sin theta)$ and $(a,b)$ is independent
   of $theta$.
+//41
 + Use distance formula to show that the points $(csc^2 theta, 0), (0, sec^2 theta)$ and $(1, 1)$ are
   collinear.
+//42
 + If the point $P(x, y)$ be equidistant from the points $(a + b, b - a)$ and $(a - b, a + b)$, prove that $(a
   - b)/(a + b) = (x - y)/(x + y)$.
+//43
 + Prove that the points $(3, 4), (8, -6)$ and $(13, 9) $are the vertices of a right angled triangle.
+//44
 + Determine the type(isosceles, right angled, right angled isosceles, equilateral, scalene) of the following
   triangles whose vertices are
     + $(1, 1), (-sqrt(3), sqrt(3))$ and $(-1, -1)$.
     + $(0, 2), (7, 0)$ and $(2,5)$.
     + $(-2, 5), (7, 10)$ and $(3, -4)$.
-+ Find the area of $n$-sided polygon.
-+ Find the coordinates of centroid of a triangle.
-+ Find the coordinates of incenter of a triangle.
+//45
 + Prove that the distance of the point $(a cos alpha,a sin alpha)$ from the origin is independent of
   $alpha$.
 + Let $A(6, -1), B(1, 3)$ and $C(x, 8)$ be three points such that $A B = B C$. Find the value of $x$.
