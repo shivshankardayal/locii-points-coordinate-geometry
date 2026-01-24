@@ -609,97 +609,143 @@ Change the following equations to cartesian coordinates
 //102
 + If $(t, t-2), (t+3, t)$ and $(t + 2, t + 2)$ are the vertices of a triangle, show that its area if
   independent of $t$.
+//103
 + If $A(x, y), B(1, 2)$ and $C(2, 1)$ are the vertices of a triangle of area $6$ units, show that $x + y =
   15$ or $-9$.
+//104
 + Find the area of the quadrilateral whose vertices are $(1, 1), (7, 3), (12, 2)$ and $(7, 21)$.
+//105
 + Find the area of the pentagon whose vertices are $(4, 3), (-5, 6), (0, -7), (3, -6)$ and $(-7, -2)$.
+//106
 + Find the area of the hexagon whose consecutive vertices are $(5, 0), (4, 2), (1, 3), (-2, 2), (-3, -1)$
   and $(0,-4)$.
+//107
 + Find the area of the triangle whose vertices are $((a+1)(a+2), a+2),((a+2)(a+3), a+3)$ and $((a+3)(a+4),
   a+4)$.
+//108
 + The point $A$ divides the join of $P(-5, 1)$ and $Q(3, 5)$ in the ratio $k:1$. Find the two values of $k$
   for which the area of $triangle A B C$, where $B(1, 5)$ and $C(7, -2)$ are given, is equal to $2$ units in
   magnitude.
+//109
 + The coordinates of $A, B, C, D$ are $(6, 3), (-3, 5), (4, -2), (x, 3x)$ respectively. If $Delta A B C = 2
   Delta B C D$, find $x$.
+//110
 + If the area of the quadrilateral whose angular points taken in order are $(1, 2), (-5, 6), (7, -4)$ and
   (h,-2) be zero; show that $h = 3$.
+//111
 + Find the area of the triangle whose vertices $A, B, C$ are $(3, 4), (−4, 3), (8, 6)$ respectively and
   hence find the length of perpendicular from $A$ on $B C$.
+//112
 + The coordinates of the centroid of a triangle and those of two of its vertices are respectively $(2/3, 2),
   (2, 3), (-1,2)$. Find the area of the triangle.
+//113
 + The area of a triangle is $3$ square units. Two of its vertices are $A(3, 1), B(1, -3)$ and the centroid
   off the triangle lies on $x$-axis. Find the coordinates of the third vertex is $C$.
+//114
 + $A$ and $B$ are the points $(3, 4)$ and $(5,-2)$, find the point $P$ such that $P A = P B$ and $Delta P A
   B = 10$.
+//115
 + Prove that the points $(a, b + c), (b, c + a)$ and $(c, a + b)$ are collinear.
+//116
 + If the points $(x_1, y_1), (x_2, y_2)$ and $(x_3, y_3)$ be collinear, show that $(y_2 - y_3)/(x_2x_3) +
   (y_3 - y_1)/(x_3x_1) + (y_1 - y_2)/(x_1x_2) = 0$.
+//117
 + If the points $(a, b), (a_1, b_1)$ and $(a - a_1, b - b_1)$ are collinear show that $a/a_1 = b/b_1$.
+//118
 + Show that the points $(a, 0), (0, b)$ and $(1, 1)$ are collinear if $1/a + 1/b = 1$.
+//119
 + Prove that the points $(-4, -1), (-2, -4), (4, 0)$ and $(2, 3)$ are the vertices of a rectangle.
+//120
 + If the points $(x_1,y_1), (x_2, y_2), (x_3, y_3)$ be the three consecutive vertices of a parallelogram,
   find the coordinates of the fourth vertex.
+//121
 + In any $triangle A B C$, prove that $A B^2 + A C^2 = 2(A C^2 + B D^2)$, where $D$ is the middle point of
   $B C$.
+//122
 + If $G$ be the centroid of the $A B C$ and $O$ be any other point in the plane of the $A B C$, then prove
   that $O A^2 + O B^2 + O C^2 = G A^2 + G B^2 + G C^2 + 3G O^2$.
+//123
 + Prove that the area of a triangle is four times the area of the triangle formed by joining the mid points
   of its sides.
+//124
 + Prove that the line segment joining the middle points of two sides of a triangle is half the third side.
+//125
 + If $P, Q, R$ divide the sides $B C, C A$ and $A B$ of $triangle A B C$ in the same ratio, prove that the
   centroid of both the triangles coincide.
+//126
 + Prove that in any triangle four times the sum of the squares of the medians is equal to three times the
   sum of the squares of the sides.
+//127
 + If $G$ be the centroid of a $triangle A B C$, prove that $A B^2 + B C^2 + C A^2 = 3(G A^2 + G B^2 + G
   C^2)$.
+//128
 + Show that the line joining the centroid of a triangle to its vertices divide it into three triangles of
   equal area.
+//129
 + Show that the middle point of the hypotenuse of a right angled triangle is equidistant from its vertices.
+//130
 + $A(a_1, b_1), B(a_2, b_2), C(a_3, b_3)$ are the vertices of a $triangle A B C$. The side $A B$ is divided
   by the point $D$ in the ratio $lambda:mu$ and then the line segment $D C$ is divided by the point $E$ in
   the ratio $mu:lambda + mu$. Find the coordinates of $E$.
+//131
 + The four points $A(alpha, 0), B(beta, 0), C(gamma, 0)$ and $D(delta, 0)$ are such that $alpha, beta$ are
   the roots of the equation $a x^2 + 2h x + b = 0$ and $gamma, delta$ are those of the equation $a x^2 +
   2h′x + b′=0$. Show that the sum of the ratios in which $C$ and $D$ divide $A B$ is zero if $a b′ + a′b =
   2h h′$.
+//132
 + $A(1, −2)$ and $B(2, 5)$ are two points. The lines $O A, O B$ are produced to $C$ and $D$ respectively
   such that $O C = 2O A$ and $O D = 2O B$. Find $C D$.
+//133
 + Two vertices of a triangle are $A(2, 1)$ and $B(3, -1)$. The third vertex $C$ lies on the line $y = x +
   9$. If the centroid of $triangle A B C$ lies on the $y$-axis, find the coordinates of $C$ and the
   centroid.
+//134
 + If $(alpha, beta), (x, y)$ and $(p, q)$ are the coordinates of the circumcenter, the centroid and the
   orthocenter of a triangle, prove that $3x = 2 alpha + p$ and $3y = 2 beta + p$.
+//135
 + Find the coordinates of the centroid, circumcenter and orthocenter of the triangle whose vertices are
   $(2, 3), (3, 4)$ and $(6, 8)$.
+//136
 + If $A(alpha, 1/alpha), B(beta, 1/beta)$ and $C(gamma, 1/gamma)$ be the vertices of a $triangle A B C$,
   where $alpha. beta$ are the roots of the equation $x^2 - 6p_1 x + 2 = 0$; $beta, gamma$ are the roots of
   the equation $x^2 - 6p_2x + 3 = 0$ and $gamma, alpha$ are the roots of the equation $x^2 - 6p_x + 6 = 0$,
   $p_1, p_2, p_3$ being positive, find $p_1, p_2, p_3$ and the coordinates ofo the centroid of $triangle A B
   C$.
+//137
 + If $tan alpha, tan beta, tan gamma$ are the roots of the equation $x^3 - 3a x^2 + 3b x - 1 = 0$,  find the
   centroid of the triangle whose vertices are $(tan⁡ alpha, cot⁡ alpha), (tan beta, cot⁡ beta)$ and $(tan⁡
   gamma, cot⁡ gamma)$.
+//138
 + Two unlike forces equal to $30$ and $40$ newtons are applied at the point $A(−3, −1)$ and $B(4, 6)$
   respectively. Find the point of application of resultant force.
+//139
 + The area of a parallelogram is $12$ units. Two of its vertices are the points $A(−1, 3)$ and $B(−2,
   4)$. Find the other two vertices of the parallelogram if the point of intersection of diagonals lies on the
   positive side of $x$-axis.
+//140
 + Give the points $A(1, 2), B(8, 4), C(4, 10)$ find the coordinates of the point $P$ such that the triangles
   $P C B, P C A$ and $P A B$ have the same area in magnitude and sign.
+//141
 + If $a, b, c$ be the $p$th, $q$th and $r$th terms respectively of an H.P., show that the points
   $(b c, p), (c a, q), (a b, r)$ are collinear.
+//142
 + If $x_1, x_2, x_3$ are in A.P. and $y_1, y_2, y_3$ are also in A.P. prove that the points
   $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are collinear.
+//143
 + If $a, b, c$ are distinct real numbers, show that the points $(a, a^2),(b, b^2)$ and $(c, c^2)$ are not
   collinear.
+//144
 + If $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ are the vertices of a $triangle A B C$ and $(x, y)$ be a point on
   the median through $A$, show that $mat(x, y, 1; x_1, y_1, 1; x_2, y_2, 1) + mat(x, y, 1; x_1, y_1, 1; x_3,
   y_3, 1) = 0$.
+//145
 + The area of a triangle is $3/2$ sq. units. Two of its vertices are $A(2, −3)$ and $B(3, −2)$, the centroid
   of the triangle lies on the line $3x − y − 8 = 0$. Find the third vertex $C$.
+//146
 + Prove that the quadrilateral whose vertices are $A(-2, 5), B(4, -1), C(9, 1)$ and $D(3, 7)$ is a
   parallelogram and find its area. If $E$ divides $A C$ in the ratio $2:1$, prove that $D, E$ and the middle
   point $F$ of $B C$ are collinear.
+//147
 + Prove that points $(-3, -1), (2, -1), (1, 1)$ and $(-2, 1)$ taken in order are vertices of a trapezium.
+//148
 + If the vertices of a triangle have integral co-ordinates, prove that the triangle cannot be equilateral.

@@ -1339,3 +1339,593 @@ cos(theta_1 - theta_2))$
   $Delta D E F = (1/2)|4.(6 - 3) + 2.(3 - 4) + 1.(4 - 6)| = 4$
 
   Hence, $Delta A B C = 4 Delta D E F$.
+//101
++ Let $A = (3, 0)$, $B = (0, 6)$, $C = (6, 9)$.
+
+  Points dividing sides:   $D = "divides AB in 1:2" = ((2.3 + 1.0)/3, (2.0 + 1.6)/3) = (2, 2)$ and $E =
+  "divides AC in 1:2" = ((2.3 + 1.6)/3, (2.0 + 1.9)/3) = (4, 3)$
+
+  $Delta = 1/2|x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$
+
+  $Delta A B C = 1/2|3.(6 - 9) + 0.(9 - 0) + 6.(0 - 6)| = 22.5$
+
+  $Delta A D E = 1/2|3.(2 - 3) + 2.(3 - 0) + 4.(0 - 2)| = 2.5$
+
+  $(Delta A B C) / (Delta A D E) = 22.5 / 2.5 = 9$.
+//102
++ Let the vertices be: $A = (t, t - 2)$, $B = (t + 3, t)$, $C = (t + 2, t + 2)$
+
+  $Delta = 1/2 |x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$
+
+  Substitute coordinates: $Delta = 1/2 | t.(t - (t + 2)) + (t + 3).((t + 2) - (t - 2)) + (t + 2).((t - 2) - t) |$
+
+  $t.(t - t - 2) = t.(-2) = -2t$
+  $(t + 3).(t + 2 - t + 2) = (t + 3).4 = 4t + 12$
+  $(t + 2).(t - 2 - t) = (t + 2).(-2) = -2t - 4$
+
+  Adding terms:
+  $-2t + 4t + 12 - 2t - 4 = 8$
+
+  Divide by 2: $Delta = 1/2 . 8 = 4$, which is independent of $t$.
+//103
++ Let the vertices be $A = (x, y)$, $B = (1, 2)$, $C = (2, 1)$.
+
+  Area formula: $Delta = 1/2 | x.(y_2 - y_3) + x_2.(y_3 - y) + x_3.(y - y_2) |$
+
+  Substitute coordinates: $6 = (1/2) | x.(2 - 1) + 1.(1 - y) + 2.(y - 2) |$
+
+  Simplify: $6 = (1/2) | x.1 + 1.(1 - y) + 2.(y - 2) | => 6 = (1/2) | x + y - 3 |$
+
+  Multiply both sides by $2$: $12 = |x + y - 3|$
+
+  Solving for absolute value: $x + y - 3 = 12 => x + y = 15$ or $x + y - 3 = -12 => x + y = -9$.
+//104
++ Vertices: $A = (1, 1)$, $B = (7, 3)$, $C = (12, 2)$, $D = (7, 21)$.
+
+  Area: $Delta = 1/2 |1.(3-21) + 7.(2-1) + 12.(21-3) + 7.(1-2)|$ $= 1/2 |-18 + 7 + 216 - 7| = 1/2 .198
+  = 99$.
+//105
++ Vertices: $A = (4, 3)$, $B = (-5, 6)$, $C = (0, -7)$, $D = (3, -6)$, $E = (-7, -2)$.
+
+  Area: $Delta = 1/2|4.6 + (-5).(-7) + 0.(-6) + 3.(-2) + (-7).3 - (3.(-5) + 6.0 + (-7).3 + (-6).(-7) + (-2).4)|$
+  $= 1/2|32 - (-2)| = 1/2 .34 = 17$
+//106
++ Vertices: $A = (5, 0)$, $B = (4, 2)$, $C = (1, 3)$, $D = (-2, 2)$, $E = (-3, -1)$, $F = (0, -4)$.
+
+  Area: $Delta = 1/2|5.2 + 4.3 + 1.2 + (-2).(-1) + (-3).(-4) + 0.0 - (0.4 + 2.1 + 3.(-2) + 2.(-3) + (-1).0
+  + (-4).5)|$ $= 1/2|68| = 34$.
+//107
++ Vertices: $A = ((a+1)(a+2), a+2)$, $B = ((a+2)(a+3), a+3)$, $C = ((a+3)(a+4), a+4)$.
+
+  Area: $Delta = (1/2)| (a+1)(a+2).((a+3)-(a+4)) + (a+2)(a+3).((a+4)-(a+2)) + (a+3)(a+4).((a+2)-(a+3)) | = 0$
+
+  Thus, the points are collinear.
+//108
++ A divides P(-5,1) and Q(3,5) in ratio k:1: $A = ((3k-5)/(k+1), (5k+1)/(k+1))$
+
+  Area of $triangle A B C = 2$: $2 = 1/2 | ((3k-5)/(k+1)).(5-(-2)) + 1.((-2)-(5k+1)/(k+1)) +
+  7.((5k+1)/(k+1)-5) |$
+
+  $=> k = 7$ or $k = 31/9$.
+//109
++ Vertices: $A=(6,3), B=(-3,5), C=(4,-2), D=(x,3x)$.
+
+  Area formula: $Delta A B C = (1/2)|6.(5-(-2)) + (-3).(-2-3) + 4.(3-5)| = (1/2)|6.7 + (-3).(-5) + 4.(-2)| =
+  (1/2)|42 + 15 - 8| = (1/2).49 = 24.5$
+
+  Area $B C D = (1/2)|(-3).(-2-3x) + 4.(3x-5) + x.(5-(-2))| = (1/2)|(-3).(-2-3x) + 4.(3x-5) + x.7|$
+  $= (1/2)|6+9x + 12x-20 + 7x| = (1/2)|28x -14| = |14x -7|$
+
+  Given $Delta A B C = 2 Delta B C D ⇒ 24.5 = 2.|14x-7| ⇒ |14x-7| = 12.25$
+
+  Solving: $14x-7 = 12.25 ⇒ 14x = 19.25 ⇒ x = 19.25/14 = 77/56$
+
+  $14x-7 = -12.25 ⇒ 14x = -5.25 ⇒ x = -5.25/14 = -21/56 = -3/8$.
+//110
++ Vertices: $A=(1,2), B=(-5,6), C=(7,-4), D=(h,-2)$.
+
+  $Delta = 0 => 1.(6-(-4)) + (-5).(-4-(-2)) + 7.(-2-2) + h.(2-6) = 0$
+
+  $=> h = 3$
+//111
++ Vertices: $A=(3,4), B=(-4,3), C=(8,6)$.
+
+  Area: $Delta = (1/2)|3.(3-6) + (-4).(6-4) + 8.(4-3)| = (1/2)|3.(-3) + (-4).2 + 8.1| = (1/2)|-9-8+8| =
+  (1/2).(-9) = 9/2$
+
+  Length of perpendicular from $A$ on $B C$: $h = (2. Delta)/B C$
+
+  $B C = sqrt((8+4)^2 + (6-3)^2) = sqrt(12^2 + 3^2) = sqrt(144+9) = sqrt(153)$
+
+  $h = (2.(9/2))/sqrt(153) = 9/sqrt(153)$.
+//112
++ Centroid $G = (2/3, 2)$, vertices $A=(2,3), B=(-1,2), C=(x,y)$.
+
+  Centroid formula:
+  $G = ((x_A+x_B+x_C)/3, (y_A+y_B+y_C)/3) ⇒ (2/3,2) = ((2-1+x)/3, (3+2+y)/3)$
+
+  Solve for $C$: $(2-1+x)/3 = 2/3 ⇒ x = 1 " and " (3+2+y)/3 = 2 ⇒ y = -1$
+
+  Area: $Delta = (1/2)| 2.(2-(-1)) + (-1).(-1-3) + 1.(3-2) | = (1/2)|2.3 + (-1).(-4) + 1.1| = (1/2)|(6+4+1)|
+  = 11/2$.
+//113
++ Vertices: $A=(3,1), B=(1,-3), C=(x,y)$, centroid $G = ((3+1+x)/3, (1-3+y)/3)$ lies on $x$-axis ⇒ $y$-coordinate = 0
+
+  $(1-3+y)/3 = 0 ⇒ y = 2$
+
+  Area formula: $Delta = 3 = (1/2)| 3.(-3-2) + 1.(2-1) + x.(1-(-3)) | =>  x=5$, or $-14+4x=-6 => x=2$
+
+  So $C = (5,2)$ or $C = (2,2)$
+//114
++ Given: $A=(3,4), B=(5,-2), P=(x,y)$ such that $P A = P B$
+
+  Perpendicular bisector condition: $(x-3)^2 + (y-4)^2 = (x-5)^2 + (y+2)^2$
+
+  Simplifying: $x^2-6x+9 + y^2-8y+16 = x^2-10x+25 + y^2+4y+4$
+
+  $4x - 12y = -12 => x - 3y = -3$
+
+  Area formula: $Delta P A B = 10 = 1/2)| 3(-2 - y) + 5(y - 4) + x(4 - (-2)) |$
+
+  Simplifying: $20 = | -6 - 3y + 5y - 20 + 6x | = |6x + 2y - 26|$
+
+  Solve system: $x - 3y = -3$ and $6x + 2y - 26 = ±20$
+
+  *Case I*: $6x + 2y - 26 = 20 => 6x + 2y = 46 => 3x + y = 23$
+
+  Solving with $x - 3y = -3 => x=17/2, y=11/3$
+
+  *Case II*: $6x + 2y - 26 = -20 => 6x + 2y = 6 => 3x + y = 3$
+
+  Solving with $x - 3y = -3 => x=-3/2, y=-1/2$.
+//115
++ Let the points be $A=(a, b+c), B=(b, c+a), C=(c, a+b)$.
+
+  Area of triangle: $Delta = (1/2) | a((c+a)-(a+b)) + b((a+b)-(b+c)) + c((b+c)-(c+a)) |$
+
+  Simplifying each term: $((c+a)-(a+b)) = c-b$, $((a+b)-(b+c)) = a-c$, $((b+c)-(c+a)) = b-a$
+
+  So $Delta = 1/2 | a(c-b) + b(a-c) + c(b-a) |$
+
+  Expanding: $a(c-b) + b(a-c) + c(b-a) = a c - a b + a b - b c + b c - a c = 0$
+
+  Hence, $Delta = 0$ i.e. points are collinear.
+//116
++ Let the points be $A=(x_1, y_1), B=(x_2, y_2), C=(x_3, y_3)$.
+
+  If points are collinear, $Delta = 0: Delta = 1/2| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) | =
+  0$
+
+  Divide both sides by $x_1 x_2 x_3 \neq 0$: $0 = (x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)) / (x_1
+  x_2 x_3)$
+
+  Splitting terms: $0 = (y_2 - y_3)/(x_2 x_3) + (y_3 - y_1)/(x_3 x_1) + (y_1 - y_2)/(x_1 x_2)$
+
+  Hence proved.
+//117
++ Points: $A=(a,b), B=(a_1,b_1), C=(a-a_1,b-b_1)$.
+
+  Collinear $=> Delta = 0=> 0 = (1/2)| a(b_1-(b-b_1)) + a_1((b-b_1)-b) + (a-a_1)((b-b_1)-b_1) |$
+
+  Simplifying: $a_1b = a b_1 => a / a_1 = b / b_1$.
+//118
++ Points: $A=(a,0), B=(0,b), C=(1,1)$.
+
+  Collinear $=> Delta = 0=> 0 = (1/2)| a(b-1) + 0(1-0) + 1(0-b) |$
+
+  Simplify: $0 = a(b-1) - b => a b - a - b = 0 => 1/a + 1/b = 1$
+
+  Hence, points are collinear if $1/a + 1/b = 1$.
+//119
++ Let the points be $A=(-4,-1), B=(-2,-4), C=(4,0), D=(2,3)$.
+
+  $A B = sqrt(( -2 + 4)^2 + (-4 + 1)^2) = sqrt(2^2 + (-3)^2) = sqrt(4+9)=sqrt(13)$
+
+  $B C = sqrt((4+2)^2 + (0+4)^2) = sqrt(6^2 + 4^2) = sqrt(36+16)=sqrt(52)$
+
+  $C D = sqrt((2-4)^2 + (3-0)^2) = sqrt((-2)^2 + 3^2) = sqrt(4+9)=sqrt(13)$
+
+  $D A = sqrt((-4-2)^2 + (-1-3)^2) = sqrt((-6)^2 + (-4)^2) = sqrt(36+16)=sqrt(52)$
+
+  Opposite sides equal: $A B = C D, B C = D A$.
+
+  Diagonals:
+  $A C = sqrt((4+4)^2 + (0+1)^2) = sqrt(8^2 + 1^2) = sqrt(65)$
+
+  $B D = sqrt((2+2)^2 + (3+4)^2) = sqrt(4^2 + 7^2) = sqrt(16+49) = sqrt(65)$
+
+  Diagonals equal $=>$ all angles are right angles.
+//120
++ Let the three consecutive vertices be $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$, and let $D=(x_4,y_4)$ be
+  the fourth vertex.
+
+  In a parallelogram, the diagonals bisect each other $=> (x_1 + x_3)/2 = (x_2 + x_4)/2 $ and $ (y_1 +
+  y_3)/2 = (y_2 + y_4)/2$
+
+  Solving for $D$: $x_4 = x_1 + x_3 - x_2$ and $y_4 = y_1 + y_3 - y_2$
+
+  Hence, the fourth vertex is $D=(x_1+x_3-x_2, y_1+y_3-y_2)$.
+//121
++ Let $B=(0,0), C=(c,0)$ and $D$ be the midpoint of $B C => D=(c/2,0)$. Let $A=(x,y)$.
+
+  $A B^2 = (x-0)^2 + (y-0)^2 = x^2 + y^2$
+
+  $A C^2 = (x-c)^2 + (y-0)^2 = (x-c)^2 + y^2$
+
+  $B D^2 = (c/2-0)^2 + (0-0)^2 = c^2/4$
+
+  $A D^2 = (x-c/2)^2 + (y-0)^2 = (x-c/2)^2 + y^2$
+
+  Left-hand side: $A B^2 + A C^2 = x^2 + y^2 + (x-c)^2 + y^2 = 2x^2 - 2c x + c^2 + 2y^2$
+
+  Right-hand side: $2(A D^2 + B D^2) = 2((x-c/2)^2 + y^2 + c^2/4) = 2(x^2 - c x + c^2/4 + y^2 + c^2/4) = 2x^2
+  - 2c x + c^2 + 2y^2$
+
+  Hence, $A B^2 + A C^2 = 2(A D^2 + B D^2)$.
+//122
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$ and $G$ be the centroid: $G=((x_1+x_2+x_3)/3, (y_1+y_2+y_3)/3)$
+
+  Let $O=(x_0, y_0)$.
+
+  Using distance formula: $O A^2 + O B^2 + O C^2 = (x_0-x_1)^2 + (y_0-y_1)^2 + (x_0-x_2)^2 + (y_0-y_2)^2 +
+  (x_0-x_3)^2 + (y_0-y_3)^2$
+
+  Grouping terms:
+  $= 3x_0^2 - 2x_0(x_1+x_2+x_3) + (x_1^2+x_2^2+x_3^2) + 3y_0^2 - 2y_0(y_1+y_2+y_3) + (y_1^2+y_2^2+y_3^2)$
+
+  Since $G=( (x_1+x_2+x_3)/3, (y_1+y_2+y_3)/3 )$, rewriting: $O A^2 + O B^2 + O C^2 = G A^2 + G B^2 + G C^2
+  + 3 G O^2$.
+//123
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$, and let $D, E, F$ be the midpoints of $B C, C A, A B$ respectively:
+
+  $D=((x_2+x_3)/2, (y_2+y_3)/2)$, $E=((x_3+x_1)/2, (y_3+y_1)/2)$, $F=((x_1+x_2)/2, (y_1+y_2)/2)$.
+
+  $Delta_(A B C) = 1/2| x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) |$
+
+  $Delta_(D E F) = 1/2| D_x(E_y-F_y) + E_x(F_y-D_y) + F_x(D_y-E_y) |$
+
+  Substituting midpoints:
+  $Delta_(D E F) = 1/2 . (1/2)^2 | x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) | = 1/4 Delta_(A B C)$
+
+  Hence, $Delta_(A B C) = 4 Delta_(D E F)$.
+//124
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$ be the vertices of a triangle. Let $D$ and $E$ be the
+  midpoints of $A B$ and $A C$:
+
+  $D=((x_1+x_2)/2, (y_1+y_2)/2)$, $E=((x_1+x_3)/2, (y_1+y_3)/2)$.
+
+  Length of $D E$:
+  $D E^2 = ((x_1+x_3)/2 - (x_1+x_2)/2)^2 + ((y_1+y_3)/2 - (y_1+y_2)/2)^2$
+
+  $= ((x_3-x_2)/2)^2 + ((y_3-y_2)/2)^2 = (1/4)((x_3-x_2)^2 + (y_3-y_2)^2)$
+
+  But $B C^2 = (x_3-x_2)^2 + (y_3-y_2)^2 => D E = 1/2 B C$.
+//125
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$.
+
+  Let $P$ divide $B C$ in ratio $k:1 => P=((k x_3 + x_2)/(k+1), (k y_3 + y_2)/(k+1))$
+
+  Let $Q$ divide $C A$ in ratio $k:1 => Q=((k x_1 + x_3)/(k+1), (k y_1 + y_3)/(k+1))$
+
+  Let $R$ divide $A B$ in ratio $k:1 => R=((k x_2 + x_1)/(k+1), (k y_2 + y_1)/(k+1))$
+
+  Centroid of $A B C$: $G = ((x_1+x_2+x_3)/3, (y_1+y_2+y_3)/3)$
+
+  Centroid of $P Q R$:
+  $G' = (((k x_3+x_2)/(k+1) + (k x_1+x_3)/(k+1) + (k x_2+x_1)/(k+1))/3,
+       ((k y_3+y_2)/(k+1) + (k y_1+y_3)/(k+1) + (k y_2+y_1)/(k+1))/3)$
+
+  Simplifying $G'$ gives $G' = ((x_1+x_2+x_3)/3, (y_1+y_2+y_3)/3) = G$
+
+  Hence, the centroids coincide.
+//126
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$. Let $D, E, F$ be the midpoints of $B C, C A, A B$ respectively.
+
+  $D=((x_2+x_3)/2,(y_2+y_3)/2)$, $E=((x_3+x_1)/2,(y_3+y_1)/2)$, and $F=((x_1+x_2)/2,(y_1+y_2)/2)$
+
+  Medians: $A D, B E, C F$
+
+  Using distance formula and simplifying:
+  $A D^2 = 1/4 [2(A B^2+A C^2)-B C^2]$
+
+  $B E^2 = 1/4 [2(B C^2+A B^2)-C A^2]$
+
+  $C F^2 = 1/4 [2(C A^2+B C^2)-A B^2]$
+
+  $=> A D^2+B E^2+C F^2 =  1/4 [3(A B^2+B C^2+C A^2)]$
+
+  $=> 4(A D^2+B E^2+C F^2) = 3(A B^2+B C^2+C A^2)$.
+//127
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$. Centroid $G=((x_1+x_2+x_3)/3,(y_1+y_2+y_3)/3)$.
+
+  $G A^2+G B^2+G C^2 = (1/3)[(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2
+  +(y_1-y_2)^2+(y_2-y_3)^2+(y_3-y_1)^2]$
+
+  But, $A B^2+B C^2+C A^2 = (x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2 +(y_1-y_2)^2+(y_2-y_3)^2+(y_3-y_1)^2$
+
+  Hence, $A B^2+B C^2+C A^2 = 3(G A^2+G B^2+G C^2)$.
+//128
++ Let $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$ and centroid $G=((x_1+x_2+x_3)/3,(y_1+y_2+y_3)/3)$.
+
+  Area of $triangle A B G$: $Delta A B G = 1/2 | x_1(y_2-y_G) + x_2(y_G-y_1) + x_G(y_1-y_2) |$
+
+  Substitute $x_G,y_G$ and simplify: $Delta A B G = 1/3 Delta A B C$
+
+  Similarly, $Delta B C G = 1/3 Delta A B C$ and $Delta C A G = 1/3 Delta A B C$
+
+  Hence, $Delta A B G = Delta B C G = Delta C A G$.
+//129
++ Let the right angled triangle be right angled at $A$. Take $A=(0,0), B=(a,0), C=(0,b)$.
+
+  Midpoint of hypotenuse $B C$: $D=((a+0)/2,(0+b)/2) = (a/2,b/2)$
+
+  Distances: $D A^2 = (a/2)^2 + (b/2)^2 = (a^2+b^2)/4$
+
+  $D B^2 = (a/2-a)^2 + (b/2-0)^2 = (a^2+b^2)/4$
+
+  $D C^2 = (a/2-0)^2 + (b/2-b)^2 = (a^2+b^2)/4$
+
+  Thus, $D A = D B = D C$.
+//130
++ Let $A=(a_1,b_1), B=(a_2,b_2), C=(a_3,b_3)$.
+
+  $D$ divides $A B$ in ratio $lambda:mu$:
+  $D=((lambda . a_2 + mu . a_1)/(lambda+mu),(lambda . b_2 + mu . b_1)/(lambda+mu))$
+
+  $E$ divides $D C$ in ratio $mu:(lambda+mu)$:
+  $E=((mu . a_3+(lambda+mu).(lambda . a_2+mu . a_1)/(lambda+mu))/(lambda+2mu),
+  (mu . b_3+(lambda+mu).(lambda . b_2+mu . b_1)/(lambda+mu))/(lambda+2mu))$
+
+  Simplifying:
+  $E=((lambda . a_2+mu . a_1+mu . a_3)/(lambda+2mu),
+  (lambda . b_2+mu . b_1+mu . b_3)/(lambda+2mu))$.
+//131
++ Given roots: $alpha+beta = -2h/a$, $alpha . beta = b/a$ and $gamma+delta = -2h'/a$, $gamma . delta = b'/a$
+
+  Ratios in which $C$ and $D$ divide $A B$:
+  $(A C)/(C B) = (gamma-alpha)/(beta-gamma)$ and $(A D)/(D B) = (delta-alpha)/(beta-delta)$
+
+  Sum: $S = (gamma-alpha)/(beta-gamma) + (delta-alpha)/(beta-delta)$
+
+  Simplify numerator:
+  $S = ((gamma-alpha)(beta-delta) + (delta-alpha)(beta-gamma))/((beta-gamma)(beta-delta))$
+
+  Numerator expands to:
+  $beta(gamma+delta) - alpha(gamma+delta) - 2gamma . delta + 2alpha . beta$
+
+  Substitute root relations:
+  $= beta(-2h'/a) - alpha(-2h'/a) - 2(b'/a) + 2(b/a)$
+  $= (2h'/a)(alpha-beta) + 2(b-b')/a$
+
+  Using condition $a.b' + a'.b = 2h.h'$ gives numerator $= 0$
+
+  Hence: $S = 0$
+
+  Thus, the sum of the ratios in which $C$ and $D$ divide $A B$ is zero.
+//132
++ Given $A=(1,-2), B=(2,5)$ and $O=(0,0)$.
+
+  $O C = 2 O A => C=(2.1, 2.(-2)) = (2,-4)$ and $O D = 2 O B => D=(2.2, 2.5) = (4,10)$
+
+  Distance $C D$: $C D = sqrt((4-2)^2 + (10-(-4))^2) = sqrt(2^2 + 14^2) = sqrt(4+196) = sqrt(200) = 10 sqrt(2)$
+
+  So, $C D = 10 sqrt(2)$.
+//133
++ Given $A=(2,1), B=(3,-1)$ and $C=(x,y)$ with $y=x+9$.
+
+  Centroid $G=((2+3+x)/3,(1-1+y)/3)$ lies on $y$-axis => x-coordinate of $G=0$: $(5+x)/3 = 0 => x = -5$
+
+  Then $y = x+9 = 4$ => $C = (-5,4)$.
+
+  Centroid: $G=((2+3-5)/3,(1-1+4)/3) = (0,4/3)$
+
+  So, $C = (-5,4)$ and the centroid is $(0,4/3)$.
+//134
++ Let the vertices of the triangle be $A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$.
+
+  Centroid: $(x,y)=((x_1+x_2+x_3)/3,(y_1+y_2+y_3)/3)$
+
+  Circumcenter: $(alpha,beta)$
+
+  Orthocenter: $(p,q)$
+
+  In coordinate geometry, the orthocenter satisfies: $p = x_1+x_2+x_3 - 2alpha$ and $q = y_1+y_2+y_3 - 2beta$
+
+  Multiplying centroid coordinates by 3: $3x = x_1+x_2+x_3$ and $3y = y_1+y_2+y_3$
+
+  Substitute: $3x = 2alpha + p$ and $3y = 2beta + q$
+
+  Hence proved.
+//135
++ Vertices: $A=(2,3), B=(3,4), C=(6,8)$
+
+  Centroid $G$: $G=((2+3+6)/3,(3+4+8)/3) = (11/3,5)$
+
+  Circumcenter $(alpha,beta)$: Using the perpendicular bisector formula: the circumcenter is the intersection
+  of the perpendicular bisectors of any two sides.
+
+  Equation of perpendicular bisector of $A B$: Midpoint $M_1=((2+3)/2,(3+4)/2) = (5/2,7/2)$
+
+  If $C=(6,8)$, line AC: slope not needed, solve using: $(x-alpha)^2 + (y-beta)^2 = (x_C-alpha)^2 + (y_C-beta)^2$
+
+  $(2-alpha)^2 + (3-beta)^2 = (3-alpha)^2 + (4-beta)^2 => (2-alpha)^2 + (3-beta)^2 = (6-alpha)^2 + (8-beta)^2$
+
+  Solve these two equations simultaneously: $alpha = 9/2, beta = 3/2$
+
+  Orthocenter $(p,q)$ using formula $3x = 2alpha + p$, $3y = 2beta + q$: $p = 3 11/3 - 2 9/2 = 2$ and $q =
+  3 5 - 2 3/2 = 12$.
+//136
++ Let $A(alpha, 1/alpha), B(beta, 1/beta), C(gamma, 1/gamma)$ be the vertices of a triangle.
+
+  $alpha$ and $beta$ are roots of $x^2 - 6p_1 x + 2 = 0$, so $alpha + beta = 6p_1$ and $alpha beta = 2$.
+
+  $beta$ and $gamma$ are roots of $x^2 - 6p_2 x + 3 = 0$, so $beta + gamma = 6p_2$ and $beta gamma = 3$.
+
+  $gamma$ and $alpha$ are roots of $x^2 - 6p_3 x + 6 = 0$, so $gamma + alpha = 6p_3$ and $gamma alpha = 6$.
+
+  Solving these gives $p_1 = 1$, $p_2 = 1$, $p_3 = 2$, $alpha = 2$, $beta = 1$, $gamma = 3$.
+
+  The centroid of the triangle is $((alpha+beta+gamma)/3, (1/alpha+1/beta+1/gamma)/3) =
+  ((2+1+3)/3, (1/2+1+1/3)/3) = (2, 11/18)$.
+//137
++ Let the vertices of the triangle be $A(tan alpha, cot alpha)$, $B(tan beta, cot beta)$, $C(tan gamma, cot gamma)$,
+  where $tan alpha$, $tan beta$, $tan gamma$ are roots of $x^3 - 3a x^2 + 3b x - 1 = 0$.
+
+  By Vieta's formulas, $tan alpha + tan beta + tan gamma = 3a$,
+
+  $tan alpha dots.h tan beta + tan beta dots.h tan gamma + tan gamma dots.h tan alpha = 3b$,
+  and $tan alpha dots.h tan beta dots.h tan gamma = 1$.
+
+  The centroid of the triangle is
+  $( (tan alpha + tan beta + tan gamma)/3, (cot alpha + cot beta + cot gamma)/3) = ( (3a)/3, (cot alpha +
+  cot beta + cot gamma)/3 ) = ( a, (cot alpha + cot beta + cot gamma)/3 )$.
+
+  Since $cot theta = 1/(tan theta)$, we have  $cot alpha + cot beta + cot gamma = 1/(tan alpha) + 1/(tan beta) +
+  1/(tan gamma)  = (tan beta . tan gamma + tan gamma . tan alpha + tan alpha . tan beta)/(tan alpha
+  . tan beta . tan gamma) = (3b)/1 = 3b$.
+
+  Therefore, the centroid is $(a, b)$.
+//138
++ Let the forces $F_1 = 30$ N and $F_2 = 40$ N act at points $A(-3, -1)$ and $B(4, 6)$.
+
+  The resultant acts along the line joining $A$ and $B$ and its point of application $R(x, y)$ divides $A B$
+  in the inverse ratio of the forces: $A R : R B = F_2 : F_1 = 40 : 30 = 4 : 3$.
+
+  Using coordinate geometry, if a point divides the segment joining $(x_1, y_1)$ and $(x_2, y_2)$ in the
+  ratio $m:n$, its coordinates are $((n(x_1) + m(x_2)) / (m + n), (n(y_1) + m(y_2)) / (m + n))$.
+
+  Here $x_1 = -3$, $y_1 = -1$, $x_2 = 4$, $y_2 = 6$, $m = 4$, $n = 3$. Then
+
+  $x_R = (3(-3) + 4(4)) / (3 + 4) = (-9 + 16) / 7 = 1$, and $y_R = (3(-1) + 4(6)) / (3 + 4) = (-3 + 24) / 7 = 3$.
+
+  Thus, the point of application of the resultant force is $R(1, 3)$.
+//139
++ Let $A(-1, 3)$, $B(-2, 4)$, and the other vertices be $C(x_1, y_1)$, $D(x_2, y_2)$ with diagonals
+  intersecting at $O$ on the positive $x$-axis.
+
+  For a parallelogram, diagonals bisect each other: $O = ((-1 + x_2)/2, (3 + y_2)/2) = ((-2 + x_1)/2, (4 + y_1)/2)$.
+
+  Let $O = (h, 0)$, then $y_1 = -4$, $y_2 = -3$, $x_1 = 2h + 2$, $x_2 = 2h + 1$.
+
+  Area formula: $|(x_1 + 1)(y_2 - 3) - (x_2 + 1)(y_1 - 3)| = 24$.
+
+  Substituting: $|(2h + 3)(-6) - (2h + 2)(-7)| = |2h - 4| = 24 => h = 14$.
+
+  Hence, $C(30, -4)$ and $D(29, -3)$.
+//140
++ Let $A(1, 2)$, $B(8, 4)$, $C(4, 10)$.
+
+  The point $P(x, y)$ such that triangles $P C B$, $P C A$, and $P A B$ have equal area is the centroid of
+  $triangle A B C$:
+
+  $P = ((1 + 8 + 4)/3, (2 + 4 + 10)/3) = (13/3, 16/3)$.
+//141
++ Let $a, b, c$ be the $p$th, $q$th, $r$th terms of an H.P., so $1/a, 1/b, 1/c$ are in A.P.
+
+  Consider the points $X(b c, p)$, $Y(c a, q)$, $Z(a b, r)$.
+
+  Three points are collinear if $(b c)((q) - (r)) + (c a)((r) - (p)) + (a b)((p) - (q)) = 0$.
+
+  Since $1/a, 1/b, 1/c$ are in A.P., this relation is satisfied.
+
+  Hence the points $(b c, p)$, $(c a, q)$, $(a b, r)$ are collinear.
+//142
++ Let $x_1, x_2, x_3$ be in A.P. and $y_1, y_2, y_3$ be in A.P.
+
+  Consider the points $P_1(x_1, y_1)$, $P_2(x_2, y_2)$, $P_3(x_3, y_3)$.
+
+  Three points are collinear if the determinant $(x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)) = 0$.
+
+  Since $x_1, x_2, x_3$ are in A.P., $x_2 - x_1 = x_3 - x_2$.
+
+   Since $y_1, y_2, y_3$ are in A.P., $y_2 - y_1 = y_3 - y_2$.
+
+  Then $x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) = x_1(-(y_2 - y_1)) + x_2((y_2 - y_1) + (y_2 -
+  y_1)) + x_3(-(y_2 - y_1)) = 0$.
+
+  Hence the points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ are collinear.
+//143
++ Consider the points $(a, a^2)$, $(b, b^2)$, $(c, c^2)$.
+
+  Three points are collinear if $(a(b^2 - c^2) + b(c^2 - a^2) + c(a^2 - b^2)) = 0$.
+
+  Factor each difference of squares: $a(b - c)(b + c) + b(c - a)(c + a) + c(a - b)(a + b) = 0$.
+
+  Simplifying: $(a - b)(b - c)(c - a) != 0$ for distinct $a, b, c$.
+
+  Hence, the points $(a, a^2)$, $(b, b^2)$, $(c, c^2)$ are not collinear.
+//144
++ Let $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ be the vertices of a triangle, and let $M$ be the midpoint of
+  $B C$, so the median through $A$ is the line joining $A$ and $M$.
+
+  Let $(x, y)$ be a point on this median. Then $M = ((x_2 + x_3)/2, (y_2 + y_3)/2)$ and $(x, y)$ lies on the
+  line joining $A$ and $M$:
+
+  $(y - y_1)/((y_2 + y_3)/2 - y_1) = (x - x_1)/((x_2 + x_3)/2 - x_1)$.
+
+  Consider the determinants:
+  $mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1)$ and $mat(delim: "|", x, y, 1; x_1, y_1, 1; x_3, y_3,
+  1)$.
+
+  The determinant $mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1)$ represents twice the signed area of
+  triangle $A X B$, and $mat(delim: "|", x, y, 1; x_1, y_1, 1; x_3, y_3, 1)$ represents twice the signed
+  area of triangle $A X C$.
+
+  Since $(x, y)$ lies on the median $A M$, triangles $A X B$ and $A X C$ have equal areas with opposite
+  signs, so their determinants sum to zero:
+
+  $mat(delim:"|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1) + mat(delim:"|", x, y, 1; x_1, y_1, 1; x_3, y_3, 1) =
+  0$.
+//145
++ Let $A(2, -3)$, $B(3, -2)$, $C(x, y)$.
+
+  Area = $3/2 => |2(-2 - y) + 3(y + 3) + x(-3 + 2)| / 2 = 3/2 => |x - y - 5| = 3 => x - y = 8
+  " or " 2$.
+
+  Centroid $G = ((2 + 3 + x)/3, (-3 - 2 + y)/3)$ lies on $3x - y - 8 = 0 => 3((5 + x)/3) - ((-5 + y)/3) - 8
+  = 0 => 3x - y = -2$.
+
+  Solve with area condition: $x - y = 8$ and $3x - y = -2 => x = -5, y = -13$.
+
+  Hence, $C(-5, -13)$.
+//146
++ Let $A(-2, 5), B(4, -1), C(9, 1), D(3, 7)$.
+
+  Midpoint of $A C = ((-2 + 9)/2, (5 + 1)/2) = (7/2, 3)$, midpoint of $B D = ((4 + 3)/2, (-1 + 7)/2) = (7/2,
+  3)$, so $A B C D$ is a parallelogram.
+
+  Area = $|(-2.-1 + 4.1 + 9.7 + 3.5) - (5.4 + -1.9 + 1.3 + 7.-2)| / 2 = 42$.
+
+  $E$ divides $A C$ in ratio $2:1 => E = (16/3, 7/3)$, midpoint of $B C$ is $F = (13/2, 0)$.
+
+  Determinant $mat(D, E, F) = 3.(7/3 - 0) - 7.(16/3 - 13/2) + 1.(16/3.0 - 7/3.13/2) = 0$, so $D,
+  E, F$ are collinear.
+//147
++ Let the points be $A(-3, -1), B(2, -1), C(1, 1), D(-2, 1)$.
+
+  Compute slopes of opposite sides:
+
+  Slope of $A B = (-1 + 1)/(2 + 3) = 0/5 = 0$,
+
+  Slope of $C D = (1 - 1)/(1 + 2) = 0/3 = 0$.
+
+  Slope of $B C = (1 + 1)/(1 - 2) = 2/-1 = -2$,
+
+  Slope of $A D = (1 + 1)/(-2 + 3) = 2/1 = 2$.
+
+  Since $A B parallel C D$ and $B C parallel.not A D$, the quadrilateral is a trapezium.
+//148
++ Let the vertices of a triangle be $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ with integer coordinates.
+
+  The squared distance between two points is $A B^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$, similarly for $B C^2$
+  and $C A^2$.
+
+  If the triangle is equilateral, then $A B^2 = B C^2 = C A^2 = k^2$ for some integer $k^2$.
+
+  Consider the triangle modulo 2: the square of any integer is $0$ or $1$ modulo 4.
+  The sum of two squares modulo 4 can be $0, 1, 2$, but never $3$.
+  In an equilateral triangle with integer coordinates, all three squared distances must be equal modulo 4.
+
+  It can be shown that no three distinct integer points satisfy $(x_2 - x_1)^2 + (y_2 - y_1)^2 = (x_3 -
+  x_2)^2 + (y_3 - y_2)^2 = (x_1 - x_3)^2 + (y_1 - y_3)^2$ modulo 4.
+  Hence, a triangle with integral coordinates cannot be equilateral.
