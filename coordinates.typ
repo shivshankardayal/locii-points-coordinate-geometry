@@ -436,58 +436,81 @@ Change the following equations to cartesian coordinates
 //45
 + Prove that the distance of the point $(a cos alpha,a sin alpha)$ from the origin is independent of
   $alpha$.
+//46
 + Let $A(6, -1), B(1, 3)$ and $C(x, 8)$ be three points such that $A B = B C$. Find the value of $x$.
+//47
 + Using distance formula, show that the points $(1, 5), (2, 4)$ and $(3, 3)$ are collinear.
+//48
 + Prove that the points $(2a, 4a), (2a, 6a)$ and $2a + sqrt(3a), 5a$ are the vertices of an equilateral
   triangle.
+//49
 + If the line segment joining the points $A(a, b)$ and $A(a, b)$ subtend an angle $theta$ at the origin $O$,
   prove that $cos theta = (a c + b d)/sqrt((a^2 + b^2)(c^2 + d^2))$ or $O A.O B. cos theta = a c + b d$.
+//50
 + Find the circumcenter of the triangle whose vertices are $(-2, -3), (-1, 0)$ and $(7, -6)$. Also find the
   radius of the circumcircle.
+//51
 + The distance between two parallel lines is unity. A point $P$ lies between the lines at a distance $a$
   from one of them. Find the length of a side of an equilateral $triangle P Q R$, vertex $Q$ of which lies on
   one of the parallel lines and vertex $R$ on the other line.
+//52
 + The opposite angular points of a square are $(3, 4)$ and $(1, -1)$, find the coordinate of the remaining
   vertices of the square.
+//53
 + $A(-4, 0)$ and $B(-1, 4)$ are two given points. $C$ and $D$ are symmetric to the given points $A$ and $B$
   respectively with respect to $y$-axis. Calculate the perimeter of the trapezium $A B C D$.
+//54
 + Point $B$ is symmetric to $A(4, -1)$ with respect to the bisector of the first quadtrant. Find $A B$.
+//55
 + A line segment $A B$ through a point $A(2, 0)$ which makes an angle of $30^degree$ with the positive
   direction of $x$-axis is rotated about $A$ in anti-clockwise direction though an angle of $15^degree$. If
   $C$ be the new position of the point $B(2 + sqrt(3), 1)$, find the coordiantes of $C$.
+//56
 + The point $(1, -2)$ is reflected in the $x$-axis and then translated parallel to the positive direction of
   $x$-axis through a distance of $3$ units. Find the coordinates of the point in the new position.
+//57
 + The line segment joining $A(3, 0)$ and $B(5, 2)$ is rotated about $A$ in the anti-clockwise direction by
   an angle of $45^degree$ so that point $B$ goes to $C$. If $D$ is the reflection of $C$ in $y$-axis, find the
   coordinates of $D$.
+//58
 + Find the coordinates of the point which divides the line segment joining the points $(5, -2)$ and $(9, 6)$
   internally and externally in the ratio $3:1$.
+//59
 + $x$ coordinates of two points $B$ and $C$ are the roots of the equation $x^2 + 4 x + 3 = 0$ and their $y$
   coordinates are the roots of the equation $x^2 - x - 6 = 0$. If $x$ coordinates of $B$ is less than $x$
   coordinate of $C$ and $y$ coordinate of $B$ is greater than the $y$ coordinate of $C$ and coordinate of a
   third point $A$ be $(3, -5)$, find the length of the bisector of the interior angle at $A$.
+//60
 + Find the ratio in which the point $(2, y)$ divides the line segment joining $(4, 3)$ and $(6, 3)$ and
   hence find the value of $y$.
+//61
 + If $A,B,C,D$ are points whose coordinates are $(-2, 3), (8, 9), (0, 4)$ and $(3, 0)$ respectively, find
   the ratio in which $A B$ is divided by $C D$.
+//62
 + If $A_1, A_2, A_3, dots.h, A_n$ are $n$ points in a plane whose coordinates are $(x_1, y_1), (x_2, y_2),
   (x_3, y_3),dots.h, (x_n, y_n)$ respectively. $A_1 A_2$ is bisected in the point $G_1$; $G_1 A_3$ is divided
   at $G_2$ in the ratio $1:2$; $G_2A_4$ is divided at $G_3$ in the ratio $1:3$; and so on until all the points
   are exhausted. Show that the coordinates of the final point so obtained are
   $ (x_1 + x_2 + dots.h + x_n)/n, frac(y_1 + y_2 + dots.h + y_n, n) $.
+//63
 + Show that the straight line $a x + b y + c = 0$ divides the join of points $A(x_1, y_1)$ and $B(x_2, y_2)$
   in the ratio $-frac(a x_1 + b y_1 + c, a x_2 + b y_2 + c)$. Explain the negative sign.
+//64
 + A line $L$ intersects three sides $B C, C A$ and $A B$ of a $triangle A B C$ in $P, Q$ and $R$
   respectively. Show that $frac(B P, P C). (C Q)/(Q A).(A R)/(R B) = -1$.
+//65
 + The vertices of a triangle are $A(x_1, x_1 tan alpha), B(x_2, x_2 tan beta), C(x_3, x_3 tan gamma)$. If
   the circumcenter of $triangle A B C$ coincides with the origin and $H(overline(x), overline(y))$ is the
   orthocenter of $triangle A B C$, (where $x_1 sec alpha, x_2 sec beta, x_3 sec gamma$ are of the same
   sign). Show that $overline(y)/overline(x) = (sin alpha + sin beta + sin gamma)/(cos alpha + cos beta + cos
   gamma)$.
+//66
 + If $alpha, beta$ and γ are the real roots of the equation $x^3 - 3p x^2 + 3q x - 1 = 0$,  find the
   centroid of the triangle whose vertices are $(alpha, 1/alpha), (beta, 1/beta)$ and $(gamma, 1/gamma)$.
+//67
 + If $A(a t^2, 2a t), B(a/t^2, -(2a)/t)$ and $C(a, 0)$ be any three points, show that $1/(A C) + 1/(B C)$  is
   independent of $t$.
+//68
 + If two vertices of an equilateral triangle be $(0, 0)$ and $(3, sqrt(3))$, find the coordinate of the
   third vertex.
 + Find the circumcenter and circumradius of the triangle whose vertices are $(-2, 3), (2, -1)$ and $(4, 0)$.

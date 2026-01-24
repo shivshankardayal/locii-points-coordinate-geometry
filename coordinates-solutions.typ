@@ -359,11 +359,13 @@ cos(theta_1 - theta_2))$
   $x^2 + y^2 = 2*a^2 * x * y / (x^2 + y^2)$
 
   Multiplying both sides by $x^2 + y^2$: $(x^2 + y^2)^2 = 2*a^2 * x * y$.
+//35
 + Given the polar equation $r^2 sin 2theta = 2 a^2$, use the identity $sin 2theta = 2 sin theta cos theta$.
 
   Since $r sin theta = y$ and $r cos theta = x$, we have: $2 x y = 2 a^2$
 
   Dividing both sides by 2 gives the Cartesian equation: $x y = a^2$.
+//36
 + Given the polar equation $sqrt(r) cos(theta / 2) = sqrt(a)$, square both sides: $r cos^2(theta / 2) = a$
 
   Using $cos^2(theta / 2) = (1 + cos theta) / 2$, we get: $r (1 + cos theta) = 2 a$
@@ -371,12 +373,14 @@ cos(theta_1 - theta_2))$
   Since $cos theta = x / r$, this gives: $r + x = 2 a$
 
   With $r = sqrt(x^2 + y^2)$, the Cartesian equation is: $x^2 + y^2 = (2 a - x)^2$.
+//37
 + Given the polar equation $sqrt(r) = sqrt(a) sin(theta / 2)$, squaring gives: $r = a sin^2(theta / 2)$
 
   Using $sin^2(theta / 2) = (1 - cos theta) / 2$, we obtain: $r = a (1 - cos theta) / 2$
 
   Substituting $cos theta = x / r$ and $r^2 = x^2 + y^2$ leads to: $(x^2 + y^2 + a x / 2)^2 = a^2 (x^2 +
   y^2) / 4$.
+//38
 + The polar equation $r (cos 3theta + sin 3theta) = 5 k sin theta cos theta$ can be converted to Cartesian
   coordinates using $x = r cos theta$, $y = r sin theta$, and $r^2 = x^2 + y^2$.
 
@@ -396,14 +400,17 @@ cos(theta_1 - theta_2))$
 
   Substituting $r^2 = x^2 + y^2$ yields the final Cartesian equation: $4 (x^3 - y^3) + 3 (x^2 + y^2) (y - x)
   = 5 k x y$
+//39
 + Distance formula is $sqrt((x_1 - x_2)^2 + (y_1 - y_2)^2) = d^2$
 
   Substituting given coordinate in the formula: $sqrt{(a - 3)^2 + (2 - 4)^2} = 8^2$
 
   Simplifying gives us $a = 3 + 2sqrt(15)$ (rejecting negative value for distance).
+//40
 + Like previous problem substituting the coordinates gives us
 
   $sqrt((a + r cos theta - a)^2 + (b + r sin theta - b)^2) = r^2$, which is independent of $theta$.
+//41
 + Let the points be $A = (csc^2(theta), 0)$, $B = (0, sec^2(theta))$, and $C = (1, 1)$.
 
   The distance formula between two points $(x_1, y_1)$ and $(x_2, y_2)$ is: $d = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)$
@@ -426,6 +433,7 @@ cos(theta_1 - theta_2))$
   Substitute these into the distances and simplify. After simplification, we find that: $A\B + B\C = A\C$
 
   Therefore, the points $A$, $B$, and $C$ are collinear.
+//42
 + Let $P = (x, y)$, $A = (a + b, b - a)$, and $B = (a - b, a + b)$.
 
   Since $P$ is equidistant from $A$ and $B$, we have:
@@ -461,6 +469,7 @@ cos(theta_1 - theta_2))$
   Simplifying: $2 b x - 2 a y = 0$
 
   Dividing both sides by $b (x + y)$: $(a - b)/(a + b) = (x - y)/(x + y)$
+//43
 + Let the points be $A = (3, 4)$, $B = (8, -6)$, and $C = (13, 9)$.
 
   Computing the sides:
@@ -472,6 +481,7 @@ cos(theta_1 - theta_2))$
   $A\C = sqrt((13 - 3)^2 + (9 - 4)^2) = sqrt(10^2 + 5^2) = sqrt(100 + 25) = sqrt(125)$
 
   Since $A\B^2 + A\C^2 = B\C^2$, the triangle ABC is right-angled at $A$.
+//44
 + Solution is given below:
     + Computing the sides using the distance formula:
 
@@ -514,7 +524,8 @@ cos(theta_1 - theta_2))$
       $A\B^2 + A\C^2 = 106 + 106 = 212 = B\C^2$
 
       Hence, the triangle is _right-angled isosceles_ at angle $A$.
-+ Let the point be $P = (a*cos(alpha), a*sin(alpha))$ and the origin be $O = (0, 0)$.
+//45
++ Let the point be $P = (a cos(alpha), a sin(alpha))$ and the origin be $O = (0, 0)$.
 
   The distance formula between two points $(x_1, y_1)$ and $(x_2, y_2)$ is:
 
@@ -522,11 +533,12 @@ cos(theta_1 - theta_2))$
 
   Computing the distance $O\P$:
 
-  $\OP = sqrt((a*cos(alpha) - 0)^2 + (a*sin(alpha) - 0)^2)$
+  $\OP = sqrt((a cos(alpha) - 0)^2 + (a sin(alpha) - 0)^2)$
 
   Using the Pythagorean identity $cos(alpha)^2 + sin(alpha)^2 = 1$:
 
   $\OP = sqrt(a^2 * 1) = sqrt(a^2) = a$, which is independent of $alpha$
+//46
 + Let the points be $A = (6, -1)$, $B = (1, 3)$, and $C = (x, 8)$.
 
   Given $A\B = B\C$
@@ -540,6 +552,7 @@ cos(theta_1 - theta_2))$
   Squaring both sides: $41 = (x - 1)^2 + 25 => (x - 1)^2 = 16$
 
   $=>x - 1 = 4$  or  $x - 1 = -4=>x = 5$  or  $x = -3$
+//47
 + Let the points be $A = (1, 5)$, $B = (2, 4)$, and $C = (3, 3)$.
 
   $A\B = sqrt((2 - 1)^2 + (4 - 5)^2) = sqrt(1^2 + (-1)^2) = sqrt(1 + 1) = sqrt(2)$
@@ -550,24 +563,26 @@ cos(theta_1 - theta_2))$
 
   Check if $A\B + B\C = A\C$:
 
-  $A\B + \BC = sqrt(2) + sqrt(2) = 2*sqrt(2)$
+  $A\B + \BC = sqrt(2) + sqrt(2) = 2 sqrt(2)$
 
-  $A\C = sqrt(8) = 2*sqrt(2)$
+  $A\C = sqrt(8) = 2 sqrt(2)$
 
   Since $A\B + B\C = A\C$, the points $A$, $B$, and $C$ are collinear.
-+ Let the points be $A = (2a, 4a)$, $B = (2a, 6a)$, $C = (2a + sqrt(3)*a, 5a)$.
+//48
++ Let the points be $A = (2a, 4a)$, $B = (2a, 6a)$, $C = (2a + sqrt(3) a, 5a)$.
 
   $\AB = sqrt((2a - 2a)^2 + (6a - 4a)^2) = sqrt(0 + (2a)^2) = sqrt(4a^2) = 2a$
 
-  $B\C = sqrt((2a + sqrt(3)*a - 2a)^2 + (5a - 6a)^2) = sqrt((sqrt(3)*a)^2 + (-a)^2) = sqrt(3a^2 + a^2) =
+  $B\C = sqrt((2a + sqrt(3) a - 2a)^2 + (5a - 6a)^2) = sqrt((sqrt(3) a)^2 + (-a)^2) = sqrt(3a^2 + a^2) =
   sqrt(4a^2) = 2a$
 
-  $A\C = sqrt((2a + sqrt(3)*a - 2a)^2 + (5a - 4a)^2) = sqrt((sqrt(3)*a)^2 + (a)^2) = sqrt(3a^2 + a^2) =
+  $A\C = sqrt((2a + sqrt(3) a - 2a)^2 + (5a - 4a)^2) = sqrt((sqrt(3) a)^2 + (a)^2) = sqrt(3a^2 + a^2) =
   sqrt(4a^2) = 2a$
 
   Since $A\B = B\C = A\C = 2a$, all sides are equal.
 
   Hence, the triangle with vertices $A$, $B$, and $C$ is equilateral.
+//49
 + Let the points be $O = (0, 0)$, $A = (a, b)$, and $B = (c, d)$.
 
   $O\A = sqrt((a - 0)^2 + (b - 0)^2) = sqrt(a^2 + b^2)$
@@ -594,6 +609,7 @@ cos(theta_1 - theta_2))$
   $=> cos theta = (2(a c + b d)) / (2   sqrt(a^2 + b^2)   sqrt(c^2 + d^2))$
 
   $=>cos theta = (a c + b d) / (sqrt(a^2 + b^2)   sqrt(c^2 + d^2))$.
+//50
 + Let the vertices be $A = (-2, -3)$, $B = (-1, 0)$, and $C = (7, -6)$.
 
   #figure(
@@ -626,6 +642,7 @@ cos(theta_1 - theta_2))$
   Thus, the circumcenter is $O = (3, -3)$
 
   The circumradius is: $R = sqrt((3 - (-2))^2 + (-3 - (-3))^2) = sqrt(5^2 + 0^2) = 5$
+//51
 + The diagram is given below:
 
   #figure(
@@ -646,6 +663,7 @@ cos(theta_1 - theta_2))$
   $=> r(sqrt(3)/2 sqrt(1 - (a^2)/r^2) + 1/2.a/r) = 1$
 
   $=>r = 2/sqrt(3)sqrt(a^2 - a + 1)$.
+//52
 + Let $A = (3, 4)$ and $C = (1, -1)$ be opposite vertices of the square. Let $B = (x, y)$ and $D = (x', y')$
   be the other two vertices.
 
@@ -661,6 +679,7 @@ cos(theta_1 - theta_2))$
   Solving this quadratic gives: $x = 9/2, y = 1/2$ and $x = -1/2, y = 5/2$
 
   Hence, the remaining vertices are: $B = (9/2, 1/2), D = (-1/2, 5/2)$.
+//53
 + Given $A = (-4, 0)$ and $B = (-1, 4)$, points $C$ and $D$ are symmetric about the $y$-axis: $C = (4, 0)$ and $D = (1, 4)$
 
   The trapezium is $A\BC\D$, with vertices in order $A, B, D, C$.
@@ -674,6 +693,7 @@ cos(theta_1 - theta_2))$
   $D\A = sqrt((4 - (-4))^2 + (0 - 0)^2) = sqrt(8^2 + 0^2) = 8$
 
   Perimeter of trapezium: $P = A\B + B\C + C\D + D\A = 5 + 2 + 5 + 8 = 20$.
+//54
 + Given $A = (4, -1)$, let $B$ be the reflection of $A$ across $y = x$.
 
   Reflection across $y = x$ swaps the coordinates: if $A = (x, y)$, then $B = (y, x)$.
@@ -681,6 +701,7 @@ cos(theta_1 - theta_2))$
   Thus $B = (-1, 4)$
 
   Distance $A\B$: $A\B = sqrt((-1 - 4)^2 + (4 - (-1))^2) = 5 sqrt(2)$.
+//55
 + Given $A = (2, 0)$ and $B = (2 + sqrt(3), 1)$. Rotate $B$ about $A$ by $15^degree$ anticlockwise.
 
   Rotation formula about $A$:
@@ -695,9 +716,11 @@ cos(theta_1 - theta_2))$
   (sqrt(6) - sqrt(2))/4 + 1  (sqrt(6) + sqrt(2))/4 = (3 + sqrt(2))/4$
 
   Thus, $C = ((11 + sqrt(2))/4, (3 + sqrt(2))/4)$.
+//56
 + Given point $P = (1, -2)$. Reflecting $P$ in the $x$-axis: $P' = (1, 2)$  (the $y$-coordinate changes sign)
 
   Translate $P'$ parallel to the positive $x$-axis by 3 units: $P'' = (1 + 3, 2) = (4, 2)$
+//57
 + Given $A = (3, 0)$ and $B = (5, 2)$.
 
   Segment from $A$ to $B$: $(B_x - A_x, B_y - A_y) = (5 - 3, 2 - 0) = (2, 2)$
@@ -712,3 +735,190 @@ cos(theta_1 - theta_2))$
   $y_C = 0 + 2 sqrt(2)/2 + 2   sqrt(2)/2 = 0 + 2 sqrt(2)/2 + 2   sqrt(2)/2 = 2 sqrt(2)$
 
   So $C = (3, 2 sqrt(2))$. Reflecting $C$ in the $y$-axis: $D = (-x_C, y_C) = (-3, 2 sqrt(2))$.
+//58
++ Let $A(5,-2)$ and $B(9,6)$.
+
+  For a point dividing the line segment joining $A(x_1,y_1)$ and $B(x_2,y_2)$ in the ratio $m:n$:
+
+  Internal division formula is $((m x_2+n x_1)/(m+n), (m y_2+n y_1)/(m+n))$.
+
+  External division formula is $((m x_2-n x_1)/(m-n), (m y_2-n y_1)/(m-n))$.
+
+  Here $m=3$ and $n=1$.
+
+  Internal division point is $((3 . 9 + 1 . 5)/4, (3 . 6 + 1 . (-2))/4)=(8,4)$.
+
+  External division point is $((3 . 9 - 1 . 5)/2, (3 . 6 - 1 . (-2))/2)=(11,10)$.
+//59
++ The roots of $x^2+4x+3=0$ are $-3$ and $-1$. Since $x_B<x_C$, we have $x_B=-3$ and $x_C=-1$.
+
+  The roots of $x^2-x-6=0$ are $3$ and $-2$. Since $y_B>y_C$, we have $y_B=3$ and $y_C=-2$.
+
+  So the coordinates are $B(-3,3)$, $C(-1,-2)$, and $A(3,-5)$.
+
+  Now, $B\C = sqrt((-1+3)^2+(-2-3)^2) = sqrt(4+25)=sqrt(29)$,
+
+  $C\A = sqrt((3+1)^2+(-5+2)^2) = sqrt(16+9) = 5$,
+
+  $A\B = sqrt{(3+3)^2+(-5-3)^2}=sqrt{36+64}=10$.
+
+  Let $a=B\C=sqrt(29)$, $b=C\A=5$, and $c=A\B=10$.
+
+  The length of the internal angle bisector at $A$ is $l_a=(sqrt(b\c((b+c)^2-a^2)))/(b+c)$.
+
+  Substituting values, $l_a=(sqrt(5.10(15^2-29)))/15 = (sqrt(50.196))/(15) = (70sqrt(2))/15 = (14sqrt(2))/3$.
+//60
++ Let the points be $A(4,3)$ and $B(6,3)$. Let $P(2,y)$ divide $A\B$ in the ratio $m:n$.
+
+  Using the section formula for the x-coordinate, $2 = (6m + 4n) / (m + n)$.
+
+  So, $2m + 2n = 6m + 4n => 4m + 2n = 0 => m:n = -1:2$.
+
+  Hence, the point divides the line segment externally in the ratio $1:2$.
+
+  Now using the y-coordinate formula, $y = (3m + 3n) / (m + n) => y = 3$.
+//61
++ The given points are $A(-2,3)$, $B(8,9)$, $C(0,4)$ and $D(3,0)$.
+
+  Let the lines $A\B$ and $C\D$ intersect at point $P$.
+
+  Equation of $A\B$ in parametric form is $x = -2 + 10t$, $y = 3 + 6t$.
+
+  Equation of $C\D$ in parametric form is $x = 3s$, $y = 4 - 4s$.
+
+  At the point of intersection, $-2 + 10t = 3s =>3 + 6t = 4 - 4s$.
+
+  From the first equation, $s = (-2 + 10t) / 3$.
+
+  Substituting in the second equation, $3 + 6t = 4 - 4((-2 + 10t) / 3) => t = 11 / 58$.
+
+  Therefore, $A\P : P\B = t : (1 - t) = (11 / 58) : (47 / 58) = 11 : 47$
+//62
++ Let $A_1(x_1,y_1), A_2(x_2,y_2), A_3(x_3,y_3), dots.h, A_n(x_n,y_n)$ be $n$ points.
+
+  $A_1A_2$ is bisected at $G_1$, so $G_1 = ((x_1 + x_2)/2 , (y_1 + y_2)/2)$.
+
+  $G_1A_3$ is divided at $G_2$ in the ratio $1:2$, hence $G_2 = ((1 x_3 + 2 x_{G_1})/3 , (1 y_3 + 2
+  y_{G_1})/3)$.
+
+  Substituting the coordinates of $G_1$, $G_2 = ((x_1 + x_2 + x_3)/3 , (y_1 + y_2 + y_3)/3)$.
+
+  Now $G_2A_4$ is divided at $G_3$ in the ratio $1:3$, so $G_3 = ((1 x_4 + 3 x_{G_2})/4 , (1 y_4 + 3
+  y_{G_2})/4)$.
+
+  Substituting the coordinates of $G_2$, $G_3 = ((x_1 + x_2 + x_3 + x_4)/4 , (y_1 + y_2 + y_3 + y_4)/4)$.
+
+  Proceeding similarly, after dividing $G_(n-2)A_n$ at $G_(n-1)$ in the ratio $1:(n-1)$, we get
+
+  $G_(n-1) = ((x_1 + x_2 + dots.h.c + x_n)/n , (y_1 + y_2 + dots.h.c + y_n)/n)$.
+//63
++ Let the straight line be $a x + b y + c = 0$ and let it intersect the line joining $A(x_1,y_1)$ and
+  $B(x_2,y_2)$ at the point $P$.
+
+  Suppose $P$ divides $A B$ in the ratio $m:n$.
+
+  Then, by the section formula, the coordinates of $P$ are $x = (m x_2 + n x_1)/(m + n)$ and $y = (m y_2 + n
+  y_1)/(m + n)$
+
+  Since $P$ lies on the line $a x + b y + c = 0$, we have $a(m x_2 + n x_1)/(m + n) + b(m y_2 + n y_1)/(m + n)
+  + c = 0$.
+
+  Multiplying by $(m + n)$, $m(a x_2 + b y_2 + c) + n(a x_1 + b y_1 + c) = 0$.
+
+  Hence, $m(a x_2 + b y_2 + c) = -n(a x_1 + b y_1 + c)$.
+
+  Therefore, $m:n = -(a x_1 + b y_1 + c):(a x_2 + b y_2 + c)$.
+
+  The negative sign means that the quantities $a x_1 + b y_1 + c$ and $a x_2 + b y_2 + c$ are of opposite signs.
+
+  Geometrically, this implies that the points $A(x_1,y_1)$ and $B(x_2,y_2)$ lie on opposite sides of the line
+  $a x + b y + c = 0$.
+//64
++ Let the line $L$ intersect $B\C$ at $P$, $C\A$ at $Q$, and $A\B$ at $R$.
+
+  Equation of the line $L$ may be written as $a\x + b\y + c = 0$.
+
+  Since $P$ lies on $B C$, by the result for division of a line by a straight line, $(B\P)/(P\C) = - frac(a x_2 +
+  b y_2 + c, a x_3 + b y_3 + c)$.
+
+  Similarly, since $Q$ lies on $C\A$, $(C\Q)/(\QA) = - frac(a x_3 + b y_3 + c, a x_1 + b y_1 + c)$.
+
+  And since $R$ lies on $A\B$, $(A\R)/(R\B) = - frac(a x_1 + b y_1 + c, a x_2 + b y_2 + c)$.
+
+  Multiplying the three ratios, we get $(B\P)/(P\C) . (C\Q)/(Q\A) . (A\R)/(R\B)
+  = (-1)^3 frac((a x_2 + b y_2 + c)(a x_3 + b y_3 + c)(a x_1 + b y_1 + c), (a x_3 + b y_3 + c)(a x_1 + b y_1
+  + c)(a x_2 + b y_2 + c)) = -1$.
+//65
++ The vertices of the triangle are  $A = (x_1, x_1 tan alpha)$, $B = (x_2, x_2 tan beta)$, $C = (x_3,
+  x_3 tan gamma)$.
+
+  Since the circumcenter is at the origin, we have $x_1^2 + (x_1 tan alpha)^2 = x_2^2 + (x_2 tan beta)^2
+  = x_3^2 + (x_3 tan gamma)^2$.
+
+  Hence $x_1 sec alpha = x_2 sec beta = x_3 sec gamma = R$.
+
+  The coordinates of the orthocenter $H(overline(x), overline(y))$ are $overline(x) = x_1 + x_2 + x_3$,
+  $overline(y) = x_1 tan alpha + x_2 tan beta + x_3 tan gamma$.
+
+  Substituting $x_i = R cos theta_i$, we get $overline(x) = R (cos alpha + cos beta + cos gamma)$,
+  $overline(y) = R (cos alpha tan alpha + cos beta tan beta + cos gamma tan gamma) = R (sin alpha + sin beta
+  + sin gamma)$.
+
+  Therefore, $frac(overline(y), overline(x)) = (sin alpha + sin beta + sin gamma)/(cos alpha + cos beta +
+  cos gamma)$.
+//66
++ The vertices of the triangle are $A(alpha, 1/alpha)$, $B(beta, 1/beta)$, and $C(gamma, 1/gamma)$,
+  where $alpha$, $beta$, and $gamma$ are the roots of $x^3 - 3p x^2 + 3q x - 1 = 0$.
+
+  The centroid of the triangle is
+  $G = ((alpha + beta + gamma)/3, (1/alpha + 1/beta + 1/gamma)/3)$.
+
+  Since $alpha + beta + gamma = 3p$ and $1/alpha + 1/beta + 1/gamma = (beta gamma + gamma alpha + alpha
+  beta)/(alpha beta gamma) = 3q$, we have
+
+  $G = ((3p)/3, (3q)/3) = (p, q)$.
+//67
++ Let the points be $A(a t^2, 2 a t)$, $B(a / t^2, -2 a / t)$, and $C(a, 0)$.
+
+  The distance between $A$ and $C$ is $A\C = sqrt((a t^2 - a)^2 + (2 a t - 0)^2) = a (t^2 + 1)$
+
+  The distance between $B$ and $C$ is $B\C = sqrt((a / t^2 - a)^2 + (-2 a / t - 0)^2) = a (t^2 + 1) / t^2$
+
+  Then $1 / (A\C) + 1 / (B\C) = 1 / (a (t^2 + 1)) + t^2 / (a (t^2 + 1)) = 1 / a$
+
+  Hence, $1 / (A\C) + 1 / (B\C)$ is independent of $t$.
+//68
++ Let $A = (0,0)$, $B = (3, sqrt(3))$, and $C = (x,y)$. $A\B = 2 sqrt(3)$, so $A\C = B\C = 2 sqrt(3)$.
+
+  From distances: $x^2 + y^2 = 12$, $(x-3)^2 + (y - sqrt(3))^2 = 12$.
+
+  Simplifying gives $y = 2 sqrt(3) - sqrt(3) x$.
+
+  Substituting in $x^2 + y^2 = 12$: $x^2 + (2 sqrt(3) - sqrt(3) x)^2 = 12 => 4x(x-3) = 0 => x = 0 " or " 3$.
+
+  Then $y = 2 sqrt(3)$ or $y = -sqrt(3)$.
+
+  Hence $C = (0, 2 sqrt(3))$ or $C = (3, -sqrt(3))$.
+//69
++ Let the vertices of the triangle be $A(-2, 3)$, $B(2, -1)$, $C(4, 0)$.
+
+  The circumcenter $(x, y)$ is given by
+
+  $x = ((x_1^2 + y_1^2)(y_2 - y_3) + (x_2^2 + y_2^2)(y_3 - y_1) + (x_3^2 + y_3^2)(y_1 - y_2)) / (2 (x_1(y_2
+  - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)))$
+
+  $y = ((x_1^2 + y_1^2)(x_3 - x_2) + (x_2^2 + y_2^2)(x_1 - x_3) + (x_3^2 + y_3^2)(x_2 - x_1)) / (2 (x_1(y_2
+  - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)))$
+
+  Denominator: $D = 2((-2)(-1 - 0) + 2(0 - 3) + 4(3 - (-1))) = 24$
+
+  $x = ((-2^2 + 3^2)(-1 - 0) + (2^2 + (-1)^2)(0 - 3) + (4^2 + 0^2)(3 - (-1))) / 24 = 1.5$
+
+  $y = ((-2^2 + 3^2)(4 - 2) + (2^2 + (-1)^2)(-2 - 4) + (4^2 + 0^2)(2 - (-2))) / 24 = 2.5$
+
+  Hence the circumcenter is $O(1.5, 2.5)$.
+
+  The circumradius is the distance from $O$ to any vertex, say $A$:
+
+  $R = sqrt((1.5 - (-2))^2 + (2.5 - 3)^2)
+  = sqrt(3.5^2 + (-0.5)^2) = sqrt(12.25 + 0.25) = sqrt(12.5) = 5 sqrt(2)/2$
