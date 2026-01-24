@@ -922,3 +922,420 @@ cos(theta_1 - theta_2))$
 
   $R = sqrt((1.5 - (-2))^2 + (2.5 - 3)^2)
   = sqrt(3.5^2 + (-0.5)^2) = sqrt(12.25 + 0.25) = sqrt(12.5) = 5 sqrt(2)/2$
+//70
++ Given $A = (1, 1)$, $B = (4, 5)$, and $C = (6, 13)$.
+
+  $A\B = sqrt((4 - 1)^2 + (5 - 1)^2) = sqrt(9 + 16) = 5$
+
+  $A\C = sqrt((6 - 1)^2 + (13 - 1)^2) = sqrt(25 + 144) = 13$
+
+  $B\C = sqrt((6 - 4)^2 + (13 - 5)^2) = sqrt(4 + 64) = sqrt(68)$
+
+  Using cosine law at angle $A$:
+
+  $cos A = (A\B^2 + A\C^2 - B\C^2) / (2 A\B A\C)$
+
+  $cos A = (25 + 169 - 68) / (2.5.13) = 63 / 65$.
+//71
++ The given points are $(3, pi/4)$ and $(7, 5 pi/4)$.
+
+  Distance between two points in polar coordinates is: $d^2 = r_1^2 + r_2^2 - 2.r_1.r_2.cos(theta_2 - theta_1)$
+
+  Here, $r_1 = 3$, $r_2 = 7$ and $theta_2 - theta_1 = 5.pi/4 - pi/4 = pi$. Now $cos(pi) = -1$
+
+  Substituting: $d^2 = 3^2 + 7^2 - 2.3.7.(-1)$ $=>d^2 = 9 + 49 + 42 = 100$ $=>d = sqrt(100) = 10$.
+//72
++ Given $A = (2, 4)$ and $B = (2, 6)$. Length $A\B = sqrt((2 - 2)^2 + (6 - 4)^2) = 2$.
+
+  Midpoint of $A\B$: $M = ( (2+2)/2 , (4+6)/2 ) = (2, 5)$
+
+  Since $A\B$ is vertical, the equilateral triangle lies horizontally. Height of an equilateral triangle
+  with side $2$ is: $h = sqrt(3)$
+
+  The origin $(0, 0)$ lies to the left of line $x = 2$, so the vertex opposite to the origin lies to the right.
+
+  Hence, $P = (2 + sqrt(3), 5)$
+//73
++ Given points in polar coordinates: $A = (2, 45^degree)$, $B = (sqrt(2), 90^degree)$, and $C = (-2, 135^degree)$.
+
+  Converting to cartesian coordinates using   $x = r cos(theta)$ and $y = r sin(theta)$
+
+  $A = (2 cos(45^degree), 2 sin(45^degree)) = (sqrt(2), sqrt(2))$, $B = (sqrt(2) cos(90^degree), sqrt(2)
+  sin(90^degree)) = (0, sqrt(2))$, and $C = (-2 cos(135^degree), -2 sin(135^degree)) = (sqrt(2), -sqrt(2))$
+
+  Finding squares of side lengths using distance formula: $A\B^2 = (0 - sqrt(2))^2 + (sqrt(2) - sqrt(2))^2 = 2$
+
+  $A\C^2 = (sqrt(2) - sqrt(2))^2 + (-sqrt(2) - sqrt(2))^2 = 8$
+
+  $B\C^2 = (sqrt(2) - 0)^2 + (-sqrt(2) - sqrt(2))^2 = 10$
+
+  $A\B^2 + A\C^2 = 2 + 8 = 10 = B\C^2$. And hence, the triangle is a right-angled triangle.
+//74
++ Let $A = (2, 4)$ and $B = (6, 8)$.
+
+  Internal division in the ratio $1:3$: $x = (1.6 + 3.2) / (1 + 3) = 12 / 4 = 3$, and $y = (1.8 + 3.4) / (1 +
+  3) = 20 / 4 = 5$
+
+  So, the point of internal division is $(3, 5)$.
+
+  External division in the ratio $1:3$: $x = (1.6 - 3.2) / (1 - 3) = 0 / (-2) = 0$, and $y = (1.8 - 3.4) /
+  (1 - 3) = (-4) / (-2) = 2$
+
+  So, the point of external division is $(0, 2)$.
+//75
++ The solutions are given below:
+    + Let $A = (1, -2)$ and $B = (-3, 4)$. The trisection points divide the line internally in the ratios $1:2$ and $2:1$.
+
+      First point (ratio $1:2$): $x = (1.(-3) + 2.1) / (1 + 2) = (-3 + 2) / 3 = -1/3$, and $y = (1.4 +
+      2.(-2)) / (1 + 2) = (4 - 4) / 3 = 0$
+
+      So, the first trisection point is $(-1/3, 0)$.
+
+      Second point (ratio $2:1$): $x = (2.(-3) + 1.1) / (2 + 1) = (-6 + 1) / 3 = -5/3$, and $y = (2.4 +
+      1.(-2)) / (2 + 1) = (8 - 2) / 3 = 2$
+
+      So, the second trisection point is $(-5/3, 2)$.
+    + Let $A = (2, 3)$ and $B = (6, 5)$. The trisection points divide the line internally in the ratios
+      $1:2$ and $2:1$.
+
+      First point (ratio $1:2$): $x = (1.6 + 2.2) / (1 + 2) = (6 + 4) / 3 = 10 / 3$, and $y = (1.5 + 2.3) /
+      (1 + 2) = (5 + 6) / 3 = 11 / 3$
+
+      So, the first trisection point is $(10/3, 11/3)$.
+
+      Second point (ratio $2:1$): $x = (2.6 + 1.2) / (2 + 1) = (12 + 2) / 3 = 14 / 3$, and $y = (2.5 + 1.3)
+      / (2 + 1) = (10 + 3) / 3 = 13 / 3$
+
+      So, the second trisection point is $(14/3, 13/3)$.
+//76
++ Let $A = (1, 1)$ and $B = (2, -3)$. Point $D$ lies on $A B$ produced such that $A D = 3 A B$.
+
+  The ratio of division for external point $D$ is $A : B = 3 : -1$.
+
+  Coordinates of $D$ using external division: $x_D = (3.2 - 1.1) / (3 - 1) = (6 - 1) / 2 = 5 / 2$, and $y_D
+  = (3.(-3) - 1.1) / (3 - 1) = (-9 - 1) / 2 = -10 / 2 = -5$
+
+  So, the coordinates of $D$ are $(5/2, -5)$.
+//77
++ Let the points be $A = (3, 4)$ and $B = (k, 7)$.
+
+  Midpoint $M = (x, y)$ is given by: $x = (3 + k) / 2$, and $y = (4 + 7) / 2 = 11 / 2$
+
+  The line passing through $M$ satisfies: $2x + 2y + 1 = 0$
+
+  Substituting $x$ and $y$: $2.((3 + k)/2) + 2.(11/2) + 1 = 0$
+
+  $=> (3 + k) + 11 + 1 = 0 => k + 15 = 0=>k = -15$.
+//78
++ Let one end of the diameter be $A = (2, 3)$ and the center be $O = (-2, 5)$. Let the other end be $B = (x, y)$.
+
+  The midpoint of $A B$ is the center $O$, so $O_x = (A_x + B_x)/2$, $O_y = (A_y + B_y)/2$
+
+  Substituting the known values: $-2 = (2 + x)/2 => 2 + x = -4 => x = -6$
+
+  $5 = (3 + y)/2 => 3 + y = 10 => y = 7$
+
+  Thus, the coordinates of the other end of the diameter are: $B = (-6, 7)$.
+//79
++ Let the vertices be $A = (-1, 3)$, $B = (1, -1)$, $C = (5, 1)$.
+
+  Median from $A$ to midpoint of $B\C$: Midpoint of $B\C$: $M_a = ((1 + 5)/2, (-1 + 1)/2) = (6/2, 0/2) = (3,
+  0)$
+
+  Length of median $A\M_a$: $A\M_a = sqrt((3 - (-1))^2 + (0 - 3)^2) = sqrt(4^2 + (-3)^2) = sqrt(16 + 9) =
+  sqrt(25) = 5$
+
+  Median from $B$ to midpoint of $A\C$: Midpoint of $A\C$: $M_b = ((-1 + 5)/2, (3 + 1)/2) = (4/2, 4/2) = (2,
+  2)$
+
+  Length of median $B\M_b$: $B\M_b = sqrt((2 - 1)^2 + (2 - (-1))^2) = sqrt(1^2 + 3^2) = sqrt(1 + 9) =
+  sqrt(10)$
+
+  Median from $C$ to midpoint of $A\B$: Midpoint of $A\B$: $M_c = ((-1 + 1)/2, (3 + (-1))/2) = (0/2, 2/2) =
+  (0, 1)$
+
+  Length of median $C\M_c$: $C\M_c = sqrt((0 - 5)^2 + (1 - 1)^2) = sqrt((-5)^2 + 0^2) = sqrt(25) = 5$.
+//80
++ Let $A = (2, 5)$, $C = (-1, 2)$, and $B = (x, y)$. Point $C$ divides $A B$ in the ratio $3:4$.
+
+  Using section formula for internal division:
+
+  $C_x = (4.2 + 3.x) / (3 + 4) => -1 = (8 + 3.x) / 7 => 8 + 3.x = -7 => 3.x = -15 => x = -5$
+
+  $C_y = (4.5 + 3.y) / (3 + 4) => 2 = (20 + 3.y) / 7 => 20 + 3.y = 14 => 3.y = -6 => y = -2$
+//81
++ Let $A = (3, 4)$, $B = (7, 7)$, $C = (x, y)$ with $B$ between $A$ and $C$.
+
+  Distance $A\B = sqrt((7 - 3)^2 + (7 - 4)^2) = 5$. Distance $A\C = 10 => B C = A C - A B = 5$
+
+  Since $B$ divides $A C$ internally in the ratio $A B : B C = 5 : 5 = 1 : 1$,
+
+  Use section formula for internal division: $B_x = (x + 3)/2 => 7 = (x + 3)/2 => x = 11$, and $B_y = (y +
+  4)/2 => 7 = (y + 4)/2 => y = 10$.
+//82
++ Let $A = (2, -2)$, $B = (-4, 1)$, and $P = (-8, 3)$ divides $A B$ in the ratio $k:1$.
+
+  Using section formula: $P_x = (k.(-4) + 1.2)/(k + 1) => -8 = (-4k + 2)/(k + 1)$
+
+  Multiply both sides by $(k + 1)$: $-8.(k + 1) = -4k + 2 => -8k - 8 = -4k + 2 => -8k + 4k = 2 + 8 => -4k =
+  10 => k = -5/2$
+//83
++ Let $A = (2, -3)$, $B = (5, 6)$, and $P = (x, 0)$ be the point where the line meets the $x$-axis.
+
+  Suppose $P$ divides $A B$ in the ratio $k:1$. Using section formula for $y$-coordinate:
+
+  $0 = (k.6 + 1.(-3)) / (k + 1) => 0 = (6k - 3)/(k + 1)=>6k - 3 = 0 => 6k = 3 => k = 1/2$
+//84
++ Let $C = (-1, 2)$, $D = (4, -5)$, and $P$ be the intersection of line $A B$ with $C D$.
+  Suppose $P$ divides $C D$ in the ratio $m:n$.
+
+  $P_x = (-n + 4m)/(m + n)$, $P_y = (2n - 5m)/(m + n)$
+
+  Line $A B$: $X = 15t$, $Y = -1 + 3t$
+
+  Equating coordinates: $15t = (-n + 4m)/(m + n)$, and $-1 + 3t = (2n - 5m)/(m + n)$
+
+  Eliminate $t$: $(-n + 4m)/(15) = (-4m + 3n)/3 => 24m = 16n => m:n = 2:3$
+//85
++ Let $A = (1, 2)$, $B = (-2, 3)$, and $P = (x, y)$ be the point where $A\B$ meets the line $3x + 4y = 7$.
+
+  Suppose $P$ divides $A\B$ in the ratio $k:1$.
+
+  Coordinates of $P$ using section formula: $x = (k.(-2) + 1.1)/(k + 1) = (-2k + 1)/(k + 1)$, and $y = (k.3 + 1.2)/(k + 1) = (3k + 2)/(k + 1)$
+
+  Substituting into the line equation $3x + 4y = 7$: $3.((-2k + 1)/(k + 1)) + 4.((3k + 2)/(k + 1)) = 7$
+
+  $=>(-6k + 3 + 12k + 8)/(k + 1) = 7 => (6k + 11)/(k + 1) = 7$
+
+  $=>6k + 11 = 7.(k + 1) => 6k + 11 = 7k + 7 => k = 4$.
+//86
++ Let $A = (3, -1)$, $B = (8, 9)$, and $P = (x, y)$ be the point where the line $y - x + 2 = 0$ meets $A B$.
+  Suppose $P$ divides $A B$ in the ratio $k:1$.
+
+  Coordinates of $P$ using section formula: $x = (k.8 + 1.3)/(k + 1) = (8k + 3)/(k + 1)$, and $y = (k.9 +
+  1.(-1))/(k + 1) = (9k - 1)/(k + 1)$
+
+  Substituting into the line equation $y - x + 2 = 0$: $(9k - 1)/(k + 1) - (8k + 3)/(k + 1) + 2 = 0$
+
+  Combining terms: $(9k - 1 - 8k - 3)/(k + 1) + 2 = 0 => (k - 4)/(k + 1) + 2 = 0$
+
+  $(k - 4 + 2.(k + 1)) / (k + 1) = 0 => (k - 4 + 2k + 2)/(k + 1) = 0=>(3k - 2)/(k + 1) = 0 => 3k - 2 = 0 =>
+  k = 2/3$.
+//87
++ Let $A = (5, -4)$, $B = (3, -2)$, and $P$ divides $A B$ in the ratio $4:3$.
+
+  Coordinates of $P$ using section formula: $x = (3.5 + 4.3)/(4 + 3) = (15 + 12)/7 = 27/7$, and $y = (3.(-4)
+  + 4.(-2))/(4 + 3) = (-12 - 8)/7 = -20/7$
+
+  Distance of $P$ from origin: $O P = sqrt((27/7)^2 + (-20/7)^2) = sqrt(729/49 + 400/49) = sqrt(1129/49) =
+  sqrt(1129)/7$.
+//88
++ Let the vertices be $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$.
+
+  Midpoints of sides: $M_(A B) = (1, 1)$, $M_(B C) = (2, 3)$, $M_(C A) = (4, 1)$
+
+  Midpoint formula: $M_(A B) = ((x_1 + x_2)/2, (y_1 + y_2)/2) = (1, 1) => x_1 + x_2 = 2, y_1 + y_2 = 2$
+
+  $M_(B C) = ((x_2 + x_3)/2, (y_2 + y_3)/2) = (2, 3) => x_2 + x_3 = 4, y_2 + y_3 = 6$
+
+  $M_(C A) = ((x_3 + x_1)/2, (y_3 + y_1)/2) = (4, 1) => x_3 + x_1 = 8, y_3 + y_1 = 2$
+
+  Solving for $x$-coordinates: $x_1 + x_2 = 2$, $x_2 + x_3 = 4$, $x_3 + x_1 = 8$
+
+  Adding first two: $x_1 + 2x_2 + x_3 = 6$
+
+  Subtracting third: $(x_1 + 2x_2 + x_3) - (x_3 + x_1) = 6 - 8 => 2x_2 - x_3 = -2 => x_3 = 2x_2 + 2$
+
+  From $x_2 + x_3 = 4 => x_2 + 2x_2 + 2 = 4 => 3x_2 = 2 => x_2 = 2/3$ Then $x_3 = 2.(2/3) + 2 = 10/3$, $x_1
+  = 2 - x_2 = 4/3$
+
+  Solving for $y$-coordinates: $y_1 + y_2 = 2$, $y_2 + y_3 = 6$, $y_3 + y_1 = 2$
+
+  Adding first two: $y_1 + 2y_2 + y_3 = 8$
+
+  Subtracting third: $(y_1 + 2y_2 + y_3) - (y_3 + y_1) = 8 - 2 => 2y_2 = 6 => y_2 = 3$
+
+  Then $y_1 = 2 - 3 = -1$, $y_3 = 2 - y_1 = 3$.
+//89
++ The solutions are given below:
+    + Let $A = (2, 4)$, $B = (6, 4)$, $C = (2, 0)$.
+
+      Centroid $G = ((x_1 + x_2 + x_3)/3, (y_1 + y_2 + y_3)/3)$
+
+      $G = ((2 + 6 + 2)/3, (4 + 4 + 0)/3) = (10/3, 8/3)$
+
+      Side lengths:
+
+      $A B = sqrt((6 - 2)^2 + (4 - 4)^2) = sqrt(16) = 4$
+
+      $B C = sqrt((6 - 2)^2 + (4 - 0)^2) = sqrt(16 + 16) = sqrt(32) = 4.sqrt(2)$
+
+      $C A = sqrt((2 - 2)^2 + (0 - 4)^2) = sqrt(16) = 4$
+
+      Incenter formula: $I = ((a x_1 + b x_2 + c x_3)/(a + b + c), (a y_1 + b y_2 + c y_3)/(a + b + c))$
+
+      Here, $a = B C = 4.sqrt(2)$, $b = C A = 4$, $c = A B = 4$
+
+      $x$-coordinate: $I_x = (a.2 + b.6 + c.2)/(a + b + c) = (4.sqrt(2).2 + 4.6 + 4.2)/(4.sqrt(2) + 4 + 4)$
+
+      $I_x = (8.sqrt(2) + 24)/(4.sqrt(2) + 8)$
+
+      $y$-coordinate: $I_y = (a.4 + b.4 + c.0)/(a + b + c) = (16.sqrt(2) + 16)/(4.sqrt(2) + 8)$.
+    + Let $A = (1, 2)$, $B = (2, 3)$, $C = (3, 4)$.
+
+      Centroid $G = ((x_1 + x_2 + x_3)/3, (y_1 + y_2 + y_3)/3)$
+
+      $G = ((1 + 2 + 3)/3, (2 + 3 + 4)/3) = (6/3, 9/3) = (2, 3)$
+
+      Side lengths: $A B = sqrt((2 - 1)^2 + (3 - 2)^2) = sqrt(1 + 1) = sqrt(2)$
+
+      $B C = sqrt((3 - 2)^2 + (4 - 3)^2) = sqrt(1 + 1) = sqrt(2)$
+
+      $C A = sqrt((3 - 1)^2 + (4 - 2)^2) = sqrt(4 + 4) = sqrt(8) = 2.sqrt(2)$
+
+      Incenter formula: $I = ((a x_1 + b x_2 + c x_3)/(a + b + c), (a y_1 + b y_2 + c y_3)/(a + b + c))$
+
+      Let $a = B C = sqrt(2)$, $b = C A = 2.sqrt(2)$, $c = A B = sqrt(2)$
+
+      $x$-coordinate: $I_x = (a.1 + b.2 + c.3)/(a + b + c) = (sqrt(2).1 + 2.sqrt(2).2 + sqrt(2).3)/(sqrt(2)
+      + 2.sqrt(2) + sqrt(2))$
+
+      $I_x = (1.sqrt(2) + 4.sqrt(2) + 3.sqrt(2))/(4.sqrt(2)) = 8.sqrt(2)/(4.sqrt(2)) = 2$
+
+      $y$-coordinate: $I_y = (a.2 + b.3 + c.4)/(a + b + c) = (2.sqrt(2) + 6.sqrt(2) + 4.sqrt(2))/(4.sqrt(2))
+      = 12.sqrt(2)/(4.sqrt(2)) = 3$
+//90
++ Let $A = (-1, 4)$, $B = (5, 2)$, $C = (x, y)$, and centroid $G = (0, -3)$.
+
+  Centroid formula: $G = ((x_1 + x_2 + x_3)/3, (y_1 + y_2 + y_3)/3)$
+
+  $x$-coordinate: $0 = (-1 + 5 + x)/3 => 4 + x = 0 => x = -4$
+
+  $y$-coordinate: $-3 = (4 + 2 + y)/3 => 6 + y = -9 => y = -15$
+//91
++ Let $A = (1, 4)$, $B = (4, 8)$, and $P$ divides $A B$ externally in the ratio $m : 1$.
+
+  Let $A P = 10$ and $A B = sqrt((4 - 1)^2 + (8 - 4)^2) = sqrt(9 + 16) = 5$
+
+  Since $A P = A B + B P$, $P$ divides $A B$ externally => ratio $m : 1 = 2 : 1$
+
+  Coordinates of $P$ using external division formula: $x = (m.4 - 1)/(m - 1) = (2.4 - 1)/(2 - 1) = (8 - 1)/1
+  = 7$, and $y = (m.8 - 4)/(m - 1) = (2.8 - 4)/(2 - 1) = (16 - 4)/1 = 12$.
+//92
++ Let $A = (3, 4), B = (-4, 3), C = (8, 6)$.
+
+  Area formula: $Delta = (1/2) |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$
+
+  $= (1/2) |3.(3 - 6) + (-4).(6 - 4) + 8.(4 - 3)| = 9/2$.
+//93
++ Let the vertices be $A(-3, 2), B(7, -6), C(-5, -4), D(5, 4)$, taken in order.
+
+  Area formula for quadrilateral:
+  $Delta = 1/2 |x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1 - (y_1x_2 + y_2x_3 + y_3x_4 + y_4x_1)|$
+
+  Substituting values:
+
+  $S_1 = (-3).(-6) + 7.(-4) + (-5).4 + 5.2 = 18 - 28 - 20 + 10 = -20$
+
+  $S_2 = 2.7 + (-6).(-5) + (-4).5 + 4.(-3) = 14 + 30 - 20 - 12 = 12$
+
+  $Delta = (1/2) |-20 - 12| = (1/2).32 = 16$.
+//94
++ Let A = (6, 3), B = (-3, 5), C = (4, -2), P = (x, y).
+
+  Area of a triangle with vertices (X_1, Y_1), (X_2, Y_2), (X_3, Y_3):
+  $Delta = 1/2 |X_1.(Y_2 - Y_3) + X_2.(Y_3 - Y_1) + X_3.(Y_1 - Y_2)|$
+
+  $Delta A B C = (1/2) |6.(5 - (-2)) + (-3).(-2 - 3) + 4.(3 - 5)| = (1/2).49 = 49/2$
+
+  $Delta P B C = (1/2) |x.(5 - (-2)) + (-3).(-2 - y) + 4.(y - 5)| = (7/2) |x + y - 2|$
+
+  Now, ratio: $(Delta P B C)/(Delta A B C) = (7/2 |x + y - 2|) / (49/2) = (|x + y - 2|) / 7$.
+//95
++ Let $A = (3, 3)$, $B = (h, 0)$, $C = (0, k)$.
+
+  Points are collinear if the area of triangle $A B C$ is $0$: $Delta A B C = (1/2) |x_1.(y_2 - y_3) +
+  x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$
+
+  Substituting values: $Delta A B C = (1/2) |3.(0 - k) + h.(k - 3) + 0.(3 - 0)| = (1/2) |h.k - 3.h - 3.k|$
+
+  For collinearity, $Delta A B C = 0 =>h.k - 3.h - 3.k = 0$
+
+  Divide by $h.k$ ($h != 0$, $k != 0$): $1 - 3/k - 3/h = 0 => 1/h + 1/k = 1/3$.
+//96
++ Let $A = (x_1, y_1)$, $B = (x_2, y_2)$, $C = (x_3, y_3)$. Let $(x, y)$ be a point on the internal bisector
+  of $angle A$. Let $A B = c$, $A C = b$.
+
+  The area of a triangle can be expressed using the determinant: $Delta(X, Y, Z) = mat(delim: "|", X_x, X_y, 1; Y_x, Y_y, 1; Z_x, Z_y, 1)$
+
+  Let $Delta P A B = mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1)$
+  Let $Delta P A C = mat(delim: "|", x, y, 1; x_1, y_1, 1; x_3, y_3, 1)$
+
+  By the angle bisector theorem, a point on the bisector divides the opposite side in the ratio of adjacent sides:
+  $(B P) / (P C) = (A B) / (A C) = c / b$
+
+  The signed areas satisfy the same ratio: $(Delta P A B) / (Delta P A C) = - (P C) / (P B) = - b / c$
+
+  Cross multiplying: $b. Delta P A B + c. Delta P A C = 0$.
+//97
++ Let the points be: $P(a) = (a^3/(a - 1), (a^2 - 3)/(a - 1))$, $Q(b) = (b^3/(b - 1), (b^2 - 3)/(b - 1))$,
+  $R(c) = (c^3/(c - 1), (c^2 - 3)/(c - 1))$.
+
+  Three points are collinear if the determinant vanishes: $mat(delim: "|", x_1, y_1, 1; x_2, y_2, 1; x_3, y_3, 1) = 0$
+
+  Substitute $x_i$ and $y_i$: $mat(delim: "|", a^3/(a - 1), (a^2 - 3)/(a - 1), 1; b^3/(b - 1), (b^2 - 3)/(b
+  - 1), 1; c^3/(c - 1), (c^2 - 3)/(c - 1), 1) = 0$
+
+  Multiplying each row by its denominator to simplify:
+
+  $mat(delim: "|", a^3, a^2 - 3, a - 1; b^3, b^2 - 3, b - 1; c^3, c^2 - 3, c - 1) = 0$
+
+  Expanding the determinant and simplifying (using factorization of cubic polynomials) gives:
+  $a b c - (a b + b c + c a) + 3(a + b + c) = 0$.
+//98
++ Let the vertices of the triangle be $A = (4, -8)$, $B = (-9, 7)$, $C = (x, y)$. The centroid $G = (1, 4)$.
+
+  Coordinates of the centroid: $x_G = (x_1 + x_2 + x_3)/3$, $y_G = (y_1 + y_2 + y_3)/3$
+
+  Substitute values: $1 = (4 - 9 + x)/3 => 1 = (-5 + x)/3 => x = 8=>4 = (-8 + 7 + y)/3 => 4 = (-1 + y)/3 =>
+  y = 13$
+
+  So $C = (8, 13)$.
+
+  Area of triangle $A B C$: $Delta = 1/2 |x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$
+
+  Substituting values: $Delta = 1/2 |4.(7 - 13) + (-9).(13 + 8) + 8.(-8 - 7)| = 166.5$.
+//99
++ Assume an equilateral triangle has vertices $A = (x_1, y_1)$, $B = (x_2, y_2)$, $C = (x_3, y_3)$ with all
+  coordinates rational.
+
+  Distance formula:   $A B^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$,
+
+  $B C^2 = (x_3 - x_2)^2 + (y_3 - y_2)^2$,
+
+  $C A^2 = (x_1 - x_3)^2 + (y_1 - y_3)^2$
+
+  For an equilateral triangle: $A B^2 = B C^2 = C A^2 = d^2$
+
+  Consider the line $A B$. The perpendicular from $C$ to $A B$ must satisfy the formula for height of an
+  equilateral triangle: $h = sqrt{3}/2 . d$
+
+  Coordinates of $C$ satisfy the perpendicular distance formula from line $A B$:
+  $(| (y_2 - y_1)x_C - (x_2 - x_1)y_C + (x_2y_1 - x_1y_2)) | / sqrt((y_2 - y_1)^2 + (x_2 - x_1)^2) = h = (sqrt(3)/2) d$
+
+  All numbers on the left are rational, but the right-hand side involves $sqrt{3}$, which is irrational.
+
+  This is a contradiction.
+
+  Hence, the coordinates of the vertices of an equilateral triangle cannot all be rational
+//100
++ Let $A = (-1, 5)$, $B = (3, 1)$, $C = (5, 7)$.
+
+  Midpoints: $D = ((3 + 5)/2, (1 + 7)/2) = (4, 4)$, $E = ((5 - 1)/2, (7 + 5)/2) = (2, 6)$, and $F = ((-1 +
+  3)/2, (5 + 1)/2) = (1, 3)$
+
+  $Delta A B C = (1/2)|(-1).(1 - 7) + 3.(7 - 5) + 5.(5 - 1)| = 16$
+
+  $Delta D E F = (1/2)|4.(6 - 3) + 2.(3 - 4) + 1.(4 - 6)| = 4$
+
+  Hence, $Delta A B C = 4 Delta D E F$.

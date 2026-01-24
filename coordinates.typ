@@ -513,66 +513,100 @@ Change the following equations to cartesian coordinates
 //68
 + If two vertices of an equilateral triangle be $(0, 0)$ and $(3, sqrt(3))$, find the coordinate of the
   third vertex.
+//69
 + Find the circumcenter and circumradius of the triangle whose vertices are $(-2, 3), (2, -1)$ and $(4, 0)$.
+//70
 + The vertices of a triangle are $A(1, 1), B(4, 5)$ and $C(6, 13)$. Find $cos A$.
+//71
 + Find the distance between the points $(3, pi/4)$ and $(7, (5 pi)/4)$.
+//72
 + $A(2, 4)$ and $B(2, 6)$ are two given points; $A B P$ is an equilateral triangle on the side of $A B$
   opposite to the origin. Find the coordinates of $P$.
+//73
 + Show that the points $(2, 45^degree), (sqrt(2), 90^degree)$ and $(-2, 135^degree)$ are the vertices of a
   right angled triangle.
+//74
 + Find the coordinates of the point which divides the line segment joining $(2, 4)$ and $(6, 8)$ in the
   ratio $1:3$ internally and externally.
+//75
 + Find the coordinates of the points which trisect the line segment joining the points
     + $(1, -2)$ and $(-3, 4)$.
     + $(2, 3)$ and (6, 5).
+//76
 + $A(1, 1)$ and $B(2, -3)$ are two points and $D$ is a point on $A B$ produced such that $A D = 3 A B$, then
   find the coordinates of $D$.
+//77
 + If the middle point of the line segment joining $(3, 4)$ and $(k, 7)$ is $(x, y)$ and $2x + 2y + 1 = 0$,
   find the value of $k$.
+//78
 + One end of a diameter of a circle is at $(2, 3)$ and the center is $(-2, 5)$, find the coordinates of the
   other end of the diameter.
+//79
 + Find the length of the medians of the triangle whose vertices are $(-1, 3), (1, -1)$ and $(5, 1)$.
+//80
 + If the point $C(-1, 2)$ divides the line segment joining $A(2, 5)$ and $B$in the ratio $3:4$, find the
   coordinates of $B$.
+//81
 + $A, B, C$ are collinear points and $B$ lies between $A$ and $C$. $A$ and $B$ are $(3, 4)$ and $(7, 7)$
   respectively. If $A C = 10$ units, find the coordinates of $C$.
+//82
 + Find the ratio in which $(-8, 3)$ divides the line segment of the points $(2, -2)$ and $(-4, 1)$.
+//83
 + In what ratio does the $x$-axis divides the line segment joining the points $(2, -3)$ and $(5, 6)$.
+//84
 + Show that the straight lines joining the points $A(0, -1)$ and $B(15, 2)$ divides the line joining the
   points $C(-1, 2)$ and $D(4, -5)$ internally in the ratio $2:3$.
+//85
 + Find the ratio in which the line segment joining the points $(1, 2)$ and $(-2, 3)$ is divided by the line
   $3x + 4y = 7$.
+//86
 + Find the ratio in which the line $y - x + 2 = 0$ divides the line segment joining $(3, -1)$ and $(8, 9)$.
+//87
 + Find the distance of the point from origin which divides the line segment joining the points $(5, -4)$ and
   $(3, -2)$ in the ratio $4:3$.
+//88
 + The coordinates of the middle points of the sides of a triangle are $(1, 1), (2, 3)$ and $(4, 1)$, find
   the coordinates of the vertices.
+//89
 + Find the centroid and incenter of the triangle whose vertices are
     + $(2, 4), (6, 4)$ and $(2, 0)$.
     + $(1, 2), (2, 3)$ and $(3, 4)$.
+//90
 + Two vertices of a triangle are $(-1, 4)$ and $(5, 2)$. If its centroid is $(0, -3)$, find the third
   vertex.
+//91
 + $A(1, 4)$ and $B(4, 8)$ are two points. $P$ is a point on $A B$ such that $A P = A B + B P$. If $A P =
   10$, find the coordinates of $P$.
+//92
 + Find the area of the triangle whose vertices $A, B, C$ are respectively $(3, 4),(-4, 3)$ and $(8, 6)$.
+//93
 + Find the area of the quadrilateral whose vertices are $(-3, 2), (7, -6), (-5, -4)$ and $(5, 4)$.
+//94
 + The coordinates of points $A, B, C$ and $P$ are $(6, 3), (-3, 5), (4, -2)$ and (x, y) respectively, prove
   that $(Delta P B C)/(Delta A B C) = (|x + y - 2|)/7$.
+//95
 + Show that the points (3, 3), (h, 0) and $(0, k)$ are collinear if $1/h + 1/k = 1/3$.
 #set math.mat(delim: "|")
+//96
 + If $A(x_1, y_1), B(x_2, y_2)$ and $C(x_3, y_3)$ are the vertices of a $triangle A B C$ and $(x, y)$ be a
   point on the internal bisector of $angle A$, then prove that $b mat(x, y, 1; x_1, y_1, 1; x_2, y_2, 1) +
   c mat(x, y, 1; x_1, y_1, 1; x_3, y_3, 1) = 0$, where $A C = b$ and $A B = c$.
+//97
 + If the points $(a^3/(a - 1), (a^2 - 3)/(a - 1)), (b^3/(b - 1), (b^2 - 3)/(b - 1))$ and $(c^3/(c - 1),
   (c^2 - 3)/(c - 1)) $ are collinear for three distinct values $a, b$ and $c$ then show that $a b c - (a b +
   b c + c a) + 3(a + b + c)=0$.
+//98
 + If $(1, 4)$ be the center of gravity of a triangle and the coordinates of its any two vertices be $(4,
   -8)$ and $(-9, 7)$, find the area of the triangle.
+//99
 + Prove that the coordinates of the vertices of an equilateral triangle cannot all be rational.
+//100
 + If $A, B, C$ are the points $(-1, 5), (3, 1), (5, 7)$ respectively and $D, E, F$ are the middle points of
   $B C, C A$ and $A B$ respectively prove that $Delta A B C = 4 Delta D E F$.
+//101
 + The vertices of a $triangle A B C$ are $A(3, 0), B(0, 6)$ and $C(6, 9)$. A straight line $D E$ divides $A
   B$ and $A C$ in the ratio $1:2$ at $D$ and $E$ respectively, prove that $Delta A B C = 9Delta A D E$.
+//102
 + If $(t, t-2), (t+3, t)$ and $(t + 2, t + 2)$ are the vertices of a triangle, show that its area if
   independent of $t$.
 + If $A(x, y), B(1, 2)$ and $C(2, 1)$ are the vertices of a triangle of area $6$ units, show that $x + y =
