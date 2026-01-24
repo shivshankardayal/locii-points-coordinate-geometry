@@ -646,3 +646,69 @@ cos(theta_1 - theta_2))$
   $=> r(sqrt(3)/2 sqrt(1 - (a^2)/r^2) + 1/2.a/r) = 1$
 
   $=>r = 2/sqrt(3)sqrt(a^2 - a + 1)$.
++ Let $A = (3, 4)$ and $C = (1, -1)$ be opposite vertices of the square. Let $B = (x, y)$ and $D = (x', y')$
+  be the other two vertices.
+
+  The center of the square is the midpoint of $A\C$: $O = ((3+1)/2, (4+(-1))/2) = (2, 3/2)$
+
+  In a square, the distances from the center to all vertices are equal: $(x - 2)^2 + (y - 3/2)^2 = (3 - 2)^2 + (4 - 3/2)^2 = 29/4$
+
+  Also, $B$ and $D$ lie on a line through $O$ that is perpendicular to $A\C$. Using the fact that diagonals
+  of a square are equal and perpendicular, we solve:
+
+  $(x - 2)^2 + ( -2/5 x + 23/10 - 3/2)^2 = 29/4$
+
+  Solving this quadratic gives: $x = 9/2, y = 1/2$ and $x = -1/2, y = 5/2$
+
+  Hence, the remaining vertices are: $B = (9/2, 1/2), D = (-1/2, 5/2)$.
++ Given $A = (-4, 0)$ and $B = (-1, 4)$, points $C$ and $D$ are symmetric about the $y$-axis: $C = (4, 0)$ and $D = (1, 4)$
+
+  The trapezium is $A\BC\D$, with vertices in order $A, B, D, C$.
+
+  $A\B = sqrt((-1 - (-4))^2 + (4 - 0)^2) = sqrt(3^2 + 4^2) = sqrt(9 + 16) = 5$
+
+  $\BC = sqrt((1 - (-1))^2 + (4 - 4)^2) = sqrt(2^2 + 0^2) = 2$
+
+  $C\D = sqrt((1 - 4)^2 + (4 - 0)^2) = sqrt((-3)^2 + 4^2) = sqrt(9 + 16) = 5$
+
+  $D\A = sqrt((4 - (-4))^2 + (0 - 0)^2) = sqrt(8^2 + 0^2) = 8$
+
+  Perimeter of trapezium: $P = A\B + B\C + C\D + D\A = 5 + 2 + 5 + 8 = 20$.
++ Given $A = (4, -1)$, let $B$ be the reflection of $A$ across $y = x$.
+
+  Reflection across $y = x$ swaps the coordinates: if $A = (x, y)$, then $B = (y, x)$.
+
+  Thus $B = (-1, 4)$
+
+  Distance $A\B$: $A\B = sqrt((-1 - 4)^2 + (4 - (-1))^2) = 5 sqrt(2)$.
++ Given $A = (2, 0)$ and $B = (2 + sqrt(3), 1)$. Rotate $B$ about $A$ by $15^degree$ anticlockwise.
+
+  Rotation formula about $A$:
+
+  $x' = A_x + (B_x - A_x) cos(15^degree) - (B_y - A_y) sin(15^degree), y' = A_y + (B_x - A_x)
+  sin(15^degree) + (B_y - A_y)   cos(15^degree)$
+
+  $(B_x - A_x, B_y - A_y) = (sqrt(3), 1)$, $cos(15^degree) = (sqrt(6) + sqrt(2))/4$, $sin(15^degree) =
+  (sqrt(6) - sqrt(2))/4$
+
+  $x' = 2 + sqrt(3) (sqrt(6) + sqrt(2))/4 - 1   (sqrt(6) - sqrt(2))/4 = (11 + sqrt(2))/4, y' = 0 + sqrt(3)
+  (sqrt(6) - sqrt(2))/4 + 1  (sqrt(6) + sqrt(2))/4 = (3 + sqrt(2))/4$
+
+  Thus, $C = ((11 + sqrt(2))/4, (3 + sqrt(2))/4)$.
++ Given point $P = (1, -2)$. Reflecting $P$ in the $x$-axis: $P' = (1, 2)$  (the $y$-coordinate changes sign)
+
+  Translate $P'$ parallel to the positive $x$-axis by 3 units: $P'' = (1 + 3, 2) = (4, 2)$
++ Given $A = (3, 0)$ and $B = (5, 2)$.
+
+  Segment from $A$ to $B$: $(B_x - A_x, B_y - A_y) = (5 - 3, 2 - 0) = (2, 2)$
+
+  Rotating this segment about $A$ by $45^degree$ anticlockwise:
+
+  $x_C = A_x + (B_x - A_x) cos(45^degree) - (B_y - A_y) sin(45^degree), y_C = A_y + (B_x - A_x) sin(45^degree) + (B_y -
+  A_y)   cos(45^degree)$
+
+  Since $cos(45^degree) = sin(45^degree) = sqrt(2)/2$, $x_C = 3 + 2   sqrt(2)/2 - 2 sqrt(2)/2 = 3 + 0 = 3$
+
+  $y_C = 0 + 2 sqrt(2)/2 + 2   sqrt(2)/2 = 0 + 2 sqrt(2)/2 + 2   sqrt(2)/2 = 2 sqrt(2)$
+
+  So $C = (3, 2 sqrt(2))$. Reflecting $C$ in the $y$-axis: $D = (-x_C, y_C) = (-3, 2 sqrt(2))$.
