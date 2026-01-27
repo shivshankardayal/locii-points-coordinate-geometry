@@ -85,6 +85,7 @@
 #part("Theory and Problems")
 
 #include "coordinates.typ"
+#include "locus.typ"
 //#include "basics.typ"
 
 #part("Answers")

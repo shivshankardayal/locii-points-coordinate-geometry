@@ -1,7 +1,7 @@
 #import "lib.typ": *
 #set par(first-line-indent: 0em)
 
-= Co-ordinates
+= Coordinates
 
 Coordinate geometry is study of geometric using algebra. It is also called *Analytical Geometry*. In
 geometry, we study about points, lines, triangles, quadrilaterals, circles, polygons etc. without the use of
@@ -748,4 +748,4 @@ Change the following equations to cartesian coordinates
 //147
 + Prove that points $(-3, -1), (2, -1), (1, 1)$ and $(-2, 1)$ taken in order are vertices of a trapezium.
 //148
-+ If the vertices of a triangle have integral co-ordinates, prove that the triangle cannot be equilateral.
++ If the vertices of a triangle have integral coordinates, prove that the triangle cannot be equilateral.

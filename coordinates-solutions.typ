@@ -1,7 +1,7 @@
 #import "lib.typ": *
 #set par(first-line-indent: 0em)
 
-= Answers of Co-ordinates
+= Answers of Coordinates
 
 == Problems
 
@@ -653,10 +653,10 @@ cos(theta_1 - theta_2))$
 
   Given $P\L = a, \RN = 1$.
 
-  We take $Q$ as the pole and $Q\X$ as the initial line. Polar co-ordinates of $P$ and $R$ will be $(r,
+  We take $Q$ as the pole and $Q\X$ as the initial line. Polar coordinates of $P$ and $R$ will be $(r,
   theta)$ and $(r, theta + 60^degree)$, respectively.
 
-  Now $r sin theta = y$, co-ordinate of $P = a$ and $r sin (60^degree + theta) = y$, co-ordinate of $R = 1$
+  Now $r sin theta = y$, coordinate of $P = a$ and $r sin (60^degree + theta) = y$, coordinate of $R = 1$
 
   $=> r(sin 60^degree cos theta + cos 60^degree sin theta) = 1$
 
