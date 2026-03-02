@@ -124,7 +124,89 @@ It is obvious that for every equation between $x$ and $y$ a geometrical locus ca
   and $y = 2t$. If we eliminate $t$ then we get cartesian form of the equation to the locus.
 
 == Problems
+#set enum(
+  full: true,
+  numbering: (..nums-arguments) => context {
+    let nums = nums-arguments.pos()
+    if nums.len() == 1 {
+      let thread-counter = counter("ex1")
+      thread-counter.step()
+      let thread-count = thread-counter.get().first() + 1
+        numbering("1.a.", thread-count)
+    } else {
+        numbering("1.a.", nums.last())
+    }
+  },
+)
 + A point moves so that the algebraic sum of its distances from two given perpendicular axes is equal to a
   constant quantity $a$; find the equation to its locus.
 + The sum of squares of the distances of a moving point from the two fixed points $(a, 0)$ and $(-a, 0)$ is
   equal to a constant quatity $2c^2$. Find the equation to its locus.
++ Find the locus of a point which moves such that its distance from the point $(-1, 0)$ is always three
+  times its distance from the point $(0, 2)$.
+
+$A$ and $B$ being the fixed points $(a, 0)$ and $(-a, 0)$ respectively, obtain the equations giving the
+locus of $P$, when
+
++ $P\A^2 - P\B^2 =$ a constant quantity $= 2k^2$.
++ $P\A = n\P\B, n$ being a constant.
++ $P\A + P\B = c$, a constant quantity.
++ $P\B^2 + P\C^2 = 2P\A^2, C$ being the point $(c, 0)$.
++ Find the locus of a point whose distance from the point $(1, 2)$ is equal to its distance from the
+  $y$-axis.
+
+Find the equation to the locus of a point which is always equidistant from the points whose coordinates are
+
++ $(1, 0)$ and $(0, -2)$.
++ $(2, 3)$ and $(4, 5)$.
++ $(a + b, a - b)$ and $(a - b, a + b)$.
+
+Find the equation to the locus of a point which moves so that
+
++ its distance from the $x$-axis is three times its distance from the $y$-axis.
++ its distance from the point $(a, 0)$ is always four times its distance from the axis of $y$.
++ the sum of the squares of its distances from the axes is equal to $3$.
++ the square of its distance from the point $(0, 2)$ is equal to $4$.
++ its distance from the point $(3, 0)$ is three times its distance from $(0, 2)$.
++ its distance from the $x$-axis is always one half its distance from the origin.
++ A fixed point is at a perpendicular distance $a$ from a fixed straight line and a point moves so that its
+  distance from the fixed point is always equal to its distance from the fixed line. Find the equation to its
+  locus, the axes of coordinates being drawn through the fixed point and being parallel and perpendicular to
+  the given line.
++ In the previous question if the first distance be (1), always half, and (2), always twice, the second
+  distance, find the equations to the respective loci.
++ If the coordinates of a variable point $P$ be $(a cos theta, b sin theta)$, where $theta$ is a variable
+  quantity, find the locus of $P$.
++ Find the equation of the locus of a point such that the sum of its distances from $(0, 2)$ and $(0, -2)$
+  is $6$.
++ $A$ and $B$ are two fixed points having a distance of $2a$. Find the locus of a point $P$ such that $angle
+  A\PB$ is a right angle.
++ A line segment $A\B$ of length $a + b$ moves such that its extremeties $A$ and $B$ always remain on the
+  axis of $x$ and $y$ respectively. Find the locus of a variable point $P$ on $A\B$ such that $P\A = a, P\B =
+  b$.
++ If $O$ be the origin and $A$ be a point on the locus $y^2 = 8x$. Find the locus of the middle point of
+  $O\A$.
++ Examine whether point $(2, -5)$ lies on the curve $x^2 + y^2 - 2x + 1 = 0$.
++ If the equations $a\x^2 + 2h\xy + b\y^2 = 0$ and $y^2 - (m_1 + m_2)x\y + m_1m_2x^2 = 0$ represent the same
+  curve, find $m_1 + m_2$ and $m_1m_2$.
++ Find the locus of a variable point $(a\t^2, 2a\t)$, where $t$ is the parameter.
++ If the coordinates of a variable point $P$ be $(t + 1/t, t - 1/t)$, where $t$ is variable quantity, then
+  find the locus of $P$.
++ If the coordinates of a variable point $P$ be $(cos theta + sin theta, cos theta - sin theta)$, where
+  $theta$ is a variable quantity, then find the locus of $P$.
++ If $A(cos theta, sin theta)$, $B(sin theta, cos theta)$ and $C(1, 2)$ are the vertices of a $triangle
+  A\BC$, find the locus of its centroid if $theta$ varies.
++ The position of a moving point in the $x\y$-plane at time $t$ is $(u cos alpha .t, u sin alpha .t - k\t^2)$,
+  where $u, alpha, k$ are constants. Find the locus of the moving point.
++ A point moves so that its distance from the point $(-2, 3)$ is always three times its distance from the
+  point $(0, 3)$. Find equation to its locus.
++ $A$ and $B$ are two given points whose coordinates are $(-5, 3)$ and $(2, 4)$ respectively. A point $P$
+  moves in such a manner that $P\A:P\B = 3:2$. Find the equation to the locus of $P$.
++ $S$ is the point $(4, 0)$ and $M$ is the foot of perpendicular drawn from a point $P$ to the $y$-axis. If
+  $P$ moves such that the distance $P\S$ amd $P\M$ remain equal, find the locus to $P$.
++ Prove that the locus of the point equidistant from two given points is the straight line which bisects the
+  line segment joining the given points at right angles.
++ If a point $P$ moves such that its distance from $(a, 0)$ is always equal to $a + x$ coordinate of $P$,
+  show that the locus of $P$ is $y^2 = 4a\x$.
++ If $A(1, 2)$ and $B(-2, 3)$ are two fixed points, find the locus of a point $P$ so that area of $triangle
+  P\AB$ is $9$ units.

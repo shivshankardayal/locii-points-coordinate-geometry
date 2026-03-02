@@ -3,8 +3,6 @@
 
 = Answers of Coordinates
 
-== Problems
-
 #counter(enum).update(0)
 //1
 + The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ is given by

@@ -92,6 +92,7 @@
 #counter(heading).update(0)
 
 #include "coordinates-solutions.typ"
+#include "locus-solutions.typ"
 
 #show: appendices.with("Appendices", hide-parent: false)
 #include "fdl-1.3.typ"

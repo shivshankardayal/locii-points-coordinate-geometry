@@ -179,7 +179,7 @@ $= 1/2lr([(x_3- x_1)(y_1 + y_3) + (x_2 - x_3)(y_2 + y_3) - (x_2 - x_1)(y_1 + y_2
 
 On simplification, we obtain
 
-$ Delta = 1/2\lr([x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)]) $ <area-triangle>
+$ Delta = 1/2 lr([x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)]) $ <area-triangle>
 
 The equation can be represented in the determinant form as given below:
 
