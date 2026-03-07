@@ -86,6 +86,7 @@
 
 #include "coordinates.typ"
 #include "locus.typ"
+#include "straight-lines.typ"
 //#include "basics.typ"
 
 #part("Answers")

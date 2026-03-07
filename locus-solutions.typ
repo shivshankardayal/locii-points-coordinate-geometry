@@ -197,3 +197,46 @@
   $| -x - 3y + 7 | = 18$
 
   $x + 3y = -11$ or $x + 3y = 25$
++ Let $A(1,2)$ and let $Q(x,y)$ be a variable point on the curve $x^2 + y^2 + x + y = 0$.
+
+  Let $P(h,k)$ be the midpoint of $A\Q$. By the midpoint formula,
+
+  $h = (1 + x)/(2), k = (2 + y)(2)$.
+
+  Hence, $x = 2h - 1, y = 2k - 2$
+
+  Since $Q$ lies on the curve, $(2h - 1)^2 + (2k - 2)^2 + (2h - 1) + (2k - 2) = 0$
+
+  $=> 4h^2 - 4h + 1 + 4k^2 - 8k + 4 + 2h - 1 + 2k - 2 = 0$
+
+  $=> 2h^2 + 2k^2 - h - 3k + 1 = 0$
+
+  So the locus is $2x^2 + 2y^2 - x - 3y + 1 = 0$.
++ If $P(x,y)$ divides $A\Q$ internally in the ratio $3:1$, then by section formula,
+
+  $x = (3.3 cos theta + 1.2)/4$, $y = (3.2 sin theta + 1.3)/4$.
+
+  $x = (9 cos theta + 2)/4$, $y = (6 sin theta + 3)/4$.
+
+  Rearranging, $4x - 2 = 9 cos theta$, $4y - 3 = 6 sin theta$.
+
+  Thus, $cos theta = (4x - 2)/9$, $sin theta = (4y - 3)/6$.
+
+  Using $cos^2 theta + sin^2 theta = 1$,
+
+  $((4x - 2)/9)^2 + ((4y - 3)/6)^2 = 1$.
+
+  Hence the locus of $P$ is $((4x - 2)^2)/81 + ((4y - 3)^2)/36 = 1$.
++ Let a variable line through $A(6,-8)$ cut the $x$-axis at $Q(a,0)$.
+
+  Let $P(x,y)$ be the midpoint of $A\Q$.
+
+  By midpoint formula, $x = (6 + a)/2$, $y = (-8 + 0)/2$.
+
+  So, $x = (6 + a)/2$, $y = -4$.
+
+  From the first equation, $a = 2x - 6$.
+
+  Since $a$ is arbitrary (any real number), $x$ can take any real value, while $y$ is constant.
+
+  Hence the locus of $P$ is $y = -4$.

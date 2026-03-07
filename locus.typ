@@ -210,3 +210,9 @@ Find the equation to the locus of a point which moves so that
   show that the locus of $P$ is $y^2 = 4a\x$.
 + If $A(1, 2)$ and $B(-2, 3)$ are two fixed points, find the locus of a point $P$ so that area of $triangle
   P\AB$ is $9$ units.
++ If $P$ is the middle point of the straight line joining a given point $A(1, 2)$ and $Q$ where $Q$ is a
+  variable point on the curve $x^2 + y^2 + x + y = 0$. Find the locus of $P$.
++ $A(2, 3)$ is a fixed point and $Q(3cos theta, 2sin theta)$ a variable point. If $P$ divides $A\Q$
+  internally in the ratio $3:1$, find the locus of $P$.
++ From the point $A(6, -8)$ all possible lines are drawn to cut the $x$-axis. Find the locus of their middle
+  points.
