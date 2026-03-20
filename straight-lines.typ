@@ -286,9 +286,9 @@ Also, $sin(pi - theta) = (P\K)/(P\Q)=> sin theta = (y - y_1)/r => (y - y_1)/(sin
 
 Thus,
 
-$ (x - x_1)/(cos theta) = (y - y_1)/(sin theta) = r. $ <3.14>
+$ (x - x_1)/(cos theta) = (y - y_1)/(sin theta) = r. $ <3.14e>
 
-*Corollary:* From @3.14 we can say that $ x = x_1 + r cos theta, y = y_1 + r cos theta $
+*Corollary:* From @3.14e we can say that $ x = x_1 + r cos theta, y = y_1 + r cos theta $
 which is parametric form of a straight line.
 
 If $Q(x_1, y_1)$ be a point on a line $A\B$, which makes an angle $theta$ with the positive direction of
@@ -549,3 +549,279 @@ $l(a_1alpha + b_1beta + c_1) + m(a_2alpha + b_2beta + c_2) + n(a_3alpha + b_3bet
 $=> l.0 + m. 0 + n(a_3alpha + b_3beta + c_3) = 0 => a_3alpha + b_3beta + c_3 = 0$
 
 Thus, the third line also passes through $(alpha, beta)$.
+
+== Two Sides of a Straight Line
+Every line divides the plane in two regions. Any point which does not lie on the line can be only on one
+side of the straight line.
+
+We will show that a point $(alpha, beta)$ will be on one or the other side of the line $a\x + b\y + c = 0$
+according as the expression $a alpha + b beta + c > 0$ or $< 0$.
+
+#figure(
+    image("images/3_14.pdf"),
+    caption: [],
+) <3.14f>
+
+Let $A\B$ be the given line whose equation is $a\x + b\y + c = 0$. Let $P(alpha, beta)$ be a point which does
+not lie on this line.
+
+From $P$ we draw $P\Q$ perpendicular on $x$-axis. Let $P\Q$ cut line $A\B$ at $R$. Clearly, $x$ coordinate
+of $P$ and $R$ are same.
+
+Let $R equiv (alpha_1, beta_1)$. Since it lies on the line, therefore, $a alpha_1 + b beta_1 + c_1 = 0$.
+
+When $b > 0$, on left side of the @3.14f $P\Q > R\Q therefore beta > beta_1$ or $b beta > b beta_1$ or $a
+alpha + b beta + c > a alpha + b beta_1 + c$ or $a alpha + b beta + c > 0$
+
+Similarly, for right side of the figure we can estanlish $a alpha + b beta + c < 0$
+
+When $b < 0$, on left side of the @3.14f $P\Q > R\Q therefore beta > beta_1$ or $b beta < b beta_1$ or $a
+alpha + b beta + c < a alpha + b beta_1 + c$ or $a alpha + b beta + c < 0$
+
+Similarly, for right side of the figure we can estanlish $a alpha + b beta + c > 0$
+
+Thus, we see that $a alpha + b beta + c > 0$ or $< 0$ according as the point $P(alpha, beta)$ lies on one or
+the other side of the line $a\x + b\y + c = 0$.
+
+*Corollary:* It follows from previous article that two points $(x_1, y_1)$ and $(x_2, y_2)$ will lie on the
+same side or opposite side of the line $a\x + b\y + c = 0$ according as $a\x_1 + b\y_1 + c$ and $a\x_2 +
+b\y_2 + c$ are of the same sign or opposite sign.
+
+== Length of a Perpendicular
+We will find the length of the perpendicular from the point $(alpha, beta)$ to the line $a\x + b\y + c = 0$.
+
+#figure(
+    image("images/3_15.pdf"),
+    caption: [Length of a perpendicular],
+) <3.15f>
+
+Let the given line be $a\x + b\y + c = 0$ and given point be $P(alpha, beta)$. We have to find the length of
+the perpendicular from the point $P(alpha, beta)$ on line $A\B$.
+
+We draw $P\M$ perpendicular to $A\B$ and join $P\A$ and $P\B$. Let $P\M = p$.
+
+Putting $y = 0$ in the equation for the given line gives us $a\x + c = 0 => x = -c/a therefore A equiv
+lr((-c/a, 0))$
+
+Putting $x = 0$ in the equation for the given line gives us $b\y + c = 0 => y = -c/b therefore B equiv
+lr((0, - c/b))$
+
+Now $Delta P\AB = lr(|1/2[alpha(0 + c/b) - c/a.(-c/b - beta) + 0(beta - 0)]|) = 1/2 lr(|c/(a\b)|)|a alpha + b
+beta + c|$
+
+Again $Delta P\AB = 1/2.A\B.P\M = 1/2sqrt((-c/a - 0)^2 + (0 + c/b)^2). p = 1/2 lr(|c/(a\b)|)sqrt(a^2 +
+b^2).p$
+
+Equaating two obtained equations for $Delta P\AB$ gives us the length of the perpendicular, which is $ p =
+(|a alpha + b beta + c|)/sqrt(a^2 + b^2). $
+
+*Aliter:* Let $P\M$ make an angle $theta$ with the positive direction of $x$-axis, then the equation of
+$P\M$ in distance form is $(x - alpha)/(cos theta) = (y - beta)/(sin theta) = r$
+
+Coordinates of any point on $P\M$ at a distance $r$ from $P(alpha, beta)$ will be $(alpha + r cos theta,
+beta + r sin theta)$.
+
+Since $P\M = p$, therefore coordinates of $M$ is $(alpha + p cos theta, beta + p sin theta)$, which will lie
+on the line $a\x + b\y + c = 0$, thus,
+
+$a(alpha + p cos theta) + b(beta + p sin theta) + c = 0 => p(a cos theta + b sin theta) = -(a alpha + b beta
++ c)$
+
+Now slope of $A\B = -a/b therefore$ slope of $P\M = b/a therefore tan theta = b/a$ or $a/(cos theta) =
+b/(sin theta) = k$ (say) $therefore a = k cos theta, b = k sin theta$
+
+$=> a^2 + b^2 = k^2 therefore k = plus.minus sqrt(a^2 + b^2)therefore a = plus.minus sqrt(a^2 + b^2)cos
+theta => cos theta = plus.minus a/sqrt(a^2 + b^2)$.
+
+Similarly, $sin theta = plus.minus b/sqrt(a^2 + b^2)$
+
+Putting the values of $cos theta$ and $sin theta$ in the equation $p(a cos theta + b sin theta) = -(a alpha
++ b beta + c)$ gives us
+
+$p = -minus.plus (a alpha + b beta + c)/sqrt(a^2 + b^2)$
+
+Since $p$ is positive, therefore, $ p = (|a alpha + b beta + c|)/sqrt(a^2 + b^2). $
+
+*Aliter(Calculus Method):*
+#figure(
+    image("images/3_16.pdf"),
+    caption: [Length of a perpendicular],
+) <3.16f>
+
+Let $Q(x, y)$ be any point on the line $A\B$. Now $P\Q$ will be the length of the perpendicular if $P\Q$ is
+minimum. Hence, length of the perpendicular from $P$ on $A\B$ will be the least value of $P\Q$ when the
+point $Q(x, y)$ varies.
+
+Let $P\Q^2 = z$. Also, $P\Q$ will be least if and only if $P\Q^2$ i.e. $z$ is least.
+
+Now $z = (x - alpha)^2 + (y - beta)^2$
+
+Since $Q(x, y)$ lies on the line $a\x + b\y + c = 0$, therefore, $y = -(a\x + c)/b$
+
+$=> z = (x - alpha)^2 + lr((-(a\x + c)/b - beta)^2) = (x - alpha)^2 + lr((-(a\x + c)/b - beta)^2)$
+
+
+$(d\z)/(d\x) = 2(x - alpha) + 1/(b^2).2(a\x + b beta + c)$
+
+For maxima and minima of $z, (d\z)/(d\x) = 0$
+
+$=> x - alpha + a/(b^2)(a\x + b beta + c) = 0 => x - alpha + a/(b^2)(-b\y + b beta) = 0$
+
+$=> lr(((y - beta)/(x - alpha))) = b/a => (y - beta)/(x - alpha).lr((-a/b)) = -1$
+
+$therefore$ Slope of line $P\Q$.Slope of line $A\B = -1$
+
+Thus, when $(d\z)/(d\x) = 0, P\Q perp A\B$
+
+Since maximum length of $P\Q$ is not possible as it will be $infinity$ (tend to $infinity$) and hence
+$(d\z)/(d\x) = 0$ gives the minimum length of $P\Q$.
+
+Length of perpendicular $z = sqrt((x - alpha)^2 + (y - beta)^2)$
+
+But if $(d\z)/(d\x) = 0$ then $(x - alpha)/a = (y - beta)/b = (a(x - alpha) + b(y - beta)/(a^2 + b^2))$
+
+$= (a\x + b\y + c - (a alpha + b beta + c))/(a^2 + b^2) = -(a alpha + b beta + c)/(a^2 + b^2)$
+
+$x - alpha = - (a(a alpha + b beta + c))/(a^2 + b^2)$ and $y - beta = -(b(a alpha + b beta + c))/(a^2 +
+b^2)$
+
+$z = (|a alpha + b beta + c|)/sqrt(a^2 + b^2) = p$
+
+*Note:* Length of perpendicular from origin on line $a\x + b\y + c = 0$ is $(|c|)/sqrt(a^2 + b^2)$
+
+== Bisectors of Angles between Straight Lines
+#figure(
+    image("images/3_17.pdf"),
+    caption: [Bisectors of angles between straight lines],
+) <3.17f>
+
+We will find the equation of the bisectors of the angles between the straight lines $a_1x + b_1y + c_1 = 0$
+and $a_2x + b_2y + c_2 = 0$.
+
+Let the given lines be $A\B$ and $C\D$ whose equations are $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 =
+0$.
+
+Let $L\M$ and $R\S$ be the two bisectors of the angles between $A\B$ and $C\D$. Let $P(x, y)$ be the point
+on any bisector. Since $P$ lies on a bisector, therefore, the lengths of perpendiculars on two lines will be
+equal.
+
+Thus, the length of perpendicular from $P$ to $A\B$ will be equal to the length of the perpendicular from
+$P$ to $C\D$.
+
+$=> (|a_1x + b_1y + c_1|)/sqrt(a_1^2 + b_1^2) = (|a_2x + b_2y + c_2|)/sqrt(a_2^2 + b_2^2)$
+
+Thus,
+
+$ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = plus.minus (a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2) $
+
+are the equations of two bisectors.
+
+*Note:* If $P(x, y)$ is taken on  the bisector of the angle which contains the origin then either $O(0, 0)$
+and $P(x, y)$ will lie on the same sides of two lines. Thus,
+
+$a_1x + b_1y + c_1 > 0$ and $a_2x + b_2y + c_2 > 0$
+
+or $O(0, 0)$ and $P(x, y)$ will lie on the oppposite side of the two lines i.e.
+
+$a_1x + b_1y + c_1 < 0$ and $a_2x + b_2y + c_2 < 0$
+
+Then equation of bisectors will be
+
+$(|a_1x + b_1y + c_1|)/sqrt(a_1^2 + b_1^2) = (|a_2x + b_2y + c_2|)/sqrt(a_2^2 + b_2^2)$
+
+i.e. $(a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = (a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2)$ when both $a_1x +
+b_1y + c_1$ and $a_2x + b_2y + c_2$ are positive
+
+or $-(a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = -(a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2)$ when both $a_1x +
+b_1y + c_1$ and $a_2x + b_2y + c_2$ are negative.
+
+Thus, in both the cases equation of the bisector containing the origin when $c_1$ and $c_2$ are both
+positive is
+
+$ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = (a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2) $
+
+When both $c_1$ and $c_2$ are positive, then the equation of the bisector of the angle between the lines
+which does not contain the origin is
+
+$ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = -(a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2) $
+
+The two bisectors are perpendicular to each other.
+
+=== Finding Bisector of the Acute and Obtuse Angles
+To find the bisector of the acute and obtuse angles take any line out of $a_1x + b_1y + c_1 = 0$ and $a_2x +
+b_2y + c_2 = 0$ and any of the bisectors obtained. Let $theta$ be the angle between them. Find $|tan
+theta|$. The bisector considered will be the bisector of the acute angle or obtuse angle between the lines
+according as $theta < 45^degree$ or $theta > 45^degree$ i.e. according as $|tan theta| < 1$ or $> 1$.
+
+*Aliter:* Let the equations of the two lines be $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$, where
+$c_1 > 0$ and $c_2 > 0$
+
+Then the equation $(a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = (a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2)$ is the
+equation of the bisector of the acute or obtuse angle between the lines according as $a_1a_2 + b_1b_2 < 0$
+or $> 0$.
+
+Slope of bisector $= m_1 = -(a_1sqrt(a_2^2 + b_2^2) - a_2sqrt(a_1^2 + b_1^2))/(b_1sqrt(a_2^2 + b_2^2) -
+b_2sqrt(a_1^2 + b_1^2))$ and slope of first line is $m_2 = -(a_1)/(b_1)$.
+
+Angle between first line and bisector is $tan theta = (m_1 - m_2)/(1 + m_1m_2) = (a_1b_2 -
+a_2b_1)/sqrt((a_1b_2 - a_2b_1)^2 + (a_1a_2 + b_1b_2)^2 - (a_1a_2 + b_1b_2))$
+
+Let $alpha = a_1b_2 - a_2b_1$ and $beta = a_1a_2 + b_1b_2$ then $|tan theta| = (|alpha|)/sqrt(alpha^2 +
+beta^2 - beta)$
+
+If $beta < 0$ then $sqrt(alpha^2 + beta^2 - beta) > |alpha| - beta > |alpha|$, therefore, $|tan theta| < 1$
+and hence, the bisector is the bisector of acute angle between the lines.
+
+If $beta > -0$ then $sqrt(alpha^2 + beta^2) lt.eq |alpha| + |beta| => sqrt(alpha^2 + beta^2 - beta) lt.eq
+|alpha|$, therefore, $|tan theta| > 1$, and hence, the bisector is the bisector of obtuse angle between the
+lines.
+
+Similarly, we can show that the equation $(a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = -(a_2x + b_2y +
+c_2)/sqrt(a_2^2 + b_2^2)$ is the equation of the bisector of the acute or obtuse angles according as $a_1a_2
++ b_1b_2 > 0$ or $< 0$.
+
+=== Bisectors Between Lines Containing a Given Point
+Let the equations be of the lines be $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$.
+
+Let $(alpha, beta)$ be a given point. If $a_1alpha + b_1beta + c_1$ and $a_2alpha + b_2beta + c_2$ are of
+the same sign then equation of the bisector of the angle containing the point $(alpha, beta)$ is
+
+$ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = (a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2) $
+
+Let $(x_1, y_1)$ be a point on the bisector then $(a_1x_1 + b_1y_1 + c_1)/sqrt(a_1^2 + b_1^2) = (a_2x_1 +
+b_2y_1 + c_2)/sqrt(a_2^2 + b_2^2)$
+
+Since $sqrt(a_1^2 + b_1^2)$ and $sqrt(a_2^2 + b_2^2)$ are both posiitive, therefore, $a_1x_1 + b_1y_1 + c_1$
+and $a_2x_1 + b_2y_1 + c_1$ are of the same sign.
+
+*Case I:* When both $a_1x_1 + b_1y_1 + c_1$ and $a_2x_1 + b_2y_1 + c_1$ are positive.
+#figure(
+    image("images/3_18.pdf"),
+) <3.18f>
+
+Since $a_1alpha + b_1beta + c_1$ and $a_1x_1 + b_1y_1 + c_1$ are both posiitive, therefore, points $P(x_1,
+y_1)$ and $Q(alpha, beta)$ will lie on the same side of the line $a_1x + b_1y + c_1 = 0$. Agains since
+$a_2alpha + b_2beta + c_2$ and $a_2x_1 + b_2y_1 + c_2$ are both posiitive, therefore, points $P(x_1,
+y_1)$ and $Q(alpha, beta)$ will lie on the same side of the line $a_2x + b_2y + c_2 = 0$.
+
+The figure will be like @3.18f.
+
+*Case II:* When both $a_1x_1 + b_1y_1 + c_1$ and $a_2x_1 + b_2y_1 + c_1$ are negative.
+
+In this case $a_1alpha + b_1beta + c_1$ and $a_1x_1 + b_1y_1 + c_1$ are of opposite sign, therefore, points
+$P(x_1, y_1)$ and $Q(alpha, beta)$ will lie on opposite side of the line $a_1x + b_1y + c_1 = 0$.
+
+Again since $a_2alpha + b_2beta + c_2$ and $a_2x_1 + b_2y_1 + c_2$ are of opposite sign, therefore, points
+$P(x_1, y_1)$ and $Q(alpha, beta)$ will lie on opposite side of the line $a_2x + b_2y + c_2 = 0$.
+
+Thus, in this case figure will be as given below:
+#figure(
+    image("images/3_19.pdf"),
+) <3.19f>
+
+Similarly, if $a_1alpha + b_1beta + c_1$ and $a_2alpha + b_2beta + c_2$ are of opposite sign then the
+equation of the bisector of the angle containing the point $(alpha, beta)$ is
+
+$ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = -(a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2). $
+
+*Aliter:*
