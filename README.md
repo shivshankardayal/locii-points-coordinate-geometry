@@ -1,7 +1,7 @@
-# Geometry wiith Trigonometry
+# Loci of Points in Coordinate Geometry
 
 ## Help wanted
-If you can create new and difficult problems to the topics then please help by
+If you can create new and involving problems to the topics then please help by
 doing so. Please create a PR or send me text of the problem and I will add it.
 
 ## This book is written as a way to give back to the world for what I have received.
