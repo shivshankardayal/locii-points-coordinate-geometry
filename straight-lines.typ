@@ -824,4 +824,113 @@ equation of the bisector of the angle containing the point $(alpha, beta)$ is
 
 $ (a_1x + b_1y + c_1)/sqrt(a_1^2 + b_1^2) = -(a_2x + b_2y + c_2)/sqrt(a_2^2 + b_2^2). $
 
-*Aliter:*
+*Aliter:* Let the equations of lines $A\B$ and $C\D$ are $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 =
+0$, where $c_1$ and $c_2$ are positive.
+
+These equations in normal form will be
+
+$-(a_1x)/sqrt(a_1^2 + b_1^2) - (b_1y)/sqrt(a_1^2 + b_1^2) = (c_1)/sqrt(a_1^2 + b_1^2)$ and
+$-(a_2x)/sqrt(a_2^2 + b_2^2) - (b_2y)/sqrt(a_2^2 + b_2^2) = (c_2)/sqrt(a_2^2 + b_2^2)$
+
+Let $cos alpha = -(a_1)/sqrt(a_1^2 + b_1^2), cos beta = -(a_2)/sqrt(a_2^2 + b^2), sin alpha =
+-(b_1)/sqrt(a_2^2 + b_2^2), sin beta = -(b_2)/sqrt(a_2^2 + b^2)$
+
+Now $cos(beta - alpha) = cos alpha cos beta + sin alpha sin beta = (a_1a_2 + b_1b_2)/(sqrt(a_1^2 +
+b_1^2)sqrt(a_2^2 + b_2^2))$
+
+$beta - alpha$ will be acute or obtuse according as $a_1a_2 + b_1b_2 > 0$ or $< 0$
+
+Now $angle C\AB$ will be acute or obtuse according as $beta - alpha$ is obtuse or acute i.e. according as
+$a_1a_2 + b_1b_2 < 0$ or $> 0$
+
+But $angle C\AB$ contains the origin, therefore, origin will be contained in the acute or obtuse angle
+according as $a_1a_2 + b_1b_2 < 0$ or $> 0$
+
+Hence, bisector of the angle between the lines will be bisector of the acute or obtuse angle according as
+origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$ or $> 0$.
+
+== Problems
+#set enum(
+  full: true,
+  numbering: (..nums-arguments) => context {
+    let nums = nums-arguments.pos()
+    if nums.len() == 1 {
+      let thread-counter = counter("ex2")
+      thread-counter.step()
+      let thread-count = thread-counter.get().first() + 1
+        numbering("1.a.", thread-count)
+    } else {
+        numbering("1.a.", nums.last())
+    }
+  },
+)
+
++ Find the equation of the straight line cutting off an intercept $5$ from the positive direction of $y$-axis,
+  and inclined at angle $45^degree$ to the $x$-axis.
++ Find the equation of the straight line passing through the point $(2, -3)$ and cutting off intercepts,
+  equal but of opposite signs from the two axes.
++ Find the equation of the straight line which passes through the point $(-5, 4)$ and is such that the
+  portion of it between the axes is doivided by the point in the ratio of $1:2$.
++ Find the normal form of the equation $x + y sqrt(3) + 7 = 0$.
++ Find the equation of the straight line which passes through the points $(-1, 3)$ and $(4, -2)$.
++ Find the equation of the straight line cutting off intercept unity from the positive direction of the
+  $y$-axis and inclines at $45^degree$ to the $x$-axis.
++ Find the equation of the straight line cutting off intercept $-5$ from the $y$-axis and being equally
+  inclined to the axes.
++ Find the equation of the straight line cutting off intercept $2$ from the negative direction of $y$-axis
+  and incllined at $30^degree$ to $O\X$.
++ Find the equation of the straight line cutting off intercept $-3$ from the $y$-axis and inclines at an
+  angle $tan^(-1)3/5$ to the $y$-axis.
++ Find the equation of the straight line cutting off intercepts $3$ and $2$ from the axes.
++ Find the equation of the straight line cutting off intercepts $-5$ and $6$ from the axes.
++ Find the equation of the straight line which passes through the point $(5, 6)$ and has intercept on the
+  axes equal in magnitude and both positive. Find the equation if intercepts are equal in magnitude but
+  opposite in sign.
++ Find the equations of the straight lines which passes through the point $(1, -2)$ and cut off equal
+  distances from the two axes.
++ Find the equation of the straight line which passes through the point $(x', y')$ and is such that the
+  given point bisects the part intercepted between the axes.
++ Find the equation of the straight line which passes through the point $(-4, 3)$ and is such that the
+  portion of it between the axes is divided by the point in the ratio $5:3$.
++ Find the equation of the straight line passing through the points $(0, 0)$ and $(2, -2)$.
++ Find the equation of the straight line passing through the points $(3, 4)$ and $(5, 6)$.
++ Find the equation of the straight line passing through the points $(-1, 3)$ and $(6, -7)$.
++ Find the equation of the straight line passing through the points $(0, -a)$ and $(b, 0)$.
++ Find the equation of the straight line passing through the points $(a, b)$ and $(a + b, a - b)$.
++ Find the equation of the straight line passing through the points $(a\t_1^2, 2a\t_1)$ and $(a\t_2^2, 2a\t_2)$.
++ Find the equation of the straight line passing through the points $(a\t_1, a/t_1)$ and $(a\t_2, a/t_2)$.
++ Find the equation of the straight line passing through the points $(a cos phi_1, a sin phi_1)$ and $(a cos
+  phi_2, a sin phi_2)$.
++ Find the equation of the straight line passing through the points $(a cos phi_1, b sin phi_1)$ and $(a cos
+  phi_2, b sin phi_2)$.
++ Find the equation of the straight line passing through the points $(a sec phi_1, b tan phi_1)$ and $(a sec
+  phi_2, b tan phi_2)$.
++ Find the equations og the sides of the triangle the coordinates of whose angular points are respectively
+  $(1, 4), (2, -3)$ and $(-1, -2)$.
++ Find the equations of the sides of the triangle the coordinates of whose angular points are respectively
+  $(0, 1), (2, 0)$ and $(-1, -2)$.
++ Find the equations of the diagonals of the rectangle the equations of whose sides are $x = a, x = a', y =
+  b$, and $y = b'$.
++ Find the equation of the straight line which bisects the distance between the points $(a, b)$ and $(a',
+  b')$ and also bisects the distance between the points $(-a, b)$ and $(a', -b')$.
++ Find the equations of the straight lines which go through the origin and trisect the portion of the
+  straight line $3x + y = 12$ which is intercepted between the axes of coordinates.
++ Find the equation of the straight line which makes an angle of $15^degree$ with the positive direction of
+  $x$-axis, and which cuts an intercept of length $4$ on the negative direction of $y$-axis.
++ Find the equation of the straight line which cuts off an intercept $4$ from the $x$-axis and makes an
+  angle of $30^degree$ with the $y$-axis.
++ Find the equation of the straight line which passes through the point $(1, 2)$ and makes an angle $theta$
+  with the positive direction of $x$-axis where $cos theta = -1/3$.
++ Find the equation of the line joining the points $(-1, 3)$ and $(4, -2)$.
++ A line through the point $A(2, 0)$ which makes an angle of $30^degree$ with the positive direction of
+  $x$-axis is rotated about $A$ in clockwise direction through an angle of $15^degree$. Find the equation of
+  the straight line in the new position.
++ Find the equation of the internal bisector of the $angle B\AC$ of the $triangle A\BC$ whose vertices $A,
+  B, C$ are $(5, 2), (2, 3), (6, 5)$ respectively.
++ A rectangle has two opposite vertices at the point $(1, 2)$ and $(5, 5)$. If the other vertices lies on
+  the line $x = 3$, find the equation of the sides of the triangle.
++ In the given figure $P\QR$ is an equilateral triangle and $O\SP\T$ is a square. If $O\T = 2sqrt(2)$ units,
+  find the equation of lines $O\T, O\S, S\P, Q\R, P\R$ and $P\Q$.
+  #figure(
+      image("images/3_23.pdf")
+  ) <3.23f>
