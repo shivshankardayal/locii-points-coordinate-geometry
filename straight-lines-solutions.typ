@@ -238,3 +238,317 @@
   Equation of side $C\D$ is $y - 5 = (5 - 6)/(5 - 3)(x - 5) => x + 2y = 15$.
 
   Equation of side $A\D$ is $y - 2 = (2 - 6)/(1 - 3)(x - 1) => 2x = y$.
++ Equation of $O\T:$ Slope of $O\T = tan 45^degree = 1$ and it passes through $O(0, 0)$.
+
+  Thus, equation is $y - 0= 1.(x - 0) => y = x$.
+
+  Equation of $O\S:$ Slope of $O\S = tan 135^degree = -1$ nad it passes through $O(0, 0)$.
+
+  Thus, equation is $y - 0 = -1(x - 0) => x + y = 0$.
+
+  Equation of $S\P:$ Given $O\T = 2sqrt(2) therefore O\P = O\T sec 45^degree = 4 therefore P equiv (0, 4)$.
+
+  Also, slope of the line $S\P$ is $tan 45^degree = 1$.
+
+  Thus, equation is $y - 4 = 1(x - 0) => y = x + 4$.
+
+  Equation of $Q\R:$ Given $O\Q = O\T sec 45^degree = 4 therefore Q equiv (4, 0)$.
+
+  Slope of line $Q\R = tan 75^degree = tan(45^degree + 30^degree) = (1 + 1/sqrt(3))/(1 - 1/sqrt(3)) = 2 +
+  sqrt(3)$.
+
+  Thus, equation is $y - 0 = (2 + sqrt(3))(x - 4) => (2 + sqrt(3))x - y - 8 - 4sqrt(3) = 0$.
+
+  Equation of $P\R:$ $P equiv (4, 0)$. Slope of line $P\R = tan 15^degree = tan(45^degree - 30^degree) = (1
+  - 1/sqrt(3))/(1 + 1/sqrt(3)) = 2 - sqrt(3)$.
+
+  Thus, equation is $y - 4 = (2 - sqrt(3))(x - 0) => (2 - sqrt(3))x - y + 4 = 0$.
+
+  Equation of $P\Q:$ $P equiv (0, 4)$ and $Q equiv = (4, 0)$.
+
+  Thus, equation is $y - 4 = (4 - 0)/(0 - 4)(x - 0) => x + y = 4$.
++ Let $A\D, B\E$ and $C\F$ meet at $O$. We take $O$ as origin. Let the coordinates of points $A, B$ and $C$
+  be $(x_1, y_1), (x_2, y_2)$ and $(x_3, y_3)$ respectively.
+
+  Let $D$ divide $B\C$ in the ratio $k:1$ i.e. $(B\D)/(D\C) = k$ then $D equiv ((k\x_3 + x_2)/(k + 1), (k\y_3
+  + y_2)/(k + 1))$
+
+  Also, equation of line $A\D$ is $y - 0 = (y_1 - 0)/(x_1 - 0)(x - 0) => y = y_1/x_1 x$
+
+  Since $D$ lies on $A\D$, therefore, $(k\y_3 + y_2)/(k + 1) = y_1/x_1((k\x_3 + x_2)/(k + 1))$
+
+  $k = (B\D)/(D\C) = (x_2y_1 - x_1y_2)/(x_1y_3 - x_3y_1)$
+
+  Similarly, $(C\E)/(E\A) = (x_3y_2 - x_2y_3)/(x_2y_1 - x_1y_2)$, and $(A\F)/(F\B) = (x_1y_3 -
+  x_3y_1)/(x_3y_2 - x_2y_3)$
+
+  Thus, $(B\D)/(D\C).(C\E)/(E\A).(A\F)/(F\B) = 1$.
++ #figure(
+      image("images/3_24.pdf")
+  ) <3.24f>
+
+  Let $P\QR\S$ be the square inscribed in the $triangle A\BC$. Let $P equiv (a, 0)$ and length of each side
+  of the square be $k$ then $S equiv (a + k, 0), Q equiv (a, k), R equiv (a + k, k)$.
+
+  Equation of the line $A\B$ is $y - 0 = (1 - 0)/(2 - 0)(x - 0) => x = 2y$.
+
+  Equation of the line $B\C$ is $y - 0 = (0 - 1)/(3 - 2)(x - 3) => x + y = 3$.
+
+  Since $Q(a, k)$ lies on $A\B$, therefore, $a = 2k$.
+
+  Again $R(a + k, k)$ lies on $B\C$, therefore, $a + 2k = 3 => k = 3/4, a = 3/2$.
+
+  Hence, $P equiv (3/2, 0), Q equiv (3/2, 3/4), R equiv (9/4, 3/4)$ and $S equiv (9/4, 0)$.
++ Equation of the given line is $sqrt(3)y - 3x = 3 => y = sqrt(3)x + sqrt(3)$, which is of the form $y = m\x
+  + c$.
+
+  Slope of the line is $sqrt(3) = tan 60^degree$. Thus, the given line makes an angle of $60^degree$ with
+  the $x$-axis.
++ Since slope and intercept are given, therefore, slope-intercept form can be used. Given that $m = 3, c =
+  7$, therefore, equation of the straight line is $y = 3x + 7$.
++ Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
+
+  $m = tan 75^degree = tan(45^degree + 30^degree) = (1 + 1/sqrt(3))/(1 - 1/sqrt(3)) = 2 + sqrt(3)$, and $c =
+  3$.
+
+  Therefore, the equation of the line is $y = (2 - sqrt(3))x + 3$.
++ Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
+
+  $m = tan sin^(-1)(12)/(13) = 5/(13)$ and $c = -5$
+
+  Therefore, the equation of the line is $y = 5/(13)x -5 => 5x - 13y = 65$.
++ Since the line is parallel to $x$-axis, therefore, it will make an angle of $0^degree$ with $x$-axis
+  i.e. $m = tan 0^degree = 0$. Also, since its distance from $x$-axis is $5$units, therefore, the intercept
+  on $y$-axis is $5$, which makes intercept $c = 5$.
+
+  Thus, equation of the line would be $y = 0.x + 5 => y = 5$.
+
+  Since it is not given that intercept is from positive or negative direction of $y$-axis, therefore, the
+  other line would be $y + 5 = 0$.
++ Since the line is parallel to $y$-axis therefore the equation would be $x = k$, where $k$ is the intercept
+  on $x$-axis, which is given as $-4$. Therefore, the equation of the line is $x = -4$.
++ Lines parallel and perpendicular to $x$-axis are given by $x = k$ and $y = p$, where $k$ and $p$ are
+  distance of the line from the $y$-axis and $x$-axis.
+
+  Since these lines pass through $(5, 3)$, therefore, $x = 5$ and $y = 3$ are the desired equations of the
+  straight lines.
++ Since the line makes an angle of $135^degree$ with positive direction of the $y$-axis, therefore, it makes
+  an angle of $135^degree$ with positive direction of the $x$-axis. Thus, slope of the line is $m = tan
+  135^degree = -1$.
+
+  Also give that it cuts an intercept of $2$ from positive direction of the $x$-axis, which means that it
+  passes through $(2, 0)$.
+
+  Thus, equation of the straight line would be $y - 0 = -1.(x - 2) => x + y = 2$.
++ Since the slope is $2$ and the line cuts an intercept of $4$ on $x$-axis i.e. it passes through $(4, 0)$
+  the equation of the line would be
+
+  $y = 0 = 2(x - 4) => 2x -y = 8$.
++ Since the line makes an angle of $60^degree$ with the positive direction of the $y$-axis, therefore, it
+  would make an angle of $30^degree$ with the positive direction of $x$-axis. Therefore, the slope of the
+  line is $m = tan 30^degree = 1/sqrt(3)$.
+
+  Also given that the line passes through $(3, -2)$, thus the equation of the line would be
+
+  $y + 2 = 1/sqrt(3)(x - 3) => x - sqrt(3)y = 3 + 2sqrt(3)$.
++ Slope is given by $m = (y_2 - y_1)/(x_2 - x_1) = (2 - 4)/(1 - 3) = 1$.
+
+  The equation of the line would be $y - 4 = 1.(x - 3) => x - y + 1 = 0$.
++ The equation of the line is given by $y - b = (b + r sin theta - b)/(a + r cos theta - a)(x - a)$
+
+  $=> x tan theta - y = a tan theta - b$.
++ The equation of the straight line is given by $y + 3 = (2 + 3)/(-4 - 1)(x - 1) => x + y + 2 = 0$.
++ Equation of the straight line passing through $(1, 4)$ and $(3, -2)$ is given by
+
+  $y - 4 = (-2 - 4)/(3 - 1)(x - 1) => 3x + y = 7$.
+
+  Now we put $(-3, 16)$ in this equation which gives us $3.-3 + 16 = 7$, which is true. Thus, the point
+  $(-3, 16)$ also lies on the same line making the points collinear. We could have found the equation
+  between $(3, -2)$ and $(-3, 16)$ which would also give the same equation.
+
+  Another way would be finding the area of the triangle whose vertices are the given three points and we
+  will find that area of the triangle is zero; making the points collinear.
++ Line passing through $(a, b)$ and $(a_1, b_1)$ is given by
+
+  $y - b = (b_1 - b)/(a_1 - a)(x - a) => (b_1 - b)x - a(b_1 - b) = (a_1 - a)y - b(a_1 - a)$
+
+  $=> (b_1 - b)x - a\b_1 = (a_1 - a)y - a_1b$
+
+  Now $(a - a_1, b - b_1)$ also lies on this point, therefore, it should satisfy the above equation.
+
+  Thus, $(b_1 - b)(a - a_1) - a\b_1 = (a_1 - a)(b - b_1) - a_1b => a\b_1 - a\b - a_1b_1 + a_1b - a\b_1 = a_1b -
+  a_1b_1 - a\b + a\b_1 - a_1b$
+
+  $=> a\b_1 = a_1b$.
+
+  Thus, the equation of the line becomes $(b_1 - b)x = (a_1 - a)y$, which clearly passes through the origin.
++ The equation of the straight line which passes through $(1, 2)$ and $(-3, 0)$ is given by
+
+  $y - 2 = (0 - 2)/(-3 - 1)(x - 1) => 2y = x + 3$.
+
+  For the points to be collinear $(t - 1, 3)$ has to be on this line. Thus,
+
+  $2.3 = t - 1 + 3 => t = 4$.
+  // 57
++ The equation of the straight line which passes through $(p, q + r)$ and $(q, r + p)$ is given by
+
+  $y - q - r = (r + p - q - r)/(q - p)(x - p) => x + y = p + q + r$.
+
+  If the line passes through $(r, p + q)$ then it would satisfy the obtained equation of the line. Putting
+  the point in the obtained equation we have
+
+  $r + p + q = p + q + r$, which is true. Hence, proved.
++ Point dividing the line segment joining the points $(-1, 2)$ and $(4, -5)$ externally in the ratio $2:3$
+  is given by
+
+  $((2.4 - 3.-1)/(2 - 3), (2.-5 - 3.2)/(2 - 3)) equiv (-11, 16)$.
+
+  The equation of the line passing through $(1, 2)$ and $(-11, 16)$ is given by
+
+  $y - 2 = (16 - 2)/(-11 - 1)(x - 1) => 7x + 6y - 19 = 0$.
++ The equation of $B\C$ is given by $y - 1 = (0 - 1)/(2 - 0)(x - 0) => x + 2y = 2$.
+
+  The vertex $A$ is $(-1, -2)$ and median passing through it will bisect $B\C$ i.e. it will pass through the
+  point $(1, 1/2)$.
+
+  Thus, equation of the median is given by
+
+  $y + 2 = (1/2 + 2)/(1 + 1)(x + 1) => 5x - 4y - 3 = 0$.
++ The mid-point of $(2, 3)$ and $(5, 4)$ is $(7/2, 7/2)$. The equation of the median passing through $(1,
+  2)$ and $(7/2, 7/2)$ is given by
+
+  $y - 2 = (7/2 - 2)(7/2 - 1)(x - 1) => 3x - 5y + 7 = 0$.
+
+  The mid-point of $(1, 2)$ and $(2, 3)$ is $(3/2, 5/2)$. The equation of the median passing through $(5,
+  4)$ and $(3/2, 5/2)$ is given by
+
+  $y - 4 = (5/2 - 4)/(3/2 - 5)(x - 5) => 3x - 7y + 13 = 0$.
+
+  The mid-point of $(1, 2)$ and $(5, 4)$ is $(3, 3)$. The equation of the median passing through $(2, 3)$
+  and $(3, 3)$ is given by
+
+  $y - 3 = (3 - 3)/(3 - 2)(x - 2) => y = 3$.
++ Let the line segment joining $A(2,3)$ and $B(-1,4)$ be divided by the line $x + y + 1 = 0$ in the ratio $m:n$.
+
+  Using the section formula, the point of division $P$ is
+  $P = ((m*(-1) + n*2)/(m + n), (m*4 + n*3)/(m+n))$.
+
+  Since $P$ lies on $x + y + 1 = 0$, substitute: $((-m + 2n)/(m+n)) + ((4m + 3n)/(m+n)) + 1 = 0$
+
+  $=> ( -m + 2n + 4m + 3n )/(m+n) + 1 = 0 =>(3m + 5n)/(m+n) + 1 = 0 =>m/n = -3/2$
+
+  Hence, the line divides the segment externally in the ratio $-3:2$, i.e., $3:2$ externally.
++ Let $A(2,3)$ and $B(4,1)$. Let the line through $(1,2)$ and $(4,3)$ divide $A\B$ in the ratio $m:n$ at point $P$.
+
+  Point $P = ((m.4 + n.2)/(m + n), (m.1 + n.3)/(m + n))$.
+
+  Slope of line through $(1,2)$ and $(4,3)$ is $(3-2)/(4-1) = 1/3$.
+
+  Equation of this line: $y - 2 = (1/3)(x - 1)$.
+
+  Substituting $P$: $((m + 3n)/(m+n)) - 2 = (1/3)((4m + 2n)/(m+n) - 1)$
+
+  Simplifying LHS: $(m + 3n - 2m - 2n)/(m+n) = (-m + n)/(m+n)$
+
+  RHS: $(1/3)((4m + 2n - m - n)/(m+n)) = (1/3)((3m + n)/(m+n))$
+
+  So, $(-m + n)/(m+n) = (3m + n)/(3(m+n))$ $=> n = 3m => m:n = 1:3$.
+
+  Hence, the line divides the segment internally in the ratio $1:3$.
++ $D equiv ((2.1 + 1.-1)/(2 + 1), (2.-3 + 1.-2)/(2 + 1)) = (1/3, -8/3)$
+
+  Let mid-point of $A\C$ is $M$ then $M equiv (3/2, -1/2)$.
+
+  Equation of $B\M$ is given by $y + 2 = (-1/2 + 2)/(3/2 + 1)(x + 1) => 5y + 10 = 3x + 3 => 3x - 5y = 7$
+
+  Equation of $A\D$ is given by $y - 2 = (-8/3 - 2)/(1/3 - 2)(x - 2) => 5y - 10 = 14x - 28 => 14x - 5y = 18$
+
+  The point of intersection of two obtained equations is given by $(1, -4/5)$.
+
+  Let this point divide $B\M$ in the ratio of $k:1$, then
+
+  $1 = (k*3/2 + 1.-1)(k + 1) => k + 1 = 3/2k - 1 => k = 4$. Thus ratio is $4:1$.
++ The equation of the the line can be written as $y = sqrt(3)x + 3$. Comparing it will $y = m\x + c$ gives
+  us $m = sqrt(3)$ and $c = 3$.
+
+  Thus, slope of the line $m = sqrt(3) = tan 60^degree$. Thus, the line makes an angle of $60^degree$ with
+  the positive direction of the $x$-axis.
+
+  $c = 3$ tells us that the intercept on $y$-axis is $3$ in positive direction.
+  //65
++ Let the equation of the line be $x/a + y/b = 1$.
+
+  It is given that $b = 2a$ which makes the equation of the line $2x + y = 2a$.
+
+  Since it passes through $(3, 4)$, therefore, $2.3 + 4 = 2a => a = 5$, which makes the equation $2x + y =
+  10$.
+  //66
++ Let the equation of the line is $x/a + y/b = 1$ so the point on $x$-axis where this line meets is $(a, 0)$
+  and on $y$-axis it is $(0, b)$.
+
+  Given that $(3, 4)$ divdes the line segment joining $(a, 0)$ and $(b, 0)$ in the ratio of $2:3$,
+  therefore,
+
+  $3 = (2.0 + 3.a)(2 + 3) => a = 5$ and $4 = (2.b + 3.0)/(2 + 3) => b = 10$
+
+  Thus, equation of the line is $2x + y = 10$.
+  //67
++ The line $3x + 4y = 12$ can be written as $x/4 + y/3 = 1$ so the intercept of $x$-axis is $4$ and the
+  intercept on $y$-axis is $3$.
+
+  Thus, according to the question the required line makes an intercept of $8$ on $x$-axis and $9$ on
+  $y$-axis. Thus, the required line is
+
+  $x/8 + y/9 = 1 => 9x + 8y = 72$.
+  //68
++ $a\x + b\y + c = 0$ can be written as $-x/(c/a) - y/(c/b) = 1$. Thus, intercept on $x$-axis is $-c/a$ and on
+  $y$-axis is $-c/b$.
+
+  Let the equation of the line be $y = m\x + c$, but since the line passes through origin $c = 0$.
+
+  Now mid-point of the intercept is given by $(-c/(2a), -c/(2b))$. Putting this point in the line
+
+  $-c/(2b) = -m\c/(2a) => m = a/b$, which makes the line $a\x = b\y$.
+  //69
++ Given line is $3x + 4y = 12 => x/4 + y/3 = 1$. Let this line cut $x$ and $y$ axes at $A$ and $B$
+  respectively. Then $A equiv (4, 0)$ and $B equiv (0, 3)$.
+
+  Let $P$ and $Q$ be the points which trisect $A\B$ such that $(A\P)/(P\B) = 1:2$ and $(A\Q)/(B\Q) = 2:1$
+
+  $=> P equiv ((1.0 + 2.4)/3, (1.3 + 2.0)/3) = (8/3, 1)$ and $Q equiv ((2.0 + 1.4)/3, (2.3 + 1.0)/3) = (4/3,
+  2)$
+
+  Equation of the line passing through origin and $P$ is given by $y - 0 = (1 - 0)/(8/3 - 0)(x - 0) => 3x -
+  8y = 0$.
+
+  Equation of the line passing through origin and $Q$ is given by $y - 0 = (2 - 0)(4/3 - 0)(x - 0) => 3x -
+  2y = 0$.
+  //70
++ Let the line be $x/a + y/b = 1$, which will cut intercepts $a$ and $b$. According to question
+
+  $1/a + 1/b = k$, where $k$ is a constant. Thus, $(1/k)/a + (1/k)/b = 1$, which passes through the point
+  $(1/k, 1/k)$.
+  //71
++ #figure(
+      image("images/3_25.pdf")
+  ) <3.25f>
+
+  Let $A\BC$ be a right angles isosceles triangle in which $A\B = A\C$. We take $A$ as the origin and $A\B$
+  and $A\C$ as $x$ and $y$ axes respectively. Let $A\B = A\C = a$.
+
+  Also, let $A\P = h, A\Q = k$. The equation of the line $P\Q$ is $x/h + y/k = 1$
+
+  Given that $B\P.C\Q = A\B^2 => (h - a)(k - a) = a^2 => a/h + a/k = 1$, which shows that $P\Q$ passes
+  through the point $(a, a)$.
+  //72
++ Given that $P equiv (alpha, beta)$ and the equation of the line $x/a + y/b = 1$.
+
+  The line will cut the axes at $(a, 0)$ and $(0, b)$. Given that $Delta O\AB = 1/2|a\b| = S => 2S = a\b$,
+  where $O$ is the origin.
+
+  Since the line passes through $P$, therefore $alpha/a + beta/b = 1 => alpha/a + (a beta)/2S = 1$
+
+  $=> a^2beta - 2a\S + 2alpha S = 0$, which is a quadratic equation in $a$. However, $a$ is real, therefore
+  $D = 4S^2 - 8alpha beta S \geq 0 => S\geq 2alpha beta$
+
+  Thus, the least value of $S$ is $2alpha beta$.

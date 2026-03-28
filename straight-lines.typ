@@ -931,6 +931,79 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   the line $x = 3$, find the equation of the sides of the triangle.
 + In the given figure $P\QR$ is an equilateral triangle and $O\SP\T$ is a square. If $O\T = 2sqrt(2)$ units,
   find the equation of lines $O\T, O\S, S\P, Q\R, P\R$ and $P\Q$.
+
   #figure(
       image("images/3_23.pdf")
   ) <3.23f>
++ If $D, E, F$ are three points on the sides $B\C, A\C$ and $A\B$ of a $triangle A\BC$ such that $A\D, B\E$
+  and $C\F$ are concurrent, then show thta $B\D.C\E.A\F = D\C.E\A.F\B$.
++ Find the coordinates of the vertices of a square inscribed in a triangle with vertices $A(0, 0), B(2, 1)$
+  and $C(3, 0)$; given that two of its vertices are on the side $A\C$.
++ Transform equation $sqrt(3)y - 3x = 3$ to the slope intercept form and also find the angle, which this
+  straight line makes with the $x$-axis.
++ Find the equation of the straight line which cuts of an intercept of $7$ on $y$-axis and has the slope $3$.
++ Find the equation of the line, which makes an angle of $75^degree$ with $x$-axis and cuts an intercept of
+  length $3$ on the positive direction of $y$-axis.
++ Find the equation of the straight lines which cuts off an intercept $-5$ from the $y$-axis and makes an
+  angle of $sin^(-1)(12)/(13)$ with the $x$-axis.
++ Find the equation of the straight line which is parallel to $x$-axis at a distance of $5$ units from it.
++ Find the equation of the straight line which is parallel to $y$-axis at a distance of $4$ units from it
+  towards negative side of $x$-axis.
++ Find the equation of the straight lines which pass through $(5, 3)$ and are respectively parallel and
+  perpendicular to the $x$-axis.
++ Find the equation of the straight line which intercepts a length of $2$ on the positive direction of
+  $x$-axis and is inclined at $135^degree$ with the positive direction of $y$-axis.
++ Find the equation of a straight line which cuts off an intercept $4$ on the $x$-axis and has the slope
+  $2$.
++ Find the equation of the straight line passing through $(3, -2)$ and making an angle of $60^degree$ with
+  the positive direction of $y$-axis.
++ Find the slope of the line passing through the points $(3, 4)$ and $(1, 2)$. Also find its equation.
++ Find the equation of the straight line passing through the points $(a, b)$ and $(a + r cos theta, b + r
+  sin theta)$.
++ If $(x, y)$ is a point on the straight line joining $(1, -3)$ and $(-4, 2)$ show that $x + y + 2 = 0$.
++ Prove that the points $(1, 4), (3, -2)$ and $(-3, 16)$ are collinear. Also, find the the equation of this
+  straight line.
++ If the points $(a, b), (a_1, b_1)$ and $(a - a_1, b - b_1)$ are collinear, show that the line joining them
+  passes through the origin.
++ Find the value of $t$ for which $(1, 2), (-3 0)$ and $(t - 1, 3)$ will be collinear. Also find the
+  equation of the straight line.
+  //57
++ Show that the straight line passing through the points $(p, q + r)$ and $(q, r + p)$ also passes through
+  the point $(r, p + q)$.
++ Find the equation of the straight line passes through the point which divides the line segment joining the
+  points $(-1, 2)$ and $(4, -5)$ externally in the ratio $2:3$ and the point $(1, 2)$.
++ Find the equation of the side $B\C$ of the $triangle A\BC$ whose vertices $A, B, C$ are $(-1, -2), (0, 1),
+  (2, 0)$ respectively. Also find the equation of the median through $(-1, -2)$.
++ The vertices of a triangle are $(1, 2), (2, 3)$ and $(5, 4)$. Find the equation of its medians.
++ In what ratio does the line $x + y + 1 = 0$ divide the line segment joining the points $(2, 3)$ and $(-1,
+  4)$?
++ Find the ratio in which the line segment joining $(2, 3)$ and $(4, 1)$ is divided by the line joining $(1,
+  2)$ and $(4, 3)$.
++ The vertices of a $triangle A\BC$ are $(2, 2), (-1, -2)$ and $(1, -3)$. $D$ is a point on $B\C$ such that
+  $B\D:D\C= 2:1$. Find the ratio in which $A\D$ divides the median through $B$.
++ For the straight line $y - sqrt(3)x = 3$, find the intercept on $y$-axis and also the angle which the
+  straight line makes with the $x$-axis.
+  //65
++ Find the equation of the straight line which passes through the point $(3, 4)$ and whose intercept on
+  $y$-axis is twice that on $x$-axis.
+  //66
++ Find the equation of the straight line which passes through the point $(3, 4)$ and is such that the
+  portion of it intercepted between the axes is divided by the point in the ratio $2:3$.
+  //67
++ Find the equation of the straight line whose intercepts on $x$-axis and $y$-axis are respectively twice
+  and thrice of those by the line $3x + 4y = 12$.
+  //68
++ Find the equation of the straight line passing through the origin and the middle point of the intercept of
+  the straight line $a\x + b\y + c = 0$ between the axes.
+  //69
++ Find the equation of the straight lines which pass through the origin and trisect the intercept of the
+  line $3x + 4y = 12$ between the axes.
+  //70
++ A straight line cuts intercepts from the axes of coordinates the sum of the reciprocal of which is a
+  constant. Show that it always passes through a fixed point.
+  //71
++ If the equal sides $A\B$ and $A\C$ of a right angled isoscles triqangle be produced to $P$ and $Q$ so that
+  $B\O.C\Q = A\B^2$, show that $P\Q$ always passes through a fixed point.
+  //72
++ Through the point $P(alpha, beta)$, where $alpha beta > 0$ the straight line $x/a + y/b = 1$ is drawn so
+  as to form with coordinate axes a triangle of area $S$. If $a\b > 0$, find the least value of $S$.

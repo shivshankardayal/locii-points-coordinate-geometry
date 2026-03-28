@@ -76,7 +76,7 @@
                titlefmt: x => text(fill: green, weight: "bold", x),
                fill: green.lighten(90%),
                base_level: 1)(name:name, body)
-}
+    }
 }
 
 #include "preface.typ"
