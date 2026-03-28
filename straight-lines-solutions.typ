@@ -1,4 +1,4 @@
-#import "lib.typ": *
+ #import "lib.typ": *
 #set par(first-line-indent: 0em)
 
 = Answers of Straight Lines
@@ -552,3 +552,66 @@
   $D = 4S^2 - 8alpha beta S \geq 0 => S\geq 2alpha beta$
 
   Thus, the least value of $S$ is $2alpha beta$.
+  //73
++ The equation of the line will be given by $x cos 75^degree + y sin 75^degree = 3sqrt(2)$
+
+  Now $cos 75^degree = (sqrt(3) - 1)/(2sqrt(2))$ and $sin 75^degree = (sqrt(3) + 1)/(2sqrt(2))$
+
+  So the equation of the line is $(sqrt(3 - 1))x + (sqrt(3) + 1)y = 12$.
++ Slope is given as $5/(12)$ so if $tan theta = 5/(12)$ then $theta$ can lie in first or third
+  quadrant. Thus, $cos theta = plus.minus (12)/(13)$ and $sin theta = plus.minus 5/(13)$.
+
+  Equation of the line will be $x.(12)/(13) + y.5/(13) = 2 => 12x + 5y - 26 = 0$
+
+  or $x.(-(12)/(13)) + y.(-5/(13)) = 2 => 12x + 5y + 26 = 0$.
+  //75
++ We can treat this place as origin, east direction as $x$-axis and north direction as $y$-axis. Then the
+  angle made by perpendicular from the place to the line will be $45^degree$ as the direction of the canal
+  is north-east.
+
+  Thus, equation for this canal would be $x/sqrt(2) + y/sqrt(2) = 9/2 => x + y = 9/sqrt(2)$.
+
+  The coordinate of the village is given by $(3, 4)$; putting this in the equation for the canal gives us
+
+  $3 + 4 = 9/sqrt(2)$, which is false. Hence, the village does not lie on the canal.
+  //76
++ #figure(
+      image("images/3_26.pdf")
+  ) <3.26f>
+
+  Let the reuired line be $A\B$ and $O\L$ is perpendicular from the origin $O$ to $A\B$. According to the
+  question $O\L$ makes an angle of $30^degree$ with $y$-axis i.e. it will make an angle of $60^degree$ with
+  $x$-axis.
+
+  Let $O\L = p$, so the equation of the line will be $x cos 60^degree + y sin 60^degree = p => x + sqrt(3)y
+  = 2p$.
+
+  Intercept on $x$-axis is $2p$ and intercept on $y$axis is $2p/sqrt(3)$.
+
+  Also given that $Delta O\AB = 96sqrt(3) = 1/2 O\A.O\B => 96sqrt(3) = 1/2 2p.(2p)/sqrt(3) => p = 12$
+
+  Thus, equation of the line is $x + sqrt(3)y = 24$.
+  //77
++ Given $O\C = 2, angle A\BC = 90^degree$ and $A\B = B\C$
+
+  $therefore angle B\CA = angle B\AC = 45^degree, O\B = O\C = 2$, and $B\C = sqrt(2^2 + 2^2) = 2sqrt(2)$
+
+  Let $O\M$ be perpendicular to $D\E$. $because O\C = 2, O\B = 2$, therefore, equation of $B\C$ will be
+
+  $x/2 + y/2 = 1 => x + y = 2$
+
+  Also, equation of $A\B$ will be $x/-2 + y/2 = 1 => x - y = -2$
+
+  $because angle L\AC = 45^degree$ and $O\M = O\L + L\M = O\C cos 45^degree + L\M = O\C.1/sqrt(2) + B\C =
+  3sqrt(2)$
+
+  Thus, equation of $D\E$ is $x cos 45^degree + y sin 45^degree = 3 sqrt(2) => x + y = 6$.
+  //78
++ Given equation is $sqrt(3)x + y = 8 => x/(8/sqrt(3)) + y/8 = 1$, which will meet $x$ and $y$ axes at
+  $(8/sqrt(3), 0)$ and $(0, 8)$.
+
+  The equation can be rewritten as $sqrt(3)/2x + y/2 = 4 => x cos 30^degree + y sin 30^degree = 4$, which is
+  the equation in normal form.
+
+  The length of perpendicular on this line from origin is $4$ and it makes an angle of $30^degree$ with the
+  $x$-axis.

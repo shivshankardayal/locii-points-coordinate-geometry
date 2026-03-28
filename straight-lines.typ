@@ -361,7 +361,8 @@ Given equation is $A\x + B\y + C = 0 => -A/C\x - B/C\y = 1$, where $C eq.not 0$
 $=> x/(-C/A) + y/(-C/B) = 1$, which is of the form $x/a + y/b = 1$, where $a = -C/A, b = -C/B$.
 
 === Normal Form
-We will reduce the equation $A\x + B\y + C = 0$ to the form $x cos alpha + y sin alpha = p$.
+We will reduce the equation $A\x + B\y + C = 0$ to the form $x cos alpha + y sin alpha = p$ where $alpha$ is
+the angle made by the perpendicular on the line from origin and $p$ is the length of the perpendicular.
 
 Given equation is $A\x + B\y = -C$
 
@@ -1007,3 +1008,25 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //72
 + Through the point $P(alpha, beta)$, where $alpha beta > 0$ the straight line $x/a + y/b = 1$ is drawn so
   as to form with coordinate axes a triangle of area $S$. If $a\b > 0$, find the least value of $S$.
+  //73
++ Find the equation of the straight line upon which the length of perpendicular from origin is $3sqrt(2)$
+  units and this perpendicular makes an angle of $75^degree$ with the positive direction of $x$-axis.
+  //74
++ Find the equation of the straight line upon which the length of the perpendicular from the origin is $2$
+  and the slope of the perpendicular is $5/(12)$.
+  //75
++ A canal is $4 1/2$ kms from a place and the shortest route from this place to canal is exactly
+  north-east. A village is $3$ kms north and $4$ kms east from the place. Does it lie on the canal?
+  //76
++ Find the equation of the straight lines which makes a triangle of area $96sqrt(3)$ with the axes and
+  perpendicular from the origin to it makes an angle of $30^degree$ with $y$-axis.
+  //77
++ #figure(
+      image("images/3_27.pdf")
+  ) <3.27f>
+
+  In the given figure $A\BC$ is a right-angled iscosceles triangle and $B\CD\E$ is a square. If $O\C= 2$,
+  find the equation of the sides $A\B$ and $B\C$ of $triangle A\BC$ and side $D\E$ of the square.
++ Find the coordinates of the point where the line $sqrt(3)x + y - 8 = 0$ meets the coordinate axes and also
+  find the length of the perpendicular from the origin upon this line and the angle which this perpendicular
+  makes with the $x$-axis.
