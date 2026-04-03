@@ -615,3 +615,215 @@
 
   The length of perpendicular on this line from origin is $4$ and it makes an angle of $30^degree$ with the
   $x$-axis.
+  //79
++ Let the equation of a line in intercept form be $x/a + y/b = 1$.
+
+  Since it passes through $(3, 2)$, we have: $3/a + 2/b = 1$.
+
+  Given $a - b = 2$, so $a = b + 2$.
+
+  Substitute into the first equation: $3/(b + 2) + 2/b = 1$.
+
+  Multiplying by $b(b + 2)$: $3b + 2(b + 2) = b(b + 2), b^2 - 3b - 4 = 0$
+
+  Solving: $b = (3 plus.minus 5)/2$. So, $b = 4$ or $b = -1$.
+
+  Then $a = b + 2$ gives: If $b = 4$, then $a = 6$. If $b = -1$, then $a = 1$.
+
+  Thus, the required lines are: $x/6 + y/4 = 1$ and $x - y = 1$.
+  //80
++ Let $A$ be $(a, 0)$ abd $B$ be $(0, b)$, then the equation of line will be given by $x/a + y/b = 1$.
+
+  Since it passes through $P(1, -7)$, therefore, $1/a - 7/b = 1 => 1/a = (7 + b)/b => a = b/(7 + b)$
+
+  Also given that $4A\P = 4B\P => 16[(a - 1)^2 + 7^2] = 9[1^2 + (-7 - b)^2]$
+
+  $=> 16(a - 1)^2 + 784 = 9 + (b + 7)^2$
+
+  Putting the value of $a$ from above we get $b = -49/3$ and $a = 7/4$
+
+  Thus, equation of the line is $28x - 3y = 49$.
+  //81
++ Let $A$ be $(a, 0)$ abd $B$ be $(0, b)$, then the equation of line will be given by $x/a + y/b = 1$.
+
+  Since it passes through $P(2, 6)$, therefore, $2/a + 6/b = 1 => 2/a = (b - 6)/b => a = 2b/(b - 6)$
+
+  Also given that $3A\P = 2B\P => 9[(a - 2)^2 + 6^2] = 4[(-2)^2 + (b - 6)^2]$
+
+  Putting $a = 2b/(b - 6)$ and solving gives us $a = 10/3$ and $b = 15$
+
+  Thus, equation of the line is $9x + 2y = 30$.
+  //82
++ Given line is $3x + 4y = 6 => x/2 + y/(3/2) = 1$. Thus, intercepts on axes are $2$ and $3/2$ respectively.
+
+  Double of these intercepts is $4$ and $3$. Thus, equation of line which makes these intercepts is
+
+  $x/4 + y/3 = 1 => 3x + 4y = 12$.
+  //83
++ Given line is $3x - 5y = 15 => x/5 - y/3 = 1$. Thus, points of interception are $(5, 0)$ and $(0,
+  -3)$. Midpoint of intercepted portion will be $(5/2, -3/2)$.
+
+  The required line also passes through $(2, 1)$, hence in two-point form equation of the line will be
+
+  $y - 1 = (-3/2 - 1)/(5/2 - 2)(x - 2) => 5x + y = 11$.
+  //84
++ The given line is $2x + 3y = 6 => x/3 + y/2 = 1$, thus points of interception are $(3, 0)$ and $(0, 2)$.
+
+  Let the points be $P(x_1, y_1)$ and $Q(x_2, y_2)$ which divide the intercepted points in the ratio of $2:1$
+  and $1:2$ respectively.
+
+  Thus, $P equiv ((2.0 + 1.3)/3, (2.2 + 1.0)/3) equiv (1, 4/3)$ and $Q equiv ((1.0 + 2.3)/3, (1.2 + 2.0)/3)
+  equiv (2, 2/3)$.
+
+  Since these lines also pass through origin so the equations are given by $y = 4/3x => 4x - 3y = 0$ and $y
+  = (2/3)/2x => x - 3y = 0$.
+  //85
++ Equation of the line in two-point form is given by $y - 1 = (4 - 1)/(11 - 5)(x - 5) => 2y - 2 = x - 5 =>
+  x - 2y - 3 = 0$
+
+  Putting $(1, -1)$ in the obtained equation for the line $1 - 2(-1) - 3 = 0$, which is true, so all points
+  lie on the line $x - 2y = 3 => x/3 + y/(-3/2) = 1$.
+
+  Thus, intercepts on the axes are $(3, 0)$ and $(0, -3/2)$ and intercepts between the axes is $sqrt(3^2 +
+  (3/2)^2) = (3sqrt(5))/2$.
+  //86
++ Equation of the line in two-point form is given by $y + 3 = (5 + 3)/(4 - 1)(x - 1) => 3y + 9 = 8x - 8 =>
+  8x - 3y = 17 => x/(17/8) + y(-17/3)$
+
+  Thus, intercepts on the axes are $17/8$ and $-17/3$ respectively.
+  //87
++ There are two possibilities as shown in the diagram because length is a scalar quantity.
+
+  #figure(
+      image("images/3_28.pdf")
+  ) <3.28f>
+
+  Since the line makes an angle of $150^degree$ with positive direction of $y$-axis so it will make an angle
+  of $120^degree$ with positive direction of $x$-axis.
+
+  Thus, angle made by perpendicular with $x$-axis would be $30^degree$ or $210^degree$ with positive
+  direction of $x$-axis.
+
+  Thus, equation of the line is $x cos 30^degree + y sin 30^degree = 7$ and $x cos 210^degree + y sin
+  210^degree = 7$
+
+  Thus, lines are given by $sqrt(3)x + y = plus.minus 7$.
+  //88
++ Since the perpendicular makes an angle with positive direction of $y$-axis with $30^degree$ it will make
+  an angle of $60^degree$ with positive direction of $x$-axis. Also, given that length of the perpendicular
+  from origin is $2$. Therefore, the equation in normal form is given by
+
+  $x cos 60^degree + y sin 60^degree = 2 => x + sqrt(3)y = 4$.
+  //89
++ The equation of the line in normal form is given by
+
+  $x cos 60^degree + y sin 60^degree = 5 => x + sqrt(3)y = 10$.
+  //90
++ Given that $tan theta = 3/4$ where $theta$ is the angle made by the perpendicular with the positive
+  direction of $x$-axis. Thus, $tan theta$ can also be $(-3)/(-4)$ i.e. in third quadrant.
+
+  $=> cos theta = plus.minus 4/5, sin theta = plus.minus 4/5$ and the equation in normal form will be
+
+  $x cos theta + y sin theta = 6 => 4x + 3y = plus.minus 30$.
+  //91
++ The equation of the line joining the points $(1, 2)$ and $(-3, 1)$ is given by
+
+  $y - 2 = (1 - 2)/(-3 - 1)(x - 1) => x - 4y + 7 = 0$, which can be written as $x/7 + y/(-7/4) = 1$
+
+  Thus, intercepts on axes are $7$ and $-7/4$.
+
+  $cos theta = 7/(sqrt(7^2 + 7^2/4^2)) => p = 7/sqrt(17)$.
+  //92
++ Let $P equiv (3, 2)$ and let the required line make an angle $theta$ with the positive direction of
+  $x$-axis.
+
+  Given $tan theta = 3/4$.
+
+  So the equation of the line is $y - 2 = 3/4(x - 3) => 3x - 4y - 1 = 0$.
+
+  Coordinates of the points which are at a distance of $5$ units from $P$ are $(3 plus.minus 5 cos theta, 2
+  plus.minus 5 sin theta) => (3 plus.minus 4, 2 plus.minus 3) => (7, 5)$ or $(-1, -1)$.
+  //93
++ #figure(
+      image("images/3_29.pdf")
+  ) <3.29f>
+
+  Let $P equiv (1, 2)$. Let $A\B$ be the given line $x + y = 4$.
+
+  Let the line through $P$ makes an angle $theta$ with the $x$-axis cuts the line $A\B$ at $Q$ and $R$ at a
+  distance $sqrt(2/3)$ from $P$. Then
+
+  $Q equiv (1 + sqrt(3/2)cos theta, 2 + sqrt(2/3)sin theta)$
+
+  Since $Q$ lies on the line $A\B$ therefore $1 + sqrt(3/2)cos theta + 2 + sqrt(2/3)sin theta = 4$
+
+  $=> cos theta + sin theta = sqrt(3/2) => 1/sqrt(2)cos theta + 1/sqrt(2)sin theta = sqrt(3)/2$
+
+  $=> cos(theta - 45^degree) = cos 30^degree => theta - 45^degree = 2n pi plus.minus 30^degree$
+
+  $=> theta = 15^degree, 75^degree$.
+  //94
++ Given line is $sqrt(3)x - 4y + 8 = 0$ and $P equiv (sqrt(3), 2)$. Let the line through $P$ making an angle
+  of $pi/6$ with the $x$-axis meet the libe at $Q$. Let $P\Q = r$, then
+
+  $Q equiv (sqrt(3) + r cos pi/6, 2 + r sin pi/6) equiv (sqrt(3) + sqrt(3)/2 r, r + r/2)$
+
+  However, $Q$ lies on the given line, therefore,
+
+  $sqrt(3)(sqrt(3) + sqrt(3)/2) - 4(r + r/2) + 8 = 0 => r = 6$.
+  //95
++ Let $P equiv (-2, 3)$. We know that the coordinates of points on the line making an angle $theta$ with the
+  positive direction of $x$-axis at a distance $r$ from a point $(x_1, y_1)$ are $(x_1 plus.minus r cos
+  theta, y_1 plus.minus r sin theta)$.
+
+  Thus, required coordinates are $(-2 plus.minus 4 sqrt(2) cos 45^degree, 3 plus.minus 4 sqrt(2) sin
+  45^degree)$ i.e. $(2, 7)$ and $(-6, -1)$.
+  //96
++ Given $A equiv (2, 0)$ and $B equiv (3, 1)$. Slope of the line $A\B = (0 - 1)/(2 - 3) = 1 = tan
+  45^degree$.
+
+  Thus, slope of the line $A\C = 45^degree + 15^degree = 60^degree$
+
+  Therefore, equation of the line $A\C$ is $y - 0 = tan 60^degree(x - 2) => sqrt(3)x - y = 2 sqrt(3)$.
+
+  $A\C = A\B = sqrt((3 - 2)^2 + (1 - 0)^2) = sqrt(2)$
+
+  Thus, $C equiv (2 + sqrt(2) cos 60^degree, 0 + sqrt(2) sin 60^degree) = (2 + 1/sqrt(2), sqrt(3/2))$.
+  //97
++ #figure(
+      image("images/3_30.pdf")
+  ) <3.30f>
+
+  Let $A = (1, 1)$ and $C = (-2, -1)$ then $H = (-1/2, 0)$, which is mid-point of $A\C$ and $B\D$.
+
+  Slope of $A\C = (1 + 1)/(1 + 2) = 2/3 = tan theta$, therefore, slope of $B\C = -3/2$ because diagonals of a
+  square are perpendicular to each other.
+
+  Thus, $theta$ is an obtuse angle. $therefore cos theta = -2/sqrt(13)$ and $sin theta = 3/sqrt(13)$
+
+  Also, $A\C = sqrt(13)$, therefore, $D\H = sqrt(13)/2$
+
+  Thus, coordinates of $B$ and $D$ are $(-1/2 plus.minus sqrt(13)/2 cos theta, 0 plus.minus sqrt(13)/2 sin
+  theta)$ i.e. $(-3/2, 3/2)$ and $(1/2, -3/2)$.
+  //98
+
++ Let the line through $A$ making an angle $theta$ with the positive direction at $x$-axis. Let $A\B = r_1,
+  A\C = r_2$ and $A\D = r_3$.
+
+  $B = (k + 1 + r_1 cos theta, 2k + r_1 sin theta)$. Since $B$ lies on $7x + y - 16 = 0$, therefore,
+
+  $7(k + 1 + r_1 cos theta) + 2k + r_2 sin theta - 16 = 0 => r_1 = (9(1 - k))/(7 cos theta + sin theta)$
+
+  Also, $C = (k + 1 + r_2 cos theta, 2k + r_2 sin theta)$. Subce $C$ lies on the line $5x - y - 8 = 0$,
+  therefore,
+
+  $5(k + 1 + r_2 cos theta) - (2k + r_2 sin theta) - 8 = 0 => r_2 = (3(1 - k))/(5 cos theta - sin theta)$
+
+  Again $D = (k + 1 + r_3 cos theta, 2k + r_3 sin theta)$ and $D$ lies on the line $x - 5y + 8 = 0$,
+  therefore,
+
+  $k + 1 + r_3 cos theta - 5(2k + r_3 sin theta) + 8 = 0 => r_r = (9(1 - k))/(5 sin theta - cos theta)$
+
+  $1/r_2 + 1/r_3 = (2(7 cos theta + sin theta))/(9(1 - k)) = 2/r_1$.
+
+  Hence, $r_2, r_1, r_3$ are in H.P.

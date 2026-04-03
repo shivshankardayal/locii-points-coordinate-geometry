@@ -1030,3 +1030,64 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + Find the coordinates of the point where the line $sqrt(3)x + y - 8 = 0$ meets the coordinate axes and also
   find the length of the perpendicular from the origin upon this line and the angle which this perpendicular
   makes with the $x$-axis.
+  //79
++ Find the equations of the straight lines which pass through the point $(3, 2)$ and cut off intercepts $a$
+  and $b$ on the $x$ and $y$-axes such that $a - b = 2$.
+  //80
++ Find the equation of the line which passes through $P(1, -7)$ and meets the axes at $A$ and $B$
+  respectively such that $4A\P - 3B\P = 0$, where $O$ is the origin.
+  //81
++ Find the equation of the straight line which passes through the point $P(2, 6)$ and cuts the axes at the
+  points $A$ and $B$ respectively such that $(A\P)/(B\P) = 2/3$.
+  //82
++ Find the equation of the straight line whose intercepts on the axes are twice the intercepts of the line
+  $3x + 4y = 6$.
+  //83
++ Find the equation of the straight line passing through $(2, 1)$ and bisecting the portion of the straight
+  line $3x - 5y = 15$ lying between the axes.
+  //84
++ Find the equations of the straight lines which pass through the origin and trisect the portion of the
+  straight line $2x + 3y = 6$ which is intercepted between the axes.
+  //85
++ Prove that the points $(5, 1), (11, 4)$ and $(1, -1)$ lie on a straight line and find its intercepts on
+  the axes and between the axes.
+  //86
++ Find the intercepts on the axes of the straight line passing through the points $(1, -3)$ and $(4, 5)$.
+  //87
++ The lnegth of the perpendicular from the origin to a line is $7$ and the line makes an angle of
+  $150^degree$ with the positive direction of $y$-axis. Find the equation of the line.
+  //88
++ Find the equation of the straight line upon which the length of the perpendicular from the origin is $2$
+  and this perpendicular makes an angle of $30^degree$ with the positive direction of $y$-axis.
+  //89
++ Find the equation of the line which is at a distance $5$ from the origin and the perpendicular from the
+  origin to the line makes an angle of $60^degree$ with the positive direction of $x$-axis.
+  //90
++ Find the equation of the straight line upon which the length of the perpendicular from the origin is $6$
+  and the gradient of the perpendicular is $3/4$.
+  //91
++ Find the equation of the line joining the points $(1, 2)$ and $(-3, 1)$. Find its intercepts on the
+  axes. If $p$ be the length of the perpendicular from  the origin to the line, find the value of $p$.
+  //92
++ Find the equation of the straight line which passes through the point $(3, 2)$ and whose gradient is
+  $3/4$. Find the coordinates of the points on the line that are $5$ units away from the point $(3, 2)$.
+  //93
++ Find the direction in which a straight line must be drawn through the point $(1, 2)$ so that its point of
+  intersection wth the line $x + y = 4$ is at a distance $sqrt(2/3)$ from the point $(1, 2)$.
+  //94
++ If the straight line drawn through the point $P(sqrt(3), 2)$ makes an angle $pi/6$ with the $x$-axis meets
+  the line $sqrt(3)x - 4y + 8 = 0$ at $Q$. Find the length of $P\Q$.
+  //95
++ Find the coordinates of the points at a distance $4 sqrt(2)$ units from the point $(02, 3)$ in the
+  direction making an angle of $45^degree$ with the positive direction of $x$-axis.
+  //96
++ A line joining two points $A(2, 0)$ and $B(3, 1)$ is rotated about $A$ in anticlockwise direction through
+  an angle $15^degree$. Find the equation of the line in new position. If $B$ goes to $C$ in the new
+  position what will be the coordinates of $C$?
+  //97
++ The extremeties of the diagonal of a sqaure are $(1, 1), (-2, -1)$. Obtain the other two vertices and the
+  equation of the other diagonal.
+  //98
++ Show that if any line through the variable point $A(k + 1, 2k)$ meets the line $7x + y - 16 = 0, 5x - y -
+  8 = 0, x - 5y + 8 = 0$ at $B, C, D$ respectively $A\C, A\B$ and $A\D$ are in H.P.
+  //99
