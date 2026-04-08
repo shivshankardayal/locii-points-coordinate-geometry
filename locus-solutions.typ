@@ -1,8 +1,22 @@
 #import "lib.typ": *
 #set par(first-line-indent: 0em)
+#set enum(
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("an2")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
+)
 
 = Answers of Locus
-
 + We take the two perpendicular lines as axes of the coordinates. Let $(x, y)$ be any point satisfying the
   given condition. According to condition $x + y = a$.
 

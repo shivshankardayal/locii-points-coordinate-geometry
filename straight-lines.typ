@@ -849,22 +849,23 @@ according as $a_1a_2 + b_1b_2 < 0$ or $> 0$
 
 Hence, bisector of the angle between the lines will be bisector of the acute or obtuse angle according as
 origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$ or $> 0$.
+#set enum(
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("ex3")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
+)
 
 == Problems
-#set enum(
-  full: true,
-  numbering: (..nums-arguments) => context {
-    let nums = nums-arguments.pos()
-    if nums.len() == 1 {
-      let thread-counter = counter("ex2")
-      thread-counter.step()
-      let thread-count = thread-counter.get().first() + 1
-        numbering("1.a.", thread-count)
-    } else {
-        numbering("1.a.", nums.last())
-    }
-  },
-)
 
 + Find the equation of the straight line cutting off an intercept $5$ from the positive direction of $y$-axis,
   and inclined at angle $45^degree$ to the $x$-axis.
@@ -1091,3 +1092,23 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + Show that if any line through the variable point $A(k + 1, 2k)$ meets the line $7x + y - 16 = 0, 5x - y -
   8 = 0, x - 5y + 8 = 0$ at $B, C, D$ respectively $A\C, A\B$ and $A\D$ are in H.P.
   //99
++ The center of a square is at the origin and one vertex is $A(2, 1)$. Find the coordinates of other
+  vertices of the square.
+  //100
++ Show that if $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ are the vertices of a triangle, then the equation of
+  the internal bisector of angle $A$ is given by $b mat(delim: "|", x, y, 1;x_1, y_1, 1; x_2, y_2, 1) + c
+  mat(delim: "|", x, y, 1;x_1, y_1, 1; x_3, y_3, 1) = 0$, where $b = A\C$ and $c = A\B$.
+  //101
++ Find the coordinate of the point at a distance $6$ units from the point $(1, 1)$ in the direction making
+  an angle of $60^degree$ with the positive direction of $x$-axis.
+  //102
++ Find the distance of the line $2x + y = 3$ from the point $(-1, 3)$ in the direction whose slope is one.
+  //103
++ The straight line through $P(x_1, y_1)$ inclined at an angle $theta$ with $x$-axis meets the line $a\x +
+  b\y + c = 0$ in $Q$. Find the length of $P\Q$.
+  //104
++ A line through the point $A(2, 0)$ which makes an angle of $30^degree$ with the positive direction of
+  $x$-axis is rotated about $A$ in anticlockwise direction through an angle $15^degree$. Find the equation
+  of the straight line in the new position.
+  //105
++

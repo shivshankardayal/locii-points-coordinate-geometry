@@ -1,6 +1,6 @@
 settings.tex="lualatex";
 settings.outformat="pdf";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus  Math}");
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{XCharter}\setmathfont{XCharter Math}");
 defaultpen(fontsize(9pt));
 import geometry;
 size(7cm);

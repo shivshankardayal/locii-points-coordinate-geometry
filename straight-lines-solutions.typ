@@ -1,8 +1,22 @@
  #import "lib.typ": *
 #set par(first-line-indent: 0em)
+#set enum(
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("an3")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
+)
 
 = Answers of Straight Lines
-
 + Since the intercept and angle with $x$-axis is given, therefore, we can represent this line using slope
   intercept form i.e. $y = m\x + c$.
 
@@ -806,7 +820,6 @@
   Thus, coordinates of $B$ and $D$ are $(-1/2 plus.minus sqrt(13)/2 cos theta, 0 plus.minus sqrt(13)/2 sin
   theta)$ i.e. $(-3/2, 3/2)$ and $(1/2, -3/2)$.
   //98
-
 + Let the line through $A$ making an angle $theta$ with the positive direction at $x$-axis. Let $A\B = r_1,
   A\C = r_2$ and $A\D = r_3$.
 
@@ -827,3 +840,69 @@
   $1/r_2 + 1/r_3 = (2(7 cos theta + sin theta))/(9(1 - k)) = 2/r_1$.
 
   Hence, $r_2, r_1, r_3$ are in H.P.
+  //99
++ Let $A\BC\D$ be the square whose center is $O$. Now $A\O = sqrt(5)$ and slope of $A\O = (1 - 0)/(2 - 0) = 1/2
+  = tan theta$
+
+  $therefore cos theta = 2/sqrt(5)$ and $sin theta = 1/sqrt(5)$
+
+  $therefore$ Coordinates of the points of $A\C$ which are at a distance $sqrt(5)$ from $O$ will be $(0
+  plus.minus sqrt(5) cos theta, plus.minus sqrt(5) sin theta) = (plus.minus 2, plus.minus 1)$
+
+  i.e. $(2, 1)$ and $(-2, -1)$. Thus, $C equiv (-2, -1)$
+
+  But $B\D perp A\C$. So slope of $B\D = -2 = tan alpha$(say)
+
+   $therefore pi/2 < alpha < pi$ or $(3pi)/2 < alpha < 2 pi$
+
+  $therefore cos alpha = -1/sqrt(5)$ and $sin alpha = 2/sqrt(5)$ or $cos alpha = 1/sqrt(5)$ and $sin alpha =
+  -2/sqrt(5)$
+
+  Since $B$ and $D$ are on $B\D$ at a distance $sqrt(5)$ from $O$, their coordinates(in some order) will be
+
+  $(0 plus.minus sqrt(5) cos alpha, 0 plus.minus sqrt(5) sin alpha)$ i.e. $(minus.plus 1, plus.minus 2)$.
+  //100
++ Let $A\D$ be the internal bisector of $angle B\AC$ then $(B\D)/(D\C) = (A\B)/(A\C) = c/b$
+
+  Thus, $D equiv ((b\x_2 + c\x_3)/(b + c), (b\y_2 + c\y_3)/(b + c))$
+
+  Let the equation of the line $A\D$ be $l\x + m\y + n = 0$, then we observe that $A$ and $D$ lie on this
+  line. Therefore
+
+  $l\x_1 + m\y_1 + n = 0$ and $l((b\x_2 + c\x_3)/(b + c)) + m(b\y_2 + c\y_3)/(b + c)) + n = 0$
+
+  Eliminating $l, m, n$ gives us
+
+  $mat(delim: "|", x, y, c_1;x_1, y_1, 1; b\x_2 + c\x_3, b\y_2 + c\y_3, b + c) = 0 => b mat(delim: "|", x,
+  y, 1;x_1, y_1, 1; x_2, y_2, 1) + c mat(delim: "|", x, y, 1;x_1, y_1, 1; x_3,y_3, 1) = 0$.
+  //101
++ The required points are $(1 plus.minus 6 cos 60^degree, 1 plus.minus 6 sin 60^degree)$ i.e. $(4, 1 +
+  3sqrt(3))$ and $(-2, 1 - 3sqrt(3))$.
+  //102
++ The equation of the line passing through $(-1, 3)$ and slope $1$ is given by $y - 3 = x + 1 => x - y + 4 =
+  0$
+
+  Putting $x = y - 4$ in the given equation $2y - 8 + y = 3 => y = 11/3$ and $x = -1/3$
+
+  Distance between $(-1, 3)$ $(-1/3, 11/3)$ is $sqrt((-1/3 + 1)^2 + (11/3 - 3)^2) = (2sqrt(2))/3$.
+  //103
++ Let the line through $P(x_1, y_1)$ inclined at angle $theta$ with the $x$-axis have slope
+  $tan(theta)$. Its equation is $y - y_1 = tan theta(x - x_1)$.
+
+  Rewriting, $tan theta x - y + (y_1 - x_1 tan theta ) = 0$.
+
+  The given line is $a x + b y + c = 0$.
+
+  If $Q$ is the intersection point, the distance $P Q$ measured along the direction making angle $theta$ with the $x$-axis is
+  $P Q = abs((a x_1 + b y_1 + c) / (a cos theta + b sin theta))$.
+  //104
++ Give that the line makes an angle of $30^degree$ with positive direction of $x$-axis and rotated
+  $15^degree$ in anticlockwise direction so the line will now make $45^degree$ with the positive direction
+  of $x$-axis.
+
+  Thus, slope of the line is $tan 45^degree = 1$. Also, the line passes through $(2, 0)$ so the equation of
+  line is
+
+  $y - 0 = 1.(x - 2) => x - y - 2 = 0$.
+  //105
++

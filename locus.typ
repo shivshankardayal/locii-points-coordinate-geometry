@@ -122,22 +122,23 @@ It is obvious that for every equation between $x$ and $y$ a geometrical locus ca
   $t$(called the parameter). This equation is called parametric equation of the locus. For example, the
   equation of parabola, which is $y^2 = 4x$ in cartesian form can be written in parametric form as $x = t^2$
   and $y = 2t$. If we eliminate $t$ then we get cartesian form of the equation to the locus.
+#set enum(
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("ex2")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
+)
 
 == Problems
-#set enum(
-  full: true,
-  numbering: (..nums-arguments) => context {
-    let nums = nums-arguments.pos()
-    if nums.len() == 1 {
-      let thread-counter = counter("ex1")
-      thread-counter.step()
-      let thread-count = thread-counter.get().first() + 1
-        numbering("1.a.", thread-count)
-    } else {
-        numbering("1.a.", nums.last())
-    }
-  },
-)
 + A point moves so that the algebraic sum of its distances from two given perpendicular axes is equal to a
   constant quantity $a$; find the equation to its locus.
 + The sum of squares of the distances of a moving point from the two fixed points $(a, 0)$ and $(-a, 0)$ is

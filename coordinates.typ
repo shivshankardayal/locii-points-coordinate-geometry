@@ -297,22 +297,23 @@ of cartesian coordinate as $(r cos theta, r sin theta)$. Similarly, if a point h
 $(x, y)$ then $r = sqrt(x^2 + y^2)$ and $theta = tan^(-1) y/x$
 would represent the equivalent polar coordinates.
 
-== Problems
 #set enum(
-  full: true,
-  numbering: (..nums-arguments) => context {
-    let nums = nums-arguments.pos()
-    if nums.len() == 1 {
-      let thread-counter = counter("ex")
-      thread-counter.step()
-      let thread-count = thread-counter.get().first() + 1
-        numbering("1.a.", thread-count)
-    } else {
-        numbering("1.a.", nums.last())
-    }
-  },
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("ex1")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
 )
 
+== Problems
 Find the areas of the triangles the coordinates of whose vertices are respectively:
 //1
 + $(1,3), (-7, 6)$ and $(5, -1)$.

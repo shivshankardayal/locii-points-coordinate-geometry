@@ -1,11 +1,10 @@
 #import "lib.typ": *
 
-//#set text(font: "XCharter")
-//#show math.equation: set text(font: "STIX Math")
+#set text(font: "XCharter")
+#show math.equation: set text(font: "XCharter Math")
 //#show raw: set text(font: " Mono")
 #let mycolor = rgb(0, 96, 176);
-#set par(spacing: 1.7em)
-#set text(spacing: 170%)
+
 #show math.equation.where(block: false): set text(bottom-edge: "bounds")
 #set par(first-line-indent: 0em)
 

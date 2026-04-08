@@ -1,9 +1,24 @@
 #import "lib.typ": *
 #set par(first-line-indent: 0em)
+#set enum(
+    full: true,
+    numbering: (..nums-arguments) => context {
+        let nums = nums-arguments.pos()
+        let thread-counter = counter("an1")
+        if nums.len() == 1 {
+            thread-counter.step()
+            let thread-count = thread-counter.get().first() + 1
+            numbering("1.a.", thread-count)
+        } else {
+            numbering("1.a.", nums.last())
+        }
+    },
+    spacing: 2em,
+)
 
 = Answers of Coordinates
-
-#counter(enum).update(0)
++ We take the two perpendicular lines as axes of the coordinates. Let $(x, y)$ be any point satisfying the
+  given condition. According to condition $x + y = a$.
 //1
 + The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ is given by
   $Delta = 1/2 abs(x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2))$
@@ -112,7 +127,7 @@
   $R = ((x_1 + x_2 + x_3)/3, (y_1 + y_2 + y_3)/3)$.
 
   Hence, the point that divides $\AD$ in the ratio $2:1$ also divides $\BE$ and $\CF$ in the same ratio. This
-  point is the centroid of triangle $\AB\C$.
+    point is the centroid of triangle $\AB\C$.
 //12
 + Let the vertices of the quadrilateral be $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$, and $D(x_4, y_4)$.
 
