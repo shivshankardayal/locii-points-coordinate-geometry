@@ -2002,9 +2002,257 @@
   Equating: $-(1 + 3k)/(3 + k) = plus.minus 1 => k = -1, 1$
 
   Thus, required lines are $x - y = 0$ and $x + y + 2 = 0$.
-  //181a
+  //181
 + Let the equation of line $A\B$ and $A\C$ be $3x - 2y + 6 = 0$ and $4x + 5y - 20 = 0$.
 
   #figure(
       image("images/3_33.pdf")
   ) <3.35f>
+
+  Since $B\M$ passes through the orthocenter $H(1, 1)$ and is perpendicular to $A\C$, therefore, equation of
+  $B\M$ will be $5x - 4y - (5*1 - 4*1) = 0 => 5x - 4y - 1 = 0$
+
+  Similarly equation of $C\N$ will ve $2x + 3y - 5 = 0$
+
+  Solving $A\B$ and $B\M$ gives us $B equiv (-13, -(33)/2)$ and solving $A\C$ and $C\N$ gives $C equiv (35/2, -10)$.
+
+  Thus, equation of $B\C$ will ve $26x - 122y - 1675 = 0$.
+  //182
++ Let $A\BC\D$ be a parallelogram such that $A\B$ is $u = p, B\C$ is $v = s, C\D$ is $u = q$, and $A\D$ is
+  $v = r$.
+
+  Equation of $A\C$, which passes through the point of intersection of lines $u - p = 0$ and $v - r = 0$ is
+
+  $u - p + k(v - r) = 0 => a\x + b\y + c - p + k(a'x + b'y + c' - r) = 0$
+
+  Let $C equiv (alpha, beta)$, then $C$ lies on $A\C$, therefore,
+
+  $a alpha + b beta + c - p + k(a'alpha + b'beta + c' - r) = 0$ but $u = q$ and $v = s$
+
+  So the line becomes $q - p + k(s - r) = 0 therefore k = (p - q)/(s - r)$
+
+  $=> u - p + (p - q)/(s - r)(v - r) = 0 => u(r - s) - v(p - q) + p\s - q\r = 0$
+
+  $=> mat(delim: "|", u, v, 1; p, r, 1; q, s, 1;) = 0$.
+  //183
++ We can write the given equation as $a(x + y - 1) + b(2x + 3y - 1) = 0$. Clearly, both $a$ and $b$ cannot
+  be zero at the same time. Let $a eq.not 0$, then
+
+  $x + y - 1 + b/a(2x + 3y - 1) = 0$. This line passes through the point of intersection of $x + y - 1 = 0$
+  and $2x + 3y - 1 = 0$, i.e. $x = 2, y = -1$.
+
+  Thus, all given straight lines pass through the fixed point $(2, -1)$.
+  //184
++ Given that $a\l + b\m + c\n = 0 => n = -(a\l + b\m)/c$. Putting this in the equation of line
+
+  $l\x + m\y - (a\l + b\m)/c = 0 => l(c\x - a) + m(c\y - b) = 0$
+
+  Clearly, both $l$ and $m$ both can be zero because in the equation of straight line coeff. of both $x$ and
+  $y$ cannot be zero.
+
+  Thus, the give equation represents straight lines which passes through the intersection of lines $c\x - a
+  = 0$ and $c\y - b = 0$ i.e. through the point $(a/c, b/c)$.
+  //185
++ Let $O$ the point of intersections of the lines be origin then we can represent the equations as $y =
+  m_r\x, r = 1, 2, 3, dots.h, n$.
+
+  Let the variable line be $y = m\x + c$. Solving gives us $x = c/(m_r - m)$ and $y = (m_r\c)/(m_r - m)$
+
+  $O\A_r^2 = c^2/(m_r - m)^2(1 + m_r^2) => O\A_r = lr(|c/(m_r - m)|)sqrt(1 = m_r^2) => 1/(O\A_r) = lr(|(m_r
+  - m)/c|)1/sqrt(1 + m_r^2)$
+
+  $=> display(sum_(i = 1)^n 1/(O\A_i) = plus.minus (m_r - m)/c).1/sqrt(1 + m_r^2) = k$
+
+  Thus, $y = m\x + c$ passes through the fixed point $(1/k display(sum plus.minus 1/sqrt(1 + m_r^2)), display(1/k sum
+  plus.minus m_r/sqrt(1 + m_r^2)))$.
+  //186
++ $Delta = mat(delim: "|", 4, 7, -9; 5, -8, 15; 9, -1, 6;) = 0$.
+  //187
++ Let $A\BC$ be a triangle with vertices $A(x_1, y_1), B(x_2, y_2)$ and $C(x_3, y_3)$.
+
+  The median through $A$ will pass through $A(x_1, y_1)$ and $D((x_2 + x_3)/2, (y_2 + y_3)/2)$. The median
+  through $B$ will pass through $B$ and $E((x_1 + x_3)/2, (y_1 + y_3)/2)$. The median
+  through $B$ will pass through $B$ and $F((x_1 + x_2)/2, (y_1 + y_2)/2)$.
+
+  Equation of $A\D$ is given by $y - y_1 = ((y_2 + y_3)/2 - y_1)/((x_2 + x_3)/2 - x_1)(x - x_1)$
+
+  $=> (2y_1 - y_2 - y_3)x - (2x_1 - x_2 - x_3)y - x_1(2y_1 - y_2 - y_3) + y_1(2x_1 - x_2 - x_3) = 0$
+
+  Similarly we can find the equation of $B\E$ and $C\F$.
+
+  We find that sum of equations is $0 = 0$. Thus, medians are concurrent.
+  //188
++ By trial we observe that $(p + q)x + (p + q)y - (p - q) + (p - q)x - (p - q)y - (p + q) + 2[p\x + q\y - p] =
+  0$
+
+  Thus, first three lines are concurrent. We also see that
+
+  $(p - q)x - (p - q)y - (p + q) + p\x + q\y - p + q\x + p\y + q = 0$.
+
+  Thus, last three lines are concurrent making all four lines concurrent.
+  //189
++ The lines are concurrent therefore $mat(delim: "|", p_1, q_1, -1; p_2, q_1, -1; p_3, q_3, -1;) = 0 =>
+  mat(delim: "|", p_1, q_1, 1; p_2, q_1, 1; p_3, q_3, 1;) = 0$, and hence, the three points are concurrent.
+  //190
++ Subtract the first equation from the second equation $(x + 2y) - (x - 4y) = 9 - 3 =>6y = 6  => y = 1$
+
+  Substitute into $x + 2y = 9, x + 2(1) = 9 => x = 7$
+
+  So the intersection point is $(7, 1)$.
+
+  Now substituting into the line $m x + 2y + 5 = 0, m(7) + 2(1) + 5 = 0 => 7m + 7 = 0 => m = -1$.
+  //191
++ Subtracting yields $y(t_1 - t_2) = a(t_1^2 - t_2^2) => y = a(t_1 + t_2) => x = a\t_1t_2$.
+  //192
++ From $x + y = 3 $, we get $x = 3 - y$. Substitute into the second equation, $2(3 - y) - 3y = 1 => y = 1$
+
+  Then $x = 3 - 1 = 2$. So the point of intersection is $(2, 1)$.
+
+  Now the line is $x/a + y/b = 1$ and it passes through $(2,1)$:
+
+  $=> 2/a + 1/b = 1 $
+
+  Rewrite the line: $x/a + y/b = 1=>y = b - (b/a)x$. So slope $= -b/a $.
+
+   Given it is parallel to $y = x - 6$, whose slope is $1$:
+
+  $-b/a = 1 => b = -a$
+
+  Substitute into the earlier equation: $2/a + 1/(-a) = 1 => a = 1$. Then $b = -1$.
+  //193
++ Intersection of $x = y$ and $y = 2x$: $x = 2x =>x = 0, y = 0$
+
+  Intersection of $x = y$ and $y = 3x + 4$: $x = 3x + 4=> -2x = 4=> x = -2, y = -2$
+
+  Intersection of $y = 2x$ and $y = 3x + 4$: $2x = 3x + 4=> -x = 4=> x = -4, y = -8$
+
+  Vertices: $(0, 0), (-2, -2), (-4, -8)$
+
+  Area=$1/2*abs(0(-2+8)+(-2)(-8-0)+(-4)(0+2))=1/2*abs(0+16-8)=4$
++ //194
+  From $3x - 4y + 4a = 0$ and $2x - 3y + 4a = 0$: $3x - 4y =- 4a, 2x - 3y = -4a => 6x - 8y = -8a, 6x - 9y = -12a$
+
+  $=> y = 4a$. Substituteing, $2x - 3(4a) = -4a => 2x - 12a = -4a => 2x = 8a => x = 4a$. Point:$(4a,4a)$.
+
+  From $2x - 3y + 4a = 0$ and $5x -y + a = 0$: $2x - 3y = -4a, 5x - y = -a$
+
+  From second: $y = 5x + a$. Substituting: $2x - 3(5x + a) = -4a => 2x - 15x - 3a = -4a => -13x = -a => x = a/(13)$
+
+  $y = 5(a/(13)) + a = (5a)/(13) + (13a)/(13) = (18a)/(13)$. Point:$(a/13,18a/13)$.
+
+  From $3x - 4y + 4a = 0$ and $5x - y + a = 0$. Point:$(0,a)$
+
+  Vertices:$(4a, 4a),(a/(13), (18a)/(13)), (0, a)$
+
+  Area=$1/2*abs[4a((18a)/(13) - a) + (a/(13))(a - 4a) + 0(4a - (18a)/(13))] = (17a^2)/(26)$.
+  //195
++ Intersection points: $y = m_1 x$ and $y = m_2 x$ give $(0, 0)$
+
+  $y = c$ with $y = m_1 x$ gives $(c/m_1, c)$
+
+  $y = c$ with $y = m_2 x$ gives $(c/m_2, c)$
+
+  So triangle vertices are $O(0, 0)$, $A(c/m_1, c)$, $B(c/m_2, c)$.
+
+  Take $A\B$ as base:
+
+  Base length: $c * abs((1/m_1) - (1/m_2)) = c * abs((m_2 - m_1)/(m_1 * m_2))$
+
+  Height $= c$.
+
+  Area: $1/2 * c * c * abs((m_2 - m_1)/(m_1 * m_2))= c^2 / 2 * abs(m_2 - m_1) / abs(m_1 * m_2)$
+
+  Now $m_1, m_2$ are roots of: $x^2 + (sqrt(3) + 2)x + (sqrt(3) - 1) = 0$
+
+  Sum: $m_1 + m_2 = -(sqrt(3) + 2)$. Product: $m_1 * m_2 = sqrt(3) - 1$
+
+  Difference: $abs(m_2 - m_1) = sqrt((m_1 + m_2)^2 - 4 * m_1 * m_2)= sqrt(11)$
+
+  So area: $Delta = c^2 / 2 * sqrt(11) / (sqrt(3) - 1)$
+  //196
++ Line perpendicular to $4x + 7y + 13 = 0$ is given by $7x - 4y + k = 0$. Since $P(-8, 12)$ lies on this
+  perpendicular, therefore,
+
+  $k = 104$. So the equation of the perpendicular is $7x - 4y + 104 = 0$. This line intersects with the
+  given line.
+
+  Solving both the equation we find the coordinate of the foot of the perpendicular as $(-12, 5)$.
+  //197
++ Slope: $m = (4 - 2) / (5 - (-1)) = 2 / 6 = 1/3$. Equation using point $P$: $y - 2 = (1/3)(x + 1)$
+
+  $x - 3y + 7 = 0$
+
+  Let foot of perpendicular be $F(x, y)$.
+
+  Since $A\F$ is perpendicular to $P\Q$, slope of $P\Q$ is $1/3$, so slope of $A\F$ is $-3$.
+
+  Equation of $A\F$ through $A(1, 0)$: $y - 0 = -3(x - 1) => y = -3x + 3$
+
+  Now solve with line $P\Q$: $x - 3y + 7 = 0$
+
+  Substitute $y$: $x - 3(-3x + 3) + 7 = 0$
+
+  $x = 1/5$, $y = -3(1/5) + 3 = -3/5 + (15)/5 = (12)/5$
+  //198
++ Line perpendicular to $x + 3y = 3$ is $3x - y = k$ but it passes through origin so $k = 0$. Now
+  intersection of $x + 3y = 3$ and $3x - y = 0$ is $(3/(10), 9/(10))$.
+
+  Line perpendicular to $2x + 3y = 5$ is $3x - 2y = k'$ but it passes through origin so $k' = 0$. Now
+  intersection of the two line is  $((10)/(13), (15)/(13))$.
+
+  Now line passing through these points is given by $33x - 61y + 45 = 0$.
+  //199
++ Let $(h, r)$ be the foot of the perpendicular from $(x_1, y_1)$ to the line.
+
+  Since $(h, r)$ lies on the line: $l\h + m\r + n = 0 quad dots.h.c (1)$
+
+  Slope of given line is $-l/m$. So slope of perpendicular is $m/l$.
+
+  Hence slope of line joining $(x_1, y_1)$ and $(h, r)$ is $m/l$:
+
+  $(y_1 - r)/(x_1 - h) = m/l$
+
+  So: $l(y_1 - r) = m(x_1 - h)$
+
+  $l y_1 - l r = m x_1 - m h quad dots.h.c (2)$
+
+  Rearranging (2): $m h - l r = m x_1 - l y_1 quad dots.h.c (3)$
+
+  Now multiplying (1) by $m$: $l\mh + m^2 r + m\n = 0  quad dots.h.c (4)$
+
+  Multiplying (1) by $l$: $l^2 h + l\mr + l\n = 0 quad dots.h.c (5)$
+
+  Now solving for $h$ and $r$ using (3),(4),(5).
+
+  $h = x_1 - l(l\x_1 + m\y_1 + n)/(l^2 + m^2)$, $r = y_1 - m(l\x_1 + m\y_1 + n)/(l^2 + m^2)$
+
+  Hence: $x_1 - h = l(l\x_1 + m\y_1 + n)/(l^2 + m^2)$ $y_1 - r = m(l\x_1 + m\y_1 + n)/(l^2 + m^2)$
+
+  So dividing: $(x_1 - h)/l = (y_1 - r)/m = (l\x_1 + m\y_1 + n)/(l^2 + m^2)$.
+  //200
++ Let image of $P$ be $P'(x, y)$. Let the foot of perpendicular be $F$ from $P$ to the line.
+
+  Slope of given line is $-4/7$, so perpendicular slope is $7/4$.
+
+  Equation of perpendicular through $(-8, 12)$: $y - 12 = (7/4)(x + 8)$
+
+  $4y - 48 = 7x + 56 =>7x - 4y + 104 = 0$
+
+  Now solving with $4x + 7y + 13 = 0$ give us the foot foot as $F(-12, 5)$.
+
+  Since $F$ is midpoint of $P(-8, 12)$ and $P'(x, y)$:
+
+  $x_F = (x + (-8))/2 = -12 =>(-8 + x)/2 = -12 => x - 8 = -24 => x = -16$
+
+  $y_F = (y + 12)/2 = 5 => y + 12 = 10 => y = -2$.
+  //201
++ Let $A(2, 1)$ and its image be $A'(5, 2)$. The mirror line is the perpendicular bisector of segment $A\A'$.
+
+  Midpoint of $A\A'$ is $M = ((2 + 5)/2, (1 + 2)/2) = (7/2, 3/2)$
+
+  Slope of $A\A'$ is $m = (2 - 1)/(5 - 2) = 1/3$
+
+  So slope of mirror line is negative reciprocal is $-3$.
+
+  Equation of line through $M(7/2, 3/2)$ with slope $-3$ is given by $y - 3/2 = -3(x - 7/2) => 3x + y = +
+  12$.

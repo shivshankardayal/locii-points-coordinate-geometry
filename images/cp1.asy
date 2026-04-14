@@ -40,7 +40,7 @@ draw(graph(new real(real x) {return -0.6*x + 1.5;}, -9, 9), linepen);
 // =====================
 fill((-9,12)--(9,12)--(9,19)--(-9,19)--cycle, lightgray+opacity(0.20));
 
-label(scale(1.8)*"Loci of Points in Coordinate Geometry", (0,16), black);
+label(scale(1.8)*"A Point on Coordinate Geometry", (0,16), black);
 label("A Problem Oriented Approach", (0,15.2), darkgray);
 label(scale(1.2)*"Shiv Shankar Dayal", (0,13.6), darkgray);
 

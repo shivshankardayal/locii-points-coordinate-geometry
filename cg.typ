@@ -19,7 +19,7 @@
 }
 
 #show: book.with(
-    title: "Loci of Points in Coordinate Geomerty",
+    title: "A Point on Coordinate Geomerty",
     subtitle: "A Problem-Oriented Approach",
     date: datetime.today,
     author: "Shiv Shankar Dayal",
@@ -34,7 +34,7 @@
     font-size: 9pt,
     part-style: 0,
     copyright: [
-        *Loci of Points in Coordinate Geometry*
+        *A Point on Coordinate Geometry*
 
         #set text(fill: red)
 

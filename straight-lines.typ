@@ -1347,3 +1347,63 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //181
 + The equation of two sides of a triangle are $3x - 2y + 6 = 0$ and $4x + 5y = 20$ and the orthocenter is
   $(1, 1)$. Find the equation of the third side.
+  //182
++ Show that the diagonal of the parallelogram whose sides are $u = p, u = q, v = r, v = s$ where $u equiv
+  a\x + b\y + c$ and $v equiv a'x + b'y + c'$ and which passes through the points of intersection of lines $u
+  = p, v = r$ and $u = q, v = s$ is given by $mat(delim: "|", u, v, 1; p, r, 1; q, s, 1;) = 0$.
+  //183
++ Show that the straight lines $x(a + 2b) + y(a + 3b) = a + b$ pass through a fixed point for different
+  values of $a$ and $b$.
+  //184
++ If $l\x + m\y + n = 0$, where $l, m, n$ are variables is the equation of a variable line and $l, m, n$ are
+  connected by the relation $a\l + b\m + c\n = 0$, where $a, b, c$ are constants, show that the line passes
+  through a fixed point.
+  //185
++ A variable line cuts $n$ given concurrent straight lines at $A_1, A_2, A_3, dots.h, A_n$, such that
+  $display(sum_(i = 1)^n 1/(O\A_i))$ is a constant. Show that it always passes through a fixed point. $O$ is the
+  point of intersection of the lines.
+  //186
++ Prove that the straight lines $4x + 7y = 9, 5x - 8y + 15 = 0$ and $9x - y + 6 = 0$ are concurrent.
+  //187
++ Prove analytically that medians of a triangle are concurrent.
+  //188
++ Show that the lines $(p + q)x + (p + q)y - (p - q) = 0, (p - q)x - (p - q)y - (p + q) = 0, p\q + q\y - p =
+  0$ and $q\x + p\y + q = 0$ are concurrent.
+  //189
++ If the lines $p_1x + q_1y = 1, p_2x + q_2y = 1$ and $p_3x + q_3y = 1$ be concurrent, show that the points
+  $(p_1, q_1), (p_2, q_2)$ and $(p_3, q_3)$ are collinear.
+  //190
++ For what value of $m$, the line $m\x + 2y + 5 = 0$ will pass through the point of intersection of the lines
+  $x - 4y = 3$ and $x + 2y = 9$?
+  //191
++ Find the point of intersection of the lines $y\t_1 = x + a\t_1^2$ and $y\t_2 = x + a\t_2^2$.
+  //192
++ If the straight line $x/a + y/b = 1$ passes through the point of intersection of the lines $x + y = 3$ and
+  $2x - 3y = 1$ and is parallel to the line $y = x - 6$, find $a, b$.
+  //193
++ Find the vertice and area of the triangle whose sides are $x = y, y = 2x$ and $y = 3x + 4$.
+  //194
++ Find the area of the triangle which is formed by the lines $3x - 4y + 4a = 0, 2x- 3y + 4a = 0$ and $5x - y
+  + a = 0$.
+  //195
++ Show that the area of the triangle formed by the three straight lines $y_1 = m_1x, y = m_2x$ and $y = c$
+  is equal to $1/4c^2sqrt(11)(sqrt(3) + 1)$, where $m_1, m_2$ are the roots of the equation $x^2 + (sqrt(3)
+  + 2)x + sqrt(3) - 1 = 0$.
+  //196
++ Find the coordinates of the foot of the perpendicular drawn from the point $P(-8, 12)$ on the line $4x +
+  7y + 13 = 0$.
+  //197
++ Find the projection of the point $(1, 0)$ on the line joining the points $P(-1, 2)$ and $Q(5, 4)$.
+  //198
++ If perpendiculars are drawn from origin to the straight lines $x + 3y = 3$ and $2x + 3y = 5$, then find
+  the equation of the line joining the foot of these perpendiculars.
+  //199
++ If $(h, r)$ is the foots of the perpendiculars from $(x_1, y_1)$ to $l\x + m\y + n = 0$ prove that $(x_1 -
+  h)/l = (y_1 - r)/m = (l\x_1 + m\y_1 + n)/(l^2 + m^2)$.
+  //200
++ Find the image of the point $(-8, 12)$ with respect to a line mirror $4x  7y + 13 = 0$.
+  //201
++ If the image of the point $(2, 1)$ with respect to a line mirror be $(5, 2)$, find the equation of the
+  mirror.
+  //202
++
