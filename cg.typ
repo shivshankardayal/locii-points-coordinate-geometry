@@ -1,7 +1,9 @@
+#import "@preview/cetz:0.4.2"
+#import "@preview/ctz-euclide:0.1.0": *
 #import "lib.typ": *
 
-#set text(font: "XCharter")
-#show math.equation: set text(font: "XCharter Math")
+//#set text(font: "STIX Two Text")
+//#show math.equation: set text(font: "STIX Two Math")
 //#show raw: set text(font: " Mono")
 #let mycolor = rgb(0, 96, 176);
 
@@ -23,7 +25,7 @@
     author: "Shiv Shankar Dayal",
     main-color: mycolor,
     lang: "en",
-    cover: image("images/cp.pdf"),
+    cover: image("images/cp1.pdf"),
     //  image-index: image(""),
     //list-of-figure-title: "List of Figures",
     //list-of-table-title: "List of Tables",
@@ -32,7 +34,7 @@
     font-size: 9pt,
     part-style: 0,
     copyright: [
-        *Locii of Points in Coordinate Geometry*
+        *Loci of Points in Coordinate Geometry*
 
         #set text(fill: red)
 

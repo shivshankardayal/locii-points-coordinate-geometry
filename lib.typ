@@ -534,9 +534,9 @@
         justify: true,
         spacing: 1em
     )
-    set block(breakable: true, spacing: 1.2em)
+    set block(breakable: true, spacing: 1em)
     show link: set text(fill: main-color)
-    set text(spacing: 170%)
+    set text(spacing: 150%)
 
     body
 }

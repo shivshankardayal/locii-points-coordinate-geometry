@@ -862,7 +862,7 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
             numbering("1.a.", nums.last())
         }
     },
-    spacing: 2em,
+    spacing: 1em,
 )
 
 == Problems
@@ -1004,7 +1004,7 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + A straight line cuts intercepts from the axes of coordinates the sum of the reciprocal of which is a
   constant. Show that it always passes through a fixed point.
   //71
-+ If the equal sides $A\B$ and $A\C$ of a right angled isoscles triqangle be produced to $P$ and $Q$ so that
++ If the equal sides $A\B$ and $A\C$ of a right angled isosceles triqangle be produced to $P$ and $Q$ so that
   $B\O.C\Q = A\B^2$, show that $P\Q$ always passes through a fixed point.
   //72
 + Through the point $P(alpha, beta)$, where $alpha beta > 0$ the straight line $x/a + y/b = 1$ is drawn so
@@ -1111,4 +1111,239 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   $x$-axis is rotated about $A$ in anticlockwise direction through an angle $15^degree$. Find the equation
   of the straight line in the new position.
   //105
-+
++ The straight line $2x - y = 5$ turns about the point on it where the ordinate is equal to the abcissa
+  through an angle of $45^degree$ in the anti-clockwise direction. Find the equation of the line in the new
+  position.
+  //106
++ The straight line $x + 2y = 4$ is translated parallel to itself by $3$ units in the sense of increasing
+  $x$ and is then rotated by $30^degree$ in the clockwise direction about the point where the shifted
+  straight line cuts the $x$-axis. Find the equation of the new straight line in the new position.
+  //107
++ $A\B$ is a side of regular hexagon $A\BC\DE\F$ and is of length a with $A$ as the origin and $A\B$ and
+  $A\E$ as the $x$-axis and $y$-axis respectively. Find the equation of lines $A\C, A\F$ and $B\E$.
+  //108
++ A straight road is at a distance of $5sqrt(2)$ miles froma place. The shortest distance of the road from
+  the place is in $N-E$ direction. Do the following villages which (i) is $6$ miles East and $4$ miles and
+  $4$ miles North from the place, lie on the road or not. (ii) is $4$ miles East and $3$ miles north from
+  the place, lie on the road or not?
+  //109
++ A straight line $x - y + 1 = 0$ cuts the $y$-axis at $A$. This line is rotated about $A$ in the clockwise
+  direction by $75^degree$. Fine the equation of the new straight line.
+  //110
++ Find the equations of all sides of the isosceles $triangle A\BC$ and the side $B\E$ and $C\D$ of the
+  square $B\CD\E$ in the figure where $O\C = 2$ units.
+
+  #figure(
+      image("images/3_27.pdf")
+  ) <3.27f>
+  //111
++ The mid-point of the line segment joining $(3, -1)$ and $(1, 1)$ is shifted by two units(in the sense of
+  increasing $y$) perpendicular to the line segment. Find the coordinates of the point in the new position.
+  //112
++ The point $(1, 1)$ is translated parallel to the line $2x = y$ in the first quadrant through a unit
+  distance. Find the new position of the point.
+  //113
++ The point $A(2, -1)$ is translated parallel to the line $x - y = 3$ by a distance of $4$ units. If the new
+  position $A'$ of the point is in the (i) first quadrant (ii) third quadrant then find $A'$.
+  //114
++ Two particles start from the same point $(2, -1)$, one moving $2$ units along the line $x + y = 1$ and the
+  other $5$ units along the line $x - 2y = 4$. If the particles move towards increasing $y$, find their new
+  positions and the distance between them.
+  //115
++ One end of a thin elastic straight string is fixed at $A(4, -1)$ and the other end $B$ is at $(1, 2)$ in
+  the unstretched condition. If the string is stretched to triple its length, find the coordinates of the
+  other end in this stretched position.
+  //116
++ The line $A\B$ whose equation is $x - y = 2$ cuts the $x$-axis at $A$ and $B$ is $(4, 2)$. The line $A\B$
+  is rotated about $A$ through $45^degree$ in the anticlockwise direction. Find the new position of $B$ and
+  the equation of the line in new position.
+  //117
++ Let $x\y$ plane be vertical. A particle dropped gently from $(-1, 1)$ in the plane rebounds on the floor
+  returns to $2/3$rd of the height from which it has fallen. The equation of the line of intersection of
+  $x\y$ plane and the floor is $x + 2y = 3$. Find the highest position of the particle after one rebound.
+  //118
++ A line is drawn through $A(4, -1)$ parallel to the line $3x - 4y + 1 = 0$. Find the coordinates of the two
+  points on this line which are at a distance of $5$ units from $A$.
+  //119
++ Find the distance of the point $(3, 5)$ from the line $2x + 3y = 14$ measured parallel to the line $x - 2y
+  = 1$.
+  //120
++ Find the distance of the point $(2, 5)$ from the line $3x + y + 4 = 0$ measured parallel to the line $3x -
+  4y + 8 = 0$.
+  //121
++ The point $(1, 3)$ and $(5, 1)$ are two opposite sides of a rectangle and the other two vertices lie on
+  the line $y = 2x + c$. Find $c$ and other vertices.
+  //122
++ A line is drawn from $(x', y')$ in the direction $alpha$ with the $x$-axis, to meet $A\x + B\y + C =
+  0$. Prove that the lengeth is $lr(|(A\x' + B\y' + c)/(A cos alpha + B sin alpha)|)$.
+  //123
++ Find the equation of the line passing through the point $P(1, 2)$ cutting the lines $x + y - 5 = 0$ and
+  $2x - y = 7$ at $A$ and $B$ respectively such that the H. M. of $P\A$ and $P\B$ is $10$. Given that $A, B$
+  lie on the same side of $P$.
+  //124
++ A straight line through the point $A(-2, 3)$ cuts the line $x + 3y = 9$ and $x + y + 1 = 0$ at $B$ and $C$
+  respectively. Find the equation of the line if $A\B.A\C = 20$.
+  //125
++ A line which makes an acute angle $theta$ with the positive direction of $x$-axis is drawn through the
+  point $P(3, 4)$ to cut the curve $y^2 = 4x$ at $Q$ and $R$. Show that the lengths of the segments $P\Q$
+  and $P\R$ are numerical values of roots of the equation $r^2 sin^2 theta + 4r(sin theta - cos theta) + 4 =
+  0$.
+  //126
++ Show that if $A(x_1, y_1), B(x_2, y_2)$ and $C(x_3, y_3)$ be the vertices of a triangle then the equation
+  of the median through $A$ is given by $mat(delim: "|",x, y, 1; x_1, y_1, 1; x_2, y_2, 1) + mat(delim:
+  "|",x, y, 1; x_1, y_1, 1; x_3, y_3, 1) = 0$.
+  //127
++ Find the angle between the lines $x - 2y + 3 = 0$ and $3x + y - 1 = 0$.
+  //128
++ Find the angle between the line $x + y = 3$ and the line joining the points $(1, 1)$ and $(-3, 4)$.
+  //129
++ Find the value of $k$ so that the straight line $2x + 3y + 4 + k(6x - y + 12) = 0$ is perpendicular to the
+  line $7x + 5y - 4 = 0$.
+  //130
++ Prove that the line joining the middle points of the two sides of a triangle is parallel to the third
+  side.
+  //131
++ Find the values of $x$ and $y$ for which $A(2, 0), B(0, 2), C(0, 7)$ and $D(x, y)$ are the vertices of an
+  isosceles trapezium in which $A\B parallel C\D$.
+  //132
++ Prove that the straight lines $(a + b)x + (a - b)y - 2a\b = 0, (a - b)x + (a + b)y - 2a\b = 0$ and $x + y =
+  0$ form an isosceles triangle whose vertical angle is $2tan^(-1)a/b$.
+  //133
++ Find the angle between the lines $x = a$ and $b\y + c = 0$.
+  //134
++ Find the tangent of the angle between the lines which have intercepts of $3, 4$ and $1, 9$ on $x$ and $y$
+  axes respectively.
+  //135
++ Prove that the lines $x/a + y/b = 1$ and $x/b - y/a = 1$ are perpendicular to each other.
+  //136
++ Show that the line joining $(2, -3)$ and $(-1, 2)$ is perpendicular to the line joining $(3, 7)$ and $(-2,
+  4)$.
+  //137
++ A line passing through the points $(a, 2a)$ and $(-2, 3)$ is perpendicular to the line $4x + 3y + 5 = 0$;
+  find the value of $a$.
+  //138
++ Show that the lines $y = 7x + 2$ and $2y - 14x + 1 = 0$ are parallel.
+  //139
++ Prove that the line $k^2x + k\y + 1 = 0$ is perpendicular to the line $x - k\y = 1$ for all real values of
+  $k(k eq.not) 0$.
+  //140
++ For what value of $k$ is the line $x - y + 2 + k(2x + 3y) = 0$ parallel to the line $3x + y = 0$.
+  //141
++ Prove that the lines $2x - 3y + 1 = 0, x + y = 3, 2x - 3y = 2$ and $x = 4 - y$ form a parallelogram.
+  //142
++ Find the value of $theta$ between $0$ and $pi$ if $x cos theta + y sin theta = 2$ is perpendicular to the
+  line $x - y = 3$.
+  //143
++ If the line $x - 3y + 5 + k(x + y - 3) = 0$, where $k$ is arbitrary, is perpendicular to the line $x + y =
+  1$, then find $k$ and the equation of the first line.
+  //144
++ Prove that the median of an equilateral triangle is perpendicular to the corresponding side.
+  //145
++ Prove that the diagonals of a rhombus are at right angles.
+  //146
++ Find the equation of a line through $(3, 4)$ and parallel to the line $y = 3x + 5$.
+  //147
++ Find the equation of the straight line through $(2, 3)$ and perpendicular to the line $4x - 3y = 10$.
+  //148
++ Find the equation of the straight line which has $y$ intercept equal to $4/3$ and is perpendicular to the
+  line $3x - 4y + 11 = 0$.
+  //149
++ Find the equation of the perpendicular bisector of the line segment joining the points $(1, 2)$ and $(2,
+  3)$.
+  //150
++ The line $x + y = a$ meets the axes of $x$ and $y$ at $A$ and $B$ respectively. A $triangle A\MN$ is
+  inscribed in the $triangle O\AB$($O$ being the origin) with right angle at $N$. $M, N$ respectively lie on
+  $O\B$ and $A\B$. If the area of the triangle $A\MN$ is $3/8$th of the rea of the $triangle O\AB$, then
+  find $A\N:N\B$.
+  //151
++ Find the slope of the lines which make an angle of $45^degree$ with the line $3x - y + 5 = 0$.
+  //152
++ Find the equation of the lines through the point $(3, 2)$ which makes an angle of $45^degree$ with the
+  line $x - 2y = 3$.
+  //153
++ A vertex of an equilateral triangle is $(2, 3)$ and the equation of the opposite side is $x + y = 2$. Find
+  the equation of the other sides of the triangle.
+  //154
++ A line $4x + y = 1$ through the point $A(2, -7)$ meets the line $B\C$ whose equation is $3x - 4y + 1 = 0$
+  at the point $B$. Find the equation of the line $A\C$, so that $A\B = A\C$.
+  //155
++ Find the equation of straight lines passing through $(-2, -7)$ and having an intercept of length $3$
+  between the straight lines $4x + 3y = 12$ and $4x + 3y = 3$.
+  //156
++ Find the equation of the straight line parallel to $x + 2y = 3$ and passing through the point $(3, 4)$.
+  //157
++ Find the equation of the straight line which passes through the point $(4, 3)$ and is parallel to the line
+  $3x + 4y = 12$.
+  //158
++ Find the equation of the straight line parallel to $3x - 4y + 6 = 0$ and passing through the middle point
+  of the line segment made by $(2, 3)$ and $(4, -1)$.
+  //159
++ Find the equation of the straight line passing through the point $(2, 1)$ and parallel to the line joining
+  the points $(2, 3)$ and $(3, -1)$.
+  //160
++ Find the equation of the straight line passing through the point $(alpha, beta)$ and parallel to the line
+  $l\x + m\y + n = 0$.
+  //161
++ Find the equation of the straight line passing through the point $(2, 5)$ and perpendicular to the line
+  $2x + 5y = 31$.
+  //162
++ Find the equation to the straight line which passes through the point $(x', y')$ and is perpendicular to
+  the line $y\y' = 2a(x + x')$.
+  //163
++ Find the angle between the straight lines $(m^2 - m\n)y = (m\n + n^2)x + n^3$ and $(m\n + m^2)y = (m\n - n^2)x
+  + m^3$.
+  //164
++ Prove that the equation of the straight line which passes through the point $(a cos^3theta, a sin^3theta)$
+  and is perpendicular to the line $x sec theta + y csc theta = a$ is $x cos theta - y sin theta = a cos
+  2theta$.
+  //165
++ Find the equation of the straight line through $(a cos theta, b sin theta)$ perpendicular to the line $x/a
+  cos theta + y/b sin theta = 1$.
+  //166
++ Two consecutive sides of a parallelogram are $4x + 5y = 0$ and $7x + 2y = 0$. If the equation of one of
+  the diagonal is $11x + 7y = 9$, find the equation of the other diagnal.
+  //167
++ Show that the area of the triangle whose sides are $y = m_1x + c_1, y = m_2x + c_2$ and $x = 0$ is
+  $1/2.(c_2 - c_1)^2/(m_1.m_2)$.
+  //168
++ Show that the area of the triangle formed by the lines $y = m_r\x + c_r, r = 1, 2, 3$ is $(c_1 -
+  c_2)^2/(2(m_1 - m_2)) + (c_2 - c_3)^2/(2(m_2 - m_3)) + (c_3 - c_1)^2/(2(m_3 - m_1))$.
+  //169
++ Show that the area of the triangle whose sides are $a_r\x + b_r\y + c_r = 0, r = 1, 2, 3$, is
+  $Delta^2/(2|C_1C_2C_3|)$, where $C_1, C_2$ and $C_3$ are the cofactors of $c_1, c_2$ and $c_3$
+  respectively in the determinant $Delta = -mat(delim: "|", a_1, b_1, c_1; a_2, b_2, c_2; a_3, b_3, c_3)$.
+  //170
++ Show that the lines $4x + y - 9 = 0, x - 2y + 3 = 0, 5x - y - 6 = 0$ make equal intercepts on any line of
+  gradient $2$.
+  //171
++ Find the coordinates of the foot of the perpendicular drawn from point $(2, 3)$ to the line $y = 3x + 4$.
+  //172
++ Find the image of the point $(-8, 12)$ with respect to the line mirror $4x + 7y + 13 = 0$.
+  //173
++ If the image of the point $(x_1, y_1)$ with respect to the mirror $a\x + b\y + c = 0$ be $(x_2, y_2)$,
+  show that $(x_2 - x_1)/a = (y_2 - y_1)/b = -(2(a\x_1 + b\y_1 + c_1))/(a^2 + b^2)$.
+  //174
++ A ray of light is sent along the lines $x - 2y - 3 = 0$. Upon reaching the line $3x - 2y - 5 = 0$, the ray
+  is reflected from it. Find the equation of the line containing the reflected ray.
+  //175
++ A man starts from the point $P(-3, 4)$ and will reach the point $Q(0, 1)$ touching the line $2x + y = 7$
+  at $R$. Find $R$ on the line sho that he will travel the shortest distance.
+  //176
++ A ray of light is sent along the line $2x - 3y = 5$. After refracting across the line $x + y = 1$ it
+  enters the opposite side after turning by $15^degree$ away from the line $x + y = 1$. Find the equation of
+  the line along which the refracted ray travels.
+  //177
++ Find the equation of the straight line which passes through the point $(2, -2)$ and the point of
+  intersection of the lines $5x - y = 9$ and $x + 6y = 8$.
+  //178
++ Find the equation of the straight line which passes through the point of intersection of the lines $x - y
+  - 1 = 0$ and $2x - 3y + 1 = 0$ and is parallel to the line $3x + 4y = 14$.
+  //179
++ Find the equation for the straight line which passes through the point of intersection of the lines $3x -
+  4y - 7 = 0$ and $12x - 5y - 13 = 0$ and is perpendicular to the line $2x - 3y + 5 =  0$.
+  //180
++ Find the equation of the straight lines passing through the point of intersection of the lines $x + 3y + 4
+  = 0$ and $3x + y + 4 - 0$ and equally inclined to the axes.
+  //181
++ The equation of two sides of a triangle are $3x - 2y + 6 = 0$ and $4x + 5y = 20$ and the orthocenter is
+  $(1, 1)$. Find the equation of the third side.

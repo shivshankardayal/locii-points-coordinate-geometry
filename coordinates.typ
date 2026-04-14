@@ -310,7 +310,7 @@ would represent the equivalent polar coordinates.
             numbering("1.a.", nums.last())
         }
     },
-    spacing: 2em,
+    spacing: 1em,
 )
 
 == Problems

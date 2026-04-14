@@ -135,7 +135,7 @@ It is obvious that for every equation between $x$ and $y$ a geometrical locus ca
             numbering("1.a.", nums.last())
         }
     },
-    spacing: 2em,
+    spacing: 1em,
 )
 
 == Problems

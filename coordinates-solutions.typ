@@ -13,7 +13,7 @@
             numbering("1.a.", nums.last())
         }
     },
-    spacing: 2em,
+    spacing: 1em,
 )
 
 = Answers of Coordinates
