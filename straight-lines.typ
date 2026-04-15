@@ -1437,5 +1437,64 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //213
 + Prove that perpendiculars drawn from the vertices to the opposite sides are concurrent.
   //214
-+ Prove that the family of lines represented by $x(1 + lambda) + y(2 - lambda) + 5 = 0$, $\lambda$ beind
++ Prove that the family of lines represented by $x(1 + lambda) + y(2 - lambda) + 5 = 0$, $lambda$ beind
   arbitrary, pass through a fixed point. Also find the fixed point.
+  //215
++ Prove that the line $x(a + 2b) + y(a - 3b) = a - b$ passes through a fixed point for different values of
+  $a$ and $b$.
+  //216
++ Find the centroid and incenter of the triangle whose sides are $3x - 4y = 0, 5x + 12y = 0$ and $y - 15 =
+  0$.
+  //217
++ Find the coordinate of the orthocenter of the triangle whose vertices are $(0, 0), (2, -1)$ and $(-1, 3)$.
+  //218
++ Find the coordinate of the orthocenter of the triangle whose sides are $3x - 2y = 6, 3x + 4y + 12 = 0$ and
+  $3x - 8y + 12$.
+  //219
++ Two vertices of a triangle are $(3, -1)$ and $(-2, 3)$ and its orthocenter is origin, find the coordinate
+  of its third vertex.
+  //220
++ A triangle has the lines $y = m_1x$ and $y = m_2x$ for two of its sides, where $m_1$ and $m_2$ are the
+  roots of the equation $b\x^2 + 2h\x + a = 0$. If $H(a, b)$ is the orthocenter of the triangle, show that
+  the equation of the third side is $(a + b)(a\x + b\y) = a\b(a + b - 2h)$.
+  //221
++ A triangle is formed by the straight lines $a\x + b\y + c = 0, l\x + m\y + n = 0$ and $p\x + q\y + r =
+  0$. Show that that straight line $(p\x + q\y + r)/(a\p + b\q) = (l\x + m\y + n)/(a\l + n\b)$ passes through
+  the orthocenter of the triangle.
+  //222
++ The three sides of a triangle are $L_r equiv x cos theta_r + y sin theta_r - p_r = 0, r = 1, 2, 3$. Show
+  that the orthocenter of the triangle is given by $L_1cos(theta_2 - theta_3) = L_2cos(theta_3 - theta_1) =
+  L_3cos(theta_1 - theta_2)$.
+  //223
++ Find the centroid and incenter of the triangle whose sides have the equations $3x - 4y = 0, 12y + 5x = 0$
+  and $y - 15 = 0$.
+  //224
++ The coordinates of the vertices $A, B$ and $C$ of the $triangle A\BC$ taken in anti-clockwise order are
+  respectively $(x_1, y_1), (x_2, y_2)$ and $(x_3, y_3)$. Prove that the $angle A$ is acute or obstuse
+  according as $(x_1 - x_2)(x_1 - x_3) + (y_1 - y_2)(y_1 - y_3) > 0$ or $< 0$. Also find the condition for
+  the triangle to be right-angled at $A$.
+  //225
++ Show that the four lines $4x - 3y = 5, x - 2y = 10, 7x + y = 40$ and $x + 3y + 10 = 0$ form the sides of a
+  cyclic quadrilateral.
+  //226
++ Find the condition for the quadrilateral to be cyclic whose sides are $a_r\x + b_r\y + c_r = 0; r = 1, 2,
+  3, 4$ taken in order.
+  //227
++ Show that the lines $2x + 3y + 19 = 0$ and $9x + 6y - 17 = 0$ cut the coordinate axes in concyclic points.
+  //228
++ Find the equation of the sides of a triangle having $B(-4, -5)$ as a vertex, $5x + 3y - 4 = 0$ and $3x +
+  8y + 13 = 0$ as the equation of two of altitudes not passing through $B$.
+  //229
++ The straight line $L$ is perpendicular to the line $5x - y = 1$. The area of the triangle formed by $L$
+  and the coordinate axes is $5$. Find the equation of the line.
+  //230
++ The line $2x + 3y = 12$ meets the $x$-axis at $A$ and $y$-axis at $B$. The line through $(5, 5)$
+  perpendicular to $A\B$ meets the $x\y$ axes and $A\B$ at $C, D, E$ respectively. If $O$ is origin of axes
+  then find the area of $O\CE\B$.
+  //231
++ A square has its center at origin and one vertex at $(1, 2)$. Find the equation of its sides.
+  //232
++ $A\BC$ is an equilateral triangle. $A\D$ is its altitude through $A$. If $A equiv (1, 2)$ and $D equiv
+  (-2, 6)$, find the equations of the sides of the triangle.
+  //233
++ The equation of one side of an equilateral triangle is $x - y = 0$

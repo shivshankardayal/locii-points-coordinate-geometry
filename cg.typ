@@ -41,7 +41,7 @@
         Early Draft[#datetime.today().display("[month repr:long] [day], [year]")]
 
         #set text(fill: black)
-        Copyleft 🄯 2025 FSF.
+        Copyleft $copyleft$ 2025 FSF.
 
         Licensed under the GNU FDLv2 (the “License”). All rights reserved.
 

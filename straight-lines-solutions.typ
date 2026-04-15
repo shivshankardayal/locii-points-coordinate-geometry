@@ -2454,46 +2454,322 @@
 
   Therefore, the perpendicular bisectors of a triangle are concurrent.
   //214
-+ In triangle $A\BC$, place the triangle on the coordinate plane.
-
-  Let $A(a_1, a_2)$, $B(b_1, b_2)$, and $C(c_1, c_2)$.
-
-  The equation of line $B\C$ is $(y - b_2) = (c_2 - b_2)/(c_1 - b_1)  (x - b_1)$.
-
-  The slope of $B\C$ is $(c_2 - b_2)/(c_1 - b_1)$, so the slope of the perpendicular from $A$ is
-  $-(c_1 - b_1)/(c_2 - b_2)$.
-
-  Hence the equation of the altitude from $A$ is $(y - a_2) = -(c_1 - b_1)/(c_2 - b_2)  (x - a_1)$.
-
-  Similarly, the slope of $C\A$ is $(a_2 - c_2)/(a_1 - c_1)$, so the altitude from $B$ has slope
-  $-(a_1 - c_1)/(a_2 - c_2)$.
-
-  Its equation is $(y - b_2) = -(a_1 - c_1)/(a_2 - c_2)  (x - b_1)$. Solving the two equations gives $H$(say).
-
-  From the first altitude $y = a_2 - (c_1 - b_1)/(c_2 - b_2)  (x - a_1)$.
-
-  From the second altitude $y = b_2 - (a_1 - c_1)/(a_2 - c_2)  (x - b_1)$.
-
-  Equating both expressions of $y$ gives a linear equation in $x$, which has a unique solution. Substitute back to get $y$.
-
-  Thus the altitudes from $A$ and $B$ intersect at a point $H$.
-
-  Now consider the altitude from $C$. Its slope is the negative reciprocal of slope of $A\B$, which is $-(b_1 - a_1)/(b_2 - a_2)$.
-
-  Its equation is $(y - c_2) = -(b_1 - a_1)/(b_2 - a_2)  (x - c_1)$.
-
-  Substitute the coordinates of $H$ into this equation. On simplification, both sides are equal, so $H$ satisfies the equation.
-
-  Hence the altitude from $C$ also passes through $H$.
-
-  Therefore all three perpendiculars are concurrent.
-
-  #figure(
-      image("images/3_37.pdf")
-  )
-  //214
 + GIve equation is $x(1 + lambda) + y(2 - lambda) + 5 = 0$, which can be written as $x + 2y - 5 + lambda(x -
   y) = 0$
 
   The above equation represents two lines $x + 2y - 5 = 0$ and $x - y = 0$ to be concurrent. Solving the two
   equations we find the fixed point as $(-5/3, -5/3)$.
+  //215
++ $x(a + 2b) + y(a - 3b) = a - b$ can be rewritten as $a(\x + \y - 1) + b(2x - 3y + 1) = 0$, which represents
+  two equations $x + y - 1= $ and $2x - 3y + 1 = 0$, which are concurrent.
+
+  Solving the two equation yields the fixed point $(2/5, 3/5)$, which is independent of $a$ and $b$.
+  //216
++ #figure(
+      image("images/3_38.pdf")
+  )
+
+  Solving first two equation gives $A equiv (0, 0)$, Solving first and last gives $B equiv (20, 15)$ and
+  solving last two gives $C equiv (-36, 15)$
+
+  If $G$ be the centroid then $G equiv ((0 + 26 - 36)/3, (0 + 15 + 15)/3) = (-(16)/3, 10)$.
+
+  $a = B\C = 39, b = C\A = 56, c = A\B = 39$
+
+  Using the formula for the incenter we have $I equiv (-1, 8)$.
+  //217
++ #figure(
+      image("images/3_39.pdf")
+  )
+
+  Let $A equiv (0, 0), B equiv (2, -1)$ and $C equiv (-1, 3)$. Let $A\L perp B\C$ then equation is $3x =
+  4y$.
+
+  Let $B\M perp A\C$, then equation of $B\M$ is $x - 3y = 5$. Solving the equation of two perpendiculars we
+  get orthocenter as $(-4, -3)$.
+  //218
++ Consider a triangle $A\BC$ with sides $A\B: 3x - 2y = 6, B\C: 3x + 4y = -12$ and $A\C: 3x - 8y = -12$.
+
+  Solving first and last we get $A equiv (4, 3)$, and solving first two gives us $B equiv (0, -3)$.
+
+  Let $A\L perp B\C$ then equation of $A\L$ is given by $4x - 3y - 7 = 0$, and if $B\M perp A\C$ then
+  equation of $B\M$ is given by $8x + 3y + 9 = 0$.
+
+  Solving $A\L$ and $B\M$ gives us the orthocenter as $H equiv (-1/6, -(23)/9)$.
+  //219
++ Let $A\BC$ be the given triangle and $B equiv (3, -1)$ and $C equiv (-2, 3)$. Let $H$ be the orthocenter
+  of the $\u{25b3} A\BC$.
+
+  Given that $H equiv (0, 0)$. Since $A\B$ passes through $B(3, -1)$ and is perpendicular to the
+  line $C\H$ equation of $A\B$ is $2x - 3y = 9$. Similarly equation of $A\C$ is $3x - y = -9$.
+
+  Solving the two equations gives us $A equiv (-(36)/7, -(45)/7)$.
+  //220
++ Consider a $\u{25b3} A\BC$ such that $A\B$ is $y = m_1x$ and $A\C$ is $y = m_2x$. We also let equation of
+  $B\C$ as $l\x + m\y = 1$.
+
+  Clearly, $A$ will be $(0, 0)$
+
+  Since $A\H perp B\C therefore b/a(-l/m) = -1 => l/m = m/b = k$(say)
+
+  Coordinates of $B$ and $C$ are $(1/(l + m\m_1), m_1/(l + m\m_1))$ and $(1/(l + m\m_2), m_1/(l + m\m_2))$
+
+  Equation of perpendicular bisectors through $B$ and $C$ are
+
+  $x + m_2y = (1 + m_1m_2)/(l + m\m_1)$ and $x + m_1y = (1 + m_1m_2)/(l + m\m_2)$
+
+  Thus, coordinates of $H$ are $y = ((1 + m_1m_2)m_1)/(l^2 + l\m(m_1 + m_2) + m^2m_1m_2)$
+
+  $m_1 + m_2 = -(2h)/b$ and $m_1m_2 = a/b$
+
+  Thus, $y = ((a + b)m)/(b\l^2 - 2h\lm _ a\m^2) => m/b = (b\l^2 - 2h\lm + a\m^2)/(a + b)$
+
+  $=> k = (a + b)/(a\b(a + b - 2h))$
+
+  Thus, equation of $B\C$ is $l\x + m\y = 1 => a\bx + b\ky = 1 => k(a\x + b\y) = 1$
+
+  $=> (a\x + b\y)(a + b) = a\b(a + b - 2h)$.
+  //221
++ Consider the $\u{25b3} A\BC$ such that equation of $A\B$ is $p\x + q\y + r = 0$ and that of $A\C$ is $l\x
+  + m\y + n = 0$.
+
+  Equation of any line passing through these lines is given by $p\x + q\y + r + k(l\x + m\y + n) = 0$. Slope
+  of this line is $-(p + k\l)/(q + k\m)$.
+
+  Equation of $B\C$ is $-a/b$. Let $A\D$ be the perpendicular through $A$ on $B\C$, then $A\D perp B\C$.
+
+  $=> -(p + k\l)/(q + k\m).(-a/b) = -1 => k = (c\p + b\q)/(a\l + b\m)$
+
+  Thus, equation of $A\D$ is $(p\x + q\y + r)/(a\p + b\q) = (l\x + m\y + n)/(a\l + n\b)$.
+  //222
++ Let the equations of the sides $B\C, C\A$ and $A\B$ of the $triangle A\BC$ are $L_1 equiv = x cos theta_1
+  + y sin theta_1 - p_1 = 0, x cos theta_2 + y sin theta_2 - p_2 = 0$ and $x cos theta_3 + y sin theta_3 -
+  p_3 = 0$.
+
+  Let $A\D$ and $B\E$ are perpendiculars through $A$ and $B$ on opposite sides.
+
+  Equation of $A\D$ is given by $L_2 + k\L_3 = 0 => x(cos theta_2 + cos theta_3) + y(sin theta_2 + sin
+  theta_3) - (p_2 + k\p_3) = 0$
+
+  Slope of $A\D$ is $-(cos theta_2 + cos theta_3)/(sin theta_2 + sin theta_3) = m_1$
+
+  Slope of $B\C$ is $-(cos theta_1)/(sin theta_1)$. Product of these two slopes would be $-1$.
+
+  $=> k = -(cos(theta_1 - theta_2))/(cos(theta_1 - theta_3))$
+
+  Thus, equation of $A\D$ becomes $L_2 - (cos(theta_1 - theta_2))/(cos(theta_1 - theta_3))L_3 = 0 => L_1
+  cos(theta_1 - theta_3) = L_3 cos(theta_1 - theta_2)$
+
+  And we proceed similarly for another perpendiculars to obtain the desired equation.
+  //223
++ $A = (0, 0)$ from $3x - 4y = 0$ and $5x + 12y = 0$
+
+  $B = (20, 15)$ from $3x - 4y = 0$ and $y = 15$
+
+  $C = (-36, 15)$ from $5x + 12y = 0$ and $y = 15$
+
+  Centroid is $G = ((0 + 20 - 36)/3, (0 + 15 + 15)/3) = (-16/3, 10)$
+
+  Length of the sides are, $a = |B\C| = 56, b = |C\A| = 39, c = |A\B| = 25$
+
+  Incenter is $I = ((a x_A + b x_B + c x_C)/(a + b + c), (a y_A + b y_B + c y_C)/(a + b + c))$
+  $= ((0 + 780 - 900)/120, (0 + 585 + 375)/120) = (-1, 8)$
+  //224
++ Let $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$.
+
+  $A\B^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2$. $A\C^2 = (x_1 - x_3)^2 + (y_1 - y_3)^2$, and $B\C^2 = (x_2 - x_3)^2
+  + (y_2 - y_3)^2$
+
+  Consider $A\B^2 + A\C^2 - B\C^2$ $= [(x_1 - x_2)^2 + (y_1 - y_2)^2]
+  + [(x_1 - x_3)^2 + (y_1 - y_3)^2]
+  - [(x_2 - x_3)^2 + (y_2 - y_3)^2]$
+
+  $= (x_1^2 - 2x_1x_2 + x_2^2) + (y_1^2 - 2y_1y_2 + y_2^2)
+  + (x_1^2 - 2x_1x_3 + x_3^2) + (y_1^2 - 2y_1y_3 + y_3^2)
+  - (x_2^2 - 2x_2x_3 + x_3^2) - (y_2^2 - 2y_2y_3 + y_3^2)$
+
+  $= 2[(x_1^2 - x_1x_2 - x_1x_3 + x_2x_3) + (y_1^2 - y_1y_2 - y_1y_3 + y_2y_3)]$
+
+  $= 2[(x_1 - x_2)(x_1 - x_3) + (y_1 - y_2)(y_1 - y_3)]$
+
+  Thus, $A\B^2 + A\C^2 - B\C^2 = 2[(x_1 - x_2)(x_1 - x_3) + (y_1 - y_2)(y_1 - y_3)]$
+
+  We know that if $angle A$ is acute if $A\B^2 + A\C^2 - B\C^2 > 0$ and obtuse if $< 0$ and for right angle
+  should be equal to zero.
+  //225
++ Given lines are $L_1: 4x - 3y = 5$, $L_2: x - 2y = 10$, $L_3: 7x + y = 40$, and $L_4: x + 3y + 10 = 0$
+
+  Let $A$ be the intersection of $L_1$ and $L_2$, $B$ be the intersection of $L_2$ and $L_3$, $C$ be the
+  intersection of $L_3$ and $L_4$, and $D$ be the intersection of $L_4$ and $L_1$
+
+  Intersection of $L_1$ and $L_2$) is $4x - 3y = 5$ and $x - 2y = 10$
+
+  From $x - 2y = 10$, we get $x = 10 + 2y$ $=>4(10 + 2y) - 3y = 5=>5y = -35 => y = -7$$=>x = 10 +
+  2(-7) = -4 => A$ is $(-4, -7)$
+
+  Similarly we find that other points are $B(6, -2)$, $C(13/2, -11/2)$, and $D(-1, -3)$
+
+  We find the slopes as $m_{A\B} = (-2 + 7)/(6 + 4) = 1/2$, $m_{B\C} = ((-11)/2 + 2)/((13)/2 - 6) =
+  -7$, $m_{C\D} = (-3 + (11/2)/(-1 - (13)/2) = -1/3$, and
+  $m_{A\A} = (-7 + 3)/(-4 + 1) = 4/3$
+
+  Now we check angle relations using: $tan theta = lr(|(m_1 - m_2)/(1 + m_1 m_2)|)$
+
+  We find that $angle A + angle C = 180^degree$. Hence, the quadrilateral is cyclic.
+  //226
++ Let the four sides of the quadrilateral taken in order be
+  $L_1: a_1 x + b_1 y + c_1 = 0$,
+  $L_2: a_2 x + b_2 y + c_2 = 0$,
+  $L_3: a_3 x + b_3 y + c_3 = 0$, and
+  $L_4: a_4 x + b_4 y + c_4 = 0$.
+
+  Let the vertices be $A = L_1 inter L_2$, $B = L_2 inter L_3$, $C = L_3 inter L_4$, $D
+  = L_4 inter L_1$
+
+  A quadrilateral is cyclic iff opposite angles are supplementary i.e. $angle A + angle C = 180 degree$
+
+  For a line $a x + b y + c = 0$, slope is $m = -a / b$
+
+  Angle between two lines $L_1$ and $L_2$ isa $tan theta = abs((a_2 b_1 - a_1 b_2) / (a_1 a_2 + b_1 b_2))$
+
+  $=> tan A = abs((a_2 b_1 - a_1 b_2) / (a_1 a_2 + b_1 b_2))$
+
+  $=> tan C = abs((a_4 b_3 - a_3 b_4) / (a_3 a_4 + b_3 b_4))$
+
+  For cyclic quadrilateral, $angle A + angle C = 180 degree$
+
+  $(a_2 b_1 - a_1 b_2) / (a_1 a_2 + b_1 b_2) = (a_4 b_3 - a_3 b_4) / (a_3 a_4 + b_3 b_4)$
+
+  $=> (a_2 b_1 - a_1 b_2)(a_3 a_4 + b_3 b_4) = (a_4 b_3 - a_3 b_4)(a_1 a_2 + b_1 b_2)$.
+  //227
++ Show that the lines $2x + 3y + 19 = 0$ and $9x + 6y - 17 = 0$ cut the coordinate axes in concyclic points.
+
+  Let the given lines be $L_1: 2x + 3y + 19 = 0$, and $L_2: 9x + 6y - 17 = 0$.
+
+  For $L_1$, x-intercept: put $y = 0$ $=> 2x + 19 = 0 => x = -(19)/2$. So $A$ is $(-(19)/2, 0)$
+
+  y-intercept: put $x = 0$$=> 3y + 19 = 0 => y = -(19)/3$. So $B$ is $(0, -(19)/3)$
+
+  Similarly we find $C$ and $D$ for $L_2$ as $C((17)/9, 0)$ $D(0, (17)/6)$
+
+  Now we check concyclicity using the condition that four points are concyclic if the angle subtended by the same chord is equal.
+
+  Consider chord $A\C$ on the x-axis.
+
+  Slope of $A\B$ is $m_{A\B} = (-(19)/3 - 0) / (0 + (19)/2) = -2/3$
+
+  Slope of $B\C$ is  $m_{B\C} = (-19/3 - 0) / (0 - (17)/9) = (57)/(17)$
+
+  So angle at $B$ is angle between lines with slopes $-2/3$ and $(57)/(17)$.
+
+  Now slope of $A\D$ is $m_{A\D} = ((17)/6 - 0) / (0 + (19)/2) = ((17)/6) / ((19)/2) = (17)/(57)$
+
+  Slope of $C\D$ is $m_{C\D} = ((17)/6 - 0) / (0 - (17)/9) = ((17)/6) / ( -(17)/9 ) = -3/2$
+
+  So angle at $D$ is angle between slopes $(17)/(57)$ and $-3/2$.
+
+  Now compute angle between two lines using: $tan theta = abs((m_2 - m_1) / (1 + m_1 m_2))$
+
+  For angle at $B$ is $tan angle B = abs(((57)/(17) + 2/3) / (1 - (2/3)((57)/(17)))) = 1$
+
+  For angle at $D$ is  $tan angle D = abs((-3/2 - (17)/(57)) / (1 - ((17)/(57))(-3/2))) = 1$
+
+  Thus $angle B = angle D$. Since equal angles subtend the same chord, the four points are concyclic.
+  //228
++ Let $B(-4, -5)$ be a vertex of triangle $A\BC$.
+
+  $5x + 3y - 4 = 0$ is altitude from $A$, so slope of $B\C$ is $3/5$.
+  Equation of $B\C$ through $B(-4, -5)$ is $y + 5 = (3/5)(x + 4) => 3x - 5y - 13 = 0$
+
+  $3x + 8y + 13 = 0$ is altitude from $C$, so slope of $A\B$ is $8/3$.
+
+  Equation of $A\B$ through $B(-4, -5)$ is $y + 5 = (8/3)(x + 4) => 8x - 3y + 17 = 0$
+
+  We find $A$ as intersection of $A\B$ and altitude $5x + 3y - 4 = 0$
+
+  $13x + 13 = 0 => x = -1=> 5(-1) + 3y - 4 = 0 => y = 3$. So A is $(-1, 3)$.
+
+  Similarly $C$ is $(1, -2)$
+
+  Equation of $A\C$ is $5x + 2y - 1 = 0$
+
+  So the sides are: $A\B: 8x - 3y + 17 = 0$, $B\C: 3x - 5y - 13 = 0$, and $A\C: 5x + 2y - 1 = 0$.
++ //229
+  Equation of the line perpendiculars to $5x - y = 1$ is given by $x + 5y = k$. This will make an intercept
+  of $k$ with $x$-axis, and an intercept of $k/5$ with $y$-axis.
+
+  Thus, area of triangle, which is given as $5$, is $1/2.k.k/5 = 25 => k = plus.minus 5sqrt(2)$.
+
+  So the equation of the line is $x + 5y = plus.minus 5sqrt(2)$.
+  //230
++ #figure(
+    image("images/3_40.pdf")
+  )
+
+  Clearly, $A = (6, 0)$ and $B = (0, 4)$ as given line is $x/6 + y/4 = 1$.
+
+  We rewrite the line as $y = -2/3 x + 4$, so the slope of $A\B$ is $-2/3$.
+
+  A perpendicular line has slope $3/2$, so we form the line through $(5,5)$ as
+  $y - 5 = 3/2 (x - 5) => y = 3/2 x - 5/2$.
+
+  Now we find point $C$ by setting $y = 0$: $0 = 3/2 x - 5/2$, so $x = 5/3$. Thus $C = (5/3, 0)$.
+
+  We find point $D$ by setting $x = 0$: $y = -5/2$, so $D = (0, -5/2)$.
+
+  Now we find point $E$ by solving intersection of $2x + 3y = 12$ and $y = 3/2 x - 5/2$.
+
+  Thus $x = 3$, and $y = 2$. So $E = (3, 2)$.
+
+  We compute the area by splitting the quadrilateral $O\CE\B$ into two triangles $O\CE$ and $O\EB$.
+
+  We first compute the area of triangle $O\CE$. Since $O = (0,0)$, we use the determinant shortcut:
+  $Delta O\CE = 1/2 | x_C y_E - x_E y_C | = 5/3$.
+
+  $Delta O\EB = 1/2 | x_E y_B - x_B y_E | => 1/2 | 3*4 - 0*2 | = 6$.
+
+  $square O\CE\B = 5/3 + 6 = (23)/3$.
+  //231
++ #figure(
+    image("images/3_41.pdf")
+  )
+
+  Since the square is centered at the origin, we generate the remaining vertices by rotating the point $(1,
+  2)$  by $90^degree$ repeatedly about the origin.
+
+  We rotate $(x, y)$ counterclockwise by $90^degree$ using the rule $(x,y) -> (-y,x)$.
+
+  So we obtain $A = (1,2)$, $B = (-2,1)$, $C = (-1,-2)$, and $D = (2,-1)$.
+
+  We first take line $A\B$. We compute its slope as $(1-2)/(-2-1) = 1/3$.
+
+  So we write $y - 2 = 1/3 (x - 1)$ and simplify it to $x - 3y + 5 = 0$.
+
+  Similarly we find remaining sides to be $3x + y + 5 = 0, x - 3y - 5 = 0$, and $3x + y - 5 = 0$.
+  //232
++ We first find the slope of $A\D$ as $ (6-2)/(-2-1) = 4/(-3) = -4/3$.
+
+  Since $B\C$is perpendicular to $A\D$, we take the slope of $B\C$as $3/4$.
+
+  So the line $B\C$passes through $D(-2,6)$and we write $y - 6 = 3/4 (x + 2)$, which simplifies to $4y
+  - 24 = 3x + 6$, hence $3x - 4y + 30 = 0$.
+
+  We note that the altitude in an equilateral triangle satisfies $h = (sqrt(3)/2)s$.
+
+  We compute the altitude as $A\D = sqrt((1+2)^2 + (2-6)^2) = sqrt(9+16) = 5$.
+
+  So the side length is $s = 2h/sqrt(3) = (10)/sqrt(3)$.
+
+  Since $D$lies on $B\C$, we take direction vector of $B\C$ as $(4, 3)$with magnitude $5$, so the unit
+  direction is $(4/5, 3/5)$.
+
+  Half the side length is $s/2 = 5/sqrt(3)$.
+
+  So we move from $D$to $B$and $C$using this direction $(5/sqrt(3)) * (4/5, 3/5) = (4/sqrt(3), 3/sqrt(3)) $.
+
+  Therefore, $B = (-2 - 4/sqrt(3), 6 - 3/sqrt(3))$ and $C = (-2 + 4/sqrt(3), 6 + 3/sqrt(3))$.
+
+  Now we find line $A\B$using points $A(1,2)$and $B$ i.e. $y - 2 = m_(A\B) (x - 1) $ where
+  $m_(A\B) = (6 - 3/sqrt(3) - 2)/(-2 - 4/sqrt(3) - 1)$.
+
+  Similarly we can find other sides.
