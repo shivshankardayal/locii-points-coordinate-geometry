@@ -1497,4 +1497,14 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + $A\BC$ is an equilateral triangle. $A\D$ is its altitude through $A$. If $A equiv (1, 2)$ and $D equiv
   (-2, 6)$, find the equations of the sides of the triangle.
   //233
-+ The equation of one side of an equilateral triangle is $x - y = 0$
++ The equation of one side of an equilateral triangle is $x - y = 0$ and one vertex is $(2 + sqrt(3),
+  5)$. Prove that second side is $y + (2 - sqrt(3))x = 6$, and find the equation of the third side.
+  //234
++ A diagonal of a square lies along the line $8x - 15y = 0$ and one vertex of the square is $(1, 2)$. Find
+  the equations of the lines of the square passing through this vertex.
+  //235
++ Find the equation of the lines which pass through $(4, 5)$ andd make equal angles with the lines $5y =
+  12x + 6$ and $3x = 4y + 7$.
+  //236
++ Two equal sides of an isosceles triangle have the equations $7x - y + 3 = 0$ and $x + y - 3 = 0$ and its
+  third sides passes through the point $()$

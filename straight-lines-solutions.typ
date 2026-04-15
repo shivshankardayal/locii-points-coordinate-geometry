@@ -2773,3 +2773,49 @@
   $m_(A\B) = (6 - 3/sqrt(3) - 2)/(-2 - 4/sqrt(3) - 1)$.
 
   Similarly we can find other sides.
+  //233
++ We have one side $x - y = 0$ so its slope is $1$. In an equilateral triangle, the angle between sides is
+  $60^degree$. Hence slopes of the other sides satisfy
+
+  $m = tan(45^degree plus.minus 60^degree)$
+
+  So $m = tan(105^degree) = -2 - sqrt(3)$ or $m = tan(-15^degree) = 2 - sqrt(3)$.
+
+  Using the given vertex $(2 + sqrt(3), 5)$ and slope $2 - sqrt(3)$
+
+  $y - 5 = (2 - sqrt(3))(x - (2 + sqrt(3)))$
+
+  Simplifying $y = (2 - sqrt(3))x + 6$
+
+  So second side is $y + (2 - sqrt(3))x = 6$.
+
+  For the third side take slope $-2 - sqrt(3) => y - 5 = (-2 - sqrt(3))(x - (2 + sqrt(3)))$
+
+  $y + (2 + sqrt(3))x = 12 + 4sqrt(3)$.
+  //234
++ We have diagonal $8x - 15y = 0$ so its slope is $8/(15)$. Hence the other diagonal has slope $-(15)/8$.
+
+  In a square, diagonals bisect at right angles. Let the center be $(h, k)$ on $8h - 15k = 0$.
+
+  Since $(1, 2)$ is a vertex, the midpoint lies on the line through $(1, 2)$ with slope $-(15)/8$
+
+  $k - 2 = (-(15)/8)(h - 1)$
+
+  Solving with $8h - 15k = 0$ gives $(h, k) = ((16)/(17), (120)/(17))$.
+
+  Slope of side is perpendicular to diagonal slope $8/(15)$, so slope of side is $-(15)/8$ or $8/(15)$
+  rotated by $45^degree$. Thus, side slopes are $1/8$ and $-8$.
+
+  Through $(1, 2) => y - 2 = (1/8)(x - 1)$ gives $x - 8y + 15 = 0$ and $y - 2 = -8(x - 1)$ gives $8x + y -
+  10 = 0$.
+  //235
++ $5y = 12x + 6$ gives slope $(12)/5$. $3x = 4y + 7$ gives slope $3/4$
+
+  Let required line have slope $m$. For equal angles
+
+  $(m - (12)/5)/(1 + (12)/5m) = - (m - 3/4)/(1 + 3/4m)$
+
+  Solving gives $m = 1$ or $m = -1$.
+
+  Since these lines pass through $(4, 5)$, thereforem $y - 5 = 1(x - 4)$ gives $y = x + 1$ and $y - 5 = -1(x
+  - 4)$ gives $y = -x + 9$.
