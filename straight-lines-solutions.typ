@@ -2256,3 +2256,244 @@
 
   Equation of line through $M(7/2, 3/2)$ with slope $-3$ is given by $y - 3/2 = -3(x - 7/2) => 3x + y = +
   12$.
+  //202
++ The point of intersection of the lines $3x + 2y = 0$ and $x - 2y = 0$ is $O(0, 0)$. Equation of the line
+  passing through $O(0, 0)$ and $(1, 1)$ is given by $x = y$.
+  //203
++ Given that $5x - y = 9 => y = 5x - 9$. Putting it in the line $x + 6y = 8 => x + 30x - 54 = 8 => x = 2 =>
+  y = 1$.
+
+  Equation of the line passing through $(2, 1)$ and $(2, -2)$ is given by $x = 2$.
+  //204
++ #figure(
+    image("images/3_34.pdf")
+  )
+
+  From first equation, $y = 1 - 2x => x + 3(1 - 2x) - 2 = 0 => x = 1/5$
+
+  Then $y = 1 - 2(1/5) = 3/5$. So intersection point is $P(1/5, 3/5)$.
+
+  Let required line cut axes at $(a, 0)$ and $(0, b)$.
+
+  Equation in intercept form is given by $x/a + y/b = 1$
+
+  Since it passes through $P(1/5, 3/5)$ $=> (1/5)/a + (3/5)/b = 1$
+
+  $=> 1/a + 3/b = 5$
+
+  Area of triangle formed with axes is given by $1/2 * a * b = 3/8 => a\b = 3/4$
+
+  $=> (b + 3a)/a\b = 5 => (b + 3a)/(3/4) = 5 => b + 3a = 15/4$
+
+  $=> b = 15/4 - 3a => a(15/4 - 3a) = 3/4 => 4a^2 - 5a + 1 = 0$
+
+  $=> a = 1$ or $a = 1/4$
+
+  If $a = 1$, then $b = 3/4$. If $a = 1/4$, then $b = 3$.
+
+  Hence, equations are $x + y/(3/4) = 1 => 3x + 4y - 3 = 0$ and $x/(1/4) + y/3 = 1 => 12x + y - 3 = 0$.
+  //205
++ Let $A\B " is " 2x - y + 1 = 0 -> y = 2x + 1$. Let $A\D " is " x + 3y - 10 = 0$
+
+  Substitute $y = 2x + 1$ into $A\D$: $x + 3(2x + 1) - 10 = 0 => 7x - 7 = 0 =>> x = 1, y = 3$
+
+  So $A = (1, 3)$ and $C = (-1, -2)$ Midpoint of $A\C$: $M = ((1 + (-1))/2, (3 + (-2))/2) = (0, 1/2)$.
+
+  So $M$ is midpoint of $B\D$ also Let direction of $A\B = (1, 2)$. Let direction of $A\D = (3, -1)$.
+
+  So $B = (1, 3) + t(1, 2) = (1 + t, 3 + 2t)$ and $D = (1, 3) + s(3, -1) = (1 + 3s, 3 - s)$
+
+  Midpoint condition: $((1 + t) + (1 + 3s)/2 = 0 -> t + 3s = -2 =>((3 + 2t) + (3 - s))/2 = 1/2 -> 2t - s =
+  -5$
+
+  $=> t = -(17)/7, s = 1/7$. So $B = (-(10)/7, -(13)/7)$ and $D = ((10)/7, (20)/7)$.
+
+  Slope of $A\C$ is $(-2 - 3)/(-1 - 1) = 5/2$ and slope of $B\D$ is $((20)/7 + (13)/7)/((10)/7 + (10)/7) =
+  (33)/(20)$
+
+  Equation of $A\B$ is $y - 3 = (5/2)(x - 1) => 5x - 2y + 1 = 0$
+
+  Equation of $B\D$ is $33x - 20y + 10 = 0$.
+  #figure(
+    image("images/3_35.pdf")
+  )
+  //206
++ From $2x - y - 5 = 0 -> y = 2x - 5$
+
+  Substituting into $3x - y - 6 = 0$ gives us $3x - (2x - 5) - 6 = 0 => x = 1$
+
+  Now $y = 2*1 - 5 = -3$. So intersection point is $(1, -3)$.
+
+  $4x - y - 7 = 0$. Substitute $(1, -3)$ gives us $4(1) - (-3) - 7 = 4 + 3 - 7 = 0$
+
+  Since it satisfies the third equation, all three lines are concurrent at $(1, -3)$.
+  //207
++ Since the point lies on the $y$-axis, $x = 0$.
+
+  Substituting $x = 0$ in first line gives us $(2m + 3)y + m + 6 = 0 -> (2m + 3)y = -(m + 6) => y = -(m +
+  6)/(2m + 3)$
+
+  Substituting $x = 0$ in second line gives us $(m - 1)y + m - 9 = 0 -> (m - 1)y = 9 - m => y = (9 - m)/(m - 1)$
+
+  Equating both values of $y$ gives us $-(m + 6)/(2m + 3) = (9 - m)/(m - 1) => m = 21, -1$.
+  //208
++ Substituting $y = x + 1$ into $2x + y = 16$ gives us $2x + (x + 1) = 16$
+
+  Simplifying gives us $3x + 1 = 16$
+
+  Solving gives us $3x = 15$ so $x = 5$
+
+  Finding $y$ gives us $y = 5 + 1 = 6$
+
+  So the point of intersection being obtained is $(5, 6)$
+
+  Substituting $(5, 6)$ into $y = m x - 4$ gives us $6 = 5m - 4=> m = 2$.
+  //209
++ Multiplying the first equation by $b$ is giving us $a b x + a^2 b y + b = 0$
+
+  Multiplying the second equation by $a$ is giving us $a b x + a b^2 y + a = 0$
+
+  Subtracting gives us $a^2 b y - a b^2 y + b - a = 0=>a b (a - b) y + (b - a) = 0$
+
+  $=>(a - b)(a b y - 1) = 0$. So either $a = b$ or $a b y = 1$.
+
+  If $a = b$, then at least two constants are already being equal.
+
+  If $a b y = 1$, then $y = 1/(a b)$.
+
+  Substituting $y = 1/(a b)$ into $a x + a^2 y + 1 = 0$ gives us $a x + a^2 (1/(a b)) + 1 = 0$
+
+  Simplifying gives us $a x + a/b + 1 = 0$
+
+  So $x$ is $x = -(a/b + 1)/a$
+
+  Substituting the same point into the third equation $c x + c^2 y + 1 = 0$ gives us a condition
+  relating $a, b, c$
+
+  After simplification it gives us $(a - c)(b - c) = 0$
+
+  So either $a = c$ or $b = c$. Therefore, at least two of $a, b, c$ are equal.
+  //210
++ Equating $m_1 x + c_1 = m_2 x + c_2$ gives us $(m_1 - m_2)x = c_2 - c_1$
+
+  So $x$ is $x = (c_2 - c_1)/(m_1 - m_2)$. Finding $y$ gives us $y = (m_1 (c_2 - c_1))/(m_1 - m_2) + c_1$
+
+  The third line also passes through this so
+
+  $(m_1(c_2 - c_1))/(m_1 - m_2) + c_1 = (m_3(c_2 - c_1))/(m_1 - m_2) + c_3$
+
+  $=> m_1(c_2 - c_3) + m_2(c_3 - c_1) + m_3(c_1 - c_2) = 0$.
+  //211
++ Multiplying $(b + c)x + a y + 1 = 0$ by $b$ gives us $b(b + c)x + a\b y + b = 0$
+
+  Multiplying $(c + a)x + b y + 1 = 0$ by $a$ gives us $a(c + a)x + a\b y + a = 0$
+
+  Subtracting the equations gives us $b(b + c)x - a(c + a)x + b - a = 0$
+
+  $=> (b - a)((a + b + c)x - 1) = 0$
+
+  So either $a = b$ or $(a + b + c)x = 1$.
+
+  If $a = b$, then two of the lines are already being identical in structure and concurrency is satisfied.
+
+  Assuming $a eq.not b$, finding $x$ gives us $x = 1/(a + b + c)$
+
+  Substituting $x = 1/(a + b + c)$ into the first equation gives us $(b + c)/(a + b + c) + a y + 1 = 0$
+
+  Solving for $y$ yields $a y = -1 - (b + c)/(a + b + c)$
+
+  So $y = -(a + b + c + b + c)/(a(a + b + c)) = -(a + 2b + 2c)/(a(a + b + c))$
+
+  Substituting this point into the third equation $(a + b)x + c y + 1 = 0$ yields $(a + b)/(a + b + c) + c
+  (-(a + 2b + 2c)/(a(a + b + c))) + 1 = 0$
+
+  Multiplying by $(a + b + c)$ yields $(a + b) - c(a + 2b + 2c)/a + (a + b + c) = 0$
+
+  Simplifying yields an identity equal to zero. So the same point is satisfying all three equations.
+  //212
++ We consider a triangle with vertices $A(x_1,y_1)$, $B(x_2,y_2)$ and $C(x_3,y_3)$.
+
+  We take the perpendicular bisector of side $A\B$. The midpoint of $A\B$ is $M_1((x_1+x_2)/2, (y_1+y_2)/2)$
+  and the slope of $A\B$ is $(y_2-y_1)/(x_2-x_1)$.
+
+  So the slope of its perpendicular bisector is $-(x_2-x_1)/(y_2-y_1)$.
+
+  Hence the equation of the perpendicular bisector of $A\B$ is $(y-(y_1+y_2)/2) = -(x_2-x_1)/(y_2-y_1)
+  (x-(x_1+x_2)/2)$
+
+  Similarly we form the perpendicular bisector of side $B\C$. Its midpoint is   $M_2((x_2+x_3)/2, (y_2+y_3)/2)$
+  and its equation is $(y-(y_2+y_3)/2) = -(x_3-x_2)/(y_3-y_2) (x-(x_2+x_3)/2)$
+
+  Now we solve these two equations simultaneously and obtain a point $(h,k)$.
+
+  This point $(h,k)$ satisfies both equations, so it lies on the perpendicular bisectors of $A\B$ and
+  $B\C$. Hence it is equidistant from $A$ and $B$, and also from $B$ and $C$.
+
+  Thus we get $P\A = P\B$ and $P\B = P\C$ so we conclude $P\A = P\C$.
+
+  This shows that the point $(h,k)$ also lies on the perpendicular bisector of $A\C$.
+  //213
++ #figure(
+    image("images/3_36.pdf")
+  )
+
+  Let $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ be the vertices of a $triangle A\BC$.
+
+  Let $P(x, y)$ lie on the perpendicular bisector of $A\B$, then $P\A = P\B$
+
+  $sqrt((x - x_1)^2 + (y - y_1)^2) = sqrt((x - x_2)^2 + (y - y_2)^2)$
+
+  $=> 2x(x_2 - x_1) + 2y(y_2 - y_1) = x_2^2 + y_2^2 - x_1^2 - y_1^2$
+
+  This is the perpendicular bisector of $A\B$
+
+  Similarly for $B\C$, $2x(x_3 - x_2) + 2y(y_3 - y_2) = x_3^2 + y_3^2 - x_2^2 - y_2^2$
+
+  The two linear equations intersect at a unique point and that point is equidistant from $A, B$, and $C$
+  iie. $P\A = P\B = P\C$
+
+  Therefore, the perpendicular bisectors of a triangle are concurrent.
+  //214
++ In triangle $A\BC$, place the triangle on the coordinate plane.
+
+  Let $A(a_1, a_2)$, $B(b_1, b_2)$, and $C(c_1, c_2)$.
+
+  The equation of line $B\C$ is $(y - b_2) = (c_2 - b_2)/(c_1 - b_1)  (x - b_1)$.
+
+  The slope of $B\C$ is $(c_2 - b_2)/(c_1 - b_1)$, so the slope of the perpendicular from $A$ is
+  $-(c_1 - b_1)/(c_2 - b_2)$.
+
+  Hence the equation of the altitude from $A$ is $(y - a_2) = -(c_1 - b_1)/(c_2 - b_2)  (x - a_1)$.
+
+  Similarly, the slope of $C\A$ is $(a_2 - c_2)/(a_1 - c_1)$, so the altitude from $B$ has slope
+  $-(a_1 - c_1)/(a_2 - c_2)$.
+
+  Its equation is $(y - b_2) = -(a_1 - c_1)/(a_2 - c_2)  (x - b_1)$. Solving the two equations gives $H$(say).
+
+  From the first altitude $y = a_2 - (c_1 - b_1)/(c_2 - b_2)  (x - a_1)$.
+
+  From the second altitude $y = b_2 - (a_1 - c_1)/(a_2 - c_2)  (x - b_1)$.
+
+  Equating both expressions of $y$ gives a linear equation in $x$, which has a unique solution. Substitute back to get $y$.
+
+  Thus the altitudes from $A$ and $B$ intersect at a point $H$.
+
+  Now consider the altitude from $C$. Its slope is the negative reciprocal of slope of $A\B$, which is $-(b_1 - a_1)/(b_2 - a_2)$.
+
+  Its equation is $(y - c_2) = -(b_1 - a_1)/(b_2 - a_2)  (x - c_1)$.
+
+  Substitute the coordinates of $H$ into this equation. On simplification, both sides are equal, so $H$ satisfies the equation.
+
+  Hence the altitude from $C$ also passes through $H$.
+
+  Therefore all three perpendiculars are concurrent.
+
+  #figure(
+      image("images/3_37.pdf")
+  )
+  //214
++ GIve equation is $x(1 + lambda) + y(2 - lambda) + 5 = 0$, which can be written as $x + 2y - 5 + lambda(x -
+  y) = 0$
+
+  The above equation represents two lines $x + 2y - 5 = 0$ and $x - y = 0$ to be concurrent. Solving the two
+  equations we find the fixed point as $(-5/3, -5/3)$.

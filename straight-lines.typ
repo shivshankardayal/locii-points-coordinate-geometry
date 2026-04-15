@@ -1406,4 +1406,36 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + If the image of the point $(2, 1)$ with respect to a line mirror be $(5, 2)$, find the equation of the
   mirror.
   //202
-+
++ Find the equation of the straight line which passes through the point $(1, 1)$ and the point of
+  intersection of the lines $3x + 2y = 0$ and $x - 2y = 0$.
+  //203
++ Find the equation of the straight line which passes through the point $(2, -2)$ and the point of the
+  intersection of the lines $5x - y = 9$ and $x + 6y = 8$.
+  //204
++ Find the equation of the straight line passing through the point of intersection of the lines $2x + y - 1
+  = 0$ and $x + 3y - 2 = 0$ and making with the coordinate axes a triangle of area $3/8$.
+  //205
++ The sides $A\B$ and $A\D$ of a parallelogram $A\BC\D$ are $2x - y + 1 = 0$ and $x + 3y - 10 = 0$
+  respectively and $C$ is the point $(-1, -2)$. Find the equation of the diagonals $A\C$ and $B\D$.
+  //206
++ Prove that the lines $2x - y - 5 = 0, 3x - y - 6 = 0$ and $4x - y - 7 = 0$ are concurrent.
+  //207
++ Find the value of $m$ for which the two lines $m\x + (2m + 3)y + m + 6 = 0$ and $(2m + 1)x + (m - 1)y + m
+  - 9 = 0$ intersect at a point on $y$-axis.
+  //208
++ Find the value of $m$ so that lines $y = x + 1, 2x + y = 16$ and $y = m\x - 4$ may be concurrent.
+  //209
++ If the three lines $a\x + a^2y + 1 = 0, b\x + b^2y + 1 = 0$ and $c\x + c^2\y + 1 = 0$ are concurrent, show
+  that at least two of the three constants $a, b, c$ are equal.
+  //210
++ Find the condition that the lines $y = m_1x + c_1, y = m_2x + c_2$ and $y = m_3x + c_2$ may be concurrent.
+  //211
++ Show that the straight lines $(b + c)x + a\y + 1 = 0, (c + a)x + b\y + 1 = 0$ and $(a + b)x + c\y + 1 = 0$
+  are concurrent.
+  //212
++ Prove analytically that the right bisectors of the sides of a triangle are concurrent.
+  //213
++ Prove that perpendiculars drawn from the vertices to the opposite sides are concurrent.
+  //214
++ Prove that the family of lines represented by $x(1 + lambda) + y(2 - lambda) + 5 = 0$, $\lambda$ beind
+  arbitrary, pass through a fixed point. Also find the fixed point.
