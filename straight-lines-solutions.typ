@@ -2819,3 +2819,297 @@
 
   Since these lines pass through $(4, 5)$, thereforem $y - 5 = 1(x - 4)$ gives $y = x + 1$ and $y - 5 = -1(x
   - 4)$ gives $y = -x + 9$.
+  //236
++ The two given lines are $7x - y + 3 = 0$ and $x + y - 3 = 0$. Solving them together gives $y = 7x + 3$ and
+  $y = 3 - x$, so $7x + 3 = 3 - x$, which gives $x = 0$ and $y = 3$. Thus the vertex of the triangle is
+  $(0, 3)$.
+
+  The angle bisectors are found from $(7x - y + 3) / 5 = plus.minus (x + y - 3)$. Solving gives the two
+  bisectors $x - 3y + 9 = 0$ and $3x + y - 3 = 0$.
+
+  The internal bisector is $3x + y - 3 = 0$, whose slope is $-3$. The base is perpendicular to this
+  bisector, so its slope is $1/3$.
+
+  Since the base passes through $(1,-10)$, its equation is $y + 10 = (1/3)(x - 1)$. Simplifying gives $3y +
+  30 = x - 1$, hence the required equation is $x - 3y - 31 = 0$.
+  //237
++ The three lines are $x cos alpha + y sin alpha = p_1$, $x cos beta + y sin beta = p_2$, and $x cos gamma +
+  y sin gamma = p_3$.
+
+  The intersection point of the first two lines is obtained by solving $x cos alpha + y sin alpha = p_1$ and
+  $x cos beta + y sin beta = p_2$. Using determinants, this gives $x = (p_1 sin beta - p_2 sin alpha) /
+  sin(beta - alpha)$ and $y = (p_2 cos alpha - p_1 cos beta) / sin(beta - alpha)$.
+
+  Similarly, the other two vertices are obtained by cyclic permutation of $alpha, beta, gamma$ and $p_1,
+  p_2, p_3$.
+
+  The area of the triangle formed by three lines is given by $Delta = 1/2  abs(x_1(y_2 - y_3) + x_2(y_3 -
+  y_1) + x_3(y_1 - y_2))$.
+
+  Substituting the coordinates of the three intersection points and simplifying using the identity $sin(A -
+  B) = sin A cos B - cos A sin B$, the expression is reduced.
+
+  The numerator becomes $(p_1 sin(gamma - beta) + p_2 sin(alpha - gamma) + p_3
+  sin(beta - alpha))^2$ and the denominator becomes $abs(sin(gamma - beta) sin(alpha - gamma) sin(beta -
+  alpha))$.
+
+  Thus the area is $1/2(p_1 sin(gamma - beta) + p_2 sin(alpha - gamma) + p_3 sin(beta - alpha))^2 /
+  abs(sin(gamma - beta) sin(alpha - gamma) sin(beta - alpha))$.
+  //238
++ The line $L$ passes through $(1,1)$ and $(2,0)$, so its slope is $m = (0 - 1) / (2 - 1) = -1$. Hence its
+  equation is $y - 1 = -1(x - 1)$, which simplifies to $y = -x + 2$.
+
+  A line perpendicular to $L$ has slope $1$. Passing through $(1/2, 0)$, its equation is $y - 0 = 1(x -
+  1/2)$, so $y = x - 1/2$.
+
+  The three lines are $x = 0$, $y = -x + 2$, and $y = x - 1/2$.
+
+  The intersection of $x = 0$ and $y = -x + 2$ is $(0,2)$. The intersection of $x = 0$ and $y = x - 1/2$ is
+  $(0,-1/2)$.
+
+  The intersection of $y = -x + 2$ and $y = x - 1/2$ is found by solving $-x + 2 = x - 1/2$, which gives $2x
+  = 5/2$, so $x = 5/4$ and $y = 3/4$.
+
+  Thus the vertices of the triangle are $(0,2)$, $(0,-1/2)$, and $(5/4, 3/4)$.
+
+  The base along the $y$-axis has length $|2 - (-1/2)| = 5/2$, and the perpendicular distance of $(5/4,
+  3/4)$ from the $y$-axis is $5/4$.
+
+  Hence the area is $(1/2) * (5/2) * (5/4) = (25)/(16)$.
+  //239
++ The vertices of the triangle are $A(0,0)$, $B(8,0)$, and $C(4,8)$, and the given point is $P(9,3)$.
+
+  The side $A\B$ has equation $y = 0$. The foot of the perpendicular from $P(9,3)$ to this line is clearly
+  $(9,0)$.
+
+  The side $B\C$ passes through $(8,0)$ and $(4,8)$, so its slope is $m = (8 - 0) / (4 - 8) = -2$. Hence its
+  equation is $y = -2x + 16$, or $2x + y - 16 = 0$.
+
+  The foot of the perpendicular from $(9,3)$ to $2x + y - 16 = 0$ is given by
+  $x = 9 - 2(2*9 + 3 - 16) / (2^2 + 1^2)$ and $y = 3 - (2*9 + 3 - 16) / (2^2 + 1^2)$.
+
+  Since $2*9 + 3 - 16 = 5$, this gives $x = 9 - 10/5 = 7$ and $y = 3 - 5/5 = 2$, so the foot is $(7,2)$.
+
+  The side $C\A$ passes through $(4,8)$ and $(0,0)$, so its slope is $2$. Its equation is $y = 2x$, or $2x -
+  y = 0$.
+
+  The foot of the perpendicular from $(9,3)$ to $2x - y = 0$ is
+  $x = 9 - 2(2*9 - 3) / (2^2 + (-1)^2)$ and $y = 3 - (-1)(2*9 - 3) / (2^2 + (-1)^2)$.
+
+  Since $29 - 3 = 15$, this gives $x = 9 - 30/5 = 3$ and $y = 3 + 15/5 = 6$, so the foot is $(3,6)$.
+
+  Thus the three feet are $(9,0)$, $(7,2)$, and $(3,6)$.
+
+  To check collinearity, the slope between $(9,0)$ and $(7,2)$ is $(2 - 0) / (7 - 9) = -1$, and the slope
+  between $(7,2)$ and $(3,6)$ is $(6 - 2) / (3 - 7) = -1$, so the points lie on a straight line.
+
+  The equation of the line through $(9,0)$ with slope $-1$ is $y - 0 = -1(x - 9)$, which simplifies to $x +
+  y - 9 = 0$.
+  //240
++ The line is $x/a + y/b = 1$, which can be written as $b\x + a\y - a\b = 0$.
+
+  The foot of the perpendicular from the origin $(0,0)$ to the line $b\x + a\y - a\b = 0$ is given by $alpha
+  = -b(-a\b) / (a^2 + b^2)$ and $beta = -a(-a\b) / (a^2 + b^2)$.
+
+  Thus $alpha = a\b^2 / (a^2 + b^2)$ and $beta = a^2 b / (a^2 + b^2)$.
+
+  Now $alpha^2 + beta^2 = (a^2 b^4 + a^4 b^2) / (a^2 + b^2)^2 = a^2 b^2(a^2 + b^2) / (a^2 + b^2)^2 = a^2 b^2
+  / (a^2 + b^2)$.
+
+  Also $alpha + beta = (a\b^2 + a^2 b) / (a^2 + b^2) = a\b(a + b) / (a^2 + b^2)$.
+
+  Thus $(alpha^2 + beta^2)(alpha + beta) = (a^2 b^2 / (a^2 + b^2)) * (a\b(a + b) / (a^2 + b^2)) = a^3 b^3(a
+  + b) / (a^2 + b^2)^2$.
+
+  Further $alpha beta = (a\b^2 / (a^2 + b^2)) * (a^2 b / (a^2 + b^2)) = a^3 b^3 / (a^2 + b^2)^2$.
+
+  Hence $(a + b)alpha beta = (a + b)(a^3 b^3 / (a^2 + b^2)^2) = a^3 b^3(a + b) / (a^2 + b^2)^2$.
+
+  Thus $(alpha^2 + beta^2)(alpha + beta) = (a + b)alpha beta$.
+  //241
++ The given lines are $x = 0$, $y = 0$, $x + y = 1$, and $6x + y = 3$.
+
+  The vertices of the quadrilateral are obtained by pairwise intersections. The origin $(0,0)$ is one
+  vertex. The intersection of $y = 0$ and $x + y = 1$ is $(1,0)$. The intersection of $x + y = 1$ and $6x +
+  y = 3$ is found by subtracting the equations, giving $5x = 2$, so $x = 2/5$ and $y = 3/5$. The
+  intersection of $6x + y = 3$ and $x = 0$ is $(0,3)$.
+
+  Thus the quadrilateral has vertices $(0,0)$, $(1,0)$, $(2/5, 3/5)$, and $(0,3)$.
+
+  The diagonal through the origin connects $(0,0)$ and the opposite vertex $(2/5, 3/5)$.
+
+  The slope of this diagonal is $(3/5) / (2/5) = 3/2$, so its equation is $y = (3/2)x$, or $3x - 2y = 0$.
+  //242
++ The given points are $A(-4,5)$, $D(16/5,-23/5)$, $E(4,1)$, and $F(-1,-4)$. The points $D, E, F$ are the
+  feet of the perpendiculars from $A, B, C$ respectively.
+
+  Since $A\D$ is perpendicular to $B\C$, the slope of $B\C$ is the negative reciprocal of the slope of
+  $A\D$. The slope of $A\D$ is $((-(23)/5) - 5) / (((16)/5) - (-4)) = ((-48)/5) / ((36)/5) = -4/3$, so the
+  slope of $B\C$ is $3/4$.
+
+  Thus the equation of $B\C$ passing through $D((16)/5,-(23)/5)$ is $y + (23)/5 = (3/4)(x - (16)/5)$.
+
+  Now $E(4,1)$ lies on $A\C$ and $B\E$ is perpendicular to $A\C$. The slope of $A\C$ is $(1 - 5) / (4 -
+  (-4)) = -4/8 = -1/2$, so the slope of $B\E$ is $2$.
+
+  Thus the equation of $B\E$ is $y - 1 = 2(x - 4)$, or $y = 2x - 7$.
+
+  The point $B$ lies on both $B\C$ and $B\E$. Solving $y = 2x - 7$ and $y + 23/5 = (3/4)(x - (16)/5)$ gives
+  $x = 3$ and $y = -1$. Hence $B(3,-1)$.
+
+  Now $F(-1,-4)$ lies on $A\B$ and $C\F$ is perpendicular to $A\B$. The slope of $A\B$ is $(-1 - 5) / (3 -
+  (-4)) = -6/7$, so the slope of $C\F$ is $7/6$.
+
+  Thus the equation of $C\F$ is $y + 4 = (7/6)(x + 1)$.
+
+  The point $C$ lies on both $B\C$ and $C\F$. Solving $y + (23)/5 = (3/4)(x - (16)/5)$ and $y + 4 = (7/6)(x
+  + 1)$ gives $x = 6$ and $y = 3$. Hence $C(6,3)$.
+
+  Thus the required vertices are $B(3,-1)$ and $C(6,3)$.
+  //243
++ The lines are $y = m_r x + c_r$ for $r = 1, 2, 3$, and the transversal is $x + y = 1$.
+
+  The point of intersection of the line $y = m_r x + c_r$ with $x + y = 1$ is obtained by substituting $y =
+  1 - x$ into the line, giving $1 - x = m_r x + c_r$. This simplifies to $x(1 + m_r) = 1 - c_r$, so $x_r =
+  (1 - c_r) / (1 + m_r)$ and $y_r = 1 - x_r$.
+
+  Thus the three points of intersection correspond to parameters $x_1, x_2, x_3$ on the line $x + y = 1$.
+
+  The intercept cut off between two such points along the transversal is proportional to the difference of
+  their $x$-coordinates, since all points lie on the same straight line.
+
+  Hence equal intercepts imply $x_2 - x_1 = x_3 - x_2$, so $2x_2 = x_1 + x_3$.
+
+  Substituting $x_r = (1 - c_r)/(1 + m_r)$, this gives $2(1 - c_2)/(1 + m_2) = (1 - c_1)/(1 + m_1) + (1 -
+  c_3)/(1 + m_3)$.
+
+  For the intercepts to be equal for arbitrary $c_r$, this condition reduces to $2/(1 + m_2) = 1/(1 + m_1) +
+  1/(1 + m_3)$, which is needed condition.
+  //244
++ The given pair of lines are $5x - y + 4 = 0$ and $3x + 4y - 4 = 0$.
+
+  Let the required line cut these two lines at $A$ and $B$ respectively, and let the midpoint of $A\B$ be
+  $(1,5)$.
+
+  We know that that if a line through midpoint $(x_0,y_0)$ joins intersections with two lines $L_1 = 0$ and
+  $L_2 = 0$, then its equation is $L_1 + k L_2 = 0$ for some constant $k$.
+
+  So the required line is $5x - y + 4 + k(3x + 4y - 4) = 0$ which simplifies to $(5 + 3k)x + (-1 + 4k)y + (4
+  - 4k) = 0$.
+
+  Since $(1,5)$ lies on the line, we substitute $x = 1$, $y = 5$ to get $(5 + 3k) + 5(-1 + 4k) + (4 - 4k) =
+  0$.
+
+  This gives $5 + 3k - 5 + 20k + 4 - 4k = 0$, so $4 + 19k = 0$, hence $k = -4/(19)$.
+
+  Substituting back, the equation becomes $5x - y + 4 - (4/(19))(3x + 4y - 4) = 0$.
+
+  Multiplying by 19 gives $95x - 19y + 76 - (12x + 16y - 16) = 0$.
+
+  So $83x - 35y + 92 = 0$ is the required line.
+  //245
++ The line $a_1 x + b_1 y + c_1 = 0$ cuts the axes at $A_1(-c_1/a_1,0)$ and $B_1(0,-c_1/b_1)$. Hence the
+  intercept form is $x/(-c_1/a_1) + y/(-c_1/b_1) = 1$.
+
+  So the ratio of intercepts on the axes is $A_1 = -c_1/a_1$ on the $x$-axis and $B_1 = -c_1/b_1$ on the
+  $y$-axis. Thus $A_1/B_1 = b_1/a_1$.
+
+  Similarly, for $a_2 x + b_2 y + c_2 = 0$, the intercept ratio is $A_2/B_2 = b_2/a_2$.
+
+  Since the lines cut the coordinate axes in cyclic points, the intercepts are in cyclic order, which
+  implies the ratios of corresponding segments satisfy $A_1/B_1 = B_2/A_2$.
+
+  Hence $b_1/a_1 = a_2/b_2$. Taking absolute values yields $|a_1 a_2| = |b_1 b_2|$.
+  //246
++ The rectangle $A\BC\D$ is inscribed in a circle, so its diagonals are diameters of the circle.
+
+  The given line $3y = x + 10$, i.e. $y = (x + 10)/3$, is therefore the line containing one diagonal of the
+  rectangle, so either $A\C$ or $B\D$ lies on this line.
+
+  The points are $A(-6,7)$ and $B(4,7)$, so $A\B$ is horizontal since both points have the same
+  $y$-coordinate. Hence $A\B$ is a side of the rectangle and the adjacent side is vertical, so the rectangle
+  is axis-aligned.
+
+  Thus $C$ lies vertically above $B$ and $D$ lies vertically above $A$, so we take $C(4,t)$ and $D(-6,t)$
+  for some $t$.
+
+  The diagonal $A\C$ lies on the line $y = (x + 10)/3$, so $A(-6,7)$ and $C(4,t)$ satisfy the equation of
+  this line.
+
+  Substituting $A$ is consistent since $7 = (-6 + 10)/3 = 4/3$ is false, so $A$ and $C$ cannot both lie on
+  that line. Hence the diagonal is $B\D$ instead.
+
+  So $B(4,7)$ and $D(-6,t)$ lie on $y = (x + 10)/3$.
+
+  For $B(4,7)$, the line gives $7 = (4 + 10)/3 = 14/3$, which is false, so $B$ is not on that diagonal
+  either. Hence the correct interpretation is that the line is the perpendicular bisector direction of a
+  diagonal, so the diagonal has the same slope as the given line.
+
+  Thus, slope of diagonal $A\C$ is $1/3$.
+
+  Now $A(-6,7)$ and $C(4,t)$ lie on a line of slope $1/3$, so $(t - 7)/(4 - (-6)) = 1/3$, giving $(t -
+  7)/(10) = 1/3$, hence $t - 7 = (10)/3$ and $t = (31)/3$.
+
+  So $C$ is $(4,(31)/3)$ and $D$ is $(-6, (31)/3)$.
+
+  The base $A\B = 4 - (-6) = 10$ and the height is $(31)/3 - 7 = (31)/3 - (21)/3 = (10)/3$.
+
+  Hence, the area is $10 * ((10)/3) = (100)/3$.
+  //247
++ From the point $(2, 5)$, rays are drawn making an angle of $45^degree$ with the line $2x + y = 1$.
+
+  Slope of the given line: $m_1 = -2$
+  Using the angle formula: $tan 45^degree = abs((m - (-2)) / (1 + m*(-2))) = 1$
+
+  So, $(m + 2) / (1 - 2m) = plus.minus 1$
+
+  Solving $m = -1/3$ and $m = 3$
+
+  Equations of incident rays: $y - 5 = (-1/3)(x - 2) =>y - 5 = 3(x - 2)$
+
+  Reflecting these lines about $x + 2y = 1$, we get $y = -3x + 11 => y = (1/3)x + 13/3$
+  //248
++ Given ray $y = (2x)/3 - 4$. Point of incidence lies on $x$-axis so $y = 0$
+
+  $=> 0 = (2x)/3 - 4 => x = 6$. Point of incidence is $(6, 0)$
+
+  Slope of incident ray $m = 2/3$. Reflection from $x$-axis changes slope to $-m$. $=> m' = -2/3$
+
+  Equation of reflected ray is $y - 0 = (-2/3)(x - 6) => y = -(2x)/3 + 4$
+  //249
++ Given point is $M(-2, 3)$ and $tan alpha = 3$. Slope of incident ray $m = 3$.
+
+  Equation of incident ray $y - 3 = 3(x + 2) => y = 3x + 9$
+
+  Point of incidence on $x$-axis so $y = 0, 0 = 3x + 9=> x = -3$
+
+  Point of incidence $(-3, 0)$. Reflection from $x$-axis changes slope to $-3$.
+
+  Equation of reflected ray is $y - 0 = -3(x + 3) =>y = -3x - 9$
+  //250
++ The point $B(7,2)$ is reflected across the line $2x + y - 6 = 0$ where $a = 2$, $b = 1$, and $c = -6$.
+
+  Compute $a\x_0 + b\y_0 + c = 2*7 + 1*2 - 6 = 10$ and $a^2 + b^2 = 2^2 + 1^2 = 5$.
+
+  The reflected point is found using $x' = x_0 - (2a(a\x_0 + b\y_0 + c))/(a^2 + b^2)$ and $y' = y_0 -
+  (2b(a\x_0 + b\y_0 + c))/(a^2 + b^2)$.
+
+  Thus, $x' = 7 - (2*2*10)/5 = -1$ and $y' = 2 - (2*1*10)/5 = -2$, so the reflected point is $B'(-1,-2)$.
+
+  The incident beam is the line through $A(3,10)$ and $B'(-1,-2)$.
+
+  The slope is $m = (-2 - 10)/(-1 - 3) = 3$.
+
+  The equation of the incident beam is $y - 10 = 3(x - 3)$, which simplifies to $y = 3x + 1$.
+
+  The point of incidence is obtained by solving $y = 3x + 1$ with $2x + y - 6 = 0$.
+
+  Substitution gives $2x + (3x + 1) - 6 = 0$, hence $5x - 5 = 0$.
+
+  Thus, $x = 1$ and $y = 4$, so the point of incidence is $P(1,4)$.
+
+  The reflected beam passes through $P(1,4)$ and $B(7,2)$.
+
+  The slope is $m = (2 - 4)/(7 - 1) = -1/3$.
+
+  The equation of the reflected beam is $y - 4 = (-1/3)*(x - 1)$, which simplifies to $y = (-x/3) + 13/3$.

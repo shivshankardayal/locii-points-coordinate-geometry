@@ -1507,4 +1507,50 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   12x + 6$ and $3x = 4y + 7$.
   //236
 + Two equal sides of an isosceles triangle have the equations $7x - y + 3 = 0$ and $x + y - 3 = 0$ and its
-  third sides passes through the point $()$
+  third sides passes through the point $(1, -10)$. Determine the equation of the third side.
+  //237
++ Prove that area of the triangle formed by the three straight lines $x cos alpha + y sin alpha - p_1 = 0, x
+  cos beta + y sin beta - p_2$ and $x cos gamma + y sin gamma - p_3 = 0$ is $1/2({p_1 sin(gamma - beta) + p_2
+  sin(alpha - gamma) + p_3 sin(beta - alpha)}^2)/abs(sin(gamma - beta)sin(alpha - gamma)sin(beta - alpha))$.
+  //238
++ Find the area of a triangle formed by the $y$-axis, the straight line $L$ passing through the points $(1,
+  1)$ and $(2, 0)$ and the straight line perpendicular to the line $L$ and passing through $(1/2, 0)$.
+  //239
++ Find the coordinates of the feet of the perpendicular from the point $(9, 3)$ to the sides of the triangle
+  whose vertices are at the points $(0, 0), (8, 0), (4, 8)$. Prove that the points so determined lies on a
+  straight line and find its equation.
+  //240
++ Obtain the coordinates $(alpha, beta)$ of the foot of the perpendicular from the origin to $x/a + y/b = 1$
+  and show that $(alpha^2 + beta^2)(alpha + beta) = (a + b)alpha beta$.
+  //241
++ Find the equation of the diagonal through the origin of the quadrilateral formed by $x = 0, y = 0, x + y =
+  1, 6x + y = 3$.
+  //242
++ The altitudes of a $triangle A\BC$ are respectively $A\D, B\E, C\F$. If the points $A, D, E, F$ have the
+  coordinates $(-4, 5), ((16)/5, -(23)/5), (4, 1), (-1, -4)$, find the coordinates of other vertices of the
+  triangle.
+  //243
++ Prove that the lines $y = m_r\x + c_r; r = 1, 2, 3$ cut off equal intercepts on th etransversal $x + y =
+  1$ if $1 + m_1, 1 + m_2, 1 + m_3$ are in H.P.
+  //244
++ A line is such that its segment between the lines $5x - y + 4 = 0$ and $3x + 4y - 4 = 0$ is bisected at
+  the point $(1, 5)$. Obtain its equation.
+  //245
++ If the lines $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ cut the coordinate axes in cyclic points,
+  prove that $|a_1a_2| = |b_1b_2|$.
+  //246
++ A rectangle $A\BC\D$ is inscribed in a circle with a diameter lying along the line $3y = x + 10$. If $A$
+  and $B$ are the points $(-6, 7)$ and $(4, 7)$ respectively, then find the area of the rectangle.
+  //247
++ From the point $(2, 5)$ rays of light are sent at $45^degree$ with the line $2x + y = 1$. Find the
+  equation of the lines of the reflected rays if the rays reflect from $x + 2y = 1$.
+  //248
++ A ray of light is sent along the straight line $y = (2x)/3 - 4$. On reaching the $x$-axis it is
+  reflected. Find the point of incidence and the equation of the reflected ray.
+  //249
++ From the point $M(-2, 3)$ a ray of light is sent at an angle $alpha$ to the positive direction of
+  $x$-axis. Upon reaching the $x$-axis the ray is reflected from it. Find the equation of the reflected ray
+  if $tan alpha = 3$.
+  //250
++ A light beam emanating from the point $(3, 10)$ reflects from the straight line $2x + y - 6 = 0$ and then
+  passes through the point $B(7, 2)$. Find the equations of the incident and reflected beams.
