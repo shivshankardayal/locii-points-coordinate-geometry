@@ -3575,3 +3575,233 @@
 + For $(2, -1)$ we have $3*2 + 4*-1 - 6 = -4 < 0$ and for $(1, 1)$ we have $3*1 + 4*1 - 6 = 1 > 0$.
 
   Thus, the points are on opposite sides of the given line.
+  //274
++ For $(3, 4)$ we have $6*3 + 4 - 1 = 21 > 0$, and for $(-1, 1)$ we have $6*(-1) + 1 - 1 = -6 < 0$.
+
+  Thus, the points are on opposite sides of the given line.
+  //275
++ Intersect $x - y = 2$ with $2x + y = 7$. From $x - y = 2$, we get $y = x - 2$.
+
+  Substitute into $2x + y = 7$ yields $x = 3$ and $y = 3 - 2 = 1$. So the first point is $(3, 1)$.
+
+  Next, intersect $x - y = 2$ with $2x + y = 16$. Again, $y = x - 2$.
+
+  Substitute into $2x + y = 16$ $=> 2x + (x - 2) = 16 => x = 6$. Then $y = 6 - 2 = 4$. So the second point
+  is $(6, 4)$.
+
+  For point $(3, 1)$: $x + y = 3 + 1 = 4 < 5$ For point $(6, 4)$: $x + y = 6 + 4 = 10 > 5$
+
+  Since one point gives a value less than $5$ and the other greater than $5$, the two points lie on opposite
+  sides of the line $x + y = 5$.
+  //276
++ Length of perpendicular is $(abs(3*4 - 5*5 + 7))/sqrt(3^2 + (-5)^2) = 6/sqrt(34)$.
+  //277
++ Given lines are $x + 2y = 5$ and $x - 3y = 7$. We solve the equations to get point of intersection.
+
+  $(x + 2y) - (x - 3y) = 5 - 7 => 5y = -2 => y = -2/5$.
+
+  Substitute into $x + 2y = 5$ yields $x + 2(-2/5) = 5 => x = 5 + 4/5 = (29)/5$.
+
+  So the intersection point is $((29)/5, -2/5)$.
+
+  Equation of the required line with slope $5$ is $y - (-2/5) = 5(x - 29/5) => y + 2/5 = 5x - 29 => y = 5x -
+  (147)/5 => 25x - 5y - 147 = 0$.
+
+  Distance from point $(1, 2)$ to this line is $d = (|25(1) - 5(2) - 147|) / sqrt(25^2 + (-5)^2) = 132/
+  sqrt(65)$.
+  //278
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        set-style(stroke: 0.5pt)
+        // Base line: x + y = 2  => y = 2 - x
+        //line((0, 2), (2, 0))
+
+        // Choose endpoints of base on the line for visualization
+        let A = (-2, 2)
+        let B = (2, 0)
+
+        // Vertex
+        let C = (-0.5, -3)
+
+        // Triangle
+        line(A, B, name: "l1")
+        line(A, C)
+        line(B, C)
+
+        // Points
+        circle(A, radius: 0.02, fill: black)
+        circle(B, radius: 0.02, fill: black)
+        circle(C, radius: 0.02, fill: black)
+
+        // Labels
+        content(A, [$A$], anchor: "south", padding: 0.2)
+        content(B, [$B$], anchor: "south", padding: 0.2)
+        content(C, [$C(2,-1)$], anchor: "north")
+
+        // Base label
+        content(("l1.start", 50%, "l1.end"), angle: "l1.end", padding: .1, anchor: "south", [$x + y =
+        2$])
+    })
+  )
+
+  In an equilateral triangle, the perpendicular distance from the vertex to the base is the altitude, and it
+  relates to the side length $a$ by $h = sqrt(3)/2a$.
+
+  First find the distance from the vertex $(2, -1)$ to the line $x + y = 2$.
+
+  Writing the line as $x + y - 2 = 0$.
+
+  Distance is $d = (|2 + (-1) - 2|)/sqrt(1^2 + 1^2) = (|-1|) / sqrt(2) = 1/sqrt(2)$. So the altitude is $h = 1/sqrt(2)$.
+
+  Now use $h = sqrt(3)/2a$: $1/sqrt(2) = sqrt(3)/2a$
+
+  Solving for $a$: $a = 2 / sqrt(3) * 1 / sqrt(2) = 2 / sqrt(6)$.
+  //279
++ The equation of straight line in the intercept form is $x/a + y/b - 1 = 0$.
+
+  The length of the perpendicular drawn is $lr(|0/a + 0/b - 1|)/sqrt(1/a^2 + 1/b^2) => 1/p^2 = 1/a^2 +
+  1/b^2$.
+  //280
++ $p = (|0.sin theta - 0.cos theta - a/2 sin 2theta|)/sqrt(sin^2theta + cos^2theta) = |a/2 sin 2theta| =>
+  p^2 = a^2/4 sin^2 2theta$
+
+  $p' = (|0.cos theta - 0.sin theta - a cos 2theta|)/sqrt(sin^2theta + cos^2theta) => p^2 = a^2cos^2 2theta$
+
+  $=> 4p + p'^2 = a^2$.
+  //281
++ Let $b$ be intercept on $y$-axis then intercept on $x$-axis will be $2b$. Thus, equation of the line is
+  $x/(2b) + y/b - 1 = 0 => x + 2y - 2b = 0$
+
+  Length of perpendicular $1 = (|0 + 0 - 2b|)/sqrt(1 + 4) => b = plus.minus sqrt(5)/2$.
+
+  Hence, the equations are $x + 2y plus.minus sqrt(5) = 0$.
+  //282
++ Let $(alpha, beta)$ be any point on the first line. Then $a alpha + b beta + c = 0$.
+
+  Distance of $(alpha, beta)$ from the second line is given by
+  $(|a alpha + b beta + d|)/sqrt(a^2 + b^2) = (|-c + d|)/sqrt(a^2 + b^2)$.
+  //283
++ Let $p_1, p_2, p_3$ be the length of perpendiculars from the points $(m^2, 2m), (m n, m + n)$ and $(n^2,
+  2n)$ to the line $x cos theta + y sin theta + (sin^2 theta)/(cos theta)$.
+
+  $p_1 = (m^2 cos theta + 2m sin theta + (sin^2 theta)/(cos theta))/sqrt(cos^2theta + sin ^2theta) = (m cos
+  theta + sin theta)^2/(cos theta)$.
+
+  $p_2 = (m n cos^2 theta + m sin theta cos theta + n sin theta cos theta + sin^2 theta)/(cos theta) = ((m
+  cos theta + sin theta)(n cos theta + sin theta))/(cos theta)$
+
+  $p_3 = (n cos theta + sin theta)^2/(cos theta)$.
+
+  Clearly $p_1 p_2 = p_3$ i.e. length of perpendiculars are in G.P.
+  //284
++ Let the tower be at $(0,0)$. The towns are at $(5,0)$ and $(0,5/2)$.
+
+  Slope of the road is $m = (5/2 - 0)/(0 - 5) = -1/2$
+
+  Equation of line is $y = (-1/2)(x - 5)=> x + 2y - 5 = 0$
+
+  The nearest point on this line from the origin is the foot of perpendicular.
+
+  Using formula for foot from $(0,0)$ to $a x + b y + c = 0$ is
+
+  $(x, y) = (-a\c/(a^2 + b^2), -b\c/(a^2 + b^2))$ Here $a=1, b=2, c=-5$.
+
+  So, $x = 5/5 = 1$ and $y = 10/5 = 2$. Thus, the rest house should be at $(1,2)$.
+
+  #figure(cetz.canvas({
+      import cetz.draw: *
+      set-style(stroke: 0.5pt)
+      // Key points
+      let O = (0, 0)        // Tower
+      let A = (5, 0)        // Town east
+      let B = (0, 2.5)      // Town north
+      let P = (1, 2)        // Foot of perpendicular (rest house)
+
+      // Triangle showing perpendicular
+      line(O, P, stroke: red)
+      line(A, B)
+
+      // Connect O to A and B (optional for clarity)
+      line(O, A)
+      line(O, B)
+
+      // Labels
+      content(O, [$O(0,0)$], anchor: "north-east")
+      content(A, [$A(5,0)$], anchor: "north-west")
+      content(B, [$B(0,5/2)$], anchor: "south")
+      content(P, [$P(1,2)$], anchor: "south-west")
+  })
+  )
+  //285
++ Let the line be $a x + b y + c = 0$ and the fixed points be $(x_r, y_r; r = 1, 2, 3, dots.h, n)$.
+
+  Given $display(sum_(r = 1)^n (a x_r + b y_r + c)/sqrt(a^2 + b^2)) = 0 => sum_(r=1)^n (a x_r + b y_r + c =
+  0)$
+
+  $=> a(x_1 + x_2 + dots.c + x_n) + b(y_1 + y_2 + dots.c + y_n) + c n = 0$
+
+  Thus, the line passes through the fixed poin $((x_1 + x_2 + dots.c + x_n)/n, (y_1 + y_2 + dots.c +
+  y_n)/n)$.
+  //286
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        set-style(stroke: 0.2pt)
+        // Points
+        let S = (0, 0)
+        let A = (1, 2)
+        let B = (3, 4)
+        let C = (2, 4)
+        let D = (6, 8)
+
+        // Rod AB
+        line(A, B, stroke: blue)
+
+        // Shadow CD (wall)
+        line(C, D, stroke: red)
+
+        // Rays from source
+        line(S, C, stroke: gray)
+        line(S, D, stroke: gray)
+
+        // Points
+        circle(S, radius: 0.02, fill: black)
+        circle(A, radius: 0.02, fill: blue)
+        circle(B, radius: 0.02, fill: blue)
+        circle(C, radius: 0.02, fill: red)
+        circle(D, radius: 0.02, fill: red)
+
+        // Labels
+        content(S, [$S(0,0)$], anchor: "north")
+        content(A, [$A(1,2)$], anchor: "east")
+        content(B, [$B(3,4)$], anchor: "west")
+        content(C, [$C(2,4)$], anchor: "east")
+        content(D, [$D(6,8)$], anchor: "west")
+
+        // Wall line extension (optional)
+        //line((1,2), (7,10), )
+
+    })
+  )
+
+  Let $P Q$ be the wall and $C D$ be the shadow of the rod $A B$ on the wall, then $P Q parallel A B$
+
+  Equation of rod $A B$ is $x - y + 1 = 0$, therefore, equation of $P Q$ is $x - y = k$
+
+  Length of perpendicular from $S$ to $A B = p_1 = lr(|(0 - 0 + 1)/sqrt(1 + (-1)^2)|) = 1/sqrt(2)$
+
+  Length of perpendicular from $S$ to $C D = p_2 = |k|/sqrt(2)$
+
+  From the question $2 p_1 = p_2 => k = plus.minus 2$. If $k = -2$ then $S$ lies on opposite sides of the rod
+  and the wall, which is not possible. Therefore,
+
+  $k = 2$ and $C D$ is $x - y + 2 = 0$.
+
+  Equation of $S A$ is $y = 2x$ and equation of $S B$ is $y = 4/3 x$
+
+  Solving $C D$ and $S A$ we have $C = (2, 4)$ and solving $C D$ and $S B$ we have $D = (6, 8)$.
+
+  $C D = sqrt((2 - 6)^2 + (4 - 8)^2) = 4sqrt(2)$.

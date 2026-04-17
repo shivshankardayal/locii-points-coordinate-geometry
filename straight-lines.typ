@@ -1633,3 +1633,42 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //273
 + Prove that the points $(2, -1)$ and $(1, 1)$ are on the opposite sides of the straight line $3x + 4y - 6 =
   0$.
+  //274
++ Find the position of the points $(3, 4)$ and $(-1, 1)$ w.r.t the line $6x + y - 1 = 0$.
+  //275
++ Prove that the points of intersection of the line $x - y = 2$ with the parallel lines $2x + y = 7$ and $2x
+  + y = 16$ are on the opposite sides of the line $x + y = 5$.
+  //276
++ Find the distance of the point $(4, 5)$ from the straight line $3x - 5y + 7 = 0$.
+  //277
++ Find the distance of the point $(1, 2)$ from the straight line with slope $5$ and passing through the
+  point of intersection of $x + 2y = 5$ and $x - 3y = 7$.
+  //278
++ The equation of the base of an equilateral triangle is $x + y = 2$ and the vertex is $(2, -1)$. Find the
+  length of the side of the triangle.
+  //279
++ If $a$ and $b$ are the intercepts of a straight line on the $x$ and $y$ axes respectively and $p$ be its
+  perpendicular distance from the origin, prove that $1/p^2 = 1/a^2 + 1/b^2$.
+  //280
++ If $p$ and $p'$ be the lengths of perpendiculars from origin to the lines $x sec theta - y csc theta = a$
+  and $x cos theta - y sin theta = a cos 2theta$ respectively, show that $4p^2 + p'^2 = a^2$.
+  //281
++ Find the equation of straight line which cuts off intercepts on $x$-axis twice that on $y$-axis and is at
+  a unit distance from the origin.
+  //282
++ Find the distance between the parallel lines $a\x + b\y + c = 0$ and $a\x + b\y + d = 0$.
+  //283
++ Prove that the length of the perpendiculars from points $(m^2, 2m), (m n, m + n)$ and $(n^2, 2n)$ to the
+  line $x cos theta + y sin theta + (sin^2 theta)/(cos theta)$ form a G.P.
+  //284
++ A straight road passes through two towns, one $5$ km east and the other $2 1/2$ km north from a
+  tower. Where should a rest house be constructed by the side of the road so that it may be nearest to
+  the tower.
+  //285
++ A straight line is such that the algebraic sum of the perpendiculars upon it from any number of fixed
+  points is zero. Show that the line always passes through a fixed point.
+  //286
++ The coordinates of the extremeties $A$ and $B$ of a rod are $(1, 2)$ and $(3, 4)$ respectively. $S(0, 0)$
+  is a point source of light. The rod $A B$ is parallel to the wall and is at equal distance from $S$ and
+  the wall. If $C D$ is the shadow of $A B$ on the wall, find the coordinates of $C$ and $D$ and the lnegth
+  $C D$. $S, A B$ and $C D$ are planar.
