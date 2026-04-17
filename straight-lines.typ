@@ -1554,3 +1554,76 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //250
 + A light beam emanating from the point $(3, 10)$ reflects from the straight line $2x + y - 6 = 0$ and then
   passes through the point $B(7, 2)$. Find the equations of the incident and reflected beams.
+  //251
++ The line $3x + 2y = 24$ meets $y$-axis at $A$ and $x$-axis at $B$. The perpendicular bisector of $A\B$
+  meets the line through $(0, -1)$ parallel to $x$-axis at $C$. Find the area of the $triangle A\BC$.
+  //252
++ Find the condition that the real line $a\x + b\y + c = 0, b\x + c\y + a = 0$ and $c\x + a\y + b = 0$ are
+  concurrent.
+  //253
++ Find the condition that the lines $(b - c)x + (c - a)y + a - b = 0, (c - a)x + (a - b)y + b - c = 0$ and
+  $(a - b)x + (b - c)x + c - a = 0$.
+  //254
++ Prove that the determinant #math.equation(block: true, numbering: none, $ mat(delim: "|", x_2 - x_3, y_2 -
+  y_3, x_1(x_2 - x_3) + y_1(y_2 - y_3); x_3 -
+  x_1, y_3 - y_2, x_2(x_3 - x_1) + y_2(y_3 - y_1); x_1 - x_2, y_2 - y_2, x_3(x_1 - x_2) + y_3(y_1 - y_2);) =
+  0. $) What geometrical property does it imply for a triangle whose vertices are $(x_r, y_r); r = 1, 2, 3$?
+  //255
++ Prove that all lines represented by the equation $(2cos theta + 3sin theta)x + (3cos theta - 5sin theta)y
+  - (5cos theta - 2sin theta) = 0$ pass through a fixed point for all values of thete. Find the coordinates of
+  that point and its reflection in the line $x + y = sqrt(2)$.
+  //256
++ Prove that the orthocenter of the triangle formed by the three lines $y = m_1x + a\lm_1, y = m_2x +
+  a\lm_2, y = m_3x + a\lm_3$ is ${-a, (1/m_1 + 1/m_2 + 1/m_3 + 1/(m_1m_2m_3))}$.
+  //257
++ If the coordinates of the point $P, Q, R$ satisfy the relation $x\y = c^2$, show that the orthocenter of
+  $triangle P\QR$ also satisfies the relation.
+  //258
++ $A$ and $B$ are two fixed points $(3, 2)$ and $(5, 1)$ respectively. $triangle A\BP$ is equilateral and is
+  situated on the side of $A\B$ remote from the origin. Find the coordinates of $P$ and the orthocenter of
+  the $triangle A\BP$.
+  //259
++ Vertices of a triangle are $A(x_1, x_1 tan alpha_1), B(x_2, x_2 tan alpha_2)$ and $C(x_3, x_3 tan
+  alpha_3)$. If the circumcenter coincide with the origin and the orthocenter $H$ is $(overline(x),
+  overline(y))$ then prove that $overline(y)(cos alpha_1 + cos_alpha_2 + cos alpha_3) = overline(x)(sin
+  alpha_1 + sin alpha_2 + sin alpha_3)$, where $x_1 sec alpha_1, x_2 sec alpha_2, x_3 sec alpha_3$ have the
+  same sign.
+  //260
++ Find the area and the orthocenter of the triangle formed by the lines $x + l\y = l^2, x + m\y = m^2$ and
+  $l + n\y = n^2$.
+  //261
++ If the equation of the sides of a triangle are respectively $a_1x + b_1y = 1, a_2x + b_2y = 1$ and $a_3x +
+  b_3y = 1$ and whose orthocenter is the origin, prove that $a_1a_2 + b_1b_2 = a_2a_3 + b_2b_3 = a_3a_1 +
+  b_3b_1$.
+  //262
++ Prove that the $triangle D\EF$ has the same centroid as $triangle A\BC$, where $D, E, F$ are the middle
+  points of the sides of the later triangle. Also prove that the orthocenter of the $triangle D\EF$
+  coincides with the circumcenter of the $triangle A\BC$.
+  //263
++ The circumcenter of a triangle with vertices $A(a, tan alpha), B(b, tan beta)$ and $C(c, tan gamma)$ lies
+  at the origin $alpha + beta + gamma = pi$, show that its orthocenter lies on the line $4(cos alpha/2 cos
+  beta/2 cos gamma/2)x - 4y sin alpha/2 sin beta/2 sin gamma/2 = y$.
+  //264
++ Show that the line $(a_1x + b_1y + c_1)/(a_1a_3 + b_1b_3) = (a_2x + b_2y + c_2)/(a_2a_3 + b_2b_3)$ passes
+  through the orthocenter of the triangle formed by the lines $a_1x + b_1y + c_1 = 0, a_2x + b_2y + c_2 = 0$
+  and $a_3x + b_3y + c_3 = 0$.
+  //265
++ Find the position of the points $(1, 1)$ and $(2, -1)$ with respect to the line $3x + 4y - 6 = 0$.
+  //266
++ Show that the four points $(0, 0), (-1, 1), (-7, -4)$ and $(9, 6)$ are in the four different compartments
+  made by the two straight lines $2x - 3y + 1 = 0$ and $3x - 5y + 2 = 0$.
+  //267
++ Find the position of the origin w.r.t. the triangle whose sides are $x + 1 = 0, 3x - 4y = 5, 5x + 12y =
+  27$.
+  //268
++ Show that the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ is cut by the line $a\x + b\y
+  + c = 0$ in the ratio $ -(a\x_1 + b\y_1 + c)/(a\x_2 + b\y_2 + c)$. Explain the minus sign.
+  //269
++ A line $L$ intersects three sides $B\C, C\A$ and $A\B$ of a $triangle A\BC$ in $P, Q$ and $R$
+  respectively. Prove that $B\P.C\Q.A\R + P\C.Q\A.B\R = 0$.
+  //270
++ Derive the condition to be imposed on $beta$ so that $(0, beta)$ should lie on or inside the triangle
+  having sides $y + 3x + 2 = 0, 3y - 2x = 5$ and $x + 4y = 14$.
+  //271
++ A rhombus has two consecutive vertice at $(2, 3)$ and $(-2, 6)$ and two of the sides are parallel to $2x +
+  y = 1$. Find the other vertices of the rhombus if $(0, 3)$ is an interior point of rhombus.

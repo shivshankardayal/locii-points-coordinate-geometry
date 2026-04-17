@@ -3113,3 +3113,457 @@
   The slope is $m = (2 - 4)/(7 - 1) = -1/3$.
 
   The equation of the reflected beam is $y - 4 = (-1/3)*(x - 1)$, which simplifies to $y = (-x/3) + 13/3$.
+  //251
++ $A = (0, 12)$ and $B = (8, 0)$. Midpoint is $M = (4, 6)$
+
+  Slope is $A\B = (0 - 12) / (8 - 0) = -3/2$. Perpendicular's slope is $2/3$
+
+  Perpendicular bisector's equation is $y - 6 = 2/3 (x - 4) => y = 2/3 x + (10)/3$
+
+  Line through $(0, -1)$ parallel to $x$-axis is $y = -1$
+
+  Intersection point is given by $-1 = 2/3 x + (10)/3=> x = -(13)/2=>C = (-(13)/2, -1)$
+
+  $Delta = 1/2 abs(0(0 - (-1)) + 8((-1) - 12) + (-(13)/2)(12 - 0)) = 91$.
+  //252
++ Condition for concurrency is $mat(delim: "|", a, b, c; b, c, a; c, a, b;) = 0$
+
+  $= a(c^2 - a b) - b(b c - a^2) + c(b^2 - c a) = a c^2 - a^2 b - b^2 c + a^2 b + b^2 c - a c^2 = 0$.
+  //253
++ From the previous problem it is clear that these lines will be concurrent as the coefficients are cyclic
+  in nature.
+  //254
++ Applying $R_1 -> R_1 + R_2 + R_3$ makes the determinant zero. This is the condition for concurrency of the
+  lines
+
+  $(x_2 - x_3)x + (y_2 - y_3)y - [x_1(x_2 - x_3) + y_1(y_2 - y_3)] =0$,
+
+  $(x_3 - x_1)x + (y_3 - y_2)y - [x_2(x_3 - x_1) + y_2(y_3 - y_1)] = 0$, and
+
+  $(x_1 - x_2)x + (y_2 - y_2)y + [x_3(x_1 - x_2) + y_3(y_1 - y_2)] = 0$.
+
+  Also from first line $y - y_1 = (x_2 - x_3)/(y_2 - y_3)(x - x_1)$, which is the altitude through
+  $(x_1, y_1)$.
+  //255
++ Given equation is $(2x + 3y - 5) cos theta + (3x - 5y + 2) sin theta = 0$ which represents the following
+  lines passing through a common point $2x + 3y - 5 = 0$ and $3x - 5y + 2 = 0$.
+
+  Solving both the equations we get the fixed point as $(1, 1)$
+
+  The line is $x + y = sqrt(2) => 1 + 1 - sqrt(2) = 2 - sqrt(2) => d = (2 - sqrt(2)) / 2$
+
+  $x' = sqrt(2) - 1$ and $y' = sqrt(2) - 1$
+  //256
++ The three lines are $y = m_1 x + a/m_1$, $y = m_2 x + a/m_2$, and $y = m_3 x + a/m_3$.
+
+  Assume that the orthocenter is $(h, k)$. The altitude to the line $y = m_1 x + a/m_1$ has slope $-1/m_1$
+
+  $=>k - (m_2 h + a/m_2) = -1/m_1 (h - h)$. This gives $k = m_2 h + a/m_2$
+
+  Similarly using other vertices and altitudes we obtain a symmetric system.
+
+  Substituting $h = -a$ into each line gives $k = -a m_1 + a/m_1$, $k = -a m_2 + a/m_2$, and $k = -a m_3 +
+  a/m_3$.
+
+  Adding the three expressions $3k = -a(m_1 + m_2 + m_3) + a(1/m_1 + 1/m_2 + 1/m_3)$
+
+  Using identity $m_1 + m_2 + m_3 = -1/(m_1 m_2 m_3)$, $3k = a(1/m_1 + 1/m_2 + 1/m_3 + 1/(m_1 m_2 m_3))$
+
+  $=> k = a(1/m_1 + 1/m_2 + 1/m_3 + 1/(m_1 m_2 m_3))$
+  //257
++ Let the points be $P(x_1, y_1)$, $Q(x_2, y_2)$, and $R(x_3, y_3)$.
+
+  Given $x_1 y_1 = c^2$, $x_2 y_2 = c^2$, and $x_3 y_3 = c^2$.
+
+  $=>y_1 = c^2 / x_1$, $=>y_2 = c^2 / x_2$, and $=>y_3 = c^2 / x_3$
+
+  The slope of $Q\R$ is
+
+  $(y_2 - y_3) / (x_2 - x_3) = (c^2/x_2 - c^2/x_3) / (x_2 - x_3) = c^2 (x_3 - x_2) / (x_2 x_3 (x_2 - x_3)) =
+  -c^2 / (x_2 x_3)$
+
+  The slope of altitude from $P$ is $(x_2 x_3) / c^2$
+
+  Equation of altitude from $P$ is $y - c^2/x_1 = ((x_2 x_3) / c^2)(x - x_1)$
+
+  Similarly altitude from $Q$ is $y - c^2/x_2 = ((x_1 x_3) / c^2)(x - x_2)$
+
+  Solving these gives the orthocenter
+
+  $x = -c^2 / (x_1 x_2 x_3)$ and $y = -x_1 x_2 x_3$
+
+  Multiplying gives the desired result.
+  //258
++ Given $A = (3, 2)$ and $B = (5, 1)$. Let $P = (x, y)$.
+
+  Since triangle $A\BP$ is equilateral $(x - 3)^2 + (y - 2)^2 = 5$ and $(x - 5)^2 + (y - 1)^2 = 5$.
+
+  $=>x^2 + y^2 - 6x - 4y + 8 = 0$ and $x^2 + y^2 - 10x - 2y + 21 = 0$
+
+  Subtracting, $-4x + 2y + 13 = 0 => y = 2x - 13/2$
+
+  Substituting into first equation $x^2 + (2x - 13/2)^2 - 6x - 4(2x - 13/2) + 8 = 0$
+
+  $4x^2 - 32x + 61 = 0=> x = 4 plus.minus sqrt(3)/2 => y = 2x - 13/2$
+
+  Points are $P_1 = (4 + sqrt(3)/2, 3/2 + sqrt(3))$ and $P_2 = (4 - sqrt(3)/2, 3/2 - sqrt(3))$.
+
+  Point away from origin $P = (4 + sqrt(3)/2, 3/2 + sqrt(3))$.
+
+  In an equilateral triangle orthocenter coincides with centroid $H = (4 + sqrt(3)/2, 3/2 + sqrt(3))$
+  //259
++ Given $A = (x_1, x_1 tan alpha_1)$, $B = (x_2, x_2 tan alpha_2)$, $C = (x_3, x_3 tan alpha_3)$
+
+  Rewriting each point $A = (x_1, x_1 sin alpha_1 / cos alpha_1) = (r_1 cos alpha_1, r_1 sin alpha_1)$,
+  where $r_1 = x_1 sec alpha_1$
+
+  Similarly $B = (r_2 cos alpha_2, r_2 sin alpha_2)$ and $C = (r_3 cos alpha_3, r_3 sin alpha_3)$
+
+  Since circumcenter is origin, all vertices lie on a circle centered at origin
+
+  So $r_1 = r_2 = r_3 = r$
+
+  Thus, $A = (r cos alpha_1, r sin alpha_1)$, $B = (r cos alpha_2, r sin alpha_2)$, and $C = (r cos alpha_3,
+  r sin alpha_3)$
+
+  Orthocenter $H(overline(x), overline(y))$ satisfies $H = A + B + C$
+
+  So $overline(x) = r(cos alpha_1 + cos alpha_2 + cos alpha_3)$, $overline(y) = r(sin alpha_1 + sin alpha_2 + sin alpha_3)$
+
+  $overline(y)(cos alpha_1 + cos alpha_2 + cos alpha_3) = r(sin alpha_1 + sin alpha_2 + sin alpha_3)(cos
+  alpha_1 + cos alpha_2 + cos alpha_3)$
+
+  Similarly $overline(x)(sin alpha_1 + sin alpha_2 + sin alpha_3)= r(cos alpha_1 + cos alpha_2 + cos
+  alpha_3)(sin alpha_1 + sin alpha_2 + sin alpha_3)$
+
+  Both are equal. Hence, $overline(y)(cos alpha_1 + cos alpha_2 + cos alpha_3) = overline(x)(sin alpha_1 +
+  sin alpha_2 + sin alpha_3)$.
+  //261
++ We find the point of intersection of first two lines $x + l y = l^2$ and $x + m y = m^2$
+
+  Subtracting yields $(l - m)y = l^2 - m^2 = (l - m)(l + m) => y = l + m$
+
+  $=> x = l^2 - l(l + m) = -l\m$
+
+  So $A = (-l\m, l + m)$. Similarly $B = (-m\n, m + n)$ and $C = (-n\l, n + l)$.
+
+  $Delta = 1/2 | x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) |$
+
+  $= 1/2 | (-l\m)((m+n)-(n+l)) + (-m\n)((n+l)-(l+m)) + (-n\l)((l+m)-(m+n)) |$
+
+  $= 1/2 | (l-m)(m-n)(n-l) |$
+
+  Slope of $B\C$ is $m_(B\C) = ( (n+l) - (m+n) ) / ( -n\l + m\n ) = (l - m)/(n(m-l)) = -1/n$
+
+  So altitude from $A$ has slope $n$. $=> y - (l+m) = n(x + l\m)$
+
+  Similarly altitude from $B$ has slope $l$. $=>y - (m+n) = l(x + m\n)$
+
+  From first $y = n\x + n\lm + l + m$, From second $y = l\x + l\mn + m + n$
+
+  $=> n\x + n\lm + l + m = l\x + l\mn + m + n => (n-l)x = n - l => x = 1$
+
+  $=> y = n + n\lm + l + m = l + m + n + l\mn$.
+  //261
++ Slope of line $a_1 x + b_1 y = 1$ is $-a_1 / b_1$. Slope of line $a_2 x + b_2 y = 1$ is $-a_2 /
+  b_2$. Slope of line $a_3 x + b_3 y = 1$ is $-a_3 / b_3$
+
+  Vertex opposite first side is intersection of $a_2 x + b_2 y = 1$ and $a_3 x + b_3 y = 1$.
+
+  Call this point $A$. Altitude from $A$ passes through origin. So line joining $A$ and $(0,0)$ is
+  perpendicular to side $a_1 x + b_1 y = 1$
+
+  Slope of line $O\A$ equals slope of line through origin and $A$.
+
+  Using property of perpendicular lines $m_(O\A) * m_1 = -1$. So $m_(O\A) = b_1 / a_1$
+
+  Now find slope of $O\A$. Point $A$ satisfies both equations
+
+  $a_2 x + b_2 y = 1$ and  $a_3 x + b_3 y = 1$
+
+  $=> a_2 b_3 x + b_2 b_3 y = b_3$  and $a_3 b_2 x + b_3 b_2 y = b_2$
+
+  $=> x = (b_3 - b_2)/(a_2 b_3 - a_3 b_2)$
+
+  Similarly $a_2 a_3 x + b_2 a_3 y = a_3$ and $a_3 a_2 x + b_3 a_2 y = a_2$
+
+  $=>y = (a_3 - a_2)/(b_2 a_3 - b_3 a_2)$
+
+  Slope of $O\A$ $m_(O\A) = y/x = (a_3 - a_2)/(b_3 - b_2)$
+
+  Since $O\A$ is perpendicular to first side, therefore $m_(O\A) * (-a_1/b_1) = -1$
+
+  $=> (a_3 - a_2)/(b_3 - b_2) * (-a_1/b_1) = -1$
+
+  Simplifying $a_1(a_3 - a_2) = b_1(b_3 - b_2)$
+
+  $=> a_1 a_2 + b_1 b_2 = a_1 a_3 + b_1 b_3$
+
+  Similarly by symmetry $a_2 a_3 + b_2 b_3 = a_2 a_1 + b_2 b_1$.
+  //262
++ Let $A, B, C$ be vertices of a triangle. Let $D, E, F$ be midpoints of $B\C, C\A, A\B$ respectively.
+
+  So $D = ( (x_B + x_C)/2, (y_B + y_C)/2 )$, $E = ( (x_C + x_A)/2, (y_C + y_A)/2 )$ and $F = ( (x_A +
+  x_B)/2, (y_A + y_B)/2 )$
+
+  Centroid of triangle $A\BC$ $G = ( (x_A + x_B + x_C)/3, (y_A + y_B + y_C)/3 )$
+
+  Centroid of triangle $D\EF$
+
+  $x_D + x_E + x_F = (x_B + x_C)/2 + (x_C + x_A)/2 + (x_A + x_B)/2= (2x_A + 2x_B + 2x_C)/2 = x_A + x_B +
+  x_C$
+
+  Similarly $y_D + y_E + y_F = y_A + y_B + y_C$
+
+  So centroid of $D\EF$ is $((x_A + x_B + x_C)/3, (y_A + y_B + y_C)/3)$. Hence. both centroids are same.
+
+  Let circumcenter of $A\BC$ be $O$. Then, $O\A = O\B = O\C$. So $O$ is equidistant from $A, B, C$.
+
+  Thus, $O$ is center of circle passing through $A, B, C$
+
+  Since $D, E, F$ are midpoints, triangle $D\EF$ is medial triangle.
+
+  Each side of $D\EF$ is parallel to corresponding side of $A\BC$.
+
+  So $D\E || A\B$, $E\F || B\C$, $F\D || C\A$.
+
+  In medial triangle, each altitude is perpendicular to a side of $D\EF$.
+
+  But since sides are parallel to $A\BC$, these altitudes pass through midpoints and are perpendicular
+  bisectors of $A\BC$.
+
+  Thus altitudes of $D\EF$ pass through $O$. So $O$ lies on all three altitudes of $D\EF$.
+
+  Hence $O$ is orthocenter of $D\EF$.
+  //263
++ Let $A = (a, tan alpha)$, $B = (b, tan beta)$, $C = (c, tan gamma)$
+
+  Since the circumcenter is the origin, we write the points in polar form about the origin.
+
+  So we take $a = r cos alpha$, $tan alpha = r sin alpha$, $b = r cos beta$, $tan beta = r sin beta$, and $c
+  = r cos gamma$, $tan gamma = r sin gamma$
+
+  Hence, $A = (r cos alpha, r sin alpha)$, $B = (r cos beta, r sin beta)$, and $C = (r cos gamma, r sin gamma)$
+
+  Now orthocenter $H(x, y)$ of a triangle with circumcenter at origin satisfies $x = A_x + B_x + C_x$, and
+  $y = A_y + B_y + C_y$
+
+  So $x = r(cos alpha + cos beta + cos gamma)$, and $y = r(sin alpha + sin beta + sin gamma)$
+
+  Since $alpha + beta + gamma = pi$, we use identities
+  $cos alpha + cos beta + cos gamma = 1 + 4 cos(alpha/2) cos(beta/2) cos(gamma/2)$, and $sin alpha + sin
+  beta + sin gamma = 4 sin(alpha/2) sin(beta/2) sin(gamma/2)$
+
+  Thus, $x = r(1 + 4 cos(alpha/2) cos(beta/2) cos(gamma/2))$, and $y = 4r sin(alpha/2) sin(beta/2)
+  sin(gamma/2)$
+
+  Now considering the expression in the required line
+
+  $4 cos(alpha/2) cos(beta/2) cos(gamma/2) x - 4 y sin(alpha/2) sin(beta/2) sin(gamma/2)$
+
+  Substituting $x$ and $y$:
+
+  First term is  $4 cos(alpha/2) cos(beta/2) cos(gamma/2) * r(1 + 4 cos(alpha/2) cos(beta/2) cos(gamma/2))$
+
+  Second term is $4 * 4r sin(alpha/2) sin(beta/2) sin(gamma/2) * sin(alpha/2) sin(beta/2) sin(gamma/2)$
+
+  So the expression becomes
+
+  $4r cos(alpha/2) cos(beta/2) cos(gamma/2) + 16r cos^2(alpha/2) cos^2(beta/2)
+  cos^2(gamma/2) - 16r sin^2(alpha/2) sin^2(beta/2) sin^2(gamma/2)$
+
+  Simplification under $alpha + beta + gamma = pi$, yields $y$
+
+  Hence the orthocenter lies on the line $4(cos alpha/2 cos beta/2 cos gamma/2)x - 4y sin alpha/2 sin beta/2
+  sin gamma/2 = y$
+  //264
++ Let $A$ be intersection of $a_2 x + b_2 y + c_2 = 0$ and $a_3 x + b_3 y + c_3 = 0$
+
+  Let $B$ be intersection of $a_3 x + b_3 y + c_3 = 0$ and $a_1 x + b_1 y + c_1 = 0$
+
+  Let $C$ be intersection of $a_1 x + b_1 y + c_1 = 0$ and $a_2 x + b_2 y + c_2 = 0$
+
+  Let orthocenter be $H(x,y)$
+
+  Then $A\H$ is perpendicular to $a_1 x + b_1 y + c_1 = 0$
+
+ So slope condition of perpendicular lines gives that the line through $A$ and $H$ satisfies a linear
+  relation obtained by replacing coefficients $(a_1,b_1)$ with $(b_1,-a_1)$ in the direction condition.
+
+  Similarly, $B\H$ is perpendicular to $a_2 x + b_2 y + c_2 = 0$ and $C\H$ is perpendicular to $a_3 x + b_3 y
+  + c_3 = 0$.
+
+  Solving the system of three altitude equations leads to a linear relation between
+  $a_1 x + b_1 y + c_1$, $a_2 x + b_2 y + c_2$, $a_3 x + b_3 y + c_3$
+
+  which is symmetric and reduces to $(a_1 x + b_1 y + c_1)(a_1 a_3 + b_1 b_3) =(a_2 x + b_2 y + c_2)(a_2 a_3
+  + b_2 b_3)$
+
+  Hence the point $H(x,y)$ satisfies the given equation, so the line passes through the orthocenter of the
+  triangle.
+  //265
++ Let $A equiv (1, 1)$ and $B equiv (2, -1)$.
+
+  For $A$ we have $3x + 4y -6 = -4 < 0$ and for $B$ it is $> 0$.
+
+  Hence, the points lie on opposite side of the line.
+  //266
++ Let the two lines be $L_1: 2x - 3y + 1 = 0$ and $L_2: 3x - 5y + 2 = 0$
+
+  Evaluate the position of each point with respect to $L_1$ and $L_2$.
+
+  For $(0,0)$ $L_1 = 1 > 0$, $L_2 = 2 > 0$ so sign is $(+, +)$
+
+  For $(-1,1)$ $L_1 = -2 - 3 + 1 = -4 < 0$, $L_2 = -3 - 5 + 2 = -6 < 0$ so sign is $(-, -)$
+
+  For $(-7,-4)$ $L_1 = -14 + 12 + 1 = -1 < 0$, $L_2 = -21 + 20 + 2 = 1 > 0$ so sign is $(-, +)$
+
+  For $(9,6)$ $L_1 = 18 - 18 + 1 = 1 > 0$, $L_2 = 27 - 30 + 2 = -1 < 0$ so sign is $(+, -)$
+
+  Thus the four points lie in four different compartments: $(+, +)$, $(-, -)$, $(-, +)$, $(+, -)$
+
+  Hence the four points are in four different regions formed by the two lines.
+  //267
++ We test the origin $(0,0)$ in each side equation.
+
+  For $L_1$, $0 + 1 = 1 > 0$. For $L_2$, $3(0) - 4(0) - 5 = -5 < 0$. For $L_3$, $5(0) + 12(0) - 27 = -27 <
+  0$
+
+  So the origin gives signs $(+, -, -)$ with respect to $(L_1, L_2, L_3)$.
+
+  $A = L_2 inter L_3$ $9x - 12y = 15$ Add with $L_3$ $14x = 42 => x = 3$
+
+  Substituting $15 - 4y = 5 => y = 2$. So $A = (3,2)$.
+
+  $B = L_3 inter L_1$ $=> x = -1 => 5(-1) + 12y = 27 => y = 8/3$. So $B = (-1, 8/3)$.
+
+  $C = L_1 inter L_2 => x = -1$$=>3(-1) - 4y = 5 => y = -2$. So $C = (-1, -2)$
+
+  Evaluating sign of origin w.r.t. each side
+
+  $L_1(0,0) > 0$, $L_2(0,0) < 0$, $L_3(0,0) < 0$
+
+  So origin lies in the region determined by $(+, -, -)$.
+
+  Since all three vertices lie on consistent opposite half-planes and the origin satisfies one side positive
+  and two negative, the origin lies inside the triangle region formed by these lines.
+
+  Hence, the origin lies inside the triangle.
+
+  #figure(
+      cetz.canvas({
+          import cetz.draw: *
+
+          set-style(stroke: 0.5pt)
+          // vertices of triangle
+          let A = (3, 2)
+          let B = (-1, 8/3)
+          let C = (-1, -2)
+
+          // triangle boundary only (no extension)
+          line(A, B)
+          line(B, C)
+          line(C, A)
+
+          // origin
+          circle((0, 0), radius: 0.01, fill: red)
+
+          content(A, [$A(3, 2)$], anchor: "west")
+          content(B, [$B(-1, 8/3)$], anchor: "south")
+          content(C, [$C(-1, -2)$], anchor: "north")
+          content((0, -0.1), [$O(0, 0)$], anchor: "north")
+      })
+  )
+  //268
++ Let $A = (x_1, y_1)$ and $B = (x_2, y_2)$. Let the line $a x + b y + c = 0$ cut $A\B$ at $P$ in the ratio
+  $m : n$.
+
+  So by section formula $P = ((m x_2 + n x_1)/(m + n), (m y_2 + n y_1)/(m + n))$
+
+  Since $P$ lies on the line $a((m x_2 + n x_1)/(m + n)) + b((m y_2 + n y_1)/(m + n)) + c = 0$
+
+  Multiplying by $(m + n)$ $m(a x_2 + b y_2) + n(a x_1 + b y_1) + c(m + n) = 0$
+
+  Grouping terms $m(a x_2 + b y_2 + c) + n(a x_1 + b y_1 + c) = 0$
+
+  Hence $m/n = -(a x_1 + b y_1 + c)/(a x_2 + b y_2 + c)$
+
+  The quantities $a x_1 + b y_1 + c$ and $a x_2 + b y_2 + c$ are signed values
+
+  If the two points lie on opposite sides of the line, these expressions have opposite signs.
+
+  Thus their ratio is negative, and the minus sign ensures the ratio $m/n$ remains positive for internal
+  division.
+
+  If both points lie on the same side, the ratio becomes negative, indicating external division.
+
+  Hence the minus sign accounts for the signed nature of the expressions and distinguishes internal and
+  external division.
+  //269
++ Using the directed segment ratio result:
+
+  For point $P$ on $B\C$, $B\P/P\C = -(b(B)/b(C))$ where $b(X) = a x_X + b y_X + c$
+
+  $(B\P)/(P\C) = -(f(B)/f(C))$
+
+  Similarly $(C\Q)/(Q\A) = -(f(C)/f(A))$ and $(A\R)/(R\B) = -(f(A)/f(B))$ where $f(X) = a x + b y + c$
+  evaluated at point $X$.
+
+  $(B\P)/(P\C) * (C\Q)/(Q\A) * (A\R)/(R\B) = (-f(B)/f(C))(-f(C)/f(A))(-f(A)/f(B)) = -1$
+
+  So $(B\P)/(P\C) * (C\Q)/(Q\A) * (A\R)/(R\B) + 1 = 0$ $=> B\P.C\Q.A\R + P\C.Q\A.B\R = 0$.
+
+  *Aliter:* Let $B$ be the origin such that $B\C = k$ and $C equiv (k, 0)$. Let $A equiv (alpha, beta)$.
+
+  Let $(B\P)/(P\C) = m, (C\Q)/(Q\A) = -n$ and $(A\R)/(R\B) = p$, where $m,n, p > 0$.
+
+  $=> P equiv ((m\k)/(m + 1), 0), Q equiv ((n alpha - k)/(n - 1), (n beta)/(n - 1))$ and $R equiv (alpha/(p +
+  1), beta/(p + 1))$
+
+  Since $P, Q, R$ are collinear(they are on the same line $L$), therefore
+
+  $mat(delim: "|", (m\k)/(m + 1), 0, 1; (n alpha - k)/(n - 1), (n beta)/(n - 1), 1; alpha/(p + 1), beta/(p +
+  1), 1) = 0=> m\np = 1 => m(-n)p = -1$. Hence proved.
+  //270
++ Let the triangle be $A\BC$ equation of whose sides $C\A, A\B$ and $B\C$ are respectively $3x + y + 2 = 0,
+  3y - 2x = 5$ and $x + 4y = 14$.
+
+  Let $L_1$ cut $x$ and $y$ axes at $L$ and $M$ respectively. Then $M equiv (0, -2)$ and $L equiv (-2/3, 0)$
+
+  Let $L_2$ cut $x$ and $y$ axes at $R$ and $P$ respectively. Then $R equiv (-5/2, 0)$ and $P equiv (0,
+  5/3)$
+
+  Let $L_3$ cut $x$ and $y$ axes at $S$ and $Q$ respectively. Then $S equiv (14, 0)$ and $Q equiv (0, 7/2)$.
+
+  Clearly, point $(0, beta)$ lies on the $y$-axis. If this point has to be inside the triangle $A\BC$ then
+  $5/3 lt.eq beta lt.eq 7/2$.
+  //270
++ Let $A = (2, 3)$ and $B = (-2, 6)$ be consecutive vertices of a rhombus. Given that two sides are parallel
+  to $2x + y = 1$, so slope is $-2$.
+
+  So one pair of opposite sides has slope $-2$ and the other pair has slope $-3/4$ from $A\B$.
+
+  Slope of $A\B$ is $m_(A\B) = (6 - 3)/(-2 - 2) = -3/4$
+
+  So side directions are fixed.
+
+  Equation of side through $A$ is $y - 3 = -2(x - 2) => y = -2x + 7$
+
+  Equation of side through $B$ is $y - 6 = -2(x + 2) => y = -2x + 2$
+
+  Distance condition for fourth vertex on line through $A$. Let $D = (x, y)$ lie on $y = -2x + 7$
+
+  Rhombus has $A\D = A\B$. $A\B^2 = ( -4 )^2 + 3^2 = 25 => (x - 2)^2 + (y - 3)^2 = 25$
+
+  Substitute $y = -2x + 7 => (x - 2)^2 + (-2x + 7 - 3)^2 = 25 => x^2 - 4x - 1 = 0 => x = 2 plus.minus sqrt(5)$,
+  $=>y = 3 minus.plus 2 sqrt(5)$
+
+  *Case 1:* $x = 2 + sqrt(5)$, $y = 3 - 2 sqrt(5)$
+
+  *Case 2:* $x = 2 - sqrt(5)$, $y = 3 + 2 sqrt(5)$
+
+  Only the configuration consistent with convex ordering is $D = (2 + sqrt(5), 3 - 2 sqrt(5))$
+
+  $A + C = B + D => C = B + D - A => C = (-2,6) + (2 + sqrt(5), 3 - 2 sqrt(5)) - (2,3)$
+
+  $=> x = -2 + 2 + sqrt(5) - 2 = -2 + sqrt(5)$ and $y = 6 + 3 - 2 sqrt(5) - 3 = 6 - 2 sqrt(5)$
