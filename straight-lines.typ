@@ -1627,3 +1627,9 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //271
 + A rhombus has two consecutive vertice at $(2, 3)$ and $(-2, 6)$ and two of the sides are parallel to $2x +
   y = 1$. Find the other vertices of the rhombus if $(0, 3)$ is an interior point of rhombus.
+  //272
++ Examine wheher the points $(3, -4)$ and $(2, 6)$ are on the same side or opposite sides of the line $3x -
+  4y = 8$?
+  //273
++ Prove that the points $(2, -1)$ and $(1, 1)$ are on the opposite sides of the straight line $3x + 4y - 6 =
+  0$.

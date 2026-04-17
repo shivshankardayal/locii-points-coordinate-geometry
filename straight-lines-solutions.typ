@@ -3566,4 +3566,12 @@
 
   $A + C = B + D => C = B + D - A => C = (-2,6) + (2 + sqrt(5), 3 - 2 sqrt(5)) - (2,3)$
 
-  $=> x = -2 + 2 + sqrt(5) - 2 = -2 + sqrt(5)$ and $y = 6 + 3 - 2 sqrt(5) - 3 = 6 - 2 sqrt(5)$
+  $=> x = -2 + 2 + sqrt(5) - 2 = -2 + sqrt(5)$ and $y = 6 + 3 - 2 sqrt(5) - 3 = 6 - 2 sqrt(5)$.
+  //272
++ For $(3, -4)$ we have $3*3 - 4*(-4) - 8 = 17 > 0$ and for $(2, 6)$ we have $2*3 - 4*6 - 8 = -26 < 0$.
+
+  Thus, the points are on opposite sides of the given line.
+  //273
++ For $(2, -1)$ we have $3*2 + 4*-1 - 6 = -4 < 0$ and for $(1, 1)$ we have $3*1 + 4*1 - 6 = 1 > 0$.
+
+  Thus, the points are on opposite sides of the given line.
