@@ -3805,3 +3805,315 @@
   Solving $C D$ and $S A$ we have $C = (2, 4)$ and solving $C D$ and $S B$ we have $D = (6, 8)$.
 
   $C D = sqrt((2 - 6)^2 + (4 - 8)^2) = 4sqrt(2)$.
+  //287
++ Let $A B C D$ be the parallelogram and $D L perp A B, B M perp A D$. Let $angle D A B = theta$ then from
+  the right angled $\u{25b3} A D L, D L = A D sin theta$
+
+  From right-angled $\u{25b3} A M B, B M = A B sin theta$
+
+  For this it is sufficient to show that it is a rhombus i.e. $A D = A B$.
+
+  $=> A D sin theta = A B sin theta => D L = B M$.
+
+  Let the given straight lines be $A B, B C, C D, A D$ respectively.
+
+  $D L = $ distance between parallel lines $A B$ and $D C = 1/sqrt(1/a^2 + 1/b^2)$ and similarly $B M =
+  1/sqrt(1/a^2 + 1/b^2)$.
+
+  Thus, $A B C D$ is a rhombus, and hence, the diagonals are perpendicular.
+
+  #figure(
+    cetz.canvas({
+        import cetz.draw: *
+        import cetz.angle: right-angle
+
+        set-style(stroke: 0.5pt)
+        let A = (0, 0)
+        let B = (4, 0)
+        let D = (2, 4)
+        let C = (6, 4)
+
+        // parallelogram
+        line(A, B, name: "ab")
+        line(B, C)
+        line(C, D)
+        line(D, A)
+
+        // foot from D to AB
+        let t1 = (
+            (D.at(0) - A.at(0))*(B.at(0) - A.at(0)) +
+            (D.at(1) - A.at(1))*(B.at(1) - A.at(1))
+        ) / (
+            (B.at(0) - A.at(0))*(B.at(0) - A.at(0)) +
+            (B.at(1) - A.at(1))*(B.at(1) - A.at(1))
+        )
+
+        let L = (
+            A.at(0) + t1*(B.at(0) - A.at(0)),
+            A.at(1) + t1*(B.at(1) - A.at(1))
+        )
+
+        // foot from B to AD
+        let t2 = (
+            (B.at(0) - A.at(0))*(D.at(0) - A.at(0)) +
+            (B.at(1) - A.at(1))*(D.at(1) - A.at(1))
+        ) / (
+            (D.at(0) - A.at(0))*(D.at(0) - A.at(0)) +
+            (D.at(1) - A.at(1))*(D.at(1) - A.at(1))
+        )
+
+        let M = (
+            A.at(0) + t2*(D.at(0) - A.at(0)),
+            A.at(1) + t2*(D.at(1) - A.at(1))
+        )
+
+        // perpendiculars
+        line(D, L, name: "p1")
+        line(B, M, name: "p2")
+
+
+        // labels
+        content(A, $A$, anchor: "north-east", padding: 0.1)
+        content(B, $B$, anchor: "north-west", padding: 0.1)
+        content(C, $C$, anchor: "south-west", padding: 0.1)
+        content(D, $D$, anchor: "south-east", padding: 0.1)
+        content(L, $L$, anchor: "north", padding: 0.1)
+        content(M, $M$, anchor: "east", padding: 0.1)
+
+        right-angle( L, B, D, radius: .5)
+        right-angle( M, A, B, radius: .5)
+    })
+  )
+  //288
++ The diagram is same as one given in previous problem. Let $A B C D$ be the given parallelogram and the
+  given sides are $A B, B C, C D, A D$ respectively.
+
+  $D L = (|a - b|)/sqrt(1 + m^2)$ and $B M = (|c - d|)/sqrt(1 + m^2)$
+
+  If $theta$ is the acute angle between $A B$ and $A D$ then $tan theta = (|m - n|)/sqrt(1 + m n)$
+
+  $=> sin theta = (|m - n|)/sqrt((m - n)^2 + (1 + m n)^2) = (|m - n|)/sqrt((1 + m^2)(1 + n^2))$
+
+  Area of $parallelogram A B C D = A B.D L = A B. A D sin theta = (M B.D L)/(sin theta)$
+
+  $= lr(|((a - b)(c - d))/(m - n)|)$.
+  //289
++ From first line $x = (21 - 3y)/2$. Substitute in second $3((21 - 3y)/2) - 4y + 11 = 0 => y = 5$. Then $x =
+  (21 - 15)/2 = 3$
+
+  So point of intersection is $(3, 5)$.
+
+  Distance is $p = |8x + 6y + 5| / sqrt(8^2 + 6^2)$
+
+  Substituting $(3,5)$
+
+  $p = |24 + 30 + 5| / sqrt(64 + 36) = 59 / 10$.
+  //290
++ Let the given points be $A(a, b)$ and $B(b, a)$. Slope of $A B$ is $m = (a - b)/(b - a) = -1$
+
+  So equation is $y - b = -1(x - a) =>x + y - (a + b) = 0$
+
+  Distance from origin $(0,0)$ to this line is $d = (|0 + 0 - (a + b)|) / sqrt(1^2 + 1^2) = (|a + b|) /
+  sqrt(2)$.
+  //291
++ Multiply first by $4$ to get $8x - 12y = -56$. Multiply second by $3$ to get $15x + 12y = 21$
+
+  $=> x = -35/23$ and $y = 84/23$
+
+  Line joining origin and $P$ has slope $m = (84/23)/(-35/23) = -12/5$. So equation is $y = -12/5 x => 12x +
+  5y = 0$
+
+  Distance from $(4,-7)$ to this line $d = |12(4) + 5(-7)| / sqrt(12^2 + 5^2) = 1$.
+  //292
++ Given line is $x + 7y + 2 = 0$. Any line parallel to it is $x + 7y + c = 0$.
+
+  Distance from point $(1, -1)$ to this line is
+
+  $|1 + 7(-1) + c| / sqrt(1^2 + 7^2) = 1 => |-6 + c| = sqrt(50)$
+
+  So $c - 6 = plus.minus sqrt(50)$ and $c = 6 plus.minus sqrt(50)$
+
+  Hence required lines are $x + 7y + 6 + sqrt(50) = 0$ and $x + 7y + 6 - sqrt(50) = 0$.
+  //293
++ Given line $3x - 4y - 5 = 0$. Let required parallel lines be $3x - 4y + c = 0$
+
+  Distance between two parallel lines $|c + 5| / sqrt(3^2 + (-4)^2) = 1 => |c + 5| = 5$
+
+  So $c + 5 = plus.minus 5$ and $c = 0$ or $c = -10$
+
+  Hence required lines are $3x - 4y = 0$ and $3x - 4y - 10 = 0$.
+  //294
++ Let a line through $(0, a)$ be $y - a = m(x - 0)$. So $y = m x + a$.
+
+  Rewrite in standard form $m x - y + a = 0$.
+
+  Distance from $(2a, 2a)$ is $(|2a m - 2a + a|) / sqrt(m^2 + 1) = a$
+
+  $=>(2m - 1)^2 = m^2 + 1 => m = 0$ or $m = 4/3$
+
+  *Case 1:* $m = 0$ gives $y = a$
+
+  *Case 2:* $m = 4/3$ gives $y - a = (4/3)x => 4x - 3y + 3a = 0$.
+  //295
++ From first$x = 3y - 1$. Substitute in second $2(3y - 1) + 5y - 9 = 0=>6y - 2 + 5y - 9 = 0 =>y = 1 => x =
+  2$.
+
+  So point of intersection is $(2, 1)$. Let required line be$y - 1 = m(x - 2)$. So $m x - y + (1 - 2m) = 0$.
+
+  Distance from origin is $sqrt(5)$So$|1 - 2m| / sqrt(m^2 + 1) = sqrt(5) =>m = -2$
+
+  Substitute into line equation $y - 1 = -2(x - 2)$$y = -2x + 5$.
+
+  Hence required line is$2x + y - 5 = 0$.
+  //296
++ From first line $x = y - 1$. Substitute in second line $2(y - 1) - 3y + 5 = 0 => y = 3 => x = 2$
+
+  So the point is $(2, 3)$. Let required line be $y - 3 = m(x - 2) => m x - y + (3 - 2m) = 0$
+
+  Distance from $(3, 2)$ is $7/5$ $|3m - 2 + 3 - 2m| / sqrt(m^2 + 1) = 7/5 => |m + 1| / sqrt(m^2 + 1) = 7/5$
+
+  $=> m = 4/3 " or " m = 3/4$
+
+  *Case 1:* $y - 3 = (4/3)(x - 2) => 4x - 3y + 1 = 0$.
+
+  *Case 2:* $y - 3 = (3/4)(x - 2) => 3x - 4y + 6 = 0$.
+  //297
++ Given that the distance from $(1, 1)$ to the line $a x - b y + c = 0$ is $1$
+
+  So $(|a - b + c|) / sqrt(a^2 + b^2) = 1$
+
+  Squaring both sides $(a - b + c)^2 = a^2 + b^2 => a^2 + b^2 + c^2 - 2a b + 2a c - 2b c = a^2 + b^2$
+
+  $c^2 - 2a b + 2a c - 2b c = 0=> c^2 + 2a c - 2b c = 2a b$
+
+  Divide throughout by $2a b c, c/(2a b) + 1/b - 1/a = 1/c$
+
+  Rearranging yields $1/c + 1/a - 1/b = c/(2a b)$.
+  //298
++ Given line is $x/a cos theta + y/b sin theta = 1$
+
+  So $b x cos theta + a y sin theta - a b = 0$
+
+  Distance from $(x_1, y_1)$ is $(|b x_1 cos theta + a y_1 sin theta - a b|) / sqrt(b^2 cos^2 theta + a^2 sin^2
+  theta)$
+
+  For $(plus.minus sqrt(a^2 - b^2), 0)$
+
+  Product of perpendiculars $= (|(b sqrt(a^2 - b^2) cos theta - a b)(-b sqrt(a^2 - b^2) cos theta - a b)|) /
+  (b^2 cos^2 theta + a^2 sin^2 theta)$
+
+  $= (|a^2 b^2 - b^2(a^2 - b^2) cos^2 theta|) / (b^2 cos^2 theta + a^2 sin^2 theta)= (b^2 (a^2 sin^2 theta +
+  b^2 cos^2 theta)) / (b^2 cos^2 theta + a^2 sin^2 theta) = b^2$.
+  //299
++ Given lines are $4x + 3y = 11$ and $8x + 6y = 15$. Rewrite second line $8x + 6y = 15$ as $4x + 3y = (15)/2$
+
+  So the two parallel lines are $4x + 3y - 11 = 0$ and $4x + 3y - 15/2 = 0$
+
+  Distance between parallel lines $= (|(-15/2) - (-11)|) / sqrt(4^2 + 3^2) = 7/10$
+  //300
++ Given lines are $2x + 3y = 19$, $2x + 3y + 7 = 0$ and $2x + 3y = 6$; all have same slope.
+
+  Write in standard form $L_1: 2x + 3y - 19 = 0$, $L_2: 2x + 3y + 7 = 0$ and $L: 2x + 3y - 6 = 0$.
+
+  Distance between parallel lines $a x + b y + c_1 = 0$ and $a x + b y + c_2 = 0$ is $(|c_1 - c_2|) /
+  sqrt(a^2 + b^2)$
+
+  Distance of $L_1$ from $L$ $= (|-19 - (-6)|) / sqrt(2^2 + 3^2) = sqrt(13)$
+
+  Distance of $L_2$ from $L$ $= (|7 - (-6)|) / sqrt(13) = sqrt(13)$
+
+  Hence, both distances are equal, so the lines are equidistant from $2x + 3y = 6$.
+  //301
++ Distance between parallel lines $= (|c_1 - c|) / sqrt(m^2 + 1)$
+  //302
++ Given sides are $3x - 4y = 0$ and $4x + 3y = 0$
+
+  These are perpendicular since $3*4 + (-4)3 = 0$. So they are adjacent sides meeting at origin.
+
+  Area of square is $25$, so side = $5$. Distance between each pair of parallel sides is $5$.
+
+  For line $3x - 4y = 0$, required parallel side is $3x - 4y + c = 0$
+
+  Distance from origin $(|c| )/ sqrt(3^2 + (-4)^2) = 5 => |c| = 25$
+
+  So lines are $3x - 4y + 25 = 0$ or $3x - 4y - 25 = 0$
+
+  For line $4x + 3y = 0$, required parallel side is $4x + 3y + k = 0$
+
+  Distance from origin $(|k|) / 5 = 5 => |k| = 25$
+
+  So lines are $4x + 3y + 25 = 0$ or $4x + 3y - 25 = 0$.
+
+  Taking consistent pair forming a square, the other two sides are
+
+  $3x - 4y + 25 = 0$ and $4x + 3y + 25 = 0$
+  //303
++ Given lines are $L_1: a x + b y + c = 0$, $L_2: a_1 x + b_1 y + c = 0$, $L_3: a x + b y + c_1 = 0$, and
+  $L_4: a_1 x + b_1 y + c_1 = 0$
+
+  $L_1$ is parallel to $L_3$ and $L_2$ is parallel to $L_4$, so they form a parallelogram.
+
+  Length of one pair of opposite sides equals distance between $L_1$ and $L_3$ $= (|c_1 - c|) / sqrt(a^2 + b^2)$
+
+  Length of the other pair equals distance between $L_2$ and $L_4$ $= (|c_1 - c|) / sqrt(a_1^2 + b_1^2)$
+
+  Given $a^2 + b^2 = a_1^2 + b_1^2$. So both lengths are equal.
+
+  Hence, all sides of parallelogram are equal. Therefore, it is a rhombus.
+  //304
++ Given lines are $L_1: 4x + 3y - 6 = 0$ and $L_2: 5x + 12y + 9 = 0$
+
+  Angle bisectors are given by $(4x + 3y - 6)/sqrt(4^2 + 3^2) = plus.minus (5x + 12y + 9)/sqrt(5^2 + 12^2)$
+
+  $=> (4x + 3y - 6)/5 = plus.minus (5x + 12y + 9)/(13)$
+
+  *Case I:* $13(4x + 3y - 6) = 5(5x + 12y + 9) => 9x - 7y - 41 = 0$
+
+  *Case II:* $13(4x + 3y - 6) = -5(5x + 12y + 9) => 7x + 9y - 3 = 0$
+
+  To identify angles, test origin $(0,0)$
+
+  For $L_1:$ $-6 < 0$. For $L_2:$ $9 > 0$.
+
+  So origin lies between opposite signs, hence lies in one of the angles.
+
+  Checking bisectors: For $9x - 7y - 41 = 0 => -41 < 0$
+
+  For $7x + 9y - 3 = 0 => -3 < 0$
+
+  The bisector that preserves sign relation corresponds to angle containing origin.
+
+  So angle containing origin is $7x + 9y - 3 = 0$
+
+  Hence, acute angle bisector is $7x + 9y - 3 = 0$ and obtuse angle bisector is $9x - 7y - 41 = 0$.
+  //305
++ Given lines are $L_1: 3x + 4y - 5 = 0$ and $L_2: 12x + 5y - 7 = 0$.
+
+  The locus of points equidistant from $L_1$ and $L_2$ is given by the angle bisectors:
+
+  $(3x + 4y - 5)/5 = plus.minus (12x + 5y - 7)/13$. So we get two bisectors.
+
+  *Case I:* $13(3x + 4y - 5) = 5(12x + 5y - 7) => 7x - 9y + 10 = 0$
+
+  *Case II:* $13(3x + 4y - 5) = -5(12x + 5y - 7) => 99x + 77y - 100 = 0$
+
+  Now observe: The given line $7x - 9y + 10 = 0$ is exactly the angle bisector of $L_1$ and $L_2$.
+  //306
++ We have already proven this in @incenter.
+  //307
++ Given triangle sides $L_1: x + 1 = 0$, $L_2: 3x - 4y - 5 = 0$, and $L_3: 5x + 12y - 27 = 0$.
+
+  $A = L_2 inter L_3$. From $3x - 4y = 5$ and $5x + 12y = 27$
+
+  $x = 3$ and $y = 1$. So $A = (3, 1)$.
+
+  $B = L_3 inter L_1$ $=> x = -1$ and $y = 8/3$. So $B = (-1, 8/3)$.
+
+  $C = L_1 inter L_2$ $=> x = -1$ and $y = -2$. So $C = (-1, -2)$.
+
+  $B C = sqrt((0)^2 + ((14)/3)^2) = (14)/3$, $C A = sqrt((4)^2 + (3)^2) = 5$, and $A B = sqrt((4)^2 + ( -5/3
+  )^2) = (13)/3$
+
+  Incenter formula is $I = (a x_1 + b x_2 + c x_3)/(a + b + c), (a y_1 + b y_2 + c y_3)/(a + b + c)$.
+
+  Hence incenter is $(1/3, 2/3)$.

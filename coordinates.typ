@@ -254,7 +254,7 @@ $=> I = ((a\x_1 + b\x_2 + c\x_3)/(a + b + c), (a\y_1 + b\y_2 + c\y_3)/(a + b + c
 
 Similarly it can be shown for two other bisectors that $I$ has the same coordinate.
 
-Thus, $I((a\x_1 + b\x_2 + c\x_3)/(a + b + c), (a\y_1 + b\y_2 + c\y_3)/(a + b + c))$ is the incenter of the triangle.
+Thus, $ I = ((a\x_1 + b\x_2 + c\x_3)/(a + b + c), (a\y_1 + b\y_2 + c\y_3)/(a + b + c)) $ <incenter> is the incenter of the triangle.
 
 == Area of a Quadrilateral
 Consider following diagram with $A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$ and $D(x_4, y_4)$:

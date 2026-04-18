@@ -854,12 +854,15 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
     numbering: (..nums-arguments) => context {
         let nums = nums-arguments.pos()
         let thread-counter = counter("ex3")
+        let print-cyan = cmyk(100%, 0%, 0%, 0%)
         if nums.len() == 1 {
             thread-counter.step()
             let thread-count = thread-counter.get().first() + 1
-            numbering("1.a.", thread-count)
+            //text(fill: print-cyan, numbering("1.a.i.", thread-count))
+            numbering("1.a.i.", thread-count)
         } else {
-            numbering("1.a.", nums.last())
+            //text(fill: print-cyan, numbering("1.a.i.", nums.last()))
+            numbering("a.i.", nums.last())
         }
     },
     spacing: 1em,
@@ -1672,3 +1675,63 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   is a point source of light. The rod $A B$ is parallel to the wall and is at equal distance from $S$ and
   the wall. If $C D$ is the shadow of $A B$ on the wall, find the coordinates of $C$ and $D$ and the lnegth
   $C D$. $S, A B$ and $C D$ are planar.
+  //287
++ Prove that the diagonals of the parallelogram formed by the lines $x/a + y/b = 1, x/b + y/a = 1, x/a + y/b
+  = 2$ and $x/b + y/a = 2$ are at right angles.
+  //288
++ Find the area of the parallelogram whose sides are $y = m x + a, y = m x + b, y = n x + c$ and $y = n x +
+  d$.
+  //289
++ Find the distance of the point of intersection of the lines $2x + 3y = 21$ and $3x - 4y + 11 = 0$ from the
+  line $8x + 6y + 5 = 0$.
+  //290
++ Find the length of the perpendicular drawn from the origin upon line joining the points $(a, b)$ and $(b,
+  a)$.
+  //291
++ Find the length of the perpendicular from the point $(4, -7)$ to the line joining the origin and point of
+  intersection of the lines $2x - 3y + 14 = 0$ and $5x + 4y - 7 = 0$.
+  //292
++ Find the equation of two straight lines which are parallel to $x + 7y + 2 = 0$, and at unit distance from
+  the point $(1, -1)$.
+  //293
++ Find the equations of the two straight lines parallel to $3x - 4y = 5$ at a unit distance from it.
+  //294
++ Find the equation of two lines through $(0, a)$ which are at a distance $a$ from the point $(2a, 2a)$.
+  //295
++ Find the equation of the line through the point of intersection of the lines $x - 3y + 1 = 0$ and $2x + 5y
+  - 9 = 0$ and whose distance from origin is $sqrt(5)$.
+  //296
++ Find the equation of the straight line passing the point of intersection of the lines $x - y + 1 = 0$ and
+  $2x - 3y + 5 = 0$ and at a distance $7/5$ from the point $(3, 2)$.
+  //297
++ If the length of the perpendicular from the point $(1, 1)$ to the line $a x - b y + c = 0$ be $1$, show
+  that $1/c + 1/a - 1/b = c/(2 a b)$.
+  //298
++ Show that the product of the perpendiculars on the line $x/a cos theta + y/b sin theta = 1$ from the
+  points $(plus.minus sqrt(a^2 - b^2), 0)$ is $b^2$.
+  //299
++ Prove that the perpendicular distance between the lines $4x + 3y = 11$ is $8x + 6y = 15$ is $7/10$.
+  //300
++ Prove that the lines $2x + 3y = 19$ and $2x + 3y + 7 = 0$ are equidistant from the line $2x + 3y = 6$.
+  //301
++ Find the distance between the lines $y = m x + c$ and $y = m x + c_1$.
+  //302
++ The equation of two sides of a square whose area is $25$ square units are $3x - 4y = 0$ and $4x + 3y =
+  0$. Find the equation of the other two sides of the square.
+  //303
++ Show that the parallelogram formed by $a x + b y + c = 0, a_1x + b_1y + c = 0, a x + b y + c_1 = 0$ and
+  $a_1x + b_1y + c_1 =0$ will be a rhombus if $a^2 + b^2 = a_1^2 + b_1^2$.
+  //304
++ For the straight lines $4x + 3y - 6 = 0$ and $5x + 12y + 9 = 0$, find the equation of the
+
+  + bisector of the obtuse angle between them,
+  + bisector of the acute angle between them, and
+  + bisector of the angle which contains the origin.
+  //305
++ Prove that the length of the perpendiculars drawn from any point of the line $7x - 9y + 10 = 0$ to the
+  lines $3x + 4y - 5 = 0$ and $12x + 5y = 7$ are equal.
+  //306
++ Prove that the internal bisectors of the angle of a triangle meet in a given point.
+  //307
++ Find the coordinates of the incenter of the triangle whose sides are $x + 1 = 0$, $3x - 4y - 5 = 0$, and
+  $5x + 12y - 27 = 0$.
