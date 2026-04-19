@@ -1735,3 +1735,23 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //307
 + Find the coordinates of the incenter of the triangle whose sides are $x + 1 = 0$, $3x - 4y - 5 = 0$, and
   $5x + 12y - 27 = 0$.
+  //308
++ Two opposite sides of a rhombus are $x + y = 1$ and $x + y = 5$. If one vertex is $(2, -1)$ and the angle
+  at that vertex be $45^degree$, find the vertex opposite to given vertex.
+  //309
++ Two sides of a rhombus $A B C D$ are parallel to the lines $y = x + 2$ and $y = 7x + 3$. If the diagonals
+  of the rhombus intersect at the point $(1, 2)$ and the vertex $A$ is on $y$-axis, find the possible
+  coordinates of $A$.
+  //310
++ Find the equations of the bisectors of the angle between the lines $x - 2y + 3 = 0$ and $4x + 2y - 5 = 0$.
+  //311
++ Prove that the line $6x + 66y - 7 = 0$ is a bisector of the angle between the lines $15x - 18y - 1 = 0$
+  and $12x + 10y - 3 = 0$.
+  //312
++ Show that each point on the line $2x + 11y = 5$ is at equal distance from the lines $24x + 7y = 20$ and
+  $4x - 3y = 2$.
+  //313
++ Find the locus of the point equidistant from the lines $6x + 8y - 10 = 0$ and $4x - 3y = 7$.
+  //314
++ Find the equartions of the bisectors of the angles between the lines $x + y - 3 = 0$ and $7x - y + 5 = 0$
+  and state which of them bisects the acute angle between the lines.

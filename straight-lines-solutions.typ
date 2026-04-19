@@ -4117,3 +4117,153 @@
   Incenter formula is $I = (a x_1 + b x_2 + c x_3)/(a + b + c), (a y_1 + b y_2 + c y_3)/(a + b + c)$.
 
   Hence incenter is $(1/3, 2/3)$.
+  //308
++ Let the given opposite sides be $x + y = 1$ and $x + y = 5$
+
+  Distance between the parallel sides is $d = abs(5 - 1) / sqrt(1^2 + 1^2) = 4 / sqrt(2) = 2 sqrt(2)$
+
+  Let the side length of the rhombus be $a$. Height of rhombus $= a sin(45deg)$
+
+  So $a sin(45^degree) = 2 sqrt(2) => a = 4$
+
+  Direction vector of lines $x + y = k$ is $(1, -1)$. Unit vector $= (1/sqrt(2), -1/sqrt(2))$
+
+  Vertex $A$ is $(2, -1)$. Adjacent vertex $B$ is $B = (2, -1) +- 4 * (1/sqrt(2), -1/sqrt(2)) =>B = (2, -1)
+  plus.minus (2 sqrt(2), -2 sqrt(2))$
+
+  So $B_1 = (2 + 2 sqrt(2), -1 - 2 sqrt(2))$ and $B_2 = (2 - 2 sqrt(2), -1 + 2 sqrt(2))$
+
+  Second side makes $45^degree$ with first side. Rotating $(1, -1)$ by $45^degree$ gives direction $(1, 0)$.
+
+  So adjacent vertex $C$ is $C_1 = (6, -1)$ and $C_2 = (-2, -1)$
+
+  Opposite vertex $D$ is given by $D = B + C - A$
+
+  *Case I:* $D = (2 + 2 sqrt(2), -1 - 2 sqrt(2)) + (6, -1) - (2, -1) => D = (6 + 2 sqrt(2), -1 - 2 sqrt(2))$
+
+  *Case II:* $D = (2 - 2 sqrt(2), -1 + 2 sqrt(2)) + (-2, -1) - (2, -1) => D = (-2 - 2 sqrt(2), -1 + 2 sqrt(2))$
+  //309
++ Sides are parallel to $y = x + 2$ and $y = 7x + 3$. So slopes are $1$ and $7$.
+
+  Let $A = (0, t)$. Let adjacent vertices be $B = (x_1, y_1)$ on line through $A$ with slope $1$ and $D =
+  (x_2, y_2)$ on line through $A$ with slope $7$
+
+  So $y_1 - t = x_1$ and $y_2 - t = 7 x_2$
+
+  Thus, $B = (x_1, t + x_1)$ and $D = (x_2, t + 7 x_2)$
+
+  For rhombus, adjacent sides are equal: $A B^2 = A D^2$ $=> x_1 = plus.minus 5 x_2$
+
+  Now $C = B + D - A = (x_1 + x_2, t + x_1 + 7 x_2)$
+
+  Diagonals bisect each other at $(1, 2)$ i.e. Midpoint of $A C$ is $(1, 2)$
+
+  $( (x_1 + x_2)(2), *t + t + x_1 + 7 x_2)(2) ) = (1, 2)$
+
+  So $x_1 + x_2 = 2$$=> 2t + x_1 + 7 x_2 = 4$
+
+  *Case I:* $x_1 = 5 x_2$$=>x_2 = 1/3$ and $x_1 = 5/3$
+
+  Then $2t + 5/3 + 7/3 = 4$$=> t = 0$
+
+  So $A = (0, 0)$
+
+  *Case II:* $x_1 = -5 x_2$ $=>x_2 = -1/2$ and $x_1 = 5/2$
+
+  Then  $2t + 5/2 - 7/2 = 4$$= >t = 5/2$.
+
+  So $A = (0, 5/2)$
+  //310
++ We are given the lines $x - 2y + 3 = 0$ and $4x + 2y - 5 = 0$.
+
+  The angle bisectors are given by $(a_1 x + b_1 y + c_1) / sqrt(a_1^2 + b_1^2) = plus.minus (a_2 x + b_2 y
+  + c_2) / sqrt(a_2^2 + b_2^2)$.
+
+  For the given lines, $a_1 = 1$, $b_1 = -2$, $c_1 = 3$ and $a_2 = 4$, $b_2 = 2$, $c_2 = -5$.
+
+  So, $(x - 2y + 3) / sqrt(5) = plus.minus (4x + 2y - 5) / sqrt(20)$.
+
+  Since $sqrt(20) = 2 sqrt(5)$, $(x - 2y + 3) / sqrt(5) = plus.minus (4x + 2y - 5) / (2 sqrt(5))$.
+
+  Multiplying both sides by $sqrt(5)$, $x - 2y + 3 = plus.minus (4x + 2y - 5) / 2$.
+
+  *Case I:* $x - 2y + 3 = (4x + 2y - 5) / 2 => 2x + 6y - 11 = 0$.
+
+  *Case II:* $x - 2y + 3 = -(4x + 2y - 5) / 2 => 6x - 2y + 1 = 0$.
+  //311
++ We want to prove that the line $6x + 66y - 7 = 0$ bisects the angle between the lines $15x - 18y - 1 = 0$
+  and $12x + 10y - 3 = 0$.
+
+  The equation is $(15x - 18y - 1) / sqrt(15^2 + (-18)^2) = plus.minus (12x + 10y - 3) / sqrt(12^2 + 10^2)$
+
+  $sqrt(15^2 + (-18)^2) = sqrt(225 + 324) = sqrt(549)$ and $sqrt(12^2 + 10^2) = sqrt(144 + 100) = sqrt(244)$
+
+  So, $(15x - 18y - 1) / sqrt(549) = plus.minus (12x + 10y - 3) / sqrt(244)$
+
+  $=> sqrt(244)(15x - 18y - 1) = plus.minus sqrt(549)(12x + 10y - 3)$
+
+  $=> 30x - 36y - 2 = plus.minus (36x + 30y - 9)$
+
+  Taking plus sign we see that it is the given equation.
+  //311
++ Rewrite the given lines in standard form: $24x + 7y - 20 = 0, 4x - 3y - 2 = 0$
+
+  Let (x, y) be any point on $2x + 11y = 5$.
+
+  Distance from first line: $D_1 = (|24x + 7y - 20|) / sqrt(24^2 + 7^2) = (|24x + 7y - 20|) / 25$
+
+  Distance from second line: $D_2 = (|4x - 3y - 2|) / sqrt(4^2 + (-3)^2) = (|4x - 3y - 2|)/5$
+
+  Now use the relation $2x + 11y = 5$.
+
+  Then: $24x + 7y - 20 = (24x + 132y - 60) - 125y + 40 = -5(25y - 8)$
+
+  Also, $4x - 3y - 2 = (4x + 22y - 10) - 25y + 8= -(25y - 8)$
+
+  Thus, $|24x + 7y - 20| = 5 |25y - 8|$
+
+  $D_1 = 5 9|25y - 8|) / 25 = (|25y - 8|) / 5$ and $D_2 = (|25y - 8|) / 5$
+
+  Hence, $D_1 = D_2$.
+  //313
++ We are given the lines $6x + 8y - 10 = 0$ and $4x - 3y - 7 = 0$.
+
+  For a point $(x, y)$ equidistant from the two lines, $abs(6x + 8y - 10) / sqrt(6^2 + 8^2) = abs(4x - 3y -
+  7) / sqrt(4^2 + (-3)^2)$
+
+  $sqrt(6^2 + 8^2) = sqrt(36 + 64) = 10$ and $sqrt(4^2 + (-3)^2) = sqrt(16 + 9) = 5$
+
+  So, $abs(6x + 8y - 10) / 10 = abs(4x - 3y - 7) / 5$
+
+  Multiply: $abs(6x + 8y - 10) = 2 * abs(4x - 3y - 7)$ $=> 6x + 8y - 10 = plus.minus 2(4x - 3y - 7)$
+
+  *Case I:* $6x + 8y - 10 = 8x - 6y - 14$$=>x - 7y - 2 = 0$
+
+  *Case II:* $6x + 8y - 10 = -8x + 6y + 14$$=> 7x + y - 12 = 0$
+
+  Hence, the locus is $x - 7y - 2 = 0$ or $7x + y - 12 = 0$.
+  //314
++ The given lines are $x + y - 3 = 0$ and $7x - y + 5 = 0$.
+
+  For $x + y - 3 = 0$ we have $a_1 = 1$ and $b_1 = 1$ so the value is $sqrt(2)$.
+
+  For $7x - y + 5 = 0$ we have $a_2 = 7$ and $b_2 = -1$ so the value is $sqrt(50) = 5sqrt(2)$.
+
+  The angle bisectors satisfy   $(x + y - 3)/ sqrt(2) = plus.minus (7x - y + 5)/ 5sqrt(2)$
+
+  After simplification this becomes $5(x + y - 3) = plus.minus(7x - y + 5)$
+
+First result
+$5x + 5y - 15 = 7x - y + 5$
+$-2x + 6y - 20 = 0$
+$x - 3y + 10 = 0$
+
+Second result
+$5x + 5y - 15 = -7x + y - 5$
+$12x + 4y - 10 = 0$
+$6x + 2y - 5 = 0$
+
+The bisectors are
+$x - 3y + 10 = 0$ and $6x + 2y - 5 = 0$
+
+The acute angle bisector is $x - 3y + 10 = 0$
