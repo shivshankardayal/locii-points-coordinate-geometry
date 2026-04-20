@@ -1755,3 +1755,90 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //314
 + Find the equartions of the bisectors of the angles between the lines $x + y - 3 = 0$ and $7x - y + 5 = 0$
   and state which of them bisects the acute angle between the lines.
+  //315
++ Prove that the bisector of the acute angle between the lines $3x + 4y = 11$ and $12x - 5y = 2$ is $11x +
+  3y = 17$.
+  //316
++ Find the equation of the line which bisects the obtuse angle between the lines $x - 2y + 4 = 0$ and $4x -
+  3y + 2 = 0$.
+  //317
++ Show that the four points $(1, 0), (2, 3), (1, -4)$ and $(8, 1)$ lie in the four compartments made by the
+  lines $x + y - 2 = 0$ and $x - y - 3 = 0$.
+  //318
++ Determine whether the origin lies inside or outside the triangle whose saides are given by the equation
+  $7x - 5y - 11 = 0, 8x + 3y + 31 = 0$, and $x + 8y - 19 = 0$.
+  //319
++ Sides of a square lie on the line $5x - 12y - 65 = 0$ and $5x - 12y + 26 = 0$. Find the area of the
+  square.
+  //320
++ The equation of two sides of a square are $3x + 4y - 5 = 0$ and $3x + 4y - 15 = 0$. The third side has a
+  point $(6, 5)$ on it. Find the equations of this and the remaining side of the square.
+  //321
++ The equation of one side of rectangle is $3x - 4y - 10 = 0$ and the coordinates of two of its vertices are
+  $(2-, 1)$ and $(2, 4)$. Find the area of rectangle and the equation of that diagonal of the rectangle
+  which passes through the point $(2, 4)$.
+  //322
++ Prove that the lines $a x plus.minus b y plus.minus c = 0$ enclose a rhombus whose area is $(2x^2)/(|a
+  b|)$.
+  //323
++ If $p, q, r$ be the lengths of perpendiculars from the vertices $A, B, C$ respectively of the $triangle A
+  B C$ on any straight line, then prove that $a^2(p - q)(p - r) + b^2(q - r)(q - p) + c^2(r - p)(r - q) = 4
+  Delta^2$, where $Delta$ is the area of the triangle and $a, b, c$ length of the sides opposite to angles
+  $A, B, C$ respectively.
+  //324
++ Prove that no line can be drawn through the point $(4, -5)$ so that its distance from $(-2, 3)$ will be
+  equal to $12$.
+  //325
++ The vertices of $triangle O B C$ are $O(0, 0), B(-3, -1)$ and $C(-1, -3)$. Find the equation of the line
+  parallel of $B C$ and intersecting with $O B$ and $O C$, whose perpendiculars distance from $O$ is $1/2$.
+  //326
++ The point $(1, -1)$ is the center of a square, one of whose sides lies on the line $x - 2y + 12 = 0$. Find
+  the equation of the straight lines which contain the remaining sides of the square.
+  //327
++ The equation of two sides of a parallelogram are $3x - 2y + 12 = 0$ and $x - 3y + 11 = 0$ and the point
+  of intersection of its diagomals is $(2, 2)$. Find the equation of other two sides and its diagonals.
+  //328
++ Given three parallel lines $3x + 4y + 2 = 0, 3x + 4y + 5 = 0$ and $3x + 4y - 5 = 0$. Show that the first
+  of them lies between the other two. Also find the ratio in which the line divides the distance between the
+  other two.
+  //329
++ The three lines $x + 2y + 3 = 0, x + 2y - 7 = 0, 2x - y - 4 = 0$ form the three sides of two squares. Find
+  the equation of the fourth side of each square.
+  //330
++ Find the equation of the internal bisectors of the angled of the triangle whose sides are $3x + 4y = 6,
+  12x - 5y = 3$ and $4x - 3y + 12 = 0$.
+  //331
++ Find the incenter of the triangle whose sides are $3x + 4y - 12 = 0, 5x + 12y - 20 = 0$ and $24y - 7x - 22
+  = 0$.
+  //332
++ Show that the reflection of the line $p x + q y + r = 0$ in the line $x + y + 1 = 0$ is the line $q x + p
+  y + (p + q - r) = 0$, where $p eq.not -q$.
+  //333
++ A man at the corssing of two roads $x - 2y - 4 = 0$ and $2x - y - 4 = 0$ starts walking along the bisector
+  of the acute angle between the roads and after covering a distance of $2$ km reaches the bank of a
+  straight river at right angle to its path. Find the equation of the bank and the coordinates of the point
+  where the path meets the bank.
+  //334
++ A rhombus has two of its sides parallel to the lines $y = 2x + 3$ and $y = 7x + 2$. If the diagonals cut
+  at $(1, 2)$ and one vertex is on the $y$-axis find the possible coordinates of that vertex.
+  //335
++ A straight line segment of length $l$ moves with its end on two mutually perpendicular lines. Find the
+  locus of the poitn which divides the segment in the ratio $1:2$.
+  //336
++ Find the locus of the middle point of the potion of the line $x cos alpha + y sin alpha = p$ which is
+  intercepted between the axes given that $p$ remains constant.
+  //337
++ A variable straight line, drawn through the point of intersection of the straight line $x/a + y/b = 1$ and
+  $x/b + y/a = 1$, meets the axes at $A$ and $B$. Show that the locus of the mid-point of $A B$ is the curve
+  $2x y(a + b) = a b(x + y)$.
+  //338
++ If the line $x/a + y/b = 1$ moves in such a way that $1/a^2 + 1/b^2 = 1/c^2$, where $c$ is constant, prove
+  that the foot of perpendicular from the origin on the straight line described the circle $x^2 + y^2 =
+  c^2$.
+  //339
++ A straight line passes through a fixed point $(h, k)$; find the locus of the foot of the perpendicular on
+  it drawn from the origin.
+  //340
++ $O X$ and $O Y$ are two straight lines at right angles to one another. On $O Y$ a fixed point $A$ is taken
+  and on $O X$ any point $B$. On $A B$ an equilateral triangle is described, its vertex $C$ being on the
+  side $A B$ away from $O$. Show that the locus of the triangle is a straight line.

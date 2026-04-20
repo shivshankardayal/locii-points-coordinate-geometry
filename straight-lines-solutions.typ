@@ -4253,17 +4253,526 @@
 
   After simplification this becomes $5(x + y - 3) = plus.minus(7x - y + 5)$
 
-First result
-$5x + 5y - 15 = 7x - y + 5$
-$-2x + 6y - 20 = 0$
-$x - 3y + 10 = 0$
+  First result $5x + 5y - 15 = 7x - y + 5 => x - 3y + 10 = 0$
 
-Second result
-$5x + 5y - 15 = -7x + y - 5$
-$12x + 4y - 10 = 0$
-$6x + 2y - 5 = 0$
+  Second result $5x + 5y - 15 = -7x + y - 5 => 6x + 2y - 5 = 0$
+  //315
++ $(3x+4y-11)/sqrt(3^2+4^2)= plus.minus (12x-5y-2)/sqrt(12^2+(-5)^2)$.
 
-The bisectors are
-$x - 3y + 10 = 0$ and $6x + 2y - 5 = 0$
+  This simplifies to $(3x+4y-11)/5=plus.minus (12x-5y-2)/13$.
 
-The acute angle bisector is $x - 3y + 10 = 0$
+  Taking the negative sign gives $13(3x+4y-11)=-5(12x-5y-2) => 11x+3y-17=0$.
+
+  The slopes of the given lines are $-3/4$ and $12/5$, which form an obtuse angle. Therefore, the bisector
+  corresponding to the negative sign represents the acute angle.
+
+  Hence, the bisector of the acute angle is $11x+3y=17$.
+  //316
++ $(x-2y+4)/sqrt(5)=plus.minus(4x-3y+2)/5$.
+
+  Taking the positive case gives $5(x-2y+4)=sqrt(5)(4x-3y+2)$.
+
+  Taking the negative case givesv $5(x-2y+4)=-sqrt(5)(4x-3y+2)$.
+
+  The slopes of the given lines are $1/2$ and $4/3$, which form an acute angle. Therefore, the obtuse angle is
+  the supplementary angle, and its bisector corresponds to the negative case.
+
+  Hence, the equation of the bisector of the obtuse angle is
+
+  $5(x-2y+4)=-sqrt(5)(4x-3y+2)$.
+  //317
++ The given lines are $x + y - 2 = 0$ and $x - y - 3 = 0$.
+
+  These two lines divide the plane into four compartments depending on the signs of $x + y - 2$ and $x - y - 3$.
+
+  Evaluating both expressions at each point.
+
+  For $(1, 0)$: $x + y - 2 = 1 + 0 - 2 = -1 < 0$ and $x - y - 3 = 1 - 0 - 3 = -2 < 0$.
+
+  For $(2, 3)$: $x + y - 2 = 2 + 3 - 2 = 3 > 0$ and $x - y - 3 = 2 - 3 - 3 = -4 < 0$.
+
+  For $(1, -4)$: $x + y - 2 = 1 - 4 - 2 = -5 < 0$ and $x - y - 3 = 1 - (-4) - 3 = 2 > 0$.
+
+  For $(8, 1)$: $x + y - 2 = 8 + 1 - 2 = 7 > 0$ and $x - y - 3 = 8 - 1 - 3 = 4 > 0$.
+
+  Each point gives a distinct sign combination for $(x + y - 2, x - y - 3)$.
+
+  Thus, the four points lie in four different compartments formed by the given lines.
+ //318
++ For $7x - 5y - 11 = 0$: $7(0) - 5(0) - 11 = -11 < 0$.
+
+  For $8x + 3y + 31 = 0$: $8(0) + 3(0) + 31 = 31 > 0$.
+
+  For $x + 8y - 19 = 0$: $0 + 8(0) - 19 = -19 < 0$.
+
+  Thus, the origin lies on the negative side of the first line, the positive side of the second line, and
+  the negative side of the third line.
+
+  Now consider a point clearly inside the triangle. Solving any two equations gives a vertex; testing a
+  point between the vertices shows that the interior region corresponds to the same sign pattern $(-, +,
+  -)$.
+
+  Since the origin produces this same pattern, it lies inside the triangle.
+
+  Hence, the origin lies inside the triangle.
+  //319
++ These lines are parallel and represent two opposite sides of the square.
+
+  The length of the side of the square is equal to the perpendicular distance between the two lines.
+
+  Thus, the distance between the lines is
+
+  $(|-65 - 26|) / sqrt(5^2 + (-12)^2) = (91) / sqrt(25 + 144) = (91) / (13) = 7$.
+
+  So, the side of the square is $7$. Hence, the area of the square is $7^2 = 49$.
+  //320
++ The given sides of the square are $3x + 4y - 5 = 0$ and $3x + 4y - 15 = 0$.
+
+  These two lines are parallel, so they represent opposite sides of the square.
+
+  So the side length is
+
+  $(|-5 - (-15)|) / sqrt(3^2 + 4^2) = 10 / sqrt(9 + 16) = 2$.
+
+  Since the third side passes through $(6, 5)$ and is perpendicular to the given sides, its equation has the
+  form $4x - 3y + c = 0$.
+
+  Substituting $(6, 5)$ gives $4(6) - 3(5) + c = 0 => c = -9$.
+
+  So one side of the square is $4x - 3y - 9 = 0$.
+
+  The opposite side is parallel to it and is at a distance equal to the side length $2$.
+
+  So the parallel line is $4x - 3y + k = 0$.
+
+  Using distance formula between $4x - 3y - 9 = 0$ and $4x - 3y + k = 0$,
+
+  $(|k + 9|) / sqrt(4^2 + (-3)^2) = 2$. Thus $k = 1$ or $k = -19$.
+
+  Since $(6, 5)$ lies on one side, the opposite side is $4x - 3y + 1 = 0$.
+
+  Hence, the equations of the remaining two sides are
+
+  $4x - 3y - 9 = 0$ and $4x - 3y + 1 = 0$.
+  //321
++ The given side of the rectangle is $3x - 4y - 10 = 0$, and two vertices are $(2, 1)$ and $(2, 4)$.
+
+  First, observe that the line joining $(2, 1)$ and $(2, 4)$ is $x = 2$, since both points have the same
+  x-coordinate.
+
+  So one side of the rectangle lies on $x = 2$.
+
+  Now find the distance between the parallel sides $x = 2$ and the given line $3x - 4y - 10 = 0$.
+
+  Taking any point on $x = 2$, for example $(2, 1)$, the distance is
+
+  $(|3(2) - 4(1) - 10|) / sqrt(3^2 + (-4)^2) = 8 / 5$.
+
+  So the height of the rectangle is $8/5$.
+
+  The length of the rectangle is the distance between $(2, 1)$ and $(2, 4)$: $sqrt((2 - 2)^2 + (4 - 1)^2) = 3$.
+
+  Hence, the area of the rectangle is $3 times 8/5 = 24/5$.
+
+  One diagonal joins $(2, 4)$ to the opposite vertex. The opposite side to $x = 2$ is parallel to it, so the
+  opposite vertical line is $x = 2 + 8/5 = 18/5$ or $x = 2 - 8/5 = 2/5$.
+
+  Since $(2, 1)$ lies on one side, the opposite vertex to $(2, 4)$ is $(18/5, 1)$.
+
+  Now find the equation of the diagonal through $(2, 4)$ and $(18/5, 1)$.
+
+  Slope is $(1 - 4) / (18/5 - 2) = -3 / (8/5) = -(15)/8$.
+
+  Equation is $y - 4 = -15/8 (x - 2) => 15x + 8y - 62 = 0$.
+
+  Hence, the area of the rectangle is $24/5$ and the required diagonal is $15x + 8y - 62 = 0$.
+  //322
++ The four lines are $a x + b y + c = 0$, $a x + b y - c = 0$, $a x - b y + c = 0$, and $a x - b y - c = 0$.
+
+  Opposite sides are parallel since each pair differs only in the constant term. Hence the figure formed is
+  a parallelogram.
+
+  Intersect $a x + b y + c = 0$ and $a x - b y + c = 0$.
+
+  We get $a x + b y = -c$ and $a x - b y = -c$.
+
+  Adding gives $2a x = -2c$, so $x = -c/a$. Substituting gives $y = 0$. Thus one vertex is $(-c/a, 0)$.
+
+  Similarly, other vertices are $(c/a, 0)$, $(0, c/b)$, and $(0, -c/b)$.
+
+  The diagonals are the lines joining opposite vertices, so they lie along the coordinate axes.
+
+  Hence the diagonals are perpendicular, so the parallelogram is a rhombus.
+
+  Diagonal 1 has length $|c/a - (-c/a)| = (2|c|)/(|a|)$.
+
+  Diagonal 2 has length $|c/b - (-c/b)| = (2|c|)/(|b|)$.
+
+  Area of a rhombus is $(1/2) times ("product of diagonals")$.
+
+  So area is $1/2 times (2|c|)/(|a|) times (2|c|)/(|b|)$.
+
+  This simplifies to $(2c^2)/(|a b|)$.
+  //323
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        set-style(stroke: 0.5pt)
+
+        line((0, 0), (5, 0), mark: (end: ">"), fill: black)
+        line((0, 0), (0, 4), mark: (end: ">"), fill: black)
+
+        let A = (1, 3)
+        let B = (4, 1)
+        let C = (3, 3.5)
+
+        //line((0, 0.5), (5, 0.5), stroke: gray + 1pt)
+
+        line(A, B)
+        line(B, C)
+        line(C, A)
+
+        content(A, "A", anchor: "east", padding: 0.2)
+        content(B, "B", anchor: "north-west", padding: 0.2)
+        content(C, "C", anchor: "south", padding: 0.2)
+
+        line(A, (A.at(0), 0), stroke: (dash: "dashed"))
+        line(B, (B.at(0), 0), stroke: (dash: "dashed"))
+        line(C, (C.at(0), 0), stroke: (dash: "dashed"))
+    })
+  )
+
+  We choose a coordinate system such that the given straight line is the $x$-axis. Then $p, q, r$ become the
+  signed $y$-coordinates of $A, B, C$. So we write $A(x_1, p)$, $B(x_2, q)$, and $C(x_3, r)$.
+
+  Now we use the formula for the square of the area of a triangle in coordinate form:
+  $4Delta^2 = (x_1(q - r) + x_2(r - p) + x_3(p - q))^2 + (p(q - r) + q(r - p) + r(p - q))^2$.
+
+  The second bracket simplifies as follows: $p(q - r) + q(r - p) + r(p - q) = 0$.
+
+  So we get $4Delta^2 = (x_1(q - r) + x_2(r - p) + x_3(p - q))^2$.
+
+  Now consider the squared side lengths using distance formula:
+
+  $a^2 = (x_2 - x_3)^2 + (q - r)^2$, $b^2 = (x_3 - x_1)^2 + (r - p)^2$, $c^2 = (x_1 - x_2)^2 + (p - q)^2$.
+
+  Now we expand the required expression:
+
+  $a^2(p - q)(p - r) + b^2(q - r)(q - p) + c^2(r - p)(r - q)$.
+
+  Substitute $a^2, b^2, c^2$: $[(x_2 - x_3)^2 + (q - r)^2](p - q)(p - r) + [(x_3 - x_1)^2 + (r - p)^2](q -
+  r)(q - p)+ [(x_1 - x_2)^2 + (p - q)^2](r - p)(r - q)$.
+
+  We separate terms into two groups: those involving $x_i$ and those involving only $p, q, r$.
+
+  The pure $p, q, r$ part simplifies to zero due to the identity
+  $(p - q)(p - r) + (q - r)(q - p) + (r - p)(r - q) = 0$.
+
+  So the expression reduces to $(x_2 - x_3)^2(p - q)(p - r) + (x_3 - x_1)^2(q - r)(q - p) + (x_1 - x_2)^2(r
+  - p)(r - q)$.
+
+  Now expand and regroup in terms of $x_1, x_2, x_3$: This becomes $(x_1(q - r) + x_2(r - p) + x_3(p - q))^2$.
+
+  But earlier we showed that $(x_1(q - r) + x_2(r - p) + x_3(p - q))^2 = 4Delta^2$.
+
+  Hence, $a^2(p - q)(p - r) + b^2(q - r)(q - p) + c^2(r - p)(r - q) = 4Delta^2$.
+  //324
++ Let the required line pass through $(4, -5)$ with slope $m$. Then its equation is $y + 5 = m(x - 4)$,
+  which gives $m x - y - 4m - 5 = 0$.
+
+  The distance of the point $(-2, 3)$ from this line is $(|m(-2) - 3 - 4m - 5|) / sqrt(m^2 + 1) = (|6m + 8|) / sqrt(m^2 + 1)$.
+
+  Given that this distance equals $12$, we write $|6m + 8| / sqrt(m^2 + 1) = 12$.
+
+  Squaring both sides gives $(6m + 8)^2 = 144(m^2 + 1) => 27m^2 - 24m + 20 = 0$.
+
+  The discriminant is $D = (-24)^2 - 4 times 27 times 20 = 576 - 2160 = -1584$.
+
+  Since $D < 0$, there is no real solution for $m$. Hence, no line passing through $(4, -5)$ can have
+  distance $12$ from $(-2, 3)$.
+  //325
++ Slope of $B C$ is $(-3 - (-1)) / (-1 - (-3)) = (-2) / 2 = -1$.
+
+  So equation of $B C$ is $y + 1 = -1(x + 3) => x + y + 4 = 0$.
+
+  A line parallel to $B C$ has the form $x + y + k = 0$.
+
+  The perpendicular distance from origin $(0, 0)$ to this line is $(|k|) / sqrt(1^2 + 1^2) = (|k|) / sqrt(2)$.
+
+  Given this distance is $1/2$, we write $(|k|) / sqrt(2) = 1/2$.
+
+  So $|k| = sqrt(2) / 2$, hence $k = plus.minus sqrt(2) / 2$.
+
+  Thus the required line is $x + y + sqrt(2)/2 = 0$ or $x + y - sqrt(2)/2 = 0$.
+
+  Now check which line intersects segments $O B$ and $O C$.
+
+  Line $O B$: slope is $(-1 - 0)/(-3 - 0) = 1/3$, so equation is $y = (1/3)x$.
+
+  Line $O C$: slope is $(-3 - 0)/(-1 - 0) = 3$, so equation is $y = 3x$.
+
+  On $O B$, substitute $y = x/3$: $x + x/3 + sqrt(2)/2 = 0$ gives a negative intersection point for $x$, so
+  it lies on segment $O B$.
+
+  On $O C$, substitute $y = 3x$: $x + 3x + sqrt(2)/2 = 0$ gives another valid intersection point on segment
+  $O C$.
+
+  Thus the required line is $x + y + sqrt(2)/2 = 0$.
+  //326
++ The center of the square is $C(1, -1)$ and one side is $x - 2y + 12 = 0$.
+
+  Distance from $C$ to this line is $(|1 - 2(-1) + 12|) / sqrt(1^2 + (-2)^2) = (15) / sqrt(5) = 3 sqrt(5)$.
+
+  So the side length of the square is $2 times 3 sqrt(5) = 6 sqrt(5)$.
+
+  The opposite side is parallel to the given line, so it is $x - 2y + k = 0$.
+
+  Distance between parallel sides equals $6 sqrt(5)$, so $(|k - 12|) / sqrt(5) = 6 sqrt(5)$, giving $|k - 12| = 30$.
+
+  Thus $k = 42$ or $k = -18$, so opposite sides are $x - 2y + 42 = 0$ and $x - 2y - 18 = 0$.
+
+  Now the other two sides are perpendicular to these, so have form $2x + y + c = 0$.
+
+  Distance from center gives $(|2(1) - 1 + c|) / sqrt(5) = 3 sqrt(5)$, so $|1 + c| = 15$.
+
+  Thus $c = 14$ or $c = -16$. Hence the remaining sides are $2x + y + 14 = 0$ and $2x + y - 16 = 0$.
+  //327
++ The given sides are $3x - 2y + 12 = 0$ and $x - 3y + 11 = 0$, and the diagonals intersect at $(2, 2)$,
+  which is the center of the parallelogram.
+
+  Opposite sides are parallel to the given ones.
+
+  For $3x - 2y + k = 0$, using distance from $(2, 2)$: $|3(2) - 2(2) + k| / sqrt(13) = (|2 + k|) / sqrt(13)$.
+
+  This equals the distance to $3x - 2y + 12 = 0$, so $(|2 + k|) = 14$, giving $k = 12$ or $k = -16$.
+
+  Hence other side is $3x - 2y - 16 = 0$.
+
+  For $x - 3y + k = 0$: $(|2 - 6 + k|) / sqrt(10) = (|k - 4|) / sqrt(10)$.
+
+  This equals the distance to $x - 3y + 11 = 0$, so $|k - 4| = 7$, giving $k = 11$ or $k = -3$.
+
+  Hence other side is $x - 3y - 3 = 0$.
+
+  Intersect $3x - 2y + 12 = 0$ and $x - 3y - 3 = 0$ gives $(-6, -3)$. Diagonal through $(2, 2)$ and $(-6, -3)$ is
+  $5x - 8y - 6 = 0$.
+
+  Intersect $3x - 2y - 16 = 0$ and $x - 3y + 11 = 0$ gives $(10, 7)$. Diagonal through $(2, 2)$ and $(10,
+  7)$ is $5x - 8y + 6 = 0$.
+
+  Hence other sides are $3x - 2y - 16 = 0$, $x - 3y - 3 = 0$, and diagonals are $5x - 8y - 6 = 0$, $5x - 8y
+  + 6 = 0$.
+  //328
++ The given parallel lines are $3x + 4y + 2 = 0$, $3x + 4y + 5 = 0$, and $3x + 4y - 5 = 0$.
+
+  Since all have the same $3x + 4y$ part, their relative positions depend only on constants $2, 5,$ and $-5$.
+
+  Clearly $-5 < 2 < 5$, so the line $3x + 4y + 2 = 0$ lies between $3x + 4y + 5 = 0$ and $3x + 4y - 5 = 0$.
+
+  Now find the ratio in which it divides the distance between the other two lines.
+
+  So total distance between $3x + 4y + 5 = 0$ and $3x + 4y - 5 = 0$ is proportional to $|5 - (-5)| = 10$.
+
+  Distance from $3x + 4y + 2 = 0$ to $3x + 4y + 5 = 0$ is proportional to $|5 - 2| = 3$.
+
+  Distance from $3x + 4y + 2 = 0$ to $3x + 4y - 5 = 0$ is proportional to $|2 - (-5)| = 7$.
+
+  Hence the required ratio is $3 : 7$.
+
+  Therefore, the line $3x + 4y + 2 = 0$ lies between the other two and divides their distance in the ratio
+  $3 : 7$.
+  //329
++ The given lines are $x + 2y + 3 = 0$, $x + 2y - 7 = 0$, and $2x - y - 4 = 0$.
+
+  The first two lines are parallel, so they form one pair of opposite sides of a square.
+
+  Their distance is the side length: $|3 - (-7)| / sqrt(1^2 + 2^2) = 10 / sqrt(5) = 2 sqrt(5)$.
+
+  Now the other pair of sides is parallel to $2x - y - 4 = 0$, so write $2x - y + k = 0$.
+
+  Distance between parallel sides is $2 sqrt(5)$: $(|k + 4|) / sqrt(2^2 + (-1)^2) = 2 sqrt(5)$,
+  so $(|k + 4|) / sqrt(5) = 2 sqrt(5)$, hence $|k + 4| = 10$.
+
+  Thus $k = 6$ or $k = -14$.
+
+  Therefore, the fourth sides are $2x - y + 6 = 0$ or $2x - y - 14 = 0$.
+  //330
++ The sides of the triangle are $3x + 4y - 6 = 0$, $12x - 5y - 3 = 0$, and $4x - 3y + 12 = 0$.
+
+  Between $3x + 4y - 6 = 0$ and $12x - 5y - 3 = 0$: $(3x + 4y - 6)/5 = (12x - 5y - 3)/13$,
+  giving $13(3x + 4y - 6) = 5(12x - 5y - 3)$, which simplifies to $9x - 77y + 63 = 0$.
+
+  Between $12x - 5y - 3 = 0$ and $4x - 3y + 12 = 0$: $(12x - 5y - 3)/13 = (4x - 3y + 12)/5$,
+  giving $5(12x - 5y - 3) = 13(4x - 3y + 12)$, which simplifies to $8x + 19y - 171 = 0$.
+
+  Between $4x - 3y + 12 = 0$ and $3x + 4y - 6 = 0$: $(4x - 3y + 12)/5 = (3x + 4y - 6)/5$,
+  giving $4x - 3y + 12 = 3x + 4y - 6$, which simplifies to $x - 7y + 18 = 0$.
+
+  Hence the internal bisectors of the triangle are
+  $9x - 77y + 63 = 0$, $8x + 19y - 171 = 0$, and $x - 7y + 18 = 0$.
+  //331
++ From $3x + 4y = 12$ and $5x + 12y = 20$, we get $A = (4, 0)$.
+
+  From $3x + 4y = 12$ and $-7x + 24y = 22$, we get $B = (2, 3/2)$.
+
+  From $5x + 12y = 20$ and $-7x + 24y = 22$, we get $C = (18/17, 125/102)$.
+
+  Now the side lengths are computed:
+
+  $A B = 5/2$, $B C = 50/51$, $C A = 325/102$.
+
+  The incenter is given by $I = (a A + b B + c C) / (a + b + c)$ where $a = B C$, $b = C A$, $c = A B$.
+
+  So $a = 50/51$, $b = 325/102$, $c = 5/2$ and $a + b + c = 340/51$.
+
+  $x = (a * 4 + b * 2 + c * 18/17) / (340/51)$. This simplifies to $x = 33/17$.
+
+  $y = (a * 0 + b * 3/2 + c * 125/102) / (340/51)$. This simplifies to $y = 20/17$.
+  //332
++ Let a point $(x, y)$ reflect to $(X, Y)$ in the line $x + y + 1 = 0$.
+
+  For reflection in $a x + b y + c = 0$, the formula gives
+
+  $X = x - 2a(a x + b y + c)/(a^2 + b^2)$ and $Y = y - 2b(a x + b y + c)/(a^2 + b^2)$.
+
+  Here $a = 1$, $b = 1$, $c = 1$, so $a^2 + b^2 = 2$.
+
+  Thus $X = x - (x + y + 1) = -y - 1$ and $Y = y - (x + y + 1) = -x - 1$
+
+  So the transformation is $x = -Y - 1$, $y = -X - 1$.
+
+  Now the given line is $p x + q y + r = 0$.
+
+  Substitute: $p(-Y - 1) + q(-X - 1) + r = 0 => q X + p Y + (p + q - r) = 0$
+
+  Hence the reflection of the line is $q x + p y + (p + q - r) = 0$.
+  //333
++ The roads are $x - 2y - 4 = 0$ and $2x - y - 4 = 0$.
+
+  Their intersection point is found from $x - 2y = 4$ and $2x - y = 4$, giving $P = (4, 0)$.
+
+  The direction of the angle bisector is obtained from normals $(1, -2)$ and $(2, -1)$, giving $(3, -3)$,
+  hence direction $(1, -1)$.
+
+  So the bisector through $P$ is $x + y - 4 = 0$.
+
+  A direction vector is $(1, -1)$ with magnitude $sqrt(2)$, so unit vector is $(1/sqrt(2), -1/sqrt(2))$.
+
+  After moving $2$ km, the displacement is $(sqrt(2), -sqrt(2))$, so the point reached is $Q = (4 + sqrt(2),
+  -sqrt(2))$.
+
+  The river bank is perpendicular to the path, so its direction is $(1, 1)$.
+
+  Through $Q$, its equation is $x - y - 4 - 2sqrt(2) = 0$.
+
+  Thus, the river bank is $x - y - 4 - 2sqrt(2) = 0$ and the point of contact is $(4 + sqrt(2), -sqrt(2))$.
+  //334
++ The sides of the rhombus are parallel to $y = 2x + 3$ and $y = 7x + 2$, so their slopes are $2$ and $7$.
+
+  Hence adjacent sides have slopes $2$ and $7$, and the diagonals are along the angle bisectors of these
+  directions.
+
+  The diagonals intersect at $(1, 2)$, which is the midpoint of both diagonals.
+
+  So if a vertex is $A = (0, y)$ (since it lies on the y-axis), its opposite vertex $C$ satisfies midpoint
+  condition:
+
+  $(0 + x_C)/2 = 1$ and $(y + y_C)/2 = 2$. So $x_C = 2$ and $y_C = 4 - y$.
+
+  Thus $C = (2, 4 - y)$. Now slopes of sides must match $2$ and $7$.
+
+  Take adjacent vertex $B$ from $A$ such that $A B$ has slope $2$ or $7$.
+
+  *Case I:* slope of $A B = 2$ $(y_B - y)/(x_B - 0) = 2$
+
+  Since rhombus is symmetric about diagonals, solving consistently gives: $y = 1$
+
+  *Case II:* slope of $A B = 7$ Similarly gives: $y = 3$
+
+  So possible vertices on y-axis are: $(0, 1)$ and $(0, 3)$.
+  //335
++ Let two mutually perpendicular lines be $O X$ and $O Y$. $A B$ be the variable line segment of constant
+  length $l$ whose ends $A$ and $B$ move on the lines $O X$ and $O Y$ respectively.
+
+  Let $O A = a$ and $O B = b$ then $A equiv (a, 0)$ and $B equiv (0, b)$.
+
+  Let $P$ divide the line segment in the ratio of $1:2$. Let $P equiv (alpha, beta)$, then
+
+  $alpha = (2a)/3$ and $beta = b/3$. Also, $l^2 = O A^2 + O B^2 => a^2 + b^2 = l^2$
+
+  $9alpha^2 + 36beta^2 = 4l^2$. Thus, locus of $P$ is $9x^2 + 36y^2 = 4l^2$.
+  //336
++ Let the line cut the axes at $A = (p sec alpha, 0)$ and $B = (0, p csc alpha)$. Let $P(h, k)$ be the
+  middle point then $h = p/2 sec alpha, k = p/2 csc alpha$.
+
+  Thus, $cos alpha = p/(2h)$ and $sin alpha = p/(2k)$
+
+  $cos^2alpha + sin^2alpha = p^2/(4h^2) + p^2/(4k^2) => 1/h^2 + 1/k^2 = 4/p^2$
+
+  Hence, lcosu of the point $P$ is $1/x^2 + 1/y^2 = 4/p^2$.
++ The point of intersection of the given lines is given by $((a b)/(a + b), (a b)/(a + b))$.
+
+  Equation of line passing through this point is given by $y - (a b)/(a + b) = m(x - (a b)/(a + b))$.
+
+  $=> A = ((a b(m - 1))/(m(a + b)), 0)$ and $B = (0, (a b(1 - m))/(a + b))$.
+
+  Let $P(alpha, beta)$ be the mid-point of $A B$. We have to find its locus i.e. eliminate $m$.
+
+  $alpha = -(a b(1 - m))/(2 m(a + b))$ and $beta = (a b(1 - m))/(2(a + b))$.
+
+  $alpha/beta = -1/m => m = -beta/alpha => 2 alpha beta(a + b) = a b(alpha + beta) => 2x y(a + b) = a b(x +
+  y)$.
+  //338
++ Equation of any line perpendicular to the given equation passing through the origin is given by $x/b - y/b
+  = 0$
+
+  Let foot of the perpendicular from the origin to the given line is intersection of the two lines. Let it
+  be $P(alpha, beta)$, then
+
+  $alpha/a + beta/b = 1$ and $alpha/a - beta/b = 0$
+
+  Squaring and adding $alpha^2(1/a^2 + 1/b^2) + beta^2(1/b^2 + 1/a^2) = 1 => 1/a^2 + 1/b^2 = 1/c^2$.
+
+  Here $c$ is a constant and $a, b$ are parameters $=> (alpha^2 + beta^2).1/c^2 = 1$.
+
+  Hence, the locus of $P(alpha, beta)$ is $x^2 + y^2 = c^2$.
+  //339
++ Equation of a straight line passing through $(h, k)$ is $y - k = m(x - h)$.
+
+  Equation of the straight line perpendicular to the above line passing through origin is $y = -1/m x$.
+
+  Let $P(alpha, beta)$ be the foot of the perpendicular from the origin to first line. Clearly, $P(alpha,
+  beta)$ will be point of intersection of the two lines. Since $P$ lies on both the lines, therefore,
+
+  $beta - k = m(alpha - x)$ and $beta = -1/m alpha => m = -alpha/beta => y - k = -x/y (x - h) => x^2 + y^2 = h
+  x + k y$.
+  //340
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+        set-style(stroke: 0.5pt)
+        // axes
+        line((0,0), (6,0), mark: (end: ">"), fill:black)
+        line((0,0), (0,6), mark: (end: ">"), fill:black)
+
+        let A = (0,4)
+        let B = (5,0)
+
+        let C = (1, 3 + fsqrt(3))
+
+        // triangle
+        line(A, B, stroke: blue)
+        line(B, C, stroke: blue)
+        line(C, A, stroke: blue)
+
+        // locus
+        line((0,3), (2, 3 + fsqrt(3)*2), stroke: red)
+
+        // labels using content[]
+        content((0,0), [$O$], anchor: "north-east", padding: 0.1)
+        content(A, [$A$], anchor: "east", padding: 0.1)
+        content(B, [$B$], anchor: "north", padding: 0.1)
+        content(C, [$C$], anchor: "south", padding: 0.1)
+    })
+  )
