@@ -4749,7 +4749,7 @@
   x + k y$.
   //340
 + #figure(
-    cetz.canvas({
+    cetz.canvas(length: 0.8cm, {
         import cetz.draw: *
         set-style(stroke: 0.5pt)
         // axes
@@ -4759,12 +4759,14 @@
         let A = (0,4)
         let B = (5,0)
 
-        let C = (1, 3 + fsqrt(3))
+        let C = (2, 3 + fsqrt(3)*2)
+        let L = (2, 0)
 
         // triangle
         line(A, B, stroke: blue)
         line(B, C, stroke: blue)
         line(C, A, stroke: blue)
+        line(C, L, stroke: (dash: "dashed"))
 
         // locus
         line((0,3), (2, 3 + fsqrt(3)*2), stroke: red)
@@ -4774,5 +4776,158 @@
         content(A, [$A$], anchor: "east", padding: 0.1)
         content(B, [$B$], anchor: "north", padding: 0.1)
         content(C, [$C$], anchor: "south", padding: 0.1)
+        content(L, [$L$], anchor: "north", padding: 0.1)
+        arc((4.4, 0), start:180deg, stop:120deg, radius: 3mm)
+        content((4.4, 0), [$theta$], anchor: "south-east", padding: 0.2)
+    })
+  )
+
+  Let $O A = c$, then $A = (0, c)$, where $c$ is a constant. Let $C = (alpha, beta)$, then $O L = alpha = O
+  B - B L = c cot theta - B C cos(theta + 60^degree)$
+
+  $= c cot theta - B C(cos theta cos 60^degree - sin theta sin 60^degree) = c cot theta - (A B)/2 cos theta
+  + (A B)/2 sqrt(3)sin theta$
+
+  $= c cot theta - 1/2 c csc theta cos theta + 1/2 c csc theta sin theta sqrt(3)$
+
+  $= c cot theta - c/2 cot theta + (sqrt(3)c)/2 = c/2(cot theta + sqrt(3))$
+
+  and $beta = C L = C B sin(theta + 60^degree) = A B(1/2 sin theta + cos theta sqrt(3)/2) = (c csc
+  theta)/2[sin theta + sqrt(3)cos theta]$
+
+  $= c/2 + (sqrt(3)c)/2 cot theta$
+
+  Thus, we get $beta = sqrt(3)alpha - c$
+
+  Thus, locus of $C$ is $y = sqrt(3)x - c$, which is a straight line.
+  //341
++ Let $P(x, y)$. $=> abs(y - 2x + 1) / sqrt(5) = sqrt(x^2 + y^2)$
+
+  $=> (y - 2x + 1)^2 = 5 (x^2 + y^2)$
+
+  $=> y^2 + 4x^2 + 1 - 4x y + 2y - 4x = 5x^2 + 5y^2$
+
+  $=> x^2 + 4y^2 + 4x y + 4x - 2y - 1 = 0$
+
+  For $y = 2x$: $25x^2 - 1 = 0$ $=> x = plus.minus 1/5$
+
+  Points: $Q(1/5, 2/5)$ and $R(-1/5, -2/5)$
+
+  Midpoint: $((1/5 - 1/5)/2, (2/5 - 2/5)/2) = (0, 0)$.
+  //342
++ Equation of any line through origin can be written as $y = m x$.
+
+  Solving it with the two equations we have $A = (2/(m + 2), (2m)/(m + 2))$ and $B = (2/(2m - 1), (2m)/(2m -
+  1))$.
+
+  Let the coordinate of the mid-point be $(alpha, beta)$. Then $alpha = (2m + 1)/((2m - 1)(m + 2))$ and
+  $beta = (m(3m + 1))/((2m - 1)(m + 2))$
+
+  $=> alpha/beta = 1/m => m = beta/alpha$
+
+  Thus, $alpha = ((3beta + alpha)alpha)/((2beta - alpha) + 2alpha)$
+
+  Thus, locus is $2x^2 - 3x y - 2y^2 + x + 3y = 0$.
+  //343
++ #figure(
+    cetz.canvas(length: 0.6cm, {
+        import cetz.draw: *
+        import cetz.angle: angle, right-angle
+        set-style(stroke: 0.5pt)
+        // axes
+        line((-4,0), (5,0), mark: (start: ">", end: ">"), fill:black)
+        line((0,0), (0,6), mark: (end: ">"), fill:black)
+
+        let A = (4, 0)
+        let B = (-3, 0)
+        let P = (4, 3)
+        let Q = (-3, 4)
+        let O = (0, 0)
+
+        line(B, Q)
+        line(Q, P)
+        line(A, P)
+        line(O, P)
+        line(O, Q)
+        let R = (0.5, 3.5)
+
+        line(O, R)
+
+        angle(O, A, P, radius: .5)
+        right-angle(O, P, Q, radius: .3)
+        angle(O, Q, B, radius: .5)
+        right-angle(R, O, P, radius: .3)
+
+        content(A, [$A$], anchor: "north", padding: 1mm)
+        content(B, [$B$], anchor: "north", padding: 1mm)
+        content(O, [$O$], anchor: "north", padding: 1mm)
+        content(P, [$P$], anchor: "south", padding: 1mm)
+        content(Q, [$Q$], anchor: "south", padding: 1mm)
+        content(R, [$R$], anchor: "south", padding: 1mm)
+        content((0.4, 0.05), [$theta$], anchor: "south-west", padding: 1mm)
+        content((-0.4, 0.05), [$90^degree-theta$], anchor: "south-east", padding: 1mm)
+    })
+  )
+
+  Take $A(h, 0)$ and $B(-h, 0)$.
+
+  Let $O(x_1, y_1)$ be a fixed point.
+
+  Let $P Q$ be a line through $P(a, b)$ and $Q(c, d)$ such that
+  $O P perp O Q$.
+
+  So:
+  $(a - x_1)(c - x_1) + (b - y_1)(d - y_1) = 0$
+
+  Equation of line $P Q$ is:
+  $(y - b) = m (x - a)$ where $m = (d - b)/(c - a)$.
+
+  Foot of perpendicular from $O(x_1, y_1)$ to $P Q$ is:
+  $R(x, y)$ satisfying:
+  $(x - x_1) + m (y - y_1) = 0$
+
+  Also $R$ lies on $P Q$, so:
+  $(y - b) = m (x - a)$
+
+  Eliminating $m$ gives:
+  $(x - x_1)(c - a) + (y - y_1)(d - b) = 0$
+
+  Using $O P perp O Q$ condition and simplifying yields:
+  $(x - h)(x + h) + y^2 = 0$
+
+  Hence:   $x^2 + y^2 = h^2$
+
+  This is a circle with center $(0, 0)$ and radius $h$.
+
+  Therefore the locus of $R$ is the circle with diameter $A B$.
+  //344
++ #figure(
+    cetz.canvas(length: 0.6cm, {
+        import cetz.draw: *
+        import cetz.angle: angle, right-angle
+        set-style(stroke: 0.5pt)
+        // axes
+        line((-4,0), (4,0), mark: (start: ">", end: ">"), fill:black)
+        line((0,0), (0,4), mark: (end: ">"), fill:black)
+
+        let P = (3, 0)
+        let Q = (-3, 0)
+        let O = (0, 0)
+        let R = (1, 3)
+        let M = (1, 0)
+
+        line(Q, R, P)
+        line(R, M)
+
+        content(P, [$P(a, 0)$], anchor: "north", padding: 1mm)
+        content(Q, [$Q(-a, 0)$], anchor: "north", padding: 1mm)
+        content(O, [$O$], anchor: "north", padding: 1mm)
+        content(M, [$M$], anchor: "north", padding: 1mm)
+        content(R, [$R$], anchor: "south", padding: 1mm)
+        content((4, 0), [$x$], anchor: "west", padding: 1mm)
+        content((0, 4), [$y$], anchor: "south", padding: 1mm)
+
+        angle(P, R, M, radius: 3mm)
+        angle(Q, M, R, radius: 3mm)
     })
   )

@@ -1842,3 +1842,17 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + $O X$ and $O Y$ are two straight lines at right angles to one another. On $O Y$ a fixed point $A$ is taken
   and on $O X$ any point $B$. On $A B$ an equilateral triangle is described, its vertex $C$ being on the
   side $A B$ away from $O$. Show that the locus of the triangle is a straight line.
+  //341
++ A point $P$ is such that its perpendicular distance from the line $y - 2x + 1 = 0$ is equal to its
+  distance from the origin. Find the equation of the locus of the point $P$. Prove that the line $y = 2x$
+  meets the locus in two points $Q$ and $R$ such that the origin is the mid-point of $Q R$.
+  //342
++ A line drawn through the origin intersect the lines $2x + y - 2 = 0$ and $x - 2y + 2 = 0$ in $A$ and
+  $B$. Find the locus of the mid-point of segment $A B$.
+  //343
++ $O$ is a fixed point and $A P$ and $B Q$ are two fixed parallel straight lines. $B O A$ is perpendicular
+  to both and $angle P O Q$ is a right angle. Prove that the locus of the foot of the perpendicular from $O$
+  on $P Q$ is a circle, whose diameter is $A B$.
+  //344
++ Two fixed points $P$ and $Q$ are given. $R$ is a variable point on one side of the line $P Q$ such that
+  $angle R P Q - angle R Q P$ is a positive constant $2alpha$. Find the locus of point $R$.
