@@ -41,9 +41,9 @@
         Early Draft[#datetime.today().display("[month repr:long] [day], [year]")]
 
         #set text(fill: black)
-        Copyleft $copyleft$ 2025 FSF.
+        Copyleft $copyleft$ 2025 Shiv Shankar Dayal.
 
-        Licensed under the GNU FDLv2 (the “License”). All rights reserved.
+        Licensed under the GNU FDLv3 (the “License”). All rights reserved.
 
         Permission is granted to copy, distribute and/or modify this document under the
         terms of the GNU Free Documentation License, Version 1.3 or any later version
