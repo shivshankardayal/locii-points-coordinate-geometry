@@ -96,6 +96,7 @@
 #include "coordinates-solutions.typ"
 #include "locus-solutions.typ"
 #include "straight-lines-solutions.typ"
+#include "pair-straight-lines-solutions.typ"
 
 #show: appendices.with("Appendices", hide-parent: false)
 #include "fdl-1.3.typ"
