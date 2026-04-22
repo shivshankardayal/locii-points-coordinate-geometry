@@ -1932,3 +1932,17 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
 + $Q$ is any point on the line $x = a$. If $A$ is the fixed point $(a, 0)$ and $Q R$, the bisector of the
   angle $O Q A$, meets the $x$-axis in $R$, find the locus of the foot of the perpendicular from $R$ to $O
   Q$.
+  //367
++ A right-angled $triangle A B C$ having a right angle at $C, C A = b$ and $C B = a$ moves such that the
+  angular points $A$ and $B$ slide along $x$-axis and $y$-axis respectively. Find the locus of $C$.
+  //368
++ Show that the locus of a point which moves such that the square of its distance from the base of an
+  isosceles triangle is equal to the rectangle under its distance from the other sides, is a circle.
+  //369
++ A variable straight line is drawn through a given point $O$ to cut two fixed straight lines in $R$ and
+  $S$; on it is taken a point $P$ such that $2/(O P) = 1/(O R) + 1/(O S)$, show that the locus of $P$ is a
+  third fixed straight line.
+  //370
++ If $p, x_1, x_2, dots, x_i, dots$ and $q, y_1, y_2, dots, y_i, dots$ from two infinite arithmetic
+  sequences with common difference $a$ and $b$ respectively then find the locus of the point $(alpha, beta)$
+  where $display(alpha = 1/n sum_{i = 1}^n x_i)$ and $display(beta = 1/n sum_{i = 1}^n y_i)$.

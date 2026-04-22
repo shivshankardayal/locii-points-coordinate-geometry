@@ -5446,3 +5446,104 @@
   Again $R P perp Q Q => frac(beta, a - frac(a sqrt(a^2 + k^2), sqrt(a^2 + k^2) + k)). k/a = -1$
 
   Putting the value of $k$ we get locus as $(a x - x^2 - y^2)^2(a^2y^2 + x^2) = a^2y^2(x^2 + y^2)^2$.
+  //367
++ #figure(
+    cetz.canvas(length: 0.8cm, {
+        import cetz.draw: *
+        import cetz.angle: angle, right-angle
+        set-style(stroke: 0.5pt)
+        // axes
+        line((0,0), (4,0), mark: (end: ">"), fill:black)
+        line((0,0), (0,4), mark: (end: ">"), fill:black)
+
+        let A = (2, 0);
+        let B = (0, 3);
+        let C = (2, 3);
+        line(A, B, C, close: true)
+
+        content((0, 0), [$O$], anchor: "north-east", padding: 1mm)
+        content(A, [$A(a, 0)$], anchor: "north", padding: 1mm)
+        content(B, [$B(0, b)$], anchor: "east", padding: 1mm)
+        content(C, [$C(h, k)$], anchor: "south-west", padding: 1mm)
+        content((2, 1.5), [$b$], anchor: "west", padding: 1mm)
+        content((1, 3), [$a$], anchor: "south", padding: 1mm)
+    })
+  )
+
+  As shown in the diagram $(h - a)^2 + k^2 = a^2 = C B^2, h^2 + (k - b)^2 = a^2 = C A^2$
+
+  We have two equations and two unknowns. Solving thes gives locus of $C(h, k)$ as
+
+  $b x plus.minus a y = 0$.
+  //368
++ Let the isosceles triangle have base $B C$ on the x-axis with $B(-a, 0)$ and $C(a, 0)$, and vertex $A(0, h)$.
+
+  Let $P(x, y)$ be the moving point.
+
+  The distance from $P$ to the base $B C$ is $y$, so the square of the distance is $y^2$.
+
+  The equation of line $A B$ is $h x + a y - a h = 0$, so the distance from $P$ to $A B$ is $(|h x + a y -
+  a h|) / sqrt(h^2 + a^2)$.
+
+  The equation of line $A C$ is $h x - a y + a h = 0$, so the distance from $P$ to $A C$ is $(|h x - a y + a
+  h|) / sqrt(h^2 + a^2)$.
+
+  The given condition is $y^2 = (|h x + a y - a h|) / sqrt(h^2 + a^2) times (|h x - a y + a h|) / sqrt(h^2 +
+  a^2)$.
+
+  This simplifies to $y^2 (h^2 + a^2) = (h x + a y - a h)(h x - a y + a h)$.
+
+  Expanding the product gives $h^2 x^2 - a^2 y^2 + a^2 h^2$.
+
+  Substituting gives $y^2 (h^2 + a^2) = h^2 x^2 - a^2 y^2 + a^2 h^2$.
+
+  Rearranging gives $h^2 x^2 + a^2 h^2 = y^2 (h^2 + 2a^2)$.
+
+  Dividing by $h^2$ gives $x^2 + a^2 - y^2 - (2a^2 / h^2) y^2 = 0$.
+
+  Rearranging into standard form gives $x^2 + y^2 (1 + 2a^2 / h^2) = a^2$.
+
+  Therefore the locus of $P$ is a circle.
+  //369
++ Let $O$ be the origin. A variable line through $O$ meets two fixed straight lines at $R$ and $S$.
+
+  Let $P$ lie on this line such that $2 / (O P) = 1 / (O R) + 1 / (O S)$.
+
+  Since $O, R, S, P$ are collinear, let $O R = r$, $O S = s$, and $O P = p$.
+
+  The given condition is $2 / p = 1 / r + 1 / s$.
+
+  This gives $2 = p (1 / r + 1 / s)$.
+
+  Multiplying by $r s$ gives $2r s = p (r + s)$.
+
+  Hence $p = (2r s) / (r + s)$.
+
+  Let the variable line through $O$ have direction ratio $(1, m)$ so that $R = (r, m r)$, $S = (s, m s)$, and
+  $P = (p, m p)$.
+
+  The points $R$ and $S$ lie on two fixed straight lines, so $r$ and $s$ satisfy linear equations depending
+  on $m$.
+
+  Eliminating $r$ and $s$ between these two linear relations and the condition $2r s = p(r + s)$ removes the
+  parameter $m$.
+
+  The resulting relation between $x$ and $y$ is linear.
+
+  Therefore the locus of $P$ is a straight line.
+  //370
++ The $i$-th terms are $x_i = p + (i - 1)a$ and $y_i = q + (i - 1)b$.
+
+  The mean of the first $n$ terms of an arithmetic sequence is the average of first and last terms.
+
+  Hence $alpha = (x_1 + x_n) / 2$.
+
+  Substituting gives $alpha = (p + (p + (n - 1)a)) / 2$.
+
+  So $alpha = p + (n - 1)a / 2$.
+
+  Similarly $beta = (y_1 + y_n) / 2 = q + (n - 1)b / 2$.
+
+  Eliminating $n$ from both equations gives $(alpha - p) / a = (beta - q) / b$.
+
+  Hence, $b (alpha - p) = a (beta - q)$ i.e. the locus is $b x - a y + q a - b p = 0$.

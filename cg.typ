@@ -88,7 +88,7 @@
 #include "coordinates.typ"
 #include "locus.typ"
 #include "straight-lines.typ"
-//#include "basics.typ"
+#include "pair-straight-lines.typ"
 
 #part("Answers")
 #counter(heading).update(0)
