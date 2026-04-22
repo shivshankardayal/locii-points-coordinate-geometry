@@ -50,4 +50,10 @@
   //6
 + The bisectors of angle between coordinates axes is given by $x - y = 0$ and $x + y = 0$(verify).
 
-  The combined equaiton will be therefore $x^2 - y^2 = 0$.
+  The combined equation will be therefore $x^2 - y^2 = 0$.
+  //7
++ Comparing given equation with general equation in second degree we have $a = 8, b = 2, c = 15, 2h = 8, 
+  2g = 26, 2f = 13$
+
+  Now $a b c + 2f g h -a f^2 - b g^2 - c h^2 = 0$. Hence, the given equation represents pair of straight
+  lines.

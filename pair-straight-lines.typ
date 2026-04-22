@@ -108,3 +108,7 @@ it to resolve into linear factors. We will obtain the same condition as above us
 + Find the combines equation of the lines bisecting the angles between $x$ and $y$ axes.
   //7
 + Prove that the equation $8x^2 + 8x y + 2y^2 + 26x + 13y + 15 = 0$ represents two straight lines.
+  //8
++ If the equation $6x^2 + 2k x y + 12y^2 + 22x + 31y + 20 = 0$ represent a pair of straight lines, find
+  the value of $k$.
++ Show that the equation $10x^2 - 11x y - 6y^2 - 12x - y + 2 = 0$ represents a pair of straight lines.
