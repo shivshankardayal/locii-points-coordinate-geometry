@@ -1856,3 +1856,79 @@ origin lies in the acute or obtuse angle i.e. according as $a_1a_2 + b_1b_2 < 0$
   //344
 + Two fixed points $P$ and $Q$ are given. $R$ is a variable point on one side of the line $P Q$ such that
   $angle R P Q - angle R Q P$ is a positive constant $2alpha$. Find the locus of point $R$.
+  //345
++ A variable straight line passes through the points of intersection of the lines $x + 2y = 1$ and $2x - y =
+  1$ and meets the coordinate axes at $A$ and $B$. Find the locus of middle point of $A B$.
+  //346
++ Let $L_1 = 0$ and $L_2 = 0$ be two fixed lines. A variable line is drawn through the origin to cut the two
+  lines at $A$ and $B$. $P$ is a point on the line $A B$ such that $(m + n)/(O P) = m/(O R) + n/(O S)$. Show
+  that the locus of $P$ is a straight line through the point of intersection of the given lines $(R, S, P)$
+  are on the same side of origin.
+  //347
++ Given $n$ straight lines and a fixed point $O$. Through $O$ a straight line is drawn meeting these lines
+  at the points $R_1, R_2, dots, R_n$ and a point $R$ is taken on it such that $n/(O R) = 1/(O R_1) + 1/(O
+  R_2) + dots.c + 1/(O R_n)$. Show that the locus of $R$ is a straight line.
+  //348
++ The base of a triangle passes through a fixed point $(f, g)$ and its sides are respectively bisected at
+  right angles by the lines $y^2 - 8x y - 9x^2 = 0$. Determine the locus of its vertex.
+  //349
++ Having given the bases and the sum of the areas of a number of triangles is constant, which have a common
+  vertex, show that the locus of this vertex is a straight line.
+  //350
++ If $A(cos t, sin t), B(sin t, -cos t), C(1, 2)$ are the vertices of a $triangle A B C$, find the locus of
+  centroid if $t$ varies.
+  //351
++ The position of a moving point in the $x y$-plane given at a time $t$ is given by $u cos alpha, u sin
+  alpha - 1/2 g t^2$, where $u, alpha, g$ are constants. Find the locus of the moving points.
+  //352
++ A straight line passing through the point $(1, 1)$ is terminated by the axes of coordinates. Show that the
+  locus of the mid-point of the line has the equation $2x y = x + y$.
+  //353
++ Find the locus of the middle point of the intercepts made by the axes on the lines drawn through the point
+  $(alpha, beta)$.
+  //354
++ A straight line moves such that the sum of its intercepts on the axes is $k$. Find the locus of the middle
+  point of the portion of the line intercepted between the axes.
+  //355
++ A line $A P B$ of constant length meets the $x$-axis at $A$ and $y$-axis at $B$. If $A P = b, P B = a$ and
+  the line slides with its extremities on the coordinate axes, show that the equation of the locus of the
+  point $P$ is $x^2/a^2 + y^2/b^2 = 1$.
+  //356
++ A variable line through the point $(6/5, 6/5)$ cuts the coordinate axes at points $A$ and $B$. If the
+  point $P$ divides $A B$ internally in the ratio $2:1$, show that the equation of the locus of $P$ is $5 x
+  y = 2(2x + y)$.
+  //357
++ A straight line moves in such a way that the length of the perpendicular upon it from the origin is always
+  $p$. Find the locus of the centroid of the triangle which is formed by the line and the axes.
+  //358
++ Two fixed points $A$ and $B$ have coordinates $(x_1, y_1)$ and $(x_2, y_2)$. A point $P$ moves such that
+  $A P$ is perpendicular to $B P$. Show that the locus of $P$ is $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) =
+  0$.
+  //359
++ A point moves so that the square of its distance from the point $(3, -2)$ is numerically equal to its
+  distance from the line $5x - 12y = 13$. Find the equation of its locus.
+  //360
++ A point moves such that the sum of its distance from two fixed points $(a e, 0)$ and $(-a e, 0)$ is always
+  $2a$. Prove that its locud is $x^2/a^2 + y^2/(a^2(1 - e^2)) = 1$.
+  //361
++ Find the locus of the middle point of the intercept on the line $y = x + c$ made by the line $2x + 3y = 5$
+  and $2x + 3y = 8$, $c$ being a parameter.
+  //362
++ If a line $A B$ of length $2l$ moves with end $A$ always on $x$-axis and the end $B$ always on the line $y
+  = 6x$. Find the equation of the locus of the mid-point of $A B$.
+  //363
++ $P$ is the point $(-1, 2)$. A variable line through $P$ cuts the coordinate axes at $A$ and $B$
+  respectively. $Q$ is a point on $A B$ such that $P A, P Q, P B$ are in H.P. Show that the locus of $Q$ is
+  the line $y = 2x$. ($A, B$ lie on the same side of $P$) Also show that in general locus of $Q$ is the
+  rhombus whose sides are $y = 2x, y = -2x + 4, y = -2x - 4$ and $y = 2x + 8$ excluding the vertices.
+  //364
++ If $O$ is the origin, $A$ is the point $(4, 4)$, $B$ is any point on the plane, find the locus of the
+  point of intersection of the perpendicular bisectors of $O B$ and $A B$.
+  //365
++ Two fixed points $A$ and $B$ are taken on the two axes such that $O A = a$ and $O B = b$. Two variable
+  points $C$ and $D$ are taken on the same axes respectively, find the locus of the point of intersection of
+  $A D$ and $B C$ if $1/(O C) - 1/(O D) = 1/(O A) - 1/(O B)$.
+  //366
++ $Q$ is any point on the line $x = a$. If $A$ is the fixed point $(a, 0)$ and $Q R$, the bisector of the
+  angle $O Q A$, meets the $x$-axis in $R$, find the locus of the foot of the perpendicular from $R$ to $O
+  Q$.

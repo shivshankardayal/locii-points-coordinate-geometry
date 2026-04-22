@@ -1161,7 +1161,7 @@
 
   Angle of incidence = angle of reflection.
 
-  Incoming path is vertical, so it makes an angle of $90°$ with the x-axis.
+  Incoming path is vertical, so it makes an angle of $90Â°$ with the x-axis.
 
   Now find slope of floor: $x + 2y = 3 => y = (3 - x)/2$. So slope of floor is $-1/2$.
 
@@ -3746,7 +3746,7 @@
   y_n)/n)$.
   //286
 + #figure(
-    cetz.canvas({
+    cetz.canvas(length: 0.5cm, {
         import cetz.draw: *
 
         set-style(stroke: 0.2pt)
@@ -4929,5 +4929,520 @@
 
         angle(P, R, M, radius: 3mm)
         angle(Q, M, R, radius: 3mm)
+        content((2.7, 0.1), [$theta$], anchor: "south-east", padding: 1mm)
+        content((-2.6, -0.1), [$phi$], anchor: "south-west", padding: 1mm)
     })
   )
+
+  Let $P Q$ be taken as $x$-axis and its middle point is $O$, the origin and $O Y$ as $y$-axis.
+
+  Let $P Q = 2a$ then $P = (a, 0)$ and $Q = (-a, 0)$. Let $R = (h, k)$. Also let $angle R P Q = theta$ and
+  $angle R Q P = phi$
+
+  Given that $theta - phi = 2alpha$. Let $R M$ be perpendicular to $x$-axis.
+
+  Here $theta$ and $phi$ are variables and $a$ and $alpha$ are constants.
+
+  $tan(theta - alpha) = tan 2 alpha$. $tan theta = k/(a - h)$ and tan phi = k/(a + h)
+
+  Putting these values in $tan(theta - alpha)$ yields
+
+  $h^2 - k^2 + 2h k cot 2alpha - a^2 = 0$
+
+  Hence, locus of $R$ is $x^2 - y^2 + 2x y cot 2alpha - a^2 = 0$.
+  //345
++ Equation of the line which passes through the point of intersection of the given lines is given by
+
+  $x + 2y - 1 + k(2x - y - 1) = 0$, where $k$ is a parameter.
+
+  This line cuts $x$ and $y$ axes at $A = ((k + 1)/(2k + 1), 0)$ and $B = (0, (k + 1)/(2 - k))$
+  respectively.
+
+  Let $P(alpha, beta)$ be the mid-point of $A B$, then $alpha = ((k + 1)/(2(2k + 1)), (k + 1)/(2(2 - k)))$
+
+  $alpha/beta = (2 - k)(2k + 1) => k = (2beta - alpha)/(2alpha + beta)$
+
+  Putting $k$ back in $alpha$ we get $10alpha beta = 3beta + alpha => 10x y = x + 3y$.
+  //346
++ Let the variable line through $O$ make an angle $theta$ with the positive direction of $x$-axis. Any point
+  on this line will be $(r cos theta + r sin theta)$.
+
+  Let the fixed lines be $y = m_1x + c_1$ and $y = m_2x + c_2$.
+
+  Let $O R = r_1, O S = r_2$ and $O P = r_3$, then according to question $(m + n)/r_3 = m/r_1 + n/r_2$
+
+  Since $A$ and $B$ lies on the fixed lines, therefore, $r_1 sin theta = m_1(r_1 cos theta) + c_1$ and $r_2
+  sin theta = m_2(r_2 cos theta) + c_2$
+
+  Let $P = (alpha, beta)$, then $alpha = r_3 cos theta, beta = r_3 sin theta$
+
+  Thus, $(m + n)/r_3 = m.(sin theta - m_1 cos theta)/c_1 + m_2.(sin theta - m_2 cos theta)/c_2$
+
+  $=> m + n = m/c_1(beta - m_1alpha) + m/c_2(beta - m_2alpha)$
+
+  The locus of $P$ is $m + n = (m/c_1 + n/c_2)y - ((m m_1)/c_1 + (m m_2)/c_2)x$.
+
+  $=> y - m_1x + c_1 + n/m.c_1/c_2(y_2 - m_2x - c_2) = 0$
+
+  Clearly locus of $P$ is a straight line passing through the point of intersection of the two fixed lines.
+  //347
++ We take $O$ as the originl Let the $n$ lines be represented by $y = m_r x + c_r$, where $r = 1, 2, 3,
+  dots, n$.
+
+  Let $O A$ make an angle $theta$ with the $x$-axis and cut the given $n$ lines at $n$ diferent points.
+
+  Let $O R_1 = r_1, O R_2 = r_2, dots, O R_n = r_n, O R = r => R(alpha, beta) = (r cos theta, r sin theta)$
+
+  $y = m_n x + c_n => r_n = c_n/(sin theta - m_n cos theta)$
+
+  $=> n/(O R) = 1/(O R_1) + 1/(O R_2) + dots.c + 1/(O R_n)$
+
+  $=> n/r = (sin theta - m_1 cos theta)/c_1 + dots.c + (sin theta - m_n cos theta)/c_n$
+
+  $=> n = (beta - m_1alpha)/c_1 + dots.c + (beta - m_n alpha)/c_n = (1/c_1 + 1/c_2 + dots.c + 1/c_n)beta -
+  (m_1/c_1 + dots.c + m_n/c_n)alpha$
+
+  Hence, locus of $R$ is a straight line.
+  //348
++ #figure(
+    cetz.canvas(length: 0.8cm, {
+        import cetz.draw: *
+
+        // --- settings ---
+        let O = (0, 0)
+        let scale = 0.8
+
+        // --- vertices ---
+        let V = (2, 3)
+        let A = (-53/41, 138/41)
+        let B = (-3, -2)
+        let M1 = (29/82, 261/82)   // midpoint of VA, lies on y=9x
+        let M2 = (-0.5, 0.5)       // midpoint of VB, lies on y=-x
+
+        // --- grid ---
+        set-style(stroke: (paint: gray.lighten(50%), thickness: 0.3pt))
+        for i in range(-4, 5) {
+            line((i, -3), (i, 5))
+            line((-4, i), (5, i))
+        }
+
+        // --- axes ---
+        set-style(stroke: (paint: black, thickness: 0.8pt))
+        line((-4, 0), (4.5, 0), mark: (end: "stealth", fill: black, scale: 0.5))
+        line((0, -3), (0, 4.5), mark: (end: "stealth", fill: black, scale: 0.5))
+
+        // axis labels
+        set-style(stroke: none)
+        content((4.6, 0), $x$, anchor: "west")
+        content((0, 4.7), $y$, anchor: "south")
+
+        // tick labels on x-axis
+        for i in range(-3, 4) {
+            if i != 0 {
+                content((i, -0.25), text(size: 7pt)[#i], anchor: "north")
+            }
+        }
+        // tick labels on y-axis
+        for i in range(-2, 5) {
+            if i != 0 {
+                content((-0.25, i), text(size: 7pt)[#i], anchor: "east")
+            }
+        }
+        content((-0.2, -0.2), text(size: 7pt)[0], anchor: "north-east")
+
+        // --- triangle fill ---
+        set-style(
+            stroke: (thickness: .5pt, dash: "solid")
+        )
+        line(V, A, B, close: true)
+        // --- perpendicular bisector y = 9x ---
+        // visible range: x in [-0.1, 0.48] gives y in [-0.9, 4.3]
+        set-style(stroke: (paint: rgb("#534AB7"), thickness: 1.2pt, dash: "dashed"))
+        line((-0.1, -0.9), (0.46, 4.14),
+            mark: (end: "stealth", fill: rgb("#534AB7"), scale: 0.4))
+        set-style(stroke: none)
+        content((0.5, 4.3), text(size: 8pt, fill: rgb("#534AB7"))[$y = 9x$], anchor: "west")
+
+        // --- perpendicular bisector y = -x ---
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 1.2pt, dash: "dashed"))
+        line((-3, 3), (2.5, -2.5),
+            mark: (end: "stealth", fill: rgb("#0F6E56"), scale: 0.4))
+        set-style(stroke: none)
+        content((2.6, -2.6), text(size: 8pt, fill: rgb("#0F6E56"))[$y = -x$], anchor: "north-west")
+
+
+        // --- right-angle mark at M1 ---
+        // VA direction (screen): A - V = (-53/41 - 2, 138/41 - 3) = (-135/41, 15/41)
+        // normalise: magnitude = sqrt(135^2+15^2)/41 = sqrt(18450)/41 ≈ 135.8/41
+        // unit along VA: (-135, 15)/135.83 ≈ (-0.9938, 0.1104)
+        // unit along bisector (y=9x, slope 9): (1,9)/sqrt(82) ≈ (0.1104, 0.9938)
+        // box size 0.12 units
+        let s = 0.12
+        // uVA = (-0.9938, 0.1104), uPerp = (0.1104, 0.9938)
+        let uva  = (-0.9938, 0.1104)
+        let uperp = (0.1104, 0.9938)
+        let m1x = 29/82
+        let m1y = 261/82
+        let p1 = (m1x, m1y)
+        let p2 = (m1x + s*uva.at(0),  m1y + s*uva.at(1))
+        let p3 = (m1x + s*uva.at(0) + s*uperp.at(0),
+            m1y + s*uva.at(1) + s*uperp.at(1))
+        let p4 = (m1x + s*uperp.at(0), m1y + s*uperp.at(1))
+        set-style(fill: none, stroke: (paint: rgb("#534AB7"), thickness: 0.7pt, dash: "solid"))
+        line(p1, p2, p3, p4, close: true)
+
+        // --- right-angle mark at M2 ---
+        // VB direction: B - V = (-5, -5), unit = (-1,−1)/sqrt(2) ≈ (-0.7071,-0.7071)
+        // bisector y=-x direction: (1,−1)/sqrt(2) ≈ (0.7071,−0.7071)
+        let uvb   = (-0.7071, -0.7071)
+        let uperp2 = (0.7071, -0.7071)
+        let m2x = -0.5
+        let m2y = 0.5
+        let q1 = (m2x, m2y)
+        let q2 = (m2x + s*uvb.at(0),   m2y + s*uvb.at(1))
+        let q3 = (m2x + s*uvb.at(0) + s*uperp2.at(0),
+            m2y + s*uvb.at(1) + s*uperp2.at(1))
+        let q4 = (m2x + s*uperp2.at(0), m2y + s*uperp2.at(1))
+        set-style(fill: none, stroke: (paint: rgb("#0F6E56"), thickness: 0.7pt, dash: "solid"))
+        line(q1, q2, q3, q4, close: true)
+
+        // --- midpoint dots ---
+        set-style(stroke: none)
+        fill(rgb("#534AB7"))
+        circle(M1, radius: 0.06)
+        fill(rgb("#0F6E56"))
+        circle(M2, radius: 0.06)
+
+        // midpoint labels
+        content(
+            (29/82 + 0.12, 261/82 + 0.08),
+            text(size: 7.5pt, fill: rgb("#534AB7"))[$M_1$],
+            anchor: "west"
+        )
+        content(
+            (-0.5 + 0.12, 0.5 + 0.05),
+            text(size: 7.5pt, fill: rgb("#0F6E56"))[$M_2$],
+            anchor: "west"
+        )
+
+        // --- vertex dots ---
+        fill(rgb("#26215C"))
+        circle(V,  radius: 0.03)
+        circle(A,  radius: 0.03)
+        circle(B,  radius: 0.03)
+
+        // --- vertex labels ---
+        set-style(stroke: none)
+        content((2.12, 3.1),
+            text(size: 8pt, fill: rgb("#26215C"))[$A$], anchor: "west")
+        content((-53/41 - 0.1, 138/41 + 0.1),
+            text(size: 8pt, fill: rgb("#26215C"))[$C$], anchor: "east")
+        content((-3 - 0.1, -2 - 0.1),
+            text(size: 8pt, fill: rgb("#26215C"))[$B$], anchor: "north-east")
+
+        // --- slope annotations ---
+        content((0.9, 3.55),
+            text(size: 7pt, fill: rgb("#534AB7"))[slope $= -1\/9$], anchor: "south")
+        content((-1.6, 0.7),
+            text(size: 7pt, fill: rgb("#0F6E56"))[slope $= 1$], anchor: "south")
+    })
+  )
+
+  Let the base of the triangle $A B C$ be $B C$ which passes through a fixed point $P(f, g)$. Let $B = (x_1,
+  y_1)$ and $C = (x_2, y_2)$
+
+  Since $P, B, C$ are collinear, therefore,
+
+  $display(mat(delim: "|", f, g, 1; x_1, y_1, 1; x_2, y_2, 1;) = 0) => f(y_1 - y_2) - g(x_1 - x_2) + (x_1y_2
+  - x_2y_1) = 0$
+
+  Let $A = (alpha, beta)$. We have to find the locus of the point $A$.
+
+  Given lines are $y^2 - 8x y - 9x^2 = 0 => y - 9x = 0$ and $x + y = 0$.
+
+  Let these lines be perpendicular bisectors of $A B$ and $A C$. Since $A B$ is perpendicular to line $y -
+  9x = 0$, therefore,
+
+  $(beta - y_1)/(alpha - x_1) times 9 = -1 => x_1 + 9y_1 = alpha + 9beta$
+
+  Since mid-point $((alpha + x_1)/2, (beta + y_1)/2)$ of $A B$ lies on $y - 9x = 0$, therefore,
+
+  $(beta + x_1) - 9(beta + y_1) = 0 => 9x_1 - y_1 = beta - 9alpha$
+
+  Thus, $x_1 = (9beta - 40alpha)/41, y_1 = (40beta + 9alpha)/41$
+
+  Proceeding similarly for $A C$ we get $x_2 = -beta$ and $y_2 = -alpha$
+
+  $=> x_1 - x_2 = (50beta - 40alpha)/41$ and $y_1 - y_2 = (40 beta + 50alpha)/41$ and $x_1y_2 - x_2y_1 =
+  -1/41[alpha(9beta - 40alpha) - beta(40beta + 9alpha)]$
+
+  Putting these in first equation we get locus of $A$ as
+
+  $4(x^2 + y^2) + (4g + 5f)x + (4f - 5g)y = 0$.
+  //349
++ Let the coordinates of the vertex be $(h, k)$, and let the lengths of the bases be respectively $l, l_1,
+  l_2, dots$, and their equations be respectively
+
+  $x cos alpha + y sin alpha = p, x cos beta + y sin beta = p_1, dots$ etc.
+
+  The length of the perpendiculars from $(h, k)$ on the bases will be
+
+  $|h cos alpha + k sin beta -p|, |h cos beta + k sin beta - p_1|, dots$ etc.
+
+  From the given condition sum of areas is constant. Thus,
+
+  $display(x sum l cos alpha + y sum l sin alpha - sum l p = k)$, which is a straight line.
+  //350
++ Let $A(cos t, sin t)$, $B(sin t, -cos t)$, $C(1, 2)$.
+
+  Centroid $G(x, y)$ is given by $x = (cos t + sin t + 1)/3$, $y = (sin t - cos t + 2)/3$.
+
+  So, $3x - 1 = cos t + sin t$, $3y - 2 = sin t - cos t$.
+
+  Now, $(cos t + sin t)^2 + (sin t - cos t)^2 = 2(sin^2 t + cos^2 t) = 2$.
+
+  Hence, $(3x - 1)^2 + (3y - 2)^2 = 2$.
+  //351
++ Given position: $x = u cos alpha * t$ and $y = u sin alpha * t - 1/2 g t^2$
+
+  From $x = u cos alpha * t$, $t = x / (u cos alpha)$
+
+  Substitute into $y$: $y = u sin alpha * (x / (u cos alpha)) - 1/2 g (x / (u cos alpha))^2$
+
+  $=> y = x tan alpha - (g x^2)/(2 u^2 cos^2 alpha)$
+
+  Hence, the locus is: $y = x tan alpha - (g x^2)/(2 u^2 cos^2 alpha)$.
+  //352
++ Let the line through $(1, 1)$ meet the axes at $A(a, 0)$ and $B(0, b)$.
+
+  Equation of line in intercept form is $x/a + y/b = 1$
+
+  Since it passes through $(1, 1)$, therefore, $1/a + 1/b = 1$
+
+  Let midpoint of $A B$ be $M(x, y)$. Then, $x = a/2$, $y = b/2$ $=> a = 2x$, $b = 2y$
+
+  Substitute into $1/a + 1/b = 1$ to get $1/(2x) + 1/(2y) = 1$
+
+  $=> (x + y)/(2 x y) = 1$ $=> x + y = 2 x y$
+
+  Hence, the locus is $2 x y = x + y$.
+  //353
++  Let the line through $(alpha, beta)$ meet the axes at $A(a, 0)$ and $B(0, b)$.
+
+  Equation in intercept form: $x/a + y/b = 1$.
+
+  Since it passes through $(alpha, beta)$: $alpha/a + beta/b = 1$.
+
+  Let midpoint be $M(x, y)$ with $x = a/2$, $y = b/2$. So $a = 2x$, $b = 2y$.
+
+  Substitute to get $alpha/(2x) + beta/(2y) = 1$.
+
+  Hence, $alpha/x + beta/y = 2$. Multiplying by $x y$ gives $alpha y + beta x = 2x y$.
+  //354
++ Let the line cut the axes at $A(a, 0)$ and $B(0, b)$.
+
+  Then its intercept form is $x/a + y/b = 1$
+
+  Given condition is $a + b = k$
+
+  Midpoint of $A B$ is $M(x, y)$, so $x = a/2$, $y = b/2$ $=>a = 2x$, $b = 2y$
+
+  Substitute into $a + b = k$ gives  $2x + 2y = k$
+
+  Hence, the locus is $x + y = k/2$.
++ Let the line meet the axes at $A(x_1, 0)$ and $B(0, y_1)$.
+
+  Since $A P = b$ and $P B = a$, the total length is constant, therefore $A B = a + b$
+
+  Point $P(x, y)$ divides $A B$ internally in the ratio, thus, $A P : P B = b : a$
+
+  Using section formula: $x = (b*0 + a*x_1)/(a + b) = a x_1/(a + b)$
+  $y = (b*y_1 + a*0)/(a + b) = b y_1/(a + b)$
+
+  So, $x_1 = (a + b)x/a$ and $y_1 = (a + b)y/b$
+
+  Since $A$ and $B$ are intercepts of the same line, therefore, $x_1/a + y_1/b = 1$
+
+  Substituting values yields $((a + b)x)/(a^2) + ((a + b)y)/(b^2) = 1$
+
+  Dividing by $(a + b)$ gives $x^2/a^2 + y^2/b^2 = 1$.
+  //356
++ Let the variable line cut the axes at $A(a, 0)$ and $B(0, b)$.
+
+  Since the line passes through $(6/5, 6/5)$, therefore $x/a + y/b = 1$
+
+  Substituting $(6/5, 6/5)$ yields  $6/(5a) + 6/(5b) = 1$ $=> 6(a + b) = 5a b$
+
+  Point $P(x, y)$ divides $A B$ internally in ratio $2:1$: $=> A P : P B = 2 : 1$
+
+  Using section formula:  $x = (2*0 + 1*a)/(2 + 1) = a/3$ and $y = (2*b + 1*0)/(2 + 1) = 2b/3$
+
+  So, $a = 3x$, $b = 3y/2$
+
+  Substitute into $6(a + b) = 5a b$ gives us $6(3x + 3y/2) = 5(3x)(3y/2)$
+
+  Hence, $5x y = 2(2x + y)$.
+  //357
++ Let the moving line cut the axes at $A(a, 0)$ and $B(0, b)$.
+
+  Equation of the line is $x/a + y/b = 1$
+
+  Perpendicular distance from origin is given as $p$ is $|a b|/sqrt(a^2 + b^2) = p$
+
+  Squaring yields $a^2 b^2 = p^2 (a^2 + b^2)$
+
+  Centroid of triangle $O A B$ is $G(x, y)$: $x = a/3$, $y = b/3$$=> a = 3x$, $b = 3y$
+
+  Substitute into distance condition to get $(9x^2)(9y^2) = p^2 (9x^2 + 9y^2)$
+
+  $81 x^2 y^2 = 9 p^2 (x^2 + y^2)$.  Hence the locus of centroid is
+  $9 x^2 y^2 = p^2 (x^2 + y^2)$.
+  //358
++ Let $P(x, y)$ be the moving point. Given $A P perp B P$.
+
+  Slope of $A P = (y - y_1)/(x - x_1)$ and slope of $B P = (y - y_2)/(x - x_2)$
+
+  Since lines are perpendicular, therefore, $(y - y_1)/(x - x_1) * (y - y_2)/(x - x_2) = -1$
+
+  $=> (y - y_1)(y - y_2) = -(x - x_1)(x - x_2)=> (x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$
+
+  Hence the locus is $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$.
+  //359
++ Let $P(x, y)$ be the moving point.
+
+  Square of distance from $(3, -2)$ is $(x - 3)^2 + (y + 2)^2$
+
+  Distance from line $5x - 12y = 13$ is $(|5x - 12y - 13|) / sqrt(5^2 + (-12)^2) = (|5x - 12y - 13|) / 13$
+
+  Given condition is $(x - 3)^2 + (y + 2)^2 = (|5x - 12y - 13|) / 13$
+
+  Multiply both sides by $13$ gives  $13[(x - 3)^2 + (y + 2)^2] = |5x - 12y - 13|$
+
+  Squaring both sides yields $169[(x - 3)^2 + (y + 2)^2]^2 = (5x - 12y - 13)^2$.
+  //360
++ Let $P(x, y)$ be the moving point. Fixed points are $F_1(a e, 0)$ and $F_2(-a e, 0)$.
+
+  Given $sqrt((x - a e)^2 + y^2) + sqrt((x + a e)^2 + y^2) = 2a$
+
+  This is the definition of an ellipse with foci $F_1, F_2$ and constant sum $2a$.
+
+  Squaring and simplifying gives $x^2 / a^2 + y^2 / (a^2 (1 - e^2)) = 1$.
+  //361
++ Let the line $y = x + c$ intersect $2x + 3y = 5$ at $A(x_1, y_1)$ and $2x + 3y = 8$ at $B(x_2, y_2)$.
+
+  For $A$: $y = x + c$. Substituting in $2x + 3y = 5$ gives $2x + 3(x + c) = 5 => 5x + 3c = 5$
+
+  $=> x_1 = (5 - 3c)/5$, $y_1 = x_1 + c = (5 + 2c)/5$
+
+  For $B$: $2x + 3(x + c) = 8 => 5x + 3c = 8$  $=> x_2 = (8 - 3c)/5$, $y_2 = (8 + 2c)/5$
+
+  Midpoint $M(x, y)$: $x = (x_1 + x_2)/2 = (13 - 6c)/10$ and $y = (y_1 + y_2)/2 = (13 + 4c)/10$
+
+  Eliminating $c$ From $x = (13 - 6c)/10 => 6c = 13 - 10x$
+
+  Substitute into $y$ yielfs $y = (13 + 4(13 - 10x)/6)/10 => 4x + 6y = 13$.
+  //362
++ Let the point $A$ be $(a, 0)$ on the $x$-axis and the point $B$ be $(b, 6b)$ on the line $y = 6x$.
+
+  The length of $A B$ is $2l$, so using the distance formula we get $(b - a)^2 + (6b)^2 = 4l^2$.
+
+  The midpoint of $A B$ is $M(x, y)$, so $x = (a + b)/2$ and $y = (0 + 6b)/2$.
+
+  From this we obtain $b = y/3$ and $a = 2x - y/3$.
+
+  Substituting these values into the length condition gives $(y/3 - (2x - y/3))^2 + 36(y/3)^2 = 4l^2$.
+
+  This simplifies to $(2y/3 - 2x)^2 + 4y^2 = 4l^2$.
+
+  Dividing by $4$ gives $(y/3 - x)^2 + y^2 = l^2$.
+  //363
++ Let the variable line through $P(-1, 2)$ meet the x-axis at $A(a, 0)$ and the y-axis at $B(0, b)$.
+
+  The equation of the line in intercept form is $x/a + y/b = 1$.
+
+  Since it passes through $P(-1, 2)$ we get $-1/a + 2/b = 1$.
+
+  This gives the relation $-b + 2a = a b$.
+
+  Let $Q(x, y)$ lie on $A B$. Then $Q$ divides $A B$ in some ratio $t : 1$.
+
+  Using section formula we get $x = a/(1 + t)$ and $y = t b/(1 + t)$.
+
+  Hence $a = x(1 + t)$ and $b = y(1 + t)/t$.
+
+  Since $P, A, Q, B$ are such that $P A, P Q, P B$ are in harmonic progression we use $P Q^(-1) = (P A^(-1) +
+  P B^(-1))/2$.
+
+  This gives the relation $1/(P Q) = (1/(P A) + 1/(P B))/2$.
+
+  Using coordinate distances we obtain after simplification that $y = 2x$.
+
+  Hence the locus of $Q$ is the line $y = 2x$.
+
+  $1/(P A) + 1/(P B) = 2/(P Q) => y = 2x$
+
+  $-1/(P A) - 1/(P B) = 2/(P Q) => y = 2x + 8$
+
+  $1/(P A) - 1/(P B) = 2/(P Q) => y = -2x + 4$
+
+  $-1/(P A) + 1/(P B) = 2/(P Q) => y = -2x - 4$
+
+  Hence the locus is a rhombus bounded by these four lines excluding the vertices.
+  //364
++ Let $B(x_1, y_1)$ be a variable point.
+
+  The perpendicular bisector of $O B$ passes through the midpoint of $O(0,0)$ and $B(x_1, y_1)$, which is
+  $(x_1/2, y_1/2)$, and has slope perpendicular to $O B$.
+
+  Equation of perpendicular bisector of $O B$ is $x_1 x + y_1 y = (x_1^2 + y_1^2)/2$
+
+  The midpoint of $A B$, where $A(4,4)$ and $B(x_1, y_1)$, is $((x_1 + 4)/2, (y_1 + 4)/2)$.
+
+  Slope of $A B$ is $(y_1 - 4)/(x_1 - 4)$, so the perpendicular bisector of $A B$ is
+  $(x_1 - 4)(x - (x_1 + 4)/2) + (y_1 - 4)(y - (y_1 + 4)/2) = 0$
+
+  The point of intersection $P(x, y)$ satisfies both equations.
+
+  Eliminating $x_1$ and $y_1$ from the two equations gives a relation between $x$ and $y$.
+
+  After simplification, we obtain $(x - 2)^2 + (y - 2)^2 = 8$.
+  //365
++ Let $O$ be the origin and let $A(a, 0)$ and $B(0, b)$ be fixed points on the axes.
+
+  Let $C(c, 0)$ and $D(0, d)$ be variable points on the axes.
+
+  The given condition is $1/c - 1/d = 1/a - 1/b$.
+
+  Let $P(x, y)$ be the point of intersection of the lines $A D$ and $B C$.
+
+  The equation of the line $A D$ is $y = d(1 - x/a)$.
+
+  The equation of the line $B C$ is $y = b - (b/c)x$.
+
+  At the intersection point $P(x, y)$ we have $d(1 - x/a) = b - (b/c)x$.
+
+  This simplifies to $d - (d/a)x = b - (b/c)x$.
+
+  Rearranging gives $(b - d) = x((b/c) - (d/a))$.
+
+  Using the given condition $1/c - 1/d = 1/a - 1/b$ we rewrite it as $(d - c)/(c d) = (b - a)/(a b)$.
+
+  This gives $a b(d - c) = c d(b - a)$.
+
+  On solving the system and eliminating $c$ and $d$ we obtain $x = y$.
+
+  Therefore the locus of the point $P$ is $x - y = 0$.
+  //366
++ Let $Q = (a, k)$. Since $Q R$ is the bisector of $angle O Q A$, therefore,
+
+  $(O R)/(R A) = (O Q)/(Q A) = sqrt(a^2 + k^2)/k therefore R = ((a sqrt(a^2 + k^2))/(sqrt(a^2 + k^2) + k),
+  0)$
+
+  Let $P(alpha, beta)$ be the foot of the perpendicular from $R$ to $O Q$.
+
+  Now $Q, P, Q$ are collinear. $therefore mat(delim: "|", 0, 0, 1; alpha, beta, 1; a, k, 1;) = 0 => k = (a
+  beta)/alpha$
+
+  Again $R P perp Q Q => frac(beta, a - frac(a sqrt(a^2 + k^2), sqrt(a^2 + k^2) + k)). k/a = -1$
+
+  Putting the value of $k$ we get locus as $(a x - x^2 - y^2)^2(a^2y^2 + x^2) = a^2y^2(x^2 + y^2)^2$.
