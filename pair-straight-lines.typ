@@ -303,3 +303,10 @@ it to resolve into linear factors. We will obtain the same condition as above us
 + Prove that the equation $(a + 2b + b)x^2 - 2(a - b)x y + (a - 2h + b)y^2 = 0$ represents a pair of lines
   inclined at an angle of $45^degree$ to one or other of the lines represented by $a x^2 + 2h x y + b y^2 =
   0$.
+  //76
++ If the distance of a given point $(alpha, beta)$ from each of the two straight lines through the origin
+  is $d$, show that $(alpha y - beta x)^2 = d^2(x^2 + y^2)$.
+  //77
++ If one of the lines given by $a x^2 + 2h x y + b y^2 = 0$ coincides with one of those given by $a_1x^2 +
+  2h_1x y + b_1y^2 = 0$ and the other lines represented by them be perpendicular, prove that 
+  $(b a_1b_1)/(b_1 - a_1) = (h a b)/(b - a) = 1/2 sqrt(-a a_1b b_1)$.

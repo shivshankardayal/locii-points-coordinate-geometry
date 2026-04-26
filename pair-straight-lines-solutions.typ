@@ -1183,3 +1183,33 @@
   $(1 + m_1 + m_2 + m_1m_2)y^2 + [m_1m_2 - (m_1 + m_2) + 1]x^2 + 2(m_1m_2 - 1)x y = 0$
 
   Substituting the values yields $(a + 2b + b)x^2 - 2(a - b)x y + (a - 2h + b)y^2 = 0$.
+  //76
++ Let the equation of any line through the origin $(0, 0)$ be $y - m x = 0$.
+
+  Distance from $(alpha, beta)$ to the line is 
+
+  $lr(|(beta - m alpha)/sqrt(1 + m^2)|) = d => (beta - m alpha)^2/(1 + m^2) = d^2$
+
+  Putting $m = y/x$ in the above equation yields
+
+  $(alpha y - beta x)^2 = d^2(x^2 + y^2)$.
+  //77
++ Let the slope of the lines given by first equation be $m_1$ and $m_2$. Then 
+  
+  $m_1 + m_2 = -(2h)/b$ #h(1cm) $dots$ (1) and  $m_1m_2 = a/b$ #h(1cm) $dots$ (2)
+
+  Then the slope of the lines of the second equation will be $m_1$ and $-1/m_2$ and
+
+  $m_1 - 1/m_2 = -(2h_1)/b_1$ #h(1cm) $dots$ (3) and $-m_1/m_2 = a_1/b_2$ #h(1cm) $dots$ (4)
+
+  Multiplying (2) and (4) gives
+
+  $m_1^2 = -(a_1a)/(b_1b) => m_1 = sqrt(-(a_1a)/(b_1b))$. From (4), $m_2 = -b_1/a_1m_1 = -b_1/a_1sqrt(-(a_1a)/(b_1b))$
+
+  Substituting the values of $m_1$ and $m_2$ in (1) yields
+
+  $b sqrt(-(a_1a)/(b_1b)) = (2a_1h)/(b_1 - a_1) => 1/2 sqrt(-a_1a b_1b) = (a_1 b_1h)/(b_1 - a_1)$
+
+  Substituting $m_1$ and $m_2$ in (3) yields
+
+  (h a b)/(b - a) = 1/2 sqrt(-a a_1b b_1). Hence proven.
