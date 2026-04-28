@@ -1186,7 +1186,7 @@
   //76
 + Let the equation of any line through the origin $(0, 0)$ be $y - m x = 0$.
 
-  Distance from $(alpha, beta)$ to the line is 
+  Distance from $(alpha, beta)$ to the line is
 
   $lr(|(beta - m alpha)/sqrt(1 + m^2)|) = d => (beta - m alpha)^2/(1 + m^2) = d^2$
 
@@ -1194,8 +1194,8 @@
 
   $(alpha y - beta x)^2 = d^2(x^2 + y^2)$.
   //77
-+ Let the slope of the lines given by first equation be $m_1$ and $m_2$. Then 
-  
++ Let the slope of the lines given by first equation be $m_1$ and $m_2$. Then
+
   $m_1 + m_2 = -(2h)/b$ #h(1cm) $dots$ (1) and  $m_1m_2 = a/b$ #h(1cm) $dots$ (2)
 
   Then the slope of the lines of the second equation will be $m_1$ and $-1/m_2$ and
@@ -1212,4 +1212,387 @@
 
   Substituting $m_1$ and $m_2$ in (3) yields
 
-  (h a b)/(b - a) = 1/2 sqrt(-a a_1b b_1). Hence proven.
+  $(h a b)/(b - a) = 1/2 sqrt(-a a_1b b_1)$. Hence proven.
+  //78
++ Let the equations of parallel lines represented by the given equation are $l x + m y + n = 0$ and $l x + m
+  y + n_1 = 0$, then
+
+  $(l x + m y + n)(l x + m y + n_1) = a x^2 + 2h x y + b y^2 + 2g x + 2f y + c$
+
+  Comparing coefficients yields
+
+  $l^2 = a, m^2 = b, n n_1 = c, m(n + n_1) = 2f, l(n + n_1) = 2g, 2l m = 2h$
+
+  $=> h = l m => h^2 = l^2m^2 = a b => a/h = h/b$
+
+  $(2g)/(2f) = l/m = (l m)/m^2 = h/b$. Hence, $a/ h = h/b = g/f$.
+
+  The distance is given by $(|n - n_1|)/sqrt(l^2 - m^2)$
+
+  Now $(n - n_1)^2 = (n + n_1)^2 - 2n_1n = 4((g^2 - c a)/a) => |n - n_1| = 2sqrt((g^2 - c a)/a)$ and $l^2 +
+  m^2 = a + b$
+
+  $d = 2sqrt((g^2 - c a)/(a(a + b)))$.
+  //79
++ Let two straight lines $l x + m y + n = 0$ and $l_1x + m_1y + n_1 = 0$, then $(l x + m y + n)(l_1x + m_1y
+  + n_1) = (a x^2 + 2h x y + b y^2 + 2g x + 2f y + c)$
+
+  Comparing coefficients yields, $l l_1 = a, m m_1 = b, n n_1 = c, l m_1 + l_1m = 2h, l n_1 + l_1n = 2g, m
+  n_1 + m_1n = 2f$
+
+  Solving the two straight line equations we get point of intersection as $((m n_1 - m_1n)/(l m_1 - l_1m),
+  (n l_1 - n_1l)/(l m_1 - l_1m))$
+
+  Distance squared from origin is $((m n_1 - m_1n)/(l m_1 - l_1m))^2 + ((n l_1 - n_1l)/(l m_1 - l_1m))^2$
+
+  Substituting values yields $(c(a + b) - f^2 - g^2)/(a b - h^2)$
+  //80
++ Let the lines be $l x + m y + n = 0$ and $l'x + m'x + n' = 0$ represented by $a x^2 + 2h x y + b y^2 + 2g
+  x + 2f y + c = 0$. Then
+
+  $(l x + m y + n)(l'x + m'y + n') = a x^2 + 2h x y + b y^2 + 2g x + 2f y + c$ which implies
+
+  $l l' = a, m m' = b, n n' = c, l m' + l'm = 2h, l n' + l'n = 2g, m n' + m'n = 2f$
+
+  Since the lines are equidistant, therefore $(|n|)/sqrt(l^2 + m^2) = (|n'|)/sqrt(l'^2 + m'^2)$
+
+  $=> n^2l'^2 + n^2m'^2 = n'^2;^2 + n'^2m^2 => (n l' - n'l)(n l' + n'l) = (m n' - m'n)(m n' + m'n)$
+
+  Squaring yields
+
+  $[(n l' + n'l)^2 - 4l l'n n'](n l' + n'l)^2 = [(m n' + m'n)^2 - 4m m'n n'](m n' + m'n)^2$
+
+  $=> f^4 - g^4 = c(b f^2 - a g^2)$ upon substitution and simplification.
+  //81
++ Let the lines $y = m_1x$ and $y = m_2x$ be two parallel lines intersecting at the origin $A$. Then $m_1 +
+  m_2 = -(2h)/b$ and $m_1m_2 = a/ b$
+
+  #figure(
+      cetz.canvas({
+          import cetz.draw: *;
+          set-style(stroke: 0.5pt)
+          let A = (0, 0)
+          let B = (3, 0)
+          let D = (1, 2)
+          let C = (4, 2)
+
+          line(A, B, C, D, A)
+          line(A, C)
+          line(B, D)
+
+          content(A, [$A$], anchor: "north-east", padding: 0.1)
+          content(B, [$B$], anchor: "north-west", padding: 0.1)
+          content(C, [$C$], anchor: "south-west", padding: 0.1)
+          content(D, [$D$], anchor: "south-east", padding: 0.1)
+          content((1.5, 0), [$y = m_1x$], anchor: "north", padding:0.1)
+          line((-0.3, 0), (0.7, 2), name: "l1", stroke: white)
+          content(("l1.start", 90%, "l1.end"), angle: "l1.end", padding: .3, anchor: "east", [$y = m_2x$])
+      })
+  )
+
+  Clearly, the diagonal $l x + m y = 1$ is $B D$ as it does not pass through origin. Solving this digonal
+  with the two parallel lines we get coordinates of $B = (1/(l + m m_1), m/(1 + m m_1))$ and $D = (1/(l + m
+  m_2), m/(1 + m m_2))$.
+
+  Let $H$ be the point of intersection of the two diagonals then $H = ((b l - h m)/(b(l + m m_1)(l + m
+  m_2)), (a m - h l)/(b(l + m m_1)(l + m m_2)))$ and let $A$. be the origin.
+
+  Equation of other diagonal passing through the origin and $H$ is given by $y(b l - h m) = x(a m - h l)$.
+  //82
++ Let $triangle A B C$ be the triangle such that $A B, A C$ and $B C$ are given by $y = m_1x, y = m_2x$ and
+  $l x + m y = 1$ such that
+
+  $(y - m_1x)(y - m_2x) = a x^2 + 2h x y + b y^2$. Let $A L$ and $B M$ be perpendiculars from $A$ and $B$ on
+  opposite sides.
+
+  Equation of $A L$ which is perpendicular to $B C$ and passes through $A$, the origin, is given by
+
+  $m x - l y = 0 => x/l = y/m = k$(say)
+
+  Orthocenter will be on this line and its coordinates are $(k l, k m)$ for such suitable values of $k$ for
+  which the point may also lie on $B M$, perpendicular from $B$ on $A C$, which is perpendicular to line $y
+  = m_2x$.
+
+  Thus, we find $H$, the orthocenter as $H = (1/(l + m m_1), m_1/(l + m m_1))$
+
+  So equation of $B M$ is $m_2y + x = (1 + m_1m_2)/(l + m m_1)$
+
+  Substituting $(k l, k m)$ yields $k = (1 + m_1m_2)/((l + m m_1)(l + m m_2)) = (a + b)/(a m^2 - 2h l m + b
+  l^2)$
+
+  Thus, $x/l = y/m = (a + b)/(a m^2 - 2h l m + b l^2)$.
+  //83
++ Let $y = m_1x$ and $y = m_2x$ be the lines represented by $a x^2 + 2h x y + b y^2 = 0$ i.e. $(y- m_1x)(y -
+  m_2x) = a x^2 + 2h x y + b y^2$ then
+
+  $m_1 + m_2 = -(2h)/b$ and $m_1m_2 = a/b$. Let these lines meet $l x + m y + n = 0$ at $A$ and $B$
+  respectively, then $C$ will be the origin.
+
+  Solving the equations we get $A = (-n/(l + m m_1), - (m_1n)/(l + m m_1))$ and $B = (-n/(l + m m_2),
+  -(m_2n)/(l + m m_2))$
+
+  Then $Delta = (n^2 sqrt(h^2 - a b))/(a m^2 - 2h l m + b l^2)$.
+  //84
++ Let $theta$ be the acute angle between the lines of $(A^2 - 3B^2)x^2 + 8A B x y + (B^2 - 3A^2)y^2 = 0$
+
+  then $tan theta = lr(|(2sqrt(h^2 - a b))/(a + b)|) = sqrt(3)$
+
+  Writing $(A^2 - 3B^2)x^2 + 8A B x y + (B^2 - 3A^2)y^2 = 0$ as a quadratic equation in $y/x$ we have
+
+  $y/x = ((-4A B plus.minus sqrt(3) (A^2 + B^2))/(B^2 - 3A^2))x$
+
+  Taking the positive sign we find angle between these lines and $A x + B y + C = 0$ is also $60^degree$,
+  and hence, the triangle is equilateral.
+
+  Computing altitude from $(0, 0)$ to $A x + B y + C = 0$ we find the area as $C^2/(sqrt(3)(A^2 + B^2))$.
+  //85
++ Let the pair of lines be $(l x + m y)^2 - 3 (m x - l y)^2 = 0 $
+
+  This represents two lines through the origin. Rewrite it as $(l x + m y)^2 = 3 (m x - l y)^2 $
+
+  Taking square roots $l x + m y = sqrt(3) (m x - l y) $and $l x + m y = -sqrt(3) (m x - l y) $
+
+  So the two lines are $l x + m y - sqrt(3) (m x - l y) = 0$ and $l x + m y + sqrt(3) (m x - l y) = 0$
+
+  First line $(l - sqrt(3) m) x + (m + sqrt(3) l) y = 0$
+
+  Second line $(l + sqrt(3) m) x + (m - sqrt(3) l) y = 0$
+
+  Thus $tan theta = lr(| (-2 sqrt(3) (l^2 + m^2))/(-2 (l^2 + m^2))) = sqrt(3)$
+
+  So $theta = 60^degree$. Hence the two lines are inclined at $60^degree$
+
+  Now consider the third line $l x + m y + n = 0$
+
+  The first two lines pass through origin and make angle $60^degree$. The third line does not pass through
+  origin so it intersects both lines forming a triangle.
+
+  Since the angle between the two lines is$60^degree$ and the third line cuts them symmetrically with equal
+  intercept structure, the triangle formed has all angles$60^degree$.
+
+  Hence the three lines form an equilateral triangle.
+  //86
++ Given $12x^2 + 7x y - 12y^2 = 0$
+
+  Putting $y = m x$ $12 + 7m - 12m^2 = 0$$=>12m^2 - 7m - 12 = 0$
+
+  $m = (7 plus.minus 25)/24$ ⇒ $m_1 = 4/3$, $m_2 = -3/4$
+
+  Lines are $4x - 3y = 0$, $3x + 4y = 0$
+
+  Given $12x^2 + 7x y - 12y^2 - x + 7y - 1 = 0$
+
+  $=> (4x - 3y + k_1)(3x + 4y + k_2) = 0$
+
+  Comparing yields $3k_1 + 4k_2 = -1$, $4k_1 - 3k_2 = 7$, $k_1k_2 = -1$
+
+  $k_1 = 1$, $k_2 = -1$
+
+  Lines are $4x - 3y + 1 = 0$, $3x + 4y - 1 = 0$
+
+  Product of slopes are $(4/3)(-3/4) = -1$
+
+  Distances between $4x - 3y = 0$ and $4x - 3y + 1 = 0$ is $1/5$.
+  And between $3x + 4y = 0$ and $3x + 4y - 1 = 0$ is $1/5$
+
+  Parallel pairs, perpendicular adjacent sides, equal distances gives a square.
+  //87
++ $x^2 - 3x y + 2y^2 = 0 => x(x - 2y) - y(x - 2y) = (x - y)(x - 2y) = 0$
+
+  Lines parallel to these are $x - y + k = 0$ and $x - 2y + k' = 0$. Since both lines pass through $(1, 1)$,
+  therefore $k = 0, k' = 1$
+
+  So the combined equation is $(x - y) + (x - 2y + 1) = x^2 - 3x y + 2y^2 + x - y = 0$.
+  //88
++ $2x^2 - x y - y^2 = 2x(x - y) + y(x - y) => (x - y)(2x + y) = 0$
+
+  The equation from whcih these were reflected will be bisectors which are perpendicular to each
+  other. Equation of bisectors is given by
+
+  $(x^2 - y^2)/(2 + 1) = (x y)/-(1/2) = -2x y => x^2 - y^2 + 6x y = 0$.
+  //89
++ Given $x cos alpha + y sin alpha = 1$ and $x^2 + y^2 = a^2$
+
+  Homogenizing yields $x^2 + y^2 = a^2 (x cos alpha + y sin alpha)^2$
+
+  $=>x^2 + y^2 - a^2 (x cos alpha + y sin alpha)^2 = 0$
+
+  Expanding $(1 - a^2 cos^2 alpha)x^2 - 2a^2 sin alpha cos alpha x y + (1 - a^2 sin^2 alpha)y^2 = 0$
+
+  For perpendicular pair, $(1 - a^2 cos^2 alpha) + (1 - a^2 sin^2 alpha) = 0$
+
+  $=> a^2 = 2 => a = plus.minus sqrt(2)$.
+  //90
++ Given $a x^2 + 2h x y + b y^2 = 0$
+
+  For rotation of axes by an angle $theta$ (anticlockwise), the standard transformation is
+
+  $x = x' cos theta - y' sin theta$ and
+  $y = x' sin theta + y' cos theta$
+
+  Now taking $theta = 90^degree$
+
+  We know $cos 90^degree = 0$, $sin 90^degree = 1$
+
+  Substituting,  $x = x'(0) - y'(1) = -y'$ and $y = x'(1) + y'(0) = x'$
+
+  Hence, for $90^degree$ rotation: $x = -y'$, $y = x'$
+
+  Substituting $a(-y')^2 + 2h(-y')(x') + b(x')^2 = 0$
+
+  $=> a y'^2 - 2h x'y' + b x'^2 = 0$
+
+  Rewriting $b x'^2 - 2h x'y' + a y'^2 = 0$, thus equation is $b x^2 - 2h x y + a y^2 = 0$.
+  //91
++ Let the equations make angles of $alpha$ and $beta$ with the positive direction of $x$-axis. Then
+
+  $(y - tan alpha x)(y - tan beta x) = a x^2 + 2h x y + b y^2 => tan alpha + tan beta = -(2h)/b, tan alpha
+  tan beta = a/b$
+
+  $y = 0$ is $x$-axis. Since the lines make angle $alpha, beta$ after reflection they will make same angle
+  with negtive direction of $x$-axis. Thus, reflected lines will make angle $pi - alpha$ with positive
+  direction of $x$-axis.
+
+  Thus, new equation is $(y + tan alpha)(y + tan beta) = a x^2 - 2h x y + b y^2 = 0$.
+  //92
++ Given the pair of straight lines $a x^2 + 2h x y + b y^2 = 0$
+
+  Let the lines be $y = m_1 x$ and $y = m_2 x$ where $b m^2 + 2h m + a = 0$
+
+  Hence $m_1 + m_2 = -2h/b$ and $m_1 m_2 = a/b$
+
+  The perpendicular distance from $(x', y')$ to the line $y = m x$ is $(|m x' - y'|) / sqrt(m^2 + 1)$
+
+  The sum of the squares of the perpendiculars is
+  $S = (m_1 x' - y')^2/(m_1^2 + 1) + (m_2 x' - y')^2/(m_2^2 + 1)$
+
+  On combining the two terms into a single fraction and expanding, and then using the relations $m_1 + m_2 =
+  -2h/b$ and $m_1 m_2 = a/b$, the numerator simplifies to $4h^2(x'^2 + y'^2) + 4h(a + b)x'y' + 2(a - b)(a
+  x'^2 - b y'^2)$
+
+  The denominator simplifies to $(a - b)^2 + 4h^2$
+
+  Therefore the sum of the squares of the perpendiculars is $[4h^2(x'^2 + y'^2) + 4h(a + b)x'y' + 2(a - b)(a
+  x'^2 - b y'^2)] / [(a - b)^2 + 4h^2]$.
+  //93
++ Let the pair of lines $a x^2 + 2h x y + b y^2 = 0$ represent two lines through the origin. Let their
+  slopes be $m_1$ and $m_2$ so that $b m^2 + 2h m + a = 0$. Hence $m_1 + m_2 = -2h/b$ and $m_1 m_2 = a/b$.
+
+  The triangle is formed by these two lines and $l x + m y + n = 0$.
+
+  Intersection with $y = m_1 x$ gives $x_1 = -n/(l + m m_1)$ and $y_1 = -m_1 n/(l + m m_1)$.
+
+  Intersection with $y = m_2 x$ gives $x_2 = -n/(l + m m_2)$ and $y_2 = -m_2 n/(l + m m_2)$.
+
+  The centroid is $x = (x_1 + x_2 + x_3)/3$ and $y = (y_1 + y_2 + y_3)/3$.
+
+  So $x = -n/3 (1/(l + m m_1) + 1/(l + m m_2))$ and $y = -n/3 (m_1/(l + m m_1) + m_2/(l + m m_2))$.
+
+  Now $1/(l + m m_1) + 1/(l + m m_2) = (2l + m(m_1 + m_2))/((l + m m_1)(l + m m_2))$
+
+  and $(l + m m_1)(l + m m_2) = l^2 + l m (m_1 + m_2) + m^2 m_1 m_2$.
+
+  Substitute $m_1 + m_2 = -2h/b$ and $m_1 m_2 = a/b$ to get $(l + m m_1)(l + m m_2) = (b l^2 - 2h l m + a m^2)/b$.
+
+  Also $2l + m(m_1 + m_2) = 2l - 2h m/b$.
+
+  Thus $x = -n/3 ((2l - 2h m/b)/((b l^2 - 2h l m + a m^2)/b))$$= -2n (b l - h m)/(3 (b l^2 - 2h l m + a m^2))$.
+
+  Similarly $m_1/(l + m m_1) + m_2/(l + m m_2) = (l(m_1 + m_2) + 2m m_1 m_2)/((l + m m_1)(l + m m_2))$
+
+  $= (-2h l/b + 2a m/b)/((b l^2 - 2h l m + a m^2)/b)$ $= (-2h l + 2a m)/(b l^2 - 2h l m + a m^2)$.
+
+  Hence $y = -n/3 ((-2h l + 2a m)/(b l^2 - 2h l m + a m^2))$ $= -2n (a m - h l)/(3 (b l^2 - 2h l m + a m^2))$.
+
+  Therefore the centroid is $((-2n (b l - h m))/(3 (b l^2 - 2h l m + a m^2)), (-2n (a m - h l))/(3 (b l^2 - 2h l
+  m + a m^2)))$.
+  //94
++ Let the two sides of the triangle through the origin be represented by $a x^2 + 2h x y + b y^2 = 0$
+
+  Let their slopes be $m_1$ and $m_2$. Then they satisfy $b m^2 + 2h m + a = 0$
+
+  Hence $m_1 + m_2 = -2h/b$ and $m_1 m_2 = a/b$. The two sides are therefore $y = m_1 x$ and $y = m_2 x$.
+
+  Let the third side be $l x + m y + n = 0$ and let the orthocenter be $(l, m)$.
+
+  The altitude from $(l, m)$ to the line $y = m_1 x$ is perpendicular to it, so its slope is $-1/m_1$. Hence
+  its equation is $y - m = -1/m_1 (x - l)$.
+
+  Since this altitude lies along the other side $y = m_2 x$, substitute $y = m_2 x$ to get $m_2 x - m =
+  -1/m_1 (x - l)$.
+
+  On simplifying this relation and using $m_1 m_2 = a/b$, a relation between $l$ and $m$ is obtained. A
+  similar relation is obtained from the other altitude. Combining these and eliminating the parameters gives
+  the equation of the third side.
+
+  After simplification using $m_1 + m_2 = -2h/b$ and $m_1 m_2 = a/b$, the equation of the third side is
+  found to be $(a + b)(l x + m y) = a m^2 - 2h l m + b l^2$.
+  //95
++ Given $x^2 + 4x y + y^2 = 0$. Putting $y = m x$, $m^2 + 4m + 1 = 0$.
+
+  $m_1 = -2 + sqrt(3)$ and $m_2 = -2 - sqrt(3)$.
+
+  Angle between the lines $tan theta = |(m_1 - m_2)/(1 + m_1 m_2)| = sqrt(3)$ so $theta = 60^degree$.
+
+  Hence, the angle at the origin is $60^degree$.
+
+  The third side is $x - y = 4$.
+
+  Distance from origin to this line $= (|0 - 0 - 4|)/sqrt(1^2 + (-1)^2) = 4/sqrt(2) = 2 sqrt(2)$.
+
+  This is the altitude of the equilateral triangle.
+
+  Let side be $s$. Altitude $= s sqrt(3)/2 = 2 sqrt(2)$.
+
+  So $s = 4 sqrt(2)/sqrt(3)$.
+
+  Area $= sqrt(3)/4 s^2 = sqrt(3)/4 (16*2/3) = 8/sqrt(3)$.
+  //96
++ Given the pair of lines $x^2 + 4x y + y^2 = 0$
+
+  Put $y = m x$, $m^2 + 4m + 1 = 0$ $=> m_1 = -2 + sqrt(3)$, $m_2 = -2 - sqrt(3)$
+
+  Angle between the two lines is $tan theta = |(m_1 - m_2)/(1 + m_1 m_2)| = sqrt(3)$ so $theta = 60^degree$
+
+  Now the second line is $x + y + 4 sqrt(6) = 0$. Its slope is $-1$
+
+  Check angle with $y = m x$, $tan theta_1 = |(m_1 + 1)/(1 - m_1)| = sqrt(3)$ so $theta_1 = 60^degree$
+
+  $tan theta_2 = |(m_2 + 1)/(1 - m_2)| = sqrt(3)$ so $theta_2 = 60^degree$
+
+  Therefore the triangle is equilateral and the angles are $60^degree$ each.
+  //97
++ Given $a x^2 + 2h x y + b y^2 = 0$ and $x cos alpha + y sin alpha = p$
+
+  Let slopes of the pair be $m_1, m_2$ where $b m^2 + 2h m + a = 0$
+
+  So $m_1 + m_2 = -(2h)/b$, $m_1 m_2 = a/b$
+
+  Points of intersection with $y = m x$ give $x = p/(cos alpha + m sin alpha)$, $y = m p/(cos alpha + m sin alpha)$
+
+  Area of triangle is $1/2 |x_1 y_2 - x_2 y_1|$
+
+  $= 1/2 p^2 (|m_2 - m_1|) / ((cos alpha + m_1 sin alpha)(cos alpha + m_2 sin alpha))$
+
+  $(cos alpha + m_1 sin alpha)(cos alpha + m_2 sin alpha) = cos^2 alpha + cos alpha sin alpha (m_1 + m_2) +
+  sin^2 alpha m_1 m_2$
+
+  $= (b cos^2 alpha - 2h sin alpha cos alpha + a sin^2 alpha)/b$
+
+  Also $m_2 - m_1 = 2 sqrt(h^2 - a b)/b$
+
+  So area becomes $p^2 sqrt(h^2 - a b)/(b cos^2 alpha - 2h sin alpha cos alpha + a sin^2 alpha)$.
+  //98
++ Given $a x^2 + 2h x y + b y^2 + 2g x + 2f y + c = 0$
+
+  Set $y = 0$ to get intersection with x-axis, $a x^2 + 2g x + c = 0$
+
+  Let roots be $x_1, x_2$
+
+  So base lies on x-axis with endpoints $(x_1, 0)$ and $(x_2, 0)$
+
+  Base length $|x_1 - x_2| = 2 sqrt(g^2 - a c)/|a|$
+
+  The pair of lines has angle factor of $sqrt(h^2 - a b)$
+
+  Hence, area of triangle formed by the pair of lines and x-axis is $(g^2 - a c)/(a sqrt(h^2 - a b))$.

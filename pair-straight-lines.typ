@@ -308,5 +308,70 @@ it to resolve into linear factors. We will obtain the same condition as above us
   is $d$, show that $(alpha y - beta x)^2 = d^2(x^2 + y^2)$.
   //77
 + If one of the lines given by $a x^2 + 2h x y + b y^2 = 0$ coincides with one of those given by $a_1x^2 +
-  2h_1x y + b_1y^2 = 0$ and the other lines represented by them be perpendicular, prove that 
+  2h_1x y + b_1y^2 = 0$ and the other lines represented by them be perpendicular, prove that
   $(b a_1b_1)/(b_1 - a_1) = (h a b)/(b - a) = 1/2 sqrt(-a a_1b b_1)$.
+  //78
++ If the equation $a x^2 + 2h x y + b y^2 + 2g x + 2f y + c = 0$ represented a pair of parallel lines, prove
+  that $a/ h = h/b = g/f$. Also prove that the distance between these parallel lines is $2sqrt((g^2 - c
+  a)/(a(a + b)))$.
+  //79
++ If the equation $a x^2 + 2h x y + b y^2 + 2g x + 2f y + c = 0$ represents a pair of straight lines, prove
+  that the square of the distance of their point of intersection from the origin is $(c(a + b) - f^2 -
+  g^2)/(a b - h^2)$.
+  //80
++ If the equation $a x^2 + 2h x y + b y^2 + 2g x + 2f y + c = 0$ represents a pair of straight lines
+  equidistant from the origin, prove thta $f^4 - g^4 = c(b f^2 - a g^2)$.
+  //81
++ If the lines $a x^2 + 2h x y + b y^2 = 0$ be two sides of a parallelogram and the line $l x + m y = 1$
+  be one of its diagonals, show that the equation of the other diagonal is $y(b l - h m) = x(a m - h l)$.
+  //82
++ Show that the orthocenter of the triangle formed by the lines $a x^2 + 2h x y + b y^2 = 0$ and $l x + m y
+  = 1$ is given by $x/l = y/m = (a + b)/(a m^2 - 2h l m + b l^2)$.
+  //83
++ Find the area of the triangle formed by the lines $a x^2 + 2h x y + b y^2 = 0$ and $l x + m y + n = 0$.
+  //84
++ Show that the straight lines $(A^2 - 3B^2)x^2 + 8A B x y + (B^2 - 3A^2)y^2 = 0$ form with the line $A x +
+  B y + C = 0$ an equilateral triangle whose area is $C^2/(sqrt(3)(A^2 + B^2))$.
+  //85
++ Prove that the lines $(l x + m y)^2 - 3(m x - l y)^2 = 0$ and $l x + m y + n = 0$ form an equilateral
+  triangle.
+  //86
++ Show that the four straight lines given by $12x^2 + 7x y - 12y^2 = 0$ and $12x^2 + 7x y - 12y^2 - x + 7y -
+  1 = 0$ lie along the sides of a square.
+  //87
++ The lines represented by $x^2 - 3x y + 2y^2 = 0$ are shifted parallel to itself so that their point of
+  intersection comes to $(1, 1)$. Find the combined equation of the lines in new position.
+  //88
++ The joint equation of the lines of rays of incidence and reflection is $2x^2 - x y - y^2 = 0$. Find the
+  joint equation of two possible lines from which the ray has been reflected.
+  //89
++ If the angle between the lines joining the origin to the points of intersection of the lines $x cos alpha
+  + y sin alpha = 1$ and the circle $x^2 + y^2 = a^2$ be $90^degree$, find the possible values of $a$.
+  //90
++ If the pair of straight lines $a x^2 + 2h x y + b y^2 = 0$ is rotated about the origin through
+  $90^degree$, find the equation in the new position.
+  //91
++ Fing the image of the pair of lines represented by $a x^2 + 2h x y + b y^2 = 0$ by the line mirror whose
+  equation is $y = 0$.
+  //92
++ Prove that the sum of the squares of the perpendiculars drawn from the point $(x', y')$ on the lines given
+  by $a x^2 + 2h x y + b y^2 = 0$ is $[4h^2(x'^2 + y'^2) + 4h(a + b)x'y' + 2(a - b)(a x'^2 - b y'^2)]/[(a -
+  b)^2 + 4h^2]$.
+  //93
++ If $(x, y)$ be the centroid of the triangle whose sides are the lines $a x^2 + 2h x y + b y^2 = 0$ and $l
+  x + m y + n = 0$. Find the centroid.
+  //94
++ A triangle has the line $a x^2 + 2h x y + b y^2 = 0$ for two of its sides and the point $(l, m)$ for its
+  orthocenter. Prove that the third side has the equation $(a + b)(l x + m y) = a m^2 - 2h l m + b l^2$.
+  //95
++ Prove that the lines $x^2 + 4x y + y^2 = 0$ and $x - y = 4$ are the sides of an equilateral triangle. Find
+  its area.
+  //96
++ Find the internal angles of the triangle formed by the pair of straight lines $x^2 + 4x y + y^2 = 0$ and
+  straight line $x + y + 4sqrt(6) = 0$.
+  //97
++ Prove that the area of the triangle formed by the lines $a x^2 + 2h x y + b y^2 = 0$ and $x cos alpha + y
+  sin alpha = p$ is $(p^2sqrt(h^2 - a b))/(b cos^2alpha - 2h sin alpha cos alpha + a sin^2alpha)$.
+  //98
++ Find the area of the triangle formed by the lines $a x^2 + 2h x y + b y^2  + 2g x + 2f y + c = 0$ and the
+  $x$-axis.
