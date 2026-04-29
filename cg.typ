@@ -89,6 +89,7 @@
 #include "locus.typ"
 #include "straight-lines.typ"
 #include "pair-straight-lines.typ"
+#include "circles.typ"
 
 #part("Answers")
 #counter(heading).update(0)
