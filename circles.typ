@@ -1423,8 +1423,10 @@ locus of points of intersectionof two circles.
         if nums.len() == 1 {
             thread-counter.step()
             let thread-count = thread-counter.get().first() + 1
+            //text(blue)[#numbering("1.a.", thread-count)]
             numbering("1.a.", thread-count)
         } else {
+            //text(blue)[#numbering("1.a.", nums.last())]
             numbering("1.a.", nums.last())
         }
     },
@@ -1432,3 +1434,140 @@ locus of points of intersectionof two circles.
 )
 
 == Problems
+//1
++ Find the center and the radius of the circle $3x^2 + 3y^2 - 8x - 10y + 3 = 0$.
+  //2
++ Prove that the radii of the circles $x^2 + y^1 = 1, x^2 + y^2 - 2x - 6y = 6$ and $x^2 + y^2 - 4x - 12y =
+  9$ are in A.P.
+  //3
++ Find the area of an equilateral triangle inscribed in the circle $x^2 + y^2 + 2g x + 2f y + c = 0$.
+  //4
++ Find the center and the radius of the circle $x^2 + y^2 + 6x - 8y = 24$.
+  //5
++ Find the center and the radius of the circle $5x^2 + 5y^2 + 4x - 8y = 16$.
+  //6
++ Find the center and the radius of the circle $x^2 + y^2 - 6x - 2y = 6$.
+  //7
++ What will be the radius and center of the circle $1/2(x^2 + y^2) + x cos theta + y sin theta - 4 = 0$?
+  //8
++ Prove that the centers of the circles $x^2 + y^2 = 1, x^2 + y^2 + 6x - 2y - 1 = 0$ and $x^2 + y^2 - 12x +
+  4y = 1$ are collinear.
+  //9
++ Prove that the radii of the circles $x^2 + y^2 = 1, x^2 + y^2 - 2x - 6y = 6$ and $x^2 + y^2 - 4x - 12y =
+  9$ are in A.P.
+  //10
++ Prove that the radii of the circles $x^2 + y^2 = 4, 4x^2 + 4y^2 - 8x - 24y + 15 = 0$ and $x^2 + y^2 - 4y -
+  5 = 0$ are in A.P.
+  //11
++ Prove that the circles $x^2 + y^2 - 9 = 4r^2, r = 1, 2, 3$ cut off equal intercepts between the circles on
+  the line $3x = 4y + 15 = 0$.
+  //12
++ Find the equation of the circle whose center is $(1, 2)$ and which passes through the point $(4, 6)$.
+  //13
++ If the equations of two diameters of a circle are $x + y = 6$ and $x + 2y = 4$ and the radius of the
+  circle is $10$, find the equation of the circle.
+  //14
++ Find the equation of the circle whose center is $(3, 4)$ and which touches the line $5x + 12y = 1$.
+  //15
++ Find the equation of a circle which passes through the point $(2, 0)$ and whose center is the limit of the
+  point of intersection of the lines $3x + 5y = 1$ and $(2 + c)x + 5c^2y = 1$ as $c$ tends to $1$.
+  //16
++ A circle has radius of $3$ units and its center lies on the line $y = x - 1$. Find the equation of the
+  circle if it passes through $(7, 3)$.
+  //17
++ Find the equation of the circle, which touches the axes and whose center lies on the line $x - 2y = 3$.
+  //18
++ A circle of radius $2$ lies in the first quadrant and touches both the axes of coordinates. Find the
+  equation of the circle with center at $(6, 5)$ and touching the above circle externally.
+  //19
++ Find the equation of the circles whose center is $(3, -1)$ and which cut off an intercept of length $6$
+  from $2x - 5y + 18 = 0$.
+  //20
++ Find equations of the circles touching $y$-axis at $(0, 3)$ and making intercept of $8$ units on the
+  $x$-axis.
+  //21
++ Find the equation of the circle having the pair of lines $x^2 + 2x y + 3x + 6y = 0$ as its normals and
+  having the size just sufficient to contain the circle $x(x - 4) + y(y - 3) = 0$.
+  //22
++ A circle of raidus $5$ units touches the coordinate axes in the first quadrant. If the circle makes one
+  complete roll on the $x$-axis along the positive direction of $x$-axis, find its equation in the new
+  position.
+  //23
++ The circle $x^2 + y^2 - 4x - 8y + 16 = 0$ rolls up the tangent to it at $(2 + sqrt(3), 3)$ by $2$ units,
+  assuming the $x$-axis as horizontal, find the equation of the circle in the new position.
+  //24
++ Find the equations of the circles touching the lines $y = 0$ and $y = sqrt(3)(x + 1)$ and having the
+  centers at a distance $1$ from the origin.
+  //25
++ Find the equation of the circle passing through the point $(2, 8)$ touching the lines $4x - 3y + 24 = 0$
+  and $4x + 3y - 42 = 0$ and having $x$ coordinate of the center of the circle numerically less than or
+  equal to $8$.
+  //26
++ Find the equation of the circle whose center is $(1, -5)$ and radius is $7$.
+  //27
++ Find the equation of the circle whose center is $(-1, -2)$ nad diameter is $25$.
+  //28
++ If the equation of two diameters of a circle are $2x + y = 6$ and $3x + 2y = 4$ and the radius is $10$,
+  find the equation of the circle.
+  //29
++ Find the equation of the circle which passes through the point of intersection of $3x - 2y - 1 = 0$ and
+  $4x + y - 27 = 0$ and whose center is $(2, 3)$.
+  //30
++ Find the equation of the circle whose center is $(1, 2)$ and which passes through the point of
+  intersection of $3x + y = 14$ and $2x + 5y = 18$.
+  //31
++ Find the equation of the circle passing through the center of the circle $x^2 + y^2 - 4x - 6y = 8$ and
+  being concentric with the circle $x^2 + y^2 - 2x - 8y = 5$.
+  //32
++ Find the equation of the circle passing through the point of intersection of $x + 3y = 0$ and $2x - 7y =
+  0$ and whose center is the point of intersection of lines $x + y + 1 = 0$ and $x - 2y + 4 = 0$.
+  //33
++ Find the equation of the circle whose radius is $5$ and the center lies on the positive side of $x$-axis
+  at a distance $5$ from the origin.
+  //34
++ Find the equation of the circle which passes through the points $(-1, 2)$ and $(3, -2)$ and whose center
+  lies on the line $x - 2y = 0$.
+  //35
++ Find the equation of the circle which passes through the point $(1, -2)$ and $(4, -3)$ and whose center
+  lies on the line $3x + 4y = 7$.
+  //36
++ Find the equation of the circle whose radius is $5$ and which touches the circle $x^2 + y^2 - 2x - 4y - 20
+  = 0$ at the point $(5, 5)$.
+  //37
++ Find the equation of the circle whose center is $(1, -3)$ and which touches the line $2x - y - 4 = 0$.
+  //38
++ Write down the equation of a circle concentric with the circle $x^2 + y^2 - 4x + 6y - 17 = 0$ and tangent
+  to the line $3x - 4y + 7 = 0$.
+  //39
++ Find the equation of the circle of radius $5$ and touching the line $3x - 4y + 5 = 0$ at $(1, 2)$.
+  //40
++ If the raidus of the circle is $5$ and the equations of the twp normals to the circle are $3x - 5y + 2 =
+  0$ and $x + 2y = 3$, find the equation of the circle.
+  //41
++ Find the equation of the circle which touches the $y$-axis at a distance $4$ from the origin towards the
+  positive side of $y$-axis and cuts of an intercept $6$ on the $x$-axis.
+  //42
++ Find the equation of the circle which touches both the axes and whose radius is $a$.
+  //43
++ Find the equation of the circle passing through the point $(h, k)$ and touching the $y$-axis at origin.
+  //44
++ Find the equation of the circle touching the axis of $x$ at the origin and touching the line $3y = 4x +
+  24$.
+  //45
++ What is the parametric equation of the circle $x^2 + y^2 = 16$.
+  //46
++ Find the equation of the circle which touches the line $2x - y = 1$ at $(1, 1)$ and the line $2x + y = 4$.
+  //47
++ Find the euqation of the circle touching the lines $4x - 3y = 30$ and $4x - 3y + 10 = 0$ having the center
+  on the line $2x + y = 0$.
+  //48
++ A circle of raidus $4$ units touches the coordinate axes in the first quadrant . Find the equation of its
+  image w.r.t. the line mirror $y = 0$.
+  //49
++ The equation of a circle is $x^2 + y^2 + 16x - 24y + 183 = 0$. Find the equation of the image of this
+  circle by the line mirror $4x + 7y + 13 = 0$.
+  //50
++ The circle $(x - a)^2 + (y - a)^2 = a^2$ is rolled on the $x$-axis in the positive direction through one
+  complete revolution. Find the equation of the circle in the new position.
+  //51
++
