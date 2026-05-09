@@ -1570,4 +1570,78 @@ locus of points of intersectionof two circles.
 + The circle $(x - a)^2 + (y - a)^2 = a^2$ is rolled on the $x$-axis in the positive direction through one
   complete revolution. Find the equation of the circle in the new position.
   //51
-+
++ The center of a circle is $(1, 1)$ and its radius is $5$ units. If the center is shifted on the line $x -
+  y = 0$ through a distance of $sqrt(2)$ units, find the equation of the circle in the new position. How
+  many such circles are possible?
+  //52
++ Find the equation of the circles which pass through the origin and cut off equal chords of $sqrt(2)$ units
+  from the straight lines $y = x$ and $y = -x$.
+  //53
++ Find the center of the circle which is inscribed in the triangle formed by the lines $3x + 4y - 15 = 0, 3x
+  - 4y - 7 = 0$, and $12x + 5y - 115 = 0$.
+  //54
++ Show that the equation of the circle which touches the coordinate axes and whose center lies on the
+  straight line $l x + m y + n = 0$ is $(l plus.minus m)^2(x^2 + y^2) plus.minus 2n(l plus.minus m)(x + y) +
+  n^2 = 0$.
+  //55
++ Of the two concentric circles the smaller one has the equation $x^2 + y^2 = 4$. If the intercept on the
+  line $x + y = 2$ made between the two circles is $1$, find the equation of the larger circle.
+  //56
++ Is $(3, 2)$ an interior point or an exterior point of the circle $x^2 + y^2 - 2x + y = 0$? If inerior,
+  find the equation of the circle centered on it and of maximum area contained in the given in the
+  circle. If exterior, find the circle of maximum radius centered on it containing the given circle.
+  //57
++ Find the equation of the circle with minimum raidus which contains the three circles $x^2 + y^2 - 4y - 5 =
+  0, x^2 + y^2 + 12x + 4y + 31 = 0$, and $x^2 + y^2 + 6x + 12y + 36 = 0$.
+  //58
++ Find the equation of the circle whose diameter is the line joining the points $(-4, 3)$ and $(12,
+  -1)$. Find also the intercept made by it on $y$-axis.
+  //59
++ The sides of a square are $x = 1, x = 3, y = 2$ and $y = 4$. Find the equation of the circle drawn on the
+  diagonals of the square as its diameter.
+  //60
++ Find the equation of the circle on the line joining the origin and $(2, -4)$ as diameter.
+  //61
++ Find the equation of the circle, the endpoints of whose diameter are $(2, -3)$ and $(-2, 4)$. Find its
+  center and radius.
+  //62
++ Find the equation of the circle drawn on the intercept between the axes made by the line $3x + 4y = 12$ as
+  a diameter.
+  //63
++ Find the equation of the circle the endpoints of whose diameter are the centers of the circles $x^2 + y^2
+  + 6x - 14y = 1$ and $x^2 + y^2 - 4x + 1-y = 2$.
+  //64
++ The sides of a square are $x = 6, x = 9, y = 3$ and $y = 6$. Find the equation of a circle drawn on the
+  diagonal of the square as its diameter.
+  //65
++ Find the equation of the circle circumscribing the rectangle whose sides are $x - 3y = 4, 3x + y = 22, x -
+  3y = 14$ and $3x + y = 62$.
+  //66
++ The ascissa if two points $A$ and $B$ are the roots of the equation $x^2 + 2x - a^2 = 0$ and the
+  oridinates are the roots of the equation $y^2 + 4y - b^2 = 0$. Find the equation of the circle with $A B$
+  as its diameter. Also find the coordinates of the center and the length of the raidus of the circle.
+  //67
++ If $(4, 1)$ be one endpoint of the diameter of the circle $x^2 + y^2 - 2x + 6y - 15 = 0$, find the
+  coordinates of the other endpoint of the diagonal.
+  //68
++ Find the equation of the circumcircle of the quadrilateral formed by the four lines $a x + b y plus.minus
+  c = 0$ and $b x - a y plus.minus c = 0$.
+  //69
++ Find the equation of the circle which passes through the points $(1, -2)$ and $(4, -3)$ and whose center
+  lies on the line $3x + 4y = 7$.
+  //70
++ Find the equation of the circle passing through the origin and the points where the straight line $3x + 4y
+  = 12$ meets the coordinate axes.
+  //71
++ Show that the cyclic quadrilateral is formed by the lines $5x + 3y = 9, x = 3y, 2x = y$ and $x + 4y + 2 =
+  0$ taken in order. Find the equation of the circle.
+  //72
++ Find the equation of a circle passing through the points $(1, 2)$ and $(3, 4)$ and touching the line $3x +
+  y - 3 = 0$.
+  //73
++ A circle touches both the $x$-axis and the line $4x - 3y + 4 = 0$. Its center is in the third quadrant anf
+  lies on the line $x - y -1 = 0$. Find the equation of the circle.
+  //74
++ Find the equation of the circle passing through the points $(1, 0), (0, 1)$ and $(1, -2)$.
+  //75
++ Find the equation of the circle passing through the points $(0, 0), (a, 0)$ and $(0, b)$.

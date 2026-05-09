@@ -889,3 +889,444 @@
   the new center as $(a + 2pi a, a)$.
 
   Thus, new equation is $(x - a - 2pi a)^2 + (y - a)^2 = a^2$.
+  //51
++ The center is $(1,1)$ and radius is $5$. The center moves on the line $x - y = 0$, so any new center
+  $(h,k)$ satisfies
+
+  $h - k = 0$ $=> h = k$
+
+  Distance between old and new center is $sqrt(2)$, so $(h - 1)^2 + (k - 1)^2 = 2$
+
+  Substitute $k = h$ $(h - 1)^2 + (h - 1)^2 = 2$
+
+  $2(h - 1)^2 = 2$ $=> h - 1 = plus.minus 1$
+
+  *Case I:* $h = 2, k = 2$
+
+  *Case II:* $h = 0, k = 0$
+
+  Thus two circles are possible.
+
+  For $(2,2)$ equation of circle will be $(x - 2)^2 + (y - 2)^2 = 25$.
+
+  For $(0,0)$ equation of circle will be $x^2 + y^2 = 25$.
+  //52
++ Let the circle pass through the origin and have center $(h, k)$ and radius $r$.
+
+  Since it passes through $(0,0)$ $=> h^2 + k^2 = r^2$
+
+  The length of chord cut by the circle on a line is $2sqrt(r^2 - d^2)$ where $d$ is perpendicular distance
+  from center to the line.
+
+  Given chord length is $sqrt(2)$.
+
+  So $2sqrt(r^2 - d^2) = sqrt(2)$ $=> r^2 - d^2 = 1/2$$=> h^2 + k^2 - d^2 = 1/2$
+
+  Now for line $y = x$$=> x - y = 0$
+
+  Distance from $(h,k)$ is $d_1 = |h - k|/sqrt(2)$
+
+  So $h^2 + k^2 - (h - k)^2/2 = 1/2$
+
+  Simplifying gives us $(h + k)^2 = 1$  $dots$(1)
+
+  Now for line $y = -x$ $=>x + y = 0$. Distance is $d_2 = |h + k|/sqrt(2)$
+
+  So similarly $h^2 + k^2 - (h + k)^2/2 = 1/2$
+
+  Simplifying gives $(h - k)^2 = 1$  $dots$(2)
+
+  From (1) and (2): $h + k = plus.minus 1$ and $h - k = plus.minus 1$
+
+  *Case I:* $h + k = 1, h - k = 1$ => $h = 1, k = 0$
+
+  *Case II:* $h + k = 1, h - k = -1$ => $h = 0, k = 1$
+
+  *Case III:* $h + k = -1, h - k = 1$ => $h = 0, k = -1$
+
+  *Case IV:* $h + k = -1, h - k = -1$ => $h = -1, k = 0$
+
+  Radius: $r^2 = h^2 + k^2 = 1$. So $r = 1$
+
+  Thus the circles are $(x - 1)^2 + y^2 = 1$, $x^2 + (y - 1)^2 = 1$, $x^2 + (y + 1)^2 = 1$, and $(x + 1)^2 +
+  y^2 = 1$.
+  //53
++ Let $A = 3x + 4y - 15 = 0, quad B = 3x - 4y - 7 = 0, quad C = 12x + 5y - 115 = 0$
+
+  $abs(3x + 4y - 15)/5 = abs(3x - 4y - 7)/5$ $=>3x + 4y - 15 = plus.minus (3x - 4y - 7)$
+
+  Taking plus sign $3x + 4y - 15 = 3x - 4y - 7$ $=> 8y = 8$$=>y = 1$
+
+  Now use the bisector of $A$ and $C$ $abs(3x + 4y - 15)/5 = abs(12x + 5y - 115)/13$
+
+  Substitute $y = 1$ ot get $abs(3x - 11)/5 = abs(12x - 110)/13$ $=> x = 7$
+
+  Hence the incenter is $(7,1)$.
+  //54
++ Let the raidus be $r$. The center could be in any quadrant, and thus, center is $(plus.minus r, plus.minus
+  r)$.
+
+  Since the center lies on $l x + m y + n = 0$, therefore, $r = plus.minus n/(l + m)$.
+
+  Putting this is in $(x plus.minus r)^2 + (y plus.minus r)^ = r^2$ gives us
+
+  $(l plus.minus m)^2(x^2 + y^2) plus.minus 2n(l plus.minus m)(x + y) + n^2 = 0$.
+  //55
++ The smaller circle is $x^2 + y^2 = 4$ so its centre is $(0,0)$ and radius is $2$.
+
+  Let the radius of the larger circle be $R$. The distance of the line $x + y = 2$ from the centre is $sqrt(2)$
+
+  Chord length in a circle of radius $r$ at distance $d$ from the centre is $2 sqrt(r^2 - d^2)$
+
+  Hence the chord lengths are $2 sqrt(4 - 2) = 2 sqrt(2)$ and $2 sqrt(R^2 - 2)$
+
+  Given intercept between the circles is $1$
+
+  $=> sqrt(R^2 - 2) - sqrt(2) = 1$$=> sqrt(R^2 - 2) = 1 + sqrt(2)$ $=> R^2 = 5 + 2 sqrt(2)$
+
+  Therefore, the larger circle is $x^2 + y^2 = 5 + 2 sqrt(2)$
+  //56
++ The given circle is $x^2 + y^2 - 2x + y = 0$. So the centre is $(1,-1/2)$ and radius is $sqrt(5)/2$.
+
+  For the point $(3,2)$, the distance from the centre is $sqrt((3 - 1)^2 + (2 + 1/2)^2)$$= sqrt(41)/2$
+
+  Since $sqrt(41)/2 > sqrt(5)/2$ the point is exterior to the circle.
+
+  The maximum radius of a circle centered at $(3,2)$ containing the given circle is
+
+  $(sqrt(41))/2 + (sqrt(5))/2 = (sqrt(41) + sqrt(5))/2$
+
+  Hence the required circle is $(x - 3)^2 + (y - 2)^2 = ((sqrt(41) + sqrt(5))/2)^2$$=> (x - 3)^2 + (y - 2)^2
+  = (23 + sqrt(205))/2$.
+  //57
++ $C_1=(0,2),r_1=3$, $C_2=(-6,-2),r_2=3$, and $C_3=(-3,-6),r_3=3$
+
+  $Delta C_1C_2C_3$ is acute, so the minimum enclosing circle of the centers is the circumcircle
+
+  $C =(-31/18,-23/12)$ $=>R=(5 sqrt(949))/36$, where $C$ is circumcenter.
+
+  Since each given circle has radius $3$, the required minimum radius is $R_{m i n}=3+(5
+  sqrt(949))/36=(108+5 sqrt(949))/36$
+
+  Hence the required circle is $(x+31/18)^2+(y+23/12)^2=((108+5 sqrt(949))/36)^2$.
+  //58
++ The diamter form of the circle is $(x + 4)(x - 12) + (y - 3)(y + 1) = 0 => x^2 + y^2 - 8x - 2y - 51 = 0$.
+
+  Putting $x = 0$ for intercept on $y$-axis, we have $y^2 - 2y - 51 = 0$
+
+  Let $y_1$ and $y_2$ be the roots then $y_1 + y_2 = 2$ and $y_1 y_2 = -51$, then
+
+  $|y_1 - y_2| = sqrt((y_1 + y_2)^2 - 4y_1y_2) = 4sqrt(13)$.
+
+  So the intercept on $y$-axis is $4sqrt(13)$.
+  //59
++ One of the diagonals will have endpoints as $(1, 2)$ and $(3, 4)$ and the other will have $(3, 2)$ and
+  $(1, 4)$.
+
+  Thus, the equation of the circle is $(x - 1)(x - 3) + (y - 2)(y - 4)$.
+
+  The other diagonal will  also give the same equation.
+  //60
++ Equation of the circle will be $x(x - 2) + y(y + 4) = 0$.
+  //61
++ Equation of the circle will be $(x - 2)(x + 2) + (y + 3)(y - 4) = 0 => x^2 - 4 + y^2 - y - 12 = 0$
+
+  So center will be $(0, 1/2)$ and radius will be $sqrt(1/4 + 16) = sqrt(65)/2$.
+  //62
++ The intercepts are $(3, 0)$ and $(0, 4)$ on $x$ and $y$ axes. Thus, the equation of the circle will be
+
+  $x(x - 3) + y(y - 4) = 0$.
+  //63
++ The center of the circles are $(-3, 7)$ and $(2, -5)$. Thus, the equation of the circle is
+
+  $(x + 3)(x - 2) + (y - 7)(y + 5) = 0$.
+  //64
++ One of the diagonals will have endpoints as $(6, 3)$ and $(9, 6)$. Thus equation of the circle will be
+
+  $(x - 6)(x - 9) + (y - 3)(y - 6) = 0$. The other diagonal will also give the same equation.
+  //65
++ The given lines form a rectangle since there are two pairs of parallel lines.
+
+  From $x - 3y = 4$ and $3x + y = 22$ we get point $A(7, 1)$.
+
+  From $x - 3y = 14$ and $3x + y = 22$ we get point $B(8, -2)$.
+
+  From $x - 3y = 14$ and $3x + y = 62$ we get point $C(20, 2)$.
+
+  From $x - 3y = 4$ and $3x + y = 62$ we get point $D(19, 5)$.
+
+  We take one diagonal $(7, 1)$ and $(20, 2)$ as diameter to get the equation of the circle as
+
+  $(x - 7)(x - 20) + (y - 1)(y - 2) = 0$. The other diagonal will also give the same equation.
+  //66
++ Let $x_1, x_2$ be the roots of $x^2 + 2x - a^2 = 0$ then $x_1 + x_2 = -2$ and $x_1x_2 = -a^2$. Similarly,
+  let $y_1, y_2$ be the roots of $y^2 + 4y - b^2 = 0$ then $y_1 + y_2 = -4$ and $y_1y_2 = -b^2$.
+
+  Circle whose endpoints will be the diamter $A B$ will be given by $(x - x_1)(x - x_2) + (y - y_1)(y - y_2)
+  = 0$
+
+  $=> x^2 - x(x_1 + x_2) + x_1x_2 + y^2 - y(y_1 + y_2) + y_1y_2 = 0$
+
+  Substituting the values from the equations obtained we have the equation as
+
+  $x^2 + 2x - a^2 + y^2 + 4y - b^2 = 0 => =(x + 1)^2 + (y + 2)^2 = a^2 + b^2 + 5$
+
+  Hence, center is $(-1, -2)$ and radius is $sqrt(a^2 + b^2 + 5)$.
+  //67
++ The circle is given by $x^2 + y^2 - 2x + 6y - 15 = 0$. Let $(h, k)$ be the other endpoint. Then the
+  equation for the circle with the diameter is given by
+
+  $(x - 4)(x - h) + (y - 1)(y - k) = 0 => x^2 - (4 + h) + 4h + y^2 - (1 + k) + k = 0$
+
+  Comparing coefficients of $x$ and $y$ we have $h = -2$ and $k = -7$.
+  //68
++ The given lines are $a x + b y + c = 0$, $a x + b y - c = 0$, $b x - a y + c = 0$ and $b x - a y - c = 0$.
+
+  These form a rectangle since each pair is parallel and the two directions are perpendicular.
+
+  Take one pair of opposite vertices by solving $a x + b y + c = 0$ with $b x - a y + c = 0$ and $a x + b y
+  - c = 0$ with $b x - a y - c = 0$.
+
+  Let these points be $P(x_1, y_1)$ and $Q(x_2, y_2)$.
+
+  From symmetry we have $x_2 = -x_1$ and $y_2 = -y_1$. So the equation of the circle becomes $x^2 + y^2 =
+  x_1^2 + y_1^2$.
+
+  Solving $a x + b y + c = 0$ and $b x - a y + c = 0$ gives $x 1 = -c (a + b) / (a^2 + b^2)$ and $y 1 = -c
+  (b - a) / (a^2 + b^2)$.
+
+  So $x_1^2 + y_1^2 = (c^2 ((a + b)^2 + (b - a)^2)) / (a^2 + b^2)^2$.
+
+  This simplifies to $x_1^2 + y_1^2 = (2c^2) / (a^2 + b^2)$.
+
+  Hence the equation of the circumcircle is $x^2 + y^2 = (2c^2) / (a^2 + b^2)$.
+  //69
++ Let the equation of the circle is $x^2 + y^2 + 2g x + 2f y + c = 0$ whose center is $(-g, -f)$, which lies
+  on $3x + 4y = 7$. Thus,
+
+  $-3g - 4f = 7$. Since the circle passes through $(1, -2)$ and $(4, -3)$, therefore,
+
+  $2g - 4f + c = -5$ and $8g - 6f + c = 25$. From these two equations we have $-3g + f = 10$
+
+  Thus, $f = 3/5, g = -47/15$ and $c = 11/3$ and now it is trivial to find the equation.
+  //70
++ The line $3x + 4y = 12$ meets the axes at $(4, 0)$ and $(0, 3)$. Let the equation of the circle be $x^2 +
+  y^2 + 2g x + 2f y + c = 0$.
+
+  Since it passes through origin, therefore, $c = 0$.
+
+  For $(4, 0)$m the equation becomes $16 + 8g = 0 => g = -2$ and for $(0, 3)$ the equation is $9 + 6f = 0 =>
+  f = -3/2$. Thus, we have found the equation of the circle as $x^2 + y^2 - 4x - 3y = 0$.
+  //71
++ #figure(
+    cetz.canvas(length: 2cm,{
+        import cetz.draw: *
+
+        // Scale factor and origin
+        let s = 2.0  // 2 units per grid unit
+
+        // Vertices (real coordinates)
+        let A = (1.5,    0.5)
+        let B = (0,      0)
+        let C = (-2/9,  -4/9)
+        let D = (42/17, -19/17)
+
+        // -- Axes --------------------------------------------------
+        //set-style(mark: (end: "stealth", size: 0.25))
+        line((-1.5, 0), (3.2, 0), name: "xaxis", mark: (end: ">"), fill: black)
+        line((0, -1.8), (0, 1.2), name: "yaxis", mark: (end: ">"), fill: black)
+        content("xaxis.end", $x$, anchor: "west",  padding: 0.1)
+        content("yaxis.end", $y$, anchor: "south", padding: 0.1)
+        content((0,0), $O$, anchor: "north-east", padding: 0.08)
+
+        // Tick marks on x-axis
+        for i in (-1, 1, 2, 3) {
+            line((i, -0.05), (i, 0.05))
+            content((i, -0.05), [#i], anchor: "north", padding: 0.05)
+        }
+        // Tick marks on y-axis
+        for j in (-1, 1) {
+            line((-0.05, j), (0.05, j))
+            content((-0.05, j), [#j], anchor: "east", padding: 0.05)
+        }
+
+        // -- Four Lines --------------------------------------------
+        // L1: 5x + 3y = 9  ->  y = (9 - 5x)/3
+        // passes through A and D; extend to x = 0.1 and x = 3.0
+        set-style(mark: none)
+        line(
+            (1,  (9 - 5)  / 3),
+            (3.0,  (9 - 5*3.0)  / 3),
+            stroke: (paint: rgb("#534AB7"), thickness: 1pt),
+            name: "L1"
+        )
+        content("L1.end", $L_1$, anchor: "north-west", padding: 0.05)
+
+        // L2: x = 3y  ->  y = x/3
+        // passes through A and B; extend to x = -0.9 and x = 2.1
+        line(
+            (-0.9, -0.9/3),
+            (2.1,   2.1/3),
+            stroke: (paint: rgb("#D85A30"), thickness: 1pt),
+            name: "L2"
+        )
+        content("L2.end", $L_2$, anchor: "south-west", padding: 0.05)
+
+        // L3: y = 2x
+        // passes through B and C; extend to x = -0.55 and x = 0.55
+        line(
+            (-0.55, -1.1),
+            (0.55,   1.1),
+            stroke: (paint: rgb("#185FA5"), thickness: 1pt),
+            name: "L3"
+        )
+        content("L3.end", $L_3$, anchor: "south", padding: 0.05)
+
+        // L4: x + 4y + 2 = 0  ->  y = (-x - 2)/4
+        // passes through C and D; extend to x = -1.1 and x = 3.0
+        line(
+            (-1.1, (-(-1.1) - 2)/4),
+            (3.0,  (-(3.0)  - 2)/4),
+            stroke: (paint: rgb("#993C1D"), thickness: 1pt),
+            name: "L4"
+        )
+        content("L4.end", $L_4$, anchor: "north", padding: 0.05)
+
+        // -- Circle: 9x^2+9y^2-20x+15y=0 ---------------------------
+        // centre = (10/9, -5/6), radius = 25/18
+        circle(
+            (10/9, -5/6),
+            radius: 25/18,
+            stroke: (paint: rgb("#1D9E75"), thickness: 1.2pt, dash: "dashed"),
+            fill: rgb("#1D9E7510")
+        )
+
+        // -- Quadrilateral ABCD ------------------------------------
+        line(
+            A, B, C, D,
+            close: true,
+            stroke: (paint: rgb("#1D9E75"), thickness: 0.8pt, dash: "dotted"),
+            fill: rgb("#1D9E7518")
+        )
+
+        // -- Vertices ----------------------------------------------
+        for (pt, col, lbl, anch) in (
+            (A, rgb("#534AB7"), $A(3\/2,\ 1\/2)$,          "south-west"),
+            (B, rgb("#D85A30"), $B(0,\ 0)$,                "north-east"),
+            (C, rgb("#185FA5"), $C(-2\/9,\ -4\/9)$,        "north-east"),
+            (D, rgb("#993C1D"), $D(42\/17,\ -19\/17)$,     "north-west"),
+        ) {
+            circle(pt, radius: 0.07, fill: col, stroke: none)
+            content(pt, lbl, anchor: anch, padding: 0.12)
+        }
+
+        // -- Circle centre -----------------------------------------
+        circle(
+            (10/9, -5/6),
+            radius: 0.05,
+            fill: rgb("#1D9E75"),
+            stroke: none
+        )
+        content(
+            (10/9, -5/6),
+            $"centre"$,
+            anchor: "north",
+            padding: 0.1
+        )
+    }))
+
+  The given lines are $5x + 3y = 9$, $x = 3y$, $2x = y$ and $x + 4y + 2 = 0$.
+
+  From $5x + 3y = 9$ and $x = 3y$ we get $A(3/2, 1/2)$.
+
+  From $x = 3y$ and $2x = y$ we get $B(0, 0)$.
+
+  From $2x = y$ and $x + 4y + 2 = 0$ we get $C(-2/9, -4/9)$.
+
+  We take the general circle $x^2 + y^2 + g x + f y + c = 0$.
+
+  Substitute point $B(0, 0)$ and get $c = 0$.
+
+  Substitute point $A(3/2, 1/2)$.
+
+  This gives $5/2 + 3g/2 + f/2 = 0$ so $3g + f = -5$.
+
+  Substitute point $C(-2/9, -4/9)$.
+
+  This gives $20/81 - 2g/9 - 4f/9 = 0$.
+
+  Multiply by $81$ to get $20 - 18g - 36f = 0$ so $9g + 18f = 10$.
+
+  From $3g + f = -5$ we get $f = -5 - 3g$.
+
+  Substitute into $9g + 18f = 10$.
+
+  This gives $9g + 18(-5 - 3g) = 10$.
+
+  So $9g - 90 - 54g = 10$ which gives $-45g = 100$.
+
+  Thus, $g = -20/9$ and $f = 5/3$.
+
+  Hence the circle is $x^2 + y^2 - 20/9 x + 5/3 y = 0$.
+  //72
++ Let the equation of the circle be $x^2 + y^2 + 2g x + 2f y + c = 0$. Since it passes through $(1, 2)$ and
+  $(3, 4)$, therefore,
+
+  $5 + 2g + 4f + c = 0$ #h(1cm)$dots$(1) and $25 + 6g + 8f + c = 0$ #h(1cm)$dots$(2)
+
+  From these two equations we have $g + f + 5 = 0$ #h(1cm)$dots$(3)
+
+  Since the circle touches the line $3x + y - 3 = 0$ so perpendicular distance from center would be
+  radius. Thus,
+
+  $(|-3g - f - 3|)/sqrt(10) = sqrt(g^2 + f^2 + c) => (3g + f + 3)^2 = 10(g^2 + f^2 + 5 + 2g + 4f)$[from (1)]
+
+  $(2g - 5 + 3)^2 = 10[g^2 + (g + 5)^2 + 5 + 2g - 4g - 29]$[Putting the value of $f$ from (3)]
+
+  $=> g = -4, -3/2 => f = -1, -7/2 => c = 7, 12$
+
+  Thus, equation of the circles are $x^2 + y^2 - 8x - 2y + 7 = 0$ and $x^2 + y^2 - 3x - 7y + 12 = 0$.
+  //73
++ Let the equation of the circle be $x^2 + y^2 + 2g x + 2f y + c = 0$, so the center is $(-g, -f)$ and radus
+  us $sqrt(g^2 + f^2 - c)$
+
+  Since the circle touches the $x$-axis, therefore, $g^2 - c = 0 => c = g^2[because sqrt(g^2 + f^2 - c =
+  |-f|)]$ #h(1cm)$dots$(1)
+
+  Also, the circle touches $4x - 3y + 4 = 0 => (|-4g + 3f + 4|)/5 = sqrt(g^2 + f^2 + c) = |f|$[from (1)]
+
+  $=> -4g + 3f + 4 = plus.minus f=> 2g + f = 2$ #h(1cm)$dots$(2) and $g - 2f = 1$#h(1cm)$dots$(3)
+
+  Also, given that the center lies on $x - y - 1 = 0 => -g + f = 1$#h(1cm)$dots$(4)
+
+  Thus, $g = 1/3, f = 4/3$ and $f = -2, g = -3$, which lies in first quadrant. Thus, $c = 1/9$.
+
+  Hence, the equation of the cirlce is $9(x^2 + y^2) + 6x + 24y + 1 = 0$.
+  //74
++ Let the circle be $x^2 + y^2 + g x + f y + c = 0$. Substituting point $(1, 0)$ gives
+
+  $1 + g + c = 0$ so $g + c = -1$.
+
+  Substituting point $(0, 1)$ gves $1 + f + c = 0$ so $f + c = -1$.
+
+  Substituting point $(1, -2)$ gives $1 + 4 + g - 2f + c = 0$ so $g - 2f + c = -5$.
+
+  From $g + c = -1$ we get $g = -1 - c$. From $f + c = -1$ we get $f = -1 - c$.
+
+  Substitute into $g - 2f + c = -5$.
+
+  This gives $(-1 - c) - 2(-1 - c) + c = -5$. So $-1 - c + 2 + 2c + c = -5$.
+
+  This simplifies to $1 + 2c = -5$ so $c = -3$. Then $g = 2$ and $f = 2$.
+
+  Hence the equation of the circle is $x^2 + y^2 + 2x + 2y - 3 = 0$.
+  //75
++ Let the circle be $x^2 + y^2 + gx + fy + c = 0$.
+
+  Substituting point $(0, 0)$ gives $c = 0$.
+
+  Substituting point $(a, 0)$ gives $a^2 + ga = 0$ so $g = -a$.
+
+  Substituting point $(0, b)$ gives $b^2 + fb = 0$ so $f = -b$.
+
+  Hence, the equation of the circle is $x^2 + y^2 - ax - by = 0$.
