@@ -1645,3 +1645,191 @@ locus of points of intersectionof two circles.
 + Find the equation of the circle passing through the points $(1, 0), (0, 1)$ and $(1, -2)$.
   //75
 + Find the equation of the circle passing through the points $(0, 0), (a, 0)$ and $(0, b)$.
+  //76
++ Find the equation of the circle which passes through the origin and cuts off chords of length $4$ and $6$
+  on the positive side of $x$-axis and $y$-axis respectively.
+  //77
++ Find the equation of the circumcircle of the triangle formed by the lines $y = x, y = 2x$, and $y = 3x +
+  2$.
+  //78
++ Find the incenter of the triangle whose sides are $7x - y + 11 = 0, x + y - 15 = 0$ and $7x + 17y + 65 =
+  0$. Find the equation of the incircle.
+  //79
++ Find the equation of the circles passing through the origin and cutting off equal intercepts $1$ from the
+  lines $3x = 4y$ and $4x = 3y$.
+  //80
++ Find the equation of the circle described on the common chord of the circles $x^2 + y^2 - 4x - 5 = 0$ and
+  $x^2 + y^2 + 8y + 7 = 0$ as diameter.
+  //81
++ Show that the circle on the chord $x cos alpha + y sin alpha - p = 0$ of the circle $x^2 + y^2 = a^2$ as
+  diameter is $x^2 + y^2 - a^2 - 2p(x cos alpha + y sin alpha - p) = 0$.
+  //82
++ Prove that the equation $x^2 + y^2 - 4 + k(y - m x - 2sqrt(1 + m^2)) = 0$ represents a family of circles
+  touching each other at a common point for all $k$, where $m$ is a given constant.
+  //83
++ Show that the general equation of a circle which passes through the points $(x_1, y_1)$ and $(x_2, y_2)$
+  may be written as $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) + lambda mat(delim: "|", x, y, 1; x_1, y_1, 1;
+  x_2, y_2, 1) = 0$, and hence, deduce the diameter form of the equation of a circle.
+  //84
++ The line $A x + B y + C = 0$ cuts the circle $x^2 + y^2 + a x + b y + c = 0$ in $P$ and $Q$. The line $A'
+  x + B' y + C' = 0$ cuts the circle $x^2 + y^2 + a' x + b' y + c' = 0$ in $R$ and $S$. If $P, Q, R, S$ are
+  concyclic points show that $mat(delim: "|", a - a', b - b', c - c'; A, B, C; A', B', C') = 0$.
+  //85
++ A fixed circle is cut by circles passing through two given points $A(x_1, y_1)$ and $B(x_2, y_2)$. Show
+  that the chord of intersection of the fixed circle with any one of the circled, passes through a fixed
+  point.
+  //86
++ Tangents $P Q$ and $P R$ are drawn to the circle $x^2 + y^2 = a^2$ from the point $P(x_1, y_1)$. Find the
+  equation of the circumcircle of $triangle P Q R$.
+  //87
++ Find the equation of the circle passing through the point of intersection of the circles $x^2 + y^2 - 6x +
+  2y + 4 = 0$ and $x^2 + y^2 + 2x - 4y - 6 = 0$ and with its center on the line $y = x$.
+  //88
++ If the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ bisects the circumference of the circle $x^2 + y^2 + 2g'x
+  + 2f'y + c' = 0$, prove that $2g'(g - g') + 2f'(f - f') = c - c'$.
+  //89
++ Find the equation of the circle of radius $4$ and passing through the point of intersection of circles
+  $x^2 + y^2 - 2x - 4y - 4 = 0$ and $x^2 + y^2 - 10x - 12y + 40 = 0$.
+  //90
++ Show that the common chord of the circles $x^2 + y^2 - 6x - 4y + 9 = 0$ and $x^2 + y^2 - 8x - 6y + 23 = 0$
+  pass through the center of the second circle and find its length.
+  //91
++ Find the equation of the circle whose diameter is the common chord of the circles $x^2 + y^2 + 2x + 3y + 1
+  = 0$ and $x^2 + y^2 + 4x + 3y + 2 = 0$.
+  //92
++ If $y = m x$ be the equation of a chord of the circle $x^2 + y^2 - 2a x = 0$, prove that the circle of
+  which this chord is a diameter has the equation $(1 + m^2)(x^2 + y^2) - 2a(x + m y) = 0$.
+  //93
++ Find the equation of the circle which passes through the point of intersection of the circles $x^2 + y^2 -
+  6x + 2y + 4 = 0$ and $x^2 + y^2 + 2x - 4y - 6 = 0$ and whose center lies on the line $y = x$.
+  //94
++ Prove that the equation $x^2 + y^2 + 2(3 + p)x + 2(3 - p)y + 4 = 0$ represents a circle for all values of
+  $p$, passing through two fixed points. Find the fixed points.
+  //95
++ Find the equation of the circle through the points of intersection of the circles $x^2 + y^2 = 4a^2$ and
+  $x^2 + y^2 - 2x - 4y + 4 = 0$ and touching the line $x + 2y = 0$.
+  //96
++ Find the equation of the circle which passes through the points of intersection of the circle $x^2 + y^2 -
+  x - y = 0$ and the line $x + y = 1$ and also through the point $(1, 1)$.
+  //97
++ Find the equation of the circle which has for its diameter the chord cut off on the line $p x + q y - 1 =
+  0$ by the circle $x^2 + y^2 = a^2$.
+  //98
++ The point $A(alpha, beta)$ is outside the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ and $A P, A Q$ are
+  tangents to the circle. Find the equation of the circumcircle of $triangle P Q R$.
+  //99
++ Show that the line $3x - 4y = c$ will meet the circle having center at $(2, 4)$ and the radius $5$ in real
+  and distinct points if $-35 < c < 15$.
+  //100
++ Find the length of the chord $4x - 3y = 5$ of the circle $x^2 + y^2 + 3x - y - 10 = 0$.
+  //101
++ Prove that the line $y = x + a sqrt(2)$ touches the circle $x^2 + y^2 = a^2$. Also find the point of
+  contact.
+  //102
++ Find the equation of tangents of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$ which are parallel to the line
+  $4x + 3y + 5 = 0$.
+  //103
++ Show that the common tangents to the circles $x^2 + y^2 - 6x = 0$ and $x^2 + y^2 + 2x = 0$ form an
+  equilateral triangle.
+  //104
++ Three concentric circles of which the biggest is $x^2 + y^2 = 1$ have their radii in A.P. If the line $y =
+  x + 1$ cuts all the circles in real and distinct points then find the interval in which the common
+  difference of the A.P. will lie.
+  //105
++ If $4l^2 - 5m^2 + 6l + 1 = 0$; then shown that the line $l x + m y + 1 = 0$ touches a fixed circle. Find
+  the center and raidus of the circle.
+  //106
++ Find the point $P$ on the circle $x^2 + y^2 - 4x - 6y + 9 = 0$ such that (i) $angle P O X$ is minimum (ii)
+  $O P$ is maximum, where $O$ is the origin and $O X$ is the $x$-axis.
+  //107
++ Show that the circle $x^2 + y^2 - 2a x - 2a y + a^2 = 0$ touches both the axes. Also, find the point of
+  contact.
+  //108
++ Find the length of the chord of the circle $x^2 + y^2 - 16$ which bisects the join of the points $(2, 3)$
+  and $(1, 2)$ perpendicularly.
+  //109
++ Find the length of the chord intercepted by the straight line $x - 7y + 4 = 0$ and the circle $x^2 + y^2 -
+  14x + 4y + 28 = 0$. Also, find the middle point of the chord.
+  //110
++ Find the length of the common chords of the circles $x^2 + y^2 + 3x + 5y + 4 = 0$ and $x^2 + y^2 + 5x + 3y
+  + 4 = 0$.
+  //111
++ Find the equation and length of the common chord of the circles $x^2 + y^2 + 2x + 3y + 1 = 0$ and $x^2 +
+  y^2 + 4x + 3y + 2 = 0$.
+  //112
++ Prove that the length of the common chord of the circlea $(x - a)^2 + (y - b)^2 = c^2$ and $(x - b)^2 + (y
+  - a)^2 = c^2$ is $sqrt(4c^2 - 2(a - b)^2)$. Hence find the condition that the two circles may touch each
+  other.
+  //113
++ Prove that the length of the common chord of the two circles $x^2 + y^2 + 2h x + a^2 = 0$ and $x^2 + y^2 -
+  2k y - a^2 = 0$ is $2sqrt(((h^2 - a^2)(k^2 + a^2))/(h^2 + k^2))$.
+  //114
++ Prove that the length of the common chord of the circles $x^2 + y^2 + a x + b y + c = 0$ and $x^2 + y^2 +
+  b x + a y + c = 0$ is $sqrt(1/2(a + b)^2 - 4c)$.
+  //115
++ If the line $p x + q y + r = 0$ touches the circle $x^2 + y^2 = a^2$ then prove that $r^2 = a^2(p^2 +
+  q^2)$.
+  //116
++ Prove that the line $4x - 3y + 23 = 0$ touches the circle $x^2 + y^2 - 6x + 10y = 66$.
+  //117
++ Show that for all values of $theta$, $x sin theta - y cos theta = a$ touches the circle $x^2 + y^2 = a^2$.
+  //118
++ If $l x + m y = 1$ touches the circle $x^2 + y^2 = a^2$, prove that the point $(l, m)$ lies on the circle
+  $x^2 + y^2 = a^(-2)$.
+  //119
++ Find the value of $lambda$ so that the line $3x - 4y = lambda$ may touch the circle $x^2 + y^2 - 4x - 8y -
+  5 = 0$.
+  //120
++ Show that the line $(x - 1)cos theta + (y - 1)sin theta = 1$ touches a circle for all values of
+  $theta$. Find the circle.
+  //121
++ Find those tangents to the circle $x^2 + y^2 = 16$ which are parallel to $3x - 16y = 10$.
+  //122
++ Find the equation of the tangents to the circle $x^2 + y^2 - 2x - 4y - 4 = 0$ which are (i) parallel, (ii)
+  perpendicular to the line $3x - 4y - 1 = 0$.
+  //123
++ Show that the line $7y - x = 5$ touches the circle $x^2 + y^2 - 5x + 5y = 0$ and find the equation of the
+  other parallel tangent.
+  //124
++ Find the equation of the tangent lines to the circle $x^2 + y^2 = 15$ which are perpendicular to the line
+  $4x - y + 6 = 0$.
+  //125
++ Find the equation of tangents to the circle $x^2 + y^2 - 6x + 4y - 3 = 0$, which are perpendicular to the
+  line $y = 2x - 1$.
+  //126
++ Find the equation of the tangents to the circle $x^2 + y^2 = 25$, which make an angle of $60^degree$ with
+  the positive direction of $x$-axis.
+  //127
++ Find the equation of the family of circles which touch the pair of straight lines $x^2 - y^2 + 2y - 1 =
+  0$.
+  //128
++ Examine if the two circles $x^2 + y^2 - 2x - 4y = 0$ and $x^2 + y^2 - 8y - 4 = 0$ touch each other
+  externally or internally.
+  //129
++ Prove that the circle $x^2 + y^2 + 2a x + c^2 = 0$ and $x^2 + y^2 + 2b y + c^2 = 0$ touch each other if
+  $1/a^2 + 1/b^2 = 1/c^2$.
+  //130
++ Prove that $x^2 + y^2 = a^2$ and $(x - 2a)^2 + y^2 = a^2$ are two equal circles touching each other. Find
+  the equation of circles of equal radius touching both the circles.
+  //131
++ Prove that the circles $x^2 + y^2 + 2x + 2y + 1 = 0$ and $x^2 + y^2 - 4x - 6y - 3 = 0$ touch each other.
+  //132
++ Prove that the condition for the circles $(x - a)^2 + (y - b)^2 = c^2$ and $(x - b)^2 + (y - a)^2 = c^2$
+  to touch each other is $a = b plus.minus sqrt(2)c$.
+  //133
++ Prove that the circles $x^2 + y^2 + 2u x + 2v y = 0$ and $x^2 + y^2 + 2u_1x + 2v_1y = 0$ touch each other
+  if $u v_1 = u_1v$.
+  //134
++ Find the length of the chord of the circle $x^2 + y^2 = 4$ through $(1, 1/2)$, which is of minimum length.
+  //134
++ Find the angle that the chord of circle $x^2 + y^2 - 4y = 0$ along the line $x + y = 1$ subtends at the
+  circumference the larger segment.
+  //135
++ Prove, analytically, that the angle n a semi-circle is a right angle.
+  //136
++ A circle of diameter $13$m with the center $O$ coinciding with the origin of coordinate axes, has the
+  diameter $A B$ on the $x$-axis. If the length of the chord $A C$ be $5$m, find the equation of pair of
+  lines $B C$, $C$ having two possible positions.
+  //137
++ Show that the least chord of the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ which passes through the
+  internal point $(alpha, beta)$ is equal to $2sqrt(-(alpha^2 + beta^2 + 2g alpha + 2f beta + c))$.

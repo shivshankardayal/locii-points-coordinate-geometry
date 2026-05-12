@@ -1321,12 +1321,1619 @@
 
   Hence the equation of the circle is $x^2 + y^2 + 2x + 2y - 3 = 0$.
   //75
-+ Let the circle be $x^2 + y^2 + gx + fy + c = 0$.
++ Let the circle be $x^2 + y^2 + g x + f y + c = 0$.
 
   Substituting point $(0, 0)$ gives $c = 0$.
 
-  Substituting point $(a, 0)$ gives $a^2 + ga = 0$ so $g = -a$.
+  Substituting point $(a, 0)$ gives $a^2 + g a = 0$ so $g = -a$.
 
-  Substituting point $(0, b)$ gives $b^2 + fb = 0$ so $f = -b$.
+  Substituting point $(0, b)$ gives $b^2 + f b = 0$ so $f = -b$.
 
-  Hence, the equation of the circle is $x^2 + y^2 - ax - by = 0$.
+  Hence, the equation of the circle is $x^2 + y^2 - a x - b y = 0$.
+  //76
++ Let the circle be $x^2 + y^2 + g x + f y + c = 0$. Since it passes through the origin, we get $c = 0$.
+
+  So the equation becomes $x^2 + y^2 + g x + f y = 0$.
+
+  Now we consider the intercept on the positive $x$ axis. Putting $y = 0$ gives $x^2 + g x = 0$ which gives
+  $x(x + g) = 0$.
+
+  So the intercept points are $x = 0$ and $x = -g$.
+
+  The length of the chord on the positive $x$ axis is $4$. Hence, $-g = 4$ so $g = -4$.
+
+  Now we consider the intercept on the positive $y$ axis. Putting $x = 0$ gives $y^2 + f y = 0$ which gives
+  $y(y + f) = 0$.
+
+  So the intercept points are $y = 0$ and $y = -f$.= The length of the chord on the positive $y$ axis is $6$.
+
+  Hence, $-f = 6$ so $f = -6$. Therefore, the equation of the circle is $x^2 + y^2 - 4x - 6y = 0$.
+  //77
++ The given lines are $y = x$, $y = 2x$ and $y = 3x + 2$.
+
+  From $y = x$ and $y = 2x$ we get $A(0, 0)$.
+
+  From $y = x$ and $y = 3x + 2$ we get $B(-1, -1)$.
+
+  From $y = 2x$ and $y = 3x + 2$ we get $C(-2, -4)$.
+
+  Let the circle be circle $x^2 + y^2 + g x + f y + c = 0$.
+
+  Substituting point $A(0, 0)$ and get $c = 0$.
+
+  Substituting point $B(-1, -1)$ gives $1 + 1 - g - f = 0$ so $g + f = 2$.
+
+  Substituting point $C(-2, -4)$ gives $4 + 16 - 2g - 4f = 0$ so $g + 2f = 10$.
+
+  From $g + f = 2$ we get $g = 2 - f$.
+
+  Substituting into $g + 2f = 10$ gives $2 - f + 2f = 10$ so $f = 8$.
+
+  Then $g = -6$.
+
+  Hence, the equation of the circumcircle is $x^2 + y^2 - 6x + 8y = 0$.
+  //78
++ The given sides of the triangle are $7x - y + 11 = 0$, $x + y - 15 = 0$ and $7x + 17y + 65 = 0$.
+
+  From $7x - y + 11 = 0$ and $x + y - 15 = 0$ we get $A(1/2, 29/2)$.
+
+  From $x + y - 15 = 0$ and $7x + 17y + 65 = 0$ we get $B(-10, 25)$.
+
+  From $7x + 17y + 65 = 0$ and $7x - y + 11 = 0$ we get $C(-19/3, -100/3)$.
+
+  If the side lengths opposite $A, B, C$ are $a, b, c$ then the incenter is
+
+  $(a x_1 + b x_2 + c x_3) / (a + b + c)$ and $(a y_1 + b y_2 + c y_3) / (a + b + c)$.
+
+  Length $a = B C = 5 sqrt(85)$. Length $b = C A = 43 sqrt(5)$. Length $c = A B = 3 sqrt(85)$.
+
+  After simplification the incenter is $(-3, 11)$.
+
+  Now find the radius which is the perpendicular distance from the incenter to any side.
+
+  Distance to $x + y - 15 = 0$ is $(| -3 + 11 - 15 |) / sqrt(2) = 7 / sqrt(2)$.
+
+  Hence, the equation of the incircle is $(x + 3)^2 + (y - 11)^2 = 49/2$.
+  //79
++ Let the circle be $x^2 + y^2 + g x + f y + c = 0$. Since it passes through the origin, we get $c = 0$.
+
+  So the equation becomes $x^2 + y^2 + g x + f y = 0$.
+
+  Now we consider the line $3x = 4y$ which is $3x - 4y = 0$.
+
+  The perpendicular distance from the center $(-g/2, -f/2)$ to this line is
+
+  $(|3(-g/2) - 4(-f/2)|) / 5 = (| -3g + 4f |) / 10$.
+
+  Since the circle cuts off a chord of length $1$ on this line, we use
+
+  $1 = 2 sqrt(r^2 - d^2)$. So $r^2 - d^2 = 1/4$.
+
+  Now $r^2 = (g^2 + f^2)/4$. So $(g^2 + f^2)/4 - ((-3g + 4f)^2 / 100) = 1/4$.
+
+  Similarly for the line $4x = 3y$ which is $4x - 3y = 0$. Distance from center is $(| -4g + 3f |) / 10$.
+
+  So $(g^2 + f^2)/4 - ((-4g + 3f)^2 / 100) = 1/4$.
+
+  Now subtract the two equations. This gives $( -3g + 4f )^2 = ( -4g + 3f )^2$.
+
+  So either $-3g + 4f = -4g + 3f$ or $-3g + 4f = 4g - 3f$. First case gives $g + f = 0$. Second case gives $g = f$.
+
+  Now substitute each case. For $g + f = 0$ we get $g = -f$.
+
+  Substitute into equation and solve to get $g = 1$ and $f = -1$.
+
+  For $g = f$ we substitute and get $g = -1$ and $f = -1$.
+
+  Hence the required circles are $x^2 + y^2 + x - y = 0$ and $x^2 + y^2 - x - y = 0$.
+  //80
++ Common chord of the circles is $x^2 + y^2 - 4x - 5 - (x^2 + y^2 + 8y + 7) = 0 => x + 2y + 3 = 0$
+
+  Equation of such a circle is $x^2 + y^2 - 4x - 5 + k(x + 2y + 3 ) = 0 => x^2 + y^2 - (4 - k)x + 2k y - 3k -
+  5 = 0$.
+
+  Its center is $((4 - k)/2, -k)$. If $x + 2y + 3 = 0$ is diameter then $(4 - k)/2 - 2k + 3 = 0 => k = 2$.
+
+  Thus, equation of the circle is $x^2 + y^2 - 2x + 4y + 1 = 0$.
+  //81
++ Equation of any circle passing through the point of intersection of the given circle and the given chord
+  is $x^2 + y^2 - a^2 + k(x cos alpha + y sin alpha - p) = 0$.
+
+  Center of this circle is $(-(k cos alpha)/2, -(k sin alpha)/2)$.
+
+  Since $x cos alpha + y sin alpha - p = 0$ is the diameter of this circle the center will lie on this line,
+  therefore,
+
+  $-(k cos alpha)/2 cos alpha - (k sin alpha)/2 sin alpha - p = 0 => k = -2p$
+
+  Thus, the equation of the circle becomes $x^2 + y^2 - a^2 - 2p(x cos alpha + y sin alpha - p) = 0$.
+  //82
++ Clearly $x^2 + y^2 - 4 = 0$ is the equation of a circle with center at origin and radius $2$.
+
+  Also line $y = m x + 2sqrt(1 + m^2)$ is the equation of the line which touches the circle for all values
+  for $m$.
+
+  Let $P$ be the point of contact of the circle and the line. Clearly, given equation is the equation of
+  circles passing through the point of contact of the given circle and the given line. Any two circles of
+  this family touch each other at $P$.
+  //83
++ Equation of the line joining the points $(x_1, y_1)$ and $(x_2, y_2)$ is $mat(delim: "|", x, y, 1; x_1,
+  y_1, 1; x_2, y_2, 1) = 0$
+
+  Also equation of the circle with $(x_1, y_1)$ and $(x_2, y_2)$ as endpoints of the diameter is $(x -
+  x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$.
+
+  Equation of any circle passing through the point of intersection of the above circle and line is given by
+  $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) + lambda mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1) = 0$.
+
+  Putting $lambda = 0$ gives $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$, which is the diameter form of
+  the equation of the circle.
+  //84
++ Equation of any circle through the point of intersection $P$ and $Q$ of the line and the circle is $x^2 +
+  y^2 + a x + b y + c + lambda(A x + B y + C) = 0$
+
+  $=> x^2 + y^2 + (a + lambda A)x + (b + lambda B)y + c + lambda C = 0$.
+
+  Similarly for other pair of line and circle $x^2 + y^2 + (a' + mu A')x + (b' + mu B')y + c' + mu C' = 0$
+
+  If the two circles are the same then the points $P, Q, R$ and $S$ will be concyclic.
+
+  Comparing coefficients $1 = (a + lambda A)/(a' + mu A') = (b + lambda B)/(b' + mu B') = (c + lambda C)/(c' +
+  mu C')$
+
+  Thus, $a - a' + lambda A - mu A' = 0$, $b - b' + lambda B - mu B' = 0$, and $c - c' + lambda C - mu C' =
+  0$.
+
+  Eliminating $lambda$ and $-mu$ and writing in discriminant form we have
+
+  $mat(delim: "|", a - a', A, A'; b - b', B, B'; c - c', C, C') = mat(delim: "|", a - a', b - b', c - c'; A,
+  B, C; A', B', C') = 0$.
+  //85
++ Equation of any circle possing through the points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by
+
+  $S equiv (x - x_1)(x - x_2) + (y - y_1)(y - y_2) + lambda mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2,
+  1) = 0$ #h(1cm)$dots$(1)
+
+  Let the fixed circle be $S' = x^2 + y^2 + 2g x + 2f y + c = 0$ #h(1cm)$dots$(2)
+
+  Equation of the chord of intersection of circles $(1)$ and $(2)$ will be $S - S' = 0$
+
+  $=> -(x_1 + x_2 + 2g)x - (y_1 + y_2 + 2f)y + x_1x_2 + y_1y_2 - c + lambda mat(delim: "|", x, y, 1; x_1,
+  y_1, 1; x_2, y_2, 1) = 0$ #h(1cm)$dots$(3)
+
+  Clearly this line passes through the point of intersection of two fixed lines $-(x_1 + x_2 + 2g)x - (y_1 +
+  y_2 + 2f)y + x_1x_2 + y_1y_2 - c = 0$ and $mat(delim: "|", x, y, 1; x_1, y_1, 1; x_2, y_2, 1) = 0$, which
+  is a fixed point.
+  //86
++ Given circle is $x^2 + y^2 - a^2 = 0$ #h(1cm)$dots$(1)
+
+  Since $P Q$ and $P R$ are tangents to the circle (1), therefore $Q R$ will be the chord of contact of
+  point $(x_1, y_1)$, and hence, equaiton of $Q R$ will be
+
+  $x x_1 + y y_1 - a^2 = 0$ #h(1cm)$dots$(2)
+
+  Equation of any circle through the point of intersection $Q$ and $R$ of (1) and (2) is
+
+  $x^2 + y^2 - a^2 + k(x x_1 + y y_1 - a^2) = 0$ #h(1cm)$dots$(3)
+
+  Circle (3) will be circumcircle of $triangle P Q R$ if circle (3) passes through the point $P(x_1, y_1)$
+  i.e.
+
+  $x_1^2 + y_1^2 - a^2 + k(x_1^2 + y_1^2 - a^2) = 0 => k = -1$
+
+  Hence, required circle is $x^2 + y^2 - x x_1 - y y_1 = 0$.
+  //87
++ Given circles are $x^2 + y^2 - 6x + 2y + 4 = 0$ #h(.5cm)$dots$(1) and $x^2 + y^2 + 2x - 4y - 6 = 0$
+  #h(.5cm)$dots$(2) and given line is $x - y = 0$ #h(.5cm)$dots$(3).
+
+  Equation of any circle passing through the point of intersection of circles (1) and (2) is
+
+  $x^2 + y^2 - 6x + 2y + 4 + k(x^2 + y^2 + 2x - 4y - 6) = 0 => (1 + k)x^2 + (1 + k)y^2 - 2(3 - k)x + 2(1 -
+  2k)y + 4 - 6k = 0$
+
+  Its center is $((3 - k)/(1 + k), (2k - 1)/(1 + k))$. Since it lies on the line (3), therefore,
+
+  $(3 - k)/(1 + k) - (2k - 1)/(1 + k) = 0 => k = 4/3$.
+
+  Thus, required equation is $x^2 + y^2 - 10/7x - 10/7y - 12/7 = 0$.
+  //88
++ Let $S_1 = x^2 + y^2 + 2g x + 2f y + c = 0$#h(.5cm)$dots$(1) and $S_2 = x^2 + y^2 + 2g'x + 2f'y + c' =
+  0$#h(.5cm)$dots$(2)
+
+  Now equation of common chord of the circles is $S_1 - S_2 = 0 => 2(g - g')x + 2(f - f')y + c - c' =
+  0$#h(.5cm)$dots$(3)
+
+  Since cirlce (1) bisects the circumference of the circle (2), therefore, common chord will be the diameter
+  of the circle (2) and hence center will be $(-g', -f')$ of circle (2) will lie on the line (3)
+
+  $=> -2(g - g')g' - 2(f - f')f' + c - c' = 0 => 2g'(g - g') + 2f'(f - f') = c - c'$.
+  //89
++ The given circles are $x^2 + y^2 - 2x - 4y - 4 = 0$ and $x^2 + y^2 - 10x - 12y + 40 = 0$.
+
+  The family of circles passing through their points of intersection is $S_1 + lambda S_2 = 0$.
+
+  So the required circle is $(x^2 + y^2 - 2x - 4y - 4) + lambda (x^2 + y^2 - 10x - 12y + 40) = 0$.
+
+  This simplifies to $(1 + lambda)(x^2 + y^2) + (-2 - 10 lambda)x + (-4 - 12 lambda)y + (-4 + 40 lambda) =
+  0$.
+
+  $=> x^2 + y^2 + (-2 - 10 lambda)/(1 + lambda) x + (-4 - 12 lambda)/(1 + lambda) y + (-4 + 40 lambda)/(1 +
+  lambda) = 0$.
+
+  Comparing with $x^2 + y^2 + g x + f y + c = 0$.
+
+  So $g = (-2 - 10 lambda)/(1 + lambda)$, $f = (-4 - 12 lambda)/(1 + lambda)$, and $c = (-4 + 40 lambda)/(1
+  + lambda)$.
+
+  The radius condition is $g^2 + f^2 - c = 16$. After solving we get $lambda = 1$.
+
+  Then the equation becomes $2(x^2 + y^2) - 12x - 16y + 36 = 0$$=> x^2 + y^2 - 6x - 8y + 18 = 0$.
+  //90
++ The given circles are $x^2 + y^2 - 6x - 4y + 9 = 0$ and $x^2 + y^2 - 8x - 6y + 23 = 0$.
+
+  The common chord is obtained by subtracting the two equations.
+
+  So we get $(x^2 + y^2 - 6x - 4y + 9) - (x^2 + y^2 - 8x - 6y + 23) = 0$.
+
+  This simplifies to $2x + 2y - 14 = 0$ or $x + y - 7 = 0$.
+
+  From $x^2 + y^2 - 8x - 6y + 23 = 0$ the center is $(4, 3)$.
+
+  Substitute $(4, 3)$ into $x + y - 7 = 0$. We get $4 + 3 - 7 = 0$.
+
+  So the common chord passes through the center of the second circle.
+
+  The radius of the second circle is $r^2 = 16 + 9 - 23 = 2$ so $r = sqrt(2)$.
+
+  The perpendicular distance from the center $(4, 3)$ to the chord $x + y - 7 = 0$ is $(|4 + 3 - 7|) /
+  sqrt(2) = 0$.
+
+  Hence, the chord passes through the center, so it is a diameter.
+
+  Therefore, the length of the chord is $2r = 2 sqrt(2)$.
+  //91
++ The given circles are $x^2 + y^2 + 2x + 3y + 1 = 0$ and $x^2 + y^2 + 4x + 3y + 2 = 0$.
+
+  The common chord is obtained by subtracting the equations.
+
+  So we get $(x^2 + y^2 + 2x + 3y + 1) - (x^2 + y^2 + 4x + 3y + 2) = 0$. $=>-2x - 1 = 0$ or $x = -1/2$.
+
+  Now for a circle with diameter along a line, we use the fact that its center lies on the perpendicular
+  bisector of the chord.
+
+  The midpoint of the chord lies on the line joining the centers of the two given circles.
+
+  The centers are $(-1, -3/2)$ and $(-2, -3/2)$. So the line joining centers is $y = -3/2$.
+
+  The midpoint of the chord is intersection of $x = -1/2$ and $y = -3/2$.
+
+  So the center is $(-1/2, -3/2)$. Substitute $x = -1/2$ in first circle.
+
+  Then $(1/4) + y^2 - 1 + 3y + 1 = 0$. This gives $y^2 + 3y + 1/4 = 0$.
+
+  Solve to get $y = (-3 plus.minus 2 sqrt(2)) / 2$.
+
+  So the radius squared is $r^2 = (sqrt(2))^2 = 2$.
+
+  Hence, the equation of the circle is $(x + 1/2)^2 + (y + 3/2)^2 = 2$.
+  //92
++ The given circle is $x^2 + y^2 - 2a x = 0$ and the chord is $y = m x$.
+
+  Substitute $y = m x$ into the circle.
+
+  This gives $x^2 + m^2 x^2 - 2a x = 0$ $=>(1 + m^2)x^2 - 2a x = 0$.
+
+  So the points of intersection are $x = 0$ and $x = 2a/(1 + m^2)$.
+
+  Thus the points are $(0, 0)$ and $(2a/(1 + m^2), 2a m/(1 + m^2))$.
+
+  These are the endpoints of the chord.
+
+  The equation of the circle with this chord as diameter is $(2a/(1 + m^2), 2a m/(1 + m^2))$.
+
+  This gives $x(x - 2a/(1 + m^2)) + y(y - 2a m/(1 + m^2)) = 0$ $=> (1 + m^2)(x^2 + y^2) - 2a(x + m y) = 0$.
+  //93
++ The given circles are $x^2 + y^2 - 6x + 2y + 4 = 0$ and $x^2 + y^2 + 2x - 4y - 6 = 0$.
+
+  The family of circles passing through their points of intersection is
+
+  $S_1 + lambda S_2 = 0$. So the required circle is
+
+  $(x^2 + y^2 - 6x + 2y + 4) + lambda (x^2 + y^2 + 2x - 4y - 6) = 0$.
+
+  $=> (1 + lambda)(x^2 + y^2) + (-6 + 2 lambda)x + (2 - 4 lambda)y + (4 - 6 lambda) = 0$.
+
+  $=> x^2 + y^2 + (-6 + 2 lambda)/(1 + lambda) x + (2 - 4 lambda)/(1 + lambda) y + (4 - 6 lambda)/(1 + lambda) = 0$.
+
+  The center is $((6 - 2 lambda)/(2(1 + lambda)), (-2 + 4 lambda)/(2(1 + lambda)))$.
+
+  Since the center lies on $y = x$, equate the coordinates. So $(6 - 2 lambda) = (-2 + 4 lambda)$.
+
+  This gives $8 = 6 lambda$ so $lambda = 4/3$.
+
+  Then $1 + lambda = 7/3$. So the equation becomes
+
+  $(7/3)(x^2 + y^2) + (-10/3)x + (-10/3)y - 4 = 0$ $=> 7(x^2 + y^2) - 10x - 10y - 12 = 0$.
+  //94
++ The given equation is $x^2 + y^2 + 2(3 + p)x + 2(3 - p)y + 4 = 0$.
+
+  This is of the form $x^2 + y^2 + g x + f y + c = 0$ so it represents a circle for all values of $p$.
+
+  $=> x^2 + y^2 + 6x + 6y + 4 + 2p(x - y) = 0$.
+
+  For fixed points, the equation must be satisfied for all values of $p$.
+
+  So the coefficient of $p$ must be zero and the remaining part must also be zero.
+
+  Thus we get $x - y = 0$ and $x^2 + y^2 + 6x + 6y + 4 = 0$.
+
+  From $x - y = 0$ we get $y = x$.
+
+  Substitute into the second equation $x^2 + x^2 + 6x + 6x + 4 = 0$$=> 2x^2 + 12x + 4 = 0$.
+
+  Solving gives $x = -3 plus.minus sqrt(7)$.
+
+  Since $y = x$, the fixed points are $(-3 + sqrt(7), -3 + sqrt(7))$ and $(-3 - sqrt(7), -3 - sqrt(7))$.
+  //95
++ The given circles are $x^2 + y^2 - 4a^2 = 0$ and $x^2 + y^2 - 2x - 4y + 4 = 0$.
+
+  The family of circles through their intersection is $(x^2 + y^2 - 4a^2) + lambda (x^2 + y^2 - 2x - 4y + 4)
+  = 0$.
+
+  This gives $(1 + lambda)(x^2 + y^2) - 2 lambda x - 4 lambda y + (-4a^2 + 4 lambda) = 0$.
+
+  The center is $(lambda/(1 + lambda), 2 lambda/(1 + lambda))$.
+
+  Since the circle touches $x + 2y = 0$, the distance from center equals radius.
+
+  This gives $(4a^2 - 4 lambda)/(1 + lambda) = 0$ so $lambda = a^2$.
+
+  Hence, the required circle is $(1 + a^2)(x^2 + y^2) - 2a^2 x - 4a^2 y + 4a^2(1 - a^2) = 0$.
+  //96
++ The given circle is $x^2 + y^2 - x - y = 0$ and the line is $x + y = 1$.
+
+  The family of circles passing through their intersection points is $x^2 + y^2 - x - y + lambda(x + y - 1)
+  = 0$.
+
+  This gives $x^2 + y^2 + (-1 + lambda)x + (-1 + lambda)y - lambda = 0$.
+
+  Since the circle passes through $(1, 1)$, substitute it.
+
+  So $1 + 1 + (-1 + lambda) + (-1 + lambda) - lambda = 0$$=> lambda = -2$.
+
+  Hence, the required circle is $x^2 + y^2 - 3x - 3y + 2 = 0$.
+  //97
++ The given circle is $x^2 + y^2 = a^2$ and the line is $p x + q y - 1 = 0$.
+
+  Let $(x_1, y_1)$ and $(x_2, y_2)$ be the endpoints of this chord.
+
+  Equation of the circle is $x^2 + y^2 - (x_1 + x_2)x - (y_1 + y_2)y + (x_1x_2 + y_1y_2) = 0$.
+
+  Now $(x_1 + x_2, y_1 + y_2)$ is twice the midpoint of the chord.
+
+  The midpoint is the foot of the perpendicular from the center $(0, 0)$ to the line.
+
+  So midpoint is $(p/(p^2 + q^2), q/(p^2 + q^2))$.
+
+  Hence, $x_1 + x_2 = 2p/(p^2 + q^2)$ and $y_1 + y_2 = 2q/(p^2 + q^2)$.
+
+  Also both points satisfy $p x + q y = 1$. So $p(x_1 + x_2) + q(y_1 + y_2) = 2$.
+
+  Thus $x_1x_2 + y_1y_2 = 1/(p^2 + q^2)$. Substitute in the diameter form.
+
+  Hence, the required circle is $x^2 + y^2 - ((2p)/(p^2 + q^2))x - ((2q)/(p^2 + q^2))y + 1/(p^2 + q^2) = 0$.
+  //98
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$ and the external point is $A(alpha, beta)$.
+
+  Let $P$ and $Q$ be the points of contact of tangents from $A$. The chord of contact of $A$ with respect to
+  the circle is $T = 0$.
+
+  So the equation of chord $P Q$ is $x alpha + y beta + g(x + alpha) + f(y + beta) + c = 0$.
+
+  The circumcircle of $triangle P Q R$ where $R$ is the center of the given circle is obtained by combining
+  $S = 0$ and $T = 0$.
+
+  So its equation is $S + lambda T = 0$.
+
+  Since it passes through $A(alpha, beta)$, we substitute it. Then $S_1 + lambda T_1 = 0$.
+
+  Here $T_1 = S_1$. So we get $S_1(1 + lambda) = 0$ which gives $lambda = -1$.
+
+  Hence, the required circle is $S - T = 0$.
+
+  So the equation is $x^2 + y^2 + 2g x + 2f y + c - [x alpha + y beta + g(x + alpha) + f(y + beta) + c] = 0$.
+
+  $=> x^2 + y^2 + (g - alpha)x + (f - beta)y - (g alpha + f beta) = 0$.
+  //99
++ Substituting the value of $y = 1/4(3x - c)$ in the equation of the circle gives us
+
+  $x^2 + 1/16(3x - c)^2 - 4x - 8.1/4(3x - c) - 5 = 0 => 25x^2 - 2(80 + 3c)x + c^2 + 32c - 80 = 0$
+
+  The given line and circle will intersect if the above quadratic equation's roots are real
+  i.e. discrimininate $> 0$
+
+  $=> 4(80 + 3c)^2 - 100(c^2 + 32c - 80) > 0 => c^2 + 20c - 525 < 0 => -35 < c < 15$.
+  //100
++ Center of the circle is $(-3/2, 1/2)$ and radius is $5/sqrt(2)$. Let $l$ be the length of the perpendicular
+  from the center to the given line then
+
+  $l = (abs(4(-3/2) - 3/2 - 5))/5 = 5/2$
+
+  Hence, length of the chord is $2sqrt(25/2 - 25/4) = 5/2$.
+  //101
++ Center of the circle is $(0, 0)$ and its perpendicular distance from the line is $(|a sqrt(2)|)/sqrt(2) =
+  a$, which is equal to the radius of the circle.
+
+  Hence, the given circle touches the given line. Let $(alpha, beta)$ be the point of contact. Then
+  equation of tangent is given by $alpha x + beta y - a^2 = 0$
+
+  Comparing the coefficients with the given equation of the line we have
+
+  $alpha/1 = beta/-1 = -a^2/(a sqrt(2)) => (alpha, beta) = (-a/sqrt(2), a/sqrt(2))$.
+  //102
++ Center of the given circle is $(3, -2)$ and radius is $5$. Equation of any line parallel to given line is
+  $4x + 3y + k = 0$.
+
+  Since this point is tangent to the given circle, therefore,
+
+  $(|4.3 - 3.2 + k|)/5 = 5 => |6 + k| = 25 => k = 19, -31$.
+  //103
++ #figure(
+    cetz.canvas(length: 0.4cm, {
+        import cetz.draw: *
+
+        // --- setup ---
+        let s = 2.2        // scale: 1 math unit = 2.2 canvas units
+        let O = (0, 0)     // origin = centre of coordinate system
+
+        // helpers
+        let P(x, y) = (x * s, y * s)
+
+        let sq3 = calc.sqrt(3)
+
+        // centres and radii (math coords, scaled)
+        let C1 = P(3, 0)
+        let C2 = P(-1, 0)
+        let r1 = 3 * s
+        let r2 = 1 * s
+
+        // triangle vertices
+        let T1 = P(-3,  0)
+        let T2 = P(0,   sq3)
+        let T3 = P(0,  -sq3)
+
+        // touch points on C1
+        let Q1a = P(1.5,  1.5 * sq3)   // L2 on C1
+        let Q1b = P(1.5, -1.5 * sq3)   // L3 on C1
+
+        // touch points on C2
+        let Q2a = P(-1.5,  sq3 / 2)    // L2 on C2
+        let Q2b = P(-1.5, -sq3 / 2)    // L3 on C2
+
+        // touch point on L1 (both circles touch x=0 at origin)
+        let Q0  = P(0, 0)
+
+        // --- axes ---
+        set-style(stroke: (paint: gray, thickness: 0.4pt, dash: "dashed"))
+        line(P(-3.8, 0), P(7, 0))
+        line(P(0, -2.8), P(0, 2.8))
+        set-style(stroke: none)
+        content(P(7.2, 0),  text(size: 8pt)[$x$])
+        content(P(0.2, 2.9), text(size: 8pt)[$y$])
+
+        // tick marks
+        for xi in (-3, -2, -1, 1, 2, 3, 4, 5, 6) {
+            line(P(xi, -0.08), P(xi, 0.08), stroke: (paint: gray, thickness: 0.4pt))
+            if xi != 0 {
+                content(P(xi, -0.28), text(size: 6pt)[#xi])
+            }
+        }
+
+        // --- triangle fill ---
+        set-style(fill: rgb("#1D9E7511"), stroke: none)
+        line(T1, T2, T3, close: true)
+
+        // --- three tangent lines ---
+
+        // L1: x = 0 (transverse common tangent)
+        // extended from y = -sq3-0.5 to y = sq3+0.5
+        set-style(stroke: (paint: rgb("#534AB7"), thickness: 1.4pt), fill: none)
+        line(P(0, -sq3 - 0.55), P(0, sq3 + 0.55))
+
+        // L2: y = (x+3)/sqrt(3)  ->  extend from x=-3.5 to x=2.5
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 1.4pt))
+        let lx1 = -3.5
+        let lx2 =  2.5
+        line(P(lx1, (lx1 + 3) / sq3), P(lx2, (lx2 + 3) / sq3))
+
+        // L3: y = -(x+3)/sqrt(3)  ->  same x range
+        line(P(lx1, -(lx1 + 3) / sq3), P(lx2, -(lx2 + 3) / sq3))
+
+        // --- circles ---
+        set-style(stroke: (paint: rgb("#534AB7"), thickness: 1pt), fill: rgb("#534AB708"))
+        circle(C2, radius: r2)
+
+        set-style(stroke: (paint: rgb("#185FA5"), thickness: 1pt), fill: rgb("#185FA508"))
+        circle(C1, radius: r1)
+
+        // --- dashed radii to touch points ---
+        set-style(stroke: (paint: rgb("#185FA5"), thickness: 0.6pt, dash: "dashed"), fill: none)
+        line(C1, Q1a)
+        line(C1, Q1b)
+        line(C1, Q0)
+
+        set-style(stroke: (paint: rgb("#534AB7"), thickness: 0.6pt, dash: "dashed"), fill: none)
+        line(C2, Q2a)
+        line(C2, Q2b)
+        line(C2, Q0)
+
+        // --- touch points ---
+        set-style(stroke: (paint: white, thickness: 1pt), fill: rgb("#D85A30"))
+        circle(Q0,   radius: 0.13)
+        circle(Q1a,  radius: 0.12)
+        circle(Q1b,  radius: 0.12)
+        circle(Q2a,  radius: 0.12)
+        circle(Q2b,  radius: 0.12)
+
+        // right-angle marker at origin (L1 meets horizontal axis)
+        set-style(stroke: (paint: rgb("#D85A30"), thickness: 0.7pt), fill: none)
+        let d = 0.18
+        line(P(0, 0), P(d, 0), P(d, d), P(0, d), close: true)
+
+        // --- triangle vertices ---
+        set-style(stroke: (paint: white, thickness: 1pt), fill: rgb("#993C1D"))
+        circle(T1, radius: 0.16)
+        circle(T2, radius: 0.16)
+        circle(T3, radius: 0.16)
+
+        // centre dots
+        set-style(stroke: none, fill: rgb("#185FA5"))
+        circle(C1, radius: 0.1)
+        set-style(fill: rgb("#534AB7"))
+        circle(C2, radius: 0.1)
+
+        // --- labels: circles ---
+        content(P(4.8, 1.8),  text(size: 7pt, fill: rgb("#185FA5"))[$C_1(3,0),\ r=3$])
+        content(P(4.8, 1.4),  text(size: 7pt, fill: rgb("#185FA5"))[$x^2+y^2-6x=0$])
+        content(P(-2.8, 1.35), text(size: 7pt, fill: rgb("#534AB7"))[$C_2(-1,0),\ r=1$])
+        content(P(-2.5, 0.95), text(size: 7pt, fill: rgb("#534AB7"))[$x^2+y^2+2x=0$])
+
+        // --- labels: tangent lines ---
+        content(P(0.35, 2.1),  text(size: 7pt, fill: rgb("#534AB7"))[$x=0$])
+        content(P(-2.6, 2.35), text(size: 7pt, fill: rgb("#0F6E56"))[$y=(x+3)/sqrt(3)$])
+        content(P(-2.6,-2.35), text(size: 7pt, fill: rgb("#0F6E56"))[$y=-(x+3)/sqrt(3)$])
+
+        // --- labels: vertices ---
+        content(P(-3, -0.38), text(size: 7pt, fill: rgb("#993C1D"))[$T_1(-3,0)$])
+        content(P(0.6,  sq3), text(size: 7pt, fill: rgb("#993C1D"))[$T_2(0,sqrt(3))$])
+        content(P(0.6, -sq3), text(size: 7pt, fill: rgb("#993C1D"))[$T_3(0,-sqrt(3))$])
+
+    }))
+
+  Given circles are $S_1 = x^2 + y^2 - 6x = 0$ #h(.5cm)$dots$(1) and $S_2 = x^2 + y^2 + 2x = 0$
+  #h(.5cm)$dots$(2).
+
+  Let $A$ and $B$ are the centers and $r_1$ and $r_2$ the radii of $S_1$ and $S_2$ respectively.
+
+  $A = (3, 0), B = (-1, 0), r_1 = 3, r_2 = 1 therefore r_1 + r_2 = 4$. Hence two circles touch each
+  other. Thus, there will be three common tangents.
+
+  Equation of chord is given by $S_1 - S_2 = x = 0$, when $x = 0, y = 0$. Thus, $x = 0$ is a common tangent.
+
+  Let $y = m x + c$ be a common tangent to the given circles then
+
+  $(|3m + c|)/sqrt(1 + m^2) = 3$ and $(|-m + c|)/sqrt(1 + m^2) = 1$
+
+  Solving these two equations gives us $c = plus.minus sqrt(3)$ and $m = plus.minus 1/sqrt(3)$
+
+  Thus, common tangents are $x = 0, y = x/sqrt(3) + sqrt(3)$, and $y = -x/sqrt(3) - sqrt(3)$
+
+  Let $P, Q, R$ be points of intersections of these three lines then $P = (0, sqrt(3)), Q = (-3, 0)$ and $R
+  = (0, -sqrt(3))$.
+
+  It is trivial to prove that $triangle P Q R$ is an equilateral triangle.
+  //104
++ Give that the biggest circle is $x^2 + y^2 = 1$ #h(.5cm)$dots$(1). Since the radiio of the circles are in
+  A.P. let the commond difference be $d$.
+
+  Thus, other two circles will be $x^2 + y^2 = (1 - d)^2$ #h(.5cm)$dots$(2) and $x^2 + y^2 = (1 - 2d)^2$
+  #h(.5cm)$dots$(3)
+
+  Given line is $y = x + 1$. Putting in (1) gives us $x^2 + (x + 1)^2 = 1 => x = 0, -1$
+
+  Similarly with (2) we have $x^2 + (x + 1)^2 = (1 - d^2) => 2x^2 + 2x + 2d - d^2 = 0$
+
+  Since the points are real and distinct, therefore, $4 - 8(2d - d^2) > 0 => 2d^2 - 4d + 1 > 0$
+
+  $1 - 1/sqrt(2) > d > 1 + 1/sqrt(2)$
+
+  Similarly with (3) we have $x^2 + (x + 1)^2 = (1 - 2d)^2$. Proceeding similarly we obtain
+
+  $(2 - sqrt(2))/4 > d > (2 + sqrt(2))/4 $. However, $d < 1$.
+
+  Thus, we have $0 < d < (2 - sqrt(2))/4$.
+  //105
++ Give $4l^2 - 5m^2 + 6l + 1 = 0$#h(.5cm)$dots$(1) and line is $l x + m y + 1 = 0$ #h(.5cm)$dots$(2)
+
+  Let the center of the circle be $(alpha, beta)$ with radius $a$. Then
+
+  $(|l alpha + m beta + 1|)/sqrt(l^2 + m^2) = a$
+
+  $=> l^2alpha^2 + m^2beta^2 + 1 + 2l m alpha beta + 2l alpha + 2m beta = a^2 l^2 + a^2 m^2$
+
+  $=> (alpha^2 - a^2)^2 + (beta^2 - a^2)m^2 + 2l m alpha beta + 2alpha l + 2m beta + 1 = 0$
+
+  Comparing this with (1)
+
+  $alpha^2 - a^2 = 4$, $beta^2 - a^2 = -5$, $alpha = 3$, $beta = 0$. Thus, $a = sqrt(5)$.
+
+  Hence, the circle has center $(3, 0)$ and radius $sqrt(5)$.
+  //106
++ Given cicle is $x^2 + y^2 - 4x - 6y + 9 = 0$ #h(.5cm)$dots$(1). Its center is $C(2, 3)$ and its radius is
+  $2$.
+
+  Let $O P$ be a tangent and let $y$-axis(which is a tanegent) touch the circle at $N$. Then $angle P O X$
+  will be minimum when $O P$ is tangent to the circle.
+
+  Let $angle P O X = theta$ then $angle L C P = theta$
+
+  Now $C P = 2, O C = sqrt(2^2 + 3^2) = sqrt(13)$
+
+  $O P = sqrt(O C^2 - C P^2) = 3$
+
+  From figure $O M = O L + L M = O L + H P => O P cos theta = 2 + 2sin theta$ or $3 cos theta = 2 + 2 sin
+  theta$
+
+  $=> cos theta = 12/13, sin theta = 5/13$
+
+  $P = (36/13, 15/13)$
+
+  #figure(
+    cetz.canvas(length: 0.5cm, {
+        import cetz.draw: *
+
+        let s   = 1.8
+        let sq13 = calc.sqrt(13)
+        let P(x, y) = (x * s, y * s)
+
+        // Circle: (x-2)^2+(y-3)^2=4, centre C=(2,3), r=2
+        let Cx = 2.0
+        let Cy = 3.0
+        let r  = 2.0
+        let OC = calc.sqrt(Cx*Cx + Cy*Cy)   // sqrt(13)
+
+        // (i) min angle POX
+        // P1 = (9/13)*(2,3) - (6/13)*(3,-2)  [lower tangent touch point]
+        // P1 = (18/13 - 18/13,  27/13 + 12/13) -- wait recheck signs
+        // P1x = (tlen^2 * Cx - r*tlen*Cy) / OC^2
+        //      = (9*2 - 6*3)/13 = (18-18)/13 = 0  -- that's wrong
+        // Correct formula: foot of perpendicular from C to tangent line OP1
+        // Tangent line direction: (cos phi, sin phi)
+        // phi = theta - alpha where theta=atan2(3,2), alpha=asin(2/sqrt13)
+        // P1 = tlen*(cos phi, sin phi)  [since O is origin, P1 = O + tlen*unit]
+        // But also P1 = projection of C onto tangent direction * tangent_unit
+        // P1 = dot(C, u_phi) * u_phi  where u_phi=(cos phi, sin phi)
+        // dot(C, u_phi) = 2*cos(phi)+3*sin(phi) = tlen (by construction) = 3
+        // So P1 = 3*(cos phi, sin phi)  -- this IS on the circle IF |CP1|=r=2
+        // Check: |CP1|^2 = (P1x-2)^2+(P1y-3)^2
+        //   = (3cos(phi)-2)^2+(3sin(phi)-3)^2
+        //   = 9 - 12cos(phi) - 18sin(phi) + 4+9
+        //   = 22 - 12cos(phi) - 18sin(phi)
+        // Need = 4, so 12cos(phi)+18sin(phi)=18
+        // phi = theta-alpha:
+        //   cos(phi)=cos(theta)cos(alpha)+sin(theta)sin(alpha)
+        //           =(2/sq13)(3/sq13)+(3/sq13)(2/sq13) = 6/13+6/13=12/13
+        //   sin(phi)=sin(theta)cos(alpha)-cos(theta)sin(alpha)
+        //           =(3/sq13)(3/sq13)-(2/sq13)(2/sq13)=9/13-4/13=5/13
+        // Check: 12*(12/13)+18*(5/13)=144/13+90/13=234/13=18 YES!
+        // So P1 = 3*(12/13, 5/13) = (36/13, 15/13)
+
+        let cos_phi = 12.0 / 13.0
+        let sin_phi =  5.0 / 13.0
+        let P1x = 3.0 * cos_phi   // 36/13
+        let P1y = 3.0 * sin_phi   // 15/13
+
+        // Verify on circle: (36/13-2)^2+(15/13-3)^2=(10/13)^2+(24/13)^2
+        //                  =100/169+576/169=676/169=4=r^2  CORRECT
+
+        // (ii) max OP: P2 = C + r*(C/|OC|) = (2,3) + 2*(2,3)/sqrt13
+        let P2x = Cx + r * (Cx / OC)
+        let P2y = Cy + r * (Cy / OC)
+
+        // axes
+        set-style(stroke: (paint: gray, thickness: 0.4pt, dash: "dashed"))
+        line(P(-0.5, 0), P(5.5, 0))
+        line(P(0, -0.5), P(0, 6.2))
+        set-style(stroke: none)
+        content(P(5.75,  0.0),  text(size: 8pt)[$x$])
+        content(P(0.18,  6.35), text(size: 8pt)[$y$])
+
+        for xi in (1, 2, 3, 4, 5) {
+            line(P(xi, -0.1), P(xi,  0.1), stroke: (paint: gray, thickness: 0.4pt))
+            line(P(-0.1, xi), P(0.1, xi),  stroke: (paint: gray, thickness: 0.4pt))
+            content(P(xi,  -0.35), text(size: 6pt)[#xi])
+            content(P(-0.35, xi),  text(size: 6pt)[#xi])
+        }
+        content(P(-0.28, -0.28), text(size: 7pt)[$O$])
+
+        // circle
+        set-style(stroke: (paint: rgb("#185FA5"), thickness: 1pt), fill: rgb("#185FA508"))
+        circle(P(Cx, Cy), radius: r * s)
+
+        // (i) tangent line O -> P1, extended slightly
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 1.2pt), fill: none)
+        line(P(0, 0), P(P1x * 1.18, P1y * 1.18))
+
+        // radius C -> P1 (should be perpendicular to tangent)
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 0.7pt, dash: "dashed"), fill: none)
+        line(P(Cx, Cy), P(P1x, P1y))
+
+        // right-angle marker at P1
+        // tangent unit vector: (cos_phi, sin_phi)
+        // normal unit vector (toward C): (-sin_phi, cos_phi)
+        let d  = 0.17
+        let utx =  cos_phi ; let uty = sin_phi
+        let unx = -sin_phi ; let uny = cos_phi
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 0.7pt), fill: none)
+        line(
+            P(P1x - d*utx,            P1y - d*uty),
+            P(P1x - d*utx + d*unx,    P1y - d*uty + d*uny),
+            P(P1x         + d*unx,    P1y         + d*uny),
+        )
+
+        // angle arc at O
+        let phi_deg = calc.atan2(sin_phi, cos_phi)
+        set-style(stroke: (paint: rgb("#D85A30"), thickness: 0.9pt), fill: rgb("#D85A3011"))
+
+        // (ii) line O -> P2
+        set-style(stroke: (paint: rgb("#993C1D"), thickness: 1.2pt), fill: none)
+        line(P(0, 0), P(P2x, P2y))
+
+        // dashed O -> C
+        set-style(stroke: (paint: gray, thickness: 0.7pt, dash: "dashed"), fill: none)
+        line(P(0, 0), P(Cx, Cy))
+
+        // centre C
+        set-style(fill: rgb("#185FA5"), stroke: none)
+        circle(P(Cx, Cy), radius: 0.1)
+
+        // origin dot
+        set-style(fill: black, stroke: none)
+        circle(P(0, 0), radius: 0.09)
+
+        // P1
+        set-style(fill: rgb("#0F6E56"), stroke: (paint: white, thickness: 1pt))
+        circle(P(P1x, P1y), radius: 0.13)
+
+        // P2
+        set-style(fill: rgb("#993C1D"), stroke: (paint: white, thickness: 1pt))
+        circle(P(P2x, P2y), radius: 0.13)
+
+        set-style(stroke: (paint: rgb("#0F6E56"), thickness: 0.7pt), fill: none)
+        line(P(Cx, Cy), P(Cx, 0))
+        line(P(P1x, P1y), P(Cx, P1y))
+        line(P(P1x, P1y), P(P1x, 0))
+        // labels
+        content(P(Cx - 0.2, P1y),
+            text(size: 7.5pt, fill: rgb("#185FA5"))[$H$])
+        content(P(Cx, -0.2),
+            text(size: 7.5pt, fill: rgb("#185FA5"))[$L$])
+        content(P(P1x, -0.2),
+            text(size: 7.5pt, fill: rgb("#185FA5"))[$M$])
+        content(P(Cx + 0.3, Cy + 0.22),
+            text(size: 7.5pt, fill: rgb("#185FA5"))[$C(2,3)$])
+
+        content(P(P1x + 0.55, P1y - 0.18),
+            text(size: 7.5pt, fill: rgb("#0F6E56"))[$P(36/13,\ 15/13)$])
+
+        content(P(P2x + 0.15, P2y + 0.32),
+            text(size: 7.5pt, fill: rgb("#993C1D"))[$P_2$])
+        content(P(P2x + 0.15, P2y + 0.02),
+            text(size: 6.5pt, fill: rgb("#993C1D"))[(ii) max $O P$])
+
+        content(P(0.82, 0.2),
+            text(size: 7pt, fill: rgb("#D85A30"))[$phi$])
+
+        content(P(0.7, 1.6),
+            text(size: 6.5pt, fill: gray)[$O C=sqrt(13)$])
+
+        content(P(P1x * 0.38 - 0.32, P1y * 0.38 + 0.28),
+            text(size: 6.5pt, fill: rgb("#0F6E56"))[$O P_1=3$])
+
+        content(P(P2x * 0.38 + 0.45, P2y * 0.38 + 0.12),
+            text(size: 6.5pt, fill: rgb("#993C1D"))[$O P_2=sqrt(13)+2$])
+
+    }))
+
+  $O P$ will be maximum if $P$ becomes the point where extended part of $O C$ cuts the circle. Let this
+  point be $P_2$.
+
+  $O P_2 = O C + r = sqrt(13) + 2$
+
+  Slope is $3/2 = tan alpha$(let) $=> P_2 = (2 + 4/sqrt(13), 3 + 6/sqrt(13))$.
+  //107
++ Given circle is $x^2 + y^2 - 2a x - 2a y + a^2 = 0$. First we find its point of contact with $x$-axis
+  i.e. $y = 0$.
+
+  Putting $y = 0$, $x^2 - 2a x + a^2 = 0 => x = a$. Thus, point of contact is $(a, 0)$.
+
+  Then we put $x = 0$ to get $y = a$. Thus, point of contact is $(0, a)$(because we get only one point in
+  both the cases the circle touches the axes.)
+  //108
++ The given circle is $x^2 + y^2 - 16 = 0$ so its center is $(0, 0)$ and radius is $4$.
+
+  The given points are $(2, 3)$ and $(1, 2)$. The midpoint is $(3/2, 5/2)$.
+
+  The slope of the line joining the points is $1$ so the perpendicular slope is $-1$.
+
+  Hence the chord is the line through $(3/2, 5/2)$ with slope $-1$.
+
+  So its equation is $y - 5/2 = -1(x - 3/2)$$=> x + y - 4 = 0$.
+
+  So $d = |0 + 0 - 4| / sqrt(2) = 4 / sqrt(2) = 2 sqrt(2)$.
+
+  The length of the chord is $2 sqrt(r^2 - d^2) = 2 sqrt(16 - 8) = 2 sqrt(8) = 4 sqrt(2)$.
+  //109
++ The given circle is $x^2 + y^2 - 14x + 4y + 28 = 0=>(x - 7)^2 + (y + 2)^2 = 25$.
+
+  So the center is $(7, -2)$ and radius is $5$.
+
+  The given line is $x - 7y + 4 = 0$. The perpendicular distance from the center to the line is
+
+  $(|7 - 7(-2) + 4|) / sqrt(1 + 49) = 25 / sqrt(50) = 5 / sqrt(2)$.
+
+  The length of the chord is $2 sqrt(r^2 - d^2) = 2 sqrt(25 - 25/2) = 5 sqrt(2)$.
+
+  The midpoint of the chord is the foot of the perpendicular from the center to the line.
+
+  Using formula, midpoint is $(7 - 1 times 25/50, -2 + 7 times 25/50)=>(13/2, 3/2)$.
+  //110
++ The given circles are $x^2 + y^2 + 3x + 5y + 4 = 0$ and $x^2 + y^2 + 5x + 3y + 4 = 0$.
+
+  So we get $-2x + 2y = 0$ or $y = x$.
+
+  First circle is $(x + 3/2)^2 + (y + 5/2)^2 = 9/2$. So the center is $(-3/2, -5/2)$ and radius is
+  $3/sqrt(2)$.
+
+  The distance from the center to the line $y = x$ is $(| -3/2 + 5/2 |) / sqrt(2) = 1/sqrt(2)$.
+
+  The length of the common chord is $2 sqrt(r^2 - d^2) = 2 sqrt(9/2 - 1/2) = 2 sqrt(4) = 4$.
+
+  Hence, the length of the common chord is $4$.
+  //111
++ The given circles are $x^2 + y^2 + 2x + 3y + 1 = 0$ and $x^2 + y^2 + 4x + 3y + 2 = 0$.
+
+  So we get $-2x - 1 = 0$ or $x = -1/2$ upon solving.
+
+  First circle is $(x + 1)^2 + (y + 3/2)^2 = 9/4$. So the center is $(-1, -3/2)$ and radius is $3/2$.
+
+  The distance from the center to the chord $x = -1/2$ is $(| -1 + 1/2 |)/1 = 1/2$.
+
+  The length of the chord is $2 sqrt(r^2 - d^2) = 2 sqrt(9/4 - 1/4) = 2 sqrt(2)$.
+  //112
++ The given circles are $(x - a)^2 + (y - b)^2 = c^2$ and $(x - b)^2 + (y - a)^2 = c^2$.
+  So $(x - a)^2 + (y - b)^2 - (x - b)^2 - (y - a)^2 = 0$$=>2(a - b)(y - x) = 0$ so $y = x$.
+
+  So the common chord lies on $y = x$.
+
+  The center is $(a, b)$ and radius is $c$ of the first circle.
+
+  The perpendicular distance from $(a, b)$ to the line $y = x$ is $(|a - b|) / sqrt(2)$.
+
+  The length of the chord is $2 sqrt(c^2 - d^2)$. So it is $2 sqrt(c^2 - (a - b)^2/2)$.
+
+  This simplifies to $sqrt(4c^2 - 2(a - b)^2)$. Hencem the length of the common chord is $sqrt(4c^2 - 2(a -
+  b)^2)$.
+
+  For the circles to touch, the chord length must be zero. So $4c^2 - 2(a - b)^2 = 0$. Hence, the condition
+  is $2c^2 = (a - b)^2$.
+  //113
++ The given circles are $x^2 + y^2 + 2h x + a^2 = 0$ and $x^2 + y^2 - 2k y - a^2 = 0$.
+
+  Common chord's equaiton is $2h x + a^2 + 2k y + a^2 = 0$ $=> h x + k y + a^2 = 0$.
+
+ First circle's center is $(-h, 0)$ and radius squared is $h^2 - a^2$.
+
+  The perpendicular distance from the center to the chord is $(| -h^2 + a^2 |) / sqrt(h^2 + k^2)$.
+
+  So $d^2 = (h^2 - a^2)^2 / (h^2 + k^2)$.
+
+  The length of the chord is $2 sqrt(r^2 - d^2)$$=> 2 sqrt((h^2 - a^2) - (h^2 - a^2)^2/(h^2 + k^2))$.
+
+  $=2 sqrt((h^2 - a^2)(1 - (h^2 - a^2)/(h^2 + k^2)))$$ = 2 sqrt(((h^2 - a^2)(k^2 + a^2))/(h^2 + k^2))$.
+  //114
++ The given circles are $x^2 + y^2 + a x + b y + c = 0$ and $x^2 + y^2 + b x + a y + c = 0$.
+
+  So chord is $(a - b)x + (b - a)y = 0$ which gives $x = y$.
+
+  First circle's center is $(-a/2, -b/2)$ and radius squared is $(a^2 + b^2)/4 - c$.
+
+  The perpendicular distance from the center to the line $x - y = 0$ is $(| -a/2 + b/2 |) / sqrt(2) = (|a -
+  b|) / (2 sqrt(2))$.
+
+  So $d^2 = (a - b)^2 / 8$.
+
+  The length of the chord is $2 sqrt(r^2 - d^2)$$= 2 sqrt((a^2 + b^2)/4 - c - (a - b)^2/8)$$= 2 sqrt(((a +
+  b)^2/8) - c)$.
+
+  So the length is $sqrt((a + b)^2/2 - 4c)$.
+  //115
++ The center of the given circle is origin and radius is $a$. The length of perpendicular from center to
+  tangent is equal to radius. Therefore,
+
+  $r/sqrt(p^2 + q^2) = a => r^2 = a^2(p^2 + q^2)$.
+  //116
++ Center of the given circle is $(3, -5)$ and radius is $sqrt(3^2 + 5^2 + 66) = 10$.
+
+  Length of the perpendicular on the given line from center is $(|4.3 + 3.5 + 23|)/5 = 10$, which is equal
+  to the radius of the circle.
+
+  Hence, the given circle touches the given line.
+  //117
++ Center of the given circle is the origin and radius is $a$.
+
+  Length of the perpendicular on the given line from center is $(|-a|)/sqrt(sin^2theta + cos^2 theta) = a$,
+  which is equaal to radius.
+
+  Thus, the given line touches the given circle.
+  //118
++ Center of the given circle is the origin and radius is $a$.
+
+  Length of the perpendicular on the given line from center is $(|-1|)/sqrt(l^2 + m^2) = a => l^2 + m^2 =
+  a^(-2)$.
+
+  Thus, locus of $(l, m)$ is the circle $x^2 + y^2 = a^(-2)$.
+  //119
++ Given circle has center $(2, 4)$ and radius $sqrt(2^2 + 4^2 + 5) = 5$.
+
+  For the given line to touch the circle length of perpendicular from center to the line must be equal to
+  the radius of the circle. Thus,
+
+  $(|3.2 - 4.4 - lambda|)/5 = 5 => 10 + lambda = plus.minus 25 => lambda = 15, -35$.
+  //120
++ The given line is $(x - 1)cos theta + (y - 1)sin theta = 1$.
+
+  Expand to get $x cos theta + y sin theta - cos theta - sin theta - 1 = 0$.
+
+  For a fixed point $(h, k)$ to be the center of a circle touched by all these lines, the perpendicular
+  distance from $(h, k)$ to the line must be constant.
+
+  So distance is $(|h cos theta + k sin theta - cos theta - sin theta - 1|)$.
+
+  This becomes $|(h - 1) cos theta + (k - 1) sin theta - 1|$.
+
+  For this to be independent of $theta$, we must have $h - 1 = 0$ and $k - 1 = 0$.
+
+  So the center is $(1, 1)$. Now the distance becomes constant equal to $1$.
+
+  Hence, the radius is $1$.
+
+  Therefore, the required circle is $(x - 1)^2 + (y - 1)^2 = 1$.
+  //121
++ The given line is $3x - 16y = 10$. So the required tangents are of the form $3x - 16y + c = 0$.
+
+  For the circle $x^2 + y^2 = 16$, the center is $(0, 0)$ and radius is $4$.
+
+  The distance from the center to the tangent must be equal to the radius.
+
+  So $(|c|) / sqrt(3^2 + (-16)^2) = 4$$=> |c| = 4 sqrt(265)$. Hence, $c = plus.minus 4 sqrt(265)$.
+
+  Therefore the required tangents are $3x - 16y + 4 sqrt(265) = 0$ and $3x - 16y - 4 sqrt(265) = 0$.
+  //122
++ The given circle is $x^2 + y^2 - 2x - 4y - 4 = 0$. So the center is $(1, 2)$ and radius is $3$.
+
+  First consider tangents parallel to $3x - 4y - 1 = 0$. Such lines are of the form $3x - 4y + c = 0$.
+
+  The distance from the center to the line equals the radius. So $|3(1) - 4(2) + c| / 5 = 3$.
+
+  $=> |-5 + c| = 15$ $=> c = 20$ or $c = -10$.
+
+  Hence, the tangents are $3x - 4y + 20 = 0$ and $3x - 4y - 10 = 0$.
+
+  Now consider tangents perpendicular to $3x - 4y - 1 = 0$.
+
+  Slope of the given line is $3/4$ so perpendicular slope is $-4/3$. So the tangents are of the form $4x +
+  3y + c = 0$.
+
+  Again distance condition gives $|4(1) + 3(2) + c| / 5 = 3$$=> c = 5$ or $c = -25$.
+
+  Hence, the tangents are $4x + 3y + 5 = 0$ and $4x + 3y - 25 = 0$.
+  //123
++ The given circle is $x^2 + y^2 - 5x + 5y = 0$.
+
+  So the center is $(5/2, -5/2)$ and radius is $5/sqrt(2)$.
+
+  The given line is $7y - x - 5 = 0$.
+
+  The distance from the center to this line is $(| -5/2 - 35/2 - 5 |) / sqrt(50) = 25 / sqrt(50) = 5/sqrt(2)$.
+
+  So the line touches the circle. Now the other parallel tangent is of the form $7y - x + c = 0$.
+
+  Again use the distance condition. So $(| -5/2 - 35/2 + c |) / sqrt(50) = 5/sqrt(2)$.
+
+  This gives $|c - 20| = 25$. So $c = 45$ or $c = -5$.
+
+  Since $c = -5$ gives the given line, the other tangent is $7y - x + 45 = 0$.
+  //124
++ The given circle is $x^2 + y^2 = 15$ so the center is $(0, 0)$ and radius is sqrt(15).
+
+  The given line $4x - y + 6 = 0$ has slope $4$. So the required tangents have slope $-1/4$.
+
+  Hence, their equations are of the form $x + 4y + c = 0$.
+
+  The distance from the center to the tangent must be equal to the radius.
+
+  So $(|c|) / sqrt(1 + 16) = sqrt(15)$. Thus $(|c|) / sqrt(17) = sqrt(15)$.
+
+  $=> |c| = sqrt(255)$. Hence, $c = plus.minus sqrt(255)$.
+
+  Therefore the required tangents are $x + 4y + sqrt(255) = 0$ and $x + 4y - sqrt(255) = 0$.
+  //125
++ The given circle is $x^2 + y^2 - 6x + 4y - 3 = 0$. So the center is $(3, -2)$ and radius is $4$.
+
+  The given line $y = 2x - 1$ has slope $2$. So the required tangents have slope $-1/2$.
+
+  Hence their equations are of the form $x + 2y + c = 0$.
+
+  The distance from the center to the tangent equals the radius. So $(|3 + 2(-2) + c|)/sqrt(5) = 4$.
+
+  So $c = 1 plus.minus 4 sqrt(5)$.
+
+  Hence, the required tangents are $x + 2y + 1 + 4 sqrt(5) = 0$ and $x + 2y + 1 - 4 sqrt(5) = 0$.
+  //126
++ The given circle is $x^2 + y^2 = 25$ so the center is $(0, 0)$ and radius is $5$.
+
+  A line making an angle $60 degree$ with the positive $x$ axis has slope $tan 60 degree = sqrt(3)$.
+
+  So the required tangents are of the form $y = sqrt(3)x + c$.
+
+  The distance from the center to the tangent must be equal to the radius. So $|c| / sqrt(1 + 3) = 5=> |c| =
+  10$. Hence, $c = plus.minus 10$.
+
+  Therefore, the required tangents are $y = sqrt(3)x + 10$ and $y = sqrt(3)x - 10$.
+  //127
++ The given pair of lines is $x^2 - y^2 + 2y - 1 = 0$.
+
+  Rewrite it as $x^2 - (y - 1)^2 = 0$. So the lines are $x = y - 1$ and $x = 1 - y$.
+
+  The family of circles touching both lines has its center on the angle bisectors.
+
+  The angle bisectors are $x = 0$ and $y = 1$. First take center $(0, k)$.
+
+  The radius is the distance from $(0, k)$ to either line. So $r = (|0 - k + 1|) / sqrt(2)$.
+
+  Hence, the circle is $x^2 + (y - k)^2 = (k - 1)^2/2$.
+
+  This gives one family. Now take center $(h, 1)$. The radius is $(|h|) / sqrt(2)$.
+
+  Hence, the circle is $(x - h)^2 + (y - 1)^2 = h^2/2$.
+  //128
++ Let $A$ and $B$ be the centers and $r_1$ and $r_2$ the radii of the given circles respectively. Thus, $A =
+  (1, 2), B = (0, 4), r_1 = sqrt(5)$, and $r_2 = 2sqrt(5)$.
+
+  $A B = sqrt((1 - 0)^2 + (2 - 4)^2) = sqrt(5)$
+
+  $r_1 + r_2 = 3sqrt(5)$ and $|r_1 - r_2| = sqrt(5)$
+
+  Thus, $A B = |r_1 - r_2|$, hence, the two circles touch each other internally.
+  //129
++ The centers of the given circles are $A(-a, 0)$ and $B(0, -b)$ and radii are $r_1 = sqrt(a^2 - c^2)$ and
+  $r_2 = sqrt(b^2 - c^2)$ respectively.
+
+  The circle will touch internally or externally if $A B = r_1 + r_2$ or $A B = |r_1 - r_2|$
+
+  $A B^2 = (r_1 plus.minus r_2)^2 => a^2 + b^2 = r_1^2 + r_2^2 plus.minus 2r_1r_2$
+
+  Substituting the values and squaring we get $1/a^2 + 1/b^2 = 1/c^2$.
+  //130
++ The centers of the given circles are $A(0, 0)$ and $B(2a, 0)$ respectively, and radii are $a$ for both.
+
+  Distance between centers $A B = 2a = r_1 + r_2$. Hence, the circles touch each other externally.
+
+  Let the equations of the circles touching both the given circles be $(x - alpha)^2 + (y - beta)^2 = a^2$
+  with center $C = (alpha, beta)$ and radius $a$.
+
+  $A C = r_1 + r_3 = 2a => alpha^2 + beta^2 = 4a^2$, and similarly, $B C = r_2 + r_3 => (2alpha - a)^2 +
+  beta^2 = 4a^2$
+
+  $=> alpha = a, beta = plus.minus sqrt(3)a$, and thus, we have our required circles.
+  //131
++ The given circles are $x^2 + y^2 + 2x + 2y + 1 = 0$ and $x^2 + y^2 - 4x - 6y - 3 = 0$.
+
+  First circle is $(x + 1)^2 + (y + 1)^2 = 1$. Hence, the center is $(-1, -1)$ and radius is $1$.
+
+  Second circle is $(x - 2)^2 + (y - 3)^2 = 16$. Hencem the center is $(2, 3)$ and radius is $4$.
+
+  Now find the distance between the centers. So $d = sqrt((2 + 1)^2 + (3 + 1)^2) = sqrt(9 + 16) = 5$.
+
+  Also $r_1 + r_2 = 1 + 4 = 5$. Since $d = r_1 + r_2$, the circles touch externally.
+  //132
++ The given circles have centers $(a, b)$ and $(b, a)$ and both have radius $c$.
+
+  The distance between the centers is $sqrt((a - b)^2 + (b - a)^2) = sqrt(2(a - b)^2) = sqrt(2)|a - b|$.
+
+  For the circles to touch externally, the distance must be equal to $2c$.
+
+  So $sqrt(2)|a - b| = 2c$. Hence $|a - b| = sqrt(2)c$.
+
+  Thus $a - b = plus.minus sqrt(2)c$. So the condition is $a = b plus.minus sqrt(2)c$.
+  //133
++ The given circles are $x^2 + y^2 + 2u x + 2v y = 0$ and $x^2 + y^2 + 2u_1 x + 2v_1 y = 0$.
+
+  Their centers are $(-u, -v)$ and $(-u_1, -v_1)$. Their radii are $sqrt(u^2 + v^2)$ and $sqrt(u_1^2 +
+  v_1^2)$.
+
+  The distance between the centers is $sqrt((u - u_1)^2 + (v - v_1)^2)$.
+
+  For the circles to touch, we must have $sqrt((u - u_1)^2 + (v - v_1)^2) = sqrt(u^2 + v^2) plus.minus
+  sqrt(u_1^2 + v_1^2)$.
+
+  $=> (u - u_1)^2 + (v - v_1)^2 = u^2 + v^2 + u_1^2 + v_1^2 plus.minus 2 sqrt((u^2 +
+  v^2)(u_1^2 + v_1^2))$.
+
+  $=> u^2 + v^2 + u_1^2 + v_1^2 - 2(u u_1 + v v_1)$ equals the right side.
+
+  $=> -2(u u_1 + v v_1) = plus.minus 2 sqrt((u^2 + v^2)(u_1^2 + v_1^2))$.
+
+  $=> u u_1 + v v_1 = minus.plus sqrt((u^2 + v^2)(u_1^2 + v_1^2))$.
+
+  $=>(u u_1 + v v_1)^2 = (u^2 + v^2)(u_1^2 + v_1^2)$.
+
+  $=> u^2 u_1^2 + v^2 v_1^2 + 2u u_1 v v_1 = u^2 u_1^2 + u^2 v_1^2 + v^2 u_1^2 + v^2 v_1^2$.
+
+  $=> 2u u_1 v v_1 = u^2 v_1^2 + v^2 u_1^2$ $=> u^2 v_1^2 - 2u u_1 v v_1 + v^2 u_1^2 = 0$.
+
+  So $(u v_1 - u_1 v)^2 = 0$. Hence, $u v_1 = u_1 v$.
+  //134
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        // Setup
+        let O = (0, 0)
+        let P = (1, 0.5)
+
+        // --- Circle ---
+        circle(O, radius: 2, stroke: blue)
+
+        // --- Axes ---
+        line((-2.6, 0), (2.6, 0), mark: (end: ">"), stroke: gray)
+        line((0, -2.6), (0, 2.6), mark: (end: ">"), stroke: gray)
+        content((2.7, 0), $x$)
+        content((0, 2.8), $y$)
+
+        // Tick marks
+        for i in (-2, -1, 1, 2) {
+            line((i, -0.08), (i, 0.08), stroke: gray)
+            line((-0.08, i), (0.08, i), stroke: gray)
+            content((i, -0.25), text(size: 8pt)[#i])
+            content((-0.25, i), text(size: 8pt)[#i])
+        }
+
+        // --- Key points ---
+        // P = (1, 1/2)
+        // OP direction: (1, 0.5), |OP| = sqrt(5)/2
+        // Perpendicular direction (normalised): (-0.5, 1) / (sqrt(5)/2) = (-1/sqrt(5), 2/sqrt(5))
+        // half-chord = sqrt(11)/2
+        // A = P + (half-chord) * perp_unit
+        //   = (1 - (1/sqrt(5))*(sqrt(11)/2),  0.5 + (2/sqrt(5))*(sqrt(11)/2))
+        // B = P - (half-chord) * perp_unit
+
+        let sq5 = calc.sqrt(5)
+        let sq11 = calc.sqrt(11)
+
+        let px_unit = -1.0 / sq5   // perp x-component (unit)
+        let py_unit =  2.0 / sq5   // perp y-component (unit)
+        let half = sq11 / 2.0
+
+        let Ax = 1.0 + px_unit * half
+        let Ay = 0.5 + py_unit * half
+        let Bx = 1.0 - px_unit * half
+        let By = 0.5 - py_unit * half
+
+        let A = (Ax, Ay)
+        let B = (Bx, By)
+
+        // --- OP dashed line (extended to circle edge) ---
+        // OP unit: (1/sq5 * 2, 0.5/sq5 * 2) = (2/sq5, 1/sq5), scaled to radius 2
+        let op_end = (2.0 * 2.0 / sq5, 2.0 * 1.0 / sq5)
+        line(O, op_end, stroke: (paint: gray, dash: "dashed"))
+
+        // --- Radius OA dashed ---
+        line(O, A, stroke: (paint: gray, dash: "dashed", thickness: 0.6pt))
+
+        // --- Minimum chord AB ---
+        line(A, B, stroke: (paint: orange, thickness: 1.5pt))
+
+        // --- Right angle mark at P ---
+        // Small square using OP-unit and perp-unit vectors, size 0.12
+        let s = 0.12
+        let ou_x = 2.0 / sq5   // OP unit x
+        let ou_y = 1.0 / sq5   // OP unit y
+        // four corners of the square
+        let sq1 = P
+        let sq2 = (P.at(0) + ou_x * s,        P.at(1) + ou_y * s)
+        let sq3 = (P.at(0) + ou_x * s + px_unit * s, P.at(1) + ou_y * s + py_unit * s)
+        let sq4 = (P.at(0) + px_unit * s,     P.at(1) + py_unit * s)
+        line(sq1, sq2, stroke: (thickness: 0.6pt))
+        line(sq2, sq3, stroke: (thickness: 0.6pt))
+        line(sq3, sq4, stroke: (thickness: 0.6pt))
+        line(sq4, sq1, stroke: (thickness: 0.6pt))
+
+        // --- Points ---
+        circle(O, radius: 0.06, fill: blue, stroke: none)
+        circle(P, radius: 0.07, fill: orange, stroke: none)
+        circle(A, radius: 0.06, fill: black, stroke: none)
+        circle(B, radius: 0.06, fill: black, stroke: none)
+
+        // --- Labels ---
+        content((-0.18, -0.18), $O$)
+        content((P.at(0) + 0.15, P.at(1) + 0.15), text(fill: orange)[$P(1, 1/2)$])
+        content((Ax - 0.22, Ay + 0.15), $A$)
+        content((Bx + 0.15, By - 0.15), $B$)
+
+        // d = |OP| label
+        content((0.35, 0.45), text(size: 9pt, style: "italic")[$d = sqrt(5)/2$])
+
+        // half-chord label (midpoint of PA)
+        let mx = (P.at(0) + Ax) / 2
+        let my = (P.at(1) + Ay) / 2
+        content((mx - 0.35, my), text(size: 9pt, style: "italic", fill: orange)[$ell = sqrt(11)/2$])
+
+        // radius OA label
+        let rx = (O.at(0) + Ax) / 2
+        let ry = (O.at(1) + Ay) / 2
+        content((rx - 0.3, ry + 0.05), text(size: 9pt, style: "italic")[$r = 2$])
+    }))
+
+  Given circle is $x^2 + y^2 = 2^2$ #h(.5cm)$dots$(1)
+
+  For point $P(1, 1/2)$, $x^2 + y^2 - 4 = 1 + 1/4 - 4 < 0$, hence, the point lies inside the circle.
+
+  Let $A B$ be any chord of the circle through $P$. Let $O L perp A B$, then $L$, the will be the middle
+  point of $A B$.
+
+  $A B = 2 A L = sqrt(O A^2 - O L^2) = 2sqrt(4 - O P^2 + L P^2)$
+
+  Since $P$ and $O$ are fixed points $O P$ is fixed.
+
+  $A B$ will be minimum if $L P$ is minimum and minimum value of $L P$ is $0$, when $P$ coincides with $L$.
+
+  Thus, minimum value of $A B = 2sqrt(4 - (1 + 1/4)) = sqrt(11)$.
+  //134
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        // --- Setup ---
+        let scale = 1.8
+        let cx = 0
+        let cy = 2
+        let r = 2
+
+        // Chord intersection points
+        // x = (-1 plus.minus sqrt(7)) / 2
+        let sq7 = calc.sqrt(7)
+        let x1 = (-1 - sq7) / 2   // ~ -1.823
+        let y1 = 1 - x1            // ~  2.823
+        let x2 = (-1 + sq7) / 2   // ~  0.823
+        let y2 = 1 - x2            // ~  0.177
+
+        // Point on major arc: (-2, 2)
+        let px = -2
+        let py = 2
+
+        // Foot of perpendicular from C(0,2) to x+y=1: (-0.5, 1.5)
+        let fx = -0.5
+        let fy = 1.5
+
+        // --- Axes ---
+        set-style(stroke: (paint: black, thickness: 0.5pt))
+        line((-3.2, 0), (3.2, 0), mark: (end: ">", size: 0.2), fill:black)
+        line((0, -0.5), (0, 5.0), mark: (end: ">", size: 0.2), fill:black)
+
+        // Axis labels
+        content((3.35, 0),   text(size: 9pt)[$x$])
+        content((0.15, 5.1), text(size: 9pt)[$y$])
+
+        // Tick marks and labels on x-axis
+        for xi in (-2, -1, 1, 2) {
+            line((xi, -0.08), (xi, 0.08), stroke: (paint: gray, thickness: 0.5pt))
+            content((xi, -0.28), text(size: 7.5pt)[#xi])
+        }
+        // Tick marks and labels on y-axis
+        for yi in (1, 2, 3, 4) {
+            line((-0.08, yi), (0.08, yi), stroke: (paint: gray, thickness: 0.5pt))
+            content((-0.28, yi), text(size: 7.5pt)[#yi])
+        }
+
+        // Origin
+        content((0.18, -0.25), text(size: 7.5pt)[$O$])
+
+        // --- Circle ---
+        set-style(stroke: (paint: black, thickness: 0.8pt))
+        circle((cx, cy), radius: r, fill: none)
+
+        // --- Centre point ---
+        fill(black)
+        circle((cx, cy), radius: 0.06, fill: black, stroke: none)
+        content((0.35, 2.1), text(size: 8pt)[$C(0,2)$])
+
+        // --- Chord AB ---
+        set-style(stroke: (paint: blue, thickness: 1.2pt))
+        line((x1, y1), (x2, y2))
+
+        // Chord endpoints
+        fill(blue)
+        circle((x1, y1), radius: 0.07, fill: blue, stroke: none)
+        circle((x2, y2), radius: 0.07, fill: blue, stroke: none)
+        content((x1 - 0.22, y1 + 0.1), text(size: 9pt, fill: blue)[$A$])
+        content((x2 + 0.22, y2 - 0.1), text(size: 9pt, fill: blue)[$B$])
+
+        // Chord label
+        content((-0.4, 1.2), text(size: 8pt, fill: blue)[$x + y = 1$])
+
+        // --- Perpendicular from C to chord ---
+        set-style(stroke: (paint: luma(130), thickness: 0.7pt, dash: "dashed"))
+        line((cx, cy), (fx, fy))
+
+        // Right-angle mark at foot
+        // Chord direction unit vector: (1,-1)/sqrt(2)
+        // Perpendicular direction: (1,1)/sqrt(2)
+        let d = 0.12
+        let sq2 = calc.sqrt(2)
+        let along-x =  d / sq2   // along chord: (1,-1)/sqrt(2)
+        let along-y = -d / sq2
+        let perp-x  =  d / sq2   // along perp:  (1,1)/sqrt(2)eh
+        let perp-y  =  d / sq2
+
+        set-style(stroke: (paint: luma(150), thickness: 0.6pt, dash: "solid"))
+        line(
+            (fx + along-x,        fy + along-y),
+            (fx + along-x + perp-x, fy + along-y + perp-y),
+            (fx + perp-x,         fy + perp-y)
+        )
+
+        // Distance label
+        content((-0.05, 1.72), text(size: 7.5pt)[$d = 1\/sqrt(2)$])
+
+        // --- Central angle lines C->A and C->B ---
+        set-style(stroke: (paint: luma(160), thickness: 0.6pt, dash: "dashed"))
+        line((cx, cy), (x1, y1))
+        line((cx, cy), (x2, y2))
+    }))
+
+  Let $A B$ be the chord whose equation is $x + y - 1 = 0$ #h(.5cm)$dots$(1) and given circle is $x^2 + y^2
+  - 4y = 0$#h(.5cm)$dots$(2).
+
+  Center of the circle is $(0, 2)$. Let $L$ be the mid-point of the chord. Let $angle A C B = 2 theta$ then
+  $angle A C L = angle B C L = theta$
+
+  $C L =$ length of perpendicular from $C$ to line (1) $= (|0 + 2 - 1|)/sqrt(2) = 1/sqrt(2)$
+
+  $A C = 2$(radius of the circle).
+
+  From $triangle A C L$, $cos theta = (C L)/(A C) = 1/(2sqrt(2))$
+
+  Now angle at circumference $= 1/2 times$ angle at the center $= theta = cos^(-1)1/(2sqrt(2))$.
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+        set-style(stroke: 0.5pt)
+        let r = 3
+
+        // Axes
+        line((-3.8, 0), (3.8, 0), mark: (end: ">"), fill:black)
+        line((0, -0.3), (0, 3.5), mark: (end: ">"), fill:black)
+        content((3.9, 0), $x$, anchor: "west")
+        content((0, 3.6), $y$, anchor: "south")
+
+        // Semicircle
+        arc((r, 0), start: 0deg, stop: 180deg, radius: r, stroke: black)
+
+        // Diameter
+        line((-r, 0), (r, 0), stroke: (paint: black, thickness: 0.8pt))
+
+        // Points A, B, O
+        circle((-r, 0), radius: 0.07, fill: blue, stroke: none)
+        circle((r, 0),  radius: 0.07, fill: blue, stroke: none)
+        circle((0, 0),  radius: 0.06, fill: black, stroke: none)
+
+        content((-r, 0), $A$, anchor: "north-east", padding: 0.12)
+        content((-r, 0), $(-r, 0)$, anchor: "north", padding: 0.35)
+        content((r, 0),  $B$, anchor: "north-west", padding: 0.12)
+        content((r, 0),  $(r, 0)$, anchor: "north", padding: 0.35)
+        content((0, 0),  $O$, anchor: "north", padding: 0.12)
+
+        // Point P at 125^degree on the circle
+        let px = r * calc.cos(125deg)
+        let py = r * calc.sin(125deg)
+
+        circle((px, py), radius: 0.08, fill: rgb("#D85A30"), stroke: none)
+        content((px, py), $P(a, b)$, anchor: "south-east", padding: 0.1)
+
+        // Line PA and PB
+        line((px, py), (-r, 0),
+            stroke: (paint: rgb("#D85A30")))
+
+        line((px, py), (r, 0),
+            stroke: (paint: blue))
+
+        // Vector labels
+        content(
+            ((px + (-r)) / 2 - 0.25, (py + 0) / 2 + 0.1),
+            text(fill: rgb("#D85A30"))[$arrow(P A)$]
+        )
+        content(
+            ((px + r) / 2 + 0.2, (py + 0) / 2 + 0.1),
+            text(fill: blue)[$arrow(P B)$]
+        )
+
+        // Radius OP (dashed)
+        line((0, 0), (px, py),
+            stroke: (paint: gray, dash: "dashed", thickness: 0.6pt))
+        content((px / 2 - 0.2, py / 2 + 0.15), $r$)
+
+        // Right-angle mark at P
+        let dx = 0.22
+        let ux-pa = (-r - px) / r
+        let uy-pa = (0  - py) / r
+        let ux-pb = (r  - px) / r
+        let uy-pb = (0  - py) / r
+        let sx = px + dx * ux-pa
+        let sy = py + dx * uy-pa
+        let ex = px + dx * ux-pb
+        let ey = py + dx * uy-pb
+        let mx = sx + dx * ux-pb
+        let my = sy + dx * uy-pb
+        line((sx, sy), (mx, my), (ex, ey), stroke: (thickness: 0.8pt))
+    }))
+
+  Let $A P B$ be a semicircle and $A B$ be a diamtere. Let $O$ be the middle point of $A B$. We take $O$ as
+  the origin and $O B$ as $x$-axis. Let $r$ be the radius of the semi-circle. Then $O = (0, 0), A = (-r, 0)$
+  and $B = (r, 0)$.
+
+  Let $P = (x, y)$. Now $O P^2 = r^2 therefore x^2 + y^2 = r^2$
+
+  and $A P^2 + P B^2 = [(x + a)^2 + y^2] + [(x - a)^2 + y^2] = 2(x^2 + y^2 + r^2) = 4r^2 = (2a)^2 = A B^2$
+
+  $therefore angle A P B = 90^degree$.
+  //136
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        let r = 3.25  // visual radius (representing 6.5m)
+
+        // --- Axes ---
+        line((-4.2, 0), (4.2, 0), mark: (end: ">"), fill: black)
+        line((0, -4.0), (0, 4.0), mark: (end: ">"), fill: black)
+        content((4.3, 0), $x$, anchor: "west")
+        content((0, 4.1), $y$, anchor: "south")
+
+        // --- Circle ---
+        circle((0, 0), radius: r, stroke: black)
+
+        // --- Key points ---
+        // O = origin
+        circle((0, 0), radius: 0.06, fill: black, stroke: none)
+        content((0.15, -0.22), $O$)
+
+        // A = (-6.5, 0)  ->  (-r, 0)
+        circle((-r, 0), radius: 0.08, fill: blue, stroke: none)
+        content((-r, 0), $A(-6.5, 0)$, anchor: "north-east", padding: 0.15)
+
+        // B = (6.5, 0)   ->  (r, 0)
+        circle((r, 0), radius: 0.08, fill: blue, stroke: none)
+        content((r, 0), $B(6.5, 0)$, anchor: "north-west", padding: 0.15)
+
+        // --- Chord AC = 5m, A = (-6.5, 0) ---
+        // C lies on circle: (x+6.5)^2 + y^2 = 25  AND  x^2+y^2 = 42.25
+        // Solving: x = -6.5 + 25/(13) = -6.5 + 25/13 ≈ -4.577, y = plus.minus sqrt(42.25 - x^2)
+        // x_C = (-6.5*13 + 25)/13 = (-84.5+25)/13 = -59.5/13 ~ -4.577
+        // y_C = sqrt(42.25 - (59.5/13)^2) = sqrt((42.25*169 - 59.5^2)/169)
+        //      = sqrt((7140.25 - 3540.25)/169) = sqrt(3600/169) = 60/13 ~ 4.615
+
+        let scale = r / 6.5   // maps real metres to canvas units
+
+        let xc =  -59.5 / 13
+        let yc-pos = 60.0 / 13
+        let yc-neg = -60.0 / 13
+
+        let cxs = xc * scale
+        let cys-pos = yc-pos * scale
+        let cys-neg = yc-neg * scale
+
+        // --- C1 (above x-axis) ---
+        circle((cxs, cys-pos), radius: 0.08, fill: rgb("#D85A30"), stroke: none)
+        content((cxs, cys-pos), $C_1$, anchor: "south-east", padding: 0.12)
+
+        // --- C2 (below x-axis) ---
+        circle((cxs, cys-neg), radius: 0.08, fill: rgb("#D85A30"), stroke: none)
+        content((cxs, cys-neg), $C_2$, anchor: "north-east", padding: 0.12)
+
+        // --- Chord AC1 and AC2 ---
+        line((-r, 0), (cxs, cys-pos),
+            stroke: (paint: rgb("#D85A30"), thickness: 1.2pt))
+        line((-r, 0), (cxs, cys-neg),
+            stroke: (paint: rgb("#D85A30"), thickness: 1.2pt))
+
+        // AC length label (upper chord)
+        let mx-ac = (-r + cxs) / 2
+        let my-ac = (0 + cys-pos) / 2
+        content((mx-ac - 0.25, my-ac), $5$, anchor: "east")
+
+        // --- Lines BC1 and BC2 ---
+        // B = (r, 0), C1 = (cxs, cys-pos)
+        // Extend BC beyond C to circle edge for visual clarity
+        line((r, 0), (cxs, cys-pos),
+            stroke: (paint: blue, thickness: 1.2pt))
+        line((r, 0), (cxs, cys-neg),
+            stroke: (paint: blue, thickness: 1.2pt))
+
+        // BC label (upper)
+        let mx-bc1 = (r + cxs) / 2
+        let my-bc1 = (0 + cys-pos) / 2
+        content((mx-bc1 + 0.25, my-bc1 + 0.1),
+            text(fill: blue)[$B C_1$], anchor: "west")
+
+        // BC label (lower)
+        let mx-bc2 = (r + cxs) / 2
+        let my-bc2 = (0 + cys-neg) / 2
+        content((mx-bc2 + 0.25, my-bc2 - 0.1),
+            text(fill: blue)[$B C_2$], anchor: "west")
+
+        // --- Right-angle marks at C1 and C2 (angle in semicircle) ---
+        // At C1: angle AC1B = 90^degree
+        let dx = 0.2
+        for (cy, sign) in ((cys-pos, 1), (cys-neg, -1)) {
+            let ax = -r;  let ay = 0.0
+            let bx =  r;  let by = 0.0
+            let cx-pt = cxs; let cy-pt = cy
+
+            // unit vectors C->A and C->B
+            let len-ca = calc.sqrt((ax - cx-pt)*(ax - cx-pt) + (ay - cy-pt)*(ay - cy-pt))
+            let len-cb = calc.sqrt((bx - cx-pt)*(bx - cx-pt) + (by - cy-pt)*(by - cy-pt))
+            let ua = ((ax - cx-pt)/len-ca, (ay - cy-pt)/len-ca)
+            let ub = ((bx - cx-pt)/len-cb, (by - cy-pt)/len-cb)
+
+            let p1 = (cx-pt + dx*ua.at(0), cy-pt + dx*ua.at(1))
+            let p2 = (cx-pt + dx*ub.at(0), cy-pt + dx*ub.at(1))
+            let pm = (p1.at(0) + dx*ub.at(0), p1.at(1) + dx*ub.at(1))
+            line(p1, pm, p2, stroke: (thickness: 0.7pt))
+        }
+
+        // --- Diameter label ---
+        content((0, -0.3), $r = 6.5$, anchor: "north")
+    }))
+
+  Given $A B = 13$m, $A C = 5$m. Let $O L perp A C$, then $L$ is the mid-point of $A C$.
+
+  $A L = 2.5$m and $A O = 6.5$m. From $triangle A L O, cos theta = (A L)/(A O) = 5/13$
+
+  Slope of $B C_1 = tan(90^degree + theta) = -cot theta = -5/12$
+
+  Slope of $B C_2 = tan(-90^degree - theta) = 5/12$
+
+  Equations of $B C_1$ and $B C_2$ are $y = -5/12(x - 13/2)$ and $y = 5/12(x - 13/2)$
+
+  The join equation is $100x^2 - 576y^2 - 1300x + 4225 = 0$.
+  //137
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$ and the internal point is $(alpha, beta)$.
+
+  Let the center be $(-g, -f)$ and radius be $r$ where $r^2 = g^2 + f^2 - c$.
+
+  Let a chord through $(alpha, beta)$ be at perpendicular distance $d$ from the center.
+
+  The length of the chord is $2 sqrt(r^2 - d^2)$.
+
+  For a fixed point inside the circle, the least chord occurs when the chord is perpendicular to the line
+  joining the center and the point.
+
+  In that case the distance from the center to the chord is the distance between the center and the point.
+
+  So $d^2 = (alpha + g)^2 + (beta + f)^2$.
+
+  Thus the least length is $2 sqrt(r^2 - d^2)$$=> 2 sqrt(g^2 + f^2 - c - ((alpha + g)^2 + (beta + f)^2))$.
+
+  $= 2 sqrt(-(alpha^2 + beta^2 + 2g alpha + 2f beta + c))$.
