@@ -1821,15 +1821,164 @@ locus of points of intersectionof two circles.
   if $u v_1 = u_1v$.
   //134
 + Find the length of the chord of the circle $x^2 + y^2 = 4$ through $(1, 1/2)$, which is of minimum length.
-  //134
+  //135
 + Find the angle that the chord of circle $x^2 + y^2 - 4y = 0$ along the line $x + y = 1$ subtends at the
   circumference the larger segment.
-  //135
-+ Prove, analytically, that the angle n a semi-circle is a right angle.
   //136
++ Prove, analytically, that the angle n a semi-circle is a right angle.
+  //137
 + A circle of diameter $13$m with the center $O$ coinciding with the origin of coordinate axes, has the
   diameter $A B$ on the $x$-axis. If the length of the chord $A C$ be $5$m, find the equation of pair of
   lines $B C$, $C$ having two possible positions.
-  //137
+  //138
 + Show that the least chord of the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ which passes through the
   internal point $(alpha, beta)$ is equal to $2sqrt(-(alpha^2 + beta^2 + 2g alpha + 2f beta + c))$.
+  //139
++ If the line $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ cut the coordinate axes in concyclic
+  points prove that $a_1a_2 = b_1b_2$.
+  //140
++ The chord along the line $y - x = 3$ of the circle $x^2 + y^2 = k^2$, subtends an angle of $30^degree$ in
+  the major segment of the circle cut off by the chord. Find $k$.
+  //141
++ Prove that the tangent to the circle $x^2 + y^2 = 5$ at the point $(1, -2)$ also touches the circle $x^2 +
+  y^2 - 8x + 6y + 20 = 0$ and find its point of contact.
+  //142
++ Prove that the equation $x^2 + y^2 - 2x - 2lambda y - 8 = 0$, where $lambda$ is a parameter, represents a
+  family of circles passing through two fixed points $A$ and $B$ on the $x$-axis. Also, find the equation of
+  that circle of the family the tangents to which at $A$ and $B$ meet on the line $x + 2y + 5 = 0$.
+  //143
++ $A B$ is a diameter of a circle. $C D$ is a chord parallel to $A B$ and $2 C D = A B$. The tangent at $B$
+  meets the line $A C$ produced at $E$. Prove that $A E = 2 A B$.
+  //144
++ Two parallel tangents to a given circle are cut by a third tangent at point $A$ and $B$. If $C$ be the
+  center of the given circle, prove that $angle A C B$ is a right angle.
+  //145
++ A circle of radius $5$ meters is having its center at $A$ at the origin. Two circles II and III with
+  centers $B$ and $C$ of radii $3$ and $4$ meters respectively touch the circle I and also touch the
+  $x$-axis to the right of $A$. Find the equation to any two common tangents to the circles II and III.
+  //146
++ Find the equation of the normal to the circle $x^2 + y^2 - 2x - 4y + 3 = 0$ at the point $(2, 3)$.
+  //147
++ The extremeties of a diagonal of a rectangle are $(-4, 4)$ and $(6, -1)$. A circle circumscribes the
+  rectangle and cuts an intercept $A B$ on the $y$-axis. Find the area of the triangle formed by $A B$ and
+  the tangents to the circle at $A$ and $B$.
+  //148
++ Find the equation of the tangent to the circle $x^2 + y^2 - 4x - 6y = 12$ at the point $(-1, -1)$.
+  //149
++ Prove that the tangents to the circle $x^2 + y^2 - 7x - 5y + 18 = 0$ at the point $(4, 3)$ and $(3, 2)$
+  are parallel to each other.
+  //150
++ Find the equations of the tangents to the circle $x^2 + y^2 = 169$ at $(5, 12)$ and $(12, -5)$ and prove
+  that they cut at right angles. Find their point of intersection also.
+  //151
++ The tangent at the point $(alpha, beta)$ to the circle $x^2 + y^2 = r^2$ cut the axes of coordinates in
+  $A$ and $B$. Prove that the area of the $triangle O A B$ is $1/2 r^4/(|alpha beta|)$, $O$ being the
+  origin.
+  //152
++ Let $A$ be the center of the circle $x^2 + y^2 - 2x - 4y - 20 = 0$. Suppose that the tangents at the point
+  $B(1, 7)$ and $D(4, -2)$ on the circle meet at the point $C$. Find the area of the quadrilateral $A B C
+  D$.
+  //153
++ Prove that the line $x + y = 5$ touches the circle $x^2 + y^2 - 2x - 4y + 3 = 0$. Find the point of
+  contact.
+  //154
++ Prove that the tangent to the circle $x^2 + y^2 = 5$ at the point $(1, -2)$ also touches the circle $x^2 +
+  y^2 - 8x + 6y + 20 = 0$, and find its point of contact.
+  //155
++ Show that the circles $x^2 + y^2 - 10x + 4y - 20 = 0$ and $x^2 + y^2 + 14x - 6y + 22 = 0$ touch each
+  other. Find the coordinates of the point of contact and the equation of the common tangent at the point of
+  contact.
+  //156
++ Prove that the line $y = x + 2$ touches the circle $x^2 + y^2 = 2$. Find the point of contact.
+  //157
++ Find the condition that the straight line $l x + m y + n = 0$ should touch the circle $x^2 + y^2 + 2g x +
+  2f y + c = 0$ and also find the coordinates of the point of contact.
+  //158
++ If the line $3x + 4y = k$ touches the circle $x^2 + y^2 = 10x$, find the value of $k$ and also the point
+  of contact.
+  //159
++ Find the equation of the normal to the circle $x^2 + y^2 = 5$ at the point $(1, 2)$.
+  //160
++ Find the equation of the normal to the circle $x^2 + y^2 = 2x$, which is parallel to the line $x + 2y =
+  3$.
+  //161
++ The point $(1, 4)$ is inside the circle $S$ whose equation is of the form $x^2 + y^2 - 6x - 10y + k =
+  0$. What are the possible values of $k$ if the circle $S$ neither touches the axes not cuts the them?
+  //162
++ Find the length of the tangent drawn from the point $(5, 1)$ to the circle $x^2 + y^2 + 6x - 4y - 3 = 0$.
+  //163
++ Distances from the origin to the centers of the three circles $x^2 + y^2 - 2lambda x = c^2$, where $c$ is
+  a constant and $lambda$ a vairable are in G.P. Prove that the lengths of tangents drawn from any point on
+  the circle $x^2 + y^2 = c^2$ to the three circles are also in G.P.
+  //164
++ From a point $P$ tangents drawn to the circles $x^2 + y^2 + x - 3 = 0, 3x^2 + 3y^2 - 5x + 3y = 0$ and
+  $4x^2 + 4y^2 + 8x + 7y + 9 = 0$ are of equal lengths. Find the equation of the circle thorugh $P$ which
+  touches the line $x + y = 5$ at the point $(6, -1)$.
+  //165
++ If the length of the tangent from $(f, g)$ to the circle $x^2 + y^2 = 6$ be twice the length of the
+  tangent from $(f, g)$ to the circle $x^2 + y^2 + 3x + 3y = 0$ then will $f^2 + g^2 + 4f + 4g + 2 = 0$?
+  //166
++ If the length of the tangent from a point $(f, g)$ to the circle $x^2 + y^2 = 4$ be four times the length
+  of the tangent from it to the circle $x^2 + y^2 = 4x$, show that $15f^2 + 15g^2 - 64f + 4 = 0$.
+  //167
++ Show that the length of the tangent from any point on the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ to the
+  circle $x^2 + y^2 + 2g x + 2f y + c_1 = 0$ is $sqrt(c_1 - 1)$.
+  //168
++ Find the point from which the tangents to the three circles $x^2 + y^2 = 1, x^2 + y^2 - 8x + 15 = 0$ and
+  $x^2 + y^2 + 10y + 24 = 0$ are equal in length.
+  //169
++ Find the point from which the tangents to the three circles $x^2 + y^2 - 4x + 7 = 0, 2x^2 + 2y^2 - 3x + 5y
+  + 9 = 0$ and $x^2 + y^2 + y = 0$ are equal in length. Find the length as well.
+  //170
++ If $A_i$ is the center of the circle $x^2 + y^2 + 2g_i x + 5 = 0$ and $t_i$ is the length of the tangents
+  from any point to this circle $i = 1, 2, 3;$ then show that $(g_2 - g_3)t_1^2 + (g_3 - g_1)t_2^2 + (g_1 -
+  g_2)t_3^2 = 0$.
+  //171
++ Show that if the length of the tangent from a point $P$ to the circle $x^2 + y^2 = a^2$ be four times the
+  length of the tangent from it to the circle $(x - a)^2 + y^2 = a^2$, then $P$ lies on the circle $15x^2 +
+  15y^2 - 32a x + a^2 = 0$.
+  //172
++ Find the equation of the pair of tangents drawn to the circle $x^2 + y^2 - 2x + 4y = 0$ from point $(0,
+  1)$.
+  //173
++ If from any point on the circle $x^2 + y^2 + 2g x + 2f y + c = 0$, tangents are drawn to the circle $x^2 +
+  y^2 + 2g x + 2f y + c sin^2alpha + (g^2 + f^2)cos^2alpha = 0$, show that the angle between the tangents is
+  equal to $2alpha$.
+  //174
++ Find the equations of tangents to the circle $x^2 + y^2 = 25$ which pass through $(1, -7)$ and show that
+  they are at right angles.
+  //175
++ Show that two tangents can be drawn from the point $(9, 0)$ to the circle $x^2 + y^2 = 16$; also find the
+  equation of the pair of tangents and the angle between them.
+  //176
++ Find the equations of the tangents through $(7, 1)$ to the circle $x^2 + y^2 = 25$.
+  //177
++ Find the equation of the pair of tangents from the origin to the circle $x^2 + y^2 + 2g x + 2f y + k^2 =
+  0$, and show that their intercept on the line $y = h$ is $(2h k)/(k^2 - g^2)$ times the radius of the
+  circle.
+  //178
++ Find the equation of the chord of the circle $x^2 + y^2 + 6x + 8y - 11 = 0$, whose middle point is $(1,
+  -1)$.
+  //179
++ Find the equation of the chord of the circle $x^2 + y^2 + 6x + 8y + 9 = 0$ whose mid-point is $(-2, -3)$.
+  //180
++ Find the coordinates of the mid-point of the chord which the circle $x^2 + y^2 + 4x - 2y - 3 = 0$ cuts off
+  on the line $y = x + 2$.
+  //181
++ Find the equation of the chord fo contact of the tangents drawn from $(1, 2)$ to the circle $x^2 + y^2 -
+  2x + 4y + 7 = 0$.
+  //182
++ Tangents are drawn from the point $(h, k)$ to the circle $x^2 + y^2 = a^2$. Prove that the area of the
+  triangle formed by them and their chord of contact is $(a(h^2 + k^2 - a^2)^(3/2))/(h^2 + k^2)$.
+  //183
++ The chord of contact of tangents from a point on the circle $x^2 + y^2 = a^2$ to the circle $x^2 + y^2 =
+  b^2$ touches the circle $c^2 + y^2 = c^2$. Show that $a, b, c$ are in G.P.
+  //184
++ Tangents are drawn to the circle $x^2 + y^2 = 12$ at the points where it is met by the circle $x^2 + y^2 -
+  5x + 3y - 2 = 0$; find the points of intersection of these tangents.
+  //185
++ Find the equation of the chord of contact of the tangents drawn from an external point $(-3, 2)$ to the
+  circle $x^2 + y^2 + 2x - 3 = 0$.
+  //186
++ Find the equation of the chord of contact of the tangents drawn from $(5, 3)$ to the circle $x^2 + y^2 =
+  25$.

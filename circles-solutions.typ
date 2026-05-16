@@ -2600,7 +2600,7 @@
   $A B$ will be minimum if $L P$ is minimum and minimum value of $L P$ is $0$, when $P$ coincides with $L$.
 
   Thus, minimum value of $A B = 2sqrt(4 - (1 + 1/4)) = sqrt(11)$.
-  //134
+  //135
 + #figure(
     cetz.canvas({
         import cetz.draw: *
@@ -2716,6 +2716,7 @@
   From $triangle A C L$, $cos theta = (C L)/(A C) = 1/(2sqrt(2))$
 
   Now angle at circumference $= 1/2 times$ angle at the center $= theta = cos^(-1)1/(2sqrt(2))$.
+  //136
 + #figure(
     cetz.canvas({
         import cetz.draw: *
@@ -2798,7 +2799,7 @@
   and $A P^2 + P B^2 = [(x + a)^2 + y^2] + [(x - a)^2 + y^2] = 2(x^2 + y^2 + r^2) = 4r^2 = (2a)^2 = A B^2$
 
   $therefore angle A P B = 90^degree$.
-  //136
+  //137
 + #figure(
     cetz.canvas({
         import cetz.draw: *
@@ -2918,7 +2919,7 @@
   Equations of $B C_1$ and $B C_2$ are $y = -5/12(x - 13/2)$ and $y = 5/12(x - 13/2)$
 
   The join equation is $100x^2 - 576y^2 - 1300x + 4225 = 0$.
-  //137
+  //138
 + The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$ and the internal point is $(alpha, beta)$.
 
   Let the center be $(-g, -f)$ and radius be $r$ where $r^2 = g^2 + f^2 - c$.
@@ -2937,3 +2938,1382 @@
   Thus the least length is $2 sqrt(r^2 - d^2)$$=> 2 sqrt(g^2 + f^2 - c - ((alpha + g)^2 + (beta + f)^2))$.
 
   $= 2 sqrt(-(alpha^2 + beta^2 + 2g alpha + 2f beta + c))$.
+  //139
++ Equation of any curve through the point of intersection of given lines and coordinate axes is $(a_1x +
+  b_1y + c_1)(a_2x + b_2y + c_2) + k x y = 0$
+
+  If this is a circle then coeff. of $x^2 =$ coeff. of $y^2 => a_1a_2 = b_1b_2$.
+  //140
++ The given circle is $x^2 + y^2 = k^2$ so the radius is $k$. The line is $y - x - 3 = 0$.
+
+  The perpendicular distance from the center $(0, 0)$ to the chord is
+
+  $d = (|-3|)/sqrt(2) = 3/sqrt(2)$.
+
+  Let the chord subtend angle $30^degree$ at a point on the major segment.
+
+  Then the angle subtended at the center by the chord is $360^degree - 2 times 30^degree = 300^degree$.
+
+  The half angle at the center is $150 degree$.
+
+  So $cos 150 degree = d / k$. Thus $-sqrt(3)/2 = (3 / sqrt(2)) / k$.
+
+  So $k = 3 sqrt(2/3) = sqrt(6)$.
+  //141
++ The tangent to the circle $x^2 + y^2 = 5$ at $(1, -2)$ is
+
+  $x x_1 + y y_1 = r^2$. So $x - 2y = 5$.
+
+  Now consider the second circle $x^2 + y^2 - 8x + 6y + 20 = 0$. So the center is $(4, -3)$ and radius is
+  $sqrt(5)$.
+
+  Find the distance from the center to the line $x - 2y - 5 = 0$. So $(|4 + 6 - 5|)/sqrt(5) = 5/sqrt(5) =
+  sqrt(5)$.
+
+  This equals the radius, so the line is tangent.
+
+  Put $x = 2y + 5$ into the circle. So $(2y + 5 - 4)^2 + (y + 3)^2 = 5$. This gives $(2y + 1)^2 + (y + 3)^2 = 5$.
+
+  So $5y^2 + 10y + 5 = 0$$=> y^2 + 2y + 1 = 0$. So $(y + 1)^2 = 0$ and $y = -1$. Then $x = 3$.
+
+  Hence, the point of contact is $(3, -1)$.
+  //142
++ The given family is $x^2 + y^2 - 2x - 2lambda y - 8 = 0$. Write it as $x^2 + y^2 - 2x - 8 - 2lambda y = 0$.
+
+  For fixed points, the equation must hold for all $lambda$. So $y = 0$(for $x$-axis) and $x^2 - 2x - 8 = 0$.
+
+  Thus $x = 4$ or $x = -2$. Hence the fixed points are $A(4, 0)$ and $B(-2, 0)$.
+
+  So $2x + 2y y' - 2 - 2lambda y' = 0$. Thus $y' = (1 - x)/(y - lambda)$.
+
+  At $A(4, 0)$ we get slope $3/lambda$. So tangent at $A$ is $y = (3/lambda)(x - 4)$.
+
+  At $B(-2, 0)$ we get slope $-3/lambda$. So tangent at $B$ is $y = (-3/lambda)(x + 2)$.
+
+  Solving gives $x = 1$ and $y = -9/lambda$. This point lies on $x + 2y + 5 = 0$.
+
+  So $1 + 2(-9/lambda) + 5 = 0$. Thus, $6 - 18/lambda = 0$ so $lambda = 3$.
+
+  Hence the required circle is $x^2 + y^2 - 2x - 6y - 8 = 0$.
+  //143
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        // --- Parameters ---
+        let O = (0, 0)
+        let R = 2.5
+
+        // A (top), B (bottom) — vertical diameter
+        let A = (0,  R)
+        let B = (0, -R)
+
+        // CD parallel to AB (vertical), |CD| = R, half-chord = R/2
+        // horizontal offset from O: h = R*sqrt(3)/2
+        let h = R * calc.sqrt(3) / 2
+        let C = (h,  R / 2)
+        let D = (h, -R / 2)
+
+        // Tangent at B is horizontal: y = -R
+        // Line AC direction: from A=(0,R) to C=(h, R/2), dir = (h, -R/2)
+        // Parametric: (0 + h*t,  R - R/2 * t)
+        // At y = -R (tangent): R - R/2 * t = -R  =>  t = 4
+        // x_E = h * 4 = 4h = 4 * R*sqrt(3)/2 = 2*R*sqrt(3)
+        let E = (4 * h, -R)
+
+        // --- Draw ---
+
+        // Circle
+        circle(O, radius: R, stroke: gray)
+
+        // Dashed radii for reference
+        line(O, A, stroke: (dash: "dashed", paint: gray, thickness: 0.5pt))
+        line(O, B, stroke: (dash: "dashed", paint: gray, thickness: 0.5pt))
+        line(O, C, stroke: (dash: "dashed", paint: gray, thickness: 0.5pt))
+
+        // Perpendicular from O to midpoint of CD
+        // midpoint of CD = (h, 0)
+        line(O, (h, 0), stroke: (dash: "dashed", paint: gray, thickness: 0.5pt))
+
+        // Right-angle mark at O–midpoint–CD junction
+        rect((h - 0.12, -0.12), (h, 0.12),
+            stroke: (paint: gray, thickness: 0.6pt), fill: none)
+
+        // Diameter AB
+        line(A, B, stroke: (paint: black, thickness: .5pt))
+
+        // Chord CD
+        line(C, D, stroke: (paint: black, thickness: .5pt))
+
+        // Parallel tick marks on AB (two ticks near midpoint O)
+        line((-0.15, 0.12), (0.15, 0.12),
+            stroke: (paint: black, thickness: .5pt))
+        line((-0.15, 0.22), (0.15, 0.22),
+            stroke: (paint: black, thickness: .5pt))
+
+        // Parallel tick marks on CD (two ticks near midpoint)
+        line((h - 0.15, 0.12), (h + 0.15, 0.12),
+            stroke: (paint: black, thickness: .5pt))
+        line((h - 0.15, 0.22), (h + 0.15, 0.22),
+            stroke: (paint: black, thickness: .5pt))
+
+        // Tangent line at B (horizontal, extended)
+        line((-0.6, -R), (E.at(0) + 0.4, -R),
+            stroke: (paint: gray, dash: "dashed", thickness: 0.5pt))
+
+        // Right-angle mark at B (tangent ⊥ OB)
+        rect((0, -R), (0.18, -R + 0.18),
+            stroke: (paint: black, thickness: 0.5pt), fill: none)
+
+        // Line AC produced to E (blue)
+        line(A, E, stroke: (paint: blue))
+
+        // Segment BE on tangent
+        line(B, E, stroke: (paint: black))
+
+        // Points
+        for (pt, name, anchor) in (
+            (A, "A", "east"),
+            (B, "B", "east"),
+            (C, "C", "west"),
+            (D, "D", "west"),
+            (E, "E", "north"),
+            (O, "O", "east"),
+        ) {
+            circle(pt, radius: 0.07, fill: black, stroke: none)
+            content(pt, name,
+                anchor: anchor,
+                padding: 0.15)
+        }
+    }))
+
+  Let $O$ be the center of the circle which is taken as the origin. Let $a$ be the radius of the circle. Now
+  $A = (0, a), B = (0, -a)$. Since $C D parallel A B$ and $2 C D = A B$
+
+  Let $C L perp C D$. $C L = (C D)/2 = a/2$
+
+  In $triangle O L C, O L = sqrt(O C^2 - C L^2) = (sqrt(3)a)/2$
+
+  $C = (sqrt(3)/2a, a/2), D = (sqrt(3)/2a, -a/2)$
+
+  Now equation of the circle is $x^2 + y^2 = a^2$ and equation of tangent at $(0, -a)$ is $-a y = a^2 => y =
+  -a$
+
+  Equation of $A C$ is $y - a = (0 - sqrt(3)/2a)/(a - a/2)(x - 0)$. Solving this with $y = -a$ we get $E =
+  (2sqrt(3)a, - a)$
+
+  Thus, $A E = 2. A B$.
+  //144
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        // --- Parameters ---
+        // Circle centre C at origin, radius r
+        let C = (0, 0)
+        let r = 2.0
+
+        // Two parallel tangents: horizontal, y = +r (top) and y = -r (bottom)
+        // Third tangent touches circle at some point P on the circle.
+        // Let P = (r*cos(theta), r*sin(theta)) for some angle theta.
+        // Choose theta = 30deg for a nice asymmetric layout.
+        let theta = 30 * calc.pi / 180
+
+        let Px = r * calc.cos(theta)
+        let Py = r * calc.sin(theta)
+
+        // Tangent at P: (x - Px)*Px + (y - Py)*Py = 0  (since radius CP perp tangent)
+        // i.e.  Px*x + Py*y = r^2
+        // Intersection with y = +r  (top tangent):
+        //   Px*x + Py*r = r^2  =>  x = (r^2 - Py*r) / Px = r*(r - Py)/Px
+        let Ax = r * (r - Py) / Px
+        let Ay = r   // A is on top tangent
+
+        // Intersection with y = -r  (bottom tangent):
+        //   Px*x + Py*(-r) = r^2  =>  x = (r^2 + Py*r) / Px = r*(r + Py)/Px
+        let Bx = r * (r + Py) / Px
+        let By = -r  // B is on bottom tangent
+
+        let A = (Ax, Ay)
+        let B = (Bx, By)
+
+        // Touch points of the two parallel tangents (top and bottom)
+        let T_top    = (0,  r)   // top tangent touches at (0, r)
+        let T_bottom = (0, -r)   // bottom tangent touches at (0, -r)
+        let P        = (Px, Py)  // third tangent touch point
+
+        // --- Extend tangent lines for drawing ---
+        // Top tangent: y = r, drawn from x_left to x_right
+        let top_x1 = -r - 1.0
+        let top_x2 = Ax + 0.8
+
+        // Bottom tangent: y = -r
+        let bot_x1 = -r - 1.0
+        let bot_x2 = Bx + 0.8
+
+        // Third tangent line: Px*x + Py*y = r^2
+        // Extend a bit beyond A (top) and B (bottom)
+        let third_x1 = Ax - 0.2
+        let third_y1 = Ay + 0.2  // slightly above A
+        let third_x2 = Bx + 0.2
+        let third_y2 = By - 0.2  // slightly below B
+
+        // -------------------------------------------------------
+        // DRAWING
+        // -------------------------------------------------------
+
+        // Circle
+        circle(C, radius: r,
+            stroke: (paint: gray.darken(20%), thickness: 1pt),
+            fill: none)
+
+        // --- Two parallel tangents (gray dashed) ---
+        line((top_x1, r),  (top_x2, r),
+            stroke: (paint: gray.darken(30%), thickness: 1pt, dash: "dashed"))
+        line((bot_x1, -r), (bot_x2, -r),
+            stroke: (paint: gray.darken(30%), thickness: 1pt, dash: "dashed"))
+
+        // --- Third tangent line (solid, blue) ---
+        line((third_x1, third_y1), (third_x2, third_y2),
+            stroke: (paint: blue.darken(10%), thickness: 1.3pt))
+
+        // --- Radii to the three touch points (dashed gray) ---
+        line(C, T_top,    stroke: (paint: gray, thickness: 0.7pt, dash: "dashed"))
+        line(C, T_bottom, stroke: (paint: gray, thickness: 0.7pt, dash: "dashed"))
+        line(C, P,        stroke: (paint: gray, thickness: 0.7pt, dash: "dashed"))
+
+        // --- Lines CA and CB (the angle we want to prove = 90°) ---
+        line(C, A, stroke: (paint: red.darken(10%), thickness: 1.2pt))
+        line(C, B, stroke: (paint: red.darken(10%), thickness: 1.2pt))
+
+        // --- Right-angle mark at C for angle ACB ---
+        // CA direction: unit vector toward A
+        let CA_len = calc.sqrt((Ax) * (Ax) + (Ay) * (Ay))
+        let ca_ux = Ax / CA_len
+        let ca_uy = Ay / CA_len
+        // CB direction
+        let CB_len = calc.sqrt((Bx) * (Bx) + (By) * (By))
+        let cb_ux = Bx / CB_len
+        let cb_uy = By / CB_len
+        let sq = 0.22   // size of right-angle square
+        // Three corners of the little square:
+        //   C + sq*ca_u, C + sq*ca_u + sq*cb_u, C + sq*cb_u
+        let sq1 = (sq * ca_ux,            sq * ca_uy)
+        let sq2 = (sq * ca_ux + sq*cb_ux, sq * ca_uy + sq*cb_uy)
+        let sq3 = (sq * cb_ux,            sq * cb_uy)
+        line(sq1, sq2, stroke: (paint: black, thickness: 0.7pt))
+        line(sq2, sq3, stroke: (paint: black, thickness: 0.7pt))
+
+        // --- Right-angle marks at A and B (tangent ⊥ radius) ---
+        // At A: radius C->T_top is vertical (dir (0,1)), tangent is horizontal (dir (1,0))
+        rect((-0.14, r - 0.14), (0.0, r),
+            stroke: (paint: gray.darken(20%), thickness: 0.6pt), fill: none)
+        // At B:
+        rect((-0.14, -r), (0.0, -r + 0.14),
+            stroke: (paint: gray.darken(20%), thickness: 0.6pt), fill: none)
+        // At P: right angle between CP and third tangent
+        // CP direction unit vector
+        let cp_ux = Px / r
+        let cp_uy = Py / r
+        // Tangent at P is perpendicular to CP: tangent dir = (-cp_uy, cp_ux)
+        let tp_ux = -cp_uy
+        let tp_uy =  cp_ux
+        let s = 0.16
+        let rp1 = (Px + s * cp_ux,              Py + s * cp_uy)
+        let rp2 = (Px + s * cp_ux + s * tp_ux,  Py + s * cp_uy + s * tp_uy)
+        let rp3 = (Px + s * tp_ux,              Py + s * tp_uy)
+        line(rp1, rp2, stroke: (paint: gray.darken(20%), thickness: 0.6pt))
+        line(rp2, rp3, stroke: (paint: gray.darken(20%), thickness: 0.6pt))
+
+        // --- Touch-point dots ---
+        for pt in (T_top, T_bottom, P) {
+            circle(pt, radius: 0.055, fill: gray.darken(40%), stroke: none)
+        }
+
+        // --- Main points A, B, C ---
+        for pt in (A, B, C) {
+            circle(pt, radius: 0.08, fill: black, stroke: none)
+        }
+
+        // --- Labels ---
+        // A is on top tangent, third tangent meets it → label above-right
+        content(A, [*A*], anchor: "south", padding: 0.18)
+
+        // B is on bottom tangent → label below-right
+        content(B, [*B*], anchor: "north", padding: 0.18)
+
+        // C (centre) — label to the left so it doesn't clash with the angle mark
+        content(C, [*C*], anchor: "east", padding: 0.22)
+
+        // Touch point labels (small, gray)
+        content(T_top,    text(size: 8pt, fill: gray.darken(40%))[T₁],
+            anchor: "west", padding: 0.14)
+        content(T_bottom, text(size: 8pt, fill: gray.darken(40%))[T₂],
+            anchor: "west", padding: 0.14)
+        content(P,        text(size: 8pt, fill: gray.darken(40%))[P],
+            anchor: "west", padding: 0.14)
+
+        // Angle label ∠ACB at C (placed along bisector of CA,CB)
+        let bis_x = ca_ux + cb_ux
+        let bis_y = ca_uy + cb_uy
+        let bis_len = calc.sqrt(bis_x*bis_x + bis_y*bis_y)
+        let label_dist = 0.72
+        content(
+            (label_dist * bis_x / bis_len, label_dist * bis_y / bis_len),
+            text(size: 8.5pt, fill: red.darken(20%))[$angle A C B = 90^degree$],
+            anchor: "west", padding: 0.05)
+    }))
+
+  Let the center $C$ of the circle be taken as the origin and let $a$ be the radius of the given circle. Let
+  $C X$ and $C Y$ be the $x$ and $y$ axes respectively. Let the two parallel tangents to the circle at $Q$
+  and $R$ be $y = a$ and $y = -a$.
+
+  Equation of the circle is $x^2 + y^2 = a^2$ #h(.5cm)$dots$(1) and equation of any other tangent at point
+  $P$ be $y = m x + a sqrt(1 + m^2)$ #h(.5cm)$dots$(2)
+
+  Let $A$ and $B$ be the points of intersection of tangent (2) with the lines $y = a$ and $y = -a$
+  respectively, then
+
+  $A = ((a - a sqrt(1 + m^2))/m, a)$ and $B = ((-a - a sqrt(1 + m^2))/m, -a)$
+
+  Slope of $A C = (a m)/(a(1 - sqrt(1 + m^2))) = m_1$(let) and slope of $B C = (a m)/(a + sqrt(1 + m^2)) =
+  m_2$(let)
+
+  $m_1m_2 = -1$, hence, $angle A C B = 90^degree$.
+  //145
++ #figure(
+    cetz.canvas(length: 0.7cm, {
+        import cetz.draw: *
+
+        let sc = 0.52
+
+        let s(x, y) = (x * sc, y * sc)
+
+        // ================================================================
+        // GEOMETRY
+        // Circle I:   A=(0,0),      R=5
+        // Circle II:  B=(sqrt(55), 3),   r2=3  (above x-axis, both positions)
+        // Circle III pos1: C1=(sqrt(65),  4)  — above, both circles same side
+        // Circle III pos2: C2=(sqrt(65), -4)  — below, circles touch externally
+        //
+        // Position 2 check: |BC2|=sqrt((sqrt(65)−sqrt(55))^2+(−4−3)^2)
+        //                         =sqrt(u^2+49) where u=sqrt(65)−sqrt(55)~0.6465
+        //                         =sqrt(0.418+49)=sqrt(49.418)~7.03 ~ r2+r3=7
+        // ================================================================
+
+        let R  = 5.0
+        let r2 = 3.0
+        let r3 = 4.0
+
+        let sqrt55 = calc.sqrt(55.0)   // Bx ~ 7.416
+        let sqrt65 = calc.sqrt(65.0)   // Cx ~ 8.062
+        let u = sqrt65 - sqrt55        // ~ 0.6465
+
+        // ----------------------------------------------------------------
+        // TANGENT LINES — Position 1 (both above)
+        // External centre of similitude: S1 = 4B − 3C1 (ratio r2:r3 = 3:4)
+        //   S1x = 4√55 − 3sqrt(65) ~ 5.478,  S1y = 4·3 − 3·4 = 0
+        // Slope of t2: m = 0 (x-axis, t1) or m = 2u/(u^2−1) ~ −2.221
+        // ----------------------------------------------------------------
+        let S1x = 4.0*sqrt55 - 3.0*sqrt65   // ~ 5.478
+        // slope magnitude for pos1 tangent 2
+        let m1 = 2.0*u / (u*u - 1.0)        // negative ~ −2.221
+
+        // ----------------------------------------------------------------
+        // TANGENT LINES — Position 2 (II above, III below)
+        // B=(sqrt(55),3), C2=(sqrt(65),−4)
+        // External centre of similitude divides BC2 externally in r2:r3=3:4
+        //   S2 = (r3.B − r2.C2)/(r3−r2) = (4B − 3C2)/1 = 4B − 3C2
+        //   S2x = 4sqrt(55) − 3sqrt(65) ~ 5.478   (same x!)
+        //   S2y = 4.3 − 3.(−4) = 12+12 = 24
+        //
+        // Internal centre of similitude (for the 2 transverse tangents,
+        // since circles are externally tangent there is exactly 1 such point
+        // = the point of tangency T):
+        //   T = (r3·B + r2·C2)/(r2+r3) = (4·(sqrt(55),3)+3·(sqrt(65),−4))/7
+        //   Tx = (4sqrt(55)+3sqrt(65))/7,  Ty = (12−12)/7 = 0
+        //   Tx = (4·7.416+3·8.062)/7 = (29.664+24.186)/7 = 53.85/7 ~ 7.693
+        //
+        // Since circles II and III are EXTERNALLY tangent (|BC2|~r2+r3),
+        // there are exactly 3 common tangents:
+        //   - 2 external tangents through S2=(5.478, 24)
+        //   = 1 common internal tangent at point of tangency T~(7.693, 0)
+        //
+        // The problem asks for "two common tangents" - these are the 2 external ones.
+        //
+        // External tangents through S2=(S2x, S2y)=(4sqrt(55)−3sqrt(65), 24):
+        //   Line: y − S2y = m·(x − S2x)
+        //   Distance from B=(sqrt(55),3) to line = r2=3:
+        //   |m.(sqrt(55)−S2x) − (3−S2y)| / sqrt(m^2+1) = 3
+        //   dx2 = sqrt(55) − S2x = sqrt(55)−(4sqrt(55)−3sqrt(65)) = 3(sqrt(65)−sqrt(55)) = 3u ~ 1.940
+        //   dy2 = 3 − 24 = −21
+        //   |m·dx2 − dy2|^2 = 9.(m^2+1)
+        //   |1.940m + 21|^2 = 9m^2+9
+        //   3.764m^2 + 81.48m + 441 = 9m^2+9
+        //   −5.236m^2 + 81.48m + 432 = 0
+        //   5.236m^2 − 81.48m − 432 = 0
+        //   m = [81.48 plus.minus sqrt(81.48^2+4·5.236·432)] / (2·5.236)
+        //     = [81.48 plus.minus sqrt(6638.9+9048.1)] / 10.472
+        //     = [81.48 plus.minus sqrt(15687)] / 10.472
+        //     = [81.48 plus.minus 125.25] / 10.472
+        //   m_a = (81.48+125.25)/10.472 = 206.73/10.472 ~ 19.74
+        //   m_b = (81.48−125.25)/10.472 = −43.77/10.472 ~ −4.179
+        //
+        // Exact:
+        //   dx2 = 3u, dy2 = −21,  r2=3
+        //   (dx2²−r2²)m² − 2·dx2·dy2·m + (dy2²−r2²) = 0
+        //   (9u²−9)m² + 126u·m + (441−9) = 0
+        //   9(u²−1)m² + 126u·m + 432 = 0
+        //   3(u²−1)m² + 42u·m + 144 = 0
+        //   (u²−1)m² + 14u·m + 48 = 0    [divide by 3]
+        //   u²~0.418, u²−1~−0.582, 14u~9.051
+        //   −0.582m² + 9.051m + 48 = 0
+        //   0.582m² − 9.051m − 48 = 0
+        //   m = [9.051 plus.minus √(81.92+111.74)] / 1.164
+        //     = [9.051 plus.minus √193.66] / 1.164
+        //     = [9.051 plus.minus 13.916] / 1.164
+        //   m_a = 22.967/1.164 ~ 19.73
+        //   m_b = −4.865/1.164 ~ −4.18
+      // ----------------------------------------------------------------
+
+      let S2x = 4.0*sqrt55 - 3.0*sqrt65   // ~ 5.478
+      let S2y = 24.0
+
+      let u2 = u*u   // ~ 0.418
+      // (u²−1)m² + 14u·m + 48 = 0
+      let qa = u2 - 1.0          // ~ −0.582
+      let qb = 14.0 * u          // ~ 9.051
+      let qc = 48.0
+      let disc = qb*qb - 4.0*qa*qc
+      let ma = (0.0-qb + calc.sqrt(disc)) / (2.0*qa)   // ~ −4.18
+      let mb = (0.0-qb - calc.sqrt(disc)) / (2.0*qa)   // ~ 19.73
+
+      // Internal tangent at T (pos2) — vertical? check:
+      // T = ((4√55+3√65)/7, 0) ~ (7.693, 0)
+      // The common internal tangent at T for externally tangent circles
+      // is perpendicular to line BC2.
+        // BC2 direction: (sqrt(65)−sqrt(55), −4−3)=(u,−7). Tangent direction: (7, u).
+      // Line through T=(Tx,0) with direction (7,u):
+      //   parametric or slope u/7 ~ 0.6465/7 ~ 0.0924
+      let Tx = (4.0*sqrt55 + 3.0*sqrt65) / 7.0   // ~ 7.693
+      let m_int = u / 7.0   // slope of internal tangent ~ 0.0924
+
+      // ================================================================
+      // DRAWING
+      // ================================================================
+
+      let x_min = -6.0
+      let x_max = 11.5
+      let gap   = 10.5 * sc   // vertical separation between the two diagrams
+
+      // POSITION 1  (both above x-axis)   — drawn at y-offset = +gap/2
+      let v1 = gap / 2.0
+
+      // Axes
+      line((s(x_min, 0.0).at(0), s(0.0,0.0).at(1)+v1),
+           (s(x_max, 0.0).at(0), s(0.0,0.0).at(1)+v1),
+        stroke: (paint: gray.darken(20%), thickness: 0.6pt),
+        mark: (end: ">", size: 0.18))
+      line((s(0.0, -0.5).at(0), s(0.0,-0.5).at(1)+v1),
+           (s(0.0,  6.5).at(0), s(0.0, 6.5).at(1)+v1),
+        stroke: (paint: gray.darken(20%), thickness: 0.6pt),
+        mark: (end: ">", size: 0.18))
+      content((s(x_max+0.3,0.0).at(0), s(0.0,0.0).at(1)+v1),
+        text(size: 7.5pt)[$x$], anchor: "west")
+      content((s(0.0,0.0).at(0), s(0.0,6.7).at(1)+v1),
+        text(size: 7.5pt)[$y$], anchor: "south")
+
+      // Circle I
+      circle((s(0.0,0.0).at(0), s(0.0,0.0).at(1)+v1), radius: R*sc,
+        stroke: (paint: gray.darken(30%), thickness: 1.0pt), fill: none)
+
+      // Circle II pos1  B=(√55, 3)
+      circle((s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v1), radius: r2*sc,
+        stroke: (paint: blue.darken(10%), thickness: 1.2pt), fill: none)
+
+      // Circle III pos1  C=(√65, 4)
+      circle((s(sqrt65,0.0).at(0), s(0.0,4.0).at(1)+v1), radius: r3*sc,
+        stroke: (paint: red.darken(10%), thickness: 1.2pt), fill: none)
+
+      // Dotted radii to x-axis
+      for (cx, cy, col) in (
+        (sqrt55, 3.0, blue), (sqrt65, 4.0, red), (0.0, R, gray)) {
+        line((s(cx,0.0).at(0),  s(0.0,0.0).at(1)+v1),
+             (s(cx,0.0).at(0),  s(0.0,cy).at(1)+v1),
+          stroke: (paint: col, thickness: 0.55pt, dash: "dotted"))
+      }
+      // Right-angle marks at x-axis
+      for (cx, col) in ((sqrt55, blue), (sqrt65, red)) {
+        rect((s(cx,0.0).at(0),       s(0.0,0.0).at(1)+v1),
+             (s(cx,0.0).at(0)+0.10,  s(0.0,0.0).at(1)+v1+0.10),
+          stroke: (paint: col.darken(10%), thickness: 0.55pt), fill: none)
+      }
+
+      // Common tangent 1: y=0
+      line((s(x_min,0.0).at(0), s(0.0,0.0).at(1)+v1),
+           (s(x_max,0.0).at(0), s(0.0,0.0).at(1)+v1),
+        stroke: (paint: olive.darken(20%), thickness: .5pt, dash: "dashed"))
+
+      // Common tangent 2 pos1: y = m1*(x−S1x), slope m1~−2.221
+      let t2p1_y(x) = m1 * (x - S1x)
+      line((s(2,0.0).at(0), s(0.0,t2p1_y(2)).at(1)+v1),
+          (s(5.5,0.0).at(0), s(0.0,t2p1_y(5.5)).at(1)+v1),
+        stroke: (paint: eastern.darken(10%), thickness: .5pt, dash: "dashed"))
+
+      // Centre of similitude S1
+      circle((s(S1x,0.0).at(0), s(0.0,0.0).at(1)+v1), radius: 0.07,
+        fill: olive.darken(30%), stroke: none)
+
+      // Dotted lines A-B, A-C, B-C (construction)
+      line((s(0.0,0.0).at(0), s(0.0,0.0).at(1)+v1),
+           (s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v1),
+        stroke: (paint: gray, thickness: 0.5pt, dash: "dotted"))
+      line((s(0.0,0.0).at(0), s(0.0,0.0).at(1)+v1),
+           (s(sqrt65,0.0).at(0), s(0.0,4.0).at(1)+v1),
+        stroke: (paint: gray, thickness: 0.5pt, dash: "dotted"))
+
+      // Labels pos1
+      content((s(0.0,0.0).at(0),    s(0.0,0.0).at(1)+v1),
+        text(size: 8.5pt)[*A*], anchor: "north-east", padding: 0.12)
+      content((s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v1),
+        text(size: 8.5pt, fill: blue.darken(20%))[*B*], anchor: "south-east", padding: 0.12)
+      content((s(sqrt65,0.0).at(0), s(0.0,4.0).at(1)+v1),
+        text(size: 8.5pt, fill: red.darken(20%))[*C*], anchor: "south-west", padding: 0.12)
+      content((s(S1x,0.0).at(0), s(0.0,0.0).at(1)+v1),
+        text(size: 7.5pt)[*S*], anchor: "north", padding: 0.10)
+
+      // Circle labels
+      content((s(-3.8,0.0).at(0), s(0.0,3.2).at(1)+v1),
+        text(size: 7.5pt, fill: gray.darken(40%))[I ($r$=5)], anchor: "east")
+      content((s(sqrt55+r2+0.1,0.0).at(0), s(0.0,3.0).at(1)+v1),
+        text(size: 7.5pt, fill: blue.darken(30%))[II ($r$=3)], anchor: "west")
+      content((s(sqrt65+r3+0.1,0.0).at(0), s(0.0,4.0).at(1)+v1),
+        text(size: 7.5pt, fill: red.darken(30%))[III ($r$=4)], anchor: "west")
+
+      // Tangent labels
+      content((s(x_max+0.1,0.0).at(0), s(0.0,0.18).at(1)+v1),
+        text(size: 7pt, fill: olive.darken(40%))[$t_1:y=0$], anchor: "west")
+      content((s(9.0,0.0).at(0), s(0.0,t2p1_y(9.0)-0.3).at(1)+v1),
+        text(size: 7pt, fill: eastern.darken(40%))[$t_2$], anchor: "north")
+
+      // POSITION 2  (II above, III below — touch externally)
+      let v2 = 0.0 - gap / 2.0
+
+      // Axes
+      line((s(x_min,0.0).at(0), s(0.0,0.0).at(1)+v2),
+           (s(x_max,0.0).at(0), s(0.0,0.0).at(1)+v2),
+        stroke: (paint: gray.darken(20%), thickness: 0.6pt),
+        mark: (end: ">", size: 0.18))
+      line((s(0.0,-5.5).at(0), s(0.0,-5.5).at(1)+v2),
+           (s(0.0, 6.5).at(0), s(0.0, 6.5).at(1)+v2),
+        stroke: (paint: gray.darken(20%), thickness: 0.6pt),
+        mark: (end: ">", size: 0.18))
+      content((s(x_max+0.3,0.0).at(0), s(0.0,0.0).at(1)+v2),
+        text(size: 7.5pt)[$x$], anchor: "west")
+      content((s(0.0,0.0).at(0), s(0.0,6.7).at(1)+v2),
+        text(size: 7.5pt)[$y$], anchor: "south")
+
+      // Circle I
+      circle((s(0.0,0.0).at(0), s(0.0,0.0).at(1)+v2), radius: R*sc,
+        stroke: (paint: gray.darken(30%), thickness: 1.0pt), fill: none)
+
+      // Circle II pos2:  B=(√55, 3)
+      circle((s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v2), radius: r2*sc,
+        stroke: (paint: blue.darken(10%), thickness: 1.2pt), fill: none)
+
+      // Circle III pos2: C=(√65, -4)
+      circle((s(sqrt65,0.0).at(0), s(0.0,-4.0).at(1)+v2), radius: r3*sc,
+        stroke: (paint: red.darken(10%), thickness: 1.2pt), fill: none)
+
+      // Dotted radii to x-axis
+      for (cx, cy, col) in (
+        (sqrt55, 3.0, blue), (sqrt65, -4.0, red), (0.0, R, gray)) {
+        line((s(cx,0.0).at(0),  s(0.0,0.0).at(1)+v2),
+             (s(cx,0.0).at(0),  s(0.0,cy).at(1)+v2),
+          stroke: (paint: col, thickness: 0.55pt, dash: "dotted"))
+      }
+      // Right-angle marks at x-axis touch
+      rect((s(sqrt55,0.0).at(0), s(0.0,0.0).at(1)+v2),
+           (s(sqrt55,0.0).at(0)+0.10, s(0.0,0.0).at(1)+v2+0.10),
+        stroke: (paint: blue.darken(10%), thickness: 0.55pt), fill: none)
+      rect((s(sqrt65,0.0).at(0), s(0.0,0.0).at(1)+v2),
+           (s(sqrt65,0.0).at(0)+0.10, s(0.0,0.0).at(1)+v2 - 0.10),
+        stroke: (paint: red.darken(10%), thickness: 0.55pt), fill: none)
+
+      // Point of tangency T between II and III
+      // T divides BC2 in ratio r2:r3 = 3:4 from B
+      let Ty = 0.0   // computed above
+      circle((s(Tx,0.0).at(0), s(0.0,Ty).at(1)+v2), radius: 0.07,
+        fill: purple, stroke: none)
+      content((s(Tx,0.0).at(0), s(0.0,Ty).at(1)+v2),
+        text(size: 7.5pt, fill: purple.darken(20%))[*T*], anchor: "north", padding: 0.12)
+
+      // Construction line B to C2
+      line((s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v2),
+           (s(sqrt65,0.0).at(0), s(0.0,-4.0).at(1)+v2),
+        stroke: (paint: gray, thickness: 0.5pt, dash: "dotted"))
+
+      // Common tangent 1: y=0 (x-axis)
+      line((s(x_min,0.0).at(0), s(0.0,0.0).at(1)+v2),
+           (s(x_max,0.0).at(0), s(0.0,0.0).at(1)+v2),
+        stroke: (paint: olive.darken(20%), thickness: 1.5pt, dash: "dashed"))
+
+      // Internal tangent at T (slope m_int, passes through T=(Tx,0))
+      let t_int_y(x) = m_int * (x - Tx)
+      let x_int_l = Tx - 2.5
+      let x_int_r = Tx + 2.5
+      line((s(x_int_l,0.0).at(0), s(0.0,t_int_y(x_int_l)).at(1)+v2),
+           (s(x_int_r,0.0).at(0), s(0.0,t_int_y(x_int_r)).at(1)+v2),
+        stroke: (paint: purple.darken(10%), thickness: 1.3pt, dash: "dashed"))
+
+      // External tangent a: slope ma, through S2=(S2x, S2y)=(5.478, 24)
+      // y − 24 = ma·(x − S2x)  => y = ma·x − ma·S2x + 24
+      let tea_y(x) = ma * (x - S2x) + S2y
+      // find x-range to draw (clip to y in [−5.5, 6.5])
+      // y=6.5: x = (6.5−S2y)/ma + S2x
+      // y=−5: x = (−5−S2y)/ma + S2x
+      let tea_x1 = (6.5 - S2y) / ma + S2x    // where y=6.5 (top clip)
+      let tea_x2 = (-5.0 - S2y) / ma + S2x   // where y=−5  (bottom clip)
+      line((s(tea_x1,0.0).at(0), s(0.0,6.5).at(1)+v2),
+           (s(tea_x2,0.0).at(0), s(0.0,-5.0).at(1)+v2),
+        stroke: (paint: eastern.darken(10%), thickness: 1.5pt, dash: "dashed"))
+
+      // External tangent b: slope mb, through S2
+      let teb_y(x) = mb * (x - S2x) + S2y
+      // mb~19.73 is very steep — nearly vertical
+      // y=6.5: x=(6.5−24)/mb+S2x = −17.5/19.73+5.478 ~ 4.591
+      // y=−5:  x=(−5−24)/mb+S2x  = −29/19.73+5.478 ~ 4.007
+      let teb_x1 = (6.5  - S2y) / mb + S2x
+      let teb_x2 = (-5.0 - S2y) / mb + S2x
+      line((s(teb_x1,0.0).at(0), s(0.0,6.5).at(1)+v2),
+           (s(teb_x2,0.0).at(0), s(0.0,-5.0).at(1)+v2),
+        stroke: (paint: eastern.darken(10%), thickness: 1.5pt, dash: "dashed"))
+
+      // External centre of similitude S2 (far above — only mark x-axis projection)
+      // Mark foot of S2 on x-axis for reference
+      circle((s(S2x,0.0).at(0), s(0.0,0.0).at(1)+v2), radius: 0.065,
+        fill: eastern.darken(30%), stroke: none)
+      content((s(S2x,0.0).at(0), s(0.0,0.0).at(1)+v2),
+        text(size: 7.5pt, fill: eastern.darken(30%))[*S*], anchor: "north", padding: 0.10)
+
+      // A, B, C labels pos2
+      content((s(0.0,0.0).at(0), s(0.0,0.0).at(1)+v2),
+        text(size: 8.5pt)[*A*], anchor: "north-east", padding: 0.12)
+      content((s(sqrt55,0.0).at(0), s(0.0,3.0).at(1)+v2),
+        text(size: 8.5pt, fill: blue.darken(20%))[*B*], anchor: "south-east", padding: 0.12)
+      content((s(sqrt65,0.0).at(0), s(0.0,-4.0).at(1)+v2),
+        text(size: 8.5pt, fill: red.darken(20%))[*C*], anchor: "north-west", padding: 0.12)
+    }))
+
+  Given $A$ is the origin, which is the center of circle I, $A X$ and $A Y$ are the $x$ and $y$ axes
+  respectively. $B$ and $C$ are the center of the circles II and III respectively, and their radii are $3$
+  and $4$ respectively.
+
+  Since circles I and II touch each other externally $therefore A B = 8$ and since circles I and III touch
+  each other externally $therefore A C = 9$.
+
+  Let $B D, C E perp x$-axis. Then $A D = sqrt(8^2 - 3^2) = sqrt(55)$ and $A E = sqrt(9^2 - 4^2)= sqrt(65)$.
+
+  Since both circles I and II touch $x$-axis, therefore, $y = 0$ is their common tangent. Let $B C$ meet $y
+  = 0$ at $H$. Then one more tangent will pass through $H$ and $H$ will divided $B C$ internally or
+  externally in the ratio $3:4$ according as circles II and III lie in different qudrants or in the same
+  quadrant.
+
+  *Case I:* When circles II and III lie in the first and fourth quadrant respectively.
+
+  In this case $B = (sqrt(55), 3)$ and $C = (sqrt(65), -4)$.
+
+  From similar $triangle B D H$ and $triangle C E H$, $(D H)/(H E) = (B D)/(C E) = 3/4$
+
+  Hence, $H$ divides $D E$ internally in the ratio $3:4$. Thus, $H = ((3sqrt(65) + 4sqrt(55))/7, 0)$
+
+  Equation of any line through $H$ will be $y = m(x - (3sqrt(65) + 4sqrt(55))/7)$
+
+  $=> 7m x - 7y - m(3sqrt(65) + 4sqrt(55)) = 0$#h(.5cm)$dots$(1)
+
+  If (1) is tangent to circle II then
+
+  $abs(7m sqrt(55) - 7.3 - m(3sqrt(65) + 4sqrt(55)))/(7sqrt(1 + m^2)) = 3$
+
+  $=> m = 0, (126(sqrt(55) - sqrt(66)))/(9(71 - 10sqrt(143)))$
+
+  Thus, we have equation for common tangents.
+
+  *Case II:* When both circle II and III lie in the first qudrant.
+
+  In this case $B = (sqrt(55), 3)$ and $C = (sqrt(65), 4)$.
+
+  One common tangent $y = 0$ meeting $B C$ at $H$ and $H$ will divide $B C$ extrenally in the ratio $3:4$.
+
+  Thus, $H = (4sqrt(55) - 3sqrt(65), 0)$.
+
+  Now we can proceed like case 1 to find the other common tangent as well as case 3 when both the circles
+  will lie in fourth quadrant.
+  //146
++ Center of the circle is $(1, 2)$ and the point is $(2, 3)$.
+
+  The equation of the normal will be equation of line passing through these points, which is
+
+  $y - 3 = (2 - 3)/(1 - 2)(x - 2) => x - y + 1 = 0$.
+  //147
++ The equation of the circle is $(x + 4)(x - 6) + (y - 4)(y + 1) = 0 => x^2 + y^2 - 2x - 3y - 28 = 0$
+
+  Putting $x = 0$ gives us $y^2 - 3y - 28 = 0 therefore y = 7, -4$
+
+  Hence we take $A$ as $(0, 7)$ and $B$ as $(0, -4)$.
+
+  Equation of tangent at $A$ is $x.0 + y.7 - (x + 0) - 3(y + 7)/2 - 28 = 0 => 2x - 11y = -77$
+
+  Equation of tangent at $B$ is $x.0 + y(-4) - (x + 0) - 3(y - 4)/2 - 28 = 0=> 2x + 11t = -44$
+
+  Solving the two tangents givens us $Q(-121/4, 3/2)$.
+
+  Thus, area of the $triangle A Q B = 363/8$.
+  //148
++ Equation of the tangent is  $x x_1 + y y_1 - 2(x + x_1) - 3(y + y_1) - 12 = 0$.
+
+  Substituting $(x_1, y_1) = (-1, -1)$ gives $-x - y - 2(x - 1) - 3(y - 1) - 12 = 0$.
+
+  Simplify to get $-3x - 4y - 7 = 0$. Hence, the equation of the tangent is $3x + 4y + 7 = 0$.
+  //149
++ The given circle is $x^2 + y^2 - 7x - 5y + 18 = 0$. We find the tangent at $(4, 3)$.
+
+  So $x x_1 + y y_1 - 7(x + x_1)/2 - 5(y + y_1)/2 + 18 = 0$.
+
+  Substituting $(4, 3)$ gives $4x + 3y - 7(x + 4)/2 - 5(y + 3)/2 + 18 = 0$.
+
+  Simplifying $x + y - 7 = 0$.
+
+  Now find the tangent at $(3, 2)$. So $3x + 2y - 7(x + 3)/2 - 5(y + 2)/2 + 18 = 0$.
+
+  $=>x + y - 5 = 0$.
+
+  Both tangents have slope $-1$. Hence, they are parallel.
+  //150
++ The given circle is $x^2 + y^2 = 169$. The tangent at a point $(x_1, y_1)$ on this circle is $x x_1 + y
+  y_1 = 169$.
+
+  At $(5, 12)$ the tangent is $5x + 12y = 169$. At $(12, -5)$ the tangent is $12x - 5y = 169$.
+
+  From $5x + 12y = 169$ we get slope $-5/12$. From $12x - 5y = 169$ we get slope $12/5$.
+
+  Their product is $-1$ so the tangents are perpendicular.
+  Solving $5x + 12y = 169$ and $12x - 5y = 169$ gives $x = 17$ and $y = 7$.
+
+  Hence, the point of intersection is $(17, 7)$.
+  //151
++ The equation of the tangent at $(alpha, beta)$ is $x alpha + y beta = r^2$.
+
+  To find the intercepts, put $y = 0$. Then $x alpha = r^2$ so $x = r^2/alpha$.
+
+  So point $A$ is $(r^2/alpha, 0)$.
+
+  Now put $x = 0$. Then $y beta = r^2$ so $y = r^2/beta$. So point $B$ is $(0, r^2/beta)$.
+
+  Now the area of triangle $O A B$ is $1/2 times O A times O B$.
+
+  So area is $1/2 times r^2/(|alpha|) times r^2/(|beta|)$$ =1/2 r^4/(|alpha beta|)$.
+  //152
++ The given circle is $x^2 + y^2 - 2x - 4y - 20 = 0$$=> (x - 1)^2 + (y - 2)^2 = 25$.
+
+  So the center is $A(1, 2)$. Tangent at $(x_1, y_1)$ is $x x_1 + y y_1 - (x + x_1) - 2(y + y_1) - 20 = 0$.
+
+  Tangent at $(1, 7)$ is $x + 7y - (x + 1) - 2(y + 7) - 20 = 0$$=> y = 7$.
+
+  Tangent at $(4, -2)$ is $4x - 2y - (x + 4) - 2(y - 2) - 20 = 0$$=> 3x - 4y - 20 = 0$.
+
+  Solving the two tangents we get point of intersection as $C(16, 7)$.
+
+  Split $A B C D$ into triangles $A B C$ and $A D C$.
+
+  Triangle $A B C$ has base $B C = 15$ and height $5$. So area is $1/2 times 15 times 5 = 75/2$.
+
+  Triangle $A D C$ has base $D C = sqrt((16 - 4)^2 + (7 + 2)^2) = 15$ and height $5$. So area is $75/2$.
+
+  Hence, total area is $75$.
+  //153
++ The given circle is $x^2 + y^2 - 2x - 4y + 3 = 0$$=> (x - 1)^2 + (y - 2)^2 = 2$.
+
+  So the center is $(1, 2)$ and radius is sqrt(2). The given line is $x + y - 5 = 0$.
+
+  The distance from the center to the line is $(|1 + 2 - 5|)/sqrt(2) = 2/sqrt(2) = sqrt(2)$.
+
+  This equals the radius, so the line touches the circle.
+
+  Put $y = 5 - x$ in the circle. So $(x - 1)^2 + (3 - x)^2 = 2$.
+
+  Expanding gives $x^2 - 2x + 1 + x^2 - 6x + 9 = 2$$=> 2x^2 - 8x + 10 = 2$.
+
+  $2x^2 - 8x + 8 = 0$ so $x^2 - 4x + 4 = 0$$=> (x - 2)^2 = 0$ so $x = 2$. Then $y = 3$.
+
+  Hence, the point of contact is $(2, 3)$.
+  //154
++ The tangent to the circle $x^2 + y^2 = 5$ at $(1, -2)$ is
+
+  Tangent at $(x_1, y_1)$ is $x x_1 + y y_1 = r^2$. So $x - 2y = 5$.
+
+  Now consider the second circle $x^2 + y^2 - 8x + 6y + 20 = (x - 4)^2 + (y + 3)^2 = 5$.
+
+  So the center is $(4, -3)$ and radius is $sqrt(5)$.
+
+  The distance from the center to the line $x - 2y - 5 = 0$. So $(|4 + 6 - 5|)/sqrt(5) = 5/sqrt(5) =
+  sqrt(5)$.
+
+  This equals the radius, so the line is tangent.
+
+  Put $x = 2y + 5$ into the circle. So $(2y + 5 - 4)^2 + (y + 3)^2 = 5=> y^2 + 2y + 1 = 0$.
+
+  So $(y + 1)^2 = 0$ and $y = -1$. Then $x = 3$.
+
+  Hence, the point of contact is $(3, -1)$.
+  //155
++ The given circles are $x^2 + y^2 - 10x + 4y - 20 = 0$ and $x^2 + y^2 + 14x - 6y + 22 = 0$.
+
+  First circle is $(x - 5)^2 + (y + 2)^2 = 49$ so center is $(5, -2)$ and radius is $7$.
+
+  Second circle is $(x + 7)^2 + (y - 3)^2 = 36$ so center is $(-7, 3)$ and radius is $6$.
+
+  Distance between centers is $sqrt((5 + 7)^2 + (-2 - 3)^2) = sqrt(144 + 25) = 13$.
+
+  Since $r_1 + r_2 = 7 + 6 = 13$, the circles touch externally.
+
+  The point of contact lies on the line joining the centers and divides it in the ratio $7 : 6$.
+
+  So using section formula $x = (7(-7) + 6(5)) / 13 = -19/13$ and $y = (7(3) + 6(-2)) / 13 = 9/13$
+
+  Hence the point of contact is $(-19/13, 9/13)$.
+
+  Tangent at $(x_1, y_1)$ on first circle is $x x_1 + y y_1 - 5(x + x_1) + 2(y + y_1) - 20 = 0=> 19x - 9y +
+  110 = 0$.
+  //156
++ The given circle is $x^2 + y^2 = 2$ so the center is $(0, 0)$ and radius is sqrt(2).
+
+  The given line is $y - x - 2 = 0$.
+
+  The distance from the center to the line is $(|0 - 0 - 2|)/sqrt(2) = sqrt(2)$.
+
+  This equals the radius, so the line touches the circle.
+
+  Put $y = x + 2$ in the circle. So $x^2 + (x + 2)^2 = 2$. Thus, $(x + 1)^2 = 0$ so $x = -1$.
+
+  Then $y = 1$. Hence, the point of contact is $(-1, 1)$.
+  //157
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$. Its center is $(-g, -f)$ and radius is $sqrt(g^2 +
+  f^2 - c)$.
+
+  For the line $l x + m y + n = 0$ to touch the circle, the distance from the center to the line must equal
+  the radius.
+
+  So the condition is $(|-l g - m f + n|)/sqrt(l^2 + m^2) = sqrt(g^2 + f^2 - c)$.
+
+  Squaring both sides gives $(-l g - m f + n)^2 = (l^2 + m^2)(g^2 + f^2 - c)$.
+
+  Point of contact is the foot of the perpendicular from the center to the line.
+
+  So the coordinates are $x = -g - l(-l g - m f + n)/(l^2 + m^2)$ and $y = -f - m(-l g - m f + n)/(l^2 +
+  m^2)$.
+  //158
++ The given circle is $x^2 + y^2 = 10x => (x - 5)^2 + y^2 = 25$. So the center is $(5, 0)$ and radius is
+  $5$.
+
+  The line is $3x + 4y - k = 0$. For tangency, the distance from the center to the line equals the radius.
+
+  So $(|15 - k|)/5 = 5=> |15 - k| = 25$. So $k = 40$ or $k = -10$.
+
+  Now find the point of contact using foot of perpendicular from $(5, 0)$ to the line.
+
+  For $k = 40$, $x = 5 - 3(15 - 40)/25 = 8$ and $y = 0 - 4(15 - 40)/25 = 4$ So point is $(8, 4)$.
+
+  For $k = -10$, $x = 5 - 3(15 + 10)/25 = 2$ and $y = 0 - 4(15 + 10)/25 = -4$ So point is $(2, -4)$.
+
+  Hence $k = 40$ or $k = -10$ and the points of contact are $(8, 4)$ and $(2, -4)$.
+  //169
++ The given circle is $x^2 + y^2 = 5$ so the center is $(0, 0)$.
+
+  The normal at a point on a circle is the line joining the center to that point.
+
+  So the normal passes through $(0, 0)$ and $(1, 2)$. The slope is $2$.
+
+  Hence, the equation is $y = 2x$.
+  //160
++ The given circle is $x^2 + y^2 = 2x => (x - 1)^2 + y^2 = 1$ so the center is $(1, 0)$.
+
+  The given line $x + 2y = 3$ has slope $-1/2$. So the required normal must also have slope $-1/2$.
+
+  The normal to a circle passes through the center.
+
+  Hence, the normal is the line through $(1, 0)$ with slope $-1/2$. So its equation is $y = -1/2(x - 1)$.
+
+  Thus, $x + 2y - 1 = 0$.
+  //161
++ Given circle is $x^2 + y^2 - 6x - 10y + k = 0$. Let $P = (1, 4)$. Since $P$ lies inside the circle $17 - 6
+  - 40 + k < 0 => k < 29$.
+
+  Let $H$ be the center and $a$ the radius of the circle, then $H = (3, 5)$ and $a = sqrt(34 - k)$.
+
+  Since the circle neither cuts the $x$-axis nor touches it $therefore a < |5|=> k > 9$.
+
+  Again since the circle neither cuts the $y$-axis not touches it $therefore a < |3| => k > 25$
+
+  Combining the conditions we have $25 < k < 29$.
+  //162
++ Lenght of tangent is $sqrt(5^2 + 1^2 + 6.5 - 4.1 - 3) = 7$.
+  //163
++ Given circles are $x^2 + y^2 - 2lambda x - c^2 = 0$#h(.5cm)$dots$(1) where $lambda$ is a variable.
+
+  Let the three values of $lambda$ be $lambda_1, lambda_2$ and $lambda_3$. Let $A, B$ and $C$ be the centers
+  of the three circles respectively, then
+
+  $A = (lambda_1, 0), B = (lambda_2, 0)$ and $C = (lambda_3, 0)$. If $O(0, 0)$ be the origin, then
+
+  $O A = |lambda_1|, O B = |lambda_2|$ and $O C = |lambda_3|$.
+
+  Given that $|lambda_1|, |lambda_2|, |lambda_3|$ are in G.P. $therefore |lambda_2|^2 = |lambda_1||lambda_3|$
+
+  Equation of another circle is $x^2 + y^2 = c^2$. Let $P(alpha, beta)$ be any circle on this point, then
+
+  $alpha^2 + beta^2 - c^2 = 0$
+
+  Lengths of tangents from $P$ to the three circles are $p_1 = sqrt(alpha^2 + beta^2 - 2lambda_1 alpha -
+  c^2) = sqrt(-2lambda_1alpha), p_2 = sqrt(-2lambda_2alpha)$, and $p_3 = sqrt(-2lambda_3alpha)$
+
+  $p_1p_3 = sqrt(4lambda_1lambda_3 alpha^2)$. We see that $lambda_1lambda_3 > 0 => |lambda_1||lambda_3| =
+  lambda_1lambda_3$
+
+  Thus, $p_2^2 = p_1p_3$, and hence, p_1, p_2, p_3 are in G.P.
+  //164
++ Let $P = (alpha, beta)$. Given that the lengths of the tangents are equal, therefore,
+
+  $sqrt(alpha^2 + beta^2 + alpha - 3) = sqrt(alpha^2 + beta^2 - 5/3alpha + beta) = sqrt(alpha^2 + beta^2 +
+  2alpha + 7/4beta + 9/4)$
+
+  Solving we get $alpha = 0, beta = -3therefore P = (0, -3)$.
+
+  Let the equation of the required circle is $x^2 + y^2 + 2g x + 2f y + c = 0$. It passes through $(0, -3)$,
+  therefore,
+
+  $-6f + c + 9 = 0$
+
+  Equation of the tangent to the circle at $(6, -1)$ is $6x - y + g(x + 6) + f(y - 1) + c = 0$
+
+  Given that the equation of the tangent is $x + y - 5 = 0$.
+
+  Comparing coefficients we have $g = -7/2, f = 7/2=> c = 12$
+
+  Thus, equation of the circle is $x^2 + y^2 - 7x + 7y + 12 = 0$.
+  //165
++ The length of tangent from $(f, g)$ to $x^2 + y^2 = 6$ is $sqrt(f^2 + g^2 - 6)$.
+
+  The length of tangent from $(f, g)$ to $x^2 + y^2 + 3x + 3y = 0$ is $sqrt(f^2 + g^2 + 3f + 3g)$.
+
+  Given the first is twice the second. So $sqrt(f^2 + g^2 - 6) = 2 sqrt(f^2 + g^2 + 3f + 3g)$.
+
+  So $f^2 + g^2 - 6 = 4(f^2 + g^2 + 3f + 3g)$.
+
+  Simplify to get $0 = 3f^2 + 3g^2 + 12f + 12g + 6$. So $f^2 + g^2 + 4f + 4g + 2 = 0$.
+  //166
++ The length of the tangent from $(f, g)$ to the circle $x^2 + y^2 = 4$ is $sqrt(f^2 + g^2 - 4)$.
+
+  The second circle is $x^2 + y^2 = 4x$ which is $(x - 2)^2 + y^2 = 4$.
+
+  So the length of the tangent from $(f, g)$ to this circle is $sqrt((f - 2)^2 + g^2 - 4)$.
+
+  Given $sqrt(f^2 + g^2 - 4) = 4 sqrt((f - 2)^2 + g^2 - 4)$.
+
+  So $f^2 + g^2 - 4 = 16f^2 + 16g^2 - 64f => 15f^2 + 15g^2 - 64f + 4 = 0$.
+  //167
++ Let $(x_1, y_1)$ be any point on the circle $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  So $x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c = 0$.
+
+  The length of the tangent from $(x_1, y_1)$ to the circle $x^2 + y^2 + 2g x + 2f y + c_1 = 0$ is
+
+  $sqrt(x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c_1)$.
+
+  Using the first relation, substitute $x_1^2 + y_1^2 + 2g x_1 + 2f y_1 = -c$.
+
+  So the length becomes $sqrt(-c + c_1)$.
+  //168
++ Let the required point be $(x, y)$. The length of the tangent from $(x, y)$ to $x^2 + y^2 = 1$ is
+
+  $sqrt(x^2 + y^2 - 1)$. For the circle $x^2 + y^2 - 8x + 15 = 0$ it is $sqrt(x^2 + y^2 - 8x + 15)$.
+
+  For the circle $x^2 + y^2 + 10y + 24 = 0$ it is $sqrt(x^2 + y^2 + 10y + 24)$.
+
+  Given $x^2 + y^2 - 1 = x^2 + y^2 - 8x + 15 => x = 2$.
+
+  Again $x^2 + y^2 - 1 = x^2 + y^2 + 10y + 24 => y = -5/2$.
+
+  Hence, the required point is $(2, -5/2)$.
+  //169
++ Let the required point be $(x, y)$. The length of the tangent from $(x, y)$ to $x^2 + y^2 - 4x + 7 = 0$ is
+
+  $sqrt(x^2 + y^2 - 4x + 7)$. For the circle $2x^2 + 2y^2 - 3x + 5y + 9 = 0$ divide by $2$.
+
+  So it becomes $x^2 + y^2 - 3/2 x + 5/2 y + 9/2 = 0$.
+
+  Hence, the length is $sqrt(x^2 + y^2 - 3/2 x + 5/2 y + 9/2)$.
+
+  For the circle $x^2 + y^2 + y = 0$ the length is $sqrt(x^2 + y^2 + y)$.
+
+  Equating first and second. So $x^2 + y^2 - 4x + 7 = x^2 + y^2 - 3/2 x + 5/2 y + 9/2$.
+
+  Thus, $-5x - 5y + 5 = 0$ so $x + y = 1$.
+
+  Now equate first and third. So $x^2 + y^2 - 4x + 7 = x^2 + y^2 + y$. So $y = -4x + 7$.
+
+  Solve with $x + y = 1$. So $x - 4x + 7 = 1$.
+
+  $=> x = 2$ and $y = -1$. Hence, the point is $(2, -1)$.
+
+  So length is $sqrt(4 + 1 - 8 + 7) = sqrt(4) = 2$.
+  //170
++ Let the point be $(x, y)$. For the circle $x^2 + y^2 + 2g_i x + 5 = 0$, the length of the tangent from
+  $(x, y)$ is $t_i^2 = x^2 + y^2 + 2g_i x + 5$.
+
+  Now consider $(g_2 - g_3)t_1^2 + (g_3 - g_1)t_2^2 + (g_1 - g_2)t_3^2$.
+
+  Substitute $t_i^2$. So it becomes $(g_2 - g_3)(x^2 + y^2 + 2g_1 x + 5) + (g_3 - g_1)(x^2 + y^2 + 2g_2 x +
+  5) + (g_1 - g_2)(x^2 + y^2 + 2g_3 x + 5)$.
+
+  The coefficient of $(x^2 + y^2 + 5)$ is $(g_2 - g_3) + (g_3 - g_1) + (g_1 - g_2) = 0$.
+
+  Now consider the remaining terms.
+
+  So we get $2x[(g_2 - g_3)g_1 + (g_3 - g_1)g_2 + (g_1 - g_2)g_3]$.
+
+  Expanding inside. So $g_1 g_2 - g_1 g_3 + g_2 g_3 - g_1 g_2 + g_1 g_3 - g_2 g_3 = 0$.
+
+  Hence, the whole expression is $0$.
+  //171
++ Let the point be $(x, y)$. The length of the tangent from $(x, y)$ to $x^2 + y^2 = a^2$ is $sqrt(x^2 + y^2
+  - a^2)$.
+
+  The second circle is $(x - a)^2 + y^2 = a^2$. So the length of the tangent from $(x, y)$ to this circle is
+  $sqrt((x - a)^2 + y^2 - a^2)$.
+
+  Given the first is four times the second. So $sqrt(x^2 + y^2 - a^2) = 4 sqrt((x - a)^2 + y^2 - a^2)$.
+
+  $=> x^2 + y^2 - a^2 = 16((x - a)^2 + y^2 - a^2) => x^2 + y^2 - a^2 = 16(x^2 + y^2 - 2a x)$.
+
+  So $0 = 15x^2 + 15y^2 - 32a x + a^2$. Hence, the point lies on the required circle.
+  //172
++ The equation of the pair of tangents from $(0, 1)$ is given by $T^2 = S S_1$.
+
+  Here $S = x^2 + y^2 - 2x + 4y$ and $S_1 = 0^2 + 1^2 - 2(0) + 4(1) = 5$.
+
+  Now $T$ is $x times 0 + y times 1 - (x + 0) + 2(y + 1)$. So $T = y - x + 2y + 2 = -x + 3y + 2$.
+
+  Thus the equation is $(-x + 3y + 2)^2 = 5(x^2 + y^2 - 2x + 4y)$
+
+  $=> 3x^2 - 2y^2 + 3x y - 3x + 4y - 2 = 0$.
+  //173
++ Let $(x_1, y_1)$ be any point on the circle $x^2 + y^2 + 2g x + 2f y + c = 0$. So $x_1^2 + y_1^2 + 2g x_1 + 2f
+  y_1 + c = 0$.
+
+  The second circle is $x^2 + y^2 + 2g x + 2f y + c sin^2 alpha + (g^2 + f^2) cos^2 alpha = 0$.
+
+  The length of the tangent from $(x_1, y_1)$ to the second circle is $sqrt(x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c
+  sin^2 alpha + (g^2 + f^2) cos^2 alpha)$.
+
+  Using the first relation, substitute $x_1^2 + y_1^2 + 2g x_1 + 2f y_1 = -c$.
+
+  So the length becomes $sqrt(-c + c sin^2 alpha + (g^2 + f^2) cos^2 alpha)$.
+
+  This simplifies to $sqrt((g^2 + f^2 - c) cos^2 alpha)$. So the tangent length is $sqrt(g^2 + f^2 - c) cos
+  alpha$.
+
+  The radius of the second circle is $sqrt(g^2 + f^2 - (c sin^2 alpha + (g^2 + f^2) cos^2 alpha))$.
+
+  $= sqrt((g^2 + f^2 - c) sin^2 alpha)$.
+
+  Let $theta$ be the angle between the tangents. Then $tan(theta/2) = r / d$ where $d$ is the tangent length.
+
+  So $tan(theta/2) = tan alpha$. Hence, $theta = 2 alpha$.
+  //174
++ The given circle is $x^2 + y^2 = 25$ so the center is $(0, 0)$ and radius is $5$.
+
+  Let the tangent from $(1, -7)$ have slope $m$. So its equation is $y + 7 = m(x - 1)$.
+
+  This gives $m x - y - m - 7 = 0$.
+
+  For tangency, the distance from the center to the line equals the radius. So $(|-m - 7|)/sqrt(m^2 + 1) = 5$.
+
+  $=> m = 4/3$ or $m = -3/4$.
+
+  Hence, the tangents are $y + 7 = 4/3(x - 1)$ and $y + 7 = -3/4(x - 1)$. Their slopes are $4/3$ and $-3/4$.
+
+  Their product is $-1$ so they are perpendicular.
+  //175
++ The given circle is $x^2 + y^2 = 16$. From the point $(9, 0)$ the length of the tangent is
+
+  $sqrt(9^2 - 16) = sqrt(65)$ which is real. Hence, two tangents can be drawn.
+
+  The equation of the pair of tangents is given by $T^2 = S S_1$.
+
+  Here $S = x^2 + y^2 - 16$ and $S_1 = 81 - 16 = 65$.
+
+  Now $T = x x_1 + y y_1 - 16 = 9x - 16$.
+
+  So the equation is $(9x - 16)^2 = 65(x^2 + y^2 - 16)$.
+
+  Thus, $16x^2 - 65y^2 - 288x + 1296 = 0$.
+
+  So $tan theta = 2 sqrt(0 - (16)(-65)) / (16 - 65) = -8 sqrt(65) / 49$.
+  //176
++ The given circle is $x^2 + y^2 = 25$ so the center is $(0, 0)$ and radius is $5$.
+
+  Let the tangent through $(7, 1)$ have slope $m$.
+
+  So its equation is $y - 1 = m(x - 7)$. This gives $m x - y - 7m + 1 = 0$.
+
+  For tangency, the distance from the center to the line equals the radius.
+
+  So $(|-7m + 1|)/sqrt(m^2 + 1) = 5$. Solve to get $m = 4/3$ or $m = -3/4$.
+
+  Hence the tangents are $y - 1 = 4/3(x - 7)$ and $y - 1 = -3/4(x - 7)$.
+  //177
++ The given circle is $x^2 + y^2 + 2g x + 2f y + k^2 = 0$.
+
+  The equation of the pair of tangents from the origin is given by $T^2 = S S_1$.
+
+  Here $S = x^2 + y^2 + 2g x + 2f y + k^2$ and $S_1 = k^2$. Now $T = g x + f y + k^2$.
+
+  So the equation is $(g x + f y + k^2)^2 = k^2(x^2 + y^2 + 2g x + 2f y + k^2)$.
+
+  This is the required pair of tangents.
+
+  Now find the intercept on the line $y = h$. Substitute $y = h$.
+
+  So $(g x + f h + k^2)^2 = k^2(x^2 + h^2 + 2g x + 2f h + k^2)$.
+
+  The intercept is the distance between the two roots.
+
+  So length is $2 sqrt((g^2 - k^2)(h^2 + k^2 + 2f h)) /(|k^2 - g^2|)$.
+
+  Using the relation $g^2 + f^2 - k^2 = r^2$ simplify the expression.
+
+  This reduces to $(2h k r)/(k^2 - g^2)$.
+
+  Hence, the intercept is $(2h k)/(k^2 - g^2)$ times the radius.
+  //178
++ The given circle is $x^2 + y^2 + 6x + 8y - 11 = 0$. Let the midpoint of the chord be $(1, -1)$.
+
+  The chord whose midpoint is $(x_1, y_1)$ is given by $T = S_1$.
+
+  Here $S = x^2 + y^2 + 6x + 8y - 11$ and $S_1 = 1^2 + (-1)^2 + 6(1) + 8(-1) - 11 = -11$.
+
+  Now $T = x x_1 + y y_1 + 3(x + x_1) + 4(y + y_1) - 11$.
+
+  Substitute $(1, -1)$. So $T = x - y + 3(x + 1) + 4(y - 1) - 11$.
+
+  Thus, the chord is $T = S_1$ so $4x + 3y - 12 = -11$.
+
+  Hence, the equation is $4x + 3y - 1 = 0$.
+  //179
++ The given circle is $x^2 + y^2 + 6x + 8y + 9 = 0$. Let the midpoint be $(-2, -3)$.
+
+  The chord whose midpoint is $(x_1, y_1)$ is given by $T = S_1$.
+
+  Here $S = x^2 + y^2 + 6x + 8y + 9$ and $S_1 = (-2)^2 + (-3)^2 + 6(-2) + 8(-3) + 9 = -14$.
+
+  Now $T = x x_1 + y y_1 + 3(x + x_1) + 4(y + y_1) + 9$.
+
+  Substitute $(x_1, y_1) = (-2, -3)$. So $T = -2x - 3y + 3(x - 2) + 4(y - 3) + 9$.
+
+  Simplify to get $x + y - 9$. Thus, the chord is $T = S_1$ so $x + y - 9 = -14$.
+
+  Hence, the equation is $x + y + 5 = 0$.
+  //180
++ The given circle is $x^2 + y^2 + 4x - 2y - 3 = 0$. So the center is $(-2, 1)$.
+
+  The given line is $y = x + 2$ or $x - y + 2 = 0$.
+
+  The midpoint of the chord is the foot of the perpendicular from the center to the line.
+
+  Using the formula for foot of perpendicular from $(x_1, y_1)$ to $a x + b y + c = 0$,
+
+  $x = x_1 - a(a x_1 + b y_1 + c)/(a^2 + b^2)$ and $y = y_1 - b(a x_1 + b y_1 + c)/(a^2 + b^2)$.
+
+  Here $(x_1, y_1) = (-2, 1)$ and $a = 1$, $b = -1$, $c = 2$.
+
+  $a x_1 + b y_1 + c = -2 - 1 + 2 = -1$.
+
+  So $x = -2 - 1(-1)/2 = -3/2$ and $y = 1 - (-1)(-1)/2 = 1/2$.
+
+  Hence, the midpoint is $(-3/2, 1/2)$.
+  //181
++ The given circle is $x^2 + y^2 - 2x + 4y + 7 = 0$. The chord of contact from a point $(x_1, y_1)$ is given
+  by $T = 0$.
+
+  Here $T = x x_1 + y y_1 - (x + x_1) + 2(y + y_1) + 7$.
+
+  Substitute $(x_1, y_1) = (1, 2)$. So $T = x + 2y - (x + 1) + 2(y + 2) + 7$.
+
+  $=> 4y + 10 = 0 => 2y + 5 = 0$.
+  //182
++ #figure(
+    cetz.canvas({
+        import cetz.draw: *
+
+        // --- settings ---
+        let O = (0, 0)
+        let r = 2.0
+        let P = (4.5, 0)
+
+        // chord-of-contact x-coordinate (in circle-centred frame): a^2/|OP| = 4/4.5
+        let cx = r * r / 4.5          // = 0.8889
+        let cy = calc.sqrt(r*r - cx*cx) // = 1.7951
+
+        let A = (cx,  cy)
+        let B = (cx, -cy)
+
+        // --- shaded triangle PAB ---
+        fill(gray.lighten(70%))
+        stroke(none)
+        line(P, A, B, close: true)
+
+        // --- circle ---
+        fill(none)
+        stroke(black)
+        circle(O, radius: r)
+
+        // --- axes ---
+        stroke((paint: gray, thickness: 0.5pt, dash: "solid"))
+        line((-2.6, 0), (5.0, 0))
+        line((0, -2.6), (0, 2.6))
+        content((5.15, 0),  text(10pt)[$x$])
+        content((0.15, 2.75), text(10pt)[$y$])
+
+        // --- origin label ---
+        fill(black)
+        circle(O, radius: 0.06)
+        content((-0.25, -0.22), text(10pt)[$O$])
+
+        // --- radii OA, OB (dashed) ---
+        stroke((paint: gray, thickness: 0.6pt, dash: "dashed"))
+        line(O, A)
+        line(O, B)
+
+        // --- OP line (dashed) ---
+        line(O, P)
+
+        // --- tangents PA, PB ---
+        stroke((paint: blue.darken(20%), thickness: 1.2pt))
+        line(P, A)
+        line(P, B)
+
+        // --- chord of contact AB ---
+        stroke((paint: red.darken(10%), thickness: 1.4pt, dash: "dashed"))
+        line(A, B)
+
+        // --- right-angle marks at A and B ---
+        // OA direction: unit vector u = (cx, cy)/r
+        // tangent direction at A: v = (-cy, cx)/r  (perpendicular to OA)
+        let ux =  cx / r
+        let uy =  cy / r
+        let vx = -cy / r
+        let vy =  cx / r
+        let s  = 0.12
+
+        // right angle at A
+        stroke((paint: black, thickness: 0.6pt))
+        let ra1 = (A.at(0) + s*vx,        A.at(1) + s*vy)
+        let ra2 = (A.at(0) + s*vx - s*ux, A.at(1) + s*vy - s*uy)
+        let ra3 = (A.at(0)        - s*ux, A.at(1)        - s*uy)
+        line(ra1, ra2, ra3)
+
+        // right angle at B  (tangent dir at B: (cy, cx)/r; radius dir: (cx,-cy)/r)
+        let wx =  cy / r
+        let wy =  cx / r
+        let bx =  cx / r
+        let by = -cy / r
+        let rb1 = (B.at(0) + s*wx,        B.at(1) + s*wy)
+        let rb2 = (B.at(0) + s*wx - s*bx, B.at(1) + s*wy - s*by)
+        let rb3 = (B.at(0)        - s*bx, B.at(1)        - s*by)
+        line(rb1, rb2, rb3)
+
+        // --- key points ---
+        fill(blue.darken(20%))
+        circle(P, radius: 0.07)
+
+        fill(red.darken(10%))
+        circle(A, radius: 0.07)
+        circle(B, radius: 0.07)
+
+        // --- labels ---
+        fill(black)
+
+        // P
+        content((P.at(0) + 0.15, P.at(1) + 0.22),
+            text(10pt)[$P(h, k)$])
+
+        // A
+        content((A.at(0) + 0.18, A.at(1) + 0.18),
+            text(10pt)[*A*])
+
+        // B
+        content((B.at(0) + 0.18, B.at(1) - 0.18),
+            text(10pt)[*B*])
+
+        // radius "a" along OA
+        content((cx*0.45 - 0.22, cy*0.45 + 0.12),
+          text(9pt)[$a$])
+
+        // circle equation
+        content((-1.9, 2.35),
+            text(9pt)[$x^2 + y^2 = a^2$])
+    }))
+
+  Given circle is $x^2 + y^2 = a^2$ #h(.5cm)$dots$(1)
+
+  The equation of the chord of contact $A B$ of tangents drawn from $P(h, k)$ to the circle (1) is $x h + y
+  k = a^2$.
+
+  We have to find the area of $triangle P A B$. From $P(h, k)$ draw $P L perp A B$. Now
+
+  $P L = (h^2 + k^2 - a^2)/sqrt(h^2 + k^2)$
+
+  Also, $P A = sqrt(h^2 + k^2 - a^2)$
+
+  $A L^2 = A P^2 - P L^2 = (a sqrt(h^2 + k^2 - a^2))/sqrt(h^2 + k^2)$
+
+  $Delta_(P A B) = 1/2 A B.P L = A L.P L = (a(h^2 + k^2 - a^2)^(3/2))/(h^2 + k^2)$.
+  //183
++ Given circles are $x^2 + y^2 = a^2$ #h(.5cm)$dots$(1), $x^2 + y^2 = b^2$ #h(.5cm)$dots$(2), and $x^2 + y^2
+  = c^2$ #h(.5cm)$dots$(3).
+
+  Let $P(alpha, beta)$ be any point on (1), then $alpha^2 + beta^2 = a^2$ #h(.5cm)$dots$(4)
+
+  Equation of the chord of contact of the tangents from $P(alpha, beta)$ to (2) is
+
+  $x alpha + y beta - b^2 = 0$.
+
+  This chord of contact is tangent to (3), therefore,
+
+  $(|0.alpha + 0.beta - b^2|)/sqrt(alpha^2 + beta^2) = c => b^2 = a c$, and hence, $a, b, c$ are in G.P.
+  //184
++ Common chord of the circles is $5x - 3y - 10 = 0$. Let this meet the circles at $A$ and $B$. Let the
+  tangents to first circle at $A$ and $B$ meet at $P(alpha, beta)$, then $A B$ will be the chord of contact
+  of the tangents to the circle from $P$, therefore, equation of $A B$ will be
+
+  $x alpha + y beta - 12 = 0$
+
+  The two obtained equations are same. Comparing coefficients we have $alpha/5 = beta/-3 = -12/10$, which
+  yields
+
+  $alpha = 6, beta -= -18/5$.
+  //185
++ The given circle is $x^2 + y^2 + 2x - 3 = 0$. The chord of contact from a point $(x_1, y_1)$ is given by
+  $T = 0$.
+
+  Here $T = x x_1 + y y_1 + (x + x_1) - 3$. Substitute $(x_1, y_1) = (-3, 2)$.
+
+  So $T = -3x + 2y + (x - 3) - 3$.
+
+  Hence, the chord of contact is $x - y + 3 = 0$.
+  //186
++ The given circle is $x^2 + y^2 = 25$. The chord of contact from a point $(x_1, y_1)$ is given by $x x_1 +
+  y y_1 = 25$.
+
+  Substitute $(x_1, y_1) = (5, 3)$. So the equation becomes $5x + 3y = 25$.
