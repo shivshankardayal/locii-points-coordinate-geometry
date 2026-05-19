@@ -1982,3 +1982,81 @@ locus of points of intersectionof two circles.
   //186
 + Find the equation of the chord of contact of the tangents drawn from $(5, 3)$ to the circle $x^2 + y^2 =
   25$.
+  //187
++ Find the coordinates of the point of intersection of tangents at the points where the line $2x + y + 12 =
+  0$ meets the circle $x^2 + y^2 - 4x + 3y - 1 = 0$.
+  //188
++ The lnegth of tangents from the two given points to a given points to a given circle are $t_1$ and
+  $t_2$. If the tow given points are conjugate to each other w.r.t. the given circle, prove that the
+  distance between the points will be $sqrt(t_1^2 + t_2^2)$.
+  //189
++ Find the area of the triangle formed by the tangents drawn from the point $(4, 6)$ to the circle $x^2 +
+  y^2 = 25$ and their chord of contact.
+  //190
++ If $O P$ and $O Q$ are the tangents from the origin to the circle $x^2 + y^2 + 2g x + 2f y + c = 0$, where
+  $P$ and $Q$ are the points of contact, show that the equation of the circumcircle of the triangle $O P Q$
+  is $x^2 + y^2 + g x + f y = 0$.
+  //191
++ Find the point of contact of the tangents to the circle $x^2 + y^2 = 25$ that pass through the point $(7,
+  1)$ and give the equation of tangents.
+  //192
++ Find the equation of the polar of the point $(2, -1)$ w.r.t. the circle $x^2 + y^2 - 3x + 4y - 8 = 0$.
+  //193
++ Find the pole of the line $3x + 5y + 17 = 0$ w.r.t. the circle $x^2 + y^2 + 4x + 6y + 9 = 0$.
+  //194
++ Show that the polars of the point $(1, -2)$ w.r.t. the circle $x^2 + y^2 + 6y + 5 = 0$ and $x^2 + y^2 + 2x
+  + 8y + 5 = 0$ coincide. Prove that there is another point, the polars of which w.r.t. these circles are
+  the same and find its coordinates.
+  //195
++ Let $C$ be the center of a circle. The lines $L_1$ and $L_2$ are the polars of the points $A$ and $B$
+  respectively. w.r.t. the circle. Perpendiculars $A M$ and $B N$ are dropped from $A$ to the line $L_2$ and
+  from $B$ to $L_1$. Prove that $C A:C B = A M:B N$.
+  //196
++ Find the polar of the point of intersection of the line $4x - y = 11$ and $x - 2y = 1$ w.r.t. the circle
+  $x^2 + y^2 = 7$.
+  //197
++ Find the polar of the point $(4, -1)$ w.r.t. the circle $2x^2 + 2y^2 = 11$.
+  //198
++ Find the polar of the point $(1, -5)$ w.r.t. the circle $x^2 + y^2 - 8x + 6y + 4 = 0$.
+  //199
++ Prove that the polar of the point $(p, q)$ w.r.t. the circle $x^2 + y^2 = a^2$ touches $(x - c)^2 + (y -
+  d)^2 = b^2$ if $b^2(p^2 + q^2) = (a^2 - c p - d q)^2$.
+  //200
++ Show that the polar of the origin w.r.t. the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ touches the circle
+  $x^2 + y^2 = a^2$ if $c^2 = a^2(f^2 + g^2)$.
+  //201
++ Prove that if the pole of a straight line w.r.t. the circle $x^2 + y^2 = c^2$ lies on the circle $x^2 +
+  y^2 = 9c^2$, the line is a tangent to the circle $9x^2 + 9y^2 = c^2$.
+  //202
++ Find the pole of the straight line $9x + y - 28 = 0$ w.r.t. the circle $2x^2 + 2y^2 - 3x + 5y - 7 = 0$.
+  //203
++ Find the pole of the straight line $2x - y + 10 = 0$ w.r.t. the circle $x^2 + y^2 - 7x + 5y - 1 = 0$.
+  //204
++ Find the pole of the line $a x + b y + c = 0$ w.r.t. the circle $x^2 + y^2 + 2g x + 2f y + c = 0$.
+  //205
++ Prove that the polar of any point w.r.t. a circle is perpendicular to the line joining the point and
+  center of the circle.
+  //206
++ Prove that the polar of a given point w.r.t. any of the circles $x^2 + y^2 + 2p x + c = 0$, where $p$ is a
+  variable, always passes through a fixed point.
+  //207
++ If the polar of the point $(alpha, beta)$ w.r.t. the circle $x^2 + y^2 = a^2$ touches the circle $(x -
+  a)^2 + y^2 = a^2$, show thta $(alpha, beta)$ is on the curve given by $y^2 + 2a x = a^2$.
+  //208
++ Verify that the three points $(x_1, y_1), (x_2, y_2)$ and $(x_3, y_3)$ will be collinear if and only if
+  their polars w.r.t. the circle $x^2 + y^2 = a^2$ are concurrent.
+  //209
++ Show that the circles $x^2 + y^2 - 2x - 6y - 12 = 0$ and $x^2 + y^2 + 6x + 4y - 6 = 0$ cut each other
+  orthogonally.
+  //210
++ If $S = 0$ and $S_1 = 0$ are the two circles with radii $a$ and $a_1$ respectively. Show that the circles
+  $S/a plus.minus S_1/a = 0$ intersect at right angles.
+  //211
++ Prove that the two circles pass through the points $(0, 0)$ and $(0, -a)$ and touch the line $y = m x + c$
+  will cut orthogonally if $c^2 = a^2(2 + m^2)$.
+  //212
++ Obtain the equation of the circle orthogonal to both the circles $x^2 + y^2 + 3x - 5y + 6 = 0$ and $4x^2 +
+  4y^2 - 28x + 29 = 0$, and whose center lies on the line $3x + 4y + 1 = 0$.
+  //213
++ Prove that a circle cutting the circle $x^2 + y^2 = 4$ orthogonally and having its center on the line $2x
+  - 2y + 9 = 0$, passes through two fixed points, and find the points.

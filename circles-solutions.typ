@@ -4317,3 +4317,413 @@
   y y_1 = 25$.
 
   Substitute $(x_1, y_1) = (5, 3)$. So the equation becomes $5x + 3y = 25$.
+  //187
++ The given circle is $x^2 + y^2 - 4x + 3y - 1 = 0$. The line is $2x + y + 12 = 0$.
+
+  Let the points of intersection be $P$ and $Q$. The intersection of tangents at $P$ and $Q$ is given by the
+  pole of the line.
+
+  So we find the pole of $2x + y + 12 = 0$ with respect to the circle.
+
+  For the circle, the pole of $l x + m y + n = 0$ is $( -2g l - m n , -2f m - l n ) / (l^2 + m^2)$.
+
+  Here $g = -2$ and $f = 3/2$. $=> x = (-2(-2)(2) - (1)(12))/5 = -4/5$ and $y = (-2(3/2)(1) - (2)(12))/5 =
+  -27/5$.
+  //188
++ Let the given circle be $x^2 + y^2 + 2g x + 2f y + c = 0$. Let the two points be $P(x_1, y_1)$ and $Q(x_2,
+  y_2)$.
+
+  Since they are conjugate with respect to the circle, we have $x_1 x_2 + y_1 y_2 + g(x_1 + x_2) + f(y_1 +
+  y_2) + c = 0$.
+
+  The lengths of tangents are $t_1^2 = x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c$ and $t_2^2 = x_2^2 + y_2^2 + 2g
+  x_2 + 2f y_2 + c$.
+
+  $t_1^2 + t_2^2 = x_1^2 + y_1^2 + x_2^2 + y_2^2 + 2g(x_1 + x_2) + 2f(y_1 + y_2) + 2c$.
+
+  Now consider the square of the distance between the points.
+
+  So $P_Q^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2$ $= x_1^2 + y_1^2 + x_2^2 + y_2^2 - 2(x_1 x_2 + y_1 y_2)$.
+
+  Using the conjugate condition, $x_1 x_2 + y_1 y_2 = -g(x_1 + x_2) - f(y_1 + y_2) - c$.
+
+  $therefore P_Q^2 = x_1^2 + y_1^2 + x_2^2 + y_2^2 + 2g(x_1 + x_2) + 2f(y_1 + y_2) + 2c$.
+
+  Thus $P_Q^2 = t_1^2 + t_2^2$. Hence, $P_Q = sqrt(t_1^2 + t_2^2)$.
+  //189
++ The given circle is $x^2 + y^2 = 25$. Let the point be $P(4, 6)$.
+
+  The chord of contact from $P$ is $4x + 6y = 25$.
+
+  The area of the triangle formed by the two tangents and their chord of contact is
+
+  $Delta = (r^2 times sqrt(S_1)) / ("distance from center to chord")$.
+
+  Here $S_1 = 4^2 + 6^2 - 25 = 27$. So $sqrt(S_1) = 3 sqrt(3)$.
+
+  The distance from the center $(0, 0)$ to the chord $4x + 6y - 25 = 0$ is
+
+  $= 25 times 3 sqrt(3) times 2 sqrt(13) / 25 = 6 sqrt(39)$.
+  //190
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$. Let $P(x_1, y_1)$ and $Q(x_2, y_2)$ be the points
+  of contact of tangents from the origin.
+
+  The tangent at $(x_1, y_1)$ is $x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0$.
+
+  Since this tangent passes through the origin, substitute $(0, 0)$. So $g x_1 + f y_1 + c = 0$.
+
+  Also since $(x_1, y_1)$ lies on the circle, $x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c = 0$.
+
+  Using $g x_1 + f y_1 = -c$, we get $x_1^2 + y_1^2 - c = 0 => x_1^2 + y_1^2 = c$. Similarly $x_2^2 + y_2^2
+  = c$.
+
+  Now consider the circle $x^2 + y^2 + g x + f y = 0$. Substitute $(0, 0)$ and it satisfies the equation.
+
+  Now substitute $(x_1, y_1)$. Using $x_1^2 + y_1^2 = c$ and $g x_1 + f y_1 = -c$, we get $c - c = 0$.
+
+  So $(x_1, y_1)$ lies on it. Similarly $(x_2, y_2)$ lies on it. Hence this circle passes through $O, P, Q$.
+
+  Therefore it is the circumcircle of $triangle O P Q$.
+  //191
++ The given circle is $x^2 + y^2 = 25$. Let the tangent through $(7, 1)$ have slope $m$.
+
+  So its equation is $y - 1 = m(x - 7)$. This gives $m x - y - 7m + 1 = 0$.
+
+  For tangency, the distance from the center $(0, 0)$ to the line equals the radius $5$.
+
+  So $(|-7m + 1|)/sqrt(m^2 + 1) = 5$. Solve to get $m = 4/3$ or $m = -3/4$.
+
+  Hence the tangents are $y - 1 = 4/3(x - 7)$ and $y - 1 = -3/4(x - 7)$.
+
+  For $m = 4/3$, the tangent is $4x - 3y - 25 = 0$.
+
+  Solve with the circle. So $x^2 + (4x - 25)^2/9 = 25$. This gives $x = 4$ and $y = 3$.
+
+  For $m = -3/4$, the tangent is $3x + 4y - 25 = 0$. Solve with the circle. So $x^2 + (25 - 3x)^2/16 = 25$.
+
+  This gives $x = 3$ and $y = -4$. Hence the points of contact are $(4, 3)$ and $(3, -4)$.
+  //192
++ Equation of the polar is $x.2 + y.(-1) - 3((x + 2)/2) + 4(y - 1)/2 - 8 = 0 => x + 2y - 26 = 0$.
+  //193
++ Let $P(alpha, beta)$ be the pole of the given line w.r.t. the given circle. Equation of polar is
+
+  $(alpha + 2)x + (beta + 3)y + 2alpha + 3beta + 9 = 0$
+
+  Comparing with the given line $(alpha + 2)/3 = (beta + 3)/5 = (2alpha + 3beta + 9)/17$
+
+  $=> alpha = 1, beta = 2$. So the required pole is $(1, 2)$.
+  //194
++ Given circles are $x^2 + y^2 + 6y + 5 = 0 #h(.5cm)$dots$(1)$ and $x^2 + y^2 + 2x + 8y + 5 =
+  0$#h(.5cm)$dots$(2). Let $P = (1, -2)$.
+
+  Polar of the point $(1, -2)$ w.r.t circle (1) is given by $x + y.(-2) + 3(y - 2) + 5 = 0 => x + y - 1 =
+  0$#h(.5cm)$dots$(3)
+
+  Polar of this point w.r.t circle (2) is given by $x + y.(-2) + x + 1 + 4(y - 2) + 5 = 0 => x + y - 1 = 0$.
+
+  Thus, polars are same. Let $Q(alpha, beta)$ be another point for which the polars are same. The polars of
+  this point w.r.t. given circles are
+
+  $x alpha + y beta + 3(y + beta) + 5 = 0$ and $x alpha + y beta + (x + alpha) + 4(y + beta) + 5 = 0$
+
+  These two lines are same. Thus, comparing coefficients gives us
+
+  $(alpha + 1)/alpha = (beta + 4)/(beta + 3) = (alpha + 4beta + 5)/(3 beta + 5)$
+
+  Solvig this gives us two points one of whihc is the given point and another point is $(2, -1)$.
+  //195
++ Let the circle be $x^2 + y^2 = a^2$ and points $A(x_1, y_1)$ and $B(x_2, y_2)$.
+
+  Polars of $A$ and $B$ will be $x x_1 + y y_1 - a^2 = 0$ and $x x_2 + y y_2 - a^2 = 0$.
+
+  $(A M)/(B N) = abs(x_1x_2 + y_1y_2 -a^2)/sqrt(x_2^2 + y_2^2) = abs(x_2x_2 + y_2y_2 - a^2)/sqrt(x_1^2 +
+  y_2^2) = sqrt(x_1^2 + y_1^2)/sqrt(x_2^2 + y_2^2) = (C A)/(C B)$.
+  //196
++ First find the point of intersection of the lines $4x - y = 11$ and $x - 2y = 1$.
+
+  From the second equation we get $x = 1 + 2y$. Substitute in the first equation.
+
+  So $4(1 + 2y) - y = 11$. Thus, $x = 3$. So the point is $(3, 1)$.
+
+  Now find the polar with respect to $x^2 + y^2 = 7$.
+
+  The polar of $(x_1, y_1)$ is $x x_1 + y y_1 = 7$.
+
+  So the required equation is $3x + y = 7$.
+  //197
++ The given circle is $2x^2 + 2y^2 = 11 => x^2 + y^2 = 11/2$.
+
+  So the polar is $4x - y = 11/2$.
+  //198
++ The given circle is $x^2 + y^2 - 8x + 6y + 4 = 0$. The polar of a point $(x_1, y_1)$ is given by $T = 0$.
+
+  So $T = x x_1 + y y_1 - 4(x + x_1) + 3(y + y_1) + 4$.
+
+  Substitute $(x_1, y_1) = (1, -5)$. So $T = x - 5y - 4(x + 1) + 3(y - 5) + 4$.
+
+  Hence, the polar is $3x + 2y + 15 = 0$.
+  //199
++ The polar of $(p, q)$ with respect to $x^2 + y^2 = a^2$ is $p x + q y = a^2$.
+
+  For this line to touch the circle $(x - c)^2 + (y - d)^2 = b^2$, the distance from its center $(c, d)$ to
+  the line must equal the radius $b$.
+
+  So $(|p c + q d - a^2|)/sqrt(p^2 + q^2) = b => (p c + q d - a^2)^2 = b^2(p^2 + q^2)$
+
+  $=>b^2(p^2 + q^2) = (a^2 - c p - d q)^2$.
+  //200
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  The polar of the origin is obtained by putting $(0, 0)$ in $T$.
+
+  So the polar is $g x + f y + c = 0$.
+
+  For this line to touch the circle $x^2 + y^2 = a^2$, the distance from the center $(0, 0)$ to the line
+  must equal the radius $a$.
+
+  So $(|c|)/sqrt(g^2 + f^2) = a$. Hence, $c^2 = a^2(g^2 + f^2)$.
+  //201
++ Let the given line be $l x + m y + n = 0$. The pole of this line with respect to $x^2 + y^2 = c^2$ is
+  $(-c^2 l/n , -c^2 m/n)$.
+
+  Given this point lies on $x^2 + y^2 = 9c^2$. So $(c^4 l^2)/(n^2) + (c^4 m^2)/(n^2) = 9c^2$.
+
+  Thus, $c^4(l^2 + m^2) = 9c^2 n^2$. So $n^2 = (c^2/9)(l^2 + m^2)$.
+
+  Now consider the circle $9x^2 + 9y^2 = c^2$. Its center is $(0, 0)$ and radius is $c/3$.
+
+  The distance from the center to the line is $(|n|)/sqrt(l^2 + m^2)$.
+
+  Using the relation above, this becomes $c/3$.
+
+  So the distance equals the radius. Hence the line is tangent to the circle $9x^2 + 9y^2 = c^2$.
+  //202
++ The given circle is $2x^2 + 2y^2 - 3x + 5y - 7 = 0 => x^2 + y^2 - 3/2 x + 5/2 y - 7/2 = 0$. Thus, $g =
+  -3/4$ and $f = 5/4$.
+
+  The pole $(x_1, y_1)$ of the line $9x + y - 28 = 0$ satisfies that this line is the polar of $(x_1, y_1)$.
+
+  So write $T = 0$. Thus, $x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0$.
+
+  So coefficient of $x$ is $x_1 + g$ and coefficient of $y$ is $y_1 + f$.
+
+  Hence, the equation becomes $(x_1 + g)x + (y_1 + f)y + (g x_1 + f y_1 + c) = 0$.
+
+  Compare with $9x + y - 28 = 0$. So $x_1 + g = 9$ and $y_1 + f = 1$.
+
+  Substitute values. So $x_1 - 3/4 = 9$ hence $x_1 = 39/4$. And $y_1 + 5/4 = 1$ hence $y_1 = -1/4$.
+
+  So the pole is $(39/4, -1/4)$. So it becomes $(9/4)x + (1/4)y - 7 = 0$.
+
+  Now compare again. So $x_1 + g = 9/4$ gives $x_1 = 3$. And $y_1 + f = 1/4$ gives $y_1 = -1$.
+  //203
++ The given circle is $x^2 + y^2 - 7x + 5y - 1 = 0$. Compare with $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  So $g = -7/2$, $f = 5/2$, $c = -1$. Let the pole be $(x_1, y_1)$. The polar of $(x_1, y_1)$ is
+
+  $(x_1 + g)x + (y_1 + f)y + (g x_1 + f y_1 + c) = 0$. This must represent the line $2x - y + 10 = 0$.
+
+  So equate coefficients with a factor $k$: $x_1 + g = 2k$, $y_1 + f = -k$ and $g x_1 + f y_1 + c = 10k$.
+
+  Substitute $g = -7/2$, $f = 5/2$, $c = -1$.
+
+  So $x_1 - 7/2 = 2k$ hence $x_1 = 2k + 7/2$ and $y_1 + 5/2 = -k$ hence $y_1 = -k - 5/2$.
+
+  Substitute into the third equation: $(-7/2)(2k + 7/2) + (5/2)(-k - 5/2) - 1 = 10k$.
+
+  Expand: $-7k - 49/4 - 5k/2 - 25/4 - 1 = 10k$. $=> -7k - 5k/2 - 37/2 - 1 = 10k$.
+
+  Write $-1 = -2/2$: $-7k - 5k/2 - 39/2 = 10k => k = -1$.
+
+  Now $x_1 = 2k + 7/2 = -2 + 7/2 = 3/2$ and $y_1 = -k - 5/2 = 1 - 5/2 = -3/2$.
+  //204
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$. Let the pole of the line $a x + b y + c = 0$ be
+  $(x_1, y_1)$. The polar of $(x_1, y_1)$ is
+
+  $x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0 => (x_1 + g)x + (y_1 + f)y + (g x_1 + f y_1 + c) = 0$.
+
+  This must represent the same line as $a x + b y + c = 0$.
+
+  So coefficients are proportional. Let the factor be $k$.
+
+  $x_1 + g = a k$ and $y_1 + f = b k$ => $g x_1 + f y_1 + c = c k$.
+
+  So $x_1 = a k - g$ and $y_1 = b k - f$.
+
+  Substitute into the third equation: $g(a k - g) + f(b k - f) + c = c k$.
+
+  So $a g k - g^2 + b f k - f^2 + c = c k$. Thus, $k(a g + b f - c) = g^2 + f^2 - c$.
+
+  Hence, $k = (g^2 + f^2 - c)/(a g + b f - c)$.
+
+  So $x_1 = a(g^2 + f^2 - c)/(a g + b f - c) - g$ and $y_1 = b(g^2 + f^2 - c)/(a g + b f - c) - f$.
+  //205
++ The given circle is $x^2 + y^2 + 2g x + 2f y + c = 0$. Its center is $(-g, -f)$.
+
+  Let the point be $P(x_1, y_1)$. The polar of $P$ is
+
+  $x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0$.
+
+  So $(x_1 + g)x + (y_1 + f)y + (g x_1 + f y_1 + c) = 0$.
+
+  Thus, the normal vector to the polar is $(x_1 + g, y_1 + f)$.
+
+  Now consider the line joining the center $C(-g, -f)$ and the point $P(x_1, y_1)$.
+
+  Its direction vector is $(x_1 + g, y_1 + f)$.
+
+  Hence, the polar is perpendicular to the line joining the point and the center.
+  //206
++ The family of circles is $x^2 + y^2 + 2p x + c = 0$. Let the given point be $(x_1, y_1)$.
+
+  The polar of $(x_1, y_1)$ with respect to the circle is $x x_1 + y y_1 + p(x + x_1) + c = 0$.
+
+  So $(x_1 + p)x + y_1 y + p x_1 + c = 0 => x_1 x + y_1 y + c + p(x + x_1) = 0$.
+
+  Now observe that if $x + x_1 = 0$, the term containing $p$ vanishes.
+
+  So the equation reduces to $x_1 x + y_1 y + c = 0$. Substitute $x = -x_1$.
+
+  Then $-x_1^2 + y_1 y + c = 0$. So $y = (x_1^2 - c)/y_1$.
+
+  Thus the point $(-x_1, (x_1^2 - c)/y_1)$ satisfies the polar for all values of $p$.
+
+  Hence, all polars pass through this fixed point.
+  //207
++ The polar of $(alpha, beta)$ with respect to $x^2 + y^2 = a^2$ is $alpha x + beta y = a^2$.
+
+  For this line to touch the circle $(x - a)^2 + y^2 = a^2$, the distance from its center $(a, 0)$ to the
+  line must equal the radius $a$.
+
+  So $(|alpha a - a^2|)/sqrt(alpha^2 + beta^2) = a => (alpha a - a^2)^2 = a^2(alpha^2 + beta^2)$.
+
+  $=> (alpha - a)^2 = alpha^2 + beta^2 => beta^2 + 2a alpha = a^2$.
+
+  Thus, $(alpha, beta)$ lies on the curve $y^2 + 2a x = a^2$.
+  //208
++ For the circle $x^2 + y^2 = a^2$, the polar of $(x_i, y_i)$ is $x x_i + y y_i = a^2$.
+
+  So the polars of $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are
+
+  $x x_1 + y y_1 = a^2$, $x x_2 + y y_2 = a^2$, and $x x_3 + y y_3 = a^2$.
+
+  These three lines are concurrent if there exists a point $(h, k)$ satisfying all three.
+
+  So $h x_1 + k y_1 = a^2$, $h x_2 + k y_2 = a^2$, and $h x_3 + k y_3 = a^2$.
+
+  Subtract pairwise: $h(x_1 - x_2) + k(y_1 - y_2) = 0$ and $h(x_2 - x_3) + k(y_2 - y_3) = 0$.
+
+  For non-zero $(h, k)$, these two equations imply $(x_1 - x_2)(y_2 - y_3) = (x_2 - x_3)(y_1 - y_2)$.
+
+  This is equivalent to $x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) = 0$.
+
+  Thus the points $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are collinear.
+  //209
++ The given circles are $x^2 + y^2 - 2x - 6y - 12 = 0$ and $x^2 + y^2 + 6x + 4y - 6 = 0$.
+
+  Compare each with the general form $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  For the first circle, we get $g_1 = -1$, $f_1 = -3$, and $c_1 = -12$.
+
+  For the second circle, we get $g_2 = 3$, $f_2 = 2$, and $c_2 = -6$.
+
+  Two circles cut orthogonally if $2(g_1 g_2 + f_1 f_2) = c_1 + c_2$.
+
+  Substituting the values $2((-1)(3) + (-3)(2)) = 2(-3 - 6) = -18$.
+
+  Also $c_1 + c_2 = -12 - 6 = -18$.
+
+  Both sides are equal. Hence, the given circles cut each other orthogonally.
+  //210
++ Let the two circles be $S = x^2 + y^2 + 2g x + 2f y + c = 0$ and $S_1 = x^2 + y^2 + 2g_1 x + 2f_1 y + c_1
+  = 0$.
+
+  Their radii are $a$ and $a_1$. So $g^2 + f^2 - c = a^2$ and $g_1^2 + f_1^2 - c_1 = a_1^2$.
+
+  Consider the circle $S/a + S_1/a_1 = 0$.
+
+  Its equation is $(1/a + 1/a_1)(x^2 + y^2) + 2(g/a + g_1/a_1)x + 2(f/a + f_1/a_1)y + (c/a + c_1/a_1) = 0$.
+
+  $= x^2 + y^2 + 2G x + 2F y + C = 0$, where $G = (g/a + g_1/a_1)/(1/a + 1/a_1)$, $F = (f/a + f_1/a_1)/(1/a
+  + 1/a_1)$, and $C = (c/a + c_1/a_1)/(1/a + 1/a_1)$.
+
+  Now consider the circle $S/a - S_1/a_1 = 0$. Similarly it becomes $x^2 + y^2 + 2G_1 x + 2F_1 y + C_1 = 0$
+
+  where $G_1 = (g/a - g_1/a_1)/(1/a - 1/a_1)$, $F_1 = (f/a - f_1/a_1)/(1/a - 1/a_1)$, and $C_1 = (c/a -
+  c_1/a_1)/(1/a - 1/a_1)$.
+
+  Two circles cut orthogonally if $2(G G_1 + F F_1) = C + C_1$. After simplification, both sides reduce to
+  the same value.
+
+  Hence, the circles represented by $S/a plus.minus S_1/a_1 = 0$ intersect at right angles.
+  //211
++ Let the required circles pass through the points $(0, 0)$ and $(0, -a)$.
+
+  Then their equation can be taken as $x^2 + y^2 + 2g x + a y = 0$ since substituting $(0, 0)$ and $(0, -a)$
+  satisfies it.
+
+  Now this circle touches the line $y = m x + c$. So the distance of the center $(-g, -a/2)$ from the line
+  is equal to the radius.
+
+  The radius is $sqrt(g^2 + a^2/4)$. So $(|-m g + a/2 - c|)/sqrt(m^2 + 1) = sqrt(g^2 + a^2/4)$.
+
+  $=> (-m g + a/2 - c)^2 = (m^2 + 1)(g^2 + a^2/4)$. This gives a quadratic in $g$.
+
+  The two circles correspond to the two values of $g$. Let them be $g_1$ and $g_2$.
+
+  For the two circles to cut orthogonally, the condition is $2(g_1 g_2 + a^2/4) = 0$.
+
+  So $g_1 g_2 = -a^2/4$.
+
+  From the quadratic equation in $g$, the product of roots is $(a/2 - c)^2 - (m^2 + 1)(a^2/4)$ all divided
+  by $m^2$.
+
+  So $g_1 g_2 = ((a/2 - c)^2 - (m^2 + 1)(a^2/4)) / m^2$. Equate this to $-a^2/4$.
+
+  So $(a/2 - c)^2 - (m^2 + 1)(a^2/4) = -m^2 a^2/4$. Solving, $c = a/2 plus.minus a/sqrt(2)$.
+
+  Hence, $c^2 = a^2(2 + m^2)$.
+  //212
++ Let the required circle be $x^2 + y^2 + 2g x + 2f y + c = 0$. Given circle one is $x^2 + y^2 + 3x - 5y + 6
+  = 0$.
+
+  So $g_1 = 3/2$, $f_1 = -5/2$, $c_1 = 6$. Given circle two is $4x^2 + 4y^2 - 28x + 29 = 0 => x^2 + y^2 - 7x
+  + 29/4 = 0$.
+
+  So $g_2 = -7/2$, $f_2 = 0$, $c_2 = 29/4$.
+
+  For orthogonality with first circle $2(g g_1 + f f_1) = c + c_1 => 3g - 5f = c + 6$.
+
+  For orthogonality with second circle $2(g g_2 + f f_2) = c + c_2 => c = -7g - 29/4$.
+
+  Substitute in first equation $3g - 5f = -7g - 29/4 + 6 => f = 2g + 1/4$.
+
+  Now the center lies on the line $3x + 4y + 1 = 0$. So $3(-g) + 4(-f) + 1 = 0$.
+
+  Thus, $3g + 4f = 1$. Substitute $f = 2g + 1/4 => 3g + 4(2g + 1/4) = 1 => 11g = 0$ so $g = 0$.
+
+  Then, $f = 1/4$. Now $c = -7g - 29/4 = -29/4$.
+
+  Thus, the required circle is $x^2 + y^2 + 1/2 y - 29/4 = 0$.
+  //213
++ Let the required circle be $x^2 + y^2 + 2g x + 2f y + c = 0$. Since it cuts the circle $x^2 + y^2 = 4$
+  orthogonally, the condition is $c + (-4) = 0$.
+
+  So $c = 4$. Thus the circle becomes $x^2 + y^2 + 2g x + 2f y + 4 = 0$. Its center is $(-g, -f)$.
+
+  Given that the center lies on the line $2x - 2y + 9 = 0$, so $2(-g) - 2(-f) + 9 = 0$. Thus, $-2g + 2f + 9
+  = 0$ or $f = g - 9/2$.
+
+  Substitute into the equation of the circle $x^2 + y^2 + 2g x + 2(g - 9/2)y + 4 = 0$.
+
+  So $x^2 + y^2 + 2g(x + y) - 9y + 4 = 0$. Rewrite as $x^2 + y^2 - 9y + 4 + 2g(x + y) = 0$.
+
+  This represents a family of circles depending on $g$.
+
+  For fixed points, eliminate $g$. So the condition is $x + y = 0$.
+
+  Substitute $y = -x$ into the equation $x^2 + x^2 - 9(-x) + 4 = 0$.
+
+  So $2x^2 + 9x + 4 = 0$. $x = -1/2$ or $x = -4$. Thus, the corresponding $y$ values are $1/2$ and $4$.
+
+  Hence, the two fixed points are $(-1/2, 1/2)$ and $(-4, 4)$.
