@@ -90,6 +90,7 @@
 #include "straight-lines.typ"
 #include "pair-straight-lines.typ"
 #include "circles.typ"
+#include "conic-sections.typ"
 
 #part("Answers")
 #counter(heading).update(0)

@@ -2060,3 +2060,128 @@ locus of points of intersectionof two circles.
   //213
 + Prove that a circle cutting the circle $x^2 + y^2 = 4$ orthogonally and having its center on the line $2x
   - 2y + 9 = 0$, passes through two fixed points, and find the points.
+  //214
++ Prove that the general equation of circles cutting the circles $x^2 + y^2 + 2g_r x + 2f_r y + c_r = 0; r =
+  1, 2$, orthogonally is $mat(delim: "|", x^2 + y^2, -x, -y; c_1, g_1, f_1; c_2, g_2, f_2) + k mat(delim:
+  "|", -x, -y, 1; g_1, f_1, 1; g_2, f_2, 1) = 0$.
+  //215
++ For what value of $k$ the circles $x^2 + y^2 + 5x + 3y + 7 = 0$ and $x^2 + y^2 - 8x + 6y + k = 0$ cut
+  orthogonally.
+  //216
++ Find the equation of the circle passing through the origin and cutting the circles $x^2 + y^2 - 4x + 6y +
+  10 = 0$ and $x^2 + y^2 + 12y + 6 = 0$ at right angles.
+  //217
++ Find the equation of the circle passing through the origin and has its center on the line $x + y + 4 = 0$
+  and cuts the circle $x^2 + y^2 - 4x + 2y + 4 = 0$ orthogonally.
+  //218
++ If two circles cut a third circle orthogonally then prove that their common chord will pass through the
+  center of the third circle.
+  //219
++ If a circle cuts orthogonally three circles $S_1 = 0, S_2 = 0, S_3 = 0$; prove that it cuts orthogonally
+  any circle of the form $k S_1 + l S_2 + m S_3 = 0$.
+  //220
++ Prove that the two circles each of which passes through the points $(0, k)$ and $(0, -k)$ and touches the
+  line $y = m x + b$ will cut orthogonally if $b^2 = k^2(2 + m^2)$.
+  //221
++ Find the general equation of a circle cutting $x^2 + y^2 = c^2$ orthogonally and show that if it passes
+  through the point $(a, b)$ will also pass through the point $((c^2a)/(a^2 + b^2), (c^2b)/(a^2 + b^2))$.
+  //222
++ If $P$ and $Q$ be a pair of conjugate points w.r.t. a circle $S$, prove that the circle on $P Q$ as a
+  diameter cuts the circle $S$ orthogonally.
+  //223
++ Prove that the circle $x^2 + y^2 - 6x - 4y + 9 = 0$ bisects the circumference of the circle $x^2 + y^2 -
+  8x - 6y + 23 = 0$.
+  //224
++ Find the equation of a circle which is coaxal with the circles $2x^2 + 2y^2 - 2x + 6y - 3 = 0$ and $x^2 +
+  y^2 + 4x + 2y + 1 = 0$. It is given that the center of the circle to be determined lies on the radical
+  axis of these circles.
+  //225
++ If the radical axis of the circles $x^2 + y^2 + 2g x + 2f y + c = 0$ and $2x^2 + 2y^2 + 3x + 8y + 2c = 0$
+  touches the circle $x^2 + y^2 + 2x - 2y + 1 = 0$, show that either $g = 3/4$ or $f = 2$.
+  //226
++ Find the general equation of circles, any two of which have the same radical axis as that of the circles
+  $x^2 + y^2 + 2x + 4y - 6 = 0$ and $x^2 + y^2 = 4$.
+  //227
++ The equations of three circles are $x^2 + y^2 = 1, x^2 + y^2 - 8x + 15 = 0. x^2 + y^2 + 10y + 24 =
+  0$. Determine the coordinates of the point such that the tangents drawn from it to the three circles are
+  equal in length.
+  //228
++ The polars of a point $P$ w.r.t. two given circles meet in a point $Q$; show that the radical axis of the
+  circles bisedct the line $P Q$.
+  //229
++ Show that the locus of a point such that the ratio of its distances from two given points is a constant,
+  is a circle. Hence, show that this circle cannot pass through the given points.
+  //230
++ Two rods of lengths $a$ and $b$ slide along the axes in a manner that their ends are always
+  concyclic. Find the locus of the center of the circle passing through these ends.
+  //231
++ Two straight lines rotate about two fixed points. If they start from their positions of coincidence such
+  that one rotates at the rate double that of the other. Prove that locus of their point of intersection is
+  a circle.
+  //232
++ A circle of radius $r$ passes through the origin $O$, and cuts the axes at $A$ and $B$. Let $P$ be the
+  foot of the perpendicular from the origin to the line $A B$. Find the equation of the locus of $P$.
+  //233
++ Show that the locus of points from which the tangents drawn to a circle are orthogonal, is a concentric
+  circle or find the equation of the cirector circle of the circle $x^2 + y^2 = a^2$.
+  //234
++ Find the locus of the point of the point of intersection of tangents to the circle $x = a cos theta, y = a
+  sin theta$ at points whose parametric angles differ by $pi/3$.
+  //235
++ The circles $x^2 + y^2 + 2a x - c^2 = 0$ and $x^2 + y^2 + 2b x - c^2 = 0$ intersect at $A$ and $B$. A line
+  through $A$ meets one circle at $P$ and a parallel line through $B$ meets at the other circle at $Q$. Show
+  that the locus of the mid-point of $P Q$ is a circle.
+  //236
++ Find the condition that the chord of contact of tangents from the point $(alpha, beta)$ to the circle $x^2
+  + y^2 = a^2$ should subtend a right angle at the center. Hence, find the locus of $(alpha, beta)$.
+  //237
++ A tangent is drawn to each of the circle $x^2 + y^2 = a^2$ and $x^2 + y^2 = b^2$. Show that if the two
+  tangents are mutually perpendicular, the locus of their point of intersection is a cricle concentric with
+  the given circle.
+  //238
++ Show that the locus of the point, the tangents from which to the circle $x^2 + y^2 = a^2$ include a
+  constant angle $alpha$ is $(x^2 + y^2 - 2a^2)^2 tan^2alpha = 4a^2(x^2 + y^2 - a^2)$.
+  //239
++ A straight line passes through the fixed point $(h, k)$. Find the locus of the foot of the perpendicular
+  drawn to it from the origin.
+  //240
++ $O$ is a fixed point and $A P$ and $B Q$ are two fixed parallel straight lines; $B O A$ is perpendicular
+  to both and $angle P O Q$ is a right angle. Prove that the locus of the foot of the perpendicular drawn
+  from $O$ upon $P Q$ is the circle on $A B$ as diameter.
+  //241
++ A variable circle passes through the point $P(1, 2)$ and touches the $x$-axis; show that the locus of the
+  other end of the diameter through $P$ is $(x - 1)^2 = 8y$.
+  //242
++ Find the locus of a point, which is such that the lengths of the tangents from it to two concentric
+  circles $x^2 + y^2 = a^2$ and $x^2 + y^2 = b^2$ vary inversely as their radii.
+  //243
++ A point moves such that the sum of squares of its distances from the sides of a square of side unity is
+  equal to $9$. Show that the locus of a circle whose center is coincides with the center of the
+  square. Also, find its radius.
+  //244
++ Find the locus of the center of the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ when the pair of tangents
+  drawn from the origin to the circle are perpendicular to each other.
+  //245
++ Determine the locus of centers of the circle which touches the two circles $x^2 + y^2 = a^2$ and $x^2 +
+  y^2 = 4a x$ externally.
+  //246
++ Find the locus of the centers of the circle which cut the circles $x^2 + y^2 + 4x - 6y + 9 = 0$ and $x^2 +
+  y^2 - 4x + 6y + 4 = 0$ orthogonally is $8x - 12y + 5 = 0$.
+  //247
++ Find the locus of the foot of the perpendicular drawn from a fixed point on the $x$-axis to any tangent to
+  the circle $x^2 + y^2 = a^2$.
+  //248
++ The tangent at any point $P$ on the circle $x^2 + y^2 = 2$ cuts the axes in $L$ and $M$. Find the locus of
+  the middle point of $L M$.
+  //249
++ A triangle has two of its sides along the axes, its third side touches the circle $x^2 + y^2 - 2a x - 2a y
+  + a ^2 = 0$. Find the equation of the locus of the circumcenter of the triangle.
+  //250
++ The point $A(1, 5)$ is joined to any point $P$ of the circle $x^2 + y^2 = 4$. Find the locus of the middle
+  point of $A P$ as $P$ moves on the circle.
+  //251
++ Chords of the circle $x^2 + y^2 + 2g x + 2f y + c = 0$ drawn through a fixed point $A(a, b)$. Find the
+  locus of the mid-points of these chords and interpret the locus.
+  //252
++ A straight line moves so that the algebraic sum of the perpendiculars drawn to it from two fixed points is
+  constant, show that the line always touches a fixed circle.
