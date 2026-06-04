@@ -1,4 +1,4 @@
-#import "@preview/cetz:0.4.2"
+#import "@preview/cetz:0.5.2"
 #import "@preview/ctz-euclide:0.1.0": *
 #import "lib.typ": *
 
