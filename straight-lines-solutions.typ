@@ -20,14 +20,17 @@
 )
 
 = Answers of Straight Lines
+//1
 + Since the intercept and angle with $x$-axis is given, therefore, we can represent this line using slope
   intercept form i.e. $y = m\x + c$.
 
   $m = tan 45^degree = 1$ and $c = 5$. Therefore, the required equation is $y = x + 5$.
+  //2
 + Let the interecepts be $a, -a$ for the two axes. So we can represent the line as $x/a - y/a = 1$. Since it
   passes through $(2, -3) => 2/a - (-3)/a = 1 => a = 5$.
 
   Thus, the required equation is $x - y = 5$.
+  //3
 + Let the required straight line be $x/a + y/b = 1$, which will meet the axes at $(a, 0)$ and $(0, b)$.
 
   The coordinate of the point dividing the line joining these points in the ratio $1:2$ is $(2.a + 1.0)/(2 +
@@ -36,6 +39,7 @@
   Thus, $(2a)/3 = - 5 => a = -(15)/2$ and $4 = b/3 => b = 12$.
 
   Thus, the required equationis $x/(-(15)/2) + y/(12) = 1 => 5y - 8x = 60$.
+  //4
 + Comparing the equation with $a\x + b\y + c = 0$ we have $a = 1, b = sqrt(3), c = 1$
 
   $sqrt(a^2 + b^2) = sqrt(1 + 3) = 2$
@@ -43,33 +47,41 @@
   Dividing the given equation by $2$ gives us
 
   $x/2 + y sqrt(3)/2 + 7/2 = 0 => x cos 240^degree + y sin 240^degree = 7/2$.
+  //5
 + The equation of straight in two-point form is given by $y - y_1 = (y_2 - y_1)/(x_2 - x_1)(x - x_1)$
 
   So the equation becomes $y - 3 = (-2 - 3)/(4 + 1)(x + 1) => x + y = 2$.
+  //6
 + Since the intercept and slope is given we can represent it as $y = m\x + c$. Given that $c = 1$ and $m =
   tan 45^degree = 1$.
 
   Therefore, the required equation is $y = x + 1$.
+  //7
 + Since the intercept and slope is given we can represent it as $y = m\x + c$. Given that $c = -5$. Since
   the line is equally inclined to the axes so angle of inclination is $theta = 45^degree$.
 
   Thus, $m = tan theta = 1$, and thus, the required equation is $y = x - 5$.
+  //8
 + Since the intercept and slope is given we can represent it as $y = m\x + c$. Given that $c = -2$. Since
   the line is inclined at $30^degree$ to $O\X$ so $m = tan 30^degree = 1/sqrt(3)$.
 
   Thus, required equation is $y = x/sqrt(3) - 2 => sqrt(3)y = x - 2 sqrt(3)$.
+  //9
 + Since the intercept and slope is given we can represent it as $y = m\x + c$. Given that $c = -3$. Since
   the line is inclined at an angle $tan^(-1)3/5$, therefore $m = tan tan^(-1)3/5 = 3/5$.
 
   Thus, required equation is $y = 3/5 x - 3 => 5y = 3x - 9$.
+  //10
 + Since intercepts are given so we can use the intercept form i.e. $x/a + y/b = 1$. Given that $a = 2$ and
   $b = 3$.
 
   Therefore, the equation of the line is $x/2 + y/3 = 1 => 3x + 2y = 6$.
+  //11
 + Since intercepts are given so we can use the intercept form i.e. $x/a + y/b = 1$. Given that $a = -5$ and
   $b = 6$.
 
   Therefore, the equation of the line is $x/(-5) + y/6 = 1 => 5y = 6x + 30$.
+  //12
 + Let the intercept be $a$ on both the axes. Then the equation of the line would be $x/a + y/a = 1 => x + y
   = a$. Since the line passes through $(5, 6)$, therefore, $a = 5 + 6 = 11$. And thus, the equation of the
   straight line is $x + y = 11$.
@@ -77,43 +89,54 @@
   In the second case let the intercepts be $a, -a$. Then the equation would be $x/a - y/a = 1 => x - y =
   a$. Since the line passes through $(5, 6)$, therefore, $a = 5 - 6 = -1$. And thus, equation of the
   straight line would be $x - y + 1 = 0$.
+  //13
 + First let the intercepts be $a, a$, then the equation of the line would be $x/a + y/a = 1 => x + y =
   a$. Since the line passes theough $(1, -2)$, therefore, $a = 1 - 2 = -1$. And thus, the equation fo the
   straight line is $x + y = - 1$ or $x + y + 1 = 0$.
 
   Now let the intercepts be $a, -a$, then $a = x - y = 1 + 2 = 3$. So, the equation would be $x - y = 3$.
+  //14
 + Let $a, b$ are the intercepts with $x$-axis and $y$-axis respectively. Since $(x', y')$ bisects it therefore
   $x' = a/2 => a = 2x'$, and similarly, $b = 2y'$. The equation of line would be $x/a + y/b = 1$
 
   And thus, the required equation of the line in question is $x\y' + x'y = 2x'y'$.
+  //15
 + Let $a, b$ are the intercepts with $x$-axis and $y$-axis respectively. Since $(-4, 3)$ divides the
   intercept in the ratio $5:3$, therefore, $-4 = (5.0 + 3.a)/(5 + 3)=> a = -32/3$ and $3 = (5.b + 3.0)/(5 +
   3) => b = 24/5$.
 
   And thus equation of line is $x/a + y/b = 1 => -(3x)/32 + (5y)/24 = 1 => 20y - 9x = 96$.
+  //16
 + We will make use of two point form. The equation of the line is given by
 
   $y - 0 = (-2 - 0)/(2 - 0)(x - 0) => x + y = 0$.
+  //17
 + We will make use of two point form. The equation of the line is given by
 
   $y - 4 = (6 - 4)/(5 - 3)(x - 3) => y = x + 1$.
+  //18
 + We will make use of two point form. The equation of the line is given by
 
   $y - 3 = (-7 - 3)/(6 + 1)(x + 1) => 7y - 21 = -10x - 10 => 10x + 7y = 11$.
+  //19
 + This problem can be solved with intercept form. Intercept on $x$-axis is $b$ and on $y$-axis is
   $-a$. Thus, equation of the line is $x/b - y/a = 1 => a\x - b\y = a\b$.
+  //20
 + We will make use of two point form. The equation of the line is given by
 
   $y - b = (a - b - b)/(a + b - a)(x - a) => b\y - b^2 = (a - 2b)x - a^2 + 2a\b => (a - 2b)x - b\y + b^2 +
   2a\b - a^2 = 0$.
+  //21
 + The equation of the given line is given by $y - 2a\t_1 = (2\at_2 - 2a\t_1)/(a\t_2^2 - a\t_1^2)(x -
   a\t_1^2) = 2/(t_2 + t_1)(x - a\t_1^2)$
 
   $=>y(t_1 + t_2) - 2x = 2a\t_1t_2$.
+  //22
 + The equation of the given line is given by $y - a/t_1 = (a/t_2 - a/t_1)/(a\t_2 - a\t_1)(x - a\t_1) =
 -1/(t_1t_2)(x - a\t_1)$
 
   $=> t_1t_2y + x = a(t_1 + t_2)$.
+  //23
 + The equation of the line is given by $y - a sin phi_1 = (a sin phi_2 - a sin phi_1)/(a cos phi_2 - a cos
   phi_1)(x - a cos phi_1)$
 
@@ -121,6 +144,7 @@
   phi_2)/2)(x - a cos phi_1)$
 
   $=> x cos (phi_1 + phi_2)/2 + y sin (phi_1 + phi_2)/2 = a cos (phi_1 - phi_2)/2$.
+  //24
 + The equation of the line is given by $y - b sin phi_1 = (b sin phi_2 - b sin phi_1)/(a cos phi_2 - a cos
   phi_1)(x - a cos phi_1)$
 
@@ -128,6 +152,7 @@
   phi_2)/2)(x - a cos phi_1)$
 
   $=> x/a cos (phi_1 + phi_2)/2 + y/b sin (phi_1 + phi_2)/2 = cos (phi_1 - phi_2)/2$
+  //25
 + The equation of the line is given by $y - b tan phi_1 = (b tan phi_2 - b tan phi_1)/(a sec phi_2 - a sec
   phi_1)(x - a sec phi_1)$
 
@@ -140,6 +165,7 @@
   Simplifying gives us the equation of the line as
 
   $b\x cos(phi_1 - phi_2)/2 - a\y sin(phi_1 + phi_2)/2 = a\b cos(phi_1 + phi_2)/2$.
+  //26
 + Let the vertices of the triangle be $A(1, 4)$, $B(2, -3)$ and $C(-1, -2)$.
 
   We find the equations of the sides $A\B$, $B\C$ and $C\A$.
@@ -158,6 +184,7 @@
 
   Hence, the equations of the sides are:
   $A\B: y + 7x = 11$, $B\C: 3y + x + 7 = 0$, and $C\A: y = 3x + 1$
+  //27
 + Let the vertices of the triangle be $A(0, 1)$, $B(2, 0)$ and $C(-1, -2)$.
 
   We find the equations of the sides $A\B$, $B\C$ and $C\A$.
@@ -175,6 +202,7 @@
   Equation of $C\A$: $y - 1 = 3(x - 0)$ so $y = 3x + 1$
 
   Hence, the equations of the sides are: $A\B: 2y + x = 2$, $B\C: y = 2/3 x - 4/3$, and $C\A: y = 3x + 1$.
+  //28
 + Intersection of $x = a, y = b$ will give the point $(a, b)$ and opposite to it will be intersection of the
   lines $x = a'$ and $y = b'$ i.e. $(a', b')$. Equation of this diagonal would be $y - b = (b' - b)/(a' -
   a)(x - a) => (b' - b)x - (a' - a)y + (a' - a)b + (b - b')a = (b' - b)x + (a - a')y + a'b - a\b'$.
@@ -186,6 +214,7 @@
   #figure(
       image("images/3_20.pdf"),
   ) <3.20f>
+  //29
 + Point which bisects the distance between $(a, b)$ and $(a', b')$ is given by $((a + a')/2, (b + b')/2)$,
   and point which bisects the distance between $(-a, b)$ and $(a', -b')$ is given by $((a' - a)/2, (b -
   b')/2)$.
@@ -194,15 +223,18 @@
   (b + b')/2)/((a' - a)/2 - (a + a')/2)(x - (a + a')/2)$
 
   $=>2a\y - 2b'x = a\b - a'b'$.
+  //30
 + Intercepts of the line $3x + y = 12$ are $(4, 0)$ and $(0, 12)$. The points which trisect these lines are
   $((2.4 + 0.1)/3, (0.2 + 12.1)/3)$ and $((1.4 + 0.2)/3, (0.1 + 12.2)/3)$ i.e. $(8/3, 4)$ and $(4/3, 8)$.
 
   Line passing through origin and $(8/3, 4)$ is $y = 4/(8/3)x => 3x = 2y$, and line passing through origin
   and $(4/3, 8)$ is $y = 8/(4/3)x => y = 6x$.
+  //31
 + Slope of the line $= m = tan 15^degree = tan (45^degree - 30^degree) = (1 - 1/sqrt(3))/(1 + 1/sqrt(3)) =
   2 - sqrt(3)$
 
   Intercept on $y$-axis is $c = -4$. Therefore, the equation of the line is $y = (2 - sqrt(3))x - 4$.
+  //32
 + #figure(
       image("images/3_21.pdf"),
   ) <3.21f>
@@ -211,11 +243,14 @@
   slope of the line is $m = tan 60^degree = sqrt(3)$, and the intercept with $y$-axis is $-4sqrt(3)$.
 
   Thus, equation of the line is $sqrt(3)x - y - 4sqrt(3) = 0$.
+  //33
 + Given that $cos theta = -1/3 => tan theta = -sqrt(3) = m$, which is slope of the line. Thus, the equation
   of the line is given by
 
   $y - 2 = -sqrt(8)(x - 1) => 2sqrt(2)x + y - 2(sqrt(2) + 1) = 0$.
+  //34
 + Equation of the line is given by $y - 3 = (3 + 2)/(-1 - 4)(x + 1) => x + y = 2$.
+  //35
 + #figure(
       image("images/3_22.pdf"),
   ) <3.22f>
@@ -226,7 +261,9 @@
 
   Slope of line $A\C = tan 15^degree = 2 - sqrt(3)$
 
-  Therefore, equation of line $A\C$ is $y - 0 = (2 - sqrt(3))(x - 2) =>(2 - sqrt(3))x - y - 4 + 2sqrt(3) = 0$.
+  Therefore, equation of line $A\C$ is $y - 0 = (2 - sqrt(3))(x - 2) =>(2 - sqrt(3))x - y - 4 + 2sqrt(3) =
+  0$.
+  //36
 + Let $A\D$ be the internal bisector of the $angle B\AC$ which meets the side $B\C$ at $D$.
 
   Now $A\B = sqrt((5 - 2)^2 + (2 - 3)^2) = sqrt(10)$, and $A\C = sqrt((5 - 6)^2 + (2 - 5)^2) = sqrt(10)$
@@ -236,6 +273,7 @@
   $therefore D equiv ((2+ 6)/2, (3 + 5)/2) = (4, 4)$
 
   Now equation of $A\D$ is $y - 2 = (2 - 4)/(5 - 4)(x - 5) => 2x + y = 12$.
+  //37
 + Let $A\BC\D$ be a rectangle such that $A equiv (1, 2)$ and $C equiv (5, 5)$. Clearly, vertices $B$ and $D$
   lie on the line $x = 3$. Let them be $B(3, y_1)$ and $D(3, y_2)$.
 
@@ -255,6 +293,7 @@
   Equation of side $C\D$ is $y - 5 = (5 - 6)/(5 - 3)(x - 5) => x + 2y = 15$.
 
   Equation of side $A\D$ is $y - 2 = (2 - 6)/(1 - 3)(x - 1) => 2x = y$.
+  //38
 + Equation of $O\T:$ Slope of $O\T = tan 45^degree = 1$ and it passes through $O(0, 0)$.
 
   Thus, equation is $y - 0= 1.(x - 0) => y = x$.
@@ -284,6 +323,7 @@
   Equation of $P\Q:$ $P equiv (0, 4)$ and $Q equiv = (4, 0)$.
 
   Thus, equation is $y - 4 = (4 - 0)/(0 - 4)(x - 0) => x + y = 4$.
+  //39
 + Let $A\D, B\E$ and $C\F$ meet at $O$. We take $O$ as origin. Let the coordinates of points $A, B$ and $C$
   be $(x_1, y_1), (x_2, y_2)$ and $(x_3, y_3)$ respectively.
 
@@ -300,6 +340,7 @@
   x_3y_1)/(x_3y_2 - x_2y_3)$
 
   Thus, $(B\D)/(D\C).(C\E)/(E\A).(A\F)/(F\B) = 1$.
+  //40
 + #figure(
       image("images/3_24.pdf")
   ) <3.24f>
@@ -316,24 +357,29 @@
   Again $R(a + k, k)$ lies on $B\C$, therefore, $a + 2k = 3 => k = 3/4, a = 3/2$.
 
   Hence, $P equiv (3/2, 0), Q equiv (3/2, 3/4), R equiv (9/4, 3/4)$ and $S equiv (9/4, 0)$.
+  //41
 + Equation of the given line is $sqrt(3)y - 3x = 3 => y = sqrt(3)x + sqrt(3)$, which is of the form $y = m\x
   + c$.
 
   Slope of the line is $sqrt(3) = tan 60^degree$. Thus, the given line makes an angle of $60^degree$ with
   the $x$-axis.
+  //42
 + Since slope and intercept are given, therefore, slope-intercept form can be used. Given that $m = 3, c =
-  7$, therefore, equation of the straight line is $y = 3x + 7$.
+7$, therefore, equation of the straight line is $y = 3x + 7$.
+  //43
 + Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
 
   $m = tan 75^degree = tan(45^degree + 30^degree) = (1 + 1/sqrt(3))/(1 - 1/sqrt(3)) = 2 + sqrt(3)$, and $c =
   3$.
 
   Therefore, the equation of the line is $y = (2 - sqrt(3))x + 3$.
+  //44
 + Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
 
   $m = tan sin^(-1)(12)/(13) = 5/(13)$ and $c = -5$
 
   Therefore, the equation of the line is $y = 5/(13)x -5 => 5x - 13y = 65$.
+  //45
 + Since the line is parallel to $x$-axis, therefore, it will make an angle of $0^degree$ with $x$-axis
   i.e. $m = tan 0^degree = 0$. Also, since its distance from $x$-axis is $5$units, therefore, the intercept
   on $y$-axis is $5$, which makes intercept $c = 5$.
@@ -342,13 +388,16 @@
 
   Since it is not given that intercept is from positive or negative direction of $y$-axis, therefore, the
   other line would be $y + 5 = 0$.
+  //46
 + Since the line is parallel to $y$-axis therefore the equation would be $x = k$, where $k$ is the intercept
   on $x$-axis, which is given as $-4$. Therefore, the equation of the line is $x = -4$.
+  //47
 + Lines parallel and perpendicular to $x$-axis are given by $x = k$ and $y = p$, where $k$ and $p$ are
   distance of the line from the $y$-axis and $x$-axis.
 
   Since these lines pass through $(5, 3)$, therefore, $x = 5$ and $y = 3$ are the desired equations of the
   straight lines.
+  //48
 + Since the line makes an angle of $135^degree$ with positive direction of the $y$-axis, therefore, it makes
   an angle of $135^degree$ with positive direction of the $x$-axis. Thus, slope of the line is $m = tan
   135^degree = -1$.
@@ -357,10 +406,12 @@
   passes through $(2, 0)$.
 
   Thus, equation of the straight line would be $y - 0 = -1.(x - 2) => x + y = 2$.
+  //49
 + Since the slope is $2$ and the line cuts an intercept of $4$ on $x$-axis i.e. it passes through $(4, 0)$
   the equation of the line would be
 
   $y = 0 = 2(x - 4) => 2x -y = 8$.
+  //50
 + Since the line makes an angle of $60^degree$ with the positive direction of the $y$-axis, therefore, it
   would make an angle of $30^degree$ with the positive direction of $x$-axis. Therefore, the slope of the
   line is $m = tan 30^degree = 1/sqrt(3)$.
@@ -368,13 +419,17 @@
   Also given that the line passes through $(3, -2)$, thus the equation of the line would be
 
   $y + 2 = 1/sqrt(3)(x - 3) => x - sqrt(3)y = 3 + 2sqrt(3)$.
+  //51
 + Slope is given by $m = (y_2 - y_1)/(x_2 - x_1) = (2 - 4)/(1 - 3) = 1$.
 
   The equation of the line would be $y - 4 = 1.(x - 3) => x - y + 1 = 0$.
+  //52
 + The equation of the line is given by $y - b = (b + r sin theta - b)/(a + r cos theta - a)(x - a)$
 
   $=> x tan theta - y = a tan theta - b$.
+  //53
 + The equation of the straight line is given by $y + 3 = (2 + 3)/(-4 - 1)(x - 1) => x + y + 2 = 0$.
+  //54
 + Equation of the straight line passing through $(1, 4)$ and $(3, -2)$ is given by
 
   $y - 4 = (-2 - 4)/(3 - 1)(x - 1) => 3x + y = 7$.
@@ -385,6 +440,7 @@
 
   Another way would be finding the area of the triangle whose vertices are the given three points and we
   will find that area of the triangle is zero; making the points collinear.
+  //55
 + Line passing through $(a, b)$ and $(a_1, b_1)$ is given by
 
   $y - b = (b_1 - b)/(a_1 - a)(x - a) => (b_1 - b)x - a(b_1 - b) = (a_1 - a)y - b(a_1 - a)$
@@ -399,6 +455,7 @@
   $=> a\b_1 = a_1b$.
 
   Thus, the equation of the line becomes $(b_1 - b)x = (a_1 - a)y$, which clearly passes through the origin.
+  //56
 + The equation of the straight line which passes through $(1, 2)$ and $(-3, 0)$ is given by
 
   $y - 2 = (0 - 2)/(-3 - 1)(x - 1) => 2y = x + 3$.
@@ -415,6 +472,7 @@
   the point in the obtained equation we have
 
   $r + p + q = p + q + r$, which is true. Hence, proved.
+  //58
 + Point dividing the line segment joining the points $(-1, 2)$ and $(4, -5)$ externally in the ratio $2:3$
   is given by
 
@@ -423,6 +481,7 @@
   The equation of the line passing through $(1, 2)$ and $(-11, 16)$ is given by
 
   $y - 2 = (16 - 2)/(-11 - 1)(x - 1) => 7x + 6y - 19 = 0$.
+  //59
 + The equation of $B\C$ is given by $y - 1 = (0 - 1)/(2 - 0)(x - 0) => x + 2y = 2$.
 
   The vertex $A$ is $(-1, -2)$ and median passing through it will bisect $B\C$ i.e. it will pass through the
@@ -431,6 +490,7 @@
   Thus, equation of the median is given by
 
   $y + 2 = (1/2 + 2)/(1 + 1)(x + 1) => 5x - 4y - 3 = 0$.
+  //60
 + The mid-point of $(2, 3)$ and $(5, 4)$ is $(7/2, 7/2)$. The equation of the median passing through $(1,
   2)$ and $(7/2, 7/2)$ is given by
 
@@ -445,6 +505,7 @@
   and $(3, 3)$ is given by
 
   $y - 3 = (3 - 3)/(3 - 2)(x - 2) => y = 3$.
+  //61
 + Let the line segment joining $A(2,3)$ and $B(-1,4)$ be divided by the line $x + y + 1 = 0$ in the ratio $m:n$.
 
   Using the section formula, the point of division $P$ is
@@ -455,6 +516,7 @@
   $=> ( -m + 2n + 4m + 3n )/(m+n) + 1 = 0 =>(3m + 5n)/(m+n) + 1 = 0 =>m/n = -3/2$
 
   Hence, the line divides the segment externally in the ratio $-3:2$, i.e., $3:2$ externally.
+  //62
 + Let $A(2,3)$ and $B(4,1)$. Let the line through $(1,2)$ and $(4,3)$ divide $A\B$ in the ratio $m:n$ at point $P$.
 
   Point $P = ((m.4 + n.2)/(m + n), (m.1 + n.3)/(m + n))$.
@@ -472,6 +534,7 @@
   So, $(-m + n)/(m+n) = (3m + n)/(3(m+n))$ $=> n = 3m => m:n = 1:3$.
 
   Hence, the line divides the segment internally in the ratio $1:3$.
+  //63
 + $D equiv ((2.1 + 1.-1)/(2 + 1), (2.-3 + 1.-2)/(2 + 1)) = (1/3, -8/3)$
 
   Let mid-point of $A\C$ is $M$ then $M equiv (3/2, -1/2)$.
@@ -485,6 +548,7 @@
   Let this point divide $B\M$ in the ratio of $k:1$, then
 
   $1 = (k*3/2 + 1.-1)(k + 1) => k + 1 = 3/2k - 1 => k = 4$. Thus ratio is $4:1$.
+  //64
 + The equation of the the line can be written as $y = sqrt(3)x + 3$. Comparing it will $y = m\x + c$ gives
   us $m = sqrt(3)$ and $c = 3$.
 
@@ -575,6 +639,7 @@
   Now $cos 75^degree = (sqrt(3) - 1)/(2sqrt(2))$ and $sin 75^degree = (sqrt(3) + 1)/(2sqrt(2))$
 
   So the equation of the line is $(sqrt(3 - 1))x + (sqrt(3) + 1)y = 12$.
+  //74
 + Slope is given as $5/(12)$ so if $tan theta = 5/(12)$ then $theta$ can lie in first or third
   quadrant. Thus, $cos theta = plus.minus (12)/(13)$ and $sin theta = plus.minus 5/(13)$.
 
@@ -1466,13 +1531,14 @@
   Slope of the line $x - y = 3$ is $m_2 = 1$.
 
   Since the lines are perpendicular $m_1m_2 = -1 => cot theta = 1 => theta = 45^degree$.
-  //144
+  //143
 + Slope of the line $x - 3y + 5 + k(x + y - 3) = 0$ is $m_1 = (k + 1)/3 - k$. Slope of the line $x + y = 1$
   is $-1$.
 
   Since the lines are perpendicular $=> m_1m_2 = -1 => k + 1 = k + 1 = 3 - k => k = 1$.
 
   Thus, equation of the first line becomes $2x - 2y + 2 = 0 => x - y + 1 = 0$.
+  //144
 + Let $A = (0,0), B = (a,0), C = (a/2, (sqrt(3)a)/2)$. (You can get these points by rotating the line moving
   by a distance $a$ along that line)
 
@@ -1921,7 +1987,7 @@
     })
   ) <3.35f>
 
-  GIven equation of the line $L\M$ is $2x + y = 7$. Equation of $P\H$ would be $x - 2y = k$, which passes
+  Given equation of the line $L\M$ is $2x + y = 7$. Equation of $P\H$ would be $x - 2y = k$, which passes
   through $(-3, 4)$ so $k = -3 - 8 = -11$
 
   Solving the two equations gives $H equiv (3/5, 29/5)$. Let $S equiv (alpha, beta)$ then
@@ -2454,7 +2520,7 @@
 
   Therefore, the perpendicular bisectors of a triangle are concurrent.
   //214
-+ GIve equation is $x(1 + lambda) + y(2 - lambda) + 5 = 0$, which can be written as $x + 2y - 5 + lambda(x -
++ Given equation is $x(1 + lambda) + y(2 - lambda) + 5 = 0$, which can be written as $x + 2y - 5 + lambda(x -
   y) = 0$
 
   The above equation represents two lines $x + 2y - 5 = 0$ and $x - y = 0$ to be concurrent. Solving the two
@@ -2694,8 +2760,8 @@
   Equation of $A\C$ is $5x + 2y - 1 = 0$
 
   So the sides are: $A\B: 8x - 3y + 17 = 0$, $B\C: 3x - 5y - 13 = 0$, and $A\C: 5x + 2y - 1 = 0$.
-+ //229
-  Equation of the line perpendiculars to $5x - y = 1$ is given by $x + 5y = k$. This will make an intercept
+ //229
++ Equation of the line perpendiculars to $5x - y = 1$ is given by $x + 5y = k$. This will make an intercept
   of $k$ with $x$-axis, and an intercept of $k/5$ with $y$-axis.
 
   Thus, area of triangle, which is given as $5$, is $1/2.k.k/5 = 25 => k = plus.minus 5sqrt(2)$.
@@ -3238,7 +3304,7 @@
 
   Both are equal. Hence, $overline(y)(cos alpha_1 + cos alpha_2 + cos alpha_3) = overline(x)(sin alpha_1 +
   sin alpha_2 + sin alpha_3)$.
-  //261
+  //260
 + We find the point of intersection of first two lines $x + l y = l^2$ and $x + m y = m^2$
 
   Subtracting yields $(l - m)y = l^2 - m^2 = (l - m)(l + m) => y = l + m$
@@ -3537,7 +3603,7 @@
 
   Clearly, point $(0, beta)$ lies on the $y$-axis. If this point has to be inside the triangle $A\BC$ then
   $5/3 lt.eq beta lt.eq 7/2$.
-  //270
+  //271
 + Let $A = (2, 3)$ and $B = (-2, 6)$ be consecutive vertices of a rhombus. Given that two sides are parallel
   to $2x + y = 1$, so slope is $-2$.
 
@@ -4205,7 +4271,7 @@
   $=> 30x - 36y - 2 = plus.minus (36x + 30y - 9)$
 
   Taking plus sign we see that it is the given equation.
-  //311
+  //312
 + Rewrite the given lines in standard form: $24x + 7y - 20 = 0, 4x - 3y - 2 = 0$
 
   Let (x, y) be any point on $2x + 11y = 5$.
@@ -4711,6 +4777,7 @@
   $cos^2alpha + sin^2alpha = p^2/(4h^2) + p^2/(4k^2) => 1/h^2 + 1/k^2 = 4/p^2$
 
   Hence, lcosu of the point $P$ is $1/x^2 + 1/y^2 = 4/p^2$.
+  //337
 + The point of intersection of the given lines is given by $((a b)/(a + b), (a b)/(a + b))$.
 
   Equation of line passing through this point is given by $y - (a b)/(a + b) = m(x - (a b)/(a + b))$.
@@ -5227,7 +5294,7 @@
 
   Hence, the locus is $2 x y = x + y$.
   //353
-+  Let the line through $(alpha, beta)$ meet the axes at $A(a, 0)$ and $B(0, b)$.
++ Let the line through $(alpha, beta)$ meet the axes at $A(a, 0)$ and $B(0, b)$.
 
   Equation in intercept form: $x/a + y/b = 1$.
 

@@ -17,8 +17,6 @@
 )
 
 = Answers of Coordinates
-+ We take the two perpendicular lines as axes of the coordinates. Let $(x, y)$ be any point satisfying the
-  given condition. According to condition $x + y = a$.
 //1
 + The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ is given by
   $Delta = 1/2 abs(x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2))$
@@ -1340,7 +1338,7 @@ cos(theta_1 - theta_2))$
 
   This is a contradiction.
 
-  Hence, the coordinates of the vertices of an equilateral triangle cannot all be rational
+  Hence, the coordinates of the vertices of an equilateral triangle cannot all be rational.
 //100
 + Let $A = (-1, 5)$, $B = (3, 1)$, $C = (5, 7)$.
 

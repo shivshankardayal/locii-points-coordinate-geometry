@@ -178,7 +178,7 @@
 
   Thus, equation of the circle is $(x - 3)^2 + (y - 4)^2 = (62/13)^2 => x^2 + y^2 - 6x - 8y + 381/169 = 0$.
   //15
-+ Solging the two equation we have $x = (c + 1)/(3c + 2)$. Now as $c-> 1, x = 2/5 => y = -1/25$.
++ Solving the two equation we have $x = (c + 1)/(3c + 2)$. Now as $c-> 1, x = 2/5 => y = -1/25$.
 
   The circle passes through $(2, 0)$, so the radius is $sqrt((2 - 2/5)^2 + (1/25)^2)$
 
@@ -2232,7 +2232,7 @@
 
   Common chord's equaiton is $2h x + a^2 + 2k y + a^2 = 0$ $=> h x + k y + a^2 = 0$.
 
- First circle's center is $(-h, 0)$ and radius squared is $h^2 - a^2$.
+  First circle's center is $(-h, 0)$ and radius squared is $h^2 - a^2$.
 
   The perpendicular distance from the center to the chord is $(| -h^2 + a^2 |) / sqrt(h^2 + k^2)$.
 
@@ -3827,7 +3827,7 @@
   For $k = -10$, $x = 5 - 3(15 + 10)/25 = 2$ and $y = 0 - 4(15 + 10)/25 = -4$ So point is $(2, -4)$.
 
   Hence $k = 40$ or $k = -10$ and the points of contact are $(8, 4)$ and $(2, -4)$.
-  //169
+  //159
 + The given circle is $x^2 + y^2 = 5$ so the center is $(0, 0)$.
 
   The normal at a point on a circle is the line joining the center to that point.
