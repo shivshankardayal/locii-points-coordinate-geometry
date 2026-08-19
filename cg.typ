@@ -100,6 +100,7 @@
 #include "straight-lines-solutions.typ"
 #include "pair-straight-lines-solutions.typ"
 #include "circles-solutions.typ"
+#include "conic-sections-solutions.typ"
 
 #show: appendices.with("Appendices", hide-parent: false)
 #include "fdl-1.3.typ"
