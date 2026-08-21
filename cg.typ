@@ -91,6 +91,7 @@
 #include "pair-straight-lines.typ"
 #include "circles.typ"
 #include "conic-sections.typ"
+#include "miscellaneous-problems.typ"
 
 #part("Answers")
 #counter(heading).update(0)

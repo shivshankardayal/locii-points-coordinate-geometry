@@ -1845,8 +1845,8 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Find the equation of the circle described on the line segment joining the foci of the parabola $x^2 = 4a
   y$ and $y^2 = 4a(x - a)$ as diameter.
 //17
-+ For the parabola $y^2 = 4a x$ find the extremeties of a double ordinate of length $8a$. Prove that the
-  lines from the vertex to its extremeties are at right angle.
++ For the parabola $y^2 = 4a x$ find the extremities of a double ordinate of length $8a$. Prove that the
+  lines from the vertex to its extremities are at right angle.
 //18
 + Find the vertex, axis, focus and latus rectum of the parabola whose parametric equations are $x = u cos
   alpha t, y = u sin alpha t - 1/2g t^2$, where $u, alpha, g$ are constants.
@@ -1860,7 +1860,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Find the locus of the point of intersection of the tangents to the parabola $y^2 = 4a x$ which includes an
   angle $alpha$.
 //22
-+ Prove that the tangent at the extremeties of any focal chord intersect at right angles on the directrix.
++ Prove that the tangent at the extremities of any focal chord intersect at right angles on the directrix.
 //23
 + On the parabola $y^2 = 4a x$, three points $E, F, G$ are taken so that their ordinates are in G.P. Prove
   that the tangents at $E$ and $G$ intersect on the ordinate $F$.
@@ -1890,7 +1890,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + The tangents to the parabola $y^2 = 4a x$ at $P(a t_1^2, 2a t_1)$ and $Q(a t_2^2, 2a t_2)$ intersect at
   $R$. Prove that the area of the $triangle P Q R$ is $1/2a^2(t_1 - t_2)^3$.
 //33
-+ Prove that the oridinate of the point of intersection of two tangents to the parabola $y^2 = 4a x$ is the
++ Prove that the ordinate of the point of intersection of two tangents to the parabola $y^2 = 4a x$ is the
   A.M. between the ordinates of the point of contact of the tangents.
 //34
 + Show that the locus of the points of intersection of the mutually perpendicular tangents to a parabola is
@@ -1950,7 +1950,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Prove that the line $x cos alpha + y sin alpha = p$ touches the parabola $y^2 = 4a(x + a)$ if $p cos alpha
   + a = 0$.
 //54
-+ Prove that the line $l x + m y + n = 0$ touches the parabola $y^2 = 4a(x - b)$ if $a m^2 = n l - b l^2$.
++ Prove that the line $l x + m y + n = 0$ touches the parabola $y^2 = 4a(x - b)$ if $a m^2 = n l + b l^2$.
 //55
 + Show that $2y = x + 4a$ is tangent to the parabola $y^2 = 4a x$. What are the coordinates of the point of
   contact?
@@ -1972,11 +1972,11 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Show that the equation of the chord of the parabola $y^2 = 4a x$ through the points $(x_1,y_1)$ and $(x_2,
   y_2)$ on it is $(y - y_1)(y - y_2) = y^2 - 4a x$.
 //61
-+ Find the equation of the parabola the extremeties of whose latus rectum are $(1, 2)$ and $(1, -4)$.
++ Find the equation of the parabola the extremities of whose latus rectum are $(1, 2)$ and $(1, -4)$.
 //62
-+ Find the equation of the parabola the extremeties of whose latus rectum are $(3, 5)$ and $(3, -3)$.
++ Find the equation of the parabola the extremities of whose latus rectum are $(3, 5)$ and $(3, -3)$.
 //63
-+ Find the euqation of the parabola whose axis is the $x$-axis and which passes through the points $(3, 2)$
++ Find the equation of the parabola whose axis is the $x$-axis and which passes through the points $(3, 2)$
   and $(-2, -1)$.
 //64
 + Find the equation of the parabola with its axis parallel to $x$-axis and which passes through the points
@@ -2011,10 +2011,10 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Three normals are drawn from the point $(14, 7)$ to the parabola $y^2 - 16x - 8y = 0$. Find the
   coordinates of the feet of the normals.
 //74
-+ Find the locus of the point of intersectioon of those normals to the parabola $x^2 = 8y$ which are at
++ Find the locus of the point of intersection of those normals to the parabola $x^2 = 8y$ which are at
   right angles to each other.
 //75
-+ Prove that the locus of the point of intersection of the tangents at the extremeties of any chord of the
++ Prove that the locus of the point of intersection of the tangents at the extremities of any chord of the
   parabola $y^2 = 4a x$ which subtend a right angle at the vertex is $x + 4x = 0$.
 //76
 + Show that the tangent at any point of a parabola bisects the angle between the focal chord through the
@@ -2039,18 +2039,18 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   the rectangle $T A Y G$ is completed, show that the locus of $G$ is $y^2 + a x = 0$ where $A$ is the
   vertex of $y^2 = 4a x$.
 //83
-+ Show that the orthoccenter of the triangle formed by the tangents at the points $t_1, t_2,t_3$ to the
++ Show that the orthocenter of the triangle formed by the tangents at the points $t_1, t_2,t_3$ to the
   parabola $y^2 = 4a x$ is $(-a, a(t_1 + t_2 + t_3 + t_1t_2t_3))$.
 //84
 + Show that any three tangents to a parabola whose slopes are in H.P. enclose a triangle of constant area.
 //85
-+ Prove that any tangent to a parabola and the perpendicular on it from the focus meet on the tengent at
++ Prove that any tangent to a parabola and the perpendicular on it from the focus meet on the tangent at
   vertex.
 //86
 + Prove that the circumcircle of the triangle formed by any three tangents to parabola $y^2 = 4a x$ passes
   through the focus.
 //87
-+ Equilateral triangles are circumscribed by the parabola $y^2 = 4a x$. Prrove that their angular points lie
++ Equilateral triangles are circumscribed by the parabola $y^2 = 4a x$. Prove that their angular points lie
   on the conic $(3x + a)(x + 3a) = y^2$.
 //88
 + Prove that the locus of the middle points of all tangents drawn from points on the directrix to the
@@ -2063,15 +2063,15 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   angle $tan^(-1)3/4$.
 //91
 + If a tangent to the parabola $y^2 = 4a(x + a)$ be at right angles to a tangent to the parabola $y^2 = 4b(x
-  + b)$, show that the locus of the point of intersection of the tangentsis the line $x + a + b = 0$, which
+  + b)$, show that the locus of the point of intersection of the tangents is the line $x + a + b = 0$, which
   is the common chord of the two parabolas.
 //92
 + A tangent to the parabola $y^2 = 8x$ makes an angle $45^degree$ with straight line $y = 3x + 5$. Find its
   equation and its point of contact.
 //93
 + Two lines are drawn at right angles, one being a tangent to $y^2 = 4a x$ and the other to $x^2 = 4b
-   y$. Show that the locus of their point of intersection is the curve $(a x + b y)(x^2 + y^2) + (b x - a
-   y)^2 = 0$.
+  y$. Show that the locus of their point of intersection is the curve $(a x + b y)(x^2 + y^2) + (b x - a
+  y)^2 = 0$.
 //94
 + Find the equation of the common tangent to the parabola $y^2 = 4a x$ and $x^2 = 4b y$.
 //95
@@ -2120,11 +2120,11 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Show that the area of the triangle formed by joining the foot of the normals from $(h, k)$ to the parabola
   $y^2 = 4a x$ is $sqrt(4a(h - 2a)^3 - 27a^2k^2)$.
 //109
-+ From the point whhere any normal to the parabola $y^2 = 4a x$ meets the axis is drawn a line perpendicular
++ From the point where any normal to the parabola $y^2 = 4a x$ meets the axis is drawn a line perpendicular
   to this normal; prove that this normal always touches an equal parabola $y^2 + 4a(x - 2a) = 0$.
 //110
 + Show that at the point of intersection of two mutually perpendicular normals to a parabola $y^2 = 4a x$,
-  the abscissa is never smaller than $3a$. What is the ordinate when the abscissa issmaller?
+  the abscissa is never smaller than $3a$. What is the ordinate when the abscissa is smaller?
 //111
 + If a normal to a parabola makes an angle $phi$ with the axis, show that it will cut the curve again at an
   angle $tan^(-1)(1/2 tan phi)$.
@@ -2135,7 +2135,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + If the normals at two point $P$ and $Q$ of a parabola intersect on the curve, show that the line $P Q$
   cuts the axis at a fixed point.
 //114
-+ Find the locus of the point of intersection of the normals of the parabola $y^2 = 4a x$ at the extremeties
++ Find the locus of the point of intersection of the normals of the parabola $y^2 = 4a x$ at the extremities
   of a focal chord.
 //115
 + Tangents are drawn from the point $(alpha, beta)$ to the parabola $y^2 = 4a x$, show that the length of
@@ -2148,8 +2148,8 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 //116
 + Prove that the circle described on any focal chord of a parabola as diameter touches the directrix.
 //117
-+ Show that the tangents at the extremeties of a focal chord of a parabola intersect at right angles
-        on the directrix.
++ Show that the tangents at the extremities of a focal chord of a parabola intersect at right angles
+  on the directrix.
 //118
 + A circle on any focal chord of a parabola as diameter cuts the curve again in $P$ and $Q$. Show that $P Q$
   passes through a fixed point.
@@ -2224,14 +2224,14 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   the foci and whose latus rectum is $10$.
 //142
 + The eccentricity of an ellipse is $1/2$ and the distance between its foci is $4$ units. If the major and
-  minor ases of the ellipse are respectively on the $x$ and $y$ axes, find the equation of the ellipse.
+  minor axes of the ellipse are respectively on the $x$ and $y$ axes, find the equation of the ellipse.
 //143
 + Find the equation to the ellipse whose foci are $(4, 0)$ and $(-4, 0)$ and eccentricity is $1/3$.
 //144
 + Find the equation of the ellipse, referred to its axes as the $x, y$ axes respectively, which passes
   through the point $(-3, 1)$ and has the eccentricity $sqrt(2/5)$.
 //145
-+ Find the centere, the length of the axes, eccentricity and the foci of the ellipse $12x^2 + 4y^2 + 24x -
++ Find the center, the length of the axes, eccentricity and the foci of the ellipse $12x^2 + 4y^2 + 24x -
   16y + 25 = 0$.
 //146
 + Find the equation of the ellipse with its center at $(1, 2)$, one focus at $(6, 2)$ and passing through
@@ -2251,7 +2251,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + If the normal at an end of a latus rectum of an ellipse passes through an end of the minor axis, show that
   $e^4 + e^2 = 1$.
 //152
-+ Find the condition that the line $l x + m y = n$ may be a normal to th ellipse $x^2/a^2 + y^2/b^2 = 1$.
++ Find the condition that the line $l x + m y = n$ may be a normal to the ellipse $x^2/a^2 + y^2/b^2 = 1$.
 //153
 + Prove that in the ellipse $x^2/a^2 + y^2/b^2 = 1$ the locus of the middle point of the portions of
   tangents included between the axes is the curve $a^2/x^2 + b^2/y^2 = 4$.
@@ -2278,7 +2278,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Find the equation of the tangents to the ellipse $4x^2 + 3y^2 = 5$ which are parallel to the straight line
   $y = 3x + 7$.
 //162
-+ If a tangent to the ellispe $x^2/a^2 + y^2/b^2 = 1$ meets the major and minor axes in $P$ and $Q$
++ If a tangent to the ellipse $x^2/a^2 + y^2/b^2 = 1$ meets the major and minor axes in $P$ and $Q$
   respectively, prove that $a^2/(C P^2) + b^2/(C Q^2) = 1$, where $C$ is the center of the ellipse.
 //163
 + Find the locus of the foot of the perpendicular drawn from the center upon any tangent to the ellipse
@@ -2300,7 +2300,8 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Find the equation of the normal to the ellipse $x^2/a^2 + y^2/b^2 = 1$ at the ends of latus rectum in the
   first quadrant.
 //170
-+ Find the points wherea the normals to the ellipse $x^2 + 3y^2 = 27$ are parallel to the line $6x - 5y = 2$.
++ Find the points wherea the normals to the ellipse $x^2 + 3y^2 = 27$ are parallel to the line $6x - 5y =
+  2$.
 //171
 + Find the equation that the line $x cos alpha + y sin alpha = p$ be a normal to the ellipse $x^2/a^2 +
   y^2/b^2 = 1$.
@@ -2331,14 +2332,14 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 //180
 + Find the locus of the vertices of equilateral triangle circumscribing the ellipse $x^2/a^2 + y^2/b^2 = 1$.
 //181
-+ The tangent at the point $alpha$ on the ellipse $x^2/a^2 + y^2/b^2 = 1$ meets the auxilliary circle in two
++ The tangent at the point $alpha$ on the ellipse $x^2/a^2 + y^2/b^2 = 1$ meets the auxiliary circle in two
   points which subtend a right angle at the center. Show that the eccentricity of the ellipse is $1/sqrt(1 +
   sin^2 alpha)$.
 //182
 + Find the point of intersection of the tangents at points $alpha$ and $beta$ of the ellipse $x^2/a^2 +
   y^2/b^2 = 1$.
 //183
-+ An ellipse of semi axes $a, b$ slides between two perpendicular lines, prove that the locusof the foci is
++ An ellipse of semi axes $a, b$ slides between two perpendicular lines, prove that the locus of the foci is
   $(x^2 + y^2)(x^2y^2 + b^4) = 4a^2x^2y^2$, the two lines being taken as the axes of coordinates.
 //184
 + An ellipse slides between two lines at right angles to one another. Show that the locus of its center is a
@@ -2393,7 +2394,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   $tan^(-1)(|a - b|)/sqrt(a b)$.
 //199
 + Show that there are always two tangents to an ellipse $x^2/a^2 + y^2/b^2 = 1$ from a point $(alpha, beta)$
-  outside the ellipse and slope of the two two tangents are given by $a^2m^2 + b^2 = (beta - m
+  outside the ellipse and slope of the two tangents are given by $a^2m^2 + b^2 = (beta - m
   alpha)^2$. Hence obtain the locus of a point from which the two tangents to the ellipse are inclined at an
   angle $theta$.
 //200
@@ -2440,13 +2441,13 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Find the eccentricity of the ellipse if $y = x$ and $2x + 3y = 0$ are th equations of a pair of its
   conjugate diameters.
 //214
-+ Show that the length of the chord intercepted by the eliipse $x^2/a^2 + y^2/b^2 = 1$ on the line $y = m x
++ Show that the length of the chord intercepted by the ellipse $x^2/a^2 + y^2/b^2 = 1$ on the line $y = m x
   + c$ is $(2a b)/(a^2m^2 + b^2)sqrt(1 + m^2(a^2m^2 + b^2 - c^2))$.
 //215
 + Show that the length of the radius vector of the ellipese $x^2/a^2 + y^2/b^2 = 1$ drawn in a direction
   making an angle $theta$ with the positive direction of $x$-axis is $sqrt((a^2b^2)/(b^2 cos^2theta +
   a^2sin^2theta))$. Also show that the sum of reciprocals of the squares of any two semi-diameters of an
-  ellipse which are at right angles to one another is onstant.
+  ellipse which are at right angles to one another is constant.
 //216
 + A parabola is drawn to pass through $A$ and $B$ the ends of a diameter of a given circle of radius $a$ and
   to have as directrix a tangent to a concentric circle of radius $b$; the axes being $A B$ and a
@@ -2461,7 +2462,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + The distance of a point on the ellipse $x^2/6 + y^2/2 = 1$ from the center is $2$. Find the eccentric
   angle of the point.
 //220
-+ $P$ and $Q$ are corresponding points on the ellipse $x^2/a^2 + y^2/b^2 = 1$ and the auxilliary circle
++ $P$ and $Q$ are corresponding points on the ellipse $x^2/a^2 + y^2/b^2 = 1$ and the auxiliary circle
   respectively. The normal at $P$ to the ellipse meets $C Q$ in $R$, where $C$ is the center of the
   ellipse. Prove that $C R = a + b$.
 //221
@@ -2474,7 +2475,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   straight lines.
 //223
 + Find the equation of the hyperbola whose eccentricity is $sqrt(2)$ and the distance between the foci is
-  $16$, taking transverse and conjugate axes ofo the hyperbola as $x$ and $y$ axes respectively.
+  $16$, taking transverse and conjugate axes of the hyperbola as $x$ and $y$ axes respectively.
 //224
 + Find the equation of the hyperbola whose conjugate axis is $5$ and the distance between the foci is $13$,
   taking transverse and conjugate axes along $x$ and $y$ axes.
@@ -2499,7 +2500,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + The hyperbola $x^2/a^2 - y^2/b^2 = 1$ passes through the point of intersection of the lines $7x + 13y - 87
   = 0$ and $5x - 8y + 7 = 0$ and its latus rectum is $(32sqrt(2))/5$. Find $a$ and $b$.
 //232
-+ $P N$ is the oridinate of any point $P$ on the hyperbola $x^2/a^2 - y^2/b^2 = 1$. If $Q$ divides $A P$ in
++ $P N$ is the ordinate of any point $P$ on the hyperbola $x^2/a^2 - y^2/b^2 = 1$. If $Q$ divides $A P$ in
   the ratio $a^2:b^2$, show that $N Q$ is perpendicular to $A'P$ where $A A'$ is the transverse axis of the
   hyperbola.
 //233
@@ -2527,10 +2528,10 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 //241
 + Find the length of the axes and eccentricity of the hyperbola $x^2 - 3y^2 - 2x = 8$.
 //242
-+ In any hyperbola, prove that the tangent at any point bisects the angle between the focal disatances of
++ In any hyperbola, prove that the tangent at any point bisects the angle between the focal distances of
   the point.
 //243
-+ Find the equation to the tangent to the hyperbola $4x^2 - 3y^2 = 12$ at the point $(1, 2)$.
++ Find the equation to the tangent to the hyperbola $4x^2 - 3y^2 = 12$ from the point $(1, 2)$.
 //244
 + Find the equation to the tangents to the hyperbola $x^2 - 2y^2 = 18$ which are perpendicular to the line
   $x - y = 0$.
@@ -2595,7 +2596,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   $x - y = 0$.
 //265
 + If two points $P$ and $Q$ on the hyperbola $x^2/a^2 - y^2/b^2 = 1$, whose center is $C$ be such that $C P$
-  is perpendicular to $C Q$ and $a &lt; b$, then prove that $1(C P^2) + 1/(C Q^2) = 1/a^2 - 1/b^2$.
+  is perpendicular to $C Q$ and $a < b$, then prove that $1(C P^2) + 1/(C Q^2) = 1/a^2 - 1/b^2$.
 //266
 + If $C$ is the center of the hyperbola $x^2/a^2 - y^2/b^2 = 1$ and $S, S'$ be its foci and $P$ a point on
   it, prove that $S P dot.op S'P = C P^2 - a^2 + b^2$.
@@ -2603,7 +2604,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
 + Show that the locus of the middle points of portions of the tangents to the hyperbola $x^2/a^2 - y^2/b^2 =
   1$ intercepted between the axes is $4x^2y^2 = a^2y^2 - b^2x^2$.
 //268
-+ Prove that the product of the lengths of the perpendicular drawn from focai on any tangent to the
++ Prove that the product of the lengths of the perpendicular drawn from foci on any tangent to the
   hyperbola $x^2/a^2 - y^2/b^2 = 1$ is $b^2$.
 //269
 + Show that the locus of the foot of the perpendicular drawn from focus on a tangent to the hyperbola
@@ -2684,7 +2685,7 @@ points of parallel chords having slope $m$ is $y = b^2/(a^2m)x$.
   point $t_1$ such that $t_1 dot.op t^3 = 1$.
 //293
 + Find the equation of the hyperbola which has $3x - 4y + 7 = 0$ and $4x + 3y + 1 = 0$ for its asymptotes
-  annd which passes through the origin.
+  and which passes through the origin.
 //294
 + From a point $G$ on the transverse axis, $G L$ is drawn perpendicular to the asymptote and $G P$ be a
   normal to the hyperbola $x^2/a^2 - y^2/b^2 = 1$ at $P$. Prove that $L P$ is parallel to the conjugate
