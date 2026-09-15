@@ -427,3 +427,344 @@
 //121
 + If the lines $a x^2 + 2h x y + b y^2 = 0$ form two sides of a parallelogram and the line $l x + m y = 1$ is
   one diagonal, prove that the equation of the other diagonal is $(a m - h l)x - (b l - h m)y = 0$.
+//122
++ Find the equation of the diagonals of the parallelogram formed by the lines. $L^2 - a L = 0$ and $L'^2 - a
+  L' = 0$, where $L = x cos theta + y sin theta - p$ and $L' = x cos alpha + y sin alpha - p'$.
+//123
++ Prove that the equation $m(x^3 - 3x y^2) + y^3 - 3x^2y = 0$ represents three straight lines equally
+  inclined to each other.
+//124
++ Show that if two of the lines $a x^3 + b x^2y + c x y^2 + d y^3 = 0(a != 0)$, make complementary angles
+  with $x$-axis in anticlockwise sense then $a(a - c) + d(b - d) = 0$.
+//125
++ Now that the condition that the two of the three lines represented by $a x^3 + b x^2y + c x y^2 + d y^3 =
+  0$ may be at right angles is $a^2 + a c + b d + d^2 = 0$.
+//126
++ Secants are drawn from a given point $A$ to cut a given circle at the pair of points $P_1, Q_1; P_2, Q_2;
+  dots, P_n, Q_n$, show that $A P_i.A Q_i = A B^2$ for $i = 1, 2, 3, dots, n$, where $A B$ is the length of
+  the tangent from $A$ to the circle.
+//127
++ Tangent at any point on the circle $x^2 + y^2 = a^2$ meets the circle $x^2 + y^2 = b^2$ at $P$ and
+  $Q$. Find the condition on $a$ and $b$ such that tangents at $P$ and $Q$ meet at right angles.
+//128
++ Suppose $f(x, y) = 0$ is the equation of a circle and $f(x, 1) = 0$ has both roots equal to $2$ and $f(1,
+  x)$ has equal roots $1$. Find the equation of the circle.
+//129
++ Tangents to the circle $x^2 + y^2 = a^2$ cut the circle $x^2 + y^2 = 2a^2$ at $P$ and $Q$. Prove that the
+  tangents at $P$ and $Q$ to the circle $x^2 + y^2 = 2a^2$ intersect at right angles.
+//130
++ Find the condition on $a, b, c$ such that two chords of the circle $x^2 + y^2 - 2a x - 2b y + a^2 + b^2 -
+  c^2 = 0$ passing through the point $(a, b + c)$ are bisected by the line $y = x$.
+//131
++ The base $A B$ of a triangle is fixed and its vertex $C$ moves such that $sin A = k sin B(k != 1)$. Show
+  that the locus of $C$ is a circle whose center lies on the line $A B$ and radius is equal to $(a k)/(1 -
+  k^2)$, where $A B = a$.
+//132
++ If four points $P, Q, R, S$ in $x y$-plane are such that the square of the lengths of the tangent from $P$
+  to the circle on $Q R$ as diameter be denoted by ${P, Q R}$ show that ${P, R S} - {P, Q S} + {Q, P R} -
+  {Q, R S} = 0$.
+//133
++ Show that the circumcircle of the triangle formed by the lines $a_i x + b_i y + c_i = 0, i = 1, 2, 3$ is
+  $mat(delim: "|", (a_1^2 + b_1^2)/(a_1x + b_1y + c_1), (a_2^2 + b_2^2)/(a_2x + b_2y + c_2), (a_3^2 +
+  b_3^2)/(a_3x + b_3y + c_3); a_1, a_2, a_3; b_1, b_2, b_3;) = 0$.
+//134
++ Show that the circumcircle of the triangle formed by the lines $a x + b y + c = 0, b x + c y + a = 0$ and
+  $c x + a y + b = 0$ passes through the origin if $(b^2 + c^2)(c^2 + a^2)(a^2 + b^2) = a b c(b + c)(c +
+  a)(a + b)$.
+//135
++ Prove that the square of the tangent from any point on one circle to another circle is equal to twice the
+  product of the perpendicular distance of the point from the radical axis of the two circles and the
+  distance between their centers.
+//136
++ Find the limiting points of the circles $x^2 + y^2 + 2g x + c + lambda(x^2 + y^2 + 2f y + d) = 0$ and show
+  that the square of the distance between them $((c - d)^2 - 4f^2g^2 + 4c f^2 + 4d g^2)/(f^2 + g^2)$.
+//137
++ The tangents to the parabola $y^2 = 4a x$ meet on the parabola $y^2 = a(x - 2a)$. Prove that the normals
+  at the point of contact intersect on the tangent at the vertex to the first parabola.
+//138
++ Tangent is drawn at any point $(x_1, y_1)$ on the parabola $y^2 = 4a x$. Now tangents are drawn from any
+  point on this tangent to the circle $x^2 + y^2 = a^2$ such that all the chords of contact pass through a
+  fixed point $(x_2, y_2)$. Prove that $lr((y_1/y_2)^2) = -4 lr((x_1/x_2))$.
+//139
++ Find the points on the $x$-axis from which exactly three distinct chords(secants) of the circle $x^2 + y^2
+  = a^2$ can be drawn which are bisected by the parabola $y^2 = 4a x, a > 0$.
+//140
++ A series of chords is drawn to the parabola $y^2 = 4a x$, so that their projections on a straight line
+  which is inclined at an angle $alpha$ to the axis are all of constant length $c$, prove that the locus of
+  their middle point is the curve $(y^2 - 4a x)(y cos alpha + 2a sin alpha)^2 + a^2c^2 = 0$.
+//141
++ A family of chords of the parabola $y^2 = 4a x$ is drawn so that their projections on a straight line
+  equally inclined to both the axes are all of a constant length $c$, prove that the locus of their middle
+  point is the curve $(y^2 - 4a x)(y + 2a)^2 + 2a^2c^2 = 0$.
+//142
++ A variable line passing through a fixed point $P$ cuts a given parabola at $R$ and $S$. A point $Q$ moves
+  on the line $P R S$ such that $P R, P Q$ and $P S$ are in H.P. Prove that the locus of $Q$ is a straight
+  line whose slope is independent of the abscissa of the point $P$.
+//143
++ Prove that on the axis of any parabola there is a certain point $P$ which has the property that if a chord
+  $A B$ of the parabola be drawn through it, then $1/(A P^2) + 1/(B P^2)$ is the same for all positions of
+  the chord.
+//144
++ Prove that the locus of a point which moves such that the sum of the slopes of the normals drawn from it
+  to the hyperbola $x y = c^2$ is equal to the sum of the ordinates of the points of intersection is a
+  parabola.
+//145
++ Prove that the normals at the extremities of each of a series of parallel chords of a parabola intersect
+  on a fixed line itself normal to the parabola.
+//146
++ Let $P$ be a point on the parabola $y^2 = 4x$, with the ordinate $y$ saatisfying $1 < y <= 2$. The normal
+  to the parabola at $P$ intersects the $x$-axis in $N$ and a line parallel to $y$-axis through $P$
+  intersects the $x$-axis in $M$. If $S$ be the focus of the parabola and $z = $ area of $triangle P M N - $
+  area of $triangle P M S$ find the maximum value of $z$.
+//147
++ Prove that the locus of the circumcenter of the variable triangle having sides $x = 0, y = 2$ and $l x + m
+  y = 1$, where $(l, m)$ lies on the parabola $y^2 = 4x$ is also a parabola.
+//148
++ $T P$ and $T Q$ are tangents drawn from an external point $(x_1, y_1)$ to the ellipse $x^2/a^2 + y^2/b^2 =
+  1$. Show that $(S T^2)/(S P.S Q) = x_1^2/a^2 + y_1^2/Q^2$.
+//149
++ Show that if a ray of light passing through one focus of an ellipse is reflected from the concave side of
+  the ellipse, it passes through the other focus of the ellipse.
+//150
++ If there are exactly four points on the ellipse $x^2/a^2 + y^2/b^2 = 1$, whose distances from the center is
+  $sqrt((a^2 + 2b^2)/2)$ find the eccentricity of the ellipse.
+//151
++ A point $P$ moves so that the circle with $P A$ as diameter, where $A = (a, 0)$ touches the circle $x^2 +
+  y^2 = 4a^2$ internally. Show that the locus of $P$ is an ellipse.
+//152
++ If $theta$ and $alpha$ be the angles subtended by the major axis to an ellipse of the extremities of a pair
+  of conjugate diameters, prove that $cot^2theta + cot^2alpha$ is a constant.
+//153
++ Show that the tangents drawn at those points of the ellipse $x^2/a^2 + y^2/b^2 = a + b$, where it is cut
+  by any tangent to $x^2/a^2 + y^2/b^2 = 1$ intersect at right angles.
+//154
++ A tangent is drawn to the ellipse $x^2/a^2 + y^2/b^2 = 1$ to cut the ellipse $x^2/c^2 + y^2/c^2 = 1$ at
+  the points $P$ and $Q$. If the tangents at $P$ and $Q$ to the ellipse $x^2/c^2 + y^2/d^2 = 1$ intersect at
+  right angle, then prove that $a^2/c^2 + b^2/c^2 = 1$.
+//155
++ If the normals at four points $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ and $(x_4, y_4)$ on the ellipse
+  $x^2/a^2 + y^2/b^2 = 1$ are concurrent, prove that $(x_1, x_2, x_3, x_4)(1/x_1 + 1/x_2 + 1/x_3 + 1/x_4) = 4$
+  or $(cos alpha + cos beta + cos gamma + cos delta)(sec alpha + sec beta + sec gamma + sec delta) = 4$, where
+  $alpha, beta, gamma, delta$ are the eccentric angles of the four points.
+//156
++ Show that the area of the quadrilateral, formed by the common tangents of the circle $x^2 + y^2 = c^2$ and
+  the ellipse $x^2/a^2 + y^2/b^2 = 1, a > c > b$ is $(2c^2(a^2 - b^2))/sqrt((a^2 - c^2)(c^2 - b^2))$.
+//157
++ If $p$ is the length of the perpendicular from the focus $S$ of the ellipse $x^2/a^2 + y^2/b^2 = 1$, on
+  the tangent at $P$, then show that $b^2/p^2 = (2a)/(S P) - 1$.
+//158
++ If $theta$ be the difference of the eccentric angles of two points on an ellipse, the tangents at which
+  are right angles, prove that $a b sin theta = d_1d_2$, where $d_1, d_2$ are the semi diameters parallel to
+  the tangents at the points and $a, b$ are the semi axes of the ellipse.
+//159
++ The tangent at any point $P$ of a given circle meets the tangent at a fixed point $A$ in $T$ and $T$ is
+  joined to $B$, the other end of the diameter through $A$, prove that the locus of intersection of $A P$ and
+  $B T$ is an ellipse where eccentricity is $1/sqrt(2)$.
+//160
++ Find the locus of the centroid of an equilateral triangle inscribed in the ellipse $x^2/a^2 + y^2/b^2 = 1$.
+//161
++ If three of the sides of a quadrilateral inscribed in an ellipse are parallel respectively to three given
+  straight lines. Show that the fourth side will also be parallel to a fixed straight line.
+//162
++ If two concentric ellipses be such that the foci to one can be on the other and if $e$ and $e'$ be their
+  eccentricities, prove that the angle between their axes is $cos^(-1)(sqrt(e^2 + e'^2 - 1)/(e e'))$.
+//163
++ Let $P$ be a point on the hyperbola $x^2 - y^2 = a^2$, where $a$ is a parameter such that $P$ is nearest
+  to the line $y = 2x$. Show that the locus of $P$ is $2y - x = 0$.
+//164
++ Show that if an incoming light ray passing through one focus of a hyperbola strikes the convex side of the
+  hyperbola, then it will get reflected towards other focus of the parabola.
+//165
++ If the chord joining the points $alpha$ and $beta$ on the hyperbola $x^2/a^2 - y^2/b^2 = 1$ is a focal
+  chord, prove that $plus.minus e cos (alpha - beta)/2 = cos(alpha + beta)/2$ and $tan alpha/2 tan beta/2 +
+  (k e - 1)/(k e + 1) = 0$, where $k = plus.minus 1$.
+//166
++ If the axis of a parabola and a rectangular hyperbola is the same and the vertex of parabola is same as
+  the center of rectangular hyperbola, then prove that the locus of the point whose chord of contact
+  w.r.t. the parabola touches the rectangular hyperbola is an ellipse with the same center and axes.
+//167
++ Show that the curve for which the $x$ intercept of the tangent known as any point $P$ on the curve is
+  double of the abscissa of the point $P$ is $x y = c$. Also show that for the curve $x y = c$,
+  $y$-intercept of the tangent at any point $P$ is double of the $y$ coordinate of the point $P$.
+//168
++ The normal at $P$ to a hyperbola of eccentricity $e$, intersect its transverse of conjugate axes at $L$
+  and $M$ respectively. Show that the focus of the middle point of $L M$ is a hyperbola of eccentricity
+  $e/sqrt(e^2 - 1)$.
+//169
++ Find the range of parameter $a$ for which a unique circle will pass through the points of intersection of
+  the hyperbola $x^2 - y^2 = a^2$ and the parabola $y = x^2$. Find also the equation of the circle.
+//170
++ A circle with center $(3alpha, 3beta)$ annd of variable radius cuts the rectangular hyperbola $x^2 - y^2 =
+  9a^2$ at the points $P, Q, R, S$. Prove that the locus of the centroid of $triangle P Q S$ is $(x -
+  2alpha)^2 - (y - 2beta)^2 = a^2$.
+//171
++ A series of chords of hyperbola $x^2/a^2 - y^2/b^2 = 1$ touch the circle on the line joining the foci as
+  diameter. Show that the locus of the pole of these chords w.r.t. the hyperbola is an ellipse $x^2/a^4 +
+  y^2/b^4 = 1/(a^2 + b^2)$. Also, find the focus of their middle point.
+//172
++ Given the base of a triangle and the ratio of the tangents of half the base angles, show that the vertex
+  moves on a hyperbola whose foci are the extremities of the base.
+//173
++ Tangents are drawn from the points on a tangent of the hyperbola $x^2 - y^2 = a^2$ to the parabola $y^2 =
+  4a x$. If all the chords of contact pass through a fixed point $Q$, prove that the locus of the points $Q$
+  for different tangents on the hyperbola is an ellipse.
+//174
++ Tangents are drawn from a point $P$ on the curve $x^2 - 4y^2 = 4$ to the curve $x^2 + 4y^2 = 4$ touching
+  it in the points $Q$ and $R$. Show that the locus of the mid-points of $Q R$ is $x^2/4 - y^2 = (x^2/4 +
+  y^2)^2$.
+//175
++ If the origin lies in the acute angle between the lines $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 =
+  0$, then show that $(a_1a_2 + b_1b_2)c_1c_2 < 0$.
+//176
++ Prove that a point can be found which is at the same distance from each of the four points $(a m_1,
+  a/m_1), (a m_2, a/m_2), (a m_3, a/m_3)$, and $(a/(m_1m_2m_3), a m_1m_2m_3)$.
+//177
++ If the lines $u_r = y - m_r x - c_r = 0 (r = 1, 2, 3)$ form an isosceles triangle with the first line as
+  base, then show that $(1 + m_1m_2)(m_1 - m_3) + (1 + m_1m_3)(m-1 - m_2) = 0$.
+//178
++ Show that the quadrilateral whose sides are given by $u_r = a_r x + b_r y + c_r = 0 (r = 1, 2, 3, 4)$ in
+  order, is cyclic, if $(a_1b_2 - a_2b_1)(a_3a_4 + b_3b_4)  + (a_3b_4 - a_4b_3)(a_1a_2 + b_1b_2) = 0$.
+//179
++ On the intercept of the straight line $x/a + y/b = 1$ between the axes a square is constructed. Find the
+  equation of its sides and the point of intersection of its diagonals.
+//180
++ A variable line moves so that the sum of the squares of the reciprocals of its intercepts on the axes
+  remains constant. Find the locus of the foot of the perpendicular from the origin on it.
+//181
++ Two straight lines containing a fixed angle $theta$ cut off segments from the coordinate axes, each equal
+  to $k$. Show that the locus of their point of intersection consists of the four straight lines $x plus.minus
+  y plus.minus k cot theta = 0$.
+//182
++ The equation of the bisector of the angle between two lines is $7x - 4y + 1 = 0$. The equation of one of
+  the lines is $3x + 4y - 11 = 0$. Find the equation of the other line.
+//183
++ Show that the reflection of the line $p x + q y + r = 0$ in the line $l x + m y + n = 0$ is $(p x + q y  +
+  r)(l^2 + m^2) - 2(p l + q m)(l x + m y + n) = 0$.
+//184
++ Show that the three diagonals of the quadrilateral whose sides taken in order are $u_r = a_r x + b_r y +
+  c_r = 0 (r = 1, 2, 3, 4)$ are $u_1U_1 + u_2U_2= 0, u_1U_1 + u_4U_4 = 0, u_1U_1 + u_3U_3 = 0$, where $U_1,
+  U_2, U_3, U_4$ are the cofactors of $u_1, u_2, u_3, u_4$ respectively in the determinant $mat(delim: "|",
+  u_1, u_2, u_3, u_4; a_1, a_2, a_3, a_4; b_1, b_2, b_3, b_4; c_1, c_2, c_3, c_4;)$.
+//185
++ The sides of a triangle are $u_r = a_r x + b_r y + c_r = 0 (r = 1, 2, 3, 4)$. Show that the equation of
+  the median through the intersection of $u_2 = 0$ and $u_3 = 0$ is $C_2u_2 - C_3u_3 = 0$, where $A_r, B_r,
+  C_r$ are cofactors of $a_r, b_3, c_r$ respectively in the determinant $mat(delim: "|", a_1, b_1, c_1; a_2,
+  b_2, c_2; a_3, b_3, c_3)$.
+
+  Also show that the other two medians are $C_3u_3 - C_1u_1 = 0$ and $C_1u_1 - C_2u_2 = 0$.
+//186
++ The sides $B C, C A, A B$ of a $triangle A B C$ are $u_r = a_r x + b_r y + c_r = 0 (r = 1, 2, 3)$. If $A
+  L, B M, C N$ are the altitudes and $M N, B C$ meet in $P: N L, A C$ in $Q: L M, A B$ in $R$, show that $P,
+  Q, R$ are collinear.
+//187
++ Show that if the three lines $a x + k y = l a + m a^3, b x + k y = l b + m b^3$ and $c x + k y = l c + m
+  c^3$ are concurrent, then $a + b + c = 0$.
+//188
++ From a point $(alpha, beta)$ perpendiculars $P M$ and $P N$ are drawn to the straight lines $a x^2 + 2h x
+  y + b y^2 = 0$. If $O$ be the origin show that $O M.O N = (a beta^2 - 2h alpha beta + b alpha^2)/sqrt((a -
+  b)^2 + 4h^2)$. Hence show that area of $triangle O M N$ is $(a beta^2 - 2h alpha beta + b alpha^2)/((a -
+  b)^2 + 4h^2)sqrt(h^2 - a b)$.
+//189
++ If lines $a x^2 + 2h x y + b y^2 = 0$ is equally inclined to the line $y = m x + c$ then show that $h(1 -
+  m^2) = m(a - b)$.
+//190
++ A triangle has the lines $a x^2 + 2h x y + b y^2 = 0$ for two of its sides and the point $(c, d)$ is the
+  orthocenter. Prove that the third side is $(a + b)(c x + d y) = a d^2 - 2h c d + b c^2$.
+//191
++ Show that the distance from the origin to the orthocenter of the triangle formed by the lines $x/alpha +
+  y/beta = 1$ and $a x^2 + 2h x y + b y^2 = 0$ is $(alpha beta(a + b)sqrt(alpha^2 + beta^2))/(a alpha^2 - 2h
+  alpha beta + b beta^2)$.
+//192
++ A parallelogram is formed by the lines $a x^2 + 2h x y + b y^2 = 0$ and the lines through $(p, q)$
+  parallel to them. Prove that the equation of the diagonal which does not pass through the origin is $(2x -
+  p)(a p + h q) + (2y - q)(h p + b q) = 0$. Also show that the area of parallelogram is $lr(|(a p^2 + 2h p q
+  + b q^2)/(2sqrt(h^2 - a b))|)$.
+//193
++ If the lines $a x^2 + 2h x y + b y^2 = 0$ be the two sides of a parallelogram and the line $l x + m y = 1$
+  be one of its diagonals, show that the other diagonal is $y(b l - h m) = x(a m - h l)$.
+//194
++ Show that the equation $a x^3 + 2b^2x y + 3c x y^2 + d y^3 = 9$ represents three straight lines if $a, b,
+  c, d$ are in G.P. ($a, b, c, d$ are non-zero.)
+//195
++ Prove that two of the straight lines $a y^4 + b x y^3 + c x^2 y^2 + d x^3 y + e x^4 = 0$ are at right
+  angles if $(b + d)(a d + b e) + (a - e)^2(a + c + e) = 0$.
+//196
++ Show that the two straight lines joining the origin to the other points of intersection of the two curves
+  $a x^2 + 2h x y + b y^2 + 2g x = 0$ and $a'x^2 + 2h'x y + b'y^2 + 2g'x = 0$ will be at right angles to one
+  another if $g'(a + b) = g(a' + b')$.
+//197
++ A point moves so that the distance between the feet of the perpendiculars drawn from it to the lines $a
+  x^2 + 2h x y + b y^2 = 0$ is a constant $2k$. Show that the equation of its locus is $(x^2 + y^2)(h^2 - a
+  b) = k^2[(a - b)^2 + 4h^2]$.
+//198
++ The sum of the squares of the perpendiculars from a point $P$ on the lines $a x^2 + 2h x y + b y^2 = 0$ is
+  a constant $c^2$, show that locus of $P$ is $2(a - b)(a x^2 - b y^2) + 4h(a + b)x y + 4h^2(x^2 + y^2) =
+  c^2[(a - b)^2 + 4h^2]$.
+//199
++ Through the fixed point $(alpha, beta)$ a variable line is drawn cutting the fixed lines $a x^2 + 2h x y +
+  b y^2 = 0$ in points $A$ and $B$ and the parallelogram $O A P B$ is complemeted, $O$ being the
+  origin. Show that the locus of $P$ is $a(x - alpha)^2 + 2h(x - alpha)(y - beta) + b(y - beta)^2 = a
+  alpha^2 + 2h alpha beta + b beta^2$.
+//200
++ A variable line through the fixed point $(p, q)$ meets the lines $a x^2 + 2h x y + b y^2 = 0$ in $A$ and
+  $B$. Show that the locus of the middle point of $A B$ is $a x^2 + 2h x y + b y^2 = p(a x + b y) + q(h x +
+  b y)$.
+//201
++ A straight line of length $2l$ has its extremities on each of the lines $a x^2 + 2h x y + b y^2 = 0$. Show
+  that the locus of its middle point is $(a x + h y)^2 + (h x + b y)^2 + (a b - h^2)l^2 = 0$.
+//202
++ The base of a triangle passes through a fixed point $(p, q)$ and its sides are respectively bisected at
+  right angles by the lines $a x^2 + 2h x y + b y^2 = 0$. Prove that the locus of the vertex is $(a + b)(x^2 +
+  y^2) + 2h(p y + q x) + (a - b)(p x - q y) = 0$.
+//203
++ Find the equation of the common tangents to the circles $x^2 + y^2 = 25$ and $(x - 12)^2 + y^2 = 9$.
+//204
++ A straight line $A B$ is divided at $C$ so that $A C = 3C B$. Circles are described on $A C$ and $C B$ as
+  diameters and a common tangent meets $A B$ produced at $D$. Show that $B D$ is equal to the radius of the
+  smaller circle.
+//205
++ A circle touches the hypotenuse of a right-angled triangle at its middle point and passes through the
+  mid-point of the shorter side. If $a$ and $b$ ($a < b$) be the length of the sides, then prove that the
+  radius of the circle is $b/(4a)sqrt(a^2 + b^2)$.
+//206
++ Find the locus of the point of intersection of tangents to the circle $x = a cos theta, y = a sin theta$
+  at the point whose parametric angles differ by $pi/3$.
+//207
++ If $T_1$ and $T_2$ be the length of tangents from any point on a fixed circle through two fixed points
+  $A(x_1, y_1)$ and $B(x_2, y_2)$ to two other fixed circles passing through $A$ and $B$, show that
+  $T_1/T_2$ is a constant.
+//208
++ A variable circle passes through the point of intersection of two fixed straight lines and cuts off from
+  their portions $O A$ and $O B$ such that $p.O A + q.O B = 1$. Show that this circle passes through a fixed
+  points.
+//209
++ $P, Q, R, S$ are the centers of the four circles each of which is cut by a fixed circle orthogonally. If
+  $t_1^2, t_2^2, t_3^2, t_4^2$ be the squares of the lengths of the tangents to the four circles from a
+  point in their plane, prove that $t_1^2 dot Delta Q R S - t_2^2 Delta R S P + t_3^2 Delta S P Q - t_4^2
+  Delta P Q R = 0$.
+//210
++ The lengths of tangents from a fixed point to three circles of co-axial systems are $t_1, t_2, t_3$
+  respectively. If $P, Q, R$ be the centers of the three circles, show that $t_1^2.Q R + t_2^2.R P +
+  t_3^2.P Q = 0$.
+//211
++ If $P, Q, R$ are the centers and $r_1, r_2, r_3$ are the radii of three circles of a co-axial system of
+  circles, show that $r_1^2.Q R + r_2^2.R P + r_3^2.P Q + P Q.Q R.R P = 0$.
+//212
++ $P$ is a variable point on the line $y = 4$. Tangents are drawn to the circle $x^2 + y^2 = 4$ from $P$ to
+  touch it at $A$ and $B$. The parallelogram $P A Q B$ is completed. Prove that the locus of the point $Q$
+  is $(x^2 + y^2)(y + 4) = 2y^2$.
+//213
++ Find the equation of the circle circumscribing the triangle formed by the lines $a x^2 + 2h x y + b y^2 =
+  0$ and $x cos alpha + y sin alpha = p$.
+//214
++ Show that the four points of intersection of the lines $a x + b y + c = 0$ and $b x + a y + d = 0$ with
+  the axes are concyclic. Find the equation of the circle passing through these points.
+//215
++ Show that the locus of the point at which the line joining two given points $A(x_1, y_1)$ and $B(x_2,
+  y_2)$ subtends a constant angle $alpha$ is a circle.
+//216
++ Find the locus of the center of a circle which passes through the origin and cuts off a length $2l$ from
+  the line $x = c$.
+//217
++ A straight line is drawn from a fixed point $O$ meeting a fixed straight line in $P$. A point $Q$ is taken
+  on the line $O P$ such that $O P.O Q$ is constant. Show that the locus of $Q$ is a circle.

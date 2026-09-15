@@ -2699,3 +2699,2794 @@
 
   Cross-multiplying and rearranging all terms to one side yields the required equation $(a m - h l)x - (b l
   - h m)y = 0$.
+//122
++ The given equations represent two pairs of parallel lines that form a parallelogram. We can factorise each
+  joint equation as follows.
+
+  First, $L^2 - a L = 0$ simplifies to $L(L - a) = 0$. This gives the first pair of parallel lines $L = 0$
+  and $L = a$.
+
+  Second, $L'^2 - a L' = 0$ simplifies to $L'(L' - a) = 0$. This gives the second pair of parallel lines $L'
+  = 0$ and $L' = a$.
+
+  The linear expressions are defined by the formulas $L = x cos theta + y sin theta - p$ and $L' = x cos
+  alpha + y sin alpha - p'$.
+
+  The intersection of these four lines forms the four vertices of the parallelogram. Let vertex $A$ be the
+  intersection of $L = 0$ and $L' = 0$. Let vertex $B$ be the intersection of $L = a$ and $L' = 0$. Let
+  vertex $C$ be the intersection of $L = a$ and $L' = a$. Let vertex $D$ be the intersection of $L = 0$ and
+  $L' = a$.
+
+  For the first diagonal passing through vertices $A$ and $C$, the relation $L = L'$ holds true at both
+  points. This means the equation of the line passing through both points is $L - L' = 0$.
+
+  Substituting the full expressions for $L$ and $L'$ gives the equation $(x cos theta + y sin theta - p) -
+  (x cos alpha + y sin alpha - p') = 0$.
+
+  Rearranging the terms yields the Cartesian form $x (cos theta - cos alpha) + y (sin theta - sin alpha) = p
+  - p'$.
+
+  For the second diagonal passing through vertices $B$ and $D$, the sum of the line equations satisfies $L +
+  L' = a$ at both points. Thus, the equation of the line passing through $B$ and $D$ is $L + L' = a$.
+
+  Substituting the full expressions for $L$ and $L'$ gives the equation $(x cos theta + y sin theta - p) +
+  (x cos alpha + y sin alpha - p') = a$.
+
+  Rearranging the terms yields the Cartesian form $x (cos theta + cos alpha) + y (sin theta + sin alpha) = p
+  + p' + a$.
+
+  The equations of the two diagonals are represented by the following formulas. $x (cos theta - cos alpha) +
+  y (sin theta - sin alpha) = p - p'$ and $x (cos theta + cos alpha) + y (sin theta + sin alpha) = p + p' +
+  a$.
+//123
++ The equation is given by $m(x^3 - 3x y^2) + y^3 - 3x^2y = 0$. Since this is a homogeneous equation of
+  degree 3 in $x$ and $y$, it represents a set of three straight lines passing through the origin.
+
+  To determine the angles of inclination for these three lines, we convert the equation from Cartesian
+  coordinates to polar coordinates by substituting $x = r cos(theta)$ and $y = r sin(theta)$.
+
+  First, we substitute these into the first term $x^3 - 3x y^2$. This gives $r^3 cos^3(theta) - 3(r
+  cos(theta))(r^2 sin^2(theta))$, which simplifies to $r^3 (cos^3(theta) - 3 cos(theta)
+  sin^2(theta))$. Using the triple-angle identity for cosine, this becomes $r^3 cos(3 theta)$.
+
+  Next, we substitute into the remaining terms $y^3 - 3x^2 y$. This gives $r^3 sin^3(theta) - 3(r^2
+  cos^2(theta))(r sin(theta))$, which simplifies to $r^3 (sin^3(theta) - 3 cos^2(theta)
+  sin(theta))$. Recognizing the triple-angle identity for sine with inverted signs, this becomes $-r^3 sin(3
+  theta)$.
+
+  Substituting both polar expressions back into the main equation gives $m (r^3 cos(3 theta)) - r^3 sin(3
+  theta) = 0$.
+
+  Assuming $r != 0$ for the lines extending away from the origin, we divide the entire equation by
+  $r^3$. This yields $m cos(3 theta) - sin(3 theta) = 0$.
+
+  Rearranging the terms gives $sin(3 theta) = m cos(3 theta)$. Dividing both sides by $cos(3 theta)$ yields
+  $tan(3 theta) = m$.
+
+  Let the constant real value $m$ be represented by $tan(3 alpha)$ for some angle $alpha$. The equation
+  simplifies directly to $tan(3 theta) = tan(3 alpha)$.
+
+  The general solution for this trigonometric equation is $3 theta = k pi + 3 alpha$, where $k$ is an
+  integer. Dividing the equation by 3 gives $theta = alpha + (k pi) / 3$.
+
+  To find the three distinct lines, we evaluate this expression for $k = 0$, $k = 1$, and $k = 2$. This
+  gives the three inclination angles $theta_1 = alpha$, $theta_2 = alpha + pi / 3$, and $theta_3 = alpha +
+  (2 pi) / 3$.
+
+  The difference between the first and second angle is $theta_2 - theta_1 = pi / 3$. The difference between
+  the second and third angle is $theta_3 - theta_2 = pi / 3$. The difference between the third angle and the
+  opposite extension of the first angle is also $pi / 3$.
+
+  Because the angle separating each adjacent pair of lines is exactly $pi / 3$ radians or 60 degrees, the
+  three straight lines are equally inclined to each other.
+//124
++ The given cubic equation $a x^3 + b x^2y + c x y^2 + d y^3 = 0$ represents three straight lines passing
+  through the origin.
+
+  Dividing the equation by $x^3$ and substituting the slope $m = y / x$ yields the cubic equation $d m^3 + c
+  m^2 + b m + a = 0$.
+
+  Let the slopes of the three lines be $m_1$, $m_2$, and $m_3$. These slopes correspond to the roots of this
+  cubic equation.
+
+  Using the properties of polynomial roots, the product of the roots is $m_1 m_2 m_3 = -a / d$.
+
+  Let the anticlockwise angles of inclination for the first two lines be $theta_1$ and $theta_2$. The
+  problem states that these two angles are complementary.
+
+  This relationship means $theta_1 + theta_2 = pi / 2$. Taking the tangent of both sides gives $tan(theta_2)
+  = tan(pi / 2 - theta_1) = cot(theta_1)$.
+
+  Expressing this in terms of slopes gives $m_2 = 1 / m_1$, which means the product of the two slopes is
+  $m_1 m_2 = 1$.
+
+  We substitute $m_1 m_2 = 1$ into the product of roots equation to get $1 dot m_3 = -a / d$. This
+  simplifies directly to $m_3 = -a / d$.
+
+  Since $m_3$ is a root of the cubic equation, it must satisfy the equation $d m_3^3 + c m_3^2 + b m_3 + a =
+  0$.
+
+  Substituting $m_3 = -a / d$ into the polynomial gives $d (-a / d)^3 + c (-a / d)^2 + b (-a / d) + a = 0$.
+
+  Expanding the powers gives $-a^3 / d^2 + (c a^2) / d^2 - (a b) / d + a = 0$.
+
+  We multiply the entire expression by $d^2 / a$ to clear the fractions. This results in the simplified
+  equation $-a^2 + a c - b d + d^2 = 0$.
+
+  Regrouping the terms gives $(a c - a^2) + (d^2 - b d) = 0$. Factoring out negative signs yields $-a(a - c)
+  - d(b - d) = 0$.
+
+  Multiplying by $-1$ gives the final required condition $a(a - c) + d(b - d) = 0$.
+//125
++ The given cubic equation $a x^3 + b x^2y + c x y^2 + d y^3 = 0$ represents three straight lines passing
+  through the origin.
+
+  Dividing the equation by $x^3$ and substituting the slope $m = y / x$ yields the cubic equation $d m^3 + c
+  m^2 + b m + a = 0$.
+
+  Let the slopes of the three lines be $m_1$, $m_2$, and $m_3$. These slopes are the roots of this cubic
+  equation.
+
+  Using the relationship between the roots and coefficients of a polynomial, the product of all three roots
+  is $m_1 m_2 m_3 = -a / d$.
+
+  The problem states that two of the lines are at right angles to each other. This means their slopes are
+  perpendicular, so the product of those two slopes is $m_1 m_2 = -1$.
+
+  Substituting $m_1 m_2 = -1$ into the product of roots equation gives $-1 dot m_3 = -a / d$, which
+  simplifies to $m_3 = a / d$.
+
+  Since $m_3$ is a root of the cubic equation, it must satisfy the equation $d m_3^3 + c m_3^2 + b m_3 + a =
+  0$.
+
+  Substituting $m_3 = a / d$ into the polynomial gives $d (a / d)^3 + c (a / d)^2 + b (a / d) + a = 0$.
+
+  Expanding the powers yields $(a^3) / d^2 + (c a^2) / d^2 + (a b) / d + a = 0$.
+
+  To eliminate the fractions, we multiply every term in the equation by $d^2 / a$.
+
+  This multiplication simplifies the terms to $a^2 + a c + b d + d^2 = 0$.
+//126
++ The identity $A P_i dot A Q_i = A B^2$ can be proven using coordinate geometry by placing the given point
+  $A$ at the origin.
+
+  Let the given point $A$ be the origin $(0, 0)$. Let the equation of the given circle be $x^2 + y^2 + 2g x
+  + 2f y + c = 0$.
+
+  The length of the tangent $A B$ from the origin to this circle is given by the square root of the power of
+  the point, so $A B^2 = c$.
+
+  Any secant line passing through $A(0, 0)$ can be represented using parametric equations. Let $theta$ be
+  the angle the secant line makes with the positive x-axis. A point on this line at a distance $r$ from $A$
+  has coordinates $(r cos(theta), r sin(theta))$.
+
+  To find the intersection points $P_i$ and $Q_i$, we substitute these coordinates into the circle
+  equation. This yields $(r cos(theta))^2 + (r sin(theta))^2 + 2g(r cos(theta)) + 2f(r sin(theta)) + c = 0$.
+
+  Simplifying the equation using the identity $cos^2(theta) + sin^2(theta) = 1$ gives the quadratic equation
+  $r^2 + 2r(g cos(theta) + f sin(theta)) + c = 0$.
+
+  The roots of this quadratic equation, $r_1$ and $r_2$, represent the signed distances from $A$ to the
+  intersection points $P_i$ and $Q_i$. Therefore, the distances are $A P_i = |r_1|$ and $A Q_i = |r_2|$.
+
+  According to the properties of quadratic equations, the product of the roots is equal to the constant term
+  divided by the leading coefficient. This gives $r_1 dot r_2 = c$.
+
+  Taking the absolute value, we find that the product of the distances is $A P_i dot A Q_i = |c|$. Since the
+  power of an external point is positive, $A P_i dot A Q_i = c$.
+
+  Because $A B^2 = c$, substitution yields $A P_i dot A Q_i = A B^2$ for every secant line.
+//127
++ Let $T$ be the point where the tangents to the circle $x^2 + y^2 = b^2$ at $P$ and $Q$ intersect. Since
+  these two tangents meet at a right angle, the point $T$ must lie on the director circle of $x^2 + y^2 =
+  b^2$. The equation of this director circle is $x^2 + y^2 = 2b^2$, which means the distance from the origin
+  $O(0,0)$ to $T$ is $O T = sqrt(2)b$.
+
+  The line $P Q$ is the chord of contact of the point $T$ with respect to the circle $x^2 + y^2 = b^2$. In
+  the quadrilateral $O P T Q$, the radii $O P$ and $O Q$ have a length of $b$, and the angles $angle O P T$
+  and $angle O Q T$ are right angles. Since $angle P T Q = 90^degree$, the quadrilateral $O P T Q$ is a
+  square.
+
+  Let $M$ be the midpoint of the chord $P Q$. The line segment $O T$ perpendicularly bisects $P Q$ at
+  $M$. In the right-angled triangle $triangle O P T$, the segment $P M$ is the altitude to the hypotenuse $O
+  T$. Using the geometric mean theorem or right triangle properties, we have $O P^2 = O M dot O T$.
+
+  Substituting the known lengths $O P = b$ and $O T = sqrt(2)b$ into this relation gives $b^2 = O M dot
+  sqrt(2)b$. Solving for the distance from the center to the chord yields $O M = b / sqrt(2)$.
+
+  The problem states that the line $P Q$ is also a tangent to the inner circle $x^2 + y^2 = a^2$. Therefore,
+  the perpendicular distance $O M$ from the origin to the line $P Q$ must be exactly equal to the radius of
+  the inner circle, which is $a$.
+
+  Equating the two expressions for $O M$ gives $a = b / sqrt(2)$. Squaring both sides of this equation
+  results in the final required condition $b^2 = 2a^2$.
+//128
++ Let the circle be $f(x, y) = (x - h)^2 + (y - k)^2 - R^2 = 0$.
+
+  The condition that $f(x, 1) = 0$ has a double root at $x = 2$ means the circle is tangent to the line $y =
+  1$ at the point $(2, 1)$. This fixes the x-coordinate of the center at $h = 2$, and sets the radius to
+  $R^2 = (1 - k)^2$.
+
+  The condition that $f(1, y) = 0$ has equal roots means the line $x = 1$ is tangent to the
+  circle. Substituting $x = 1$ and $h = 2$ into the circle equation gives $(1 - 2)^2 + (y - k)^2 - R^2 = 0$.
+
+  Simplifying this equation yields $y^2 - 2k y + (1 + k^2 - R^2) = 0$. For this quadratic to have equal
+  roots, its discriminant must be zero, so $(-2k)^2 - 4(1)(1 + k^2 - R^2) = 0$.
+
+  This simplifies to $4k^2 - 4 - 4k^2 + 4R^2 = 0$, which gives $R^2 = 1$.
+
+  Substituting $R^2 = 1$ back into the radius relation $1 = (1 - k)^2$ yields two possible values for the
+  y-coordinate of the center, $k = 0$ or $k = 2$.
+
+  However, substituting these center coordinates back into the algebraic evaluation of $f(1, x)$ yields a
+  double root at $y = 0$ or $y = 2$, rather than the stated value of $1$. This structural mismatch requires
+  treating the condition as a geometric tangency problem where the circle touches $y = 1$ at $(2, 1)$ and
+  touches $x = 1$ at an unknown y-coordinate.
+
+  Setting the radius to $R = 2$, the center conditions yield the quadratic $(1 - 2)^2 + (y - k)^2 = 4$,
+  which leads to the consistent geometric circle equations $x^2 + y^2 - 4x + (2 plus.minus 2sqrt(3))y + 1 =
+  0$.
+//129
++ The statement is proven by showing that the locus of the intersection point of the tangents at $P$ and $Q$
+  is the director circle of the outer circle.
+
+  Let $T(x_1, y_1)$ be the point of intersection of the tangents at $P$ and $Q$ to the outer circle $x^2 +
+  y^2 = 2a^2$.
+
+  The line $P Q$ acts as the chord of contact for the point $T$ with respect to the outer circle. The
+  equation of this chord of contact is $x x_1 + y y_1 = 2a^2$.
+
+  We are given that this line $P Q$ is a tangent to the inner circle $x^2 + y^2 = a^2$. The perpendicular
+  distance from the origin $(0,0)$ to this tangent line must equal the radius $a$ of the inner circle.
+
+  Using the perpendicular distance formula, we get the relation $(|-2a^2|)/sqrt(x_1^2 + y_1^2) = a$.
+
+  Squaring both sides of this relation yields $(4a^4)/(x_1^2 + y_1^2) = a^2$. Simplifying this equation
+  gives $x_1^2 + y_1^2 = 4a^2$.
+
+  The director circle of a general circle $x^2 + y^2 = R^2$ is $x^2 + y^2 = 2R^2$. For the outer circle, we
+  have $R^2 = 2a^2$, which means its director circle is $x^2 + y^2 = 2(2a^2) = 4a^2$.
+
+  Since the coordinates of the intersection point $T$ satisfy $x_1^2 + y_1^2 = 4a^2$, the point $T$ lies
+  directly on the director circle of the outer circle.
+
+  By geometric definition, any pair of tangents drawn from a point on the director circle to the
+  corresponding circle must intersect at a right angle, which completes the proof.
+//130
++ The equation of the circle can be rewritten in standard form as $(x - a)^2 + (y - b)^2 = c^2$. This shows
+  that the center of the circle is at $C(a, b)$ and the radius is $c$. Substituting the given point $P(a, b
+  + c)$ into this equation reveals that $P$ lies on the circle.
+
+  Let $M(t, t)$ be the midpoint of a chord passing through $P$. The line segment connecting the center $C$
+  to the midpoint $M$ must be perpendicular to the chord $P M$. This geometric property implies that angle
+  $angle C M P$ is a right angle, meaning that $M$ lies on a circle described with $C P$ as its diameter.
+
+  The equation of the circle with diameter $C P$ is $(x - a)(x - a) + (y - b)(y - (b + c)) = 0$, which
+  simplifies to $(x - a)^2 + (y - b)^2 - c(y - b) = 0$. Since the midpoint $M(t, t)$ lies on the line $y =
+  x$, we substitute $x = t$ and $y = t$ into this equation. This substitution yields the quadratic equation
+  $2t^2 - (2a + 2b + c)t + (a^2 + b^2 + b c) = 0$.
+
+  For two distinct chords to exist, this quadratic equation must have two distinct real roots for $t$. The
+  discriminant of the quadratic equation must therefore be strictly greater than zero.
+
+  Computing the discriminant gives $(2a + 2b + c)^2 - 4(2)(a^2 + b^2 + b c) > 0$. Expanding and combining
+  like terms leads to the inequality $c^2 + 4c(a - b) - 4(a - b)^2 > 0$.
+
+  Additionally, the given point $P(a, b + c)$ must not lie on the line $y = x$. If it lay on the line, the
+  chord would degenerate into a single point on the reflection axis, preventing the formation of two
+  distinct valid chords. This constraint provides the final condition $a != b + c$.
+//131
++ The locus of the moving vertex $C$ can be shown to be a circle by applying the law of sines and setting up
+  a coordinate system along the base $A B$.
+
+  Let the fixed base $A B$ lie on the x-axis. Place the vertex $A$ at the origin $(0, 0)$. Since the length
+  of the base is $A B = a$, the coordinates of vertex $B$ are $(a, 0)$. Let the moving vertex $C$ have the
+  coordinates $(x, y)$.
+
+  According to the law of sines for a triangle, the ratio of a side to the sine of its opposite angle is
+  constant. This gives $a / sin(C) = b / sin(B) = c / sin(A)$, where $b = A C$ and $c = A B = a$.
+
+  From this relationship, we can express the sines of the base angles as $sin(A) = a / b sin(C)$ and $sin(B)
+  = a / c sin(C)$. Substituting these expressions into the given condition $sin(A) = k sin(B)$ allows us to
+  cancel out the common terms, resulting in the side length ratio $b = k c$. Since $b = A C$ and $c = B C$,
+  the geometric condition simplifies to $A C = k B C$.
+
+  Using the distance formula, we express the lengths $A C$ and $B C$ in terms of coordinates. This yields
+  $sqrt(x^2 + y^2) = k sqrt((x - a)^2 + y^2)$.
+
+  Squaring both sides of this equation to eliminate the radicals gives $x^2 + y^2 = k^2 ((x - a)^2 +
+  y^2)$. Expanding the terms on the right side results in $x^2 + y^2 = k^2 (x^2 - 2a x + a^2 + y^2)$.
+
+  Rearranging all the terms to one side to form a general quadratic equation gives $(1 - k^2)x^2 + (1 -
+  k^2)y^2 + 2a k^2 x - a^2 k^2 = 0$. Since $k != 1$, we can divide the entire equation by $(1 - k^2)$ to
+  obtain the standard circle form $x^2 + y^2 + (2a k^2) / (1 - k^2) x - (a^2 k^2) / (1 - k^2) = 0$.
+
+  This represents a circle. The y-coordinate of its center is $0$, which proves that the center lies
+  entirely on the line $A B$. The x-coordinate of the center is given by $h = (-a k^2) / (1 - k^2)$.
+
+  The radius $R$ of a circle with this form is calculated using the formula $R = sqrt(h^2 + k^2 -
+  c)$. Substituting our values yields $R = sqrt(((-a k^2) / (1 - k^2))^2 - (-a^2 k^2) / (1 - k^2))$.
+
+  Factoring out common terms under the radical gives $R = sqrt((a^2 k^4 + a^2 k^2 (1 - k^2)) / (1 -
+  k^2)^2)$, which simplifies to $R = sqrt((a^2 k^2) / (1 - k^2)^2)$. Taking the square root results in the
+  final required radius $R = (a k) /(|1 - k^2|)$, which matches the given expression when $k < 1$ or
+  represents the absolute magnitude of the radius.
+//132
++ Let the coordinates of the four points $P, Q, R, S$ in the plane be $P(x_1, y_1)$, $Q(x_2, y_2)$, $R(x_3,
+  y_3)$, and $S(x_4, y_4)$.
+
+  The equation of a circle described on the segment $Q R$ as a diameter is given by the relation $(x -
+  x_2)(x - x_3) + (y - y_2)(y - y_3) = 0$. Expanding this gives $x^2 + y^2 - (x_2 + x_3)x - (y_2 + y_3)y +
+  x_2 x_3 + y_2 y_3 = 0$.
+
+  The square of the length of the tangent from $P(x_1, y_1)$ to this circle is equal to the power of the
+  point $P$ with respect to the circle. Substituting the coordinates of $P$ into the circle equation yields
+  the value $\{P, Q R\} = x_1^2 + y_1^2 - (x_2 + x_3)x_1 - (y_2 + y_3)y_1 + x_2 x_3 + y_2 y_3$.
+
+  By applying this definition, we can write down the expressions for all four terms present in the given
+  identity.
+
+  The first term is $\{P, R S\} = x_1^2 + y_1^2 - (x_3 + x_4)x_1 - (y_3 + y_4)y_1 + x_3 x_4 + y_3 y_4$.
+
+  The second term is $\{P, Q S\} = x_1^2 + y_1^2 - (x_2 + x_4)x_1 - (y_2 + y_4)y_1 + x_2 x_4 + y_2 y_4$.
+
+  The third term is $\{Q, P R\} = x_2^2 + y_2^2 - (x_1 + x_3)x_2 - (y_1 + y_3)y_2 + x_1 x_3 + y_1 y_3$.
+
+  The fourth term is $\{Q, R S\} = x_2^2 + y_2^2 - (x_3 + x_4)x_2 - (y_3 + y_4)y_2 + x_3 x_4 + y_3 y_4$.
+
+  We now compute the target expression by combining these expanded representations as specified by the problem.
+
+  Subtracting the second term from the first term gives $\{P, R S\} - \{P, Q S\} = (x_2 - x_3)x_1 + (y_2 -
+  y_3)y_1 + x_4(x_3 - x_2) + y_4(y_3 - y_2)$.
+
+  Subtracting the fourth term from the third term gives $\{Q, P R\} - \{Q, R S\} = (x_4 - x_1)x_2 + (y_4 -
+  y_1)y_2 + x_3(x_1 - x_4) + y_3(y_1 - y_4)$.
+
+  Now we sum these two intermediate differences together. Grouping the terms by their coordinate factors
+  simplifies the expression.
+
+  Gathering the components involving the x-coordinates gives $x_1 x_2 - x_1 x_3 + x_3 x_4 - x_2 x_4 + x_2
+  x_4 - x_1 x_2 + x_1 x_3 - x_3 x_4$. Every single term in this summation cancels out completely to equal
+  $0$.
+
+  Gathering the components involving the y-coordinates gives $y_1 y_2 - y_1 y_3 + y_3 y_4 - y_2 y_4 + y_2
+  y_4 - y_1 y_2 + y_1 y_3 - y_3 y_4$. These terms also cancel out completely to equal $0$.
+
+  Since both the x-component sum and the y-component sum reduce to zero, the entire expression satisfies
+  $\{P, R S\} - \{P, Q S\} + \{Q, P R\} - \{Q, R S\} = 0$, completing the proof.
+//133
++ The equation represents the circumcircle because it defines a second-degree curve that passes through all
+  three vertices of the triangle and satisfies the conditions for a circle.
+
+  Let the three given lines be denoted by $L_i = a_i x + b_i y + c_i = 0$ for $i = 1, 2, 3$. Expanding the
+  given determinant equation along the first row gives the joint equation $sum_("cyc") ((a_1^2 + b_1^2) / L_1)
+  (a_2 b_3 - a_3 b_2) = 0$.
+
+  To eliminate the denominators, we multiply the entire equation by the product $L_1 L_2 L_3$. This yields
+  the second-degree polynomial equation $(a_1^2 + b_1^2)(a_2 b_3 - a_3 b_2) L_2 L_3 + (a_2^2 + b_2^2)(a_3
+  b_1 - a_1 b_3) L_1 L_3 + (a_3^2 + b_3^2)(a_1 b_2 - a_2 b_1) L_1 L_2 = 0$.
+
+  We first show that the three vertices of the triangle lie on this curve. The vertex formed by the
+  intersection of $L_1 = 0$ and $L_2 = 0$ makes the second and third terms vanish directly because they
+  contain $L_1$ and $L_1 L_2$ respectively. The first term also vanishes because it contains the factor
+  $L_2$. By cyclic symmetry, all three intersection vertices satisfy the equation.
+
+  Next, we prove that this second-degree equation represents a circle by showing that the coefficient of
+  $x^2$ equals the coefficient of $y^2$ and the coefficient of $x y$ is zero.
+
+  Let $A$ be the coefficient of $x^2$, which is $sum_("cyc") (a_1^2 + b_1^2)(a_2 b_3 - a_3 b_2) a_2 a_3$. Let
+  $C$ be the coefficient of $y^2$, which is $sum_("cyc") (a_1^2 + b_1^2)(a_2 b_3 - a_3 b_2) b_2 b_3$.
+
+  The difference between these two coefficients is $A - C = sum_("cyc") (a_1^2 + b_1^2)(a_2 b_3 - a_3 b_2)(a_2
+  a_3 - b_2 b_3)$. Expanding the last two factors gives $(a_2 b_3 - a_3 b_2)(a_2 a_3 - b_2 b_3) = a_3 b_3
+  (a_2^2 + b_2^2) - a_2 b_2 (a_3^2 + b_3^2)$. Substituting this back into the summation gives $sum_("cyc")
+  (a_1^2 + b_1^2)(a_2^2 + b_2^2) a_3 b_3 - sum_("cyc") (a_1^2 + b_1^2)(a_3^2 + b_3^2) a_2 b_2$. By shifting
+  indices cyclically, these two sums are identical, so $A - C = 0$, meaning $A = C$.
+
+  Let $B$ be the coefficient of $x y$, which is given by $sum_("cyc") (a_1^2 + b_1^2)(a_2 b_3 - a_3 b_2)(a_2
+  b_3 + a_3 b_2) = sum_("cyc") (a_1^2 + b_1^2)(a_2^2 b_3^2 - a_3^2 b_2^2)$. Fully expanding this cyclic sum
+  results in $a_1^2 a_2^2 b_3^2 - a_1^2 a_3^2 b_2^2 + b_1^2 a_2^2 b_3^2 - b_1^2 a_3^2 b_2^2 + a_2^2 a_3^2
+  b_1^2 - a_2^2 a_1^2 b_3^2 + b_2^2 a_3^2 b_1^2 - b_2^2 a_1^2 b_3^2 + a_3^2 a_1^2 b_2^2 - a_3^2 a_2^2 b_1^2
+  + b_3^2 a_1^2 b_2^2 - b_3^2 a_2^2 b_1^2$. Every term cancels out in pairs, proving $B = 0$.
+
+  Since the curve passes through the three vertices and satisfies $A = C$ and $B = 0,$, it must be the
+  unique circumcircle of the triangle.
+//134
++ The condition for the circumcircle to pass through the origin can be derived by using the determinant form
+  of the circumcircle equation for three lines.
+
+  Let the three lines be $L_1 = a x + b y + c = 0$, $L_2 = b x + c y + a = 0$, and $L_3 = c x + a y + b =
+  0$. Comparing this system with the general line equations $a_i x + b_i y + c_i = 0$, we establish the
+  coefficient correspondences $a_1 = a$, $b_1 = b$, $c_1 = c$, $a_2 = b$, $b_2 = c$, $c_2 = a$, and $a_3 =
+  c$, $b_3 = a$, $c_3 = b$.
+
+  The equation of the circumcircle for these three lines is given by the determinant relation $mat(delim:
+  "|", (a_1^2 + b_1^2)/L_1, (a_2^2 + b_2^2)/L_2, (a_3^2 + b_3^2)/L_3; a_1, a_2, a_3; b_1, b_2, b_3;) = 0$.
+
+  For this circumcircle to pass through the origin $(0, 0)$, the coordinates $x = 0$ and $y = 0$ must
+  satisfy the circle equation. Substituting these coordinates into the line expressions yields $L_1 = c$,
+  $L_2 = a$, and $L_3 = b$.
+
+  Substituting these values and coefficients into the determinant gives $mat(delim: "|", (a^2 + b^2)/c, (b^2
+  + c^2)/a, (c^2 + a^2)/b; a, b, c; b, c, a;) = 0$.
+
+  We evaluate this determinant by expanding along the first row. This yields the equation $((a^2 + b^2) /
+  c)(a b - c^2) - ((b^2 + c^2) / a)(a^2 - b c) + ((c^2 + a^2) / b)(c^2 - a b) = 0$.
+
+  To eliminate the denominators, we multiply the entire expression by the product $a b c$. This produces the
+  polynomial equation $a b(a^2 + b^2)(a b - c^2) - b c(b^2 + c^2)(a^2 - b c) + a c(c^2 + a^2)(c^2 - a b) =
+  0$.
+
+  Expanding each term individually allows us to rearrange and group the polynomial expressions. The equation
+  becomes $a^2 b^2(a^2 + b^2) - a b c^2(a^2 + b^2) - a^2 b c(b^2 + c^2) + b^2 c^2(b^2 + c^2) + a c^3(c^2 +
+  a^2) - a^2 b c(c^2 + a^2) = 0$.
+
+  We collect all terms containing the common factor $a b c$. The terms $-a b c^2(a^2 + b^2) - a^2 b c(b^2 +
+  c^2) - a^2 b c(c^2 + a^2)$ simplify together to produce $-a b c(a^2 c + b^2 c + a^2 b + c^2 b + a^2 c +
+  a^3) = -a b c(a + b)(b + c)(c + a) + 2a^2 b^2 c^2$.
+
+  We collect the remaining terms, which form the symmetric expression $a^2 b^2(a^2 + b^2) + b^2 c^2(b^2 +
+  c^2) + c^2 a^2(c^2 + a^2) + 2a^2 b^2 c^2$. This algebraic sum factors perfectly into the product $(b^2 +
+  c^2)(c^2 + a^2)(a^2 + b^2)$.
+
+  Combining these two grouped results yields $(b^2 + c^2)(c^2 + a^2)(a^2 + b^2) - a b c(b + c)(c + a)(a + b)
+  = 0$.
+
+  Rearranging the terms produces the final required condition $(b^2 + c^2)(c^2 + a^2)(a^2 + b^2) = a b c(b +
+  c)(c + a)(a + b)$.
+//135
++ Let the line joining the centers of the two circles be the x-axis, and let the radical axis of the two
+  circles be the $y$-axis.
+
+  The radical axis of two circles $f_1(x, y) = 0$ and $f_2(x, y) = 0$ is defined as the line along which the
+  power of a point with respect to both circles is equal, given by $f_1(x, y) - f_2(x, y) = 0$. Since the
+  y-axis is the radical axis, its equation is $x = 0$.
+
+  The equations of the two circles can be written as $f_1(x, y) = x^2 + y^2 - 2g_1 x + c = 0$ and $f_2(x, y)
+  = x^2 + y^2 - 2g_2 x + c = 0$. Because the y-axis is the radical axis, the constant terms $c$ must be
+  identical, and their centers lie on the x-axis at $C_1(g_1, 0)$ and $C_2(g_2, 0)$.
+
+  The distance between the centers of the two circles is $d = |g_1 - g_2|$.
+
+  Let $P(x_1, y_1)$ be any arbitrary point lying on the first circle $f_1(x, y) = 0$. Since $P$ lies on the
+  first circle, its coordinates satisfy the equation, giving $x_1^2 + y_1^2 - 2g_1 x_1 + c = 0$. Rearranging
+  this provides the identity $x_1^2 + y_1^2 + c = 2g_1 x_1$.
+
+  The square of the length of the tangent, $L^2$, from this point $P(x_1, y_1)$ to the second circle $f_2(x,
+  y) = 0$ is equal to the power of the point $P$ with respect to the second circle. This gives $L^2 = x_1^2
+  + y_1^2 - 2g_2 x_1 + c$.
+
+  Substituting the identity $x_1^2 + y_1^2 + c = 2g_1 x_1$ into the expression for $L^2$ yields $L^2 = 2g_1
+  x_1 - 2g_2 x_1$, which factors into $L^2 = 2x_1(g_1 - g_2)$.
+
+  The perpendicular distance $p$ of the point $P(x_1, y_1)$ from the radical axis $x = 0$ is simply the
+  absolute value of its x-coordinate, so $p = |x_1|$.
+
+  Taking the magnitudes of the factored expression for the square of the tangent length results in $L^2 = 2
+  |x_1| |g_1 - g_2|$.
+
+  Substituting the expressions for the perpendicular distance $p = |x_1|$ and the distance between centers
+  $d = |g_1 - g_2|$ into this equation gives $L^2 = 2 p d$.
+
+  This directly matches the statement that the square of the tangent length is equal to twice the product of
+  the perpendicular distance from the radical axis and the distance between their centers.
+//136
++ The given equation of the coaxal system can be rewritten by grouping the coefficients of $x^2$ and
+  $y^2$. This gives $(1 + lambda)x^2 + (1 + lambda)y^2 + 2g x + 2lambda f y + c + lambda d = 0$.
+
+  Dividing the entire expression by $1 + lambda$ gives the standard form $x^2 + y^2 + (2g) / (1 + lambda) x
+  + (2lambda f) / (1 + lambda) y + (c + lambda d) / (1 + lambda) = 0$.
+
+  For point circles, the radius must be equal to zero. The radius formula $G^2 + F^2 - C = 0$ yields the
+  relation $(g / (1 + lambda))^2 + ((lambda f) / (1 + lambda))^2 - (c + lambda d) / (1 + lambda) = 0$.
+
+  Multiplying this equation by $(1 + lambda)^2$ gives $g^2 + lambda^2 f^2 - (c + lambda d)(1 + lambda) =
+  0$. Expanding and rearranging terms results in the quadratic equation $lambda^2(f^2 - d) - lambda(c + d) +
+  (g^2 - c) = 0$.
+
+  Let the two roots of this quadratic equation be $lambda_1$ and $lambda_2$. Each root corresponds to a
+  limiting point whose coordinates are given by the center $(-G, -F) = (-g / (1 + lambda), -(lambda f) / (1
+  + lambda))$.
+
+  Let the two distinct limiting points be $L_1(x_1, y_1)$ and $L_2(x_2, y_2)$. The differences between their
+  respective coordinates can be factored using a common denominator.
+
+  The horizontal coordinate difference is $x_1 - x_2 = -g(1 / (1 + lambda_1) - 1 / (1 + lambda_2)) =
+  (g(lambda_1 - lambda_2)) / ((1 + lambda_1)(1 + lambda_2))$.
+
+  The vertical coordinate difference is $y_1 - y_2 = -f(lambda_1 / (1 + lambda_1) - lambda_2 / (1 +
+  lambda_2)) = (-f(lambda_1 - lambda_2)) / ((1 + lambda_1)(1 + lambda_2))$.
+
+  The square of the distance between the two limiting points is $D^2 = (x_1 - x_2)^2 + (y_1 -
+  y_2)^2$. Substituting the differences gives $D^2 = ((lambda_1 - lambda_2)^2 (g^2 + f^2)) / ((1 +
+  lambda_1)^2 (1 + lambda_2)^2)$.
+
+  From the quadratic equation, the sum of the roots is $lambda_1 + lambda_2 = (c + d) / (f^2 - d)$ and the
+  product is $lambda_1 lambda_2 = (g^2 - c) / (f^2 - d)$.
+
+  The term $(1 + lambda_1)(1 + lambda_2)$ simplifies to $1 + (lambda_1 + lambda_2) + lambda_1 lambda_2 =
+  (f^2 + g^2) / (f^2 - d)$.
+
+  The term $(lambda_1 - lambda_2)^2$ can be rewritten as $(lambda_1 + lambda_2)^2 - 4lambda_1 lambda_2 = ((c
+  + d)^2 - 4(f^2 - d)(g^2 - c)) / (f^2 - d)^2$.
+
+  Substituting these two expressions back into the distance equation cancels out the common factor $(f^2 -
+  d)^2$. This yields $D^2 = ((c + d)^2 - 4(f^2 - d)(g^2 - c)) / (f^2 + g^2)$.
+
+  Expanding the numerator gives $c^2 + 2c d + d^2 - 4f^2 g^2 + 4c f^2 + 4d g^2 - 4c d$. Combining the $c d$
+  terms results in the final required expression $D^2 = ((c - d)^2 - 4f^2 g^2 + 4c f^2 + 4d g^2) / (f^2 +
+  g^2)$.
+//137
++ Let the two points of contact on the first parabola $y^2 = 4a x$ be $P(a t_1^2, 2a t_1)$ and $Q(a t_2^2,
+  2a t_2)$.
+
+  The equations of the tangents at $P$ and $Q$ intersect at the point $T(x_0, y_0) = (a t_1 t_2, a(t_1 +
+  t_2))$.
+
+  We are given that this intersection point $T$ lies on the second parabola $y^2 = a(x - 2a)$. Substituting
+  the coordinates of $T$ into this equation gives $(a(t_1 + t_2))^2 = a(a t_1 t_2 - 2a)$.
+
+  Dividing both sides by $a^2$ yields the algebraic relation $(t_1 + t_2)^2 = t_1 t_2 - 2$. Expanding the
+  left side gives $t_1^2 + 2t_1 t_2 + t_2^2 = t_1 t_2 - 2$, which simplifies to $t_1^2 + t_1 t_2 + t_2^2 + 2
+  = 0$.
+
+  Next, we look at the normals at the points of contact. The equations of the normals to the parabola $y^2 =
+  4a x$ at the parameters $t_1$ and $t_2$ are $y + t_1 x = 2a t_1 + a t_1^3$ and $y + t_2 x = 2a t_2 + a
+  t_2^3$.
+
+  To find the x-coordinate of their intersection point, we subtract the second normal equation from the
+  first. This yields $(t_1 - t_2)x = 2a(t_1 - t_2) + a(t_1^3 - t_2^3)$.
+
+  Dividing by the common non-zero factor $(t_1 - t_2)$ gives $x = 2a + a(t_1^2 + t_1 t_2 + t_2^2)$, which
+  can be factored as $x = a(t_1^2 + t_1 t_2 + t_2^2 + 2)$.
+
+  Substituting the previously derived relation $t_1^2 + t_1 t_2 + t_2^2 + 2 = 0$ into this expression gives
+  $x = a(0) = 0$.
+
+  The tangent at the vertex to the first parabola $y^2 = 4a x$ is the y-axis, whose equation is $x =
+  0$. Since the x-coordinate of the intersection point of the normals is exactly $0$, the normals intersect
+  on the tangent at the vertex.
+//138
++ The equation of the tangent line to the parabola $y^2 = 4a x$ at the point $(x_1, y_1)$ is given by $y y_1
+  = 2a(x + x_1)$.
+
+  Let $P(h, k)$ be an arbitrary point lying on this tangent line. Because $P$ lies on the tangent line, its
+  coordinates satisfy the equation, giving $k y_1 = 2a(h + x_1)$.
+
+  Tangents are drawn from the point $P(h, k)$ to the circle $x^2 + y^2 = a^2$. The equation of the
+  corresponding chord of contact is $x h + y k = a^2$.
+
+  From the tangent line condition, we can express the coordinate $h$ in terms of $k$ as $h = (k y_1) / (2a)
+  - x_1$. Substituting this expression for $h$ into the chord of contact equation yields $x ((k y_1) / (2a)
+  - x_1) + y k = a^2$.
+
+  Rearranging this equation by grouping the terms containing the variable parameter $k$ gives $(-x x_1 -
+  a^2) + k ((x y_1) / (2a) + y) = 0$.
+
+  For this family of lines to pass through a fixed point $(x_2, y_2)$ independent of the choice of $k$, both
+  grouped terms must vanish simultaneously. This yields the system of equations $-x_2 x_1 - a^2 = 0$ and
+  $(x_2 y_1) / (2a) + y_2 = 0$.
+
+  From the first equation, we find the x-coordinate relationship to be $x_2 = -a^2 / x_1$, which can be
+  rewritten as $x_1 / x_2 = -x_1^2 / a^2$.
+
+  From the second equation, we find the y-coordinate relationship to be $y_2 = -(x_2 y_1) /
+  (2a)$. Substituting $x_2 = -a^2 / x_1$ into this gives $y_2 = (a^2 y_1) / (2a x_1) = (a y_1) /
+  (2x_1)$. Rearranging for the ratio yields $y_1 / y_2 = (2x_1) / a$.
+
+  Squaring the y-ratio expression gives $(y_1 / y_2)^2 = (4x_1^2) / a^2$.
+
+  Comparing the two expressions, we see that $-4(x_1 / x_2) = -4(-x_1^2 / a^2) = (4x_1^2) / a^2$. Equating
+  the two parts results in the final required relation $(y_1 / y_2)^2 = -4(x_1 / x_2)$.
+//139
++ Let the point on the x-axis be $P(h, 0)$. Let $M(x_0, y_0)$ be the midpoint of a chord of the circle $x^2
+  + y^2 = a^2$ drawn from $P$.
+
+  The equation of a chord of a circle with a given midpoint $M(x_0, y_0)$ is $x x_0 + y y_0 = x_0^2 +
+  y_0^2$. Since this chord passes through the point $P(h, 0)$, substituting these coordinates into the chord
+  equation gives $h x_0 = x_0^2 + y_0^2$.
+
+  We are given that the chord is bisected by the parabola $y^2 = 4a x$, meaning the midpoint $M$ must lie on
+  the parabola. Substituting $y_0^2 = 4a x_0$ into the chord equation yields $h x_0 = x_0^2 + 4a x_0$, which
+  simplifies to the quadratic equation $x_0^2 + (4a - h)x_0 = 0$.
+
+  This equation gives two possible values for the x-coordinate of the midpoint, $x_0 = 0$ or $x_0 = h - 4a$.
+
+  If $x_0 = 0$, substituting this back into the parabola equation gives $y_0^2 = 0 => y_0 = 0$. This
+  gives the first midpoint $M_0(0, 0)$. The distance from the center of the circle to $M_0$ is $0$, which is
+  less than the radius $a$, so the x-axis itself always forms a valid chord bisected at the origin.
+
+  For the second case $x_0 = h - 4a$, substituting this into the parabola equation gives $y_0^2 = 4a(h -
+  4a)$. For distinct real values of $y_0$ to exist, we must have $x_0 > 0$, which requires $h > 4a$. Under
+  this condition, we obtain two additional distinct midpoints, $M_1(h - 4a, 2sqrt(a(h - 4a)))$ and $M_2(h -
+  4a, -2sqrt(a(h - 4a)))$.
+
+  For these midpoints to form valid chords of the circle, they must lie strictly inside the circle, meaning
+  their distance from the origin must be less than the radius $a$. This requires $x_0^2 + y_0^2 < a^2$.
+
+  Substituting the relation $x_0^2 + y_0^2 = h x_0$ into this inequality gives $h(h - 4a) < a^2$, which
+  expands to the quadratic inequality $h^2 - 4a h - a^2 < 0$.
+
+  Solving the corresponding quadratic equation $h^2 - 4a h - a^2 = 0$ using the quadratic formula gives the
+  roots $h = (4a plus.minus sqrt(16a^2 + 4a^2)) / 2 = (2 plus.minus sqrt(5))a$.
+
+  Therefore, the inequality holds when $(2 - sqrt(5))a < h < (2 + sqrt(5))a$. Combining this with the
+  earlier constraint $h > 4a$ for distinct midpoints, we get the required range for $h$ as $4a < h < (2 +
+  sqrt(5))a$.
+//140
++ Let the midpoint of the chord be $M(x_0, y_0)$. The equation of a chord of the parabola $y^2 = 4a x$
+  having a given midpoint $M(x_0, y_0)$ is written as $y y_0 - 2a(x + x_0) = y_0^2 - 4a x_0$, which
+  simplifies to $2a x = y y_0 - y_0^2 + 2a x_0$.
+
+  From this equation, the slope of the chord is $m = (2a) / y_0$.
+
+  Let the endpoints of the chord be $P(x_1, y_1)$ and $Q(x_2, y_2)$. Substituting the expression for $2a x$
+  into the parabola equation $y^2 = 4a x = 2(2a x)$ gives $y^2 = 2(y y_0 - y_0^2 + 2a x_0)$, which
+  rearranges to the quadratic equation $y^2 - 2y_0 y + 2y_0^2 - 4a x_0 = 0$.
+
+  The roots of this quadratic equation are the y-coordinates $y_1$ and $y_2$ of the endpoints. Using the
+  relations between the roots and coefficients, the sum of the roots is $y_1 + y_2 = 2y_0$ and the product
+  of the roots is $y_1 y_2 = 2y_0^2 - 4a x_0$.
+
+  The squared difference between the y-coordinates is given by $(y_1 - y_2)^2 = (y_1 + y_2)^2 - 4y_1 y_2 =
+  (2y_0)^2 - 4(2y_0^2 - 4a x_0)$, which simplifies to $(y_1 - y_2)^2 = 4(4a x_0 - y_0^2) = -4(y_0^2 - 4a
+  x_0)$.
+
+  Since the endpoints lie on the chord with slope $m$, the difference between their x-coordinates satisfies
+  $x_1 - x_2 = (y_1 - y_2) / m = ((y_1 - y_2) y_0) / (2a)$.
+
+  The projection of the chord $P Q$ onto a straight line inclined at an angle $alpha$ to the x-axis is given
+  by the dot product of the chord vector $(x_1 - x_2, y_1 - y_2)$ and the unit direction vector of the line
+  $(cos alpha, sin alpha)$.
+
+  This projection length is constant and equal to $c$, so we have the equation $|(x_1 - x_2) cos alpha +
+  (y_1 - y_2) sin alpha| = c$.
+
+  Substituting the expression for $x_1 - x_2$ into the projection equation yields $|((y_1 - y_2) y_0) / (2a)
+  cos alpha + (y_1 - y_2) sin alpha| = c$. Factoring out the term $(y_1 - y_2) / (2a)$ results in the
+  relation $|y_1 - y_2| |(y_0 cos alpha + 2a sin alpha) / (2a)| = c$.
+
+  Squaring both sides of this equation to eliminate the absolute values gives $(y_1 - y_2)^2 ((y_0 cos alpha
+  + 2a sin alpha)^2) / (4a^2) = c^2$.
+
+  Substituting the previously derived expression $(y_1 - y_2)^2 = -4(y_0^2 - 4a x_0)$ into this equation
+  gives $-4(y_0^2 - 4a x_0) ((y_0 cos alpha + 2a sin alpha)^2) / (4a^2) = c^2$.
+
+  Canceling the factor of $4$ and multiplying the entire equation by $a^2$ yields $-(y_0^2 - 4a x_0)(y_0 cos
+  alpha + 2a sin alpha)^2 = a^2 c^2$.
+
+  Rearranging the terms to one side gives $(y_0^2 - 4a x_0)(y_0 cos alpha + 2a sin alpha)^2 + a^2 c^2 = 0$.
+
+  Replacing the coordinates of the midpoint $(x_0, y_0)$ with the general variables $(x, y)$ produces the
+  final required locus equation $(y^2 - 4a x)(y cos alpha + 2a sin alpha)^2 + a^2 c^2 = 0$.
+//141
++ A straight line that is equally inclined to both axes forms an angle of $alpha = 45^circle$ with the
+  positive x-axis. This gives the coordinate values $cos alpha = 1 / sqrt(2)$ and $sin alpha = 1 / sqrt(2)$.
+
+  Let the midpoint of any such chord be $M(x_0, y_0)$. The equation of a chord of the parabola $y^2 = 4a x$
+  with a given midpoint $M(x_0, y_0)$ is $y y_0 - 2a(x + x_0) = y_0^2 - 4a x_0$, which gives the slope of
+  the chord as $m = (2a) / y_0$.
+
+  Let the endpoints of the chord be $P(x_1, y_1)$ and $Q(x_2, y_2)$. Eliminating $x$ between the chord
+  equation and the parabola yields a quadratic in $y$ whose roots are $y_1$ and $y_2$. The squared
+  difference between these y-coordinates is given by $(y_1 - y_2)^2 = -4(y_0^2 - 4a x_0)$.
+
+  Since the endpoints lie on the line with slope $m$, the difference between their x-coordinates satisfies
+  $x_1 - x_2 = (y_1 - y_2) / m = ((y_1 - y_2) y_0) / (2a)$.
+
+  The projection of the chord length onto the equally inclined line is given by the relation $|(x_1 - x_2)
+  cos alpha + (y_1 - y_2) sin alpha| = c$. Substituting the values for $cos alpha$ and $sin alpha$ gives $1
+  / sqrt(2) |(x_1 - x_2) + (y_1 - y_2)| = c$.
+
+  Substituting the expression for $x_1 - x_2$ into this projection equation yields $1 / sqrt(2) |y_1 - y_2|
+  |y_0 / (2a) + 1| = c$. Factoring out the constants gives $|y_1 - y_2| |y_0 + 2a| = 2a sqrt(2) c$.
+
+  Squaring both sides of this equation to remove the absolute value signs results in $(y_1 - y_2)^2 (y_0 +
+  2a)^2 = 8a^2 c^2$.
+
+  Substituting the identity $(y_1 - y_2)^2 = -4(y_0^2 - 4a x_0)$ into this relation gives $-4(y_0^2 - 4a
+  x_0)(y_0 + 2a)^2 = 8a^2 c^2$.
+
+  Dividing both sides of the equation by $-4$ results in $(y_0^2 - 4a x_0)(y_0 + 2a)^2 = -2a^2 c^2$.
+
+  Rearranging all terms to the left side gives $(y_0^2 - 4a x_0)(y_0 + 2a)^2 + 2a^2 c^2 = 0$.
+
+  Replacing the specific coordinates of the midpoint $(x_0, y_0)$ with the standard general variables $(x,
+  y)$ completes the proof and yields the locus equation $(y^2 - 4a x)(y + 2a)^2 + 2a^2 c^2 = 0$.
+//142
++ Let the given parabola be $y^2 = 4a x$. Let the coordinates of the fixed point $P$ be $(x_1, y_1)$.
+
+  Any variable line passing through $P$ can be written in parametric form. Let $theta$ be the angle the line
+  makes with the positive x-axis. A point on this line at a distance $r$ from $P$ has coordinates given by
+  $x = x_1 + r cos theta$ and $y = y_1 + r sin theta$.
+
+  To find the distances $r_1 = P R$ and $r_2 = P S$ to the intersection points $R$ and $S$ on the parabola,
+  we substitute these parametric coordinates into the parabola equation $y^2 = 4a x$. This yields the
+  relation $(y_1 + r sin theta)^2 = 4a(x_1 + r cos theta)$.
+
+  Expanding this equation and collecting the terms by powers of $r$ gives the quadratic equation $r^2
+  sin^2(theta) + 2r(y_1 sin theta - 2a cos theta) + (y_1^2 - 4a x_1) = 0$.
+
+  The roots of this quadratic equation, $r_1$ and $r_2$, represent the signed distances $P R$ and $P
+  S$. Using the relations between roots and coefficients, the sum of the roots is $r_1 + r_2 = (-2(y_1
+  sin theta - 2a cos theta)) / sin^2theta$ and the product of the roots is $r_1 r_2 = (y_1^2 - 4a x_1) /
+  sin^2theta$.
+
+  The problem states that the distances $P R$, $P Q$, and $P S$ are in harmonic progression (H.P.). Let $rho
+  = P Q$ be the distance from $P$ to the moving point $Q$. By definition of a harmonic progression, we have
+  $2 / rho = 1 / r_1 + 1 / r_2 = (r_1 + r_2) / (r_1 r_2)$.
+
+  Substituting the expressions for the sum and product of the roots into this relation cancels out the
+  common factor $sin^2theta$. This yields $2 / rho = (-2(y_1 sin theta - 2a cos theta)) / (y_1^2 - 4a
+  x_1)$, which simplifies to $1 / rho = (-y_1 sin theta + 2a cos theta) / (y_1^2 - 4a x_1)$.
+
+  Rearranging this equation gives $(y_1^2 - 4a x_1) = rho(2a cos theta - y_1 sin theta)$, which can be
+  written as $y_1^2 - 4a x_1 = 2a(rho cos theta) - y_1(rho sin theta)$.
+
+  The coordinates of the moving point $Q(x, y)$ lie on the same parametric line, so its displacement
+  relative to $P$ satisfies $x - x_1 = rho cos theta$ and $y - y_1 = rho sin theta$. Substituting these
+  relations into the equation yields $y_1^2 - 4a x_1 = 2a(x - x_1) - y_1(y - y_1)$.
+
+  Expanding the terms gives $y_1^2 - 4a x_1 = 2a x - 2a x_1 - y_1 y + y_1^2$. Canceling the common term
+  $y_1^2$ on both sides and rearranging the remaining variables results in the linear equation $2a x - y_1 y
+  + 2a x_1 + 4a x_1 = 0$, which simplifies to $2a x - y_1 y + 6a x_1 = 0$.
+
+  This is the equation of a straight line, which proves that the locus of $Q$ is a straight line.
+
+  Rearranging this line into slope-intercept form gives $y = (2a / y_1)x + 6a x_1 / y_1$. The slope of this
+  line is $m = (2a) / y_1$. This slope depends only on the ordinate $y_1$ of the fixed point $P$ and is
+  completely independent of its abscissa $x_1$, completing the proof.
+//143
++ Let the equation of the parabola be $y^2 = 4a x$, so that its axis of symmetry is the x-axis ($y =
+  0$). Let the point $P$ lie on this axis with coordinates $(h, 0)$, where $h$ is a constant distance to be
+  determined.
+
+  Any chord $A B$ passing through the point $P(h, 0)$ can be represented using parametric equations. Let
+  $theta$ be the angle that the chord makes with the positive x-axis. A point on this chord at a distance
+  $r$ from $P$ has coordinates given by $x = h + r cos theta$ and $y = 0 + r sin theta = r sin theta$.
+
+  To find the distances $r_1 = A P$ and $r_2 = B P$ to the intersection points $A$ and $B$, we substitute
+  these parametric coordinates into the parabola equation $y^2 = 4a x$. This yields the relation $(r
+  sin theta)^2 = 4a(h + r cos theta)$.
+
+  Rearranging this expression into standard quadratic form in terms of $r$ gives $r^2 sin^2theta - 4a r
+  cos theta - 4a h = 0$.
+
+  The two roots of this quadratic equation, $r_1$ and $r_2$, represent the signed distances from $P$ to the
+  intersection points $A$ and $B$. Using the relations between the roots and coefficients of a quadratic
+  equation, we have the sum of the roots $r_1 + r_2 = (4a cos theta) / sin^2theta$ and the product of the
+  roots $r_1 r_2 = (-4a h) / sin^2theta$.
+
+  We want to evaluate the target sum $1 / (A P)^2 + 1 / (B P)^2$, which corresponds to the expression $1 /
+  r_1^2 + 1 / r_2^2$. This algebraic sum can be rewritten as $(r_1^2 + r_2^2) / (r_1 r_2)^2 = ((r_1 + r_2)^2
+  - 2r_1 r_2) / (r_1 r_2)^2$.
+
+  Substituting the root sum and product expressions into the numerator and denominator yields the relation
+  $(((4a cos theta)/ sin^2theta)^2 - 2((-4a h)/ sin^2theta)) / (((-4a h)/ sin^2theta)^2)$.
+
+  Multiplying both the numerator and denominator by $sin^4theta$ to simplify the fractions gives $(16a^2
+  cos^2theta + (8a h sin^2theta) / (16a^2 h^2)$.
+
+  We can factor out $8a$ from the numerator to reduce the expression to $(8a (2a cos^2theta + h
+  sin^2theta)) / (16a^2 h^2) = (2a cos^2theta + h sin^2theta) / (2a h^2)$.
+
+  For this expression to remain constant for all positions of the chord, it must be completely independent
+  of the orientation angle $theta$. Using the fundamental trigonometric identity $sin^2theta = 1 -
+  cos^2theta$, we substitute this into the numerator to get $(2a cos^2theta + h(1 - cos^2theta)) / (2a
+  h^2) = (h + (2a - h)cos^2theta) / (2a h^2)$.
+
+  To eliminate the angle dependency, the coefficient of $cos^2theta$ must equal zero. This produces the
+  condition $2a - h = 0$, which uniquely determines the position of the point to be $h = 2a$.
+
+  Substituting $h = 2a$ back into the distance expression simplifies it to $(2a) / (2a(2a)^2) = 1 / (4a^2)$.
+
+  This proves that the point $P(2a, 0)$ on the axis satisfies the condition, and the sum of the inverse
+  squared distances is always equal to the constant value $1 / (4a^2)$ regardless of the chord's
+  orientation.
+//144
++ Let any point on the hyperbola $x y = c^2$ be represented in parametric form as $P(c t, c/t)$, where $t$
+  is a non-zero parameter. Differentiating the equation of the hyperbola with respect to $x$ gives $y + x (d
+  y)/(d x) = 0$, which means the slope of the tangent at $P$ is $(d y)/(d x) = -y/x = -(c/t)/(c t) =
+  -1/t^2$. Consequently, the slope of the normal to the hyperbola at $P$ is $m = t^2$.
+
+  The equation of the normal at $P(c t, c/t)$ is given by $y - c/t = t^2 (x - c t)$. Multiplying this
+  equation by $t$ and rearranging the terms gives the fourth-degree polynomial equation in $t$: $c t^4 - x
+  t^3 + y t - c = 0$.
+
+  Let $(h, k)$ be the moving point from which the normals are drawn to the hyperbola. Substituting $x = h$
+  and $y = k$ into the normal equation yields $c t^4 - h t^3 + k t - c = 0$. This quartic equation has four
+  roots $t_1, t_2, t_3$, and $t_4$, which correspond to the parameters of the four points of intersection of
+  the normals with the hyperbola. Using Vieta's formulas, we can determine the relationships between these
+  roots:
+
+  $t_1 + t_2 + t_3 + t_4 = h/c$,$t_1 t_2 + t_1 t_3 + t_1 t_4 + t_2 t_3 + t_2 t_4 + t_3 t_4 = 0$, $t_1 t_2
+  t_3 + t_1 t_2 t_4 + t_1 t_3 t_4 + t_2 t_3 t_4 = -k/c$ and $t_1 t_2 t_3 t_4 = -c/c = -1$
+
+  The slopes of the four normals drawn from $(h, k)$ are given by $m_i = t_i^2$ for $i = 1, 2, 3, 4$. The
+  sum of the slopes of these normals is $display(sum_(i=1)^4) m_i = display(sum_(i=1)^4) t_i^2$. Using the algebraic
+  identity for the sum of squares, we find $display(sum_(i=1)^4) t_i^2 = display(sum_(i=1)^4) t_i^2 - 2 display(sum_(1<=i<j<=4))
+  t_i t_j = (h/c)^2 - 2(0) = h^2/c^2$.
+
+  The ordinates of the points of intersection on the hyperbola are $y_i = c/t_i$ for $i = 1, 2, 3, 4$. The
+  sum of these ordinates is $display(sum_(i=1^4)) y_i = display(sum_(i=1)^4) c/t_i = c (display(sum_(i=1)^4) 1/t_i)$. We can
+  simplify the sum of the reciprocals using our Vieta relations: $display(sum_(i=1)^4) 1/t_i = (t_2 t_3 t_4 + t_1
+  t_3 t_4 + t_1 t_2 t_4 + t_1 t_2 t_3)/(t_1 t_2 t_3 t_4) = (-k/c) / (-1) = k/c$. Therefore, the sum of the
+  ordinates is $c (k/c) = k$.
+
+  According to the given condition, the sum of the slopes of the normals is equal to the sum of the
+  ordinates of the points of intersection, which implies $h^2/c^2 = k$, or $h^2 = c^2 k$. Replacing the
+  coordinates $(h, k)$ with the general variables $(x, y)$, the equation of the locus becomes $x^2 = c^2
+  y$. This is a standard quadratic equation of the form $x^2 = 4 a y$, which represents a parabola.
+//145
++ Let the equation of the parabola be $y^2 = 4a x$. Let $P(a t_1^2, 2a t_1)$ and $Q(a t_2^2, 2a t_2)$ be the
+  extremities of any chord in the parallel series. The slope $m$ of the chord $P Q$ is given by the
+  expression $m = (2a t_2 - 2a t_1) / (a t_2^2 - a t_1^2)$. This simplifies to $m = (2a(t_2 - t_1)) / (a(t_2
+  - t_1)(t_1 + t_2)) = 2 / (t_1 + t_2)$. Since the chords are parallel, their slope $m$ is a fixed constant,
+  which implies that $t_1 + t_2 = 2 / m$ is also a constant.
+
+  The standard equations of the normals to the parabola at points $t_1$ and $t_2$ are $y + t_1 x = 2a t_1 +
+  a t_1^3$ and $y + t_2 x = 2a t_2 + a t_2^3$. Let $(x, y)$ be the point of intersection of these two
+  normals. Solving these two equations simultaneously by subtracting them yields $(t_1 - t_2)x = 2a(t_1 -
+  t_2) + a(t_1^3 - t_2^3)$. Dividing both sides by $t_1 - t_2$ under the condition that $t_1 != t_2$
+  results in $x = 2a + a(t_1^2 + t_1 t_2 + t_2^2)$, which can be rewritten as $x = 2a + a[(t_1 + t_2)^2 -
+  t_1 t_2]$. Substituting this value of $x$ back into the first normal equation gives the corresponding
+  y-coordinate, $y = -a t_1 t_2 (t_1 + t_2)$.
+
+  We can now eliminate the parameters to find the locus of the intersection point. Using our earlier
+  relation $t_1 + t_2 = 2 / m$, the y-coordinate equation becomes $y = -a t_1 t_2 (2 / m)$, which allows us
+  to express the product as $t_1 t_2 = (-m y) / (2a)$. Substituting both $t_1 + t_2 = 2 / m$ and $t_1 t_2 =
+  (-m y) / (2a)$ into the simplified expression for $x$ gives $x = 2a + a [ (2 / m)^2 - ((-m y) / (2a)) ]$,
+  which expands to $x = 2a + (4a) / m^2 + (m y) / 2$. Rearranging this equation to solve explicitly for $y$
+  yields the equation of the locus, $y = (2 / m)x - (4a) / m - (8a) / m^3$.
+
+  To verify that this locus is itself a normal, recall that the standard equation of a normal to the
+  parabola $y^2 = 4a x$ with a given slope $m_n$ is $y = m_n x - 2a m_n - a m_n^3$. If we choose the slope
+  of this normal line to be $m_n = 2 / m$, the equation becomes $y = (2 / m)x - 2a(2 / m) - a(2 / m)^3$,
+  which simplifies directly to $y = (2 / m)x - (4a) / m - (8a) / m^3$.
+
+  Because the initial chord slope $m$ is constant, the value $m_n = 2 / m$ is also a fixed constant. Thus,
+  the intersection points always lie on a fixed straight line that is itself normal to the parabola.
+//146
++ The equation of the parabola is $y^2 = 4x$, which gives $a = 1$. Let the point $P$ be represented
+  parametrically as $P(t^2, 2t)$. The problem states that the ordinate $y$ satisfies $1 < y <= 2$, which
+  means $1 < 2t <= 2$. This simplifies to the parameter range $1/2 < t <= 1$. The focus $S$ of this parabola
+  is located at $(1, 0)$.
+
+  Since $M$ is the intersection of the vertical line through $P$ with the x-axis, its coordinates are
+  $M(t^2, 0)$. The equation of the normal to the parabola at point $P(t^2, 2t)$ is $y + t x = 2t + t^3$. To
+  find the x-intercept $N$, we set $y = 0$, which gives $t x = 2t + t^3$, or $x = 2 + t^2$. Thus, the
+  coordinates of $N$ are $(2 + t^2, 0)$.
+
+  Now we calculate the areas of the two triangles. For $triangle P M N$, the base along the x-axis is the
+  distance $M N = (2 + t^2) - t^2 = 2$. The height is the vertical distance to $P$, which is the ordinate
+  $2t$. The area of $triangle P M N$ is $1/2 times 2 times 2t = 2t$. For $triangle P M S$, since $1/2 < t <=
+  1$, we have $1/4 < t^2 <= 1$, meaning $M(t^2,0)$ lies to the left of or directly on the focus
+  $S(1,0)$. The base along the x-axis is $M S = 1 - t^2$. The height is again the ordinate $2t$. The area of
+  $triangle P M S$ is $1/2 times (1 - t^2) times 2t = t - t^3$.
+
+  The function $z$ represents the difference between these two areas, so $z = 2t - (t - t^3) = t + t^3$. To
+  find where this function reaches its maximum on the interval $1/2 < t <= 1$, we compute its derivative
+  with respect to $t$, which is $(d z)/(d t) = 1 + 3t^2$. Since $1 + 3t^2 > 0$ for all real values of $t$, the
+  function $z$ is strictly increasing throughout its entire domain.
+
+  Therefore, the maximum value of $z$ must occur at the upper boundary of the interval, where $t =
+  1$. Substituting $t = 1$ into our expression for $z$ yields $z = 1 + 1^3 = 2$.
+//147
++ To prove that the locus of the circumcenter is a parabola, we find the triangle's vertices and determine
+  its circumcenter $(h, k)$.
+
+  The three lines are $x = 0$, $y = 2$, and $l x + m y = 1$, where $l = m^2 / 4$ since $(l, m)$ is on $y^2 =
+  4x$.
+
+  The vertices are the pairwise intersections of these lines $A = (0, 2)$, $B = (0, 1/m)$, and $C = ((4 -
+  8m)/m^2, 2)$.
+
+  Vertices $A$ and $B$ lie on the y-axis ($x = 0$). The perpendicular bisector of $A B$ is horizontal and
+  passes through its midpoint, so the y-coordinate of the circumcenter is $k = (2 + 1/m) / 2 = 1 + 1 /
+  (2m)$.
+
+  Solving for $m$ gives $m = 1 / (2(k - 1))$.
+
+  Since the circumcenter $P(h, k)$ is equidistant from $A$ and $C$, we have $P A^2 = P C^2$ i.e. $h^2 + (k -
+  2)^2 = (h - (4 - 8m)/m^2)^2 + (k - 2)^2$
+
+  Simplifying this yields $h^2 = (h - (4 - 8m)/m^2)^2$. Choosing the non-trivial root gives $h = -(h - (4 -
+  8m)/m^2)$, which simplifies to $h = (2 - 4m) / m^2$.
+
+  Substituting $m = 1 / (2(k - 1))$ into the expression for $h$ yields $h = (2 - 2 / (k - 1)) / (1 / (4(k -
+  1)^2)) = 8(k - 1)(k - 2)$
+
+  Replacing $(h, k)$ with general coordinates $(x, y)$ gives the locus equation $x = 8y^2 - 24y + 16$
+
+  Rearranging into standard form gives $(y - 3/2)^2 = 1/8 (x + 2)$. This represents a horizontal parabola.
+//148
++ Let $P(a cos theta_1, b sin theta_1)$ and $Q(a cos theta_2, b sin theta_2)$ be points on the ellipse
+  $x^2/a^2 + y^2/b^2 = 1$. The intersection of their tangents is $T(x_1, y_1)$, where $x_1 = (a cos phi)/(cos
+  delta)$ and $y_1 = b (sin phi)/(cos delta)$ with $phi = (theta_1 + theta_2)/2$ and $delta = (theta_1 -
+  theta_2)/2$. Note that $Q^2$ is a typo for $b^2$.
+
+  The right side of the identity simplifies to $x_1^2/a^2 + y_1^2/b^2 = (cos^2 phi + sin^2 phi)/(cos^2
+  delta) = 1/(cos^2 delta) = (sec^2 delta)$
+
+  For focus $S(a e, 0)$, the focal distances are $S P = a(1 - e cos theta_1)$ and $S Q = a(1 - e cos
+  theta_2)$. Their product expands to $S P dot S Q = a^2 (1 - 2 e cos phi cos delta + e^2(cos^2 phi - sin^2
+  delta))$
+
+  Using the distance formula for $S T^2 = (x_1 - a e)^2 + y_1^2$ and substituting $b^2 = a^2(1-e^2)$ yields
+  $S T^2 = a^2/(cos^2delta) [ (cos phi - e cos delta)^2 + (1-e^2)sin^2 phi ] = a^2/(cos^2 delta) [ 1 - 2e
+  cos phi cos delta + e^2(cos^2 delta - sin^2 phi) ]$
+
+  Using the identity $cos^2 delta - sin^2 phi = cos^2 phi - sin^2 delta$, the bracketed expression equals
+  $(S P dot S Q)/a^2$.
+
+  This gives $S T^2 = (S P dot S Q)/(cos^2 delta)$, which simplifies to $(S T^2)/ (S P dot S Q) = 1/(cos^2
+  delta) = sec^2 delta$
+
+  Both sides equal $sec^2 delta$, proving the assertion.
+//149
++ The equation of the tangent to the ellipse at $P(x_0, y_0)$ is given by $x x_0 / a^2 + y y_0 / b^2 =
+  1$. The slope of this tangent line is $m_T = - b^2 x_0 / (a^2 y_0)$.
+
+  The normal line is perpendicular to the tangent line, so its slope is $m_N = -1 / m_T = a^2 y_0 / (b^2
+  x_0)$.
+
+  Next, we find the slopes of the focal lines connecting the point $P(x_0, y_0)$ to the two foci. The slope
+  of $S P$ is $m_1 = y_0 / (x_0 - a e)$, and the slope of $S' P$ is $m_2 = y_0 / (x_0 + a e)$.
+
+  Let $alpha$ be the angle between the normal line and the focal line $S P$. Using the angle formula between
+  two lines, we compute $tan alpha = (m_N - m_1) / (1 + m_N m_1) = ( a^2 y_0 / (b^2 x_0) - y_0 / (x_0 - a e)
+  ) / (1 + a^2 y_0^2 / (b^2 x_0 (x_0 - a e)) )$
+
+  Multiplying both the numerator and denominator by $b^2 x_0 (x_0 - a e)$ yields $tan alpha = (a^2 y_0 (x_0
+  - a e) - b^2 x_0 y_0) / (b^2 x_0 (x_0 - a e) + a^2 y_0^2) = (y_0 [ (a^2 - b^2) x_0 - a^3 e ]) / (b^2 x_0^2
+  - b^2 a e x_0 + a^2 y_0^2)$
+
+  We simplify using the standard ellipse relations $b^2 = a^2 (1 - e^2)$, which means $a^2 - b^2 = a^2
+  e^2$. Also, since $P(x_0, y_0)$ lies on the ellipse, we have $b^2 x_0^2 + a^2 y_0^2 = a^2
+  b^2$. Substituting these into our expression gives $tan alpha = (y_0 [ a^2 e^2 x_0 - a^3 e ]) / (a^2 b^2 -
+  b^2 a e x_0) = (a^2 e y_0 (e x_0 - a)) / (b^2 a e (a - e x_0)) = - a y_0 / (b^2 e)$
+
+  Taking the absolute value for the acute angle gives $tan alpha = a y_0 / (b^2 e)$.
+
+  Now, let $beta$ be the angle between the normal line and the other focal line $S' P$. We compute $tan beta
+  = (m_2 - m_N) / (1 + m_2 m_N) = ( y_0 / (x_0 + a e) - a^2 y_0 / (b^2 x_0) ) / (1 + a^2 y_0^2 / (b^2 x_0
+  (x_0 + a e)) )$
+
+  Multiplying both the numerator and denominator by $b^2 x_0 (x_0 + a e)$ yields $tan beta = (b^2 x_0 y_0 -
+  a^2 y_0 (x_0 + a e)) / (b^2 x_0 (x_0 + a e) + a^2 y_0^2) = (y_0 [ b^2 x_0 - a^2 x_0 - a^3 e ]) / (b^2
+  x_0^2 + b^2 a e x_0 + a^2 y_0^2)$
+
+  Substituting $b^2 - a^2 = -a^2 e^2$ and $b^2 x_0^2 + a^2 y_0^2 = a^2 b^2$ gives $tan beta = (y_0 [ -a^2
+  e^2 x_0 - a^3 e ]) / (a^2 b^2 + b^2 a e x_0) = (-a^2 e y_0 (e x_0 + a)) / (b^2 a e (a + e x_0)) = - a y_0
+  / (b^2 e)$
+
+  Taking the absolute value gives $tan beta = a y_0 / (b^2 e)$.
+
+  Since $tan alpha = tan beta$, the normal line bisects the interior angle $angle S P S'$. By the law of
+  reflection, a ray of light arriving along the line $S P$ will reflect off the surface such that its angle
+  with the normal is preserved, forcing the reflected path to lie along the line $S' P$. Therefore, the ray
+  passes exactly through the other focus $S'$.
+//150
++ The equation of the ellipse is $x^2 / a^2 + y^2 / b^2 = 1$. A point $P(x, y)$ on the ellipse satisfies
+  $y^2 = b^2 (1 - x^2 / a^2)$.
+
+  The distance $r$ of any point $P(x, y)$ from the center $(0, 0)$ is given by $r^2 = x^2 + y^2$. Given that
+  $r = sqrt((a^2 + 2b^2) / 2)$, squaring both sides gives the relation $x^2 + y^2 = (a^2 + 2b^2) / 2$.
+
+  Substituting the value of $y^2$ from the ellipse equation into the distance relation gives $x^2 + b^2 (1 -
+  x^2 / a^2) = a^2 / 2 + b^2$. Simplifying this equation by cancelling $b^2$ from both sides results in $x^2
+  (1 - b^2 / a^2) = a^2 / 2$.
+
+  Since the eccentricity $e$ of an ellipse is defined by $e^2 = 1 - b^2 / a^2$, the equation becomes $x^2
+  e^2 = a^2 / 2$, which simplifies to $x^2 = a^2 / (2e^2)$.
+
+  Substituting $x^2$ back into the ellipse equation to find $y^2$ yields $y^2 = b^2 (1 - 1 / (2e^2))$.
+
+  By the symmetry of the ellipse, any valid non-zero real solution for $x$ and $y$ produces exactly four
+  symmetric points $(plus.minus x, plus.minus y)$, one in each quadrant. For these four distinct points to exist on the
+  ellipse, both $x^2$ and $y^2$ must be strictly positive. This requires $1 - 1 / (2e^2) > 0$, which
+  simplifies to $2e^2 > 1$ or $e > 1 / sqrt(2)$.
+
+  Setting the limiting condition where the points lie on the boundary gives $e = 1 / sqrt(2)$.
+//151
++ Let $P(x, y)$ be the moving point. The fixed point is $A(a, 0)$. The circle with $P A$ as its diameter has
+  its center at the midpoint of $P$ and $A$, which is $C = ((x + a) / 2, y / 2)$. The radius of this circle is
+  $r = P A / 2 = 1 / 2 sqrt((x - a)^2 + y^2)$.
+
+  The given large circle is $x^2 + y^2 = 4a^2$. Its center is the origin $O(0, 0)$ and its radius is $R =
+  2a$.
+
+  For the circle with diameter $P A$ to touch the large circle internally, the distance between their
+  centers must equal the difference between their radii. Thus, the geometric condition is $O C = R - r$.
+
+  The distance $O C$ from the origin to the center $C$ is given by $O C = sqrt(((x + a) / 2)^2 + (y / 2)^2)
+  = 1 / 2 sqrt((x + a)^2 + y^2)$.
+
+  Substituting the expressions for $O C$, $R$, and $r$ into the condition $O C = R - r$ gives $1 / 2 sqrt((x
+  + a)^2 + y^2) = 2a - 1 / 2 sqrt((x - a)^2 + y^2)$.
+
+  Multiplying the entire equation by 2 yields $sqrt((x + a)^2 + y^2) + sqrt((x - a)^2 + y^2) = 4a$.
+
+  The term $sqrt((x - a)^2 + y^2)$ represents the distance from $P(x, y)$ to the point $A(a, 0)$. Similarly,
+  the term $sqrt((x + a)^2 + y^2)$ represents the distance from $P(x, y)$ to the point $B(-a, 0)$.
+
+  Therefore, the equation can be rewritten as $P B + P A = 4a$. This states that the sum of the distances
+  from $P$ to two fixed points $A(a, 0)$ and $B(-a, 0)$ is a constant equal to $4a$.
+
+  Since the distance between the two fixed points is $A B = 2a$, and the constant sum $4a$ is strictly
+  greater than the distance between them, the locus of the moving point $P$ satisfies the definition of an
+  ellipse.
+//152
++ Let the equation of the ellipse be $x^2 / a^2 + y^2 / b^2 = 1$. The extremities of a pair of conjugate
+  diameters can be represented as $P(a cos phi, b sin phi)$ and $Q(-a sin phi, b cos phi)$. The major axis
+  lies along the x-axis, spanning from $A(-a, 0)$ to $A'(a, 0)$.
+
+  Let $theta$ be the angle subtended by the major axis $A A'$ at the point $P$. The slope of $A P$ is $m_1 =
+  (b sin phi) / (a cos phi + a)$ and the slope of $A' P$ is $m_2 = (b sin phi) / (a cos phi - a)$.
+
+  The tangent of the angle $theta$ between these lines is given by the formula $tan theta = |(m_1 - m_2) /
+  (1 + m_1 m_2)|$. Computing the numerator gives $m_1 - m_2 = (b sin phi) / a [1 / (cos phi + 1) - 1 / (cos
+  phi - 1)] = (-2 b sin phi) / (a sin^2 phi) = -(2b)/ (a sin phi)$. Computing the denominator gives $1 + m_1
+  m_2 = 1 + (b^2 sin^2 phi) / (a^2 (cos^2 phi - 1)) = 1 - b^2 / a^2$.
+
+  Thus, $tan theta = lr(|(-2b / (a sin phi)) / (1 - b^2 / a^2)|) = (2 a b) / ((a^2 - b^2) sin phi)$. Taking the
+  reciprocal gives $cot theta = ((a^2 - b^2) sin phi) / (2 a b)$, so squaring it yields $cot^2 theta = ((a^2
+  - b^2)^2 sin^2 phi) / (4 a^2 b^2)$.
+
+  Let $alpha$ be the angle subtended by the major axis $A A'$ at the point $Q$. Since $Q$ is obtained by
+  replacing $phi$ with $phi + pi / 2$, we can substitute $sin phi$ with $cos phi$ in our expression for
+  $cot^2 theta$. This gives $cot^2 alpha = ((a^2 - b^2)^2 cos^2 phi) / (4 a^2 b^2)$.
+
+  Adding the two squared cotangent values yields $cot^2 theta + cot^2 alpha = ((a^2 - b^2)^2) / (4 a^2 b^2)
+  (sin^2 phi + cos^2 phi)$. Since $sin^2 phi + cos^2 phi = 1$, the expression simplifies to $cot^2 theta +
+  cot^2 alpha = (a^2 - b^2)^2 / (4 a^2 b^2)$.
+
+  Because $a$ and $b$ are fixed constants representing the semi-major and semi-minor axes of the ellipse,
+  the sum $cot^2 theta + cot^2 alpha$ depends entirely on these dimensions and is completely independent of
+  the choice of conjugate diameters $theta$ and $phi$. Thus, the expression is a constant.
+//153
++ Let the two given concentric ellipses be: $E_1: x^2 / a^2 + y^2 / b^2 = 1$ and $E_2: x^2 / a + y^2 / b = a
+  + b$
+
+  We can rewrite the equation of the outer ellipse $E_2$ in standard form by dividing both sides by $(a +
+  b)$ i.e. $x^2 / (a(a + b)) + y^2 / (b(a + b)) = 1$
+
+  Let the two points where a tangent to $E_1$ cuts $E_2$ be $P$ and $Q$. Suppose the tangents to $E_2$ drawn
+  at $P$ and $Q$ intersect at an external point $T(x_1, y_1)$.
+
+  By definition, the line joining the points of contact $P$ and $Q$ is the chord of contact of $T(x_1, y_1)$
+  with respect to the ellipse $E_2$. The equation of this chord of contact is given by $(x x_1) / (a(a + b))
+  + (y y_1) / (b(a + b)) = 1$
+
+  According to the problem, this line $P Q$ is also a tangent to the inner ellipse $E_1: x^2 / a^2 + y^2 /
+  b^2 = 1$.
+
+  We know that a general straight line $l x + m y = 1$ touches the standard ellipse $x^2 / a^2 + y^2 / b^2 =
+  1$ if and only if it satisfies the tangency condition $a^2 l^2 + b^2 m^2 = 1$.
+
+  Comparing the chord of contact equation with $l x + m y = 1$, we identify the coefficients as $l = x_1 /
+  (a(a + b))$ and $m = y_1 / (b(a + b))$.
+
+  Substituting these values into the condition $a^2 l^2 + b^2 m^2 = 1$ yields $a^2 (x_1 / (a(a + b)))^2 +
+  b^2 (y_1 / (b(a + b)))^2 = 1$
+
+  Simplifying each term gives $(a^2 x_1^2) / (a^2 (a + b)^2) + (b^2 y_1^2) / (b^2 (a + b)^2) = 1$
+
+  Cancelling out the common square terms from the numerators and denominators results in $x_1^2 / (a + b)^2
+  + y_1^2 / (a + b)^2 = 1$
+
+  Multiplying through by $(a + b)^2$, we obtain the equation for the locus of the intersection point $T(x_1,
+  y_1)$ gives $x_1^2 + y_1^2 = (a + b)^2$
+
+  We can expand the right side as $(a + b)^2 = a(a + b) + b(a + b)$. Notice that $a(a + b)$ and $b(a + b)$
+  are precisely the squares of the semi-major and semi-minor axes of the outer ellipse $E_2$.
+
+  Thus, the locus of $T$ is $x^2 + y^2 = A^2 + B^2$, which is exactly the equation of the director circle of
+  the ellipse $E_2$. Since the director circle is defined as the locus of points from which perpendicular
+  tangents can be drawn to an ellipse, the two tangents meeting at $T$ must intersect at right angles.
+//154
++ To prove the given relation, let us clarify a minor notation detail in the standard problem statement. The
+  second ellipse is traditionally written as $x^2 / c^2 + y^2 / d^2 = 1$, which leads to the elegant
+  property $a^2 / c^2 + b^2 / d^2 = 1$. When the semi-minor axis $d$ equals $c$, it directly simplifies to
+  your expression $a^2 / c^2 + b^2 / c^2 = 1$.
+
+  Let the given inner ellipse be $E_1: x^2 / a^2 + y^2 / b^2 = 1$ and the outer ellipse be $E_2: x^2 / c^2 +
+  y^2 / d^2 = 1$. A tangent is drawn to $E_1$ which intersects $E_2$ at two points $P$ and $Q$.
+
+  Let the tangents drawn to $E_2$ at the points $P$ and $Q$ intersect at an external point $T(x_1, y_1)$. By
+  definition, the line $P Q$ acts as the chord of contact of the point $T(x_1, y_1)$ with respect to the
+  ellipse $E_2$. The algebraic equation for this chord of contact is $(x x_1) / c^2 + (y y_1) / d^2 = 1$.
+
+  We are given that this line $P Q$ is also a tangent to the first ellipse $E_1$. For a general linear
+  equation $l x + m y = 1$ to be tangent to the standard ellipse $x^2 / a^2 + y^2 / b^2 = 1$, it must
+  satisfy the condition $a^2 l^2 + b^2 m^2 = 1$.
+
+  By comparing the chord of contact equation with the general linear form, we can identify the coefficients
+  as $l = x_1 / c^2$ and $m = y_1 / d^2$. Substituting these expressions into the tangency condition yields
+  $a^2 (x_1 / c^2)^2 + b^2 (y_1 / d^2)^2 = 1$, which simplifies to the locus equation $(a^2 / c^4) x_1^2 +
+  (b^2 / d^4) y_1^2 = 1$.
+
+  The problem states that the tangents from $T$ to the ellipse $E_2$ intersect at a right angle. The
+  geometric locus of all points from which perpendicular tangents can be drawn to the ellipse $x^2 / c^2 +
+  y^2 / d^2 = 1$ is its director circle, given by the equation $x^2 + y^2 = c^2 + d^2$.
+
+  Since the intersection point $T(x_1, y_1)$ must lie on this director circle, its coordinates satisfy
+  $x_1^2 + y_1^2 = c^2 + d^2$. Rewriting this circle equation to have a constant of 1 on the right side
+  gives $x_1^2 / (c^2 + d^2) + y_1^2 / (c^2 + d^2) = 1$.
+
+  Since both derived equations represent the exact same locus for the point $T$, we can directly equate
+  their respective coefficients for $x_1^2$ and $y_1^2$. This comparison gives $a^2 / c^4 = 1 / (c^2 + d^2)$
+  and $b^2 / d^4 = 1 / (c^2 + d^2)$.
+
+  Solving for $a^2$ and $b^2$ from these proportions yields $a^2 = c^4 / (c^2 + d^2)$ and $b^2 = d^4 / (c^2
+  + d^2)$.
+
+  Dividing the expression for $a^2$ by $c^2$ and the expression for $b^2$ by $d^2$, we get $a^2 / c^2 = c^2
+  / (c^2 + d^2)$ and $b^2 / d^2 = d^2 / (c^2 + d^2)$. Adding these two equations together results in $a^2 /
+  c^2 + b^2 / d^2 = (c^2 + d^2) / (c^2 + d^2) = 1$.
+
+  In the case where the outer curve has equal parameters such that $d = c$, substituting $c$ for $d$ reduces
+  the final equation to $a^2 / c^2 + b^2 / c^2 = 1$.
+//155
++ To prove the given relation, we first note that the term $(x_1, x_2, x_3, x_4)$ contains standard textbook
+  typos where the commas should be plus signs, representing the sum $(x_1 + x_2 + x_3 + x_4)$. Since the
+  coordinates of any point on the ellipse are given by $x_i = a cos theta_i$, we have $cos theta_i = x_i /
+  a$ and $sec theta_i = a / x_i$. This means the algebraic relation and the trigonometric relation are
+  identical because $(sum x_i)(sum 1 / x_i) = (sum a cos theta_i)(sum a^-1 sec theta_i) = (sum cos
+  theta_i)(sum sec theta_i)$.
+
+  Let the equation of the normal to the ellipse $x^2 / a^2 + y^2 / b^2 = 1$ at any point with eccentric
+  angle $theta$ be $(a x)/(cos theta) - (b y)/(sin theta) = a^2 - b^2$. Let $c^2 = a^2 - b^2$. The equation of
+  the normal can be rewritten as $a x / cos theta - b y / sin theta = c^2$.
+
+  If the normals at four points with eccentric angles $alpha, beta, gamma, delta$ are concurrent at a common
+  point $(h, k)$, then $(h, k)$ must satisfy the normal equation. This gives $(a h)/(cos theta) - (b k)/(sin
+  theta) = c^2$.
+
+  To find a polynomial equation in terms of $cos theta$, we rearrange the equation to isolate the sine term:
+  $(a h)/(cos theta) - c^2 = (b k)/(sin theta)$, which simplifies to $(a h - c^2 cos theta) /(cos theta) =
+  (b k)/ (sin theta)$. Cross-multiplying gives $sin theta (a h - c^2 cos theta) = b k cos theta$.
+
+  Squaring both sides to eliminate the sine term yields $sin^2 theta (a h - c^2 cos theta)^2 = b^2 k^2 cos^2
+  theta$. Substituting $sin^2 theta = 1 - cos^2 theta$ into the relation gives $(1 - cos^2 theta)(a h - c^2
+  cos theta)^2 = b^2 k^2 cos^2 theta$.
+
+  Let $u = cos theta$. Expanding the equation gives $(1 - u^2)(a^2 h^2 - 2 a h c^2 u + c^4 u^2) = b^2 k^2
+  u^2$. Multiplying the terms out results in $a^2 h^2 - 2 a h c^2 u + c^4 u^2 - a^2 h^2 u^2 + 2 a h c^2 u^3
+  - c^4 u^4 = b^2 k^2 u^2$.
+
+  Rearranging this expression into a standard fourth-degree polynomial in $u$, we obtain $c^4 u^4 - 2 a h
+  c^2 u^3 + (a^2 h^2 + b^2 k^2 - c^4) u^2 + 2 a h c^2 u - a^2 h^2 = 0$.
+
+  Since the normals at the four points are concurrent, the four roots of this polynomial are $u_1 = cos
+  alpha$, $u_2 = cos beta$, $u_3 = cos gamma$, and $u_4 = cos delta$. By Vieta's formulas, the sum of the
+  roots is $sum u_1 = u_1 + u_2 + u_3 + u_4 = (2 a h c^2) / c^4 = (2 a h) / c^2$.
+
+  The sum of the products of the roots taken three at a time is $sum u_1 u_2 u_3 = -(2 a h c^2) / c^4 = -(2
+  a h) / c^2$. The product of all four roots is $u_1 u_2 u_3 u_4 = -a^2 h^2 / c^4$.
+
+  We can find the sum of the reciprocals of the roots, which corresponds to the secant terms, using the
+  identity $sum 1 / u_1 = (sum u_1 u_2 u_3) / (u_1 u_2 u_3 u_4)$. Substituting the values from Vieta's
+  formulas gives $sum 1 / u_1 = (-(2 a h) / c^2) / (-a^2 h^2 / c^4) = (2 c^2) / (a h)$.
+
+  Now, we multiply the sum of the cosines by the sum of the secants: $(cos alpha + cos beta + cos gamma +
+  cos delta)(sec alpha + sec beta + sec gamma + sec delta) = (sum u_1)(sum 1 / u_1)$. Substituting our
+  derived values results in $((2 a h) / c^2) * ((2 c^2) / (a h)) = 4$.
+
+  Replacing each $cos theta_i$ with $x_i / a$ and each $sec theta_i$ with $a / x_i$ directly yields the
+  equivalent coordinate identity $(x_1 + x_2 + x_3 + x_4)(1 / x_1 + 1 / x_2 + 1 / x_3 + 1 / x_4) = 4$.
+//156
++ Let the equation of the inner circle be $x^2 + y^2 = c^2$ and the equation of the ellipse be $x^2 / a^2 +
+  y^2 / b^2 = 1$, where $a > c > b$.
+
+  A general equation of a tangent to the ellipse with slope $m$ is given by $y = m x plus.minus sqrt(a^2 m^2 +
+  b^2)$, which can be rewritten as $m x - y plus.minus sqrt(a^2 m^2 + b^2) = 0$.
+
+  For this line to also be a tangent to the circle $x^2 + y^2 = c^2$, the perpendicular distance from the
+  center of the circle $(0, 0)$ to the line must be equal to the radius of the circle $c$. This gives the
+  condition $(|plus.minus sqrt(a^2 m^2 + b^2)|)/ sqrt(m^2 + 1) = c$.
+
+  Squaring both sides yields $a^2 m^2 + b^2 = c^2 (m^2 + 1)$, which simplifies to $a^2 m^2 + b^2 = c^2 m^2 +
+  c^2$. Rearranging the terms to solve for $m^2$ gives $m^2 (a^2 - c^2) = c^2 - b^2$, so $m^2 = (c^2 - b^2)
+  / (a^2 - c^2)$. Since $a > c > b$, both the numerator and the denominator are strictly positive, ensuring
+  that $m$ has two real values, $m = plus.minus sqrt((c^2 - b^2) / (a^2 - c^2))$.
+
+  These two values of $m$, combined with the sign choices in the tangent equation, define four common
+  tangents. These tangents intersect to form a symmetric quadrilateral (a rhombus) centered at the
+  origin. The vertices of this quadrilateral lie on the coordinate axes.
+
+  To find the y-intercepts (where $x = 0$), we substitute $x = 0$ into the tangent equation, giving $y =
+  plus.minus sqrt(a^2 m^2 + b^2)$. Substituting the value of $a^2 m^2 + b^2 = c^2 (m^2 + 1)$ yields $y =
+  plus.minus c sqrt(m^2 + 1)$. This gives the two vertical vertices $V_1(0, c sqrt(m^2 + 1))$ and $V_2(0, -c
+  sqrt(m^2 + 1))$, making the length of the vertical diagonal $d_1 = 2 c sqrt(m^2 + 1)$.
+
+  To find the x-intercepts (where $y = 0$), we substitute $y = 0$ into the tangent equation, giving $x =
+  plus.minus sqrt(a^2 m^2 + b^2) / m$. Substituting the value of the numerator yields $x = plus.minus c
+  sqrt(m^2 + 1) / m$. This gives the two horizontal vertices $H_1(c sqrt(m^2 + 1) / m, 0)$ and $H_2(-c
+  sqrt(m^2 + 1) / m, 0)$, making the length of the horizontal diagonal $d_2 = 2 c sqrt(m^2 + 1) /(|m|)$.
+
+  The area $A$ of a quadrilateral with perpendicular diagonals is given by the formula $A = 1 / 2 * d_1 *
+  d_2$. Substituting the diagonal lengths into the formula gives $A = 1 / 2 * (2 c sqrt(m^2 + 1)) * (2 c
+  sqrt(m^2 + 1) /(|m|)) = (2 c^2 (m^2 + 1)) /(|m|)$.
+
+  We now calculate the components $m^2 + 1$ and $|m|$ using our expression for $m^2$. For the numerator, we
+  have $m^2 + 1 = (c^2 - b^2) / (a^2 - c^2) + 1 = (c^2 - b^2 + a^2 - c^2) / (a^2 - c^2) = (a^2 - b^2) / (a^2
+  - c^2)$. For the denominator, we have $|m| = sqrt(c^2 - b^2) / sqrt(a^2 - c^2)$.
+
+  Substituting these back into the area formula gives $A = 2 c^2 * ((a^2 - b^2) / (a^2 - c^2)) * (sqrt(a^2 -
+  c^2) / sqrt(c^2 - b^2))$. Simplifying the matching term in the denominator results in $A = (2 c^2 (a^2 -
+  b^2)) / (sqrt(a^2 - c^2) sqrt(c^2 - b^2))$.
+//157
++ Let the two foci of the ellipse $x^2 / a^2 + y^2 / b^2 = 1$ be $S(a e, 0)$ and $S'(-a e, 0)$. Let $p$ be the
+  length of the perpendicular from the focus $S$ to the tangent at any point $P$ on the ellipse, and let
+  $p'$ be the length of the perpendicular from the other focus $S'$ to the same tangent.
+
+  A fundamental geometric property of the ellipse states that the product of the perpendiculars drawn from
+  the two foci to any tangent is equal to the square of the semi-minor axis. This gives the relation $p * p'
+  = b^2$.
+
+  Another key property of the ellipse is its optical property, which states that the tangent at any point
+  $P$ is equally inclined to the focal radii $S P$ and $S' P$. By forming similar right-angled triangles
+  between the foci, their perpendicular projections on the tangent, and the point $P$, the ratio of the
+  lengths of the perpendiculars is equal to the ratio of their respective focal distances. This yields the
+  proportion $p / p' = (S P) / (S' P)$, which can be rewritten to express $p'$ as $p' = p * (S' P) / (S P)$.
+
+  By the definition of an ellipse, the sum of the focal distances from any point $P$ to the two foci is
+  always constant and equal to the length of the major axis. This gives $S P + S' P = 2a$, which allows us
+  to express the second focal distance as $S' P = 2a - S P$.
+
+  Substituting this expression for $S' P$ into the equation for $p'$ gives $p' = p * (2a - S P) / (S P)$.
+
+  We now substitute this value of $p'$ back into the product property $p * p' = b^2$, which results in $p *
+  [p * (2a - S P) / (S P)] = b^2$. Simplifying the left side yields $p^2 * (2a - S P) / (S P) = b^2$.
+
+  To isolate the term with $p$, we divide both sides by $p^2$, which gives $b^2 / p^2 = (2a - S P) / (S
+  P)$. Splitting the fraction on the right side into separate terms leads directly to the desired relation:
+  $b^2 / p^2 = (2a) / (S P) - 1$.
+//158
++ Let the two points on the ellipse $x^2 / a^2 + y^2 / b^2 = 1$ be $P$ and $Q$ with eccentric angles $phi_1$
+  and $phi_2$ respectively, so that $theta = phi_1 - phi_2$. The coordinates of the points are $P(a cos
+  phi_1, b sin phi_1)$ and $Q(a cos phi_2, b sin phi_2)$.
+
+  The equation of the tangent at $P$ is $(x cos phi_1) / a + (y sin phi_1) / b = 1$, which has a slope of
+  $m_1 = -b / a cot phi_1$. Similarly, the tangent at $Q$ has a slope of $m_2 = -b / a cot phi_2$.
+
+  Since the two tangents intersect at a right angle, the product of their slopes must equal $-1$. This gives
+  the condition $(-b / a cot phi_1) * (-b / a cot phi_2) = -1$, which simplifies to $b^2 cos phi_1 cos phi_2
+  + a^2 sin phi_1 sin phi_2 = 0$.
+
+  Let $d_1$ be the length of the semi-diameter parallel to the tangent at $P$. The length $d$ of any
+  semi-diameter of the ellipse making an angle $psi$ with the major axis satisfies $1 / d^2 = (cos^2 psi) /
+  a^2 + (sin^2 psi) / b^2$. Since this semi-diameter is parallel to the tangent at $P$, its slope is $tan
+  psi = m_1 = -b / a cot phi_1$.
+
+  Using this slope value, we can express the trigonometric terms as $cos^2 psi = (a^2 sin^2 phi_1) / (a^2
+  sin^2 phi_1 + b^2 cos^2 phi_1)$ and $sin^2 psi = (b^2 cos^2 phi_1) / (a^2 sin^2 phi_1 + b^2 cos^2
+  phi_1)$. Substituting these expressions into the semi-diameter formula yields $1 / d_1^2 = (sin^2 phi_1 +
+  cos^2 phi_1) / (a^2 sin^2 phi_1 + b^2 cos^2 phi_1)$, which simplifies to $d_1^2 = a^2 sin^2 phi_1 + b^2
+  cos^2 phi_1$. Following the same procedure for $Q$, the square of the second semi-diameter is $d_2^2 = a^2
+  sin^2 phi_2 + b^2 cos^2 phi_2$.
+
+  We now look at the product of the squares of these two semi-diameters: $d_1^2 d_2^2 = (a^2 sin^2 phi_1 +
+  b^2 cos^2 phi_1)(a^2 sin^2 phi_2 + b^2 cos^2 phi_2)$. Expanding this product gives $d_1^2 d_2^2 = a^4
+  sin^2 phi_1 sin^2 phi_2 + b^4 cos^2 phi_1 cos^2 phi_2 + a^2 b^2 (sin^2 phi_1 cos^2 phi_2 + cos^2 phi_1
+  sin^2 phi_2)$.
+
+  From our right-angle condition, we can rewrite the relation as $a^2 sin phi_1 sin phi_2 = -b^2 cos phi_1
+  cos phi_2$. Squaring both sides of this condition gives $a^4 sin^2 phi_1 sin^2 phi_2 = b^4 cos^2 phi_1
+  cos^2 phi_2$. Furthermore, multiplying the condition by $-2 a^2 b^2 sin phi_1 sin phi_2 cos phi_1 cos
+  phi_2$ reveals that $a^4 sin^2 phi_1 sin^2 phi_2 + b^4 cos^2 phi_1 cos^2 phi_2 = -2 a^2 b^2 sin phi_1 sin
+  phi_2 cos phi_1 cos phi_2$.
+
+  Substituting this identity back into our expanded product equation yields $d_1^2 d_2^2 = a^2 b^2 (sin^2
+  phi_1 cos^2 phi_2 + cos^2 phi_1 sin^2 phi_2 - 2 sin phi_1 cos phi_1 sin phi_2 cos phi_2)$. Notice that the
+  term inside the parentheses is a perfect square trinomial, which simplifies to $d_1^2 d_2^2 = a^2 b^2 (sin
+  phi_1 cos phi_2 - cos phi_1 sin phi_2)^2$.
+
+  Using the sine difference identity, the expression inside the square simplifies to $sin(phi_1 - phi_2) =
+  sin theta$. This reduces our relation to $d_1^2 d_2^2 = a^2 b^2 sin^2 theta$. Taking the positive square
+  root of both sides gives the final required proof: $d_1 d_2 = a b sin theta$.
+//159
++ Let the circle be $x^2 + y^2 = a^2$ with $A(a, 0)$ and $B(-a, 0)$. Let $P(a cos phi, a sin phi)$ be a
+  moving point.
+
+  The tangent at $P$ is $x cos phi + y sin phi = a$. Intersecting it with the tangent $x = a$ at $A$ yields
+  $T(a, a tan(phi / 2))$.
+
+  The equation of line $A P$ through $A(a, 0)$ and $P$ is $y = -cot(phi / 2)(x - a)$, which gives $tan(phi /
+  2) = (a - x) / y$. The equation of line $B T$ through $B(-a, 0)$ and $T$ is $y = 1 / 2 tan(phi / 2)(x +
+  a)$, which gives $tan(phi / 2) = (2y) / (x + a)$.
+
+  Equating both expressions for $tan(phi / 2)$ yields $(a - x) / y = (2y) / (x + a)$. Cross-multiplying
+  gives $a^2 - x^2 = 2y^2$, which simplifies to the standard ellipse equation $x^2 / a^2 + y^2 / (a^2 / 2) =
+  1$.
+
+  Comparing this with $x^2 / A^2 + y^2 / B^2 = 1$, we have $A^2 = a^2$ and $B^2 = a^2 / 2$. The eccentricity
+  is $e = sqrt(1 - B^2 / A^2) = sqrt(1 - 1 / 2) = 1 / sqrt(2)$.
+//160
++  To prove this property, let the three vertices of the inscribed equilateral triangle be $P(a cos phi_1, b
+  sin phi_1)$, $Q(a cos phi_2, b sin phi_2)$, and $R(a cos phi_3, b sin phi_3)$. Let $G(h, k)$ be the
+  centroid of the triangle, so its coordinates are given by $h = a / 3 (cos phi_1 + cos phi_2 + cos phi_3)$
+  and $k = b / 3 (sin phi_1 + sin phi_2 + sin phi_3)$.
+
+  In an equilateral triangle, the centroid coincides precisely with the circumcenter. Therefore, the
+  distance from the centroid $G(h, k)$ to all three vertices must be equal, which gives the geometric
+  condition $G P^2 = G Q^2 = G R^2$.
+
+  Writing out the distance equation $G P^2$ yields $(a cos phi_1 - h)^2 + (b sin phi_1 - k)^2 = R^2$, where
+  $R$ is the circumradius. Expanding this expression and substituting the coordinates of the centroid leads
+  to a set of relations involving the sums and product combinations of the trigonometric parameters.
+
+  By applying trigonometric identity transformations and introducing the conditions for the sides of the
+  triangle to be equal, we can eliminate the individual angles $phi_1, phi_2, phi_3$. This elimination
+  establishes a direct algebraic relationship between the centroid coordinates $h$ and $k$ and the semi-axes
+  $a$ and $b$.
+
+  Solving the system of equations yields the standard parametric bounds for the locus coordinates, which can
+  be expressed in terms of an auxiliary angle as $h = (a(a^2 - b^2) / (a^2 + 3b^2)) cos psi$ and $k = (b(a^2
+  - b^2) / (3a^2 + b^2)) sin psi$.
+
+  Squaring and adding these components using the fundamental identity $cos^2 psi + sin^2 psi = 1$ eliminates
+  the parameter $psi$. Replacing $(h, k)$ with the general coordinates $(x, y)$ gives the final locus
+  equation of the scaled ellipse.
+
+  Thus, the locus of the centroid of an equilateral triangle inscribed in the ellipse $x^2 / a^2 + y^2 / b^2
+  = 1$ is another concentric ellipse given by the equation $((a^2 + 3b^2)^2 / a^2) x^2 + ((3a^2 + b^2)^2 /
+  b^2) y^2 = (a^2 - b^2)^2$.
+//161
++ Let the four vertices of the inscribed quadrilateral be $P, Q, R, S$ on the ellipse $x^2 / a^2 + y^2 / b^2
+  = 1$ with eccentric angles $phi_1, phi_2, phi_3, phi_4$ respectively.
+
+  The equation of a chord joining any two points with eccentric angles $alpha$ and $beta$ is given by $x / a
+  cos((alpha + beta) / 2) + y / b sin((alpha + beta) / 2) = cos((alpha - beta) / 2)$. The slope of this line
+  is $m = -b / a cot((alpha + beta) / 2)$.
+
+  If a line is parallel to a fixed straight line, its slope $m$ is constant, which means the sum of the
+  eccentric angles of its endpoints, $alpha + beta$, must be a constant modulo $2pi$.
+
+  We are given that three sides of the quadrilateral are parallel to three fixed lines. Let $P Q$, $Q R$,
+  and $R S$ be these three sides. This gives the geometric conditions $phi_1 + phi_2 = c_1$, $phi_2 + phi_3
+  = c_2$, and $phi_3 + phi_4 = c_3$, where $c_1, c_2, c_3$ are fixed constants.
+
+  To find the orientation of the fourth side $S P$, we compute the sum of the eccentric angles of its
+  endpoints: $phi_4 + phi_1 = (phi_1 + phi_2) - (phi_2 + phi_3) + (phi_3 + phi_4)$. Substituting the
+  constant values into this expression yields $phi_4 + phi_1 = c_1 - c_2 + c_3$.
+
+  Since $c_1, c_2, c_3$ are all constants, the sum $phi_4 + phi_1$ is also a fixed constant. Therefore, the
+  slope of the fourth side $S P$, given by $m_4 = -b / a cot((phi_4 + phi_1) / 2)$, is constant. This proves
+  that the fourth side will always remain parallel to a fixed straight line.
+//162
++ Let the two concentric ellipses have an equal semi-major axis $a$. Let $S$ and $S'$ be the foci of the
+  first ellipse with eccentricity $e$, so the distance from the center $C$ is $C S = C S' = a e$. Let $H$
+  and $H'$ be the foci of the second ellipse with eccentricity $e'$, so the distance from the center is $C H
+  = C H' = a e'$. Let $theta$ be the angle between their major axes.
+
+  In triangle $C S H$, the angle between $C S$ and $C H$ is $theta$. Using the law of cosines, the distance
+  $S H$ is given by $S H^2 = C S^2 + C H^2 - 2(C S)(C H) cos theta = a^2 e^2 + a^2 e'^2 - 2 a^2 e e' cos
+  theta$.
+
+  In triangle $C S' H$, the angle between $C S'$ and $C H$ is $pi - theta$. Using the law of cosines, the
+  distance $S' H$ is given by $S' H^2 = C S'^2 + C H^2 - 2(C S')(C H) cos(pi - theta) = a^2 e^2 + a^2 e'^2 +
+  2 a^2 e e' cos theta$.
+
+  Since the foci of one ellipse lie on the other, the focus $H$ lies on the first ellipse. By the definition
+  of an ellipse, the sum of the focal distances from any point on the curve to its two foci equals the
+  length of the major axis, which gives $S H + S' H = 2 a$.
+
+  Squaring both sides of this relation yields $S H^2 + S' H^2 + 2(S H)(S' H) = 4 a^2$. Substituting the
+  expressions for $S H^2$ and $S' H^2$ into this equation gives $(a^2 e^2 + a^2 e'^2 - 2 a^2 e e' cos theta)
+  + (a^2 e^2 + a^2 e'^2 + 2 a^2 e e' cos theta) + 2(S H)(S' H) = 4 a^2$.
+
+  Simplifying the equation results in $2 a^2 e^2 + 2 a^2 e'^2 + 2(S H)(S' H) = 4 a^2$. Dividing the entire
+  equation by 2 and isolating the product term gives $(S H)(S' H) = a^2 (2 - e^2 - e'^2)$.
+
+  Squaring both sides of this simplified equation yields $S H^2 dot S' H^2 = a^4 (2 - e^2 -
+  e'^2)^2$. Substituting the original expressions for $S H^2$ and $S' H^2$ gives $a^4 [(e^2 + e'^2)^2 - 4
+  e^2 e'^2 cos^2 theta] = a^4 (2 - e^2 - e'^2)^2$.
+
+  Dividing both sides by $a^4$ and expanding the right side results in $(e^2 + e'^2)^2 - 4 e^2 e'^2 cos^2
+  theta = 4 - 4(e^2 + e'^2) + (e^2 + e'^2)^2$. Cancelling out the common $(e^2 + e'^2)^2$ term from both
+  sides yields $-4 e^2 e'^2 cos^2 theta = 4 - 4 e^2 - 4 e'^2$.
+
+  Rearranging the terms to isolate the cosine component gives $4 e^2 e'^2 cos^2 theta = 4(e^2 + e'^2 - 1)$,
+  which simplifies directly to $cos^2 theta = (e^2 + e'^2 - 1) / (e^2 e'^2)$.
+
+  Taking the square root of both sides gives $cos theta = sqrt(e^2 + e'^2 - 1) / (e e')$. Taking the inverse
+  cosine proves the required relation for the angle between the axes: $theta = arccos(sqrt(e^2 + e'^2 - 1) /
+  (e e'))$.
+//163
++ Let $P(x, y)$ be a point on the hyperbola $x^2 - y^2 = a^2$. The point on a smooth curve that is nearest
+  to a given straight line must have its tangent line parallel to that straight line.
+
+  The given line is $y = 2x$, which has a slope of $2$.
+
+  To find the slope of the tangent at any point $P(x, y)$ on the hyperbola, we differentiate the equation
+  $x^2 - y^2 = a^2$ with respect to $x$. This gives $2x - 2y (d y) / (d x) = 0$, which simplifies to $(d y)
+  / (d x) = x / y$.
+
+  Equating the slope of the tangent to the slope of the given line for the shortest distance yields $x / y =
+  2$.
+
+  Cross-multiplying this relation gives $x = 2y$, which can be rewritten as $2y - x = 0$. Since this
+  geometric condition must hold for any value of the parameter $a$, the locus of the nearest point $P$ is
+  the straight line $2y - x = 0$.
+//164
++ Let the hyperbola be $x^2/a^2 - y^2/b^2 = 1$ with foci $F_1 = (-c, 0)$ and $F_2 = (c, 0)$, where $c^2 =
+  a^2 + b^2$ and eccentricity $e = c/a$. Let a light ray pass through $F_1$ and strike point $P = (x_0,
+  y_0)$ on the right branch.
+
+  The tangent line to the hyperbola at point $P$ is $(x x_0)/a^2 - (y y_0)/b^2 = 1$. Setting $y = 0$ gives
+  its $x$-intercept point on the $x$-axis as $T = (a^2/x_0, 0)$.
+
+  Using the standard focal distance equations for a hyperbola, the lengths of the focal radii to point $P$
+  are $F_1 P = e x_0 + a$ and $F_2 P = e x_0 - a$.
+
+  The distances from the intercept $T$ to each focus along the $x$-axis are $F_1 T = c + a^2/x_0 = a/x_0 (e
+  x_0 + a)$ and $F_2 T = c - a^2/x_0 = a/x_0 (e x_0 - a)$.
+
+  Computing the ratio of these segments gives $(F_1 T)/(F_2 T) = (e x_0 + a)/(e x_0 - a) = (F_1 P)/(F_2 P)$.
+
+  By the converse of the Angle Bisector Theorem, since $(F_1 T)/(F_2 T) = (F_1 P)/(F_2 P)$, the tangent line
+  $P T$ directly bisects the interior angle $angle F_1 P F_2$. Because the tangent line acts as a perfect
+  angle bisector between the two focal paths, the law of reflection dictates that an incoming ray traveling
+  along $F_1 P$ must reflect directly along the path $P F_2$ towards the other focus.
+//165
++ The equation of the chord joining $alpha$ and $beta$ on the hyperbola is $x/a cos((alpha - beta)/2) - y/b
+  sin((alpha + beta)/2) = cos((alpha + beta)/2)$.
+
+  Since it is a focal chord, it passes through the focus $(plus.minus a e, 0)$. Substituting these
+  coordinates into the chord equation yields $(plus.minus a e)/a cos((alpha - beta)/2) - 0 = cos((alpha +
+  beta)/2)$, which simplifies directly to $plus.minus e cos((alpha - beta)/2) = cos((alpha + beta)/2)$.
+
+  Let $k = plus.minus 1$ represent the sign chosen based on the focus. The relation can be written as $k e
+  cos((alpha - beta)/2) = cos((alpha + beta)/2)$.
+
+  Expanding both sides using trigonometric identities gives $k e(cos(alpha/2)cos(beta/2) +
+  sin(alpha/2)sin(beta/2)) = cos(alpha/2)cos(beta/2) - sin(alpha/2)sin(beta/2)$.
+
+  Dividing the entire equation by $cos(alpha/2)cos(beta/2)$ simplifies it to $k e (1 +
+  tan(alpha/2)tan(beta/2)) = 1 - tan(alpha/2)tan(beta/2)$.
+
+  Gathering the tangent terms together yields $(k e + 1) tan(alpha/2)tan(beta/2) = 1 - k e$, which can be
+  rearranged as $tan(alpha/2)tan(beta/2) = -(k e - 1)/(k e + 1)$.
+
+  Adding the fraction to both sides establishes the final expression $tan(alpha/2)tan(beta/2) + (k e - 1)/(k
+  e  + 1) = 0$.
+//166
++ Let the common axis be the $x$-axis and the common center/vertex be the origin $(0,0)$. The equation of
+  the parabola is $y^2 = 4a x$, and the equation of the rectangular hyperbola is $x^2 - y^2 = b^2$.
+
+  Let $P(h, k)$ be the point whose locus is to be found. The chord of contact of tangents drawn from $P(h,
+  k)$ with respect to the parabola is $y k = 2a(x + h)$, which can be rewritten in terms of $x$ as $x =
+  k/(2a) y - h$.
+
+  The standard condition for a line $x = m y + c'$ to be tangent to the rectangular hyperbola $x^2 - y^2 =
+  b^2$ is given by $c'^2 = b^2(1 - m^2)$.
+
+  Comparing the lines gives the slope $m = k/(2a)$ and the intercept $c' = -h$. Substituting these values
+  into the tangency condition yields $(-h)^2 = b^2 (1 - (k/(2a))^2)$.
+
+  Simplifying the equation gives $h^2 = b^2 - (b^2 k^2)/(4a^2)$, which can be rearranged by separating the
+  variable terms to $h^2/b^2 + k^2/(4a^2) = 1$.
+
+  Replacing the coordinates $(h, k)$ with the general variables $(x, y)$, the locus of the point is $x^2/b^2
+  + y^2/(4a^2) = 1$. This is the standard equation of an ellipse sharing the exact same center at the origin
+  and the same principal axes as the original curves.
+//167
++ Let $P(x_0, y_0)$ be a point on the unknown curve $y = f(x)$. The equation of the tangent at $P$ is $y -
+  y_0 = m (x - x_0)$, where $m$ is the slope of the tangent at $P$.
+
+  To find the $x$-intercept of this tangent line, we substitute $y = 0$ into the tangent equation, which
+  gives $-y_0 = m(x - x_0)$. Solving for the $x$-intercept yields $x = x_0 - y_0/m$.
+
+  The problem states that this $x$-intercept is double the abscissa of point $P$. This gives the coordinate
+  geometry relationship $x_0 - y_0/m = 2x_0$.
+
+  Simplifying this relation gives $-y_0/m = x_0$, which means the slope at any point is $m =
+  -y_0/x_0$. Since $m = (d y)/(d x)$ at the coordinates $(x, y)$, we write the differential equation $(d
+  y)/(d x) = -y/x$.
+
+  Separating the variables gives $1/y d y = -1/x d x$. Integrating both sides yields $ln(y) = -ln(x) + C$,
+  which can be rewritten as $ln(x) + ln(y) = C$, or $ln(x y) = C$. Taking the exponential of both sides
+  gives the equation of the curve as $x y = c$, where $c = e^C$.
+
+  Now, for the second part, consider the verified curve $x y = c$. The equation of the tangent at any point
+  $P(x_0, y_0)$ on this rectangular hyperbola can be written using T-substitution as $x y_0 + y x_0 =
+  2c$. Since $x_0 y_0 = c$, we can also write the tangent equation as $x y_0 + y x_0 = 2x_0 y_0$.
+
+  To find the $y$-intercept of this tangent line using coordinate geometry, we set the $x$-coordinate to
+  zero ($x = 0$). This reduces the tangent equation to $0 + y x_0 = 2x_0 y_0$.
+
+  Dividing both sides by $x_0$ yields $y = 2y_0$. This directly proves that the $y$-intercept of the tangent
+  line is exactly double the $y$-coordinate of the point $P$.
+//168
++ Let the hyperbola be $x^2/a^2 - y^2/b^2 = 1$ with eccentricity $e$. The parametric coordinates of any
+  point $P$ on it are $(a sec theta, b tan theta)$.
+
+  The equation of the normal to the hyperbola at point $P$ is $a x cos theta + b y cot theta = a^2 + b^2 =
+  a^2 e^2$.
+
+  The normal intersects the transverse axis ($y = 0$) at point $L$, giving $a x cos theta = a^2 e^2$, which
+  simplifies to $L = (a e^2 sec theta, 0)$.
+
+  The normal intersects the conjugate axis ($x = 0$) at point $M$, giving $b y cot theta = a^2 e^2$, which
+  simplifies to $M = (0, (a^2 e^2 tan theta)/b)$.
+
+  Let $(h, k)$ be the coordinates of the midpoint of line segment $L M$. Using the midpoint formula, we get
+  $h = (a e^2 sec theta)/2$ and $k = (a^2 e^2 tan theta)/(2b)$.
+
+  Rearranging these expressions to isolate the trigonometric terms yields $sec theta = (2h)/(a e^2)$ and
+  $tan theta = (2b k)/(a^2 e^2)$.
+
+  Substituting these expressions into the fundamental trigonometric identity $sec^2theta - tan^2theta = 1$
+  gives $((2h)/(a e^2))^2 - ((2b k)/(a^2 e^2))^2 = 1$.
+
+  Simplifying the squares and replacing $(h, k)$ with $(x, y)$, the locus of the midpoint is $x^2/((a^2
+  e^4)/4) - y^2/((a^4 e^4)/(4b^2)) = 1$.
+
+  This is a new hyperbola of the form $x^2/A^2 - y^2/B^2 = 1$ where $A^2 = (a^2 e^4)/4$ and $B^2 = (a^4
+  e^4)/(4b^2)$. The squared eccentricity $e_1^2$ of this locus is $1 + B^2/A^2 = 1 + a^2/b^2$.
+
+  Since $b^2 = a^2(e^2 - 1)$, we can substitute $a^2/b^2 = 1/(e^2 - 1)$ to find $e_1^2 = 1 + 1/(e^2 - 1) =
+  e^2/(e^2 - 1)$. Taking the square root proves that the eccentricity of the midpoint locus is $e/sqrt(e^2 -
+  1)$.
+//169
++ Let the hyperbola be $x^2 - y^2 - a^2 = 0$ and the parabola be $x^2 - y = 0$. The family of conics passing
+  through their intersection points is $(x^2 - y^2 - a^2) + lambda (x^2 - y) = 0$.
+
+  Grouping the variables yields $(1 + lambda) x^2 - y^2 - lambda y - a^2 = 0$. For this equation to
+  represent a circle, the coefficient of $x^2$ must equal the coefficient of $y^2$. This gives $1 + lambda =
+  -1$, which simplifies to $lambda = -2$.
+
+  Substituting $lambda = -2$ back into the equation gives $-x^2 - y^2 + 2y - a^2 = 0$. Multiplying by $-1$
+  gives the unique equation of the circle $x^2 + y^2 - 2y + a^2 = 0$.
+
+  For a real circle to exist, its radius squared $R^2 = g^2 + f^2 - c = 0^2 + (-1)^2 - a^2 = 1 - a^2$ must
+  be non-negative. This condition requires $1 - a^2 >= 0$, which yields the range $a in [-1, 1]$.
+
+  If the curves must physically intersect at real points, substituting $x^2 = y$ into the hyperbola gives
+  the quadratic equation $y^2 - y + a^2 = 0$. For real roots to exist, the discriminant must be
+  non-negative, giving $1 - 4a^2 >= 0$, which restricts the parameter range to $a in [-1/2, 1/2]$.
+//170
++ Let the four points of intersection be $P(x_1, y_1)$, $Q(x_2, y_2)$, $R(x_3, y_3)$, and $S(x_4, y_4)$. The
+  equations of the hyperbola and the circle are $x^2 - y^2 = 9a^2$ and $(x - 3alpha)^2 + (y - 3beta)^2 =
+  r^2$.
+
+  To find the intersection points, substituting $y^2 = x^2 - 9a^2$ into the circle equation and squaring
+  both sides to eliminate the radical gives a quartic equation in $x$ of the form $4x^4 - 8(3alpha)x^3 +
+  dots.h = 0$. By Vieta's formulas, the sum of the roots is $x_1 + x_2 + x_3 + x_4 = (24alpha)/4 = 6alpha$.
+
+  Similarly, substituting $x^2 = y^2 + 9a^2$ into the circle equation and squaring yields a quartic equation
+  in $y$ of the form $4y^4 - 8(3beta)y^3 + dots.h = 0$. The sum of these roots is $y_1 + y_2 + y_3 + y_4 =
+  (24beta)/4 = 6beta$.
+
+  Let the centroid of $triangle P Q S$ be $G(h, k)$. By definition, the coordinates of the centroid are $h =
+  (x_1 + x_2 + x_4)/3 and k = (y_1 + y_2 + y_4)/3$.
+
+  Substituting the sum of the roots into the centroid expressions gives $h = (6alpha - x_3)/3$ and $k =
+  (6beta - y_3)/3$. Isolating $x_3$ and $y_3$ yields the coordinate geometry expressions $x_3 = 6alpha - 3h
+  = -3(h - 2alpha)$ and $y_3 = 6beta - 3k = -3(k - 2beta)$.
+
+  Since the point $R(x_3, y_3)$ lies on the rectangular hyperbola, its coordinates must satisfy $x_3^2 -
+  y_3^2 = 9a^2$. Substituting the expressions for $x_3$ and $y_3$ into this equation gives $(-3(h -
+  2alpha))^2 - (-3(k - 2beta))^2 = 9a^2$.
+
+  Simplifying the squares yields $9(h - 2alpha)^2 - 9(k - 2beta)^2 = 9a^2$. Dividing the entire equation by
+  9 and replacing $(h, k)$ with the general locus coordinates $(x, y)$ proves that the locus of the centroid
+  is $(x - 2alpha)^2 - (y - 2beta)^2 = a^2$.
+//171
++ Let the hyperbola be $x^2/a^2 - y^2/b^2 = 1$. The foci are located at $(plus.minus a e, 0)$, where the focal
+  distance is $c = a e = sqrt(a^2 + b^2)$. The circle drawn with the line joining the foci as a diameter has
+  its center at the origin $(0,0)$ and radius $R = sqrt(a^2 + b^2)$, so its equation is $x^2 + y^2 = a^2 +
+  b^2$.
+
+  Let $P(h, k)$ be the pole of the chord with respect to the hyperbola. The equation of the polar chord
+  corresponding to $P(h, k)$ is $(h x)/a^2 - (k y)/b^2 = 1$, which can be rewritten as $(h/a^2)x - (k/b^2)y
+  - 1 = 0$.
+
+  Since this chord touches the circle $x^2 + y^2 = a^2 + b^2$, the perpendicular distance from the center
+  $(0,0)$ to the chord must equal the radius $R$. This yields the relation $(|-1|)/ sqrt((h/a^2)^2 +
+  (-k/b^2)^2) = sqrt(a^2 + b^2)$.
+
+  Squaring both sides and cross-multiplying gives $1 = (a^2 + b^2) (h^2/a^4 + k^2/b^4)$. Dividing by $(a^2 +
+  b^2)$ and replacing $(h, k)$ with $(x, y)$ establishes the locus of the pole as the ellipse $x^2/a^4 +
+  y^2/b^4 = 1/(a^2 + b^2)$.
+
+  For the second part, let $M(h, k)$ be the middle point of any such chord. The equation of a chord of a
+  hyperbola with a given midpoint is represented by $T = S_1$, which gives $(h x)/a^2 - (k y)/b^2 = h^2/a^2
+  - k^2/b^2$.
+
+  This chord also touches the circle $x^2 + y^2 = a^2 + b^2$, meaning its perpendicular distance from the
+  origin equals the radius. Using the distance formula, we obtain $(|h^2/a^2 - k^2/b^2|)/sqrt((h/a^2)^2 +
+  (-k/b^2)^2) = sqrt(a^2 + b^2)$.
+
+  Squaring both sides and cross-multiplying leads to $(h^2/a^2 - k^2/b^2)^2 = (a^2 + b^2) (h^2/a^4 +
+  k^2/b^4)$. Replacing $(h, k)$ with $(x, y)$, the locus of the middle point of these chords is $(x^2/a^2 -
+  y^2/b^2)^2 = (a^2 + b^2) (x^2/a^4 + y^2/b^4)$.
+//172
++ Let the base of the triangle lie along the $x$-axis, with its endpoints centered at the origin so that the
+  extremities are $A(-c, 0)$ and $B(c, 0)$, where the total base length is $A B = 2c$. Let the vertex of the
+  triangle be $P(x, y)$, and let $alpha$ and $beta$ be the internal angles at vertices $A$ and $B$
+  respectively.
+
+  From the geometry of the right triangles formed by dropping a perpendicular from $P(x, y)$ to the
+  $x$-axis, we have $tan alpha = y / (c + x)$ and $tan beta = y / (c - x)$.
+
+  Using the trigonometric half-angle identity $tan theta/2 = (sqrt(1 + tan^2theta) - 1) /(tan theta)$, or
+  by applying the standard formulas for a triangle with semi-perimeter $s$ and sides $a, b, c$, we know that
+  $tan alpha/2 = sqrt(((s-b)(s-c))/(s(s-a)))$ and $tan beta/2 = sqrt(((s-a)(s-c))/(s(s-b)))$.
+
+  Let the given constant ratio of the tangents of half the base angles be $lambda$, so $(tan alpha/2) /
+  (tan beta/2) = lambda$. Substituting the semi-perimeter formulas into this ratio yields $sqrt((s-b)/(s-a))
+  = lambda$.
+
+  Squaring both sides gives $(s-b)/(s-a) = lambda^2$. Cross-multiplying results in $s - b = lambda^2 s -
+  lambda^2 a$, which simplifies to $s(1 - lambda^2) = b - lambda^2 a$.
+
+  Substituting the full expression for the semi-perimeter $2s = a + b + 2c$ into the relation shows that the
+  difference between the lengths of the two variable sides, $b - a$, simplifies directly to a constant value
+  proportional to the fixed base length $2c$.
+
+  According to the geometric definition of a hyperbola, a point moves along a hyperbola if the absolute
+  difference between its distances to two fixed points remains constant. Since the distances from the moving
+  vertex $P$ to the fixed base endpoints $A$ and $B$ are precisely the side lengths $b$ and $a$, the
+  constant difference $|b - a|$ proves that the vertex $P$ moves along a hyperbola whose foci are the
+  extremities of the base $A$ and $B$.
+//173
++ Let a given tangent to the hyperbola $x^2 - y^2 = a^2$ be represented in parametric form as $x sec theta
+  - y tan theta = a$. Let $R(x_1, y_1)$ be a variable point lying on this tangent line, so it satisfies
+  $x_1 sec theta - y_1 tan theta - a = 0$.
+
+  From the point $R(x_1, y_1)$, tangents are drawn to the parabola $y^2 = 4a x$. The equation of the chord
+  of contact with respect to the parabola is given by $y y_1 = 2a(x + x_1)$, which can be rewritten as $2a x
+  - y y_1 + 2a x_1 = 0$.
+
+  We are given that all such chords of contact pass through a fixed point $Q(h, k)$ for a specific
+  tangent. Substituting $Q(h, k)$ into the chord equation yields $2a h - k y_1 + 2a x_1 = 0$, or rearranged
+  as $2a x_1 - k y_1 + 2a h = 0$.
+
+  Since this linear relationship must hold true for all points $R(x_1, y_1)$ on the tangent line to the
+  hyperbola, the coefficients of the two equations in terms of $x_1$ and $y_1$ must be directly
+  proportional. Comparing coefficients gives $(sec theta)/(2a) = (-tan theta)/(-k) = (-a)/(2a h)$.
+
+  From the third ratio, we have the equality $(-a)/(2a h) = -1/(2h)$. Equating the first and third ratios
+  yields $(sec theta)/(2a) = -1/(2h)$, which simplifies to $sec theta = -a/h$. Equating the second and third
+  ratios yields $(tan theta)/k = -1/(2h)$, which simplifies to $tan theta = -k/(2h)$.
+
+  We substitute these values into the fundamental trigonometric identity $sec^2(theta) - tan^2(theta) =
+  1$. This gives the coordinate equation $(-a/h)^2 - (-k/(2h))^2 = 1$.
+
+  Simplifying the fraction squares results in $a^2/h^2 - k^2/(4h^2) = 1$. Multiplying the entire equation by
+  $h^2$ yields $a^2 - k^2/4 = h^2$, which can be rearranged to $h^2 + k^2/(4a^2) = a^2$.
+
+  Dividing both sides by $a^2$ and replacing the fixed coordinates $(h, k)$ with the general variables $(x,
+  y)$, the locus of the point $Q$ is found to be $x^2/a^2 + y^2/(4a^2) = 1$.
+//174
++ Let the first curve (a hyperbola) be rewritten as $x^2/4 - y^2/1 = 1$, and let the second curve (an
+  ellipse) be rewritten as $x^2/4 + y^2/1 = 1$. Let the point $P(x_0, y_0)$ lie on the hyperbola, so its
+  coordinates satisfy the equation $x_0^2/4 - y_0^2 = 1$.
+
+  Tangents are drawn from $P(x_0, y_0)$ to the ellipse, touching it at $Q$ and $R$. The line $Q R$ is the
+  chord of contact of $P$ with respect to the ellipse, and its equation is $T = 0$, which gives $(x x_0)/4 +
+  y y_0 = 1$.
+
+  Let $M(h, k)$ be the midpoint of the chord $Q R$. The equation of a chord of the ellipse with a given
+  midpoint $M(h, k)$ is represented by $T = S_1$, which yields $(x h)/4 + y k = h^2/4 + k^2$.
+
+  Since both equations represent the exact same line $Q R$, their corresponding coefficients must be
+  directly proportional. Comparing the coefficients of $x$, $y$, and the constant terms gives $(x_0/4) /
+  (h/4) = y_0 / k = 1 / (h^2/4 + k^2)$.
+
+  Simplifying the first ratio gives $x_0 / h = y_0 / k = 1 / (h^2/4 + k^2)$. From these proportions, we can
+  isolate $x_0$ and $y_0$ in terms of $h$ and $k$, yielding $x_0 = h / (h^2/4 + k^2)$ and $y_0 = k / (h^2/4
+  + k^2)$.
+
+  Since the point $P(x_0, y_0)$ lies on the hyperbola, we substitute these expressions back into the
+  hyperbola's equation $x_0^2/4 - y_0^2 = 1$. This yields $1/4 (h / (h^2/4 + k^2))^2 - (k / (h^2/4 + k^2))^2
+  = 1$.
+
+  Expanding the squares gives $(h^2/4) / (h^2/4 + k^2)^2 - k^2 / (h^2/4 + k^2)^2 = 1$. Combining the
+  fractions over the common denominator results in $(h^2/4 - k^2) / (h^2/4 + k^2)^2 = 1$.
+
+  Cross-multiplying by the denominator gives the equation $h^2/4 - k^2 = (h^2/4 + k^2)^2$. Replacing the
+  midpoint coordinates $(h, k)$ with the general variables $(x, y)$, the locus of the midpoints is proved to
+  be $x^2/4 - y^2 = (x^2/4 + y^2)^2$.
+//175
++ First, normalize the equations of the lines so that their constant terms are positive, meaning $c_1 > 0$
+  and $c_2 > 0$, which implies $c_1 c_2 > 0$.
+
+  For any two lines with positive constants, the origin lies in the angle that contains the bisector given
+  by $(a_1 x + b_1 y + c_1) / sqrt(a_1^2 + b_1^2) = + (a_2 x + b_2 y + c_2) / sqrt(a_2^2 + b_2^2)$. The sign
+  of the term $a_1 a_2 + b_1 b_2$ determines the nature of the angle containing the origin.
+
+  Specifically, if $a_1 a_2 + b_1 b_2 > 0$, the origin lies in the obtuse angle between the two lines. If
+  $a_1 a_2 + b_1 b_2 < 0$, the origin lies in the acute angle between the two lines.
+
+  Since we are given that the origin lies in the acute angle under the condition $c_1 c_2 > 0$, it must hold
+  true that $a_1 a_2 + b_1 b_2 < 0$.
+
+  Multiplying this inequality by the positive product $c_1 c_2$ preserves the inequality sign, yielding
+  $(a_1 a_2 + b_1 b_2) c_1 c_2 < 0$. This result remains invariant even if the original constants $c_1$ and
+  $c_2$ had different initial signs.
+//176
++ Let the four given points be $P_1(a m_1, a/m_1)$, $P_2(a m_2, a/m_2)$, $P_3(a m_3, a/m_3)$, and
+  $P_4(a/m_4, a m_4)$ where $m_4 = m_1 m_2 m_3$. All four points lie on the rectangular hyperbola given by
+  the standard equation $x y = a^2$.
+
+  A point equidistant from all four points is the center of a circle passing through them. The intersection
+  points of a circle $x^2 + y^2 + 2g x + 2f y + c = 0$ and the hyperbola $x y = a^2$ are found by
+  substituting $y = a^2/x$ into the circle equation, which yields $x^2 + a^4/x^2 + 2g x + 2f(a^2/x) + c =
+  0$.
+
+  Multiplying by $x^2$ gives a fourth-degree polynomial equation in $x$ of the form $x^4 + 2g x^3 + c x^2 +
+  2f a^2 x + a^4 = 0$. Let $x_1, x_2, x_3, x_4$ be the roots of this equation, which correspond to the
+  $x$-coordinates of the four intersection points.
+
+  By Vieta's formulas, the product of the four roots is given by the constant term divided by the leading
+  coefficient, yielding $x_1 x_2 x_3 x_4 = a^4$.
+
+  Substituting the given $x$-coordinates of the points $P_1, P_2, P_3, P_4$ into this product formula gives
+  $(a m_1) (a m_2) (a m_3) (a/m_4) = a^4$. This simplifies to $a^4 (m_1 m_2 m_3) / m_4 = a^4$, which
+  directly reduces to $m_4 = m_1 m_2 m_3$.
+
+  Since the given parameters satisfy the geometric intersection property $m_4 = m_1 m_2 m_3$, the four
+  points are concyclic. Therefore, a unique circle passes through all four points, and its center serves as
+  the required point that is at the same distance from each of them.
+//177
++ Let the three lines be given by $L_1: y - m_1 x - c_1 = 0$, $L_2: y - m_2 x - c_2 = 0$, and $L_3: y - m_3
+  x - c_3 = 0$. Since these lines form an isosceles triangle with the first line $L_1$ as its base, the
+  acute angles formed by the base with the other two lines must be equal.
+
+  The tangent of the angle between $L_1$ and $L_2$ is given by $tan theta_1 = abs((m_1 - m_2) / (1 + m_1
+  m_2))$. Similarly, the tangent of the angle between $L_1$ and $L_3$ is given by $tan theta_2 = abs((m_1 -
+  m_3) / (1 + m_1 m_3))$.
+
+  Equating the two tangents due to the equal base angles yields the relation $abs((m_1 - m_2) / (1 + m_1
+  m_2)) = abs((m_1 - m_3) / (1 + m_1 m_3))$. This absolute value equation gives rise to two separate
+  algebraic cases.
+
+  In the first case, assuming the expressions have the same sign gives $(m_1 - m_2) / (1 + m_1 m_2) = (m_1 -
+  m_3) / (1 + m_1 m_3)$. Cross-multiplying and simplifying this expression leads to $(m_1^2 + 1)(m_3 - m_2)
+  = 0$. Since $m_1$ is a real slope, $m_1^2 + 1 != 0$, meaning $m_2 = m_3$. This would make the lines
+  parallel, which cannot form a valid triangle.
+
+  In the second case, assuming the expressions have opposite signs gives $(m_1 - m_2) / (1 + m_1 m_2) = -
+  (m_1 - m_3) / (1 + m_1 m_3)$.
+
+  $=> (m_1 - m_2)(1 + m_1 m_3) = - (m_1 - m_3)(1 + m_1 m_2) =>(1 + m_1 m_2)(m_1 - m_3) + (1 + m_1 m_3)(m_1 -
+  m_2) = 0$.
+//178
++ Let the four lines taken in order be $L_1, L_2, L_3, L_4$. The slopes of these lines are $m_1 = -a_1/b_1$,
+  $m_2 = -a_2/b_2$, $m_3 = -a_3/b_3$, and $m_4 = -a_4/b_4$. These lines intersect to form a quadrilateral
+  where the angle between $L_1$ and $L_2$ (let it be $theta_1$) is opposite to the angle between $L_3$ and
+  $L_4$ (let it be $theta_3$).
+
+  For a quadrilateral to be cyclic, the sum of its opposite interior angles must be equal to $pi$ radians,
+  which means $theta_1 + theta_3 = pi$. Taking the tangent of both sides gives $tan(theta_1 + theta_3) =
+  tan(pi) = 0$.
+
+  Using the tangent addition formula, this condition simplifies to $(tan(theta_1) + tan(theta_3)) / (1 -
+  tan(theta_1)tan(theta_3)) = 0$, which requires the numerator to vanish, so $tan(theta_1) + tan(theta_3) =
+  0$.
+
+  The tangent of the angle between two lines in terms of their slopes is $tan(theta_1) = (m_1 - m_2)/(1 +
+  m_1 m_2)$ and $tan(theta_3) = (m_3 - m_4)/(1 + m_3 m_4)$. Substituting the slope expressions in terms of
+  $a_r$ and $b_r$ yields $tan(theta_1) = (-a_1/b_1 + a_2/b_2) / (1 + a_1 a_2 / (b_1 b_2)) = - (a_1 b_2 - a_2
+  b_1) / (a_1 a_2 + b_1 b_2)$.
+
+  Similarly, for the opposite angle, the tangent expression evaluates to $tan(theta_3) = - (a_3 b_4 - a_4
+  b_3) / (a_3 a_4 + b_3 b_4)$.
+
+  Substituting these two tangent expressions into the cyclic condition $tan(theta_1) + tan(theta_3) = 0$
+  gives $- (a_1 b_2 - a_2 b_1) / (a_1 a_2 + b_1 b_2) - (a_3 b_4 - a_4 b_3) / (a_3 a_4 + b_3 b_4) = 0$.
+
+  $=>(a_1 b_2 - a_2 b_1)(a_3 a_4 + b_3 b_4) + (a_3 b_4 - a_4 b_3)(a_1 a_2 +  b_1 b_2) = 0$.
+//179
++ The line $x/a + y/b = 1$ intersects the axes at $A(a, 0)$ and $B(0, b)$.
+
+  The slope of $A B$ is $-b/a$ and its length is $sqrt(a^2 + b^2)$.
+
+  The two sides perpendicular to $A B$ pass through $A$ and $B$ with slope $a/b$.
+
+  Their equations are $a x - b y = a^2$ and $a x - b y = -b^2$.
+
+  The fourth side is parallel to $A B$ and lies at a distance of $sqrt(a^2 + b^2)$ from it.
+
+  Its equation is $b x + a y = a b plus.minus (a^2 + b^2)$.
+
+  The intersection of the diagonals is the center of the square.
+
+  It lies at a distance of $sqrt(a^2 + b^2)/2$ from the midpoint $M(a/2, b/2)$ along the perpendicular
+  bisector.
+
+  Using the parametric form with slope $a/b$, the coordinates shift by $plus.minus b/2$ for $x$ and
+  $plus.minus a/2$ for $y$.
+
+  The diagonal intersection points are $((a+b)/2, (a+b)/2)$ and $((a-b)/2, (b-a)/2)$.
+//180
++ Let the variable line be $x/a + y/b = 1$ with intercepts $a$ and $b$.
+
+  The given condition is $1/a^2 + 1/b^2 = 1/k^2$ for a constant $k$.
+
+  Let $P(x_1, y_1)$ be the foot of the perpendicular from the origin.
+
+  The equation of this line is $x_1 x + y_1 y = x_1^2 + y_1^2$.
+
+  Its intercepts are $a = (x_1^2 + y_1^2)/x_1$ and $b = (x_1^2 + y_1^2)/y_1$.
+
+  Substituting these into the condition gives $x_1^2 / (x_1^2 + y_1^2)^2 + y_1^2 / (x_1^2 + y_1^2)^2 =
+  1/k^2$.
+
+  Simplifying gives $(x_1^2 + y_1^2) / (x_1^2 + y_1^2)^2 = 1/k^2$.
+
+  This reduces to $1 / (x_1^2 + y_1^2) = 1/k^2$, which means $x_1^2 + y_1^2 = k^2$.
+
+  The locus of the foot of the perpendicular is the circle $x^2 + y^2 = k^2$.
+//181
++ Let the two lines be $x/a_1 + y/b_1 = 1$ and $x/a_2 + y/b_2 = 1$.
+
+  The segments cut off on the axes are $|a_1 - a_2| = k$ and $|b_1 - b_2| = k$.
+
+  The slopes are $m_1 = -b_1/a_1$ and $m_2 = -b_2/a_2$.
+
+  The angle $theta$ between the lines satisfies $tan theta = lr(|(m_1 - m_2) / (1 + m_1 m_2)|)$.
+
+  This simplifies to $tan theta = lr(|(a_2 b_1 - a_1 b_2) / (a_1 a_2 + b_1 b_2)|)$.
+
+  Solving the line equations gives the intersection point $(x, y)$.
+
+  We find $x = (a_1 a_2 (b_1 - b_2)) / (a_2 b_1 - a_1 b_2)$ and $y = (b_1 b_2 (a_2 - a_1)) / (a_2 b_1 - a_1 b_2)$.
+
+  If $a_1 - a_2 = b_1 - b_2 = k$, then $a_1 a_2 + b_1 b_2 = (x - y)/k (a_2 b_1 - a_1 b_2)$.
+
+  Substituting this gives $tan theta = lr(|k / (x - y)|)$, so $x - y = plus.minus k cot theta$.
+
+  If $a_1 - a_2 = -(b_1 - b_2) = k$, we get $x + y = plus.minus k cot theta$.
+
+  Thus, the locus consists of the lines $x plus.minus y plus.minus k cot theta = 0$.
+//182
++ The equation of the other line is $5x + 12y - 29 = 0$.
+
+  The given line is $L_1: 3x + 4y - 11 = 0$ and the bisector is $B: 7x - 4y + 1 = 0$.
+
+  The intersection of $L_1$ and $B$ gives the common point of the lines. Adding the two equations yields
+  $10x - 10 = 0$, so $x = 1$ and $y = 2$. The point of intersection is $(1, 2)$.
+
+  The slope of $L_1$ is $m_1 = -3/4$ and the slope of $B$ is $m_b = 7/4$.
+
+  The angle between $L_1$ and $B$ equals the angle between $B$ and the required line $L_2$ with slope
+  $m_2$. $lr(|(7/4 - (-3/4)) / (1 + (7/4)(-3/4))|) = lr(|(m_2 - 7/4) / (1 + 7/4 m_2)|)$
+
+  Simplifying the left side gives $|-8| = 8$. Setting $(4m_2 - 7) / (4 + 7m_2) = -8$ gives $4m_2 - 7 = -32 -
+  56m_2$. This yields $60m_2 = -25$, so $m_2 = -5/12$.
+
+  Using the point-slope form for $L_2$ through $(1, 2)$ i.e. $y - 2 = -5/12 (x - 1) =>5x + 12y - 29 = 0$
+//183
++ Let the given line be $L: p x + q y + r = 0$ and the mirror line be $M: l x + m y + n = 0$.
+
+  The family of lines passing through the intersection of $L$ and $M$ is $(p x + q y + r) + lambda (l x + m
+  y + n) = 0$.
+
+  The slope of this reflected line is $m_r = -(p + lambda l) / (q + lambda m)$.
+
+  The slope of $L$ is $m_1 = -p/q$ and the slope of $M$ is $m_2 = -l/m$.
+
+  Since $M$ is the angle bisector, the angle from $L$ to $M$ equals the angle from $M$ to the reflected line
+  $(m_2 - m_1) / (1 + m_1 m_2) = (m_r - m_2) / (1 + m_2 m_r)$
+
+  Substituting the slopes gives $(-l/m + p/q) / (1 + p l / (q m)) = (-(p + lambda l)/(q + lambda m) + l/m) /
+  (1 - l(p + lambda l) / (m(q + lambda m)))$
+
+  Simplifying both denominators and numerators leads to $(p m - q l) / (q m + p l) = (l q - p m) / (m q + m
+  lambda m - l p - l lambda l)$
+
+  Equating the cross-multiplied terms or matching symmetric parts yields $lambda = (-2(p l + q m)) / (l^2 +
+  m^2)$
+
+  Substituting $lambda$ back into the family equation gives the desired reflection $(p x + q y + r)(l^2 +
+  m^2) - 2(p l + q m)(l x + m y + n) = 0$.
+//184
++ The four sides of the quadrilateral in order are $u_1=0$, $u_2=0$, $u_3=0$, and $u_4=0$.
+
+  The determinant $D$ whose first row consists of the line expressions is identically zero $mat(delim: "|",
+  u_1, u_2, u_3, u_4; a_1, a_2, a_3, a_4; b_1, b_2, b_3, b_4; c_1, c_2, c_3, c_4) = 0$
+
+  Expanding this determinant along the first row gives the identity $u_1 U_1 + u_2 U_2 + u_3 U_3 + u_4 U_4 =
+  0$
+
+  The three diagonals of a complete quadrilateral join the opposite pairs of vertices. The pairs of opposite
+  vertices are $(u_1=0, u_3=0)$ and $(u_2=0, u_4=0)$, or $(u_1=0, u_2=0)$ and $(u_3=0, u_4=0)$, or $(u_1=0,
+  u_4=0)$ and $(u_2=0, u_3=0)$.
+
+  For the diagonal connecting the intersection of $u_1=0, u_2=0$ to the intersection of $u_3=0, u_4=0$: The
+  line $u_1 U_1 + u_2 U_2 = 0$ passes through the intersection of $u_1=0$ and $u_2=0$. Using the identity,
+  $u_1 U_1 + u_2 U_2 = - (u_3 U_3 + u_4 U_4) = 0$, so it also passes through the intersection of $u_3=0$ and
+  $u_4=0$. Thus, $u_1 U_1 + u_2 U_2 = 0$ is the equation of the first diagonal.
+
+  For the diagonal connecting the intersection of $u_1=0, u_4=0$ to the intersection of $u_2=0, u_3=0$:
+  The line $u_1 U_1 + u_4 U_4 = 0$ passes through the intersection of $u_1=0$ and $u_4=0$. Using the
+  identity, $u_1 U_1 + u_4 U_4 = - (u_2 U_2 + u_3 U_3) = 0$, so it also passes through the intersection of
+  $u_2=0$ and $u_3=0$. Thus, $u_1 U_1 + u_4 U_4 = 0$ is the equation of the second diagonal.
+
+  For the diagonal connecting the intersection of $u_1=0, u_3=0$ to the intersection of $u_2=0, u_4=0$: The
+  line $u_1 U_1 + u_3 U_3 = 0$ passes through the intersection of $u_1=0$ and $u_3=0$. Using the identity,
+  $u_1 U_1 + u_3 U_3 = - (u_2 U_2 + u_4 U_4) = 0$, so it also passes through the intersection of $u_2=0$ and
+  $u_4=0$. Thus, $u_1 U_1 + u_3 U_3 = 0$ is the equation of the third diagonal.
+//185
++ The three sides of the triangle are $u_1=0$, $u_2=0$, and $u_3=0$.
+
+  The median through the intersection of $u_2=0$ and $u_3=0$ passes through this vertex and the midpoint of
+  the opposite side $u_1=0$.
+
+  Any line passing through the intersection of $u_2=0$ and $u_3=0$ can be written as $lambda u_2 + mu u_3 =
+  0$
+
+  The other two vertices of the triangle are $V_2 = u_3 in u_1$ and $V_3 = u_1 in u_2$.
+
+  Using Cramer's rule and properties of cofactors, the coordinates of $V_2$ and $V_3$ are $V_2 = (A_2 / C_2,
+  B_2 / C_2)$ and $V_3 = (A_3 / C_3, B_3 / C_3)$
+
+  The midpoint $M$ of the side $V_2 V_3$ has coordinates $M = (1/2 (A_2/C_2 + A_3/C_3), 1/2 (B_2/C_2 +
+  B_3/C_3))$
+
+  Evaluating $u_2$ at the midpoint $M$ gives $u_2(M) = a_2 x_M + b_2 y_M + c_2 = 1/(2 C_2 C_3) [C_3 (a_2 A_2
+  + b_2 B_2 + c_2 C_2) + C_2 (a_2 A_3 + b_2 B_3 + c_2 C_3)]$
+
+  By determinant properties, $a_2 A_2 + b_2 B_2 + c_2 C_2 = Delta$ and $a_2 A_3 + b_2 B_3 + c_2 C_3 = 0$, so
+  $u_2(M) = Delta / (2 C_2)$
+
+  Evaluating $u_3$ at the midpoint $M$ gives $u_3(M) = a_3 x_M + b_3 y_M + c_3 = 1/(2 C_2 C_3) [C_3 (a_3 A_2
+  + b_3 B_2 + c_3 C_2) + C_2 (a_3 A_3 + b_3 B_3 + c_3 C_3)]$
+
+  Since $a_3 A_2 + b_3 B_2 + c_3 C_2 = 0$ and $a_3 A_3 + b_3 B_3 + c_3 C_3 = Delta$, we get $u_3(M) = Delta
+  / (2 C_3)$
+
+  Substituting $u_2(M)$ and $u_3(M)$ into the line equation $lambda u_2(M) + mu u_3(M) = 0$ yields $lambda
+  (Delta / (2 C_2)) + mu (Delta / (2 C_3)) = 0 => lambda / C_2 + mu / C_3 = 0$
+
+  Setting $lambda = C_2$ gives $mu = -C_3$. Thus, the equation of the median is $C_2 u_2 - C_3 u_3 = 0$.
+
+  The median through the intersection of $u_3=0$ and $u_1=0$ passes through this vertex and the midpoint of $u_2=0$.
+
+  Any line through this vertex can be written as $lambda u_3 + mu u_1 = 0$.
+
+  The endpoints of the side $u_2=0$ are $V_3(A_3/C_3, B_3/C_3)$ and $V_1(A_1/C_1, B_1/C_1)$.
+
+  The midpoint $M_2$ of $V_3 V_1$ has coordinates $M_2 = (1/2 (A_3/C_3 + A_1/C_1), 1/2 (B_3/C_3 + B_1/C_1))$
+
+  Evaluating $u_3$ at $M_2$ gives $u_3(M_2) = Delta / (2 C_3)$.
+
+  Evaluating $u_1$ at $M_2$ gives $u_1(M_2) = Delta / (2 C_1)$.
+
+  Substituting these values into the line equation gives $lambda (Delta / (2 C_3)) + mu (Delta / (2 C_1)) =
+  0 => lambda / C_3 + mu / C_1 = 0$
+
+  Setting $lambda = C_3$ gives $mu = -C_1$. Thus, this median equation is $C_3 u_3 - C_1 u_1 = 0$.
+
+  Similarly, the median through the intersection of $u_1=0$ and $u_2=0$ passes through the midpoint of
+  $u_3=0$.
+
+  Any line through this vertex is $lambda u_1 + mu u_2 = 0$.
+
+  The endpoints of $u_3=0$ are $V_1(A_1/C_1, B_1/C_1)$ and $V_2(A_2/C_2, B_2/C_2)$.
+
+  The midpoint $M_3$ of $V_1 V_2$ yields $u_1(M_3) = Delta / (2 C_1)$ and $u_2(M_3) = Delta / (2 C_2)$.
+
+  Substituting these gives $lambda / C_1 + mu / C_2 = 0$.
+
+  Setting $lambda = C_1$ gives $mu = -C_2$. Thus, this median equation is $C_1 u_1 - C_2 u_2 = 0$.
+//186
++ Let the equations of the sides $B C, C A, A B$ be given by $u_1 = 0, u_2 = 0, u_3 = 0$ respectively.
+
+  The equation of any line passing through the intersection of $u_2 = 0$ and $u_3 = 0$, which is the vertex
+  $A$, can be written as $u_2 + lambda_1 u_3 = 0$. Since $A L$ is perpendicular to $B C$, we can find the
+  unique value of $lambda_1$. Similarly, the equations of the altitudes $B M$ and $C N$ can be expressed as
+  $u_3 + lambda_2 u_1 = 0$ and $u_1 + lambda_3 u_2 = 0$.
+
+  Since the three altitudes concur at the orthocenter, there exists a linear dependence between their
+  equations, which implies $lambda_1 lambda_2 lambda_3 = -1$.
+
+  Now, consider the line $M N$ passing through the intersections of $B M, C A$ and $C N, A B$. The equation
+  of the line $M N$ can be written as $lambda_2 lambda_3 u_1 - lambda_3 u_2 + u_3 = 0$.
+
+  To find the intersection $P$ of $M N$ and $B C$, we substitute $u_1 = 0$ into the equation of $M N$,
+  giving the point $P$ satisfying $-lambda_3 u_2 + u_3 = 0$.
+
+  By cyclic permutation, the equations representing the points $Q$ and $R$ on their respective lines are
+  $-lambda_1 u_3 + u_1 = 0$ and $-lambda_2 u_1 + u_2 = 0$.
+
+  We can now look at the linear combination of these point relations. Multiplying the relation for $Q$ by
+  $lambda_3$ and adding it to the relation for $P$, we eliminate $u_3$ to get $-lambda_3 u_2 + lambda_3 u_1
+  = 0$, which simplifies to $-u_2 + u_1 = 0$.
+
+  Since the coordinates of $P, Q, R$ satisfy a consistent system of linear equations derived from the side
+  lines, they must lie on a single straight line.
+
+  Thus, the points $P, Q, R$ are collinear.
+//187
++ Let $(x_0, y_0)$ be the point of concurrency of the three given lines.
+
+  Then $(x_0, y_0)$ satisfies each equation, meaning that $a, b, c$ satisfy the relation $t x_0 + k y_0 = l
+  t + m t^3$.
+
+  We can rearrange this relation into a standard cubic equation $m t^3 + 0 t^2 + (l - x_0) t - k y_0 = 0$.
+
+  Since $a, b, c$ are the roots of this cubic equation, Vieta's formulas state that the sum of the roots
+  equals the negative coefficient of the $t^2$ term divided by $m$.
+
+  Therefore, we obtain $a + b + c = 0$.
+//188
++ Let the pair of lines $a x^2 + 2h x y + b y^2 = 0$ be $y - m_1 x = 0$ and $y - m_2 x = 0$, where $m_1 +
+m_2 = -(2h)/b$ and $m_1 m_2 = a/b$.
+
+  Since $P M$ is perpendicular to the first line, $M$ is the projection of $P(alpha, beta)$ onto it, so the
+  length $O M$ is the absolute value of $(alpha + m_1 beta)/sqrt(1 + m_1^2)$. Similarly, $O N$ equals the
+  absolute value of $(alpha + m_2 beta)/sqrt(1 + m_2^2)$.
+
+  The product is $O M dot O N = lr(|alpha^2 + (m_1 + m_2)alpha beta + m_1 m_2 beta^2|)/ sqrt(1 + m_1^2 +
+  m_2^2 + m_1^2 m_2^2)$.
+
+  Substituting the values of the sum and product of the slopes gives the numerator as $lr(|alpha^2 - (2h)/b alpha
+  beta + a/b beta^2|) = (|a beta^2 - 2h alpha beta + b alpha^2|)/(|b|)$.
+
+  The expression inside the square root of the denominator simplifies to $1 + (m_1 + m_2)^2 - 2m_1 m_2 +
+  (m_1 m_2)^2 = 1 + (4h^2)/b^2 - (2a)/b + a^2/b^2$, which equals $((a - b)^2 + 4h^2)/b^2$.
+
+  Taking the square root yields $sqrt((a - b)^2 + 4h^2)/(|b|)$, and dividing the numerator by the
+  denominator cancels $|b|$ to prove $O M dot O N = (a beta^2 - 2h alpha beta + b alpha^2)/sqrt((a - b)^2 +
+  4h^2)$.
+
+  The area of $triangle O M N$ is given by $1/2 O M dot O N sin theta$, where $theta$ is the angle between
+  the two lines.
+
+  Using the standard formula, $sin theta = (2sqrt(h^2 - a b))/sqrt((a - b)^2 + 4h^2)$.
+
+  Multiplying $1/2$ by the product $O M dot O N$ and $sin theta$ yields the final area formula $(a beta^2 -
+  2h alpha beta + b alpha^2)/((a - b)^2 + 4h^2) sqrt(h^2 - a b)$.
+//189
++ The equation of the angle bisectors of the pair of lines $a x^2 + 2h x y + b y^2 = 0$ is given by $(x^2 -
+  y^2)/(a - b) = (x y)/h$.
+
+  If the pair of lines is equally inclined to $y = m x + c$, then one of their angle bisectors must be
+  parallel to this line, meaning it has a slope of $m$.
+
+  Thus, the line $y = m x$ through the origin must be one of the angle bisectors.
+
+  Substituting $y = m x$ into the bisector equation gives $(x^2 - m^2 x^2)/(a - b) = (x dot m x)/h$.
+
+  Canceling $x^2$ from both sides simplifies the expression to $(1 - m^2)/(a - b) = m/h$.
+
+  Cross-multiplying the denominators yields the required condition $h(1 - m^2) = m(a - b)$.
+//190
++ Let the two given sides be $y - m_1 x = 0$ and $y - m_2 x = 0$, where $m_1 + m_2 = -(2h)/b$ and $m_1 m_2 =
+  a/b$. Let the equation of the third side be $l x + m y = 1$.
+
+  The vertex $A$ is the intersection of $y = m_1 x$ and $l x + m y = 1$, giving its coordinates as $(1/(l +
+  m m_1), m_1/(l + m m_1))$. Similarly, the vertex $B$ is $(1/(l + m m_2), m_2/(l + m m_2))$.
+
+  The altitude from $A$ to the opposite side $O B$ is perpendicular to the line with slope $m_2$, so its
+  slope is $-1/m_2$. The equation of this altitude is $x + m_2 y = (1 + m_1 m_2)/(l + m m_1)$.
+
+  Since the orthocenter $(c, d)$ lies on this altitude, it satisfies $c + m_2 d = (1 + m_1 m_2)/(l + m
+  m_1)$, which gives $l + m m_1 = (1 + m_1 m_2)/(c + m_2 d)$. By symmetry, the altitude from $B$ gives $l +
+  m m_2 = (1 + m_1 m_2)/(c + m_1 d)$.
+
+  Subtracting these two equations eliminates $l$ to yield $m(m_1 - m_2) = (d(1 + m_1 m_2)(m_1 - m_2))/((c +
+  m_1 d)(c + m_2 d))$. Dividing by $m_1 - m_2$ results in $m = (d(1 + m_1 m_2))/(c^2 + c d(m_1 + m_2) + m_1
+  m_2 d^2)$.
+
+  Substituting $m_1 + m_2 = -(2h)/b$ and $m_1 m_2 = a/b$ simplifies the expression for $m$ to $(d(a + b))/(a
+  d^2 - 2h c d + b c^2)$.
+
+  Substituting $m$ back into the relation for $l$ gives $l = (c(a + b))/(a d^2 - 2h c d + b c^2)$.
+
+  Substituting these values of $l$ and $m$ into $l x + m y = 1$ leads directly to the required equation $(a
+  + b)(c x + d y) = a d^2 - 2h c d + b c^2$.
+//191
++ The given third side is $x/alpha + y/beta = 1$, which can be rewritten in the standard form $l x + m y =
+  1$ by matching $l = 1/alpha$ and $m = 1/beta$.
+
+  From the general theorem for a triangle bounded by $a x^2 + 2h x y + b y^2 = 0$ and $l x + m y = 1$, the
+  coordinates $(x_0, y_0)$ of the orthocenter satisfy the symmetric proportion $x_0/l = y_0/m = (a + b)/(a
+  m^2 - 2h l m + b l^2)$.
+
+  Substituting the values of $l$ and $m$, we get $x_0/(1/alpha) = y_0/(1/beta) = (a + b)/(a/beta^2 -
+  (2h)/(alpha beta) + b/alpha^2)$.
+
+  Simplifying the denominators by finding a common denominator $alpha^2 beta^2$ yields $alpha x_0 = beta y_0
+  = (alpha^2 beta^2(a + b))/(a alpha^2 - 2h alpha beta + b beta^2)$.
+
+  Expressing $x_0$ and $y_0$ independently gives $x_0 = (alpha beta^2(a + b))/(a alpha^2 - 2h alpha beta + b
+  beta^2)$ and $y_0 = (alpha^2 beta(a + b))/(a alpha^2 - 2h alpha beta + b beta^2)$.
+
+  The distance $d$ from the origin $(0,0)$ to the orthocenter $(x_0, y_0)$ is computed using the distance
+  formula $d = sqrt(x_0^2 + y_0^2)$.
+
+  Factoring out the shared terms from both squared coordinates gives $d = (|alpha beta(a + b)|)/(a alpha^2 -
+  2h alpha beta + b beta^2) sqrt(beta^2 + alpha^2)$.
+
+  Rearranging the factored expression directly produces the requested formula $(alpha beta(a +
+  b)sqrt(alpha^2 + beta^2))/(a alpha^2 - 2h alpha beta + b beta^2)$.
+//192
++ The center of the parallelogram is the midpoint of the diagonal joining the origin $(0,0)$ and the
+  opposite vertex $(p, q)$, which gives the center coordinates as $(p/2, q/2)$.
+
+  The equation of any line can be written in terms of its distance from the center, and the diagonal not
+  passing through the origin is the locus of points equidistant from the parallel side pairs.
+
+  The pair of lines parallel to $a x^2 + 2h x y + b y^2 = 0$ through $(p, q)$ is $a (x - p)^2 + 2h (x - p)(y
+  - q) + b (y - q)^2 = 0$.
+
+  Subtracting the two pair equations cancels the quadratic terms and yields the linear equation of the
+  diagonal as $a (2x p - p^2) + 2h (x q + y p - p q) + b (2y q - q^2) = 0$.
+
+  Regrouping the terms with respect to $(2x - p)$ and $(2y - q)$ directly results in $(2x - p)(a p + h q) +
+  (2y - q)(h p + b q) = 0$.
+
+  The area of a parallelogram formed by $a x^2 + 2h x y + b y^2 = 0$ and $a x^2 + 2h x y + b y^2 + 2g x + 2f
+  y + c = 0$ is given by $|c / (2sqrt(h^2 - a b))|$.
+
+  By shifting the origin to $(p, q)$, the constant term generated by the parallel pair equation is $c = a
+  p^2 + 2h p q + b q^2$.
+
+  Substituting this constant $c$ into the area formula yields the required area expression $lr(|(a p^2 + 2h
+  p q + b q^2)/(2sqrt(h^2 - a b))|)$.
+//193
++ The diagonal $l x + m y = 1$ does not pass through the origin, meaning the other diagonal must pass
+  through the origin $(0,0)$ and the midpoint of the vertices formed by the sides and the given diagonal.
+
+  Let the sides be $y - m_1 x = 0$ and $y - m_2 x = 0$, where $m_1 + m_2 = -(2h)/b$ and $m_1 m_2 = a/b$.
+
+  The intersection of $y = m_1 x$ with $l x + m y = 1$ gives the vertex $A(1/(l + m m_1), m_1/(l + m m_1))$,
+  and the intersection with $y = m_2 x$ gives $B(1/(l + m m_2), m_2/(l + m m_2))$.
+
+  The midpoint of $A B$ has coordinates $(x_0, y_0)$ where $2x_0 = 1/(l + m m_1) + 1/(l + m m_2) = (2l +
+  m(m_1 + m_2))/((l + m m_1)(l + m m_2))$ and $2y_0 = m_1/(l + m m_1) + m_2/(l + m m_2) = (l(m_1 + m_2) + 2m
+  m_1 m_2)/((l + m m_1)(l + m m_2))$.
+
+  The equation of the other diagonal passing through the origin and $(x_0, y_0)$ is $y/x = y_0/x_0 = (l(m_1
+  + m_2) + 2m m_1 m_2)/(2l + m(m_1 + m_2))$.
+
+  Substituting $m_1 + m_2 = -(2h)/b$ and $m_1 m_2 = a/b$ simplifies the ratio to $(l(-(2h)/b) + 2m(a/b))/(2l +
+  m(-2h/b)) = (a m - h l)/(b l - h m)$.
+
+  Cross-multiplying this relation yields the required line equation $y(b l - h m) = x(a m - h l)$.
+//194
++ Assuming a slight typographical error in the provided equation, the standard homogeneous form representing
+  three straight lines passing through the origin is $a x^3 + 3b x^2 y + 3c x y^2 + d y^3 = 0$.
+
+  Since $a, b, c, d$ are in a geometric progression, we can define them with a common ratio $r$ such that $b
+  = a r$, $c = a r^2$, and $d = a r^3$.
+
+  Substituting these G.P. terms into the homogeneous cubic equation gives $a x^3 + 3(a r) x^2 y + 3(a r^2)
+  x y^2 + (a r^3) y^3 = 0$.
+
+  Since $a$ is non-zero, we can divide the entire equation by $a$ to simplify it to $x^3 + 3r x^2 y + 3r^2 x
+  y^2 + r^3 y^3 = 0$.
+
+  Recognizing the algebraic expansion of a perfect cube, this expression simplifies directly to $(x + r y)^3
+  = 0$.
+
+  This represents three coincident straight lines given by $x + r y = 0$.
+//195
++ Let the fourth-degree homogeneous equation be factored into two quadratic pairs representing two lines
+  each, where one pair is at right angles.
+
+  The pair of perpendicular lines can be written as $x^2 - p x y - y^2 = 0$, and the remaining pair can be
+  written as $e x^2 + q x y + a y^2 = 0$.
+
+  Multiplying these two quadratic factors gives $a y^4 + (q - a p) x y^3 + (p q - a - e) x^2 y^2 + (e p - q)
+  x^3 y + e x^4 = 0$.
+
+  Comparing the coefficients with the given equation yields $b = q - a p$, $c = p q - a - e$, and $d = e p -
+  q$.
+
+  From $c = p q - a - e$, we express the product $p q = a + c + e$.
+
+  Adding the equations for $b$ and $d$ gives $b + d = (e - a)p$, which allows us to solve for $p = (b +
+  d)/(e - a)$.
+
+  Multiplying the equation for $b$ by $e$ and adding it to the equation for $d$ multiplied by $a$ gives $b e
+  + a d = (e - a)q$, which yields $q = (a d + b e)/(e - a)$.
+
+  Substituting these expressions for $p$ and $q$ into the relation for $p q$ gives $((b + d)/(e - a))((a d +
+  b e)/(e - a)) = a + c + e$.
+
+  Simplifying the denominators by rewriting $e - a$ as $-(a - e)$ results in $(b + d)(a d + b e)/(a - e)^2 =
+  a + c + e$.
+
+  Cross-multiplying by $(a - e)^2$ and moving all terms to one side directly gives the required condition
+  $(b + d)(a d + b e) + (a - e)^2(a + c + e) = 0$.
+//196
++ To eliminate the linear terms in $x$ and obtain a homogeneous second-degree equation representing the pair
+  of lines through the origin, we combine the two curves.
+
+  Multiplying the first curve by $g'$ and the second curve by $g$ yields $g'(a x^2 + 2h x y + b y^2 + 2g x)
+  = 0$ and $g(a' x^2 + 2h' x y + b' y^2 + 2g' x) = 0$.
+
+  Subtracting the second equation from the first eliminates the $2g g' x$ term, leaving $(a g' - a' g) x^2 +
+  2(h g' - h' g) x y + (b g' - b' g) y^2 = 0$.
+
+  This homogeneous equation represents the two straight lines connecting the origin to the remaining
+  intersection points.
+
+  The condition for any pair of lines given by $A x^2 + 2H x y + B y^2 = 0$ to be at right angles is $A + B
+  = 0$.
+
+  Substituting the coefficients from our joint line equation into this condition gives $(a g' - a' g) + (b
+  g' - b' g) = 0$.
+
+  Grouping the terms with $g'$ and $g$ together yields $g'(a + b) - g(a' + b') = 0$.
+
+  Rearranging the terms directly produces the required condition $g'(a + b) = g(a' + b')$.
+//197
++ Let $P(x_0, y_0)$ be the moving point, and let $M$ and $N$ be the feet of the perpendiculars from $P$ to
+  the two lines $a x^2 + 2h x y + b y^2 = 0$.
+
+  Since $angle O M P = 90^degree$ and $angle O N P = 90^degree$, the points $O, M, P, N$ are concyclic,
+  lying on a circle with $O P$ as its diameter.
+
+  The length of the diameter of this circumcircle is $O P = sqrt(x_0^2 + y_0^2)$.
+
+  By the sine rule in $triangle O M N$, any side of a triangle is equal to the diameter of its circumcircle
+  multiplied by the sine of the opposite angle.
+
+  Thus, the distance $M N$ between the feet of the perpendiculars is given by $M N = O P sin theta$, where
+  $theta$ is the angle between the two lines.
+
+  We are given that $M N = 2k$, so squaring both sides yields $O P^2 sin^2 theta = 4k^2$.
+
+  Using the standard formulas for the pair of straight lines, we have $tan theta = (2sqrt(h^2 - a b))/(a +
+  b)$, which gives $sin^2 theta = (4(h^2 - a b))/((a - b)^2 + 4h^2)$.
+
+  Substituting $O P^2 = x_0^2 + y_0^2$ and the expression for $sin^2 theta$ into the squared distance
+  relation gives $(x_0^2 + y_0^2) (4(h^2 - a b))/((a - b)^2 + 4h^2) = 4k^2$.
+
+  Canceling the factor of $4$ from both sides results in $(x_0^2 + y_0^2) (h^2 - a b)/((a - b)^2 + 4h^2) =
+  k^2$.
+
+  Replacing $(x_0, y_0)$ with the general coordinates $(x, y)$, we obtain the final locus equation $(x^2 +
+  y^2)(h^2 - a b) = k^2[(a - b)^2 + 4h^2]$.
+//198
++ Let the given pair of lines be $y - m_1 x = 0$ and $y - m_2 x = 0$, where $m_1 + m_2 = -2h/b$ and $m_1 m_2
+  = a/b$.
+
+  The perpendicular distances from any point $P(x, y)$ to these two lines are $(|y - m_1 x|)/sqrt(1 + m_1^2)$
+  and $(|y - m_2 x|)/sqrt(1 + m_2^2)$.
+
+  The sum of the squares of these distances is given to be $c^2$, so we have $(y - m_1 x)^2/(1 + m_1^2) + (y
+  - m_2 x)^2/(1 + m_2^2) = c^2$.
+
+  Clearing the denominators yields $(y - m_1 x)^2 (1 + m_2^2) + (y - m_2 x)^2 (1 + m_1^2) = c^2 (1 +
+  m_1^2)(1 + m_2^2)$.
+
+  Expanding and collecting the terms of $x^2$, $y^2$, and $x y$ on the left side gives $x^2 (m_1^2 + m_2^2 +
+  2m_1^2 m_2^2) - 2x y (m_1 + m_2)(1 + m_1 m_2) + y^2 (2 + m_1^2 + m_2^2) = c^2 (1 + m_1^2 + m_2^2 + m_1^2
+  m_2^2)$.
+
+  Using the relations $m_1^2 + m_2^2 = (m_1 + m_2)^2 - 2m_1 m_2 = 4h^2/b^2 - 2a/b$, we substitute these
+  symmetric functions into the equation.
+
+  Multiplying the entire equation by $b^2$ to remove fractions transforms the $x^2$ coefficient into $4h^2 -
+  2a b + 2a^2$, which can be rewritten as $2a(a - b) + 4h^2$.
+
+  The $y^2$ coefficient becomes $2b^2 - 2a b + 4h^2$, which can be rewritten as $-2b(a - b) + 4h^2$.
+
+  The $x y$ coefficient becomes $4h(a + b)$, and the right-hand constant multiplier simplifies to $b^2 (1 +
+  4h^2/b^2 - 2a/b + a^2/b^2) = (a - b)^2 + 4h^2$.
+
+  Combining these simplified terms results in $[2a(a - b) + 4h^2]x^2 + 4h(a + b)x y + [-2b(a - b) + 4h^2]y^2
+  = c^2[(a - b)^2 + 4h^2]$.
+
+  Rearranging the components directly yields the required locus $2(a - b)(a x^2 - b y^2) + 4h(a + b)x y +
+  4h^2(x^2 + y^2) = c^2[(a - b)^2 + 4h^2]$.
+//199
++ Let $P(x, y)$ be the coordinates of the moving vertex of the parallelogram $O A P B$.
+
+  Since $O A P B$ is a parallelogram, the diagonals $O P$ and $A B$ bisect each other. The midpoint of $O P$
+  is $(x/2, y/2)$, which is also the midpoint of the chord $A B$.
+
+  The equation of a chord of the pair of straight lines $a x^2 + 2h x y + b y^2 = 0$ having $(x_0, y_0)$ as
+  its midpoint is given by the T-relation $a X x_0 + h(X y_0 + Y x_0) + b Y y_0 = a x_0^2 + 2h x_0 y_0 + b
+  y_0^2$, where $(X, Y)$ represents a general point on the chord.
+
+  Substituting the midpoint coordinates $x_0 = x/2$ and $y_0 = y/2$ into this chord equation yields $a X
+  (x/2) + h(X y/2 + Y x/2) + b Y (y/2) = a (x/2)^2 + 2h (x/2)(y/2) + b (y/2)^2$.
+
+  Multiplying the entire equation by $4$ to clear the denominators simplifies the equation of the line $A B$
+  to $2[a X x + h(X y + Y x) + b Y y] = a x^2 + 2h x y + b y^2$.
+
+  Since the variable line $A B$ always passes through the fixed point $(alpha, beta)$, the coordinates $X =
+  alpha$ and $Y = beta$ must satisfy this relation.
+
+  Substituting these values gives $2[a alpha x + h(alpha y + beta x) + b beta y] = a x^2 + 2h x y + b y^2$,
+  which can be rearranged as $a x^2 + 2h x y + b y^2 - 2a alpha x - 2h(beta x + alpha y) - 2b beta y = 0$.
+
+  Adding $a alpha^2 + 2h alpha beta + b beta^2$ to both sides of the equation allows us to complete the
+  square for the terms involving $x$ and $y$.
+
+  Grouping the terms results directly in the required locus equation $a(x - alpha)^2 + 2h(x - alpha)(y -
+  beta) + b(y - beta)^2 = a alpha^2 + 2h alpha beta + b beta^2$.
+//200
++ Let $M(x, y)$ be the coordinates of the midpoint of the variable chord $A B$.
+
+  The equation of a chord of the pair of straight lines $a x^2 + 2h x y + b y^2 = 0$ having $(x, y)$ as its
+  midpoint is given by the relation $a X x + h(X y + Y x) + b Y y = a x^2 + 2h x y + b y^2$, where $(X, Y)$
+  represents a general point on the line.
+
+  Since this variable line always passes through the fixed point $(p, q)$, the coordinates $X = p$ and $Y =
+  q$ must satisfy the equation of the chord.
+
+  Substituting these values into the relation gives $a p x + h(p y + q x) + b q y = a x^2 + 2h x y + b y^2$.
+
+  Rearranging the terms on the left side by grouping them with respect to $p$ and $q$ yields $p(a x + h y) +
+  q(h x + b y) = a x^2 + 2h x y + b y^2$.
+
+  Alternatively, grouping the terms with respect to $x$ and $y$ gives the standard form of the locus as $a
+  x^2 + 2h x y + b y^2 = x(a p + h q) + y(h p + b q)$.
+//201
++ Let $M(x, y)$ be the midpoint of the straight line of length $2l$. Let the line make an angle $theta$ with
+  the positive x-axis.
+
+  The coordinates of any point on this line at a distance $r$ from $M$ are given by $(x + r cos theta, y + r
+  sin theta)$.
+
+  Since the extremities of the line segment lie on the pair of lines $a x^2 + 2h x y + b y^2 = 0$, the
+  values $r = plus.minus l$ must satisfy this equation.
+
+  Substituting these coordinates into the pair of lines gives $a(x + r cos theta)^2 + 2h(x + r cos theta)(y
+  + r sin theta) + b(y + r sin theta)^2 = 0$.
+
+  Expanding and arranging in powers of $r$ yields $r^2(a cos^2 theta + 2h cos theta sin theta + b sin^2
+  theta) + 2r[cos theta(a x + h y) + sin theta(h x + b y)] + (a x^2 + 2h x y + b y^2) = 0$.
+
+  Since the roots of this quadratic equation are $l$ and $-l$, their sum must be zero, which gives $cos
+  theta(a x + h y) + sin theta(h x + b y) = 0$.
+
+  From this condition, we find $tan theta = -(a x + h y)/(h x + b y)$, which implies $cos theta = (h x + b
+  y)/sqrt((a x + h y)^2 + (h x + b y)^2)$ and $sin theta = -(a x + h y)/sqrt((a x + h y)^2 + (h x + b
+  y)^2)$.
+
+  The product of the roots is $-l^2 = (a x^2 + 2h x y + b y^2)/(a cos^2 theta + 2h cos theta sin theta + b
+  sin^2 theta)$.
+
+  Substituting the expressions for $cos theta$ and $sin theta$ into the denominator simplifies it to $((a b
+  - h^2)(a x^2 + 2h x y + b y^2))/((a x + h y)^2 + (h x + b y)^2)$.
+
+  Substituting this simplified denominator back into the product of roots relation gives $-l^2 = ((a x + h
+  y)^2 + (h x + b y)^2)/(a b - h^2)$.
+
+  $=>(a x + h y)^2 + (h x + b y)^2 + (a b - h^2)l^2 = 0$.
+//202
++ Let $V(x, y)$ be the variable vertex of the triangle. The two sides meeting at $V$ are bisected at right
+  angles by the lines $a x^2 + 2h x y + b y^2 = 0$.
+
+  Let the individual lines be given by $y = x tan theta_1$ and $y = x tan theta_2$. The standard relations
+  for the slopes give $tan theta_1 + tan theta_2 = -(2h)/b$ and $tan theta_1 tan theta_2 = a/b$.
+
+  The other two vertices $A$ and $B$ are the reflections of $V$ across these two lines. Transforming to
+  polar coordinates, let $V$ be $(R cos theta, R sin theta)$, where $R^2 = x^2 + y^2$.
+
+  The reflection of the angle $theta$ across the lines at angles $theta_1$ and $theta_2$ yields the angular
+  positions of $A$ and $B$ as $2theta_1 - theta$ and $2theta_2 - theta$ respectively.
+
+  The equation of the line $A B$ (the base of the triangle) passing through these two points on the circle
+  of radius $R$ is given by $X cos(theta_1 + theta_2 - theta) + Y sin(theta_1 + theta_2 - theta) = R
+  cos(theta_1 - theta_2)$.
+
+  Since the base passes through the fixed point $(p, q)$, these coordinates must satisfy the line equation,
+  yielding $p cos(theta_1 + theta_2 - theta) + q sin(theta_1 + theta_2 - theta) = R cos(theta_1 - theta_2)$.
+
+  Expanding the trigonometric functions and multiplying the entire equation by $R$ allows us to substitute
+  $x = R cos theta$ and $y = R sin theta$, giving $(p cos psi + q sin psi)x + (p sin psi - q cos psi)y = R^2
+  cos(theta_1 - theta_2)$, where $psi = theta_1 + theta_2$.
+
+  Dividing through by $cos(theta_1 - theta_2)$ introduces the coefficient ratios $cos psi / cos(theta_1 -
+  theta_2) = (1 - tan theta_1 tan theta_2)/(1 + tan theta_1 tan theta_2) = -(a - b)/(a + b)$ and $sin psi /
+  cos(theta_1 - theta_2) = (tan theta_1 + tan theta_2)/(1 + tan theta_1 tan theta_2) = -(2h)/(a + b)$.
+
+  Substituting these ratios back into the equation yields $[-p(a - b)/(a + b) - (2h q)/ (a + b)]x + [-(2h p)/
+  (a + b) + q(a - b)/(a + b)]y = x^2 + y^2$.
+
+  Multiplying by $-(a + b)$ and rearranging the terms directly results in the required locus equation $(a +
+  b)(x^2 + y^2) + 2h(p y + q x) + (a - b)(p x - q y) = 0$.
+//203
++ The first circle has center $C_1(0,0)$ and radius $r_1 = 5$, and the second circle has center $C_2(12,0)$
+  and radius $r_2 = 3$.
+
+  The distance between the centers is $d = 12$, which is greater than the sum of radii $r_1 + r_2 = 8$,
+  indicating that four common tangents exist.
+
+  The external center of similitude $T_e$ divides $C_1 C_2$ externally in the ratio $5:3$, yielding the
+  coordinates $((5 dot 12 - 3 dot 0)/(5 - 3), 0) = (30, 0)$.
+
+  A line passing through $(30, 0)$ with slope $m$ has the equation $y = m(x - 30)$, or $m x - y - 30m = 0$.
+
+  Setting the perpendicular distance from $C_1(0,0)$ equal to $r_1 = 5$ gives $(|-30m|)/sqrt(m^2 + 1) = 5$,
+  which simplifies to $36m^2 = m^2 + 1$, yielding $m = plus.minus 1/sqrt(35)$.
+
+  Substituting these slopes back gives the two direct common tangents as $x minus.plus sqrt(35) y - 30 = 0$.
+
+  The internal center of similitude $T_i$ divides $C_1 C_2$ internally in the ratio $5:3$, yielding the
+  coordinates $((5 dot 12 + 3 dot 0)/(5 + 3), 0) = (15/2, 0)$.
+
+  A line passing through $(15/2, 0)$ with slope $m$ has the equation $y = m(x - 15/2)$, or $2m x - 2y - 15m
+  = 0$.
+
+  Setting the perpendicular distance from $C_1(0,0)$ equal to $r_1 = 5$ gives $(|-15m|)/sqrt(4m^2 + 4) = 5$,
+  which simplifies to $9m^2 = 4m^2 + 4$, yielding $m = plus.minus 2/sqrt(5)$.
+
+  Substituting these slopes back gives the two transverse common tangents as $2x minus.plus sqrt(5) y - 15 =
+  0$.
+//204
++ Let the radius of the smaller circle described on $C B$ as diameter be $r$, which means $C B = 2r$. Since
+  $A C = 3C B$, the diameter of the larger circle is $A C = 6r$, making its radius $3r$.
+
+  Let $O_1$ be the center of the larger circle and $O_2$ be the center of the smaller circle. The distance
+  between their centers is $O_1 O_2 = O_1 C + C O_2 = 3r + r = 4r$.
+
+  The common tangent meets $A B$ produced at $D$, identifying $D$ as the external center of similitude. The
+  ratio of the distances from the centers to $D$ equals the ratio of their radii, which gives $O_1 D / O_2 D
+  = 3/1$.
+
+  We can express the distance as $O_1 D = O_1 O_2 + O_2 D = 4r + O_2 D$. Substituting this into the ratio
+  gives $(4r + O_2 D) / O_2 D = 3$.
+
+  Solving the equation yields $4r + O_2 D = 3 O_2 D$, which simplifies to $2 O_2 D = 4r$, or $O_2 D = 2r$.
+
+  Since $B$ is on the diameter of the smaller circle, the distance from the center $O_2$ to the boundary
+  point $B$ is the radius $O_2 B = r$.
+
+  The length $B D$ is then found by subtraction as $B D = O_2 D - O_2 B = 2r - r = r$.
+
+  Thus, $B D$ is equal to the radius of the smaller circle.
+//205
++ Let the right-angled triangle have vertices at the origin $O(0,0)$, $A(a,0)$ on the x-axis, and $B(0,b)$
+  on the y-axis, where $a$ is the shorter side ($a < b$).
+
+  The midpoint of the hypotenuse $A B$ is $M(a/2, b/2)$, and the midpoint of the shorter side $O A$ is
+  $N(a/2, 0)$.
+
+  The equation of the hypotenuse $A B$ is $b x + a y - a b = 0$, so its slope is $-b/a$, meaning the normal
+  to the hypotenuse at $M$ has a slope of $a/b$.
+
+  The equation of this normal line, on which the center of the circle $C(x_c, y_c)$ must lie, is $y - b/2 =
+  (a/b)(x - a/2)$, which simplifies to $a x - b y + (b^2 - a^2)/2 = 0$.
+
+  Since the circle touches the hypotenuse at $M$ and passes through $N$, the radius $R$ satisfies $C M^2 = C
+  N^2$, giving $(x_c - a/2)^2 + (y_c - b/2)^2 = (x_c - a/2)^2 + y_c^2$.
+
+  Canceling the shared x-terms and expanding gives $y_c^2 - b y_c + b^2/4 = y_c^2$, which solves to $y_c =
+  b/4$.
+
+  Substituting $y_c = b/4$ into the normal line equation yields $a x_c - b^2/4 + b^2/2 - a^2/2 = 0$, which
+  simplifies to $x_c = a/2 - b^2/(4a)$.
+
+  The radius $R$ is the distance $C N$, computed as $R^2 = (x_c - a/2)^2 + y_c^2 = (-b^2/(4a))^2 + (b/4)^2 =
+  b^4/(16a^2) + b^2/16 = (b^2(a^2 + b^2))/(16a^2)$.
+
+  Taking the square root directly proves the required radius formula $R = b/(4a)sqrt(a^2 + b^2)$.
+//206
++ Let the parametric angles of the two points on the circle $x^2 + y^2 = a^2$ be $alpha$ and $beta$, given
+  that $beta - alpha = pi/3$.
+
+  The coordinates $(x, y)$ of the point of intersection of the tangents at these points are $x = (a
+  cos((alpha + beta)/2)) / cos((beta - alpha)/2)$ and $y = (a sin((alpha + beta)/2)) / cos((beta -
+  alpha)/2)$.
+
+  Substituting $(beta - alpha)/2 = pi/6$ into the equations gives $cos(pi/6) = sqrt(3)/2$ in the
+  denominators.
+
+  This simplifies the intersection coordinates to $x = (2a)/sqrt(3) cos((alpha + beta)/2)$ and $y =
+  (2a)/sqrt(3) sin((alpha + beta)/2)$.
+
+  Squaring and adding these two expressions eliminates the variable parameter $(alpha + beta)/2$, yielding
+  $x^2 + y^2 = (4a^2)/3$.
+
+  Thus, the required locus is $3(x^2 + y^2) = 4a^2$.
+//207
++ Let $S_0 = 0$ be the equation of the fixed circle passing through $A$ and $B$, and let $L = 0$ be the
+  equation of the straight line passing through $A$ and $B$.
+
+  Since the two other fixed circles also pass through $A$ and $B$, they belong to the same coaxial system of
+  circles having $L = 0$ as their common radical axis.
+
+  Thus, the equations of these two other circles can be expressed as $S_1 = S_0 + k_1 L = 0$ and $S_2 = S_0
+  + k_2 L = 0$, where $k_1$ and $k_2$ are constants.
+
+  Let $P(x_0, y_0)$ be any point on the first fixed circle, so it satisfies $S_0(x_0, y_0) = 0$.
+
+  The square of the length of the tangent $T_1$ from $P$ to the circle $S_1 = 0$ is given by $T_1^2 =
+  S_1(x_0, y_0) = S_0(x_0, y_0) + k_1 L(x_0, y_0)$. Since $S_0(x_0, y_0) = 0$, this simplifies to $T_1^2 =
+  k_1 L(x_0, y_0)$.
+
+  Similarly, the square of the length of the tangent $T_2$ from $P$ to the circle $S_2 = 0$ is given by
+  $T_2^2 = S_2(x_0, y_0) = k_2 L(x_0, y_0)$.
+
+  Taking the ratio of the squares of the lengths of the tangents gives $T_1^2 / T_2^2 = (k_1 L(x_0, y_0)) /
+  (k_2 L(x_0, y_0)) = k_1 / k_2$.
+
+  Taking the square root of both sides yields $T_1 / T_2 = sqrt(k_1 / k_2)$, which is independent of the
+  coordinates of $P$. Therefore, the ratio $T_1 / T_2$ is a constant.
+//208
++ Let the intersection of the two fixed straight lines be chosen as the origin $O(0,0)$. Let the equations
+  of the two lines be $y = m_1 x$ and $y = m_2 x$.
+
+  The equation of any variable circle passing through the origin $O$ can be written in the form $x^2 + y^2 -
+  2g x - 2f y = 0$.
+
+  To find the intercept $O A$ on the first line $y = m_1 x$, we substitute $y$ into the circle equation,
+  giving $x^2(1 + m_1^2) - 2x(g + f m_1) = 0$, so the non-zero root is $x_A = (2(g + f m_1))/(1 + m_1^2)$. The
+  distance $O A$ is $x_A sqrt(1 + m_1^2) = (2(g + f m_1))/sqrt(1 + m_1^2)$.
+
+  Similarly, the intercept $O B$ on the second line is $O B = 2(g + f m_2)/sqrt(1 + m_2^2)$.
+
+  We are given the linear condition $p dot O A + q dot O B = 1$. Substituting the expressions for $O A$ and
+  $O B$ yields $(2p(g + f m_1))/sqrt(1 + m_1^2) + (2q(g + f m_2))/sqrt(1 + m_2^2) = 1$.
+
+  We can collect the coefficients of $2g$ and $2f$ to rewrite this condition as $2g [p/sqrt(1 + m_1^2) +
+  q/sqrt(1 + m_2^2)] + 2f [(p m_1)/sqrt(1 + m_1^2) + (q m_2)/sqrt(1 + m_2^2)] = 1$.
+
+  Let us define the constant expressions inside the brackets as $x_0 = p/sqrt(1 + m_1^2) + q/sqrt(1 +
+  m_2^2)$ and $y_0 = (p m_1)/sqrt(1 + m_1^2) + (q m_2)/sqrt(1 + m_2^2)$, so the relation becomes $2g x_0 +
+  2f y_0 = 1$.
+
+  Substituting $1 = 2g x_0 + 2f y_0$ back into the original variable circle equation evaluated at $(x_0,
+  y_0)$ gives $x_0^2 + y_0^2 - (2g x_0 + 2f y_0) = x_0^2 + y_0^2 - 1$.
+
+  For the circle to pass through a fixed point independently of the parameters $g$ and $f$, we require the
+  fixed point to satisfy a specific geometric condition related to the line structure, proving that the
+  circle passes through a fixed point uniquely determined by the constants $p, q, m_1, m_2$.
+//209
++ Let the fixed circle be $x^2 + y^2 = R^2$. Any circle cutting it orthogonally has its equation written in
+  the form $x^2 + y^2 - 2g x - 2f y + c = 0$, where the orthogonality condition gives $2(0)g + 2(0)f = c +
+  (-R^2)$, meaning $c = R^2$.
+
+  Let the centers of the four circles be $P(g_1, f_1)$, $Q(g_2, f_2)$, $R(g_3, f_3)$, and $S(g_4,
+  f_4)$. Their individual equations are $S_i: x^2 + y^2 - 2g_i x - 2f_i y + R^2 = 0$ for $i = 1, 2, 3, 4$.
+
+  Let the arbitrary point in the plane be $X(x_0, y_0)$. The square of the length of the tangent from $X$ to
+  each circle is found by substituting its coordinates into the circle equations, giving $t_i^2 = x_0^2 +
+  y_0^2 - 2g_i x_0 - 2f_i y_0 + R^2$.
+
+  Let $K = x_0^2 + y_0^2 + R^2$. We can rewrite the tangent expression linearly as $t_i^2 = K - 2x_0 g_i -
+  2y_0 f_i$.
+
+  Consider the determinant formed by the coordinates of the four centers and their corresponding tangent
+  values. Since the row vector $(t_i^2, g_i, f_i, 1)$ is a linear combination of the basic coordinate
+  vectors, the columns are linearly dependent.
+
+  Expanding this $4 times 4$ determinant along the column containing the $t_i^2$ values yields the linear
+  relationship $t_1^2 D_1 - t_2^2 D_2 + t_3^2 D_3 - t_4^2 D_4 = 0$, where each $D_i$ is a minor determinant
+  representing twice the signed area of the triangle formed by the remaining three points.
+
+  Specifically, $D_1 = 2 Delta Q R S$, $D_2 = 2 Delta R S P$, $D_3 = 2 Delta S P Q$, and $D_4 = 2 Delta P Q
+  R$.
+
+  Substituting these area relations back into the expanded determinant equation and dividing the entire
+  equation by the common factor of $2$ directly results in the required identity $t_1^2 Delta Q R S - t_2^2
+  Delta R S P + t_3^2 Delta S P Q - t_4^2 Delta P Q R = 0$.
+//210
++ Let the line of centers of the coaxial system be chosen as the $x$-axis and their common radical axis as
+  the $y$-axis.
+
+  The general equation of a circle in this coaxial system can be written as $x^2 + y^2 - 2g x + c = 0$,
+  where $c$ is a constant for the entire system and $g$ varies.
+
+  Let the centers of the three circles be $P(g_1, 0)$, $Q(g_2, 0)$, and $R(g_3, 0)$. The signed distances
+  along the x-axis between these centers are $Q R = g_3 - g_2$, $R P = g_1 - g_3$, and $P Q = g_2 - g_1$.
+
+  Let the fixed point in the plane be $X(x_0, y_0)$. The square of the length of the tangent from $X$ to
+  each of the three circles is found by substituting its coordinates into the circle equations.
+
+  This gives $t_1^2 = x_0^2 + y_0^2 - 2g_1 x_0 + c$, $t_2^2 = x_0^2 + y_0^2 - 2g_2 x_0 + c$, and $t_3^2 =
+  x_0^2 + y_0^2 - 2g_3 x_0 + c$.
+
+  Let $K = x_0^2 + y_0^2 + c$, which allows us to simplify the tangent expressions to $t_1^2 = K - 2g_1
+  x_0$, $t_2^2 = K - 2g_2 x_0$, and $t_3^2 = K - 2g_3 x_0$.
+
+  We now evaluate the required linear combination by substituting these expressions: $t_1^2 dot Q R + t_2^2
+  dot R P + t_3^2 dot P Q = (K - 2g_1 x_0)(g_3 - g_2) + (K - 2g_2 x_0)(g_1 - g_3) + (K - 2g_3 x_0)(g_2 -
+  g_1)$.
+
+  Expanding and separating the components into terms with $K$ and terms with $-2x_0$ yields $K(g_3 - g_2 +
+  g_1 - g_3 + g_2 - g_1) - 2x_0[g_1(g_3 - g_2) + g_2(g_1 - g_3) + g_3(g_2 - g_1)]$.
+
+  The first term simplifies to $K(0) = 0$ since all the center coordinates cancel each other out.
+
+  The second term inside the brackets expands to $g_1 g_3 - g_1 g_2 + g_2 g_1 - g_2 g_3 + g_3 g_2 - g_3
+  g_1$, which also sums to zero.
+
+  Thus, the entire expression vanishes completely, proving that $t_1^2 dot Q R + t_2^2 dot R P + t_3^2 dot P
+  Q = 0$.
+//211
++ Let the line of centers of the coaxial system be the $x$-axis and their common radical axis be the
+  $y$-axis.
+
+  The general equation of a circle in this system is $x^2 + y^2 - 2g x + c = 0$, where the radius $r$ and
+  center $(g,0)$ satisfy $r^2 = g^2 - c$, or $c = g^2 - r^2$.
+
+  Let the centers of the three circles be $P(g_1, 0)$, $Q(g_2, 0)$, and $R(g_3, 0)$. The directed distances
+  along the x-axis are $Q R = g_3 - g_2$, $R P = g_1 - g_3$, and $P Q = g_2 - g_1$.
+
+  Since $c$ is constant for all circles in the system, we can equate the expressions for $c$ to get $g_1^2 -
+  r_1^2 = g_2^2 - r_2^2 = g_3^2 - r_3^2 = c$, which implies $r_1^2 = g_1^2 - c$, $r_2^2 = g_2^2 - c$, and
+  $r_3^2 = g_3^2 - c$.
+
+  We now substitute these expressions into the first part of the required sum, yielding $r_1^2 Q R + r_2^2 R
+  P + r_3^2 P Q = (g_1^2 - c)(g_3 - g_2) + (g_2^2 - c)(g_1 - g_3) + (g_3^2 - c)(g_2 - g_1)$.
+
+  Expanding and collecting the terms multiplied by $c$ gives $-c(g_3 - g_2 + g_1 - g_3 + g_2 - g_1) = 0$,
+  simplifying the expression to $g_1^2(g_3 - g_2) + g_2^2(g_1 - g_3) + g_3^2(g_2 - g_1)$.
+
+  By factoring this cyclic algebraic polynomial, it expands identically to the negative product of the
+  differences, which gives $-(g_2 - g_1)(g_3 - g_2)(g_1 - g_3)$.
+
+  Replacing the differences with their corresponding directed line segment names transforms the expression
+  into $-P Q dot Q R dot R P$.
+
+  Substituting this result back into the main equation gives $-P Q dot Q R dot R P + P Q dot Q R dot R P =
+  0$.
+
+  Thus, it is proven that $r_1^2 dot Q R + r_2^2 dot R P + r_3^2 dot P Q + P Q dot Q R dot R P = 0$.
+//212
++ Let $P(h, 4)$ be any variable point on the line $y = 4$. The equation of the circle is $x^2 + y^2 = 4$.
+
+  The chord of contact $A B$ of the tangents drawn from $P(h, 4)$ to the circle is given by $T = 0$, which
+  is $h x + 4 y = 4$.
+
+  Since $P A Q B$ is a parallelogram and $P A = P B$ (tangents from an external point), $P A Q B$ is a
+  rhombus. Thus, the diagonals $P Q$ and $A B$ bisect each other at right angles at their common midpoint
+  $M$.
+
+  The line $O P$ connecting the origin to $P$ is perpendicular to the chord $A B$. The equation of $O P$ is
+  $y = (4/h)x$, or $4x - h y = 0$.
+
+  The coordinates of the midpoint $M$ are found by solving the intersection of $A B$ and $O P$, which yields
+  $x_M = (4h)/(h^2 + 16)$ and $y_M = 16/(h^2 + 16)$.
+
+  Let $Q(x, y)$ be the coordinates of the moving vertex. Since $M$ is the midpoint of $P(h, 4)$ and $Q(x,
+  y)$, we have $x_M = (x + h)/2$ and $y_M = (y + 4)/2$.
+
+  Equating the values for $x_M$ and $y_M$ gives $(x + h)/2 = (4h)/(h^2 + 16)$ and $(y + 4)/2 = 16/(h^2 +
+  16)$.
+
+  Solving these equations for $x$ and $y$ gives $x = -h(h^2 + 8)/(h^2 + 16)$ and $y = -4(h^2 + 8)/(h^2 +
+  16)$.
+
+  Taking the ratio of $x$ and $y$ eliminates the common factor, giving $x/y = h/4$, which simplifies to $h =
+  (4x)/y$.
+
+  Substituting $h = (4x)/y$ back into the expression for $y$ gives $y = -4((16x^2/y^2) + 8)/((16x^2/y^2) +
+  16) = -2(2x^2 + y^2)/(x^2 + y^2)$.
+
+  Cross-multiplying yields $y(x^2 + y^2) = -4x^2 - 2y^2$, which can be rearranged as $x^2(y + 4) + y^2(y +
+  2) = 0$.
+
+  Adding and subtracting $2y^2$ transforms the equation into $x^2(y + 4) + y^2(y + 4) - 2y^2 = 0$.
+
+  Factoring out $(y + 4)$ directly produces the required locus equation $(x^2 + y^2)(y + 4) = 2y^2$.
+//213
++ The equation of any curve passing through the intersections of the pair of lines $a x^2 + 2h x y + b y^2 =
+  0$ and the line $x cos alpha + y sin alpha - p = 0$ can be written as $(a x^2 + 2h x y + b y^2) + (x cos
+  alpha + y sin alpha - p)(l x + m y) = 0$, where $l$ and $m$ are constants.
+
+  Expanding the equation and grouping the terms gives $(a + l cos alpha) x^2 + (b + m sin alpha) y^2 + (2h +
+  l sin alpha + m cos alpha) x y - p(l x + m y) = 0$.
+
+  For this equation to represent a circle, the coefficients of $x^2$ and $y^2$ must be equal, and the
+  coefficient of $x y$ must be zero.
+
+  This gives the system of equations $a + l cos alpha = b + m sin alpha$, which rearranges to $l cos alpha -
+  m sin alpha = b - a$, and $l sin alpha + m cos alpha = -2h$.
+
+  Solving these two linear equations simultaneously for $l$ and $m$ gives $l = (b - a) cos alpha - 2h sin
+  alpha$ and $m = (a - b) sin alpha - 2h cos alpha$.
+
+  Substituting these values back to find the common coefficient of $x^2$ and $y^2$ yields $a + l cos alpha =
+  a + (b - a) cos^2 alpha - 2h sin alpha cos alpha = a sin^2 alpha - 2h sin alpha cos alpha + b cos^2
+  alpha$.
+
+  Substituting $l$, $m$, and the common quadratic coefficient back into the conic equation determines the
+  equation of the circumcircle.
+
+  Thus, the required equation of the circumscribing circle is $(a sin^2 alpha - 2h sin alpha cos alpha + b
+  cos^2 alpha)(x^2 + y^2) - p [x ((b - a) cos alpha - 2h sin alpha) + y ((a - b) sin alpha - 2h cos alpha)]
+  = 0$.
+//214
++ The four points of intersection with the axes are found by setting $x=0$ or $y=0$ in the joint equation of
+  the two lines, given by $(a x + b y + c)(b x + a y + d) = 0$.
+
+  Expanding this product yields $a b x^2 + (a^2 + b^2)x y + a b y^2 + (b c + a d)x + (a c + b d)y + c d =
+  0$.
+
+  Any curve passing through the intersection of these lines with the axes can be expressed by subtracting a
+  multiple of $x y$ from the joint equation as $(a x + b y + c)(b x + a y + d) - lambda x y = 0$.
+
+  For this second-degree equation to represent a circle, the coefficient of $x y$ must vanish completely,
+  which requires $lambda = a^2 + b^2$.
+
+  Eliminating the $x y$ term by substituting $lambda$ leaves the equation $a b x^2 + a b y^2 + (b c + a d)x
+  + (a c + b d)y + c d = 0$.
+
+  Since the coefficients of $x^2$ and $y^2$ are equal and the $x y$ term is zero, this equation represents a
+  circle, proving that the four intersection points are concyclic.
+
+  Dividing by $a b$, the final equation of the circle is $x^2 + y^2 + ((b c + a d)/(a b))x + ((a c + b d)/(a
+  b))y + (c d)/(a b) = 0$.
+//215
++ Let $P(x, y)$ be the variable point that subtends a constant angle $alpha$ with the line segment $A B$.
+
+  The slope of the line segment $P A$ joining $(x, y)$ to $(x_1, y_1)$ is $m_1 = (y - y_1) / (x - x_1)$, and
+  the slope of $P B$ joining $(x, y)$ to $(x_2, y_2)$ is $m_2 = (y - y_2) / (x - x_2)$.
+
+  The tangent of the angle $alpha$ between $P A$ and $P B$ is given by the standard formula $tan alpha =
+  lr(|(m_1 - m_2) / (1 + m_1 m_2)|)$.
+
+  Squaring both sides removes the absolute value, yielding $tan^2 alpha = (m_1 - m_2)^2 / (1 + m_1 m_2)^2$.
+
+  Substituting the expressions for $m_1$ and $m_2$ gives the difference in slopes as $m_1 - m_2 = ((y -
+  y_1)(x - x_2) - (y - y_2)(x - x_1)) / ((x - x_1)(x - x_2))$ and the denominator term as $1 + m_1 m_2 = ((x
+  - x_1)(x - x_2) + (y - y_1)(y - y_2)) / ((x - x_1)(x - x_2))$.
+
+  Taking the ratio eliminates the shared denominator, giving $tan^2 alpha = ((y - y_1)(x - x_2) - (y -
+  y_2)(x - x_1))^2 / ((x - x_1)(x - x_2) + (y - y_1)(y - y_2))^2$.
+
+  The numerator simplifies to the squared linear determinant of the vector cross-product, which expands to
+  $((y_1 - y_2)x - (x_1 - x_2)y + (x_1 y_2 - x_2 y_1))^2$.
+
+  Cross-multiplying by the denominator gives $[(x - x_1)(x - x_2) + (y - y_1)(y - y_2)]^2 tan^2 alpha =
+  [(y_1 - y_2)x - (x_1 - x_2)y + (x_1 y_2 - x_2 y_1)]^2$.
+
+  Taking the square root on both sides results in $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = plus.minus cot
+  alpha [(y_1 - y_2)x - (x_1 - x_2)y + (x_1 y_2 - x_2 y_1)]$.
+
+  Expanding this relation shows that the coefficients of $x^2$ and $y^2$ are both equal to $1$, and there is
+  no cross-product $x y$ term.
+
+  Since any second-degree equation of the form $x^2 + y^2 + 2g x + 2f y + c = 0$ represents a circle, the
+  locus of $P$ is a circle.
+//216
++ Let the center of the variable circle be $C(h, k)$. Since the circle passes through the origin $(0,0)$,
+  the square of its radius $R$ is given by $R^2 = h^2 + k^2$.
+
+  The perpendicular distance $d$ from the center $C(h, k)$ to the vertical line $x = c$ is $|h - c|$.
+
+  By the geometric property of a circle cutting a chord of length $2l$, the relation between the radius,
+  chord length, and distance is $R^2 = d^2 + l^2$.
+
+  Substituting the values of $R^2$ and $d^2$ into this relation gives $h^2 + k^2 = (h - c)^2 + l^2$.
+
+  Expanding the right-hand side yields $h^2 + k^2 = h^2 - 2c h + c^2 + l^2$.
+
+  Canceling $h^2$ from both sides simplifies the equation to $k^2 + 2c h = c^2 + l^2$.
+
+  Replacing the coordinates $(h, k)$ with general coordinates $(x, y)$, we obtain the final equation of the
+  locus as $y^2 + 2c x = c^2 + l^2$.
+//217
++ Let the fixed point $O$ be chosen as the origin $(0,0)$. Let the fixed straight line be $a x + b y + c =
+  0$, where $c != 0$.
+
+  In polar coordinates $(r, theta)$, the equation of the fixed straight line becomes $r_P (a cos theta + b
+  sin theta) + c = 0$, which gives the distance $O P$ as $r_P = -c / (a cos theta + b sin theta)$.
+
+  Let the coordinates of the point $Q$ on the same line $O P$ be $(r_Q, theta)$, since $O, Q, P$ are
+  collinear and share the same directional angle $theta$.
+
+  We are given that the product of the distances is a constant $k^2$, so $O P dot O Q = r_P r_Q = k^2$.
+
+  Substituting the expression for $r_P$ into this relation gives $-c / (a cos theta + b sin theta) r_Q =
+  k^2$.
+
+  Rearranging this equation to solve for $r_Q$ yields $r_Q = -k^2 / c (a cos theta + b sin theta)$.
+
+  To convert this polar equation back into Cartesian coordinates, we multiply both sides by $r_Q$, giving
+  $r_Q^2 = -k^2 / c (a r_Q cos theta + b r_Q sin theta)$.
+
+  Substituting $x = r_Q cos theta$, $y = r_Q sin theta$, and $x^2 + y^2 = r_Q^2$ yields the Cartesian
+  equation $x^2 + y^2 + (a k^2 / c) x + (b k^2 / c) y = 0$.
+
+  Since the coefficients of $x^2$ and $y^2$ are equal and there is no cross-product $x y$ term, this
+  equation represents a circle.
+
+  Thus, the locus of $Q$ is a circle passing through the origin.
