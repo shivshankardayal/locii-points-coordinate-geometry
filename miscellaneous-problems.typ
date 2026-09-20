@@ -768,3 +768,488 @@
 //217
 + A straight line is drawn from a fixed point $O$ meeting a fixed straight line in $P$. A point $Q$ is taken
   on the line $O P$ such that $O P.O Q$ is constant. Show that the locus of $Q$ is a circle.
+//218
++ Show that the locus of the feet of the perpendiculars drawn from the point $(a, 0)$ on tangents to the
+  circle $x^2 + y^2 = a^2$ is $(x^2 + y^2 - a x)^2 = a^2[(x - a)^2 + y^2]$.
+//219
++ $P Q R$ is any triangle anda $P'Q'R'$ is the triangle formed by the polars of $P, Q, R$ w.r.t. a given
+  circle so that $Q'R', R'P', P'Q'$ are the polars of $P, Q, R$ respectively. Prove that $P P', Q Q', R R'$
+  are concurrent.
+//220
++ Find the locus of the poles of the chords of the circle $x^2 + y^2 = a^2$ which subtend a right angle at
+  point $(p, q)$.
+//221
++ From any point on a given circle, tangents are drawn to another given circle. Show that the locus of the
+  middle pointy of the chord of the contact is a third circle.
+//222
++ Find the locus of the point of intersection of two straight lines at right angles to one another, one of
+  which touches the circle $(x - a)^2 + y^2 = b^2$ and the other touches the circle $(x + a)^2 + y^2 = c^2$.
+//223
++ A pair of parallel tangents is drawn to one of two equal circles and another pair of tangents
+  perpendicular to the first pair is drawn to the other circle. Prove that for each of the diagonals of the
+  square formed by the four tangents passes through a fixed point.
+//224
++ Chords of one circle are drawn so that they are tangents to another, find the locus of the points of
+  intersection of the tangents at their extremities. What does the locus become if the circles are
+  concentric.
+//225
++ Show that the circumcircle of the triangle formed by three lines $x cos alpha_r + y sin alpha_r = p_r, r =
+  1, 2, 3$ will pass through the origin if $sum p_1p_2 sin(alpha_1 - alpha_2) = 0$.
+//226
++ Find the equation of the circle circumscribing the triangle formed by the lines $x + y = 6, 2x + y = 4$
+  and $x + 2y = 5$.
+//227
++ There are two segments on the line $3x - 3y + 7 = 0$ each of length $10$ units subtending right angles at
+  the origin. Find the coordinates of their extremities.
+//228
++ The lengths of the tangents from two points $A$ and $B$ to a circle are $t_1$ and $t_2$. If points $A$ and
+  $B$ are conjugate w.r.t. the circle, show that $A B^2 = t_1^2 + t_2^2$.
+//229
++ Show that the length of the least chord of the circle which passes $x^2 + y^2 + 2g x + 2f y + c = 0$
+  through an internal point $(x_1, y_1)$ is $2sqrt(-(x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c))$.
+//230
++ Two circles of radii $a$ and $b$ touch the axis of $y$ on the opposite sides at the origin, the former
+  being on the positive side. Prove that the other two common tangents are given by $(b - a)x plus.minus
+  2sqrt(a b)y - 2a b = 0$.
+//231
++ A circle is described on the line joining the centers of similitude of two given circles as
+  diameter. Show that the tangents drawn from any point on it to the two circles are in the ratio of
+  corresponding radii.
+//232
++ Show that the joint equations of the pairs of common tangents to circle $(x - alpha)^2 + (y - beta)^2 =
+  a_1^2$ and $(x - p)^2 + (y - q)^2 = a_2^2$ are $mat(delim: "|", x - alpha, y - beta; x - p, y - q;)^2 =
+  mat(delim: "|", x - alpha, a_1; x - p, plus.minus a_2;)^2 + mat(delim: "|", y - beta, a_1; y - q,
+  plus.minus a_2;)^2$.
+//233
++ Tangents are drawn from a variable point $P$ to the parabola $y^2 = 4a x$ such that they form a triangle
+  of constant area $c^2$ with the tangent at the vertex. Show that the locus of $P$ is $x^2(y^2 - 4a x) =
+  4c^4$.
+//234
++ The tangent at any point $P$ of the parabola $y^2 = 4a x$ is met in $Q$ by a line through the vertex $A$,
+  drawn at right angles to $A P$; and $R$ is the foot of perpendicular from $A$ on the tangent at $P$. Show
+  that there are three positions of the point $P$ for which $R$ lies on the line $l x + m y + n = 0$ and the
+  corresponding poin $Q$ lies on the line $(2l - n)x  + 4m y + 2n a = 0$.
+//235
++ Tangents are drawn to the parabola $y^2 = 4a x$ from the point $(alpha, beta)$. Show that the
+  corresponding normlas intersect in the point $(2a - alpha + beta^2/a, - (alpha beta)/a)$.
+//236
++ If tangents are drawn from points on the line $x = c$ to the parabola $y^2 = 4a x$, show that the locus of
+  intersection of the corresponding normlas is the parabola $a y^2 = c^2(x + c - 2a)$.
+//237
++ If tangents are drawn to the parabola $y^2 = 4a x$ from a point $T$ and the corresponding normals meet in
+  $N$ such that $T N$ cuts the axis at a fixed point $M$ within the curve at a distance $k$ from the vertex,
+  show that the locus of $P$ is the circle $x^2 + y^2 - (a + k)x + a(2a - k) = 0$.
+//238
++ If a chord of the parabola $y^2 = 4a x$ touches the parabola $y^2 = 4b x$, then show that
+    + The tangent at the extremities of the chord meet on the parabola $b^2y^2 = 4a^2x$
+    + The normals at the extremities of the chord meet on the curve $(4a - b)^3y^2 = 4b^2(x - 2a)^3$.
+//239
++ $P Q$ is a chord of a parabola normal at $P$. $A$ is the vertex and through $P$ a line is drawn parallel
+  to $A Q$ meeting the axis in $R$. Show that $A R$ is double the focal distance of $P$.
+//240
++ $P$ and $Q$ are the points at contact of the tangents drawn from $T$ to a parabola. If $P Q$ be a normal
+  at $P$, prove that $T P$ is bisected by the directrix.
+//241
++ The normals at any point $P(a t^2, 2a t)$ on the parabola $y^2 = 4a x$ whose vertex is $A$, meets the
+  curve again at $Q$. Prove that the area of $triangle A Q P$ is $(2a^2)/(|t|) (1 + t^2)(2 + t^2)$.
+//242
++ Prove that the normal chord of a parabola which subtends a right angle at the vertex, makes an angle
+  $tan^(-1)sqrt(2)$ with the $x$-axis.
+//243
++ Normals are drawn to the parabola $y^2 = 4a x$ at the points $t_1, t_2, t_3$ on it. Prove that the area of
+  the triangle formed by the normals is $a^2/2 |(t_1 - t_2)(t_2 - t_3)(t_3 - t_1)|(t_1 + t_2 + t_3)^2$.
+//244
++ Prove that the locus of the point of intersection of normals at the ends of a focal chord of a parabola is
+  another parabola whose latus rectum is one-fourth that of the given parabola.
+//245
++ If two nornals to a parabola are inclined to its axis at angles $alpha$ and $beta$ such that $tan alpha
+  tan beta = 2$, prove that they intersect on the parabola itself.
+//246
++ Normals at the points $P, Q, R$ on the parabola $y^2 = 4a x$ meet in the point $(h, k)$. Show that the
+  centroid of $triangle P Q R$ is $((2(h - 2a))/3, 0)$ and the orthoccenter is $(h - 6a, -k/2)$.
+//247
++ From any point $(h, k)$ three normals are drawn to the parabola $y^2 = 4a x$ and the tangents at their
+  feet are drawn to form a triangle. Show that the coordinates of the vertices of the triangle are given by
+  $x^3 + (h - 2a)x^2 - a k^2 = 0$ and $y^3 - a(h - 2a)y + a^2k = 0$.
+//248
++ If a circle intersects the parabola $y^2 = 4a x$ in the points $A, B, C, D$ whose parameters with
+  reference to the parabola are $t_1, t_2, t_3, t_4$ then show thaat $t_1 + t_2 + t_3 + t_4 = 0$.
+//249
++ $P, Q, R$ form a set of three co-normal points on the parabola $y^2 = 4a x$. Prove that the circle through
+  $P, Q, R$ passes through the vertex of the parabola. Also, prove that the equation of the circle is $x^2 +
+  y^2 - (h + 2a)x - 1/2k y = 0$
+//250
++ $P, Q, R$ are the feet of the normals drawn from a point to the parabola $y^2 = 4a x$. The point of
+  contact of the tangents parallel to $Q R, R P, P Q$ are $P_1, Q_1, R_1$. Show that the normlas at $P_1, Q_1,
+  R_1$ are concurrent.
+//251
++ From the point where any normal to the parabola $y^2 = 4a x$ meets the axis is drawn a line perpendicular
+  to the normal. Prove that the line always touches an equal parabola.
+//252
++ The middle point of a variable chord of the parabola $y^2 = 4a x$ lies on the line $y = m x + c$. Show
+  that it always touches the parabola $(y + (2a)/m)^2 = 8a(x + c/m)$.
+//253
++ The normals $P, Q, R$ on the parabola $y^2 = 4a x$ meet at a point on the line $x = k$. Prove that the
+  sides of the triangle $P Q R$ touch the parabola $y^2 = 16x(x + 2a - k)$.
+//254
++ The normals at $P, Q, R$ on the parabola $y^2 = 4a x$ meet on line $y = k$. Prove that the sides of the
+  $triangle P Q R$ touch the parabola $x^2 - 2k y = 0$.
+//255
++ The normals at $P, Q, R$ to the parabola are concurrent and $P Q$ meets the diameter through the
+  directrix. Prove that $P Q$ touches the parabola $y^2 + 16a(x + a) = 0$.
+//256
++ A variable triangle is inscribed in the parabola $y^2 = 4a x$ and two of its sides touch the parabola $y^2
+  = 4b x$. Prove that the third side touches the parabola $y^2 = 4c x$, where $(2a - b)^2c - a b^2 = 0$.
+//257
++ A parabola is drawn touching the axis of $x$ at the origin and having its vertex at a given distance $k$
+  from this axis. Prove that the axes of the parabola is a tangent to the parabola $x^2 = -8k(y - 2k)$.
+//258
++ Prove that the two parabolas $y^2 = 4a x$ and $y^2 = 4c(x - b)$ cannot have a common normal, other than
+  the axis, unless $b/(a - c) > 2$.
+//259
++ If $a^2 > 8b^2$, prove that a point can be found such that the two tangents from it to the parabola $y^2 =
+  4a x$ are normals to the parabola $x^2 = 4b y$.
+//260
++ The normal at any point $P$ of the parabola $y^2 = 4a x$ meets the axis in $G$ and the tangent at the
+  vertex in $G'$; if $A$ be the vertex and the rectangle $A G Q G'$ be completed, show that the locus of $Q$
+  is $x^3 = 2a x^2 + y^2$.
+//261
++ Two equal parabolas have the same focus and their axes are at right angles; a normal to one is
+  perpendicular to a normal to the other; prove that the locus of the point of intersection of these normals
+  is another parabola.
+//262
++ If $O$ be any point on the axis and $P O P'$ be any chord passing through $O$ of a parabola and if $P M$
+  and $P M'$ be the ordinate of $P$ and $P'$, prove that $A M.A M' = A O^2$ and $P M.P M' = - 4a.A O$.
+//263
++ Prove that if the difference of the squares of the perpendiculars on a variable line from two fixed points
+  is constant the line touches a fixed parabola.
+//264
++ The normals at the points $Q, R$ on the parabola $y^2 = 4a x$ meet the parabola at the point $P$. Prove
+  that the locus of the circumcenter of $triangle P Q R$ is $2y^2 - a x + a^2 = 0$.
+//265
++ If the lnegths of the tangents drawn from an external point to a parabola are $a$ and $b$, and the angle
+  between them is $theta$, prove that the parameter of the parabola is $(4a^2b^2sin^2theta)/(a^2 + b^2 + 2a
+  b cos theta)^(3/2)$.
+//266
++ A parabola whose latus rectum is $l$, slide in contact with each of two fixed, perpendicular straight
+  lines. Determine the locus of its vertex referred to these lines as axes.
+//267
++ If the normal at an end of a latus rectum of an ellipse passes through one extremity of the minor axis,
+  show that the eccentricity of the curve is given by the equation $e^4 + e^2 - 1 = 0$.
+//268
++ $P Q$ is a focal chord of an ellipse. The tangents at $P$ and $Q$ intersect in $T$ and the normals at $P,
+  Q$ intersect in $R$. Show that $T R$ passes through the other focus.
+//269
++ Prove that the area of the triangle formed by the tangents at the points on the ellipse $x^2/a^2 + y^2/b^2
+  = 1$, whose eccentric angles are $alpha, beta, gamma$ is $a b tan(beta - gamma)/2tan(gamma -
+  alpha)/2tan(alpha - beta)/2$.
+//270
++ Prove that the area of the quadrilateral enclosed by the tangents at $alpha, beta$ to the ellipse $x^2/a^2
+  + y^2/b^2 = 1$ and semi-diameters through these points is $lr(|a b tan(alpha - beta)/2|)$.
+//271
++ The tangent at any point of an ellipse is cut by the tangent at the extremities of the major axis in the
+  points $T$ and $T'$. Prove that the circle on $T T'$ as diamter will pass through the foci.
+//272
++ A variable parallelogram circumscribed the ellipse $x^2/a^2 + y^2/b^2 = 1$, such that two of its opposite
+  vertices lie on the lines $x^2 =- h^2(h > a)$, prove that the other two vertices lie on a concentric
+  ellipse.
+//273
++ If a quadrilateral circumscribes an ellipse, show that the line through the middle points of its diagonals
+  will pass through the center of the ellipse.
+//274
++ Tangents are drawn from any point on the conic $x^2/a^2 + y^2/b^2 = 4$ to the conic $x^2/a^2 + y^2/b^2 =
+  1$. Prove that the normals at the points of contact meet on the conic $4a^2x^2 + 4b^2y^2 = (a^2 - b^2)^2$.
+//275
++ If the points of intersection of the ellipse $x^2/a^2 + y^2/b^2 = 1$ and $x^2/alpha^2 + y^2/beta^2 = 1$ be
+  the endpoints of the conjugate diameter of the former, prove that $a^2/alpha^2 + b^2/beta^2 = 2$.
+//276
++ Show that the eccentric angles of the extremities of two conjugate semi-diameters of an ellipse differ by
+  a right angle.
+//277
++ If $lambda, mu$ be the angles which any two conjugate diameters subtend at any points on the ellipse
+  $x^2/a^2 + y^2/a^2 = 1$, prove that $cot^2lambda + cot^2mu = ((a^2 - b^2)/(2a b))^2$.
+//278
++ Tangents are drawn from any point on the ellipse $x^2/a^2 + y^2/b^2 = 1$ to the circle $x^2 + y^2 =
+  r^2$. Prove that the chord of contact touches the ellipse $a^2x^2 + b^2y^2 = r^4$.
+//279
++ Prove that the chords of contact of perpendicular tangents to the ellipse $x^2/a^2 + y^2/b^2 = 1$ touch
+  another fixed ellipse.
+//280
++ Show that the pairs of common chords of an ellipse and a circle are equally inclined to the axes of the
+  ellipse.
+//281
++ If $alpha, beta, gamma$ be the eccentric angles of three points of an ellipse, the normals at which are
+  concurrent, show that $sin(alpha + beta) + sin(beta + gamma) + sin(gamma + alpha) = 0$.
+//282
++ Show that in general four normals can be drawn from a point $(h, k)$ to the ellipse $x^2/a^2 + y^2/b^2 =
+  1$ and that the feet of these normals lie on the curve $(a^2 - b^2)x y = a^2h y - b^2k x$.
+//283
++ If the normals at four points of the ellipse $x^2/a^2 + y^2/b^2 = 1$ are concurrent and if two of the
+  points lie on the line $l x + m y = 1$, show that the other two lie on the line $x/(a^2l) + y/(b^2m) + 1 =
+  0$.
+//284
++ Show that if the feet of the normals from a point to the ellipse $x^2/a^2 + y^2/b^2 = 1$ are coincident,
+  the locus of the middle point of the chord joining the feet of the other two normlas is $((x y)/(a b))^2 =
+  (x^2/a^2 + y^2/b^2)^3$.
+//285
++ Show that the locus of the middle points of chords of the rectangular hyperbola $x y = c^2$, which are of
+  constant length $2d$, is $(x^2 + y^2)(x y - c^2) = d^2x y$.
+//286
++ A triangle is inscribed in the hyperbola $x y = c^2$ and two of its sides are parallel to $y = m_1x$ and
+  $y = m_2x$. Prove that the third side touches the hyperbola $4m_1m_2x y = c^2(m_1 + m_2)^2$.
+//287
++ Show that an infinite number of triangles can be inscribed in the rectangular hyperbola $x y = c^2$ whose
+  sides all touch the parabola $y^2 = 4a x$.
+//288
++ Show that the center of the circle through the three points $t_1, t_2, t_3$ on the rectangular $x y = c^2$
+  is ${c/2(t_1 + t_2 + t_3 + 1/(t_1t_2t_3)), c/2(1/t_1 + 1/t_2 + 1/t_3, t_1t_2t_3)}$.
+//289
++ The normals at the three points $P, Q, R$ on a rectangular hyperbola intersect at a point $S$ on the
+  curve, prove that the center of the hyperbola is the centroid of $triangle P Q R$.
+//290
++ The tangent at any point $P$ of the parabola $y^2 = 4a x$ is met in $Q$ by a line through the vertex $A$,
+  drawn at right angle to $A P$; and $R$ is the foot of the perpendicular from $A$ on the tangent at
+  $P$. Show that there are three positions of the point $P$ for which $R$ lies on the line $l x + m y + n a
+  = 0$ and the corresponding point $Q$ lies on the line $(2l - n)x + 4m y + 2n a = 0$.
+//291
++ If tangents are drawn from points on the line $x = c$ to the parabola $y^2 = 4a x$, show that the locus of
+  point of intersection of the corresponding normals is the parabola $a y^2 = c^2(x + c - 2a)$.
+//292
++ If a triangle is such that its vertices are the poles of the opposite sides w.r.t. a parabola, then show
+  that the lines joining the middle points of the sides of the triangle touch the parabola.
+//293
++ Show that the sum of the eccentric angles of any four concyclic points on an ellipse is equal to an even
+  multiple of $pi$.
+//294
++ If $psi$ is the difference of eccentric angles of two points on an ellipse, the tangents at which are at
+  right angles. Prove that $a b sin psi = d_1d_2$, where $d_1d_2$ are the semi-diameters parallel to the
+  tangents at the points and $a, b$ are the semi-axes of the ellipse.
+//295
++ If any two chords be drawn through two points on the major axis of an ellipse, equidistant from the
+  center, show that $tan alpha/2 tan beta/2 tan gamma/2 tan delta/2 = 1$.
+//296
++ The eccentric angles of the vertices of a triangle inscribed in the ellipse $x^2/a^2 + y^2/b^2 = 1$ are
+  $alpha, beta, gamma$. Show that its area is greatest when the angle subtended by two consecutive vertices
+  of the triangle at the center of the ellipse is $(2pi)/3$.
+//297
++ Prove that the coordinates of the center of the circle passing through points having eccentric angles
+  $alpha, beta, gamma$ on the ellipse $x^2/a^2 + y^2/b^2 = 1$ are $(a^2 - b^2)/(4a)(cos alpha + cos beta +
+  cos gamma + cos(alpha + beta + gamma))$ and $y = (a^2 - b^2)/(4b) (sin alpha + sin beta + sin gamma -
+  sin(alpha + beta + gamma))$.
+//298
++ Show that the straight line joining two variable points on an ellipse, whose eccentric angles differ by a
+  constant, touch a concentric ellipse.
+//299
++ A variable triangle is inscribed in an ellipse. If two of its sides are parallel to fixed straight lines,
+  show that the third side touches a concentric ellipse.
+//300
++ Prove that the line joining the extremities of any two perpendicular semi-diameters of an ellipse always
+  touches a circle.
+//301
++ Find the set of all possible values of $theta$ in the interval $(0, pi)$ for which the points $(1, 2)$ and
+  $(sin theta, cos theta)$ lie on the same side of the line $x + y = 1$.
+//302
++ A straight line $L$ at a distance of $4$ units from the origin makes positive intercepts on the
+  coordinate axes and the perpendicular from the origin to this line makes an angle of $60^degree$ with the
+  line $x + y = 0$. Find the equation of line $L$.
+//303
++ Find the quadrants in which the curve $y = sin x sin(x + 2) - sin^2(x + 1)$ lies.
+//304
++ Lines are drawn parallel to the line $4x - 3y + 2 = 0$, at a distance $3/5$ from the origin. Find the
+  equations of the lines.
+//305
++ Find the area and type of the region bounded by $|x - y| <= 2$ and $|x + y| <= 2$.
+//306
++ If the two lines $x + (a - 1)y = 1$ and $2x + a^2y = 1, (a in RR - {0, 1})$ are perpendicular, then find
+  the distance of their point of intersection from the origin.
+//307
++ Find the slope of the line passing through $P(2, 3)$ and intersecting the line $x + y = 7$ at a distance
+  of $4$ units from $P$.
+//308
++ Suppose that the points $(h, k), (1, 2)$ and $(-3, 4)$ lie on the line $L_1$. If a line $L_2$ passing
+  through the points $(h, k)$ and $(4, 3)$ is perpendicular to $L_1$, then find $k/h$.
+//309
++ Find the quadrant in which a point on the straight line $3x + 5y = 15$, which is equidistant from the
+  coordinate axes, will lie.
+//310
++ If a straight line passing through the point $P(-3, 4)$ is such that its intercepted portion between the
+  coordinate axes is bisected at $P$ then find its equation.
+//311
++ If the straight line, $2x - 3y + 17 = 0$ is perpendicular to the line passing through the points $(7, 17)$
+  and $(15, beta)$, then find $beta$.
+//312
++ If in a parallelogram $A B C D$, the coordinates of $A, B$ and $C$ are respectively $(1, 2), (3, 4)$ and
+  $(2, 5)$, then find the equation of the diagonal $A D$.
+//313
++ Prove that the tangent to the curve $y = (x e)^(x^2)$ passing through the point $(1, e)$ also passes
+  through the point $(4/3, 2e)$.
+//314
++ Two sides of a parallelogram are along the lines, $x + y = 3$ and $x - y + 3 = 0$. If its diagonals
+  intersect at $(2, 4)$, then find its vertices.
+//315
++ Find the shortest distance between the point $(3/2, 0)$ and the curve $y = sqrt(x), (x . 0)$.
+//316
++ If the line $3x + 4y - 24 = 0$ intersects the $x$-axis at $A$ and the $y$-axis at $B$. Find the incenter
+  of the $triangle O A B$ where $O$ is the origin.
+//317
++ A point $P$ moves on the line $2x - 3y + 4 = 0$. If $Q(1, 4)$ and $R(3, -2)$ are fixed points, then find
+  the locus of centroid of the $triangle P Q R$.
+//318
++ A straight line through a fixed point $(2, 3)$ intersects the coordinate axes at distinct points $P$ and
+  $Q$. If $O$ is the origin and the rectangle $O P R Q$ is completed, then find the locus of $R$.
+//319
++ Let $k$ be an integer such that the triangle with the vertices $(k, -3k), (5, k)$ and $(-k, 2)$ has area
+  $28$ sq. units. Find the orthocenter of the triangle.
+//320
++ If $a, b, c$ and $d$ be non-zero numbers. If the point of intersection of the lines $4a x + 2a y + c = 0$
+  and $5b x + 2b y + d = 0$ lies in the fourth quadrant and is equidistance from the two axes, then prove
+  that $2a d = 3b c$.
+//321
++ If $P S$ is the median of the triangle with vertices $P(2, 2), Q(6, -1)$ and $R(7, 3)$, then find the
+  equation of the line passing through $(1, -1)$ and parallel to $P S$.
+//322
++ Find the $x$-coordinate of the incenter of the triangle that has the coordinates of mid-points of its
+  sides are $(0, 1), (1, 1)$ and $(1, 0)$.
+//323
++ A straight line $L$ passes through the point $(3, -2)$ is inclined at an angle $60^degree$ to the line
+  $sqrt(3)x + y = 1$. If $L$ also intersects the $x$-axis, then find the equation of $L$.
+//324
++ Find the locus of the orthocenter of the triangle formed by the lines $(1 + p)x - p y + p(1 + p) = 0, (1 +
+  q)x - q y + q(1 + q) = 0$ and $y = 0$ where $p != q$.
+//325
++ Let $O(0, 0), P(3, 4)$ and $Q(6, 0)$ be the vertices of $triangle O P Q$. The point $R$ inside the
+  $triangle O P Q$ such that $O P R, P Q R$, and $O Q R$ are of equal areas. Find the coordinates of $R$.
+//326
++ Find the orthocenter of the triangle with vertices $(0, 0), (3, 4)$ and $(4, 0)$.
+//327
++ Find the number of integer values of $m$ for which the $x$ coordinate of the point of intersection of the
+  lines $3x + 4y = 9$ and $y = m x + 1$ is an integer.
+//328
++ A straight line through the origin $O$ meets the parallel line $4x + 2y = 9$ and $2x + y + 6 = 0$ at
+  points $P$ and $Q$ respectively. Find the ratio in which $O$ divides $P Q$.
+//329
++ Find the incenter of the triangle with the vertices $(1, sqrt(3)), (0, 0)$ and $(2, 0)$.
+//330
++ $A_0, A_1, A_2, A_3, A_4,$ and $A_5$ are the vertices of a regular hexagon inscribed in a circle of unit
+  radius. Find the product of the lengths of line segments $A_0A_1, A_0, A_2$ and $A_0A_4$.
+//331
++ If $P(1, 2), Q(4, 6), R(5, 7)$ and $S(a, b)$ are the vertices of a parallelogram then find $a$ and $b$.
+//332
++ If the diagonals of a parallelogram $P Q R S$ are along the lines $x + 3y = 4$ and $6x - 2y = 7$, then
+  prove that $P Q R S$ is a rhombus.
+//333
++ Prove that $y = cos x cos(x + 2) - cos^2(x + 1)$ is a straight line passing through the point $(pi/2,
+  -sin^2 1)$ and parallel to $x$-axis.
+//334
++ Line $L$ intercepts $a$ and $b$ on the coordinate axes. When the axes are rotated through a given angle,
+  keeping the origin fixed, the same line $L$ intercepts $p$ and $q$ on the axes. Prove that $1/a^2 + 1/b^2
+  = 1/p^2 + 1/q^2$.
+//335
++ The point $(4, 1)$ undergoes the following transformations successively. It gets reflected about the line
+  $y = x$. Moves a distance $2$ along the positive direction of $x$-axis. Rotates through an angle of $pi/4$
+  about the origin in counter-clockwise direction. Find the final coordinates of the point.
+//336
++ Prove that the points $(-a, -b), (0, 0), (a, b)$ and $(a^2, a b)$ are collinear.
+//337
++ Let the algebraic sum of the perpendicular distance from the points $(2, 0), (0, 2)$ and $(1, 1)$ to a
+  variable straight line be zero. Find the coordinate of the fixed point through which this line passes.
+//338
++ If $a, b, c$ are in A.P. then find the fixed point through which the line $a x + b y + c = 0$ passes.
+//339
++ Find the equation of the line in which $y = 10^x$ is the reflection of $y = log_(10)x$.
+//340
++ Find whether the points where the lines $2x + 2y + 19 = 0$ and $9x + 6y - 17 = 0$ cut the coordinate axes
+  are concyclic.
+//341
++ Find whether a tangent can be drawn from $(5/2, 1)$ to a circumcircle of the triangle $(1, sqrt(3)), (1,
+  -sqrt(3))$ and $(3, sqrt(3))$.
+//342
++ A straight line $L$ through the origin meets the line $x + y = 1$ and $x + y = 3$ at $P$ and $Q$
+  respectively. Through $P$ and $Q$ two straight lines $L_1$ and $L_2$ are drawn, parallel to $2x - y = 5$
+  and $3x + y = 5$, respectively. Lines $L_1$ and $L_2$ intersect at $R$, show that the locus of $R$ as $L$
+  varies, is a straight line.
+//343
++ A straight line $L$ with negative slope passes through the point $(8, 2)$ and cuts the positive coordinate
+  axes at point $P$ and $Q$. Find the absolute minimum value of $O P + O Q$, as $L$ varies, where $O$ is the
+  origin.
+//344
++ For points $P = (x_1, y_1)$ and $Q = (x_2, y_2)$ of the coordinate plane, a new distance $d(P, Q)$ is
+  defined by $d(P, Q) = |x_1 - x_2|  + |y_1 - y_2|$. Let $O = (0, 0)$ and $A = (3, 2)$. Prove that the set
+  of points in the first quadrant which are equidistant (w.r.t. the new distance) from $O$ and $A$ consists
+  of the union of a line segment of finite length and an infinite ray.
+//345
++ A rectangle $P Q R S$ has it side $P Q$ parallel to the line $y = m x$ and vertices $P Q$ and $S$ on the
+  lines $y = a, x = b$ and $x = -b$ respectively. Find the locus of vertex $R$.
+//346
++ A line through $A(-5, -4)$ meets the line $x + 3y + 2 = 0, 2x + y + 4 = 0$ and $x - y - 5 = 0$ at the
+  points $B, C$ and $D$ respectively. If $(15/(A B))^2 + (10/(A C))^2 = (6/(A D))^2$, find the equation of
+  the line.
+//347
++ Determine all values of $alpha$ for which the point $(alpha, alpha^2)$ lies inside the triangles formed by
+  the lines $2x + 3y - 1 = 0, x + 2y - 3 = 0, 5x - 6y - 1 = 0$.
+//348
++ Find the equations of the line passing through the point $(2, 3)$ and making intercept of length $3$ unit
+  between the lines $y + 2x = 2$ and $y + 2x = 5$.
+//349
++ Straight lines $3x + 4y = 5$ and $4x - 3y = 15$ intersect at point $A$. Points $B$ and $C$ are chosen on
+  these two lines such that $A B = A C$. Determine the possible equations of the line $B C$ passing through
+  the point $(1, 2)$.
+//350
++ A line cuts the $x$-axis at $A(7, 0)$ and the $y$-axis at $B(0, -5)$. A variable line $P Q$ is drawn
+  perpendicular to $A B$ cutting the $x$-axis at $P$ and the $y$-axis at $Q$. If $A Q$ and $B P$ meet at
+  $R$, find the locus of $R$.
+//351
++ Let $A B C$ be a triangle with $A B = A C$. If $D$ is the mid-point of $B C$, the foot of the
+  perpendicular drawn from $D$ to $A C$ and $F$ the mid-point of $D E$. Prove that $A F$ is perpendicular to
+  $B E$.
+//352
++ The equations of the perpendicular bisectors of sides $A B$ and $A C$ of $triangle A B C$ are $x - y + 5 =
+  0$ and $x + 2y = 0$, respectively. If the point $A(1, -2)$, find the equation of the line $B C$.
+//353
++ One of the diameters of the circle circumscribing the rectangle $A B C D$ is $4y = x + 7$. If $A$ and $B$
+  are the points $(-3, 4)$ and $(5, 4)$ respectively, then find the area of of the rectangle.
+//354
++ Two sides of a rhombus $A B C D$ are parallel to the lines $y = x + 2$ and $y = 7x = 3$. If the diagonals
+  of the rhombus intersect at point $(1, 2)$ and the vertex $A$ is on the $y$-axis, then find possible
+  coordinates of $A$.
+//355
++ Two equal sides of an isosceles triangle are given by the equations $7x - y + 3 = 0$ and $x + y - 3 = 0$
+  and its third side passes through $(1, -10)$. Determine the equation of its third side.
+//356
++ The ends $A, B$ of a straight line segment of constant length $c$ slide upon the fixed rectangular axes $O
+  X, O Y$ respectively. If the rectangle $O A P B$ is completed, then show that the locus of the foot of the
+  perpendicular drawn from $P$ to $A B$ is $x^(2/3) + y^(2/3) = c^(2/3)$.
+//357
++ The points $(1, 3)$ and $(5, 1)$ are two opposite vertices of a rectangle. The other two vertices lie on
+  the line $y = 2x + c$. Find $c$ and the remaining vertices.
+//358
++ Two vertices of a triangle are $(5, -1)$ and $(-2, 3)$. If the orthocenter of the triangle is the origin,
+  then find the third vertex.
+//359
++ One side of a rectangle lies along $4x + 7y + 5 = 0$. Two of its vertices are $(-3, 1)$ and $(1, 1)$. Find
+  the equations of three other sides.
+//360
++ Let $A(1, 0), B(6, 2)$ and $C(3/2, 6)$ be the vertices of $triangle A B C$. If $P$ is a point inside the
+  $triangle A B C$ such that the triangles $A P C, A P B$ and $B P C$ have equal areas, then find the length
+  of $P Q$ where $Q$ is $(-7/6, -1/3)$.
+//361
++ For a point $P$, let $d_1(P)$ and $d_2(P)$ be the distances of the point $P$ from the lines $x - y = 0$
+  and $x + y = 0$ respectively. Find the area of the region $R$ consisting of all points $P$ lying in the
+  first quadrant of the plane and satisfying $2 <= d_1(P) + d_2(P) <= 4$.
+//362
++ A ray of light coming from the point $(2, 2sqrt(3))$ is incident at angle $30^degree$ on the line $x = 1$
+  at point $A$. The ray gets reflected on the line $x = 1$ and meets the $x$-axis at point $B$. Find the
+  equation of line $A B$.
+//363
++ A ray of light along $x + sqrt(3)y = sqrt(3)$ gets reflected upon reaching the $x$-axis. Find the
+  equation of the reflected ray.
+//364
++ Consider three points $P = (-sin(beta - alpha), -cos beta), Q = (cos(beta - alpha), sin beta)$ and $R =
+  (cos(beta -alpha + theta), sin(beta - theta))$, where $0 < alpha, beta, theta < pi/4$. Prove that $P, Q, R$
+  are non-collinear.
+//365
++ Let $P(-1, 0), Q(0, 0)$ and $R(3, 3sqrt(3))$ be three points. Find the equation of the bisector of $angle
+  P Q R$.
+//366
++ The vertices of a triangle are $A(-1, -7), B(5, 1)$ and $C(1, 4)$. Find the equation of the bisector of
+  $angle A B C$.

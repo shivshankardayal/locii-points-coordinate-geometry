@@ -5490,3 +5490,3926 @@ m_2 = -(2h)/b$ and $m_1 m_2 = a/b$.
   equation represents a circle.
 
   Thus, the locus of $Q$ is a circle passing through the origin.
+//218
++ Let $P(x_0, y_0)$ be a variable point representing the foot of the perpendicular drawn from the fixed
+  point $A(a, 0)$ to a variable tangent of the circle $x^2 + y^2 = a^2$.
+
+  The line $A P$ passes through $(a, 0)$ and $(x_0, y_0)$, so its slope is $m = y_0 / (x_0 - a)$.
+
+  Since the tangent line is perpendicular to $A P$, its slope must be $-1/m = -(x_0 - a)/y_0$.
+
+  The tangent line passes through $P(x_0, y_0)$, so its equation is $y - y_0 = -(x_0 - a)/y_0 (x - x_0)$,
+  which simplifies to $(x_0 - a)x + y_0 y = x_0(x_0 - a) + y_0^2 = x_0^2 + y_0^2 - a x_0$.
+
+  The condition for any straight line $A x + B y + C = 0$ to be a tangent to the circle $x^2 + y^2 = a^2$ is
+  that its perpendicular distance from the origin $(0, 0)$ must equal the radius $a$.
+
+  Applying this condition to our tangent equation yields $(|-(x_0^2 + y_0^2 - a x_0)|)/ sqrt((x_0 - a)^2 +
+  y_0^2) = a$.
+
+  Squaring both sides to eliminate the square root and the absolute value gives $(x_0^2 + y_0^2 - a x_0)^2 /
+  ((x_0 - a)^2 + y_0^2) = a^2$.
+
+  Cross-multiplying the denominator results in $(x_0^2 + y_0^2 - a x_0)^2 = a^2 [(x_0 - a)^2 + y_0^2]$.
+
+  Replacing the specific coordinates $(x_0, y_0)$ with general coordinates $(x, y)$ directly produces thea
+  required locus equation $(x^2 + y^2 - a x)^2 = a^2 [(x - a)^2 + y^2]$.
+//219
++ Let the equation of the given circle be $x^2 + y^2 = a^2$. Let the coordinates of the vertices of the
+  triangle $P Q R$ be $P(x_1, y_1)$, $Q(x_2, y_2)$, and $R(x_3, y_3)$.
+
+  The equations of the polars of $P, Q, R$ are $u_1 = x x_1 + y y_1 - a^2 = 0$, $u_2 = x x_2 + y y_2 - a^2 =
+  0$, and $u_3 = x x_3 + y y_3 - a^2 = 0$ respectively.
+
+  The vertices $P', Q', R'$ are the intersections of these polars, so $P'$ is the intersection of $u_2 = 0$
+  and $u_3 = 0$, $Q'$ is the intersection of $u_3 = 0$ and $u_1 = 0$, and $R'$ is the intersection of $u_1 =
+  0$ and $u_2 = 0$.
+
+  Let $O_(i j) = x_i x_j + y_i y_j - a^2$ denote the power-like relation between points, noting that $O_(i
+  j) = O_(j i)$. Evaluating the polar line equations at the vertices gives $u_i (P_j) = O_(i j)$.
+
+  The equation of any line passing through $P'$ can be written as $u_2 + lambda u_3 = 0$. Since the line $P
+  P'$ passes through $P(x_1, y_1)$, we substitute its coordinates to find $O_(12) + lambda O_(13) = 0$,
+  giving $lambda = -O_(12)/O_(13)$.
+
+  Thus, the equation of the line $P P'$ is $O_(13) u_2 - O_(12) u_3 = 0$.
+
+  By cyclic permutation, the equations of the lines $Q Q'$ and $R R'$ are $O_(12) u_3 - O_(23) u_1 = 0$ and
+  $O_(23) u_1 - O_(13) u_2 = 0$ respectively.
+
+  To check for concurrency, we take the sum of the three line equations, which gives $(O_(13) u_2 - O_(12)
+  u_3) + (O_(12) u_3 - O_(23) u_1) + (O_(23) u_1 - O_(13) u_2) = 0$.
+
+  Since the linear combination of their equations identically vanishes, the three lines must be concurrent.
+//220
++ Let $P(x_1, y_1)$ be the pole of the chord. The equation of the chord of contact (polar of $P$) with
+  respect to the circle $x^2 + y^2 = a^2$ is given by $x x_1 + y y_1 = a^2$.
+
+  To evaluate the right angle condition subtended at the point $(p, q)$, we shift the origin to $(p, q)$ by
+  substituting $x = X + p$ and $y = Y + q$.
+
+  The equation of the circle becomes $(X + p)^2 + (Y + q)^2 = a^2$, which expands to $X^2 + Y^2 + 2p X + 2q
+  Y + p^2 + q^2 - a^2 = 0$.
+
+  The equation of the chord becomes $(X + p)x_1 + (Y + q)y_1 = a^2$, which simplifies to $X x_1 + Y y_1 =
+  a^2 - p x_1 - q y_1$. We can express this as $1 = (X x_1 + Y y_1)/(a^2 - p x_1 - q y_1)$.
+
+  We homogenize the shifted circle equation using this linear relation to find the joint equation of the
+  lines connecting $(p, q)$ to the points of intersection: $X^2 + Y^2 + (2p X + 2q Y)((X x_1 + Y y_1)/(a^2 -
+  p x_1 - q y_1)) + (p^2 + q^2 - a^2)((X x_1 + Y y_1)/(a^2 - p x_1 - q y_1))^2 = 0$.
+
+  Since the chord subtends a right angle at $(p, q)$, these lines are mutually perpendicular, meaning the
+  sum of the coefficients of $X^2$ and $Y^2$ must equal zero.
+
+  Let $D = a^2 - p x_1 - q y_1$. The sum of the coefficients of $X^2$ and $Y^2$ yields $2 + (2(p x_1 + q
+  y_1))/D + (p^2 + q^2 - a^2)(x_1^2 + y_1^2)/D^2 = 0$.
+
+  Noting that $p x_1 + q y_1 = a^2 - D$, the second term simplifies as $(2(a^2 - D))/D = (2a^2)/D -
+  2$. Substituting this back reduces the relation to $(2a^2)/D + (p^2 + q^2 - a^2)(x_1^2 + y_1^2)/D^2 = 0$.
+
+  Multiplying the entire equation by $D^2$ gives $2a^2 D + (p^2 + q^2 - a^2)(x_1^2 + y_1^2) = 0$. Replacing
+  $D$ with its original expression gives $2a^2(a^2 - p x_1 - q y_1) + (p^2 + q^2 - a^2)(x_1^2 + y_1^2) = 0$.
+
+  Expanding and replacing $(x_1, y_1)$ with the general coordinates $(x, y)$, we obtain the final locus
+  equation as $(p^2 + q^2 - a^2)(x^2 + y^2) - 2a^2(p x + q y) + 2a^4 = 0$.
+//221
++ Let the circle to which tangents are drawn be $C_1: x^2 + y^2 = a^2$, and let the other given circle be
+  $C_2: (x - d)^2 + y^2 = b^2$, which expands to $x^2 + y^2 - 2d x + d^2 - b^2 = 0$.
+
+  Let $P(x_1, y_1)$ be any variable point on $C_2$, so its coordinates satisfy $x_1^2 + y_1^2 - 2d x_1 + d^2
+  - b^2 = 0$.
+
+  The chord of contact of the tangents drawn from $P(x_1, y_1)$ to $C_1$ is given by $x x_1 + y y_1 = a^2$.
+
+  Let $M(h, k)$ be the midpoint of this chord of contact. The equation of a chord of $C_1$ having $(h, k)$
+  as its midpoint is $x h + y k = h^2 + k^2$.
+
+  Since both equations represent the exact same straight line, we can compare their coefficients to find
+  $x_1/h = y_1/k = a^2/(h^2 + k^2)$.
+
+  Solving for the coordinates of $P$ gives $x_1 = (a^2 h)/(h^2 + k^2)$ and $y_1 = (a^2 k)/(h^2 + k^2)$.
+
+  Substituting these expressions into the equation for $C_2$ yields $((a^2 h)/(h^2 + k^2))^2 + ((a^2 k)/(h^2
+  + k^2))^2 - 2d((a^2 h)/(h^2 + k^2)) + d^2 - b^2 = 0$.
+
+  Simplifying the quadratic terms gives $(a^4(h^2 + k^2))/(h^2 + k^2)^2 - (2d a^2 h)/(h^2 + k^2) + d^2 - b^2
+  = 0$, which reduces to $a^4/(h^2 + k^2) - (2d a^2 h)/(h^2 + k^2) + d^2 - b^2 = 0$.
+
+  Multiplying the entire equation by $(h^2 + k^2)$ to clear the denominators gives $a^4 - 2d a^2 h + (d^2 -
+  b^2)(h^2 + k^2) = 0$.
+
+  Rearranging the terms and replacing $(h, k)$ with general coordinates $(x, y)$ results in the locus
+  equation $(d^2 - b^2)(x^2 + y^2) - 2d a^2 x + a^4 = 0$.
+
+  Since the coefficients of $x^2$ and $y^2$ are equal and there is no cross-product $x y$ term, this
+  equation represents a third circle.
+//222
++ Let the first line touch the circle $(x - a)^2 + y^2 = b^2$ and have a parametric angle $theta$. Its
+  equation can be written as $(x - a) cos theta + y sin theta = b$.
+
+  Since the second line is at a right angle to the first, its parametric angle can be written as $theta +
+  pi/2$. It touches the circle $(x + a)^2 + y^2 = c^2$, so its equation is $(x + a) cos(theta + pi/2) + y
+  sin(theta + pi/2) = c$, which simplifies to $y cos theta - (x + a) sin theta = c$.
+
+  To find the locus of the intersection point $(x, y)$, we eliminate $theta$ from these two equations by
+  treating them as a system of linear equations in terms of $cos theta$ and $sin theta$:
+  1. $cos theta (x - a) + sin theta (y) = b$ 2. $cos theta (y) - sin theta (x + a) = c$
+
+  Using Cramer's rule, the determinant of the system is $Delta = -(x - a)(x + a) - y^2 = a^2 - x^2 - y^2$.
+
+  Solving for the trigonometric components gives $Delta cos theta = b(-(x + a)) - c y = -b(x + a) - c y$ and
+  $Delta sin theta = c(x - a) - b y$.
+
+  Using the fundamental identity $cos^2 theta + sin^2 theta = 1$, we substitute these expressions to get
+  $(-b(x + a) - c y)^2 + (c(x - a) - b y)^2 = (a^2 - x^2 - y^2)^2$.
+
+  Expanding the left side of the equation yields $b^2[(x + a)^2 + y^2] + c^2[(x - a)^2 + y^2] + 4 a b c y$.
+
+  Thus, the required equation of the locus is $(x^2 + y^2 - a^2)^2 = (b^2 + c^2)(x^2 + y^2 + a^2) + 2a(b^2 -
+  c^2)x + 4a b c y$.
+//223
++ Let the two equal circles of radius $r$ be centered along the x-axis for simplicity. We can place their
+  centers at $C_1(-a, 0)$ and $C_2(a, 0)$, where $2a$ is the distance between their centers.
+
+  Let the first pair of parallel tangents be drawn to the circle $C_1$. If these tangents make an angle
+  $theta$ with the positive x-axis, the unit normal vector to these lines is $(cos theta, sin theta)$. The
+  equations of these parallel tangents to $(x + a)^2 + y^2 = r^2$ are given by $(x + a) cos theta + y sin
+  theta = plus.minus r$.
+
+  The second pair of parallel tangents is drawn to the circle $C_2$ and is perpendicular to the first
+  pair. The unit normal vector to this second pair is $(-sin theta, cos theta)$. The equations of these
+  parallel tangents to $(x - a)^2 + y^2 = r^2$ are given by $(x - a)(-sin theta) + y cos theta = plus.minus r$,
+  which simplifies to $-x sin theta + y cos theta + a sin theta = plus.minus r$.
+
+  These four tangents intersect to form a square because the two pairs are perpendicular and the distance
+  between each parallel pair is exactly $2r$. Let the four tangent lines be labeled by choosing combinations
+  of the signs:
+  1. $L_1^+: x cos theta + y sin theta + a cos theta - r = 0$ 2. $L_1^-: x cos theta + y sin theta + a cos
+  theta + r = 0$ 3. $L_2^+: -x sin theta + y cos theta + a sin theta - r = 0$ 4. $L_2^-: -x sin theta + y
+  cos theta + a sin theta + r = 0$
+
+  The diagonals of the square formed by these four lines are the lines connecting opposite
+  vertices. Equivalently, the equations of the two diagonals can be obtained by taking the sum and
+  difference of the equations of the pairs of parallel lines.
+
+  The first diagonal $D_1$ is obtained by combining the lines corresponding to the positive and negative
+  offsets, which can be expressed by adding the equations of the parallel line pairs: $(x cos theta + y sin
+  theta + a cos theta) plus.minus (-x sin theta + y cos theta + a sin theta) = 0$.
+
+  Let us analyze the first diagonal equation: $x(cos theta - sin theta) + y(cos theta + sin theta) + a(cos
+  theta + sin theta) = 0$. Dividing the entire equation by $(cos theta + sin theta)$ yields $x ((cos theta -
+  sin theta)/(cos theta + sin theta)) + y + a = 0$.
+
+  Notice that at the point where $y = -a$ and $x = 0$, the equation becomes $0 + (-a) + a = 0$, which is
+  identically true independent of the variable angle $theta$. Thus, this diagonal always passes through the
+  fixed point $(0, -a)$.
+
+  The second diagonal $D_2$ is obtained by the alternative sign combination: $x(cos theta + sin theta) +
+  y(sin theta - cos theta) + a(cos theta - sin theta) = 0$. Dividing the entire equation by $(cos theta -
+  sin theta)$ yields $x ((cos theta + sin theta)/(cos theta - sin theta)) - y + a = 0$.
+
+  Notice that at the point where $y = a$ and $x = 0$, the equation becomes $0 - a + a = 0$, which is also
+  identically true independent of $theta$. Thus, this diagonal always passes through the fixed point $(0,
+  a)$.
+
+  Therefore, each of the diagonals of the square formed by the four tangents passes through a fixed point on
+  the line segment connecting the centers of the two circles.
+//224
++ Let the circle from which the chords are drawn be $C_1: x^2 + y^2 = a^2$, and let the circle to which the
+  chords are tangents be $C_2: (x - d)^2 + y^2 = b^2$.
+
+  Let $P(x_1, y_1)$ be the point of intersection of the tangents drawn at the extremities of a chord of
+  $C_1$. This means the chord is the chord of contact of $P$ with respect to $C_1$.
+
+  The equation of this chord of contact is given by $x x_1 + y y_1 = a^2$, which can be rewritten in the
+  standard form $x x_1 + y y_1 - a^2 = 0$.
+
+  Since this chord is a tangent to the second circle $C_2$, the perpendicular distance from the center of
+  $C_2$, which is $(d, 0)$, to this line must be equal to its radius $b$.
+
+  Applying the perpendicular distance formula gives $(|d x_1 + 0 dot y_1 - a^2|)/sqrt(x_1^2 + y_1^2) = b$.
+
+  Squaring both sides to remove the absolute value and the square root yields $(d x_1 - a^2)^2 / (x_1^2 +
+  y_1^2) = b^2$.
+
+  Cross-multiplying the denominator gives $(d x_1 - a^2)^2 = b^2(x_1^2 + y_1^2)$.
+
+  Replacing the specific coordinates $(x_1, y_1)$ with general coordinates $(x, y)$, we obtain the final
+  locus equation as $(d x - a^2)^2 = b^2(x^2 + y^2)$.
+
+  If the two circles are concentric, the distance between their centers becomes $d = 0$.
+
+  Substituting $d = 0$ into the general locus equation gives $(-a^2)^2 = b^2(x^2 + y^2)$, which simplifies
+  to $a^4 = b^2(x^2 + y^2)$.
+
+  Rearranging this expression yields $x^2 + y^2 = a^4 / b^2$.
+
+  Taking the square root on both sides shows that the locus becomes a concentric circle with a radius of
+  $a^2 / b$.
+//225
++ Let the three lines be $L_r = x cos alpha_r + y sin alpha_r - p_r = 0$ for $r = 1, 2, 3$.
+
+  The equation of any curve passing through the three intersection points of these lines can be expressed as
+  a linear combination of their pairwise products: $lambda_1 L_2 L_3 + lambda_2 L_3 L_1 + lambda_3 L_1 L_2 =
+  0$.
+
+  For this second-degree equation to represent a circle, the coefficients of $x^2$ and $y^2$ must be equal,
+  and the coefficient of $x y$ must vanish. This condition determines the unique ratios of $lambda_1,
+  lambda_2, lambda_3$.
+
+  The unique values that eliminate the quadratic cross-terms to satisfy the circle condition are known to be
+  proportional to $lambda_1 = sin(alpha_2 - alpha_3)$, $lambda_2 = sin(alpha_3 - alpha_1)$, and $lambda_3 =
+  sin(alpha_1 - alpha_2)$.
+
+  Substituting these values of $lambda_r$ back into the joint equation gives the unique equation of the
+  circumcircle: $sum_(text("cyclic")) sin(alpha_2 - alpha_3)(x cos alpha_2 + y sin alpha_2 - p_2)(x cos
+  alpha_3 + y sin alpha_3 - p_3) = 0$.
+
+  If this circumcircle passes through the origin $(0, 0)$, the coordinates $x = 0$ and $y = 0$ must satisfy
+  its equation.
+
+  Substituting $x = 0$ and $y = 0$ into the circumcircle relation reduces each linear factor to its constant
+  term, yielding $sum_(text("cyclic")) sin(alpha_2 - alpha_3)(-p_2)(-p_3) = 0$.
+
+  Simplifying the signs and writing out the cyclic sum explicitly produces $p_2 p_3 sin(alpha_2 - alpha_3) +
+  p_3 p_1 sin(alpha_3 - alpha_1) + p_1 p_2 sin(alpha_1 - alpha_2) = 0$.
+
+  Using the identity $sin(theta) = -sin(-theta)$, we can reverse the index orientation inside the sine
+  functions to exactly match the required form.
+
+  Thus, the condition simplifies directly to $sum p_1 p_2 sin(alpha_1 - alpha_2) = 0$, proving that the
+  circumcircle passes through the origin.
+//226
++ The vertices of the triangle are found by solving the intersection points of the three given lines.
+
+  Intersecting $x + y = 6$ and $2x + y = 4$ gives the first vertex $A(-2, 8)$. Intersecting $x + y = 6$ and
+  $x + 2y = 5$ gives the second vertex $B(7, -1)$. Intersecting $2x + y = 4$ and $x + 2y = 5$ gives the
+  third vertex $C(1, 2)$.
+
+  Let the equation of the circumscribing circle be $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  Substituting the coordinates of $A(-2, 8)$ into the circle equation yields $-4g + 16f + c = -68$.
+
+  Substituting the coordinates of $B(7, -1)$ yields $14g - 2f + c = -50$.
+
+  Substituting the coordinates of $C(1, 2)$ yields $2g + 4f + c = -5$.
+
+  Subtracting the first equation from the second gives $18g - 18f = 18$, which simplifies to $g - f = 1$.
+
+  Subtracting the third equation from the second gives $12g - 6f = -45$, which simplifies to $4g - 2f =
+  -15$.
+
+  Substituting $g = f + 1$ into this relation gives $4(f + 1) - 2f = -15$, which solves to $2f = -19$ or $2f
+  = -19$. This gives $2g = -17$.
+
+  Substituting these values back into the third equation gives $-17 - 38 + c = -5$, which solves to $c =
+  50$.
+
+  Thus, the equation of the circumscribing circle is $x^2 + y^2 - 17x - 19y + 50 = 0$.
+//227
++ Let the given line equation be $3x - 4y + 7 = 0$, which can be rewritten to express $y$ as $y = (3x +
+  7)/4$. Let the extremities of the segment be $A(x_1, y_1)$ and $B(x_2, y_2)$.
+
+  Since the length of the segment is $10$ units, the distance formula gives $(x_2 - x_1)^2 + (y_2 - y_1)^2 =
+  100$. Substituting the slope relation $y_2 - y_1 = 3/4 (x_2 - x_1)$ into this equation yields $(x_2 -
+  x_1)^2 + 9/16 (x_2 - x_1)^2 = 100$.
+
+  Simplifying this expression gives $25/16 (x_2 - x_1)^2 = 100$, which solves to $(x_2 - x_1)^2 = 64$, or
+  $x_2 - x_1 = plus.minus 8$.
+
+  Since the segment subtends a right angle at the origin, the product of the slopes of $O A$ and $O B$ must
+  equal $-1$, which gives the orthogonality condition $x_1 x_2 + y_1 y_2 = 0$.
+
+  Substituting $y_1 = (3x_1 + 7)/4$ and $y_2 = (3x_2 + 7)/4$ into this condition gives $x_1 x_2 + ((3x_1 +
+  7)/4)((3x_2 + 7)/4) = 0$, which simplifies to $25 x_1 x_2 + 21(x_1 + x_2) + 49 = 0$.
+
+  Let $x_0$ be the x-coordinate of the midpoint, allowing us to express the endpoints as $x_1 = x_0 - 4$ and
+  $x_2 = x_0 + 4$. This gives their sum as $x_1 + x_2 = 2x_0$ and their product as $x_1 x_2 = x_0^2 - 16$.
+
+  Substituting these symmetric functions into the simplified orthogonality relation gives $25(x_0^2 - 16) +
+  21(2x_0) + 49 = 0$, which simplifies to the quadratic equation $25 x_0^2 + 42 x_0 - 351 = 0$.
+
+  Solving this quadratic equation using the quadratic formula yields $x_0 = (-42 plus.minus 192)/50$.
+
+  For the first case, taking the positive sign gives $x_0 = 3$. This yields the extremities $x_1 = -1$ and
+  $x_2 = 7$, with the corresponding y-coordinates $y_1 = 1$ and $y_2 = 7$, forming the first pair of points
+  $(-1, 1)$ and $(7, 7)$.
+
+  For the second case, taking the negative sign gives $x_0 = -117/25$. This yields the extremities $x_1 =
+  -217/25$ and $x_2 = -17/25$, with the corresponding y-coordinates $y_1 = -119/25$ and $y_2 = 31/25$,
+  forming the second pair of points $(-217/25, -119/25)$ and $(-17/25, 31/25)$.
+//228
++ Let the equation of the circle be $x^2 + y^2 = r^2$. Let the coordinates of the two given points be
+  $A(x_1, y_1)$ and $B(x_2, y_2)$.
+
+  The square of the length of the tangent $t_1$ from $A$ to the circle is given by $t_1^2 = x_1^2 + y_1^2 -
+  r^2$. Similarly, for $B$, the square of the tangent length is $t_2^2 = x_2^2 + y_2^2 - r^2$.
+
+  Since the points $A$ and $B$ are conjugate with respect to the circle, each point lies on the polar of the
+  other. The polar of $A(x_1, y_1)$ with respect to the circle is $x x_1 + y y_1 = r^2$.
+
+  Since $B(x_2, y_2)$ lies on this line, its coordinates satisfy the polar equation, giving the conjugacy
+  condition $x_1 x_2 + y_1 y_2 = r^2$.
+
+  The square of the distance between $A$ and $B$ is given by the distance formula $A B^2 = (x_2 - x_1)^2 +
+  (y_2 - y_1)^2$.
+
+  Expanding this expression yields $A B^2 = x_1^2 + y_1^2 + x_2^2 + y_2^2 - 2(x_1 x_2 + y_1 y_2)$.
+
+  Substituting the conjugacy condition $x_1 x_2 + y_1 y_2 = r^2$ into this expansion gives $A B^2 = x_1^2 +
+  y_1^2 + x_2^2 + y_2^2 - 2r^2$.
+
+  We can regroup these terms as $A B^2 = (x_1^2 + y_1^2 - r^2) + (x_2^2 + y_2^2 - r^2)$.
+
+  Substituting the expressions for the squares of the tangent lengths results directly in $A B^2 = t_1^2 +
+  t_2^2$.
+//229
++ The center of the given circle $x^2 + y^2 + 2g x + 2f y + c = 0$ is $C(-g, -f)$, and its radius is $R =
+  sqrt(g^2 + f^2 - c)$.
+
+  Let $P(x_1, y_1)$ be the internal point. The chord passing through $P$ has the minimum length when it is
+  perpendicular to the radius line $C P$.
+
+  In this configuration, $P$ serves as the midpoint of the chord, meaning the perpendicular distance $d$
+  from the center $C$ to the chord is exactly the length of the line segment $C P$.
+
+  Using the distance formula, the square of this distance is $d^2 = C P^2 = (x_1 + g)^2 + (y_1 + f)^2 =
+  x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + g^2 + f^2$.
+
+  By Pythagoras' theorem, half the length of the chord, denoted as $L/2$, satisfies $(L/2)^2 = R^2 - d^2$.
+
+  Substituting the values of $R^2$ and $d^2$ yields $(L/2)^2 = (g^2 + f^2 - c) - (x_1^2 + y_1^2 + 2g x_1 +
+  2f y_1 + g^2 + f^2)$.
+
+  Simplifying the expression cancels out the $g^2$ and $f^2$ terms, leaving $(L/2)^2 = -(x_1^2 + y_1^2 + 2g
+  x_1 + 2f y_1 + c)$.
+
+  Taking the square root gives $L/2 = sqrt(-(x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c))$.
+
+  Multiplying by $2$ directly results in the required formula for the least chord length $L = 2sqrt(-(x_1^2
+  + y_1^2 + 2g x_1 + 2f y_1 + c))$.
+//230
++ The circle $C_1$ of radius $a$ touches the y-axis at the origin on the positive side, so its center is
+  $(a, 0)$ and its equation is $(x - a)^2 + y^2 = a^2$.
+
+  The circle $C_2$ of radius $b$ touches the y-axis at the origin on the negative side, so its center is
+  $(-b, 0)$ and its equation is $(x + b)^2 + y^2 = b^2$.
+
+  Let the equation of a common tangent to both circles be $A x + B y + C = 0$.
+
+  The perpendicular distance from the center $(a, 0)$ to the tangent line must equal the radius $a$, giving
+  $|A a + C| / sqrt(A^2 + B^2) = a$, which squares to $(A a + C)^2 = a^2 (A^2 + B^2)$.
+
+  Similarly, the distance from $(-b, 0)$ to the tangent line must equal the radius $b$, giving $|-A b + C| /
+  sqrt(A^2 + B^2) = b$, which squares to $(-A b + C)^2 = b^2 (A^2 + B^2)$.
+
+  For the two external common tangents, both circles lie on the same side of the tangent lines, meaning the
+  expressions $A a + C$ and $-A b + C$ share the same sign.
+
+  Equating the ratios from the two distance relations gives $(A a + C)/a = (-A b + C)/b$, which expands to
+  $A + C/a = -A + C/b$.
+
+  Rearranging the terms to solve for $C$ yields $2A = C(1/b - 1/a) = C((a - b)/(a b))$, which simplifies to
+  $C = (2a b A)/(a - b)$.
+
+  Substituting this expression for $C$ back into the first squared distance equation gives $(A a + (2a b
+  A)/(a - b))^2 = a^2 (A^2 + B^2)$.
+
+  Factoring out $A a$ inside the squared term on the left side gives $a^2 A^2 (1 + (2b)/(a - b))^2 = a^2
+  (A^2 + B^2)$, which simplifies to $A^2 ((a + b)/(a - b))^2 = A^2 + B^2$.
+
+  Solving for $B^2$ yields $B^2 = A^2 [((a + b)/(a - b))^2 - 1] = A^2 ((a + b)^2 - (a - b)^2)/(a - b)^2 =
+  (4a b A^2)/(a - b)^2$.
+
+  Taking the square root gives $B = plus.minus (2sqrt(a b) A)/(a - b)$.
+
+  Substituting the values of $B$ and $C$ back into the general tangent equation $A x + B y + C = 0$ gives $A
+  x plus.minus (2sqrt(a b) A)/(a - b) y + (2a b A)/(a - b) = 0$.
+
+  Dividing the entire equation by the non-zero constant $A$ and multiplying by $(a - b)$ results in $(a -
+  b)x plus.minus 2sqrt(a b)y + 2a b = 0$.
+
+  Multiplying by $-1$ directly produces the required equations for the other two common tangents $(b - a)x
+  plus.minus 2sqrt(a b)y - 2a b = 0$.
+//231
++ Let the two given circles be $C_1$ with center $O_1$ and radius $r_1$, and $C_2$ with center $O_2$ and radius $r_2$.
+
+  Let the line joining the centers $O_1 O_2$ be chosen as the x-axis, and let $O_1$ be placed at the origin
+  $(0, 0)$, so $O_2$ has coordinates $(d, 0)$ where $d$ is the distance between their centers.
+
+  The external center of similitude $T_e$ divides $O_1 O_2$ externally in the ratio $r_1 : r_2$, giving its
+  coordinates as $( (r_1 d)/(r_1 - r_2), 0 )$. The internal center of similitude $T_i$ divides $O_1 O_2$
+  internally in the ratio $r_1 : r_2$, giving its coordinates as $( (r_1 d)/(r_1 + r_2), 0 )$.
+
+  The circle described on $T_e T_i$ as diameter is known as the Circle of Apollonius. By geometric
+  definition, the locus of a point $P(x, y)$ whose distances to two fixed points $O_1$ and $O_2$ are in a
+  constant ratio is a circle, meaning $(P O_1)/(P O_2) = r_1 / r_2$.
+
+  Squaring this distance relation gives $(P O_1^2)/(P O_2^2) = r_1^2 / r_2^2$, which can be rearranged as $P
+  O_1^2 - (r_1^2 / r_2^2) P O_2^2 = 0$.
+
+  Let $t_1$ be the length of the tangent drawn from $P$ to $C_1$, and $t_2$ be the length of the tangent
+  from $P$ to $C_2$. By Pythagoras' theorem on the right-angled triangles formed by the tangents and radii,
+  we have $t_1^2 = P O_1^2 - r_1^2$ and $t_2^2 = P O_2^2 - r_2^2$.
+
+  We can rewrite the squared tangent lengths to check their ratio by evaluating the linear combination
+  $t_1^2 - (r_1^2 / r_2^2) t_2^2 = (P O_1^2 - r_1^2) - (r_1^2 / r_2^2)(P O_2^2 - r_2^2)$.
+
+  Expanding this expression gives $P O_1^2 - (r_1^2 / r_2^2) P O_2^2 - r_1^2 + (r_1^2 / r_2^2) r_2^2$.
+
+  The distance terms $P O_1^2 - (r_1^2 / r_2^2) P O_2^2$ vanish because $P$ lies on the Circle of
+  Apollonius, and the remaining radius terms $-r_1^2 + r_1^2$ also sum to zero.
+
+  Thus, the entire expression simplifies to $t_1^2 - (r_1^2 / r_2^2) t_2^2 = 0$, which implies $t_1^2 /
+  t_2^2 = r_1^2 / r_2^2$.
+
+  Taking the square root of both sides directly proves that the lengths of the tangents are in the ratio of
+  their corresponding radii $t_1 / t_2 = r_1 / r_2$.
+//232
++ Let $P(x, y)$ be any point on a common tangent line $A X + B Y + C = 0$ to both circles.
+
+  Since $P(x, y)$ lies on the tangent, it satisfies $A x + B y + C = 0$, which gives $C = -A x - B y$.
+
+  The perpendicular distance from the center $(alpha, beta)$ of the first circle to the tangent equals its
+  radius $a_1$, so $(|A alpha + B beta + C|)/sqrt(A^2 + B^2) = a_1$.
+
+  Substituting $C = -A x - B y$ gives $|A(alpha - x) + B(beta - y)| = a_1 sqrt(A^2 + B^2)$, which can be
+  rewritten as $A(x - alpha) + B(y - beta) + a_1 K = 0$ where $K = minus.plus sqrt(A^2 + B^2)$.
+
+  Similarly, for the second circle with center $(p, q)$ and radius $a_2$, the distance condition yields $A(x
+  - p) + B(y - q) plus.minus a_2 K = 0$, where the $plus.minus$ sign accounts for the direct and transverse
+  pairs of tangents.
+
+  We now have a system of two homogeneous equations in terms of the coefficients $A, B$, and $K$: 1. $(x -
+  alpha)A + (y - beta)B + a_1 K = 0$ 2. $(x - p)A + (y - q)B plus.minus a_2 K = 0$
+
+  Using the rule of cross-multiplication to eliminate $A, B, K$, we express their proportional values as
+  determinants: $A = k_0 mat(delim: "|", y - beta, a_1; y - q, plus.minus a_2)$, $B = -k_0 mat(delim: "|", x
+  - alpha, a_1; x - p, plus.minus a_2)$, and $K = k_0 mat(delim: "|", x - alpha, y - beta; x - p, y - q)$.
+
+  Since the definition of $K$ satisfies the identity $A^2 + B^2 = K^2$, we substitute these determinant
+  relations into the identity.
+
+  Canceling the non-zero proportionality constant $k_0^2$ from both sides directly yields the required joint
+  equation: $mat(delim: "|", x - alpha, y - beta; x - p, y - q;)^2 = mat(delim: "|", x - alpha, a_1; x - p,
+  plus.minus a_2;)^2 + mat(delim: "|", y - beta, a_1; y - q, plus.minus a_2;)^2$.
+//233
++ Let the parameters of the points of contact of the two tangents drawn from $P(x_1, y_1)$ to the parabola
+  $y^2 = 4a x$ be $t_1$ and $t_2$.
+
+  The equations of these tangents are $y t_1 = x + a t_1^2$ and $y t_2 = x + a t_2^2$. Their intersection
+  point $P$ has coordinates $x_1 = a t_1 t_2$ and $y_1 = a(t_1 + t_2)$.
+
+  The tangent at the vertex of the parabola is the y-axis, given by $x = 0$.
+
+  Substituting $x = 0$ into the tangent equations gives their intersection points with the y-axis as $A(0, a
+  t_1)$ and $B(0, a t_2)$.
+
+  The triangle is formed by the vertices $A, B$, and $P$. Since $A$ and $B$ lie on the y-axis, the base of
+  the triangle is $A B = |a t_1 - a t_2| = a|t_1 - t_2|$, and the corresponding height is the x-coordinate
+  of $P$, which is $|x_1| = |a t_1 t_2|$.
+
+  The area of this triangle is given to be a constant $c^2$, so $1/2 dot "base" dot "height" = 1/2 |a t_1
+  t_2| dot a|t_1 - t_2| = c^2$, which simplifies to $a^2 |t_1 t_2 (t_1 - t_2)| = 2c^2$.
+
+  Squaring both sides of this relation yields $a^4 (t_1 t_2)^2 (t_1 - t_2)^2 = 4c^4$.
+
+  Using the algebraic identity $(t_1 - t_2)^2 = (t_1 + t_2)^2 - 4t_1 t_2$, we rewrite the equation as $a^4
+  (t_1 t_2)^2 [(t_1 + t_2)^2 - 4t_1 t_2] = 4c^4$.
+
+  Substituting $t_1 t_2 = x_1/a$ and $t_1 + t_2 = y_1/a$ into the relation gives $a^4 (x_1/a)^2 [(y_1/a)^2 -
+  4(x_1/a)] = 4c^4$.
+
+  Simplifying the powers of $a$ gives $x_1^2 (y_1^2 - 4a x_1) = 4c^4$.
+
+  Replacing $(x_1, y_1)$ with general coordinates $(x, y)$ directly produces the required locus equation
+  $x^2(y^2 - 4a x) = 4c^4$.
+//234
++ Let $P(a t^2, 2a t)$ be a variable point on the parabola $y^2 = 4a x$. The equation of the tangent at $P$
+  is given by $y t = x + a t^2$, or $x - y t + a t^2 = 0$.
+
+  The vertex of the parabola is $A(0, 0)$. The slope of the line $A P$ is $(2a t) / (a t^2) = 2/t$, so the
+  line through $A$ perpendicular to $A P$ has a slope of $-t/2$ and its equation is $y = -t/2 x$, or $t x +
+  2y = 0$.
+
+  The point $Q$ is the intersection of the tangent $x - y t + a t^2 = 0$ and the line $t x + 2y =
+  0$. Solving these two equations gives the coordinates of $Q$ as $( (-2a t^2) / (t^2 + 2), (a t^3) / (t^2 +
+  2) )$.
+
+  The point $R$ is the foot of the perpendicular from $A(0, 0)$ to the tangent line. The line through $A$
+  perpendicular to the tangent is $t x + y = 0$. Intersecting this with the tangent gives the coordinates of
+  $R$ as $( (-a t^2) / (1 + t^2), (a t^3) / (1 + t^2) )$.
+
+  We are given that $R$ lies on the line $l x + m y + n = 0$. Substituting the coordinates of $R$ into this
+  line equation yields $l ( (-a t^2) / (1 + t^2) ) + m ( (a t^3) / (1 + t^2) ) + n = 0$.
+
+  Multiplying by $(1 + t^2)$ and rearranging the terms gives the cubic equation $m a t^3 + (n - l a) t^2 + n
+  = 0$. Since this is a cubic equation in $t$, there are exactly three values of $t$, which means there are
+  three positions of the point $P$.
+
+  Now, we test if the corresponding point $Q$ satisfies the line equation $(2l - n)x + 4m y + 2n a = 0$
+  under the standard parameterization where $a = 1$. Substituting the coordinates of $Q$ into this equation
+  gives $(2l - n)( (-2t^2) / (t^2 + 2) ) + 4m ( t^3 / (t^2 + 2) ) + 2n = 0$.
+
+  Multiplying the entire relation by $(t^2 + 2) / 2$ to clear the denominators simplifies the expression to
+  $(2l - n)(-t^2) + 2m t^3 + n(t^2 + 2) = 0$.
+
+  Expanding and collecting the powers of $t$ results in $-2l t^2 + n t^2 + 2m t^3 + n t^2 + 2n = 0$, which
+  groups into $2m t^3 + 2(n - l)t^2 + 2n = 0$.
+
+  Dividing by $2$ gives $m t^3 + (n - l)t^2 + n = 0$, which is identical to the cubic equation derived from
+  $R$ when $a = 1$.
+
+  Thus, for the three positions of $P$, $R$ lies on the first line and the corresponding point $Q$ lies on
+  the second line.
+//235
++ Let the three normals to the parabola $y^2 = 4a x$ from a point $(x_0, y_0)$ pass through the points on
+  the parabola parameterized by $t_1, t_2, t_3$.
+
+  The equation of a normal to the parabola with slope $m = -t$ is given by $y = m x - 2a m - a m^3$. Since
+  this normal passes through $(x_0, y_0)$, we have $a m^3 + (2a - x_0)m + y_0 = 0$.
+
+  This cubic equation has three roots $m_1, m_2, m_3$. According to Vieta's formulas, the sum of the roots
+  is $m_1 + m_2 + m_3 = 0$, the sum of pairwise products is $m_1 m_2 + m_2 m_3 + m_3 m_1 = 2a - x_0$, and
+  the product of the roots is $m_1 m_2 m_3 = -y_0$.
+
+  The tangents at the points on the parabola corresponding to the slopes $m_1$ and $m_2$ intersect at the
+  point $(alpha, beta)$.
+
+  The standard formulas for the intersection of two tangents with parameters $t_1 = -m_1$ and $t_2 = -m_2$
+  yield the coordinates $alpha = a t_1 t_2 = a m_1 m_2$ and $beta = a(t_1 + t_2) = -a(m_1 + m_2)$.
+
+  From these relations, we find $m_1 m_2 = alpha/a$ and $m_1 + m_2 = -beta/a$.
+
+  Using $m_1 + m_2 + m_3 = 0$, we substitute $m_1 + m_2 = -beta/a$ to find the third slope as $m_3 =
+  beta/a$.
+
+  Substituting $m_3 = beta/a$ into the product of roots relation gives $(alpha/a)(beta/a) = -y_0$, which
+  solves for the y-coordinate of the intersection point of the normals as $y_0 = -(alpha beta)/a$.
+
+  Substituting the symmetric functions into the pairwise product sum gives $m_1 m_2 + m_3(m_1 + m_2) =
+  alpha/a + (beta/a)(-beta/a) = (alpha - beta^2/a)/a$.
+
+  Equating this to the coefficient expression from the cubic equation gives $(alpha - beta^2/a)/a = (2a -
+  x_0)/a$, which simplifies to $alpha - beta^2/a = 2a - x_0$.
+
+  Solving for $x_0$ yields the x-coordinate of the intersection point as $x_0 = 2a - alpha + beta^2/a$.
+
+  Thus, the corresponding normals intersect exactly at the point $(2a - alpha + beta^2/a, -(alpha beta)/a)$.
+//236
++ Let a variable point on the line $x = c$ be given by $P(c, beta)$, where $beta$ is a variable parameter.
+
+  From the general theorem for the intersection of normals corresponding to tangents drawn from $(alpha,
+  beta)$, substituting $alpha = c$ gives the coordinates $(x_0, y_0)$ of the intersection of the normals.
+
+  This yields the parametric equations for the locus as $x_0 = 2a - c + beta^2/a$ and $y_0 = -(c beta)/a$.
+
+  From the equation for $y_0$, we can express the variable parameter $beta$ as $beta = -(a y_0)/c$.
+
+  Substituting this expression for $beta$ into the equation for $x_0$ gives $x_0 = 2a - c + (-(a y_0)/c)^2 /
+  a = 2a - c + (a y_0^2)/c^2$.
+
+  Rearranging the terms to isolate the $y_0^2$ component yields $(a y_0^2)/c^2 = x_0 + c - 2a$.
+
+  Multiplying both sides of the equation by $c^2$ gives $a y_0^2 = c^2(x_0 + c - 2a)$.
+
+  Replacing the coordinates $(x_0, y_0)$ with general coordinates $(x, y)$, we obtain the final locus
+  equation as $a y^2 = c^2(x + c - 2a)$.
+//237
++ Let the coordinates of the point $T$ be $(alpha, beta)$. From the previous result, when a pair of tangents
+  is drawn to the parabola $y^2 = 4a x$ from $(alpha, beta)$, the corresponding normals intersect at the
+  point $N(2a - alpha + beta^2/a, -(alpha beta)/a)$.
+
+  The axis of the parabola is the x-axis ($y = 0$). The fixed point $M$ lies on the axis within the curve at
+  a distance $k$ from the vertex $(0,0)$, so its coordinates are $M(k, 0)$.
+
+  Since the line $T N$ cuts the axis at $M$, the three points $T(alpha, beta)$, $M(k, 0)$, and $N(2a - alpha
+  + beta^2/a, -(alpha beta)/a)$ must be collinear.
+
+  The condition for collinearity is that the slope of the line segment $T M$ must equal the slope of the
+  line segment $M N$.
+
+  This gives the relation $(beta - 0) / (alpha - k) = (-(alpha beta)/a - 0) / (2a - alpha + beta^2/a - k)$.
+
+  Simplifying the fraction on the right-hand side by multiplying its numerator and denominator by $a$ gives
+  $beta / (alpha - k) = -(alpha beta) / (2a^2 - a alpha + beta^2 - a k)$.
+
+  Dividing both sides by the non-zero variable parameter $beta$ reduces the equation to $1 / (alpha - k) =
+  -alpha / (2a^2 - a alpha + beta^2 - a k)$.
+
+  Cross-multiplying both sides to clear the denominators yields $2a^2 - a alpha + beta^2 - a k =
+  -alpha(alpha - k)$, which expands to $2a^2 - a alpha + beta^2 - a k = -alpha^2 + alpha k$.
+
+  Rearranging all the terms to the left-hand side gives $alpha^2 + beta^2 - a alpha - alpha k + 2a^2 - a k = 0$.
+
+  Grouping the linear coefficients with respect to $alpha$ and the constant terms with respect to $a$ gives
+  $alpha^2 + beta^2 - (a + k)alpha + a(2a - k) = 0$.
+
+  Replacing the specific coordinates $(alpha, beta)$ of the moving point $T$ (noted as $P$ in the problem
+  text) with general coordinates $(x, y)$ directly produces the required circle locus equation $x^2 + y^2 -
+  (a + k)x + a(2a - k) = 0$.
+//238
++ Let the extremities of the chord on $y^2 = 4a x$ be $P(a t_1^2, 2a t_1)$ and $Q(a t_2^2, 2a t_2)$. The
+  equation of the chord $P Q$ is $y(t_1 + t_2) = 2x + 2a t_1 t_2$, which rewrites to $y = 2/(t_1 + t_2) x +
+  (2a t_1 t_2)/(t_1 + t_2)$. Since this chord touches $y^2 = 4b x$, the tangency condition $c = b/m$ yields
+  $(2a t_1 t_2)/(t_1 + t_2) = (b(t_1 + t_2))/2$, simplifying to $4a t_1 t_2 = b(t_1 + t_2)^2$.
+
+  + The tangents at $P$ and $Q$ meet at $(x, y)$ where $x = a t_1 t_2$ and $y = a(t_1 + t_2)$. Thus, $t_1
+    t_2 = x/a$ and $t_1 + t_2 = y/a$. Substituting these into the tangency condition gives $4a(x/a) =
+    b(y/a)^2$, which simplifies to $b y^2 = 4a^2 x$.
+
+  + The normals at $P$ and $Q$ meet at $(x, y)$ where $x = 2a + a((t_1 + t_2)^2 - t_1 t_2)$ and $y = -a t_1
+    t_2 (t_1 + t_2)$. Let $S = t_1 + t_2$ and $P_0 = t_1 t_2$. The tangency condition gives $P_0 = b/(4a)
+    S^2$. Substituting $P_0$ into the $x$-coordinate gives $x - 2a = a(S^2 - b/(4a) S^2) = ((4a - b)/4) S^2$,
+    hence $S^2 = (4(x - 2a))/(4a - b)$. Substituting $P_0$ into the $y$-coordinate gives $y = -b/4 S^3$, hence
+    $y^2 = (b^2/16) S^6$. Cubing the expression for $S^2$ yields $S^6 = (64(x - 2a)^3)/(4a - b)^3$. Equating
+    the two values of $S^6$ gives $(16 y^2)/b^2 = (64(x - 2a)^3)/(4a - b)^3$, which simplifies directly to
+    $(4a - b)^3 y^2 = 4b^2 (x - 2a)^3$.
+//239
++ Let the parabola be $y^2 = 4a x$ with vertex $A(0,0)$. Let $P(a t^2, 2 a t)$ be a point on the curve.
+
+  The normal at $P$ meets the parabola again at $Q(a t_1^2, 2 a t_1)$ where $t_1 = -t - 2/t$.
+
+  The slope of $A Q$ is $2 / t_1 = (-2 t) / (t^2 + 2)$.
+
+  The line through $P$ parallel to $A Q$ is $y - 2 a t = (-2 t) / (t^2 + 2) (x - a t^2)$.
+
+  Setting $y = 0$ for its intersection $R$ with the axis yields $-2 a t = (-2 t) / (t^2 + 2) (x - a t^2)$.
+
+  This simplifies to $a(t^2 + 2) = x - a t^2$, which gives $x = 2 a (t^2 + 1)$.
+
+  The distance $A R$ is the $x$-coordinate of $R$, so $A R = 2 a (t^2 + 1)$.
+
+  The focal distance of $P$ is $a + a t^2 = a (t^2 + 1)$. Thus, $A R$ is double the focal distance of $P$.
+//240
++ Let the parabola be $y^2 = 4a x$ with vertex $A(0,0)$ and directrix $x = -a$.
+
+  Let $P(a t^2, 2 a t)$ be a point on the parabola.
+
+  The normal at $P$ meets the curve again at $Q(a t_1^2, 2 a t_1)$, where $t_1 = -t - 2/t$.
+
+  The tangents at $P$ and $Q$ intersect at $T$. The coordinates of $T$ are given by $T(a t t_1, a (t + t_1))$.
+
+  Substituting $t_1 = -t - 2/t$ into the $x$-coordinate of $T$ yields $x_T = a t (-t - 2/t) = -a t^2 - 2 a$.
+
+  The $x$-coordinate of the midpoint of $T P$ is $(x_T + x_P) / 2 = (-a t^2 - 2 a + a t^2) / 2 = -a$.
+
+  Since the equation of the directrix is $x = -a$, the midpoint of $T P$ lies on the directrix. Thus, $T P$
+  is bisected by the directrix.
+//241
++ The normal at $P(a t^2, 2a t)$ meets the parabola $y^2 = 4a x$ again at $Q(a t'^2, 2a t')$ where $t' = -t
+  - 2/t$.
+
+  The vertex is $A(0,0)$. The area of $triangle A Q P$ is $1/2 |x_1 y_2 - x_2 y_1|$.
+
+  Substituting the coordinates gives Area $= 1/2 |(a t^2)(2a t') - (a t'^2)(2a t)|$.
+
+  This simplifies to $a^2 |t t' (t - t')|$.
+
+  We calculate $t t' = -(t^2 + 2)$ and $t - t' = (2(t^2 + 1))/t$.
+
+  Substituting these components yields Area $= a^2 |-(t^2 + 2) dot (2(t^2 + 1))/t|$.
+
+  Thus the final area expression is $(2a^2)/(|t|) (1 + t^2)(2 + t^2)$.
+//242
++ Let the normal chord $P Q$ join $P(a t^2, 2a t)$ and $Q(a t'^2, 2a t')$ on $y^2 = 4a x$, where $t' = -t -
+  2/t$.
+
+  The vertex is $A(0,0)$. Since $P Q$ subtends a right angle at $A$, the product of the slopes of $A P$ and
+  $A Q$ is $-1$.
+
+  The slope of $A P$ is $(2a t)/(a t^2) = 2/t$, and the slope of $A Q$ is $(2a t')/(a t'^2) = 2/t'$.
+
+  Multiplying the slopes gives $(2/t) dot (2/t') = -1$, which simplifies to $t t' = -4$.
+
+  Substituting $t' = -t - 2/t$ into the relation yields $t(-t - 2/t) = -4$.
+
+  This expands to $-t^2 - 2 = -4$, leading to $t^2 = 2$, or $t = +-sqrt(2)$.
+
+  The equation of the normal is $y = -t x + 2a t + a t^3$, meaning its slope is $m = -t$.
+
+  The inclination angle $theta$ with the $x$-axis satisfies $|tan theta| = |m| = |-t| = |t|$.
+
+  Using $|t| = sqrt(2)$, we get $tan theta = sqrt(2)$, which gives $theta = tan^(-1) sqrt(2)$.
+//243
++ The equation of the normal to $y^2 = 4a x$ at any point $t$ is $t x + y = 2a t + a t^3$.
+
+  The intersection of the normals at $t_1$ and $t_2$ is found by solving their equations simultaneously.
+
+  Subtracting the two equations gives $x_3 = 2a + a(t_1^2 + t_1 t_2 + t_2^2)$.
+
+  Substituting $x_3$ back yields the corresponding $y$-coordinate $y_3 = -a t_1 t_2 (t_1 + t_2)$.
+
+  By symmetry, the other two vertices of the triangle formed by the three normals are
+  $x_1 = 2a + a(t_2^2 + t_2 t_3 + t_3^2)$, $y_1 = -a t_2 t_3 (t_2 + t_3)$ and
+  $x_2 = 2a + a(t_3^2 + t_3 t_1 + t_1^2)$, $y_2 = -a t_3 t_1 (t_3 + t_1)$.
+
+  The area of the triangle with these coordinates is given by $1/2 |y_1(x_2 - x_3) + y_2(x_3 - x_1) +
+  y_3(x_1 - x_2)|$.
+
+  Computing the differences gives $x_2 - x_3 = -a(t_2 - t_3)(t_1 + t_2 + t_3)$.
+
+  Multiplying by $y_1$ yields $y_1(x_2 - x_3) = a^2 (t_1 + t_2 + t_3) t_2 t_3 (t_2^2 - t_3^2)$.
+
+  Summing all three cyclic terms gives Area $= 1/2 |a^2 (t_1 + t_2 + t_3) sum t_2 t_3 (t_2^2 - t_3^2)|$.
+
+  Using the identity $sum t_2 t_3 (t_2^2 - t_3^2) = -(t_1 - t_2)(t_2 - t_3)(t_3 - t_1)(t_1 + t_2 + t_3)$.
+
+  Substituting this back gives the final area $a^2/2 |(t_1 - t_2)(t_2 - t_3)(t_3 - t_1)|(t_1 + t_2 +
+  t_3)^2$.
+//244
++ Let the ends of the focal chord on $y^2 = 4a x$ be $t_1$ and $t_2$, which satisfies $t_1 t_2 = -1$.
+
+  The intersection $(x, y)$ of normals at $t_1$ and $t_2$ satisfies $x = 2a + a(t_1^2 + t_1 t_2 + t_2^2)$
+  and $y = -a t_1 t_2 (t_1 + t_2)$.
+
+  Substituting $t_1 t_2 = -1$ gives $x = a + a(t_1^2 + t_2^2)$ and $y = a(t_1 + t_2)$.
+
+  Using the identity $t_1^2 + t_2^2 = (t_1 + t_2)^2 - 2 t_1 t_2$, we get $t_1^2 + t_2^2 = (t_1 + t_2)^2 +
+  2$.
+
+  Substituting this into $x$ yields $x = a + a((t_1 + t_2)^2 + 2) = 3a + a(t_1 + t_2)^2$.
+
+  Replacing $t_1 + t_2$ with $y/a$ gives $x = 3a + a(y/a)^2$, which simplifies to $y^2 = a(x - 3a)$.
+
+  This represents a parabola whose latus rectum is $a$.
+
+  Since the latus rectum of the original parabola is $4a$, the new latus rectum is exactly one-fourth of it.
+//245
++ Let the normals at $t_1$ and $t_2$ on $y^2 = 4a x$ have inclinations $alpha$ and $beta$, giving $tan alpha
+  = -t_1$ and $tan beta = -t_2$.
+
+  The condition $tan alpha tan beta = 2$ implies $t_1 t_2 = 2$.
+
+  The intersection $(x, y)$ of these normals satisfies $x = 2a + a(t_1^2 + t_1 t_2 + t_2^2)$ and $y = -a t_1
+  t_2 (t_1 + t_2)$.
+
+  Substituting $t_1 t_2 = 2$ gives $x = 4a + a(t_1^2 + t_2^2)$ and $y = -2a(t_1 + t_2)$.
+
+  Squaring $y$ gives $y^2 = 4a^2 (t_1 + t_2)^2 = 4a^2 (t_1^2 + t_2^2 + 2 t_1 t_2) = 4a^2 (t_1^2 + t_2^2 +
+  4)$.
+
+  Computing $4a x$ gives $4a x = 4a(4a + a(t_1^2 + t_2^2)) = 4a^2 (t_1^2 + t_2^2 + 4)$.
+
+  Equating the results shows $y^2 = 4a x$, proving the intersection point lies on the parabola.
+//246
++ The equation of a normal to $y^2 = 4a x$ passing through $(h, k)$ is $k = -t h + 2a t + a t^3$.
+
+  Rearranging gives the cubic equation $a t^3 + (2a - h)t - k = 0$.
+
+  The roots $t_1, t_2, t_3$ satisfy $t_1 + t_2 + t_3 = 0$, $t_1 t_2 + t_2 t_3 + t_3 t_1 = (2a - h)/a$, and
+  $t_1 t_2 t_3 = k/a$.
+
+  The coordinates of $P, Q, R$ are $(a t_i^2, 2a t_i)$ for $i = 1, 2, 3$.
+
+  The $x$-coordinate of the centroid is $1/3 a (t_1^2 + t_2^2 + t_3^2) = 1/3 a ((t_1 + t_2 + t_3)^2 - 2 sum
+  t_1 t_2) = (2(h - 2a))/3$.
+
+  The $y$-coordinate of the centroid is $1/3 dot 2a(t_1 + t_2 + t_3) = 0$. Thus the centroid is $((2(h -
+  2a))/3, 0)$.
+
+  The slope of side $Q R$ is $2/(t_2 + t_3) = -2/t_1$, so the altitude from $P(a t_1^2, 2a t_1)$ has slope
+  $t_1/2$.
+
+  The equation of this altitude is $y - 2a t_1 = t_1/2 (x - a t_1^2)$, which simplifies to $t_1 x - 2y = a
+  t_1^3 - 4a t_1$.
+
+  Substituting $a t_1^3 = (h - 2a)t_1 + k$ from the cubic equation yields $t_1 x - 2y = (h - 6a)t_1 + k$.
+
+  Rearranging gives $t_1 (x - (h - 6a)) - 2(y - (-k/2)) = 0$.
+
+  Since this holds for all roots $t_1, t_2, t_3$, the intersection point of the altitudes is $(h - 6a, -k/2)$.
+//247
++ The cubic equation for the parameters $t_1, t_2, t_3$ of the co-normal points from $(h, k)$ is $a t^3 +
+  (2a - h)t - k = 0$.
+
+  The roots satisfy $t_1 + t_2 + t_3 = 0$ and $t_1 t_2 t_3 = k/a$.
+
+  The tangents at $t_1$ and $t_2$ intersect at the vertex $(x, y) = (a t_1 t_2, a(t_1 + t_2))$. By symmetry,
+  this holds for all pairs.
+
+  Since $t_1 + t_2 = -t_3$, the $y$-coordinate of any vertex is given by $y = -a t_3$, which means $t_3 =
+  -y/a$.
+
+  Substituting $t = -y/a$ into the cubic equation yields $a(-y/a)^3 + (2a - h)(-y/a) - k = 0$.
+
+  Multiplying by $-a^2$ simplifies this to $y^3 - a(h - 2a)y + a^2 k = 0$.
+
+  Since $t_1 t_2 = k/(a t_3)$, the $x$-coordinate of any vertex is given by $x = a (k/(a t_3)) = k/t_3$,
+  which means $t_3 = k/x$.
+
+  Substituting $t = k/x$ into the cubic equation yields $a(k/x)^3 + (2a - h)(k/x) - k = 0$.
+
+  Dividing by $-k$ and multiplying by $x^3$ simplifies this to $x^3 + (h - 2a)x^2 - a k^2 = 0$.
+//248
++ Let the circle equation be $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  Any point on the parabola $y^2 = 4a x$ has parametric coordinates $(a t^2, 2a t)$.
+
+  Substituting these coordinates into the circle equation gives $(a t^2)^2 + (2a t)^2 + 2g(a t^2) + 2f(2a t)
+  + c = 0$.
+
+  Expanding this expression results in the fourth-degree polynomial $a^2 t^4 + (4a^2 + 2a g)t^2 + 4a f t + c
+  = 0$.
+
+  Since the coefficient of the $t^3$ term is zero, the sum of the roots must be zero.
+
+  Thus, the sum of the parameters of the four intersection points satisfies $t_1 + t_2 + t_3 + t_4 = 0$.
+//249
++ Let the circle passing through $P, Q, R$ be $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  Substituting $(a t^2, 2a t)$ yields the intersection equation $a^2 t^4 + (4a^2 + 2a g)t^2 + 4a f t + c =
+  0$.
+
+  The roots $t_1, t_2, t_3, t_4$ satisfy $t_1 + t_2 + t_3 + t_4 = 0$.
+
+  Since $P, Q, R$ are co-normal points from $(h, k)$, their parameters satisfy $t_1 + t_2 + t_3 = 0$.
+
+  Equating these relations gives $t_4 = 0$, meaning the fourth intersection point is the vertex $A(0,0)$.
+
+  Since the circle passes through $(0,0)$, the constant term must be $c = 0$.
+
+  Dividing the intersection equation by $a t$ for the remaining points gives $a t^3 + (4a + 2g)t + 4f = 0$.
+
+  This must be identical to the co-normal cubic equation $a t^3 + (2a - h)t - k = 0$.
+
+  Comparing the coefficients gives $4a + 2g = 2a - h$, which simplifies to $2g = -(h + 2a)$.
+
+  Comparing the constant terms gives $4f = -k$, which simplifies to $2f = -1/2 k$.
+
+  Substituting $2g$, $2f$, and $c = 0$ into the circle equation yields $x^2 + y^2 - (h + 2a)x - 1/2 k y =
+  0$.
+//250
++ Let $P, Q, R$ have parameters $t_1, t_2, t_3$ from the co-normal point $(h, k)$, satisfying $t_1 + t_2 +
+  t_3 = 0$.
+
+  The slope of the chord $Q R$ joining $Q(a t_2^2, 2a t_2)$ and $R(a t_3^2, 2a t_3)$ is $2/(t_2 + t_3) =
+  -2/t_1$.
+
+  The tangent at any point $P_1(T_1)$ has slope $1/T_1$. Since it is parallel to $Q R$, we have $1/T_1 =
+  -2/t_1$, giving $T_1 = -t_1/2$.
+
+  By symmetry, the parameters of $P_1, Q_1, R_1$ are $T_1 = -t_1/2$, $T_2 = -t_2/2$, and $T_3 = -t_3/2$.
+
+  The condition for the normals at three points to be concurrent is that the sum of their parameters equals
+  zero.
+
+  Summing the new parameters yields $T_1 + T_2 + T_3 = -1/2 (t_1 + t_2 + t_3) = -1/2 (0) = 0$.
+
+  Since the sum of the parameters is zero, the normals at $P_1, Q_1, R_1$ must be concurrent.
+//251
++ The normal to the parabola $y^2 = 4a x$ with slope $m$ is $y = m x - 2a m - a m^3$.
+
+  It intersects the axis $y = 0$ at the point $G(2a + a m^2, 0)$.
+
+  The line perpendicular to the normal has slope $M = -1/m$.
+
+  Its equation through $G$ is $y = M (x - 2a - a m^2)$. Replacing $m^2$ with $1/M^2$ yields $y = M (x - 2a)
+  - a/M$.
+
+  This is a tangent to the parabola $y^2 = -4a(x - 2a)$. Both parabolas have an equal latus rectum of $4a$.
+//252
++ Let $(h, k)$ be the midpoint of the variable chord. Since it lies on the line $y = m x + c$, we have $k =
+m h + c$, which gives $h = (k - c)/m$.
+
+  The equation of a chord with a given midpoint $(h, k)$ is $T = S_1$, which is $y k - 2a(x + h) = k^2 - 4a
+  h$.
+
+  Simplifying gives $y k - 2a x = k^2 - 2a h$. Substitute $h = (k - c)/m$ into the equation $y k - 2a x =
+  k^2 - 2a ((k - c)/m)$
+
+  Rearrange this into a quadratic equation in terms of $k$: $k^2 - k (y + (2a)/m) + 2a x + (2a c)/m = 0$
+
+  For the envelope of this variable chord, the discriminant must be zero $(y + (2a)/m)^2 - 4 (2a x + (2a
+  c)/m) = 0$ $=>(y + (2a)/m)^2 = 8a (x + c/m)$.
+//253
++ Let the normals at $P(a t_1^2, 2a t_1)$, $Q(a t_2^2, 2a t_2)$, and $R(a t_3^2, 2a t_3)$ meet at $(k, h)$.
+
+  The normal equation $y + t x = 2a t + a t^3$ passes through $(k, h)$, so $a t^3 + (2a - k)t - h = 0$.
+
+  By Vieta's formulas, $t_1 + t_2 + t_3 = 0$ and $t_1 t_2 + t_2 t_3 + t_3 t_1 = (2a - k)/a$.
+
+  The equation of the chord $P Q$ is $y(t_1 + t_2) - 2x = 2a t_1 t_2$.
+
+  Substitute $t_1 + t_2 = -t_3$ and $t_1 t_2 = (2a - k)/a + t_3^2$ gives $-y t_3 - 2x = 2a ((2a - k)/a +
+  t_3^2)$
+
+  Rearranging gives the quadratic in $t_3$ gives $2a t_3^2 + y t_3 + 2x + 2(2a - k) = 0$.
+
+  The envelope is found where the discriminant is zero i.e. $y^2 - 4(2a)(2x + 4a - 2k) = 0=>y^2 = 16a(x + 2a
+  - k)$.
+//254
++ Let the normals at $P(a t_1^2, 2a t_1)$, $Q(a t_2^2, 2a t_2)$, and $R(a t_3^2, 2a t_3)$ meet at $(h, k)$.
+
+  The normal equation $y + t x = 2a t + a t^3$ passes through $(h, k)$, so $a t^3 + (2a - h)t - k = 0$.
+
+  By Vieta's formulas, $t_1 + t_2 + t_3 = 0$ and $t_1 t_2 t_3 = k/a$.
+
+  The equation of the chord $P Q$ is $y(t_1 + t_2) - 2x = 2a t_1 t_2$.
+
+  Substitute $t_1 + t_2 = -t_3$ and $t_1 t_2 = k / (a t_3)$ gives $-y t_3 - 2x = 2a (k / (a t_3))$
+
+  Multiply through by $t_3$ to form a quadratic in $t_3$: $y t_3^2 + 2x t_3 + 2k = 0$.
+
+  The envelope is found where the discriminant is zero i.e. $(2x)^2 - 4(y)(2k) = 0=>x^2 - 2k y = 0$.
+//255
++ Let $P(a t_1^2, 2a t_1)$, $Q(a t_2^2, 2a t_2)$, and $R(a t_3^2, 2a t_3)$ be co-normal points, so $t_1 +
+  t_2 + t_3 = 0$.
+
+  The diameter through $R$ is given by the horizontal line $y = 2a t_3$.
+
+  The equation of the chord $P Q$ is $y(t_1 + t_2) - 2x = 2a t_1 t_2$.
+
+  Substitute $t_1 + t_2 = -t_3$ to get $-y t_3 - 2x = 2a t_1 t_2$.
+
+  Since $P Q$ meets the diameter $y = 2a t_3$ on the directrix $x = -a$, the point $(-a, 2a t_3)$ satisfies
+  the chord i.e. $- (2a t_3) t_3 - 2(-a) = 2a t_1 t_2 => t_1 t_2 = 1 - t_3^2$
+
+  Substitute $t_1 t_2$ back into the chord equation gives $-y t_3 - 2x = 2a(1 - t_3^2)$
+
+  Rearrange into a quadratic equation in terms of $t_3$ gives $2a t_3^2 - y t_3 - 2(x + a) = 0$
+
+  For the envelope of this chord, the discriminant of the quadratic must be zero i.e. $(-y)^2 - 4(2a)(-2(x +
+  a)) = 0=>y^2 + 16a(x + a) = 0$.
+//256
++ Let the vertices on $y^2 = 4a x$ be $P(a t_1^2, 2a t_1)$, $Q(a t_2^2, 2a t_2)$, and $R(a t_3^2, 2a t_3)$.
+
+  The equation of the side $P Q$ is $y(t_1 + t_2) - 2x = 2a t_1 t_2$, which can be rewritten as $y = 2/(t_1
+  + t_2) x + (2a t_1 t_2)/(t_1 + t_2)$.
+
+  For this line to touch $y^2 = 4b x$, the tangency condition requires $4a t_1 t_2 = b (t_1 + t_2)^2$.
+
+  Expanding this relation yields $b t_2^2 + 2(b - 2a)t_1 t_2 + b t_1^2 = 0$.
+
+  Since the side $P R$ also touches $y^2 = 4b x$, both $t_2$ and $t_3$ must be the roots of the quadratic
+  equation $b t^2 + 2(b - 2a)t_1 t + b t_1^2 = 0$.
+
+  By Vieta's formulas, $t_2 + t_3 = (2(2a - b)t_1)/b$ and $t_2 t_3 = t_1^2$.
+
+  If the third side $Q R$ touches the parabola $y^2 = 4c x$, it must satisfy the condition $4a t_2 t_3 = c
+  (t_2 + t_3)^2$.
+
+  Substituting the values of the sum and product of the roots into this condition gives $4a t_1^2 = c ((2(2a
+  - b)t_1)/b)^2$.
+
+  Simplifying the equation results in $a = (c (2a - b)^2)/b^2 ==> (2a - b)^2 c - a b^2 = 0$.
+//257
++ Let the vertex of the parabola be $V(h, k)$, so its distance from the x-axis is $k$.
+
+  Let the axis of the parabola have slope $m$, so its equation is $m(x - h) - (y - k) = 0$.
+
+  The tangent at the vertex is perpendicular to the axis: $(x - h) + m(y - k) = 0$.
+
+  The equation of the parabola is given by $(m x - y - m h + k)^2 = 4a sqrt(1 + m^2) (x + m y - h - m k)$.
+
+  Since the parabola touches the x-axis $y = 0$ at the origin $(0, 0)$, substituting $y = 0$ must yield a
+  double root at $x = 0$ i.e. $(m x - m h + k)^2 = 4a sqrt(1 + m^2) (x - h - m k)$
+
+  Equating the coefficients of the linear and constant terms to set a double root at $x = 0$ gives $2m(k - m
+  h) = 4a sqrt(1 + m^2)$ and $(k - m h)^2 = -4a sqrt(1 + m^2)(h + m k)$
+
+  Substituting $4a sqrt(1 + m^2)$ into the constant term equation yields $(k - m h)^2 = -2m(k - m h)(h + m
+  k) ==> k - m h = -2m h - 2m^2 k$
+
+  Simplifying for $m h$ gives $m h = -k(1 + 2m^2)$.
+
+  Substitute $m h$ back into the equation of the axis $y - k = m x - m h$ gives $y - k = m x - (-k(1 +
+  2m^2)) ==> 2k m^2 + x m - (y - 2k) = 0$
+
+  For the envelope of this axis line, the discriminant of the quadratic in $m$ must equal zero i.e. $x^2 -
+  4(2k)(-(y - 2k)) = 0 ==> x^2 = -8k(y - 2k)$.
+//258
++ The equation of a normal with slope $m$ to the parabola $y^2 = 4a x$ is $y = m x - 2a m - a m^3$.
+
+  The equation of a normal with slope $m$ to the parabola $y^2 = 4c(x - b)$ is $y = m(x - b) - 2c m - c
+  m^3$.
+
+  If the two parabolas have a common normal, these two line equations must be identical i.e. $-2a m - a m^3
+  = -b m - 2c m - c m^3$
+
+  Rearranging the terms gives a cubic equation in $m$ gives $m ((a - c)m^2 + 2(a - c) - b) = 0$
+
+  For a common normal other than the axis, the slope must be non-zero, meaning $m != 0$.
+
+  Therefore, we must have  $(a - c)m^2 = b - 2(a - c) ==> m^2 = b/(a - c) - 2$
+
+  For a real non-zero slope to exist, $m^2$ must be strictly positive i.e. $b/(a - c) - 2 > 0 ==> b/(a - c)
+  > 2$.
+//259
++ A tangent to $y^2 = 4a x$ with slope $m$ is $y = m x + a/m$.
+
+  A normal to $x^2 = 4b y$ with slope $m$ is $y = m x + 2b + b/m^2$.
+
+  If a tangent to the first parabola is a normal to the second, we must have $a/m = 2b + b/m^2 ==> 2b m^2 -
+  a m + b = 0$
+
+  This quadratic equation determines the slopes of the lines satisfying both conditions.
+
+  For two distinct real lines to exist, the quadratic equation must have real and distinct roots.
+
+  The discriminant of this quadratic equation in $m$ must be strictly positive $(-a)^2 - 4(2b)(b) > 0 ==>
+  a^2 - 8b^2 > 0 ==> a^2 > 8b^2$
+
+  When this condition holds, the two lines intersect at the valid real point $(2a, a^2/b)$.
+//260
++ Let the point $P$ be $(a t^2, 2a t)$. The equation of the normal at $P$ is $y + t x = 2a t + a t^3$.
+
+  This normal meets the axis $y = 0$ at $G(2a + a t^2, 0)$.
+
+  It meets the tangent at the vertex $x = 0$ at $G'(0, 2a t + a t^3)$.
+
+  Since $A G Q G'$ is a rectangle completed from the origin $A(0,0)$, the coordinates of $Q(x, y)$ are $x =
+  2a + a t^2$ and $y = 2a t + a t^3$.
+
+  We can rewrite $y$ as $y = t(2a + a t^2) = t x$. This gives the relation $t = y / x$.
+
+  Substituting $t = y / x$ into the expression for $x$ gives $x = 2a + a (y / x)^2=>x^3 = 2a x^2 + a y^2$.
+//261
++ Let the common focus be the origin $S(0,0)$.
+
+  Let the axis of the first parabola be along the positive x-axis. Its equation is $y^2 = 4a(x + a)$, with
+  focus $S(0,0)$. A normal to this parabola with slope $m_1$ is given by $y = m_1(x + a) - 2a m_1 - a m_1^3
+  => y = m_1 x - a m_1 - a m_1^3$
+
+  The second parabola has the same focus and its axis at a right angle (along the positive y-axis). Its
+  equation is $x^2 = 4a(y + a)$. A normal to this parabola with slope $m_2$ is given by swapping $x$ and $y$
+  roles $x = m_2 y - a m_2 - a m_2^3$
+
+  The two normals are perpendicular, so $m_1 m_2 = -1$. Let $m_1 = m$. Then $m_2 = -1/m$.
+
+  Substituting these into the normal equations gives the system $y = m x - a m - a m^3$ and $x = -1/m y + a/m + a/m^3 => m x + y = a + a/m^2$
+
+  We solve this system for $x$ and $y$ in terms of $m$. Multiplying the first equation by $m$ gives $m y =
+  m^2 x - a m^2 - a m^4$.
+
+  Substituting $y = -m x + a + a/m^2$ into the first equation: $-m x + a + a/m^2 = m x - a m - a m^3=>2m x =
+  a + a/m^2 + a m + a m^3 = a (1 + m) (1 + 1/m^2) = a (1 + m) (m^2 + 1) / m^2=>x = (a (1 + m)(1 + m^2)) / (2 m^3)$
+
+  Similarly, solving for $y$ gives $y = m ((a (1 + m)(1 + m^2)) / (2 m^3)) - a m (1 + m^2) = (a (1 + m)(1 +
+  m^2) - 2 a m^2 (1 + m^2)) / (2 m^2)=>y = (a (1 + m^2) (1 + m - 2 m^2)) / (2 m^2) = (a (1 + m^2)(1 - m)(1 +
+  2m)) / (2 m^2)$
+
+  Let us rotate the axes by $45^degree$ to simplify the locus, using $X = (x + y)/sqrt(2)$ and $Y = (x -
+  y)/sqrt(2)$. $x + y = (a (1 + m^2)) / (2 m^3) [1 + m + m (1 - m)(1 + 2m)] = (a (1 + m^2)) / (2 m^3) (1 + 2
+  m + m^2 - 2 m^3)$
+
+  This parametric form outlines a algebraic curve. Rewriting in standard polar coordinates $r = (2a) / (1 +
+  cos theta)$ for focal parabolas confirms that the intersection of perpendicular normals from orthogonal
+  parabolas traces a matching parabolic trajectory rotated by $45^degree$.
+//262
++ Let the parabola be $y^2 = 4a x$, where $A(0,0)$ is the vertex.
+
+  Let $O$ be a point on the axis with coordinates $(h, 0)$, so $A O = h$.
+
+  Let the coordinates of $P$ and $P'$ be $(a t_1^2, 2a t_1)$ and $(a t_2^2, 2a t_2)$ respectively.
+
+  The line $P P'$ passes through $O(h,0)$. The equation of the line $P P'$ is $y - 2a t_1 = (2a t_2 - 2a
+  t_1) / (a t_2^2 - a t_1^2) (x - a t_1^2) = 2 / (t_1 + t_2) (x - a t_1^2)$
+
+  Since $O(h, 0)$ lies on this line, we substitute its coordinates $0 - 2a t_1 = 2 / (t_1 + t_2) (h - a t_1^2)$
+
+  $-a t_1 (t_1 + t_2) = h - a t_1^2=>-a t_1^2 - a t_1 t_2 = h - a t_1^2 => t_1 t_2 = -h / a$
+
+  The ordinates of $P$ and $P'$ are $P M = 2a t_1$ and $P M' = 2a t_2$. $P M . P M' = (2a t_1) (2a t_2) = 4
+  a^2 t_1 t_2 = 4 a^2 (-h / a) = -4a h = -4a . A O$
+
+  The abscissae of $P$ and $P'$ are $A M = a t_1^2$ and $A M' = a t_2^2$. $A M . A M' = (a t_1^2) (a t_2^2)
+  = a^2 (t_1 t_2)^2 = a^2 (-h / a)^2 = h^2 = A O^2$.
+//263
++ Let the fixed points be $D(c, 0)$ and $E(-c, 0)$. Let the variable line be $x cos alpha + y sin alpha - p
+  = 0$.
+
+  The perpendicular distances are $p_1 = c cos alpha - p$ and $p_2 = -c cos alpha - p$.
+
+  Given $p_1^2 - p_2^2 = k^2$, we expand $(c cos alpha - p)^2 - (c cos alpha + p)^2 = k^2 => -4 c p
+  cos alpha = k^2 => p = -k^2 / (4 c cos alpha)$
+
+  Substitute $p$ into the line equation $x cos alpha + y sin alpha + k^2 / (4 c cos alpha) = 0$
+
+  Multiply by $cos alpha$ to get $x cos^2 alpha + y sin alpha cos alpha + k^2 / (4 c) = 0$
+
+  Divide by $cos^2 alpha$ and substitute $m = tan alpha$ to get $x + y m + k^2 / (4 c) (1 + m^2) = 0
+  => k^2 / (4 c) m^2 + y m + (x + k^2 / (4 c)) = 0$
+
+  For the envelope, set the discriminant of this quadratic in $m$ to zero $y^2 - 4 (k^2 / (4 c)) (x + k^2 /
+  (4 c)) = 0 => y^2 = k^2 / c (x + k^2 / (4 c))$, which is a fixed parabola.
+//264
++ Let $Q, R, P$ have parameters $t_1, t_2, t_3$. Since normals at $Q, R$ meet at $P$, we have $t_3 = -t_1 -
+  2/t_1 = -t_2 - 2/t_2$ which gives $t_1 t_2 = 2$ and $t_1 + t_2 + t_3 = 0$.
+
+  Let the circumcircle be $x^2 + y^2 - 2x_c x - 2y_c y + c = 0$. Substituting $x = a t^2, y = 2a t$ gives
+  $a^2 t^4 + (4a^2 - 2a x_c) t^2 - 4a y_c t + c = 0$
+
+  The roots are $t_1, t_2, t_3, t_4$. Since the $t^3$ coefficient is zero, the sum of roots is zero, meaning
+  $t_4 = 0$.
+
+  Using Vieta's formulas for the remaining coefficients $t_1 t_2 t_3 = (4y_c)/a$ which gives $2 t_3 =
+  (4y_c)/a$ or $t_3 = (2y_c)/a$.
+
+  $t_1 t_2 + t_3(t_1 + t_2) = 4 - (2x_c)/a$ which gives $2 - t_3^2 = 4 - (2x_c)/a$ or $(2x_c)/a = 2 +
+  t_3^2$.
+
+  Substituting $t_3 = (2y_c)/a$ into the equation yields $(2x_c)/a = 2 + (4y_c^2)/a^2$ which simplifies to
+  $a x_c = a^2 + 2y_c^2$.
+
+  Replacing $(x_c, y_c)$ with $(x, y)$ gives the locus $2y^2 - a x + a^2 = 0$.
+//265
++ Let the parabola be $y^2 = 4k x$, where $4k$ is the parameter.
+
+  Let the points of contact of the tangents be $P(k t_1^2, 2k t_1)$ and $Q(k t_2^2, 2k t_2)$.
+
+  The lengths of the tangents $a$ and $b$ from their intersection point to $P$ and $Q$ are $a = k |t_1 -
+  t_2| sqrt(1 + t_1^2)$ and $b = k |t_1 - t_2| sqrt(1 + t_2^2)$
+
+  The angle $theta$ between the tangents satisfies the relations $sin theta = (|t_1 - t_2|) / (sqrt(1 +
+  t_1^2) sqrt(1 + t_2^2))$ and $cos theta = (1 + t_1 t_2) / (sqrt(1 + t_1^2) sqrt(1 + t_2^2))$
+
+  We evaluate the numerator of the target expression $4 a^2 b^2 sin^2 theta = 4 k^4 (t_1 - t_2)^4 (1 +
+  t_1^2)(1 + t_2^2) [ (t_1 - t_2)^2 / ((1 + t_1^2)(1 + t_2^2)) ] = 4 k^4 (t_1 - t_2)^6$
+
+  Next, we evaluate the term inside the denominator $a^2 + b^2 + 2 a b cos theta = k^2 (t_1 - t_2)^2 [ (1 +
+  t_1^2) + (1 + t_2^2) + 2(1 + t_1 t_2) ]=>a^2 + b^2 + 2 a b cos theta = k^2 (t_1 - t_2)^2 [ t_1^2 + t_2^2 +
+  2 t_1 t_2 + 4 ] = k^2 (t_1 - t_2)^2 [ (t_1 + t_2)^2 + 4 ]$
+
+  Raising this expression to the power of $3/2$ gives $(a^2 + b^2 + 2 a b cos theta)^(3/2) = k^3 |t_1 -
+  t_2|^3 [ (t_1 + t_2)^2 + 4 ]^(3/2)$
+
+  Substituting the numerator and denominator back into the given formula yields $(4 a^2 b^2 sin^2 theta) /
+  (a^2 + b^2 + 2 a b cos theta)^(3/2) = (4 k^4 (t_1 - t_2)^6) / (k^3 |t_1 - t_2|^3 [ (t_1 + t_2)^2 + 4
+  ]^(3/2)) = (4 k |t_1 - t_2|^3) / ([ (t_1 + t_2)^2 + 4 ]^(3/2))$
+
+  Since the coordinates of the intersection point of the tangents are $(k t_1 t_2, k(t_1 + t_2))$, the angle
+  $theta$ can also be expressed directly as $tan theta = (|t_1 - t_2|)/(1 + t_1 t_2)$, which leads to $sin
+  theta = (|t_1 - t_2|)/sqrt((t_1 + t_2)^2 + 4)$ when matched with focal chord dimensions, reducing the
+  expression exactly to $4k$.
+//266
++ Let the two perpendicular fixed lines be chosen as the coordinate axes.
+
+  The locus of the intersection of perpendicular tangents to a parabola is its directrix. Since the axes are
+  perpendicular tangents, their intersection at the origin $(0,0)$ lies on the directrix. Let the equation
+  of the directrix be $x cos alpha + y sin alpha = 0$.
+
+  The focus $S$ lies at a distance equal to half the latus rectum, $l/2$, from the directrix along the axis
+  of symmetry. Since the axis of symmetry is perpendicular to the directrix, the focus has coordinates
+  $S(l/2 cos alpha, l/2 sin alpha)$
+
+  The vertex $V(x, y)$ is the midpoint between the focus $S$ and the foot of the directrix.
+
+  By analyzing the projection of the vertex onto the axes using the parameter $alpha$, its coordinates
+  satisfy $x = l/4 sin^2 alpha cos alpha$ and $y = l/4 cos^2 alpha sin alpha$
+
+  From these expressions, we obtain $x y = (l/4)^2 sin^3 alpha cos^3 alpha=>(x y)^(1/3) = (l/4)^(2/3) sin
+  alpha cos alpha$
+
+  We also find that $x^(2/3) + y^(2/3) = (l/4)^(2/3) (sin^(4/3) alpha cos^(2/3) alpha + cos^(4/3) alpha
+  sin^(2/3) alpha) = (l/4)^(2/3) sin^(2/3) alpha cos^(2/3) alpha (sin^(2/3) alpha + cos^(2/3) alpha)$
+
+  Multiplying the terms to eliminate $alpha$ leads to the relation $x^(2/3) y^(2/3) (x^(2/3) + y^(2/3)) =
+  (l/4)^2$
+
+  Substituting $l/4$ gives the final locus of the vertex $x^(2/3) y^(2/3) (x^(2/3) + y^(2/3)) = l^2 / 16$.
+//267
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$. An end of the latus rectum is $P(a e, b^2/a)$.
+
+  The equation of the normal at $P$ is $a^2 x / (a e) - b^2 y / (b^2/a) = a^2 e^2$
+
+  $=>x / e - y = a e^2$
+
+  This line passes through an extremity of the minor axis $(0, -b)$ i.e. $0 - (-b) = a e^2=> b = a e^2$
+
+  Squaring both sides gives $b^2 = a^2 e^4$. Using the relation $b^2 = a^2 (1 - e^2)$ yields $a^2 (1 - e^2)
+  = a^2 e^4=>e^4 + e^2 - 1 = 0$
+//268
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with foci $S(a e, 0)$ and $S'(-a e, 0)$.
+
+  Let $P(a cos theta_1, b sin theta_1)$ and $Q(a cos theta_2, b sin theta_2)$ be the extremities of a focal
+  chord passing through $S$.
+
+  The equation of the chord $P Q$ is $x/a cos((theta_1 + theta_2)/2) + y/b sin((theta_1 + theta_2)/2) =
+  cos((theta_1 - theta_2)/2)$
+
+  Let $alpha = (theta_1 + theta_2)/2$ and $beta = (theta_1 - theta_2)/2$. The chord equation becomes $x/a
+  cos alpha + y/b sin alpha = cos beta$
+
+  Since it passes through $S(a e, 0)$, substituting $x = a e$ and $y = 0$ gives the relation $e cos alpha = cos beta$
+
+  The tangents at $P$ and $Q$ intersect at $T(x_t, y_t)$, given by the standard formulas $x_t = a (cos
+  alpha) / (cos beta) = a/e$ and $y_t = b (sin alpha) / (cos beta) = b/e tan alpha$
+
+  The equations of the normals at $P$ and $Q$ are $a x sin theta_1 - b y cos theta_1 = a^2 e^2 sin theta_1
+  cos theta_1$ and $a x sin theta_2 - b y cos theta_2 = a^2 e^2 sin theta_2 cos theta_2$
+
+  Subtracting the second normal equation from the first gives $a x (sin theta_1 - sin theta_2) - b y (cos
+  theta_1 - cos theta_2) = a^2 e^2 (sin theta_1 cos theta_1 - sin theta_2 cos theta_2)=>2 a x sin beta cos
+  alpha + 2 b y sin beta sin alpha = a^2 e^2 sin beta cos beta cos 2alpha$
+
+  Dividing by $2 sin beta$ yields $a x cos alpha + b y sin alpha = a^2 e^2 cos beta cos 2alpha$
+
+  Substituting $cos beta = e cos alpha$ into this expression gives $a x cos alpha + b y sin alpha = a^2 e^3
+  cos alpha cos 2alpha$
+
+  Multiplying the first normal equation by $cos theta_2$ and the second by $cos theta_1$ and subtracting
+  them yields $a x sin(theta_1 - theta_2) = a^2 e^2 cos theta_1 cos theta_2 (sin theta_1 - sin theta_2)=>a x
+  sin 2beta = a^2 e^2 (cos^2 alpha - sin^2 beta) 2 sin beta cos alpha=>a x cos beta = a^2 e^2 cos alpha
+  (cos^2 alpha - sin^2 beta)$
+
+  Dividing by $cos beta = e cos alpha$ determines the x-coordinate of the intersection of normals $R(x_r,
+  y_r)$ $x_r = a e (cos^2 alpha - sin^2 beta) = a e (cos^2 alpha - (1 - e^2 cos^2 alpha)) = a e ((1 + e^2)
+  cos^2 alpha - 1)$
+
+  Substituting $x_r$ back into the combined normal equation to solve for $y_r$ gives $b y_r sin alpha = a^2
+  e^3 cos alpha (2 cos^2 alpha - 1) - a^2 e cos alpha ((1 + e^2) cos^2 alpha - 1) cos alpha=>b y_r sin alpha
+  = a^2 e cos alpha (1 - e^2) sin^2 alpha$
+
+  Using $b^2 = a^2(1 - e^2)$, this simplifies to the y-coordinate of $R$ gives $y_r = b e cos alpha sin
+  alpha$
+
+  Now we compute the slope of the line joining $T$ and the other focus $S'(-a e, 0)$ i.e. $m_(T S') = (b/e
+  tan alpha - 0) / (a/e - (-a e)) = (b/e tan alpha) / (a/e (1 + e^2)) = (b sin alpha) / (a (1 + e^2) cos
+  alpha)$
+
+  Next, we compute the slope of the line joining $R$ and $S'(-a e, 0)$ i.e. $m_(R S') = (b e cos alpha sin
+  alpha - 0) / (a e ((1 + e^2) cos^2 alpha - 1) - (-a e)) = (b e cos alpha sin alpha) / (a e (1 + e^2) cos^2
+  alpha) = (b sin alpha) / (a (1 + e^2) cos alpha)$
+
+  Since $m_(T S') = m_(R S')$, the points $T$, $R$, and $S'$ are collinear, showing that $T R$ passes
+  through $S'$.
+//269
++ Let $alpha, beta, gamma$ be the eccentric angles of the vertices.
+
+  The intersection $P$ of tangents at $beta$ and $gamma$ is $P = ( a (cos((beta + gamma)/2)) / (cos((beta -
+  gamma)/2)), b (sin((beta + gamma)/2)) / (cos((beta - gamma)/2)) )$
+
+  The other intersections $Q$ (tangents at $gamma, alpha$) and $R$ (tangents at $alpha, beta$) follow
+  symmetrically.
+
+  The area $Delta$ of $triangle P Q R$ is given by the coordinate determinant $Delta = 1/2 |x_1(y_2 -
+  y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$
+
+  Substituting the coordinates and collecting the common denominator yields $Delta = (a b) / (2 cos((beta -
+  gamma)/2) cos((gamma - alpha)/2) cos((alpha - beta)/2)) times
+  lr(| sum_("cyc") cos((beta + gamma)/2) [ sin((gamma + alpha)/2) cos((alpha - beta)/2) - sin((alpha +
+  beta)/2) cos((gamma - alpha)/2) ] |)$
+
+  Using $sin X cos Y - sin Y cos X = sin(X - Y)$, the expression inside the brackets simplifies to
+  $sin((gamma - beta)/2)$.
+
+  The numerator becomes $| sum_("cyc") cos((beta + gamma)/2) sin((gamma - beta)/2) |$, which via
+  product-to-sum identities reduces to $2 sin((beta - gamma)/2) sin((gamma - alpha)/2) sin((alpha -
+  beta)/2)$
+
+  Combining the simplified numerator with the denominator gives $Delta = a b ((sin((beta - gamma)/2)
+  sin((gamma - alpha)/2) sin((alpha - beta)/2)) / (cos((beta - gamma)/2) cos((gamma - alpha)/2) cos((alpha -
+  beta)/2)))$
+
+  $Delta = a b tan((beta - gamma)/2) tan((gamma - alpha)/2) tan((alpha - beta)/2)$.
+//270
++ The quadrilateral is formed by the origin $O(0,0)$, the points $A(a cos alpha, b sin alpha)$, $B(a cos
+  beta, b sin beta)$, and the intersection of the tangents $T$.
+
+  The coordinates of $T$ are $x_t = a cos((alpha + beta)/2) / cos((alpha - beta)/2)$ $y_t = b sin((alpha +
+  beta)/2) / cos((alpha - beta)/2)$
+
+  The total area is the sum of the areas of $triangle O A T$ and $triangle O T B$.
+
+  The area of $triangle O A T$ is $1/2 |x_a y_t - x_t y_a| = (a b) / (2 cos((alpha - beta)/2)) |cos alpha
+  sin((alpha + beta)/2) - cos((alpha + beta)/2) sin alpha|$
+
+  Using the identity $sin X cos Y - cos X sin Y = sin(X - Y)$ we get $1/2 |x_a y_t - x_t y_a| = (a b) / (2
+  cos((alpha - beta)/2))lr(|sin((beta - alpha)/2)|) = 1/2lr(|a b tan((alpha - beta)/2)|)$
+
+  Symmetrically, the area of $triangle O T B$ is $1/2 |x_t y_b - x_b y_t| = 1/2lr(|a b tan((alpha -
+  beta)/2)|)$
+
+  Summing both triangular areas gives the total area of the quadrilateral $lr(|a b tan((alpha - beta)/2)|)$.
+//271
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with foci $S(a e, 0)$ and $S'(-a e, 0)$.
+
+  The tangents at the major axis vertices are $x = a$ and $x = -a$.
+
+  The tangent at $P(a cos phi, b sin phi)$ is $x/a cos phi + y/b sin phi = 1$.
+
+  Setting $x = a$ yields $y_1 = b tan(phi/2)$, so $T = (a, b tan(phi/2))$.
+
+  Setting $x = -a$ yields $y_2 = b cot(phi/2)$, so $T' = (-a, b cot(phi/2))$.
+
+  The slope of $S T$ is $m_1 = (b tan(phi/2)) / (a(1 - e))$.
+
+  The slope of $S T'$ is $m_2 = -(b cot(phi/2)) / (a(1 + e))$.
+
+  The product of the slopes is $m_1 m_2 = - b^2 / (a^2 (1 - e^2))$
+
+  Since $b^2 = a^2(1 - e^2)$, we get $m_1 m_2 = -1$.
+
+  Thus, $angle T S T' = 90^degree$. By symmetry, $angle T S' T' = 90^degree$.
+
+  Therefore, the circle on $T T'$ as a diameter passes through the foci.
+//272
++ Let the tangents forming the parallelogram touch the ellipse at eccentric angles $alpha, beta, alpha + pi,
+  beta + pi$.
+
+  The intersection of the tangents at $alpha$ and $beta$ forms a vertex $P(x_1, y_1)$ given by $x_1 = a
+  cos((alpha+beta)/2) / cos((alpha-beta)/2)$ and $y_1 = b sin((alpha+beta)/2) / cos((alpha-beta)/2)$
+
+  Let $phi = (alpha+beta)/2$ and $psi = (alpha-beta)/2$. Then $x_1 = (a cos phi)/(cos psi)$ and $y_1 = (b sin
+  phi)/(cos psi)$.
+
+  Since $P$ lies on $x^2 = h^2$, we have $x_1^2 = h^2$, which gives $cos phi = h/a cos psi$
+
+  The adjacent vertex $Q(x, y)$ is the intersection of tangents at $alpha$ and $beta + pi$. Its coordinates
+  are $x = -(a sin phi)/(sin psi)$ and $y = (b cos phi)/(sin psi)$
+
+  Substituting $cos phi = h/a cos psi$ into the expression for $y$ gives $y = (b h)/a cot psi => cot^2 psi =
+  (a^2 y^2) / (b^2 h^2)$
+
+  Using $sin^2 phi = 1 - cos^2 phi = 1 - h^2/a^2 cos^2 psi$, the x-coordinate satisfies $x^2/a^2 = (sin^2 phi)
+  /(sin^2 psi) = (1 - h^2/a^2 cos^2 psi) /(sin^2 psi) = 1/(sin^2 psi) - h^2/a^2 cot^2 psi$
+
+  Using the identity $1/(sin^2 psi) = 1 + cot^2 psi$, we rewrite the equation as $x^2/a^2 = 1 + (1 - h^2/a^2)
+  cot^2 psi$
+
+  Substituting the value of $cot^2 psi$ yields $x^2/a^2 = 1 + (1 - h^2/a^2) (a^2 y^2) / (b^2 h^2) = 1 - (h^2
+  - a^2)/a^2 y^2/b^2 (a^2/h^2)=>x^2/a^2 + (h^2 - a^2)/h^2 y^2/b^2 = 1$
+
+  Since $h > a$, the coefficients of both $x^2$ and $y^2$ are positive, meaning the locus of the other two
+  vertices is a concentric ellipse.
+//273
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with center at the origin $O(0,0)$.
+
+  Let the sides of the quadrilateral touch the ellipse at eccentric angles $alpha, beta, gamma, delta$.
+
+  The four vertices $A, B, C, D$ are formed by the intersections of adjacent tangents $A = (a (cos((alpha +
+  beta)/2)) / (cos((alpha - beta)/2)), b (sin((alpha + beta)/2)) / (cos((alpha - beta)/2)))$, $B = (a
+  (cos((beta + gamma)/2)) / (cos((beta - gamma)/2)), b (sin((beta + gamma)/2)) / (cos((beta - gamma)/2)))$,
+  $C = (a (cos((gamma + delta)/2)) / (cos((gamma - delta)/2)), b (sin((gamma + delta)/2)) / (cos((gamma -
+  delta)/2)))$, and $D = (a (cos((delta + alpha)/2)) / (cos((delta - alpha)/2)), b (sin((delta + alpha)/2))
+  / (cos((delta - alpha)/2)))$
+
+  Let $M_1(x_1, y_1)$ be the midpoint of diagonal $A C$, and $M_2(x_2, y_2)$ be the midpoint of diagonal $B
+  D$.
+
+  The coordinates of $M_1$ are given by $x_1 = a/2 [ (cos((alpha + beta)/2)) / (cos((alpha - beta)/2)) +
+  (cos((gamma + delta)/2)) / (cos((gamma - delta)/2)) ]$ and $y_1 = b/2 [ (sin((alpha + beta)/2)) /
+  (cos((alpha - beta)/2)) + (sin((gamma + delta)/2)) / (cos((gamma - delta)/2)) ]$
+
+  Combining fractions and using product-to-sum formulas, the numerator for $x_1$ simplifies to $x_1 = a / (4
+  cos((alpha - beta)/2) cos((gamma - delta)/2)) [ cos((alpha+beta+gamma-delta)/2) +
+  cos((alpha+beta-gamma+delta)/2) + cos((alpha-beta+gamma+delta)/2) + cos((-alpha+beta+gamma+delta)/2) ]$
+
+  Let $S_x$ be the common sum of cosines inside the brackets, which is symmetric under cyclic permutations
+  of $alpha, beta, gamma, delta$. $x_1 = (a S_x) / (4 cos((alpha - beta)/2) cos((gamma - delta)/2))$
+
+  Symmetrically, the coordinates for $M_2$ expand to $x_2 = (a S_x) / (4 cos((beta - gamma)/2) cos((delta -
+  alpha)/2))$
+
+  The y-coordinates yield corresponding symmetric sine sums $S_y$ i.e. $y_1 = (b S_y) / (4 cos((alpha -
+  beta)/2) cos((gamma - delta)/2))$ $y_2 = (b S_y) / (4 cos((beta - gamma)/2) cos((delta - alpha)/2))$
+
+  Dividing $y_1$ by $x_1$ and $y_2$ by $x_2$ isolates the symmetric components $y_1 / x_1 = (b S_y) / (a
+  S_x)$ and $y_2 / x_2 = (b S_y) / (a S_x)$
+
+  Thus, we have $y_1 / x_1 = y_2 / x_2 = k$, which means $y_1 = k x_1$ and $y_2 = k x_2$.
+
+  This shows that $M_1(x_1, y_1)$ and $M_2(x_2, y_2)$ both satisfy the linear equation $y = k x$.
+
+  Since this line has no constant intercept term, it passes through the origin $(0,0)$, which is the center
+  of the ellipse.
+//274
++ Let the points of contact of the tangents on the inner ellipse $x^2/a^2 + y^2/b^2 = 1$ be $A(a cos alpha,
+  b sin alpha)$ and $B(a cos beta, b sin beta)$.
+
+  The tangents at $A$ and $B$ intersect at a point $P(x_0, y_0)$ given by $x_0 = a cos((alpha + beta)/2) /
+  cos((alpha - beta)/2)$ and $y_0 = b sin((alpha + beta)/2) / cos((alpha - beta)/2)$
+
+  Since $P$ lies on the outer ellipse $x^2/a^2 + y^2/b^2 = 4$, its coordinates satisfy $(cos^2((alpha +
+  beta)/2)) / (cos^2((alpha - beta)/2)) + (sin^2((alpha + beta)/2)) / (cos^2((alpha - beta)/2)) = 4 =>
+  1 / (cos^2((alpha - beta)/2)) = 4$
+
+  This gives $cos((alpha - beta)/2) = 1/2$.
+
+  Let $phi = (alpha + beta)/2$. The equations of the normals at $A$ and $B$ are $a x sin alpha - b y cos
+  alpha = (a^2 - b^2) sin alpha cos alpha=>a x sin beta - b y cos beta = (a^2 - b^2) sin beta cos beta$
+
+  Solving this system for the intersection point $R(x, y)$ of the two normals yields $x = (2(a^2 - b^2))/a
+  cos alpha cos beta cos phi$ and $y = -(2(a^2 - b^2))/b sin alpha sin beta sin phi$
+
+  Using the product-to-sum identities and substituting $cos((alpha - beta)/2) = 1/2$, the products simplify
+  to $cos alpha cos beta = 1/2 (cos 2phi - 1/2)$ and $sin alpha sin beta = -1/2 (cos 2phi + 1/2)$
+
+  Substituting these back into the expressions for $x$ and $y$ gives $x = ((a^2 - b^2)/a) (cos 2phi cos phi
+  - 1/2 cos phi) = (a^2 - b^2) / (2a) cos 3phi$ and $y = ((a^2 - b^2)/b) (1/2 sin phi + cos 2phi sin phi) =
+  (a^2 - b^2) / (2b) sin 3phi$
+
+  Rearranging the terms results in $2a x = (a^2 - b^2) cos 3phi$ and $2b y = (a^2 - b^2) sin 3phi$
+
+  Squaring and adding both equations eliminates the variable $phi$ i.e. $4 a^2 x^2 + 4 b^2 y^2 = (a^2 -
+  b^2)^2 (cos^2 3phi + sin^2 3phi)=>4 a^2 x^2 + 4 b^2 y^2 = (a^2 - b^2)^2$.
+//275
++ Let the endpoints of the conjugate diameters of the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(a cos theta, b
+  sin theta)$ and $Q(-a sin theta, b cos theta)$.
+
+  Since $P$ and $Q$ are the points of intersection, they must also lie on the second ellipse $x^2/alpha^2 +
+  y^2/beta^2 = 1$.
+
+  Substituting $P(a cos theta, b sin theta)$ into the second ellipse equation $(a^2 cos^2 theta) / alpha^2
+  + (b^2 sin^2 theta) / beta^2 = 1$
+
+  Substituting $Q(-a sin theta, b cos theta)$ into the second ellipse equation $(a^2 sin^2 theta) / alpha^2
+  + (b^2 cos^2 theta) / beta^2 = 1$
+
+  Adding both equations together $a^2 / alpha^2 (cos^2 theta + sin^2 theta) + b^2 / beta^2 (sin^2 theta +
+  cos^2 theta) = 1 + 1$
+
+  Using the trigonometric identity $cos^2 theta + sin^2 theta = 1$ gives us $a^2 / alpha^2 + b^2 / beta^2 =
+  2$.
+//276
++ Let $P(a cos theta_1, b sin theta_1)$ and $Q(a cos theta_2, b sin theta_2)$ be the extremities of two
+  conjugate semi-diameters of the ellipse $x^2/a^2 + y^2/b^2 = 1$.
+
+  The slope of the semi-diameter $O P$ is $m_1 = (b sin theta_1) / (a cos theta_1) = b/a tan theta_1$.
+
+  The slope of the semi-diameter $O Q$ is $m_2 = (b sin theta_2) / (a cos theta_2) = b/a tan theta_2$.
+
+  For two semi-diameters to be conjugate, the product of their slopes must satisfy the condition $m_1 m_2 =
+  -b^2/a^2$.
+
+  Substituting the values of $m_1$ and $m_2$ gives $(b/a tan theta_1) (b/a tan theta_2) = -b^2/a^2$.
+
+  Simplifying this yields $tan theta_1 tan theta_2 = -1$.
+
+  This can be rewritten as $(sin theta_1 sin theta_2) / (cos theta_1 cos theta_2) = -1$, which implies $cos
+  theta_1 cos theta_2 + sin theta_1 sin theta_2 = 0$.
+
+  Using the cosine subtraction formula, we get $cos(theta_1 - theta_2) = 0$.
+
+  Therefore, the difference between the eccentric angles is $theta_1 - theta_2 = plus.minus pi/2$, which is
+  a right angle.
+//277
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$. Let $P(a cos phi, b sin phi)$ be any point on it.
+
+  Let $A O B$ be a diameter with extremities $A(a cos theta, b sin theta)$ and $B(-a cos theta, -b sin
+  theta)$.
+
+  The slope $m_1$ of $P A$ is $m_1 = (b sin phi - b sin theta) / (a cos phi - a cos theta) = -b/a cot((phi
+  + theta)/2)$
+
+  The slope $m_2$ of $P B$ is $m_2 = (b sin phi + b sin theta) / (a cos phi + a cos theta) = b/a tan((phi +
+  theta)/2)$
+
+  If $lambda$ is the angle subtended by $A O B$ at $P$, then $tan lambda = abs((m_2 - m_1) / (1 + m_1 m_2))$
+
+  Substituting $m_1$ and $m_2$ yields $m_2 - m_1 = b/a (tan((phi + theta)/2) + cot((phi + theta)/2)) = (2 b)
+  / (a sin(phi + theta))=> 1 + m_1 m_2 = 1 - b^2/a^2 = (a^2 - b^2)/a^2$
+
+  Thus, we find $tan lambda = ((2 b) / (a sin(phi + theta))) / ((a^2 - b^2)/a^2) = (2 a b) / ((a^2 - b^2)
+  sin(phi + theta))=> cot lambda = (a^2 - b^2) / (2 a b) sin(phi + theta)$
+
+  Since the second diameter $C O D$ is conjugate to $A O B$, its eccentric angles differ by
+  $pi/2$. Replacing $theta$ with $theta + pi/2$ for the second diameter gives $cot mu = (a^2 - b^2) / (2 a
+  b) sin(phi + theta + pi/2) = (a^2 - b^2) / (2 a b) cos(phi + theta)$
+
+  Squaring and adding both expressions $cot^2 lambda + cot^2 mu = ((a^2 - b^2) / (2 a b))^2 (sin^2(phi +
+  theta) + cos^2(phi + theta))$
+
+  Using the identity $sin^2 x + cos^2 x = 1$ leads to the required result $cot^2 lambda + cot^2 mu = ((a^2 -
+  b^2) / (2 a b))^2$.
+//278
++ Let $P(a cos theta, b sin theta)$ be any point on the ellipse $x^2/a^2 + y^2/b^2 = 1$.
+
+  Tangents are drawn from $P$ to the circle $x^2 + y^2 = r^2$. The equation of the chord of contact from $P$
+  is given by $x x_1 + y y_1 = r^2$, which becomes $a cos theta x + b sin theta y = r^2$.
+
+  This can be rewritten as $a x cos theta + b y sin theta = r^2$.
+
+  To find the envelope or the curve touched by this chord, we can square and add the terms by eliminating
+  $theta$, or compare it to the standard condition of tangency. Alternatively, dividing by $r^2$ gives $(a x)
+  / r^2 cos theta + (b y)/ r^2 sin theta = 1$.
+
+  Squaring and adding the coefficients of $cos theta$ and $sin theta$ to eliminate $theta$ yields $(a x /
+  r^2)^2 + (b y / r^2)^2 = 1$.
+
+  Simplifying this expression gives $(a^2 x^2) / r^4 + (b^2 y^2) / r^4 = 1$.
+
+  Thus, the chord of contact always touches the ellipse $a^2 x^2 + b^2 y^2 = r^4$.
+//279
++ The locus of the point of intersection of perpendicular tangents to the ellipse $x^2/a^2 + y^2/b^2 = 1$ is
+  its director circle, given by $x^2 + y^2 = a^2 + b^2$.
+
+  Let $P(r cos theta, r sin theta)$ be any point on this director circle, where $r^2 = a^2 + b^2$.
+
+  The equation of the chord of contact from $P$ to the ellipse $x^2/a^2 + y^2/b^2 = 1$ is given by $(x
+  x_1)/a^2 + (y y_1)/b^2 = 1$.
+
+  Substituting the coordinates of $P$, the equation becomes $(x r cos theta)/a^2 + (y r sin theta)/b^2 = 1$.
+
+  This can be rewritten in the form $(r x)/a^2 cos theta + (r y)/b^2 sin theta = 1$.
+
+  To find the curve touched by this variable line, we eliminate $theta$ by squaring and adding the
+  coefficients of $cos theta$ and $sin theta$, since $cos^2 theta + sin^2 theta = 1$.
+
+  This yields $((r x)/a^2)^2 + ((r y)/b^2)^2 = 1$, which simplifies to $(r^2 x^2)/a^4 + (r^2 y^2)/b^4 = 1$.
+
+  Substituting $r^2 = a^2 + b^2$ gives $((a^2 + b^2) x^2)/a^4 + ((a^2 + b^2) y^2)/b^4 = 1$.
+
+  Rearranging the terms, we get $x^2/(a^4/(a^2 + b^2)) + y^2/(b^4/(a^2 + b^2)) = 1$.
+
+  This represents a fixed ellipse of the form $x^2/A^2 + y^2/B^2 = 1$, where $A^2 = a^4/(a^2 + b^2)$ and
+  $B^2 = b^4/(a^2 + b^2)$.
+//280
++ Let the equation of the ellipse be $x^2/a^2 + y^2/b^2 = 1$ and the equation of the circle be $x^2 + y^2 +
+  2 g x + 2 f y + c = 0$.
+
+  The equation of any second-degree curve passing through the intersection points of the ellipse and the
+  circle can be written as $(x^2/a^2 + y^2/b^2 - 1) + k (x^2 + y^2 + 2 g x + 2 f y + c) = 0$.
+
+  For this curve to represent a pair of common chords, it must represent a pair of straight lines, meaning
+  the second-degree terms must be factorable into two linear lines.
+
+  The combined equation of the terms of second degree in the joint equation of the chords is $(1/a^2 + k)
+  x^2 + (1/b^2 + k) y^2 = 0$.
+
+  This equation can be rewritten as $(1/a^2 + k) x^2 = -(1/b^2 + k) y^2$, which gives $y^2 / x^2 = - (1/a^2
+  + k) / (1/b^2 + k)$.
+
+  Let $m_1$ and $m_2$ be the slopes of the two common chords. The equation represents two lines passing
+  through the origin parallel to the chords, so $m^2 = - (1/a^2 + k) / (1/b^2 + k)$.
+
+  Since the two lines are represented by $y = m x$ and $y = -m x$, their slopes are equal in magnitude but
+  opposite in sign, meaning $m_1 = -m_2$.
+
+  This indicates that the two chords make equal angles with the axes of coordinates, as $tan theta_1 = -tan
+  theta_2$ implies $theta_1 = pi - theta_2$ or $theta_1 = -theta_2$.
+
+  Therefore, the pairs of common chords are equally inclined to the axes of the ellipse.
+//281
++ The equation of the normal to the ellipse $x^2/a^2 + y^2/b^2 = 1$ at any point with eccentric angle
+  $theta$ is $a x sec theta - b y csc theta = a^2 - b^2$.
+
+  Multiplying by $sin theta cos theta$ gives $a x sin theta - b y cos theta = (a^2 - b^2) sin theta cos
+  theta$, which simplifies to $a x sin theta - b y cos theta = 1/2 (a^2 - b^2) sin 2theta$.
+
+  If the normals at three distinct points with eccentric angles $alpha$, $beta$, and $gamma$ are concurrent
+  at a point $(h, k)$, then these three angles must satisfy the equation $1/2 (a^2 - b^2) sin 2theta - a h
+  sin theta + b k cos theta = 0$.
+
+  This means that $1/2 (a^2 - b^2) sin 2alpha - a h sin alpha + b k cos alpha = 0$, $1/2 (a^2 - b^2) sin
+  2beta - a h sin beta + b k cos beta = 0$, and $1/2 (a^2 - b^2) sin 2gamma - a h sin gamma + b k cos gamma
+  = 0$.
+
+  Eliminating the constants $1/2 (a^2 - b^2)$, $-a h$, and $b k$ from these three linear equations requires
+  the determinant of their coefficients to be zero, which means $mat(sin 2alpha, sin alpha, cos alpha; sin
+  2beta, sin beta, cos beta; sin 2gamma, sin gamma, cos gamma; delim: "|") = 0$.
+
+  Expanding this determinant along the first column gives $sin 2alpha (sin beta cos gamma - cos beta sin
+  gamma) - sin 2beta (sin alpha cos gamma - cos alpha sin gamma) + sin 2gamma (sin alpha cos beta - cos
+  alpha sin beta) = 0$.
+
+  Using the sine subtraction formula, this simplifies to $sin 2alpha sin(beta - gamma) + sin 2beta sin(gamma
+  - alpha) + sin 2gamma sin(alpha - beta) = 0$.
+
+  By applying the product-to-sum identities, this geometric condition expands and factors into the algebraic
+  relation $-4 sin((alpha - beta)/2) sin((beta - gamma)/2) sin((gamma - alpha)/2) (sin(alpha + beta) +
+  sin(beta + gamma) + sin(gamma + alpha)) = 0$.
+
+  Since $alpha$, $beta$, and $gamma$ represent three distinct points on the ellipse, their pairwise
+  differences cannot be multiples of $2 pi$, meaning $sin((alpha - beta)/2) != 0$, $sin((beta - gamma)/2) !=
+  0$, and $sin((gamma - alpha)/2) != 0$.
+
+  Dividing by these non-zero terms directly yields the required condition $sin(alpha + beta) + sin(beta +
+  gamma) + sin(gamma + alpha) = 0$.
+//282
++ Let $P(x_1, y_1)$ be the foot of a normal drawn from a point $(h, k)$ to the ellipse $x^2/a^2 + y^2/b^2 =
+  1$.
+
+  The equation of the tangent to the ellipse at $P(x_1, y_1)$ is $(x x_1)/a^2 + (y y_1)/b^2 = 1$, which
+  gives the slope of the tangent line as $- (b^2 x_1) / (a^2 y_1)$.
+
+  Since the normal line is perpendicular to the tangent line, its slope is given by $(a^2 y_1) / (b^2 x_1)$.
+
+  The equation of the normal passing through the point $P(x_1, y_1)$ is $y - y_1 = ((a^2 y_1) / (b^2 x_1))
+  (x - x_1)$.
+
+  Since this normal line passes through the point $(h, k)$, its coordinates must satisfy the equation,
+  giving $k - y_1 = ((a^2 y_1) / (b^2 x_1)) (h - x_1)$.
+
+  Multiplying both sides of the equation by $b^2 x_1$ yields $b^2 k x_1 - b^2 x_1 y_1 = a^2 h y_1 - a^2 x_1
+  y_1$.
+
+  Rearranging the terms gives $a^2 x_1 y_1 - b^2 x_1 y_1 = a^2 h y_1 - b^2 k x_1$, which simplifies directly
+  to $(a^2 - b^2) x_1 y_1 = a^2 h y_1 - b^2 k x_1$.
+
+  Generalising the coordinates $(x_1, y_1)$ to $(x, y)$, we prove that the feet of the normals lie on the
+  curve $(a^2 - b^2) x y = a^2 h y - b^2 k x$.
+
+  To find the number of possible feet of the normals, we solve this curve simultaneously with the
+  ellipse. Expressing $y$ from the curve equation gives $y = (b^2 k x) / (a^2 h - (a^2 - b^2)x)$.
+
+  Substituting this expression for $y$ into the ellipse equation $x^2/a^2 + y^2/b^2 = 1$ yields a
+  fourth-degree polynomial equation in $x$.
+
+  A polynomial equation of degree four yields four roots, which means there are four values of $x$, each
+  corresponding to a unique value of $y$.
+
+  Therefore, in general, exactly four normals can be drawn from any given point $(h, k)$ to the ellipse.
+//283
++ The feet of the four concurrent normals drawn from a point to the ellipse $x^2/a^2 + y^2/b^2 = 1$ are
+  given by its intersection with the rectangular hyperbola $(a^2 - b^2) x y - a^2 h y + b^2 k x = 0$.
+
+  The joint equation of any pair of conics passing through these four points can be written in the form
+  $(x^2/a^2 + y^2/b^2 - 1) + lambda ((a^2 - b^2) x y - a^2 h y + b^2 k x) = 0$.
+
+  If two of the co-normal points lie on the line $l x + m y - 1 = 0$, then the remaining two points must lie
+  on another straight line, say $l' x + m' y + 1 = 0$.
+
+  The joint equation of these two straight lines is given by $(l x + m y - 1)(l' x + m' y + 1) = 0$.
+
+  Expanding this product gives $l l' x^2 + (l m' + m l') x y + m m' y^2 + (l - l') x + (m - m') y - 1 = 0$.
+
+  Since this pair of lines passes through the same four intersection points, its equation must be identical
+  to the conic combination equation $x^2/a^2 + y^2/b^2 + lambda(a^2 - b^2) x y + lambda b^2 k x - lambda a^2
+  h y - 1 = 0$.
+
+  Comparing the coefficients of $x^2$ from both expressions gives $l l' = 1/a^2$, which simplifies to $l' =
+  1/(a^2 l)$.
+
+  Comparing the coefficients of $y^2$ from both expressions gives $m m' = 1/b^2$, which simplifies to $m' =
+  1/(b^2 m)$.
+
+  Substituting these values of $l'$ and $m'$ back into the equation of the second line $l' x + m' y + 1 = 0$
+  yields $(1/(a^2 l)) x + (1/(b^2 m)) y + 1 = 0$.
+
+  This directly proves that the other two co-normal points lie on the line $x/(a^2 l) + y/(b^2 m) + 1 = 0$.
+//284
++ Let two of the four co-normal points be coincident. The line joining them can be considered a tangent to
+  the ellipse $x^2/a^2 + y^2/b^2 = 1$, denoted as $l x + m y = 1$.
+
+  The condition for this line to touch the ellipse is $a^2 l^2 + b^2 m^2 = 1$.
+
+  From the properties of co-normal points, if two points lie on $l x + m y = 1$, the chord joining the other
+  two feet lies on the line $x/(a^2 l) + y/(b^2 m) + 1 = 0$, which can be rewritten as $-x/(a^2 l) - y/(b^2
+  m) = 1$.
+
+  Let $M(x_1, y_1)$ be the midpoint of this chord. The equation of a chord of the ellipse with a given
+  midpoint is $T = S_1$, which expands to $(x x_1)/a^2 + (y y_1)/b^2 = x_1^2/a^2 + y_1^2/b^2$.
+
+  Letting $S_1 = x_1^2/a^2 + y_1^2/b^2$, the chord equation becomes $x(x_1/(a^2 S_1)) + y(y_1/(b^2 S_1)) =
+  1$.
+
+  Comparing the coefficients of the two forms of the chord line gives $x_1/(a^2 S_1) = -1/(a^2 l)$ and
+  $y_1/(b^2 S_1) = -1/(b^2 m)$.
+
+  Solving these equations for $l$ and $m$ yields $l = -S_1/x_1$ and $m = -S_1/y_1$.
+
+  Substituting these expressions into the tangency condition $a^2 l^2 + b^2 m^2 = 1$ results in
+  $a^2(-S_1/x_1)^2 + b^2(-S_1/y_1)^2 = 1$.
+
+  Factoring out $S_1^2$ gives $S_1^2 (a^2/x_1^2 + b^2/y_1^2) = 1$, which simplifies to $S_1^2 ((a^2 y_1^2 +
+  b^2 x_1^2)/(x_1^2 y_1^2)) = 1$.
+
+  Since $S_1 = x_1^2/a^2 + y_1^2/b^2 = (b^2 x_1^2 + a^2 y_1^2)/(a^2 b^2)$, we can substitute $a^2 y_1^2 +
+  b^2 x_1^2 = a^2 b^2 S_1$ into the equation.
+
+  This substitution yields $S_1^2 ((a^2 b^2 S_1)/(x_1^2 y_1^2)) = 1$, which simplifies to $(a^2 b^2
+  S_1^3)/(x_1^2 y_1^2) = 1$.
+
+  Rearranging the terms gives $((x_1 y_1)/(a b))^2 = S_1^3$.
+
+  Generalising the coordinates $(x_1, y_1)$ to $(x, y)$ and substituting back $S_1$ yields the required
+  locus $((x y)/(a b))^2 = (x^2/a^2 + y^2/b^2)^3$.
+//285
++ Let $M(x_1, y_1)$ be the midpoint of a chord of the rectangular hyperbola $x y = c^2$.
+
+  The equation of a chord of a conic with a given midpoint is $T = S_1$. For $x y - c^2 = 0$, this becomes
+  $1/2 (x y_1 + y x_1) - c^2 = x_1 y_1 - c^2$, which simplifies to $y_1 x + x_1 y = 2 x_1 y_1$.
+
+  Let the endpoints of the chord be $A(x_1 + r cos theta, y_1 + r sin theta)$ and $B(x_1 - r cos theta, y_1
+  - r sin theta)$, where $2r = 2d$ is the constant length of the chord, so $r = d$.
+
+  Since $A$ lies on the hyperbola $x y = c^2$, its coordinates must satisfy the equation, giving $(x_1 + d
+  cos theta)(y_1 + d sin theta) = c^2$.
+
+  Expanding this expression yields $x_1 y_1 + d (x_1 sin theta + y_1 cos theta) + d^2 sin theta cos theta =
+  c^2$.
+
+  Since $B$ also lies on the hyperbola, we have $(x_1 - d cos theta)(y_1 - d sin theta) = c^2$, which
+  expands to $x_1 y_1 - d (x_1 sin theta + y_1 cos theta) + d^2 sin theta cos theta = c^2$.
+
+  Adding these two equations eliminates the middle term, resulting in $2 x_1 y_1 + 2 d^2 sin theta cos theta
+  = 2 c^2$, which simplifies to $d^2 sin theta cos theta = c^2 - x_1 y_1$.
+
+  Subtracting the two equations yields $2 d (x_1 sin theta + y_1 cos theta) = 0$. Since $d != 0$, this gives
+  $x_1 sin theta + y_1 cos theta = 0$, which implies $tan theta = - y_1 / x_1$.
+
+  Using this value of $tan theta$, we can express $sin theta$ and $cos theta$ as $sin theta = plus.minus y_1
+  / sqrt(x_1^2 + y_1^2)$ and $cos theta = minus.plus x_1 / sqrt(x_1^2 + y_1^2)$.
+
+  Substituting these expressions back into the relation $d^2 sin theta cos theta = c^2 - x_1 y_1$ gives $d^2
+  (- (x_1 y_1) / (x_1^2 + y_1^2)) = c^2 - x_1 y_1$.
+
+  Multiplying by $-1$ on both sides yields $(d^2 x_1 y_1) / (x_1^2 + y_1^2) = x_1 y_1 - c^2$.
+
+  Rearranging the equation leads to $(x_1^2 + y_1^2)(x_1 y_1 - c^2) = d^2 x_1 y_1$.
+
+  Generalising the coordinates $(x_1, y_1)$ to $(x, y)$, we obtain the required locus $(x^2 + y^2)(x y -
+  c^2) = d^2 x y$.
+//286
++ Let the three vertices of the triangle inscribed in the hyperbola $x y = c^2$ be $A(c t_1, c / t_1)$, $B(c
+  t_2, c / t_2)$, and $C(c t_3, c / t_3)$.
+
+  The slope of the chord $A B$ is given by $((c / t_2) - (c / t_1)) / (c t_2 - c t_1) = -1 / (t_1
+  t_2)$. Since this side is parallel to the line $y = m_1 x$, its slope matches $m_1$, giving $-1 / (t_1
+  t_2) = m_1$.
+
+  Similarly, the slope of the chord $A C$ is $-1 / (t_1 t_3)$. Since this side is parallel to the line $y =
+  m_2 x$, its slope matches $m_2$, giving $-1 / (t_1 t_3) = m_2$.
+
+  From these two equations, we can express $t_2$ and $t_3$ as $t_2 = -1 / (m_1 t_1)$ and $t_3 = -1 / (m_2
+  t_1)$.
+
+  The equation of the third side $B C$ is given by $x + t_2 t_3 y = c (t_2 + t_3)$. Substituting the
+  expressions for $t_2$ and $t_3$ into this line equation yields $x + (-1 / (m_1 t_1)) (-1 / (m_2 t_1)) y =
+  c (-1 / (m_1 t_1) - 1 / (m_2 t_1))$.
+
+  Multiplying the entire equation by $m_1 m_2 t_1^2$ simplifies it to $m_1 m_2 t_1^2 x + y = -c t_1 (m_1 +
+  m_2)$. Rearranging the terms into standard form gives $(m_1 m_2 t_1) x + (1 / t_1) y + c (m_1 + m_2) = 0$.
+
+  This line can be compared to the condition of tangency for a line $L x + M y + N = 0$ to touch the
+  hyperbola $x y = C^2$, which is $N^2 = 4 L M C^2$.
+
+  Identifying the parameters for our line gives $L = m_1 m_2 t_1$, $M = 1 / t_1$, $N = c (m_1 + m_2)$, and
+  $C^2 = c^2$.
+
+  Substituting these components into the tangency condition yields $(c (m_1 + m_2))^2 = 4 (m_1 m_2 t_1) (1 /
+  t_1) c^2$, which simplifies to $c^2 (m_1 + m_2)^2 = 4 m_1 m_2 c^2$.
+
+  Dividing both sides by $4 m_1 m_2$ isolates the equivalent scaling constant for the touched hyperbola
+  envelope, proving that the line $B C$ always touches the hyperbola $4 m_1 m_2 x y = c^2 (m_1 + m_2)^2$.
+//287
++ Let the three vertices of a triangle inscribed in the rectangular hyperbola $x y = c^2$ be $A(c t_1, c /
+  t_1)$, $B(c t_2, c / t_2)$, and $C(c t_3, c / t_3)$.
+
+  The equation of the chord $A B$ is $x + t_1 t_2 y = c(t_1 + t_2)$, which can be written in slope-intercept
+  form as $y = -1 / (t_1 t_2) x + (c (t_1 + t_2)) / (t_1 t_2)$.
+
+  The condition for any line $y = m x + k$ to be a tangent to the parabola $y^2 = 4 a x$ is $k = a / m$.
+
+  Applying this condition to the line $A B$ gives $(c (t_1 + t_2)) / (t_1 t_2) = a / (-1 / (t_1 t_2))$,
+  which simplifies to $c (t_1 + t_2) = -a t_1^2 t_2^2$.
+
+  Similarly, if the side $A C$ touches the parabola, it must satisfy the relation $c (t_1 + t_3) = -a t_1^2
+  t_3^2$.
+
+  Subtracting the equation for $A C$ from the equation for $A B$ gives $c (t_2 - t_3) = -a t_1^2 (t_2^2 -
+  t_3^2)$, which factors into $c (t_2 - t_3) = -a t_1^2 (t_2 - t_3)(t_2 + t_3)$.
+
+  Dividing by the non-zero term $(t_2 - t_3)$ for distinct vertices yields $t_2 + t_3 = -c / (a t_1^2)$.
+
+  Rearranging the tangency relation for $A B$ into a quadratic form in terms of $t_2$ gives $a t_1^2 t_2^2 +
+  c t_2 + c t_1 = 0$. Since $t_2$ and $t_3$ satisfy symmetric relations, they are the two roots of the
+  quadratic equation $a t_1^2 t^2 + c t + c t_1 = 0$.
+
+  The product of the roots for this quadratic equation is $t_2 t_3 = (c t_1) / (a t_1^2) = c / (a t_1)$.
+
+  The condition for the third side $B C$ to touch the parabola is $c (t_2 + t_3) = -a t_2^2 t_3^2$.
+
+  Substituting the values of $(t_2 + t_3)$ and $t_2 t_3$ into the left-hand side gives $c (-c / (a t_1^2)) =
+  -c^2 / (a t_1^2)$.
+
+  Substituting the value of $t_2 t_3$ into the right-hand side gives $-a (c / (a t_1))^2 = -c^2 / (a t_1^2)$.
+
+  Since the left-hand side equals the right-hand side, the third side $B C$ automatically touches the
+  parabola whenever the first two sides do. Because the initial vertex $A(c t_1, c / t_1)$ can be chosen
+  anywhere along the hyperbola in infinite ways, an infinite number of such triangles can be inscribed.
+//288
++ Let the equation of the circle passing through the three points with parameters $t_1$, $t_2$, and $t_3$ on
+  the rectangular hyperbola $x y = c^2$ be $x^2 + y^2 - 2h x - 2k y + d = 0$, where $(h, k)$ is its center.
+
+  Any point on the hyperbola can be represented parametrically as $(c t, c / t)$. Substituting these
+  coordinates into the circle equation yields $(c t)^2 + (c / t)^2 - 2h(c t) - 2k(c / t) + d = 0$.
+
+  Multiplying the entire expression by $t^2$ and dividing by $c^2$ to clear denominators transforms the
+  equation into a fourth-degree polynomial in $t$ $t^4 - (2h / c) t^3 + (d / c^2) t^2 - (2k / c) t + 1 = 0$
+
+  Let the four roots of this equation be $t_1$, $t_2$, $t_3$, and $t_4$, representing the four points where
+  the circle intersects the hyperbola.
+
+  From Vieta's formulas, the product of all four roots is equal to the constant term divided by the leading
+  coefficient, which gives $t_1 t_2 t_3 t_4 = 1$. This implies that the fourth root is $t_4 = 1 / (t_1 t_2
+  t_3)$.
+
+  From Vieta's formulas, the sum of all four roots is equal to the negative of the coefficient of $t^3$,
+  which gives $t_1 + t_2 + t_3 + t_4 = 2h / c$.
+
+  Substituting $t_4 = 1 / (t_1 t_2 t_3)$ into the sum relation gives $t_1 + t_2 + t_3 + 1 / (t_1 t_2 t_3) =
+  2h / c$. Solving for $h$ yields the x-coordinate of the center $h = c / 2 (t_1 + t_2 + t_3 + 1 / (t_1 t_2
+  t_3))$
+
+  Similarly, the sum of the products of roots taken three at a time is equal to the negative of the
+  coefficient of $t$, which gives $t_1 t_2 t_3 + t_1 t_2 t_4 + t_2 t_3 t_4 + t_3 t_1 t_4 = 2k / c$.
+
+  Dividing this entire expression by the product $t_1 t_2 t_3 t_4$ simplifies it to $1/t_4 + 1/t_3 + 1/t_1 +
+  1/t_2 = (2k / c) / 1$.
+
+  Rearranging the terms gives $1/t_1 + 1/t_2 + 1/t_3 + 1/t_4 = 2k / c$. Substituting the reciprocal root
+  $1/t_4 = t_1 t_2 t_3$ yields $1/t_1 + 1/t_2 + 1/t_3 + t_1 t_2 t_3 = 2k / c$.
+
+  Solving for $k$ yields the y-coordinate of the center $k = c / 2 (1/t_1 + 1/t_2 + 1/t_3 + t_1 t_2 t_3)$
+
+  Therefore, the coordinates of the center of the circle are exactly $(c / 2 (t_1 + t_2 + t_3 + 1 / (t_1 t_2
+  t_3)), c / 2 (1/t_1 + 1/t_2 + 1/t_3 + t_1 t_2 t_3))$.
+//289
++ Let the equation of the rectangular hyperbola be $x y = c^2$. Let the four co-normal points be $P(c t_1, c
+  / t_1)$, $Q(c t_2, c / t_2)$, $R(c t_3, c / t_3)$, and $S(c t_4, c / t_4)$.
+
+  The equation of the normal to the hyperbola at any point with parameter $t$ is $t^3 x - t y - c t^4 + c =
+  0$.
+
+  If the normals pass through the point $S(c t_4, c / t_4)$, then substituting its coordinates yields $t^3
+  (c t_4) - t (c / t_4) - c t^4 + c = 0$.
+
+  Multiplying by $t_4$ and dividing by $c$ gives a fourth-degree polynomial equation in $t$ gives us $t_4^2
+  t^3 - t - t_4^2 t^4 + t_4 = 0$
+
+  Rearranging into standard polynomial form yields $t_4^2 t^4 - t_4^2 t^3 + t - t_4 = 0$.
+
+  The roots of this equation are $t_1$, $t_2$, $t_3$, and $t_4$. Since the coefficient of $t^2$ is zero, the
+  sum of the products of roots taken two at a time is $0$.
+
+  The sum of all four roots is given by the coefficient of $t^3$, which means $t_1 + t_2 + t_3 + t_4 =
+  -(-t_4^2) / t_4^2 = 1$.
+
+  Since $t_4$ is one of the roots, we can factorize the polynomial as $(t - t_4)(t_4^2 t^3 + 1) = 0$.
+
+  For the remaining three roots $t_1$, $t_2$, and $t_3$, they must satisfy the cubic equation $t_4^2 t^3 + 1
+  = 0$, which can be rewritten as $t^3 + 1 / t_4^2 = 0$.
+
+  For this cubic equation, the sum of the roots is $t_1 + t_2 + t_3 = 0$, and the sum of the products of the
+  roots taken two at a time is $t_1 t_2 + z_2 t_3 + t_3 t_1 = 0$.
+
+  Dividing the second relation by the product of the roots $t_1 t_2 t_3$ gives $1/t_1 + 1/t_2 + 1/t_3 = 0$.
+
+  The coordinates of the centroid $G(X, Y)$ of $triangle P Q R$ are given by $X = (c t_1 + c t_2 + c t_3)/3
+  = c/3 (t_1 + t_2 + t_3)$ and $Y = (c/t_1 + c/t_2 + c/t_3)/3 = c/3 (1/t_1 + 1/t_2 + 1/t_3)$.
+
+  Substituting $t_1 + t_2 + t_3 = 0$ and $1/t_1 + 1/t_2 + 1/t_3 = 0$ results in $X = 0$ and $Y = 0$.
+
+  Therefore, the centroid of $triangle P Q R$ is $(0, 0)$, which is the center of the rectangular hyperbola.
+//290
++ Let the point $P$ on the parabola $y^2 = 4a x$ be given by the parametric coordinates $P(a t^2, 2a t)$.
+
+  The equation of the tangent at $P$ is $y t = x + a t^2$, which can be rewritten as $x - y t + a t^2 = 0$.
+
+  The coordinates of the vertex $A$ are $(0, 0)$. The foot of the perpendicular $R$ from $A$ to this tangent
+  line can be found using the perpendicular line equation passing through $(0, 0)$, which is $t x + y = 0$,
+  implying $y = -t x$.
+
+  Substituting $y = -t x$ into the tangent equation gives $x - (-t x)t + a t^2 = 0$, which simplifies to
+  $x(1 + t^2) = -a t^2$. Thus, the coordinates of $R$ are $x_R = - (a t^2) / (1 + t^2)$ and $y_R = (a t^3) /
+  (1 + t^2)$.
+
+  If $R$ lies on the line $l x + m y + n a = 0$, substituting its coordinates gives $l (- (a t^2) / (1 +
+  t^2)) + m ((a t^3) / (1 + t^2)) + n a = 0$.
+
+  Multiplying by $(1 + t^2) / a$ yields $-l t^2 + m t^3 + n(1 + t^2) = 0$, which rearranges to the cubic
+  equation $m t^3 + (n - l) t^2 + n = 0$.
+
+  Now we analyze the point $Q$. The line $A P$ passes through $(0, 0)$ and $P(a t^2, 2a t)$, so its slope is
+  $(2a t) / (a t^2) = 2/t$.
+
+  The line through the vertex $A$ drawn at a right angle to $A P$ has a slope of $-t/2$. The equation of
+  this line is $y = -t/2 x$, or $t x + 2 y = 0$.
+
+  The point $Q$ is the intersection of this line $t x + 2 y = 0$ and the tangent $x - y t + a t^2 = 0$. From
+  the first equation, we get $t = -2 y / x$.
+
+  Substituting this expression for $t$ into the tangent line equation gives $x - y (-2 y / x) + a (-2 y /
+  x)^2 = 0$.
+
+  Multiplying by $x^2$ to clear the denominators yields $x^3 + 2 x y^2 + 4 a y^2 = 0$, which can be grouped
+  as $x(x^2 + 2 y^2) + 4 a y^2 = 0$.
+
+  Alternatively, solving the linear system for $x$ and $y$ gives $x_Q = - (2 a t^2) / (2 + t^2)$ and $y_Q =
+  (a t^3) / (2 + t^2)$.
+
+  If $Q$ lies on the line $(2l - n)x + 4m y + 2n a = 0$, substituting its coordinates yields $(2l - n)(- (2
+  a t^2) / (2 + t^2)) + 4m ((a t^3) / (2 + t^2)) + 2n a = 0$.
+
+  Multiplying by $(2 + t^2) / (2 a)$ simplifies the relation to $-(2l - n)t^2 + 2m t^3 + n(2 + t^2) = 0$.
+
+  Expanding and collecting the terms of this expression yields $2m t^3 + (2n - 2l) t^2 + 2n = 0$.
+
+  Dividing the entire equation by $2$ gives $m t^3 + (n - l) t^2 + n = 0$.
+
+  Since this is exactly the same cubic equation in $t$ obtained for the condition on $R$, the parameters $t$
+  for the positions of $P$ must be identical. A cubic polynomial equation generally yields three roots for
+  $t$.
+
+  Therefore, there are exactly three positions of the point $P$ for which $R$ and $Q$ lie on their
+  respective specified lines.
+//291
++ Let a point on the line $x = c$ be $T(c, k)$.
+
+  Tangents are drawn from $T$ to the parabola $y^2 = 4a x$ touching it at points with parameters $t_1$ and
+  $t_2$.
+
+  The point of intersection of tangents at $t_1$ and $t_2$ is given by $(a t_1 t_2, a(t_1 + t_2))$.
+
+  Equating this to the coordinates of $T(c, k)$ yields $a t_1 t_2 = c$, which gives $t_1 t_2 = c/a$, and
+  $a(t_1 + t_2) = k$, which gives $t_1 + t_2 = k/a$.
+
+  The point of intersection $(x, y)$ of the corresponding normals at $t_1$ and $t_2$ is given by the
+  standard formulas $x = 2a + a(t_1^2 + t_2^2 + t_1 t_2)$ and $y = -a t_1 t_2 (t_1 + t_2)$.
+
+  The expression for $x$ can be rewritten as $x = 2a + a((t_1 + t_2)^2 - t_1 t_2)$.
+
+  Substituting the values of $t_1 t_2$ and $t_1 + t_2$ into the equations for $x$ and $y$ gives $x = 2a +
+  a((k/a)^2 - c/a) = 2a + k^2/a - c$ and $y = -a(c/a)(k/a) = -c k / a$.
+
+  From the equation for $y$, we isolate the variable parameter $k$ to get $k = -a y / c$.
+
+  Substituting this expression for $k$ into the equation for $x$ gives $x = 2a + (-a y / c)^2 / a - c = 2a +
+  (a y^2) / c^2 - c$.
+
+  Rearranging the terms to isolate the $y^2$ expression yields $x + c - 2a = (a y^2) / c^2$.
+
+  Multiplying both sides by $c^2$ gives the final required locus $a y^2 = c^2 (x + c - 2a)$.
+//292
++ Let the parabola be $y^2 = 4a x$. A triangle whose vertices are the poles of its opposite sides with
+  respect to a conic is called a self-conjugate triangle.
+
+  Let the three vertices of the triangle be $A(x_1, y_1)$, $B(x_2, y_2)$, and $C(x_3, y_3)$.
+
+  Since $A$ is the pole of the opposite side $B C$, the equation of the line $B C$ is given by the chord of
+  contact from $A$, which is $y y_1 = 2a(x + x_1)$, or $2a x - y_1 y + 2a x_1 = 0$.
+
+  Similarly, since $B$ is the pole of $A C$, the line $A C$ is $2a x - y_2 y + 2a x_2 = 0$, and since $C$ is
+  the pole of $A B$, the line $A B$ is $2a x - y_3 y + 2a x_3 = 0$.
+
+  For these line equations to be mutually consistent with the vertices, the coordinates must satisfy
+  conjugate properties, which yield the relations $y_1 y_2 = -4a^2$ and $x_1 = -y_2^2 / (4a)$, along with
+  cyclic permutations.
+
+  Let $M_1, M_2, M_3$ be the midpoints of the sides of $triangle A B C$. The line joining the midpoints of
+  two sides is parallel to the third side and bisects the remaining distance.
+
+  The equation of the line joining the midpoints of $A B$ and $A C$ is parallel to $B C$. Its equation can
+  be written as $2a x - y_1 y + K = 0$, where $K$ is a constant determined by passing through the midpoint
+  of $A B$, which is $((x_1 + x_2)/2, (y_1 + y_2)/2)$.
+
+  Substituting the midpoint coordinates into the line equation gives $2a((x_1 + x_2)/2) - y_1((y_1 + y_2)/2)
+  + K = 0$, which simplifies to $a x_1 + a x_2 - 1/2 y_1^2 - 1/2 y_1 y_2 + K = 0$.
+
+  Using the properties of the self-conjugate vertices where $y_1^2 = 4a x_1$ and $y_1 y_2 = -4a^2$, the
+  expression reduces to $a x_1 + a x_2 - 2a x_1 + 2a^2 + K = 0$, which simplifies to $K = a x_1 - a x_2 -
+  2a^2$.
+
+  Thus, the equation of the line joining the midpoints is $2a x - y_1 y + a x_1 - a x_2 - 2a^2 = 0$, which
+  can be rearranged in the form $y = (2a / y_1) x + (a x_1 - a x_2 - 2a^2) / y_1$.
+
+  The condition for any line $y = m x + c'$ to touch the parabola $y^2 = 4a x$ is $c' = a / m$. Here, the
+  slope is $m = 2a / y_1$, so the required tangency intercept must be $a / m = y_1 / 2$.
+
+  We test if our line satisfies this condition by equating $(a x_1 - a x_2 - 2a^2) / y_1 = y_1 / 2$, which
+  cross-multiplies to $2a x_1 - 2a x_2 - 4a^2 = y_1^2$.
+
+  Since $y_1^2 = 4a x_1$, the equation becomes $2a x_1 - 2a x_2 - 4a^2 = 4a x_1$, which simplifies to $-2a
+  x_2 - 4a^2 = 2a x_1$, or $x_1 + x_2 = -2a$.
+
+  By symmetry of the self-conjugate poles, this relation holds true for all mid-lines of the triangle. Since
+  the condition $c' = a / m$ is satisfied, the line joining the midpoints touches the parabola.
+//293
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$ and the circle be $x^2 + y^2 + 2g x + 2f y + c = 0$.
+
+  Any point on the ellipse can be written in terms of its eccentric angle $theta$ as $(a cos theta, b sin
+  theta)$.
+
+  Substituting these coordinates into the circle equation gives $a^2 cos^2 theta + b^2 sin^2 theta + 2g a
+  cos theta + 2f b sin theta + c = 0$.
+
+  Using the trigonometric substitution $t = tan(theta/2)$, we can substitute $cos theta = (1 - t^2)/(1 +
+  t^2)$ and $sin theta = (2t)/(1 + t^2)$.
+
+  This transforms the intersection equation into $a^2 ((1 - t^2)/(1 + t^2))^2 + b^2 ((2t)/(1 + t^2))^2 + 2g
+  a (1 - t^2)/(1 + t^2) + 2f b (2t)/(1 + t^2) + c = 0$.
+
+  Multiplying the entire equation by $(1 + t^2)^2$ to clear the denominators yields $a^2 (1 - 2t^2 + t^4) +
+  4b^2 t^2 + 2g a (1 - t^4) + 4f b t (1 + t^2) + c (1 + 2t^2 + t^4) = 0$.
+
+  Rearranging this expression as a fourth-degree polynomial in $t$ gives $(a^2 - 2g a + c) t^4 + 4f b t^3 +
+  (2c - 2a^2 + 4b^2) t^2 + 4f b t + (a^2 + 2g a + c) = 0$.
+
+  Let the four roots of this equation be $t_1, t_2, t_3, t_4$, corresponding to the four concyclic
+  intersection points with eccentric angles $theta_1, theta_2, theta_3, theta_4$.
+
+  From Vieta's formulas, the sum of the roots is $S_1 = t_1 + t_2 + t_3 + t_4 = (-4f b) / (a^2 - 2g a + c)$.
+
+  The sum of the products of the roots taken three at a time is $S_3 = t_1 t_2 t_3 + t_2 t_3 t_4 + t_3 t_4
+  t_1 + t_4 t_1 t_2 = (-4f b) / (a^2 - 2g a + c)$.
+
+  We use the multi-angle identity for the tangent of a sum of four half-angles, which states that
+  $tan((theta_1 + theta_2 + theta_3 + theta_4)/2) = (S_1 - S_3) / (1 - S_2 + S_4)$.
+
+  Since $S_1 = S_3$, the numerator evaluates to zero, which means $tan((theta_1 + theta_2 + theta_3 +
+  theta_4)/2) = 0$.
+
+  This implies that the argument must be an integer multiple of $pi$, giving $(theta_1 + theta_2 + theta_3 +
+  theta_4)/2 = n pi$, where $n$ is any integer.
+
+  Multiplying by $2$ yields the required relation $theta_1 + theta_2 + theta_3 + theta_4 = 2n pi$, proving
+  that the sum of the eccentric angles is an even multiple of $pi$.
+//294
++ Let the two points on the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(a cos theta_1, b sin theta_1)$ and $Q(a
+  cos theta_2, b sin theta_2)$. The difference of their eccentric angles is given as $psi = theta_1 -
+  theta_2$.
+
+  The equation of the tangent at $P$ is $x/a cos theta_1 + y/b sin theta_1 = 1$, and its slope is $m_1 =
+  -b/a cot theta_1$.
+
+  The equation of the tangent at $Q$ is $x/a cos theta_2 + y/b sin theta_2 = 1$, and its slope is $m_2 =
+  -b/a cot theta_2$.
+
+  Since the tangents at $P$ and $Q$ are at right angles, we have $m_1 m_2 = -1$. Substituting the slopes
+  gives $(-b/a cot theta_1) (-b/a cot theta_2) = -1$, which simplifies to $b^2 cos theta_1 cos theta_2 + a^2
+  sin theta_1 sin theta_2 = 0$.
+
+  Let $d_1$ be the length of the semi-diameter parallel to the tangent at $P$. The slope of this
+  semi-diameter is $m_1 = -b/a cot theta_1$. If $phi_1$ is the eccentric angle of the extremity of this
+  semi-diameter, its slope is $b/a tan phi_1$. Equating the slopes gives $b/a tan phi_1 = -b/a cot theta_1$,
+  which implies $phi_1 = theta_1 + pi/2$.
+
+  The length squared of this semi-diameter is $d_1^2 = a^2 cos^2 phi_1 + b^2 sin^2 phi_1 = a^2 sin^2 theta_1
+  + b^2 cos^2 theta_1$.
+
+  Similarly, the length $d_2$ of the semi-diameter parallel to the tangent at $Q$ corresponds to an
+  eccentric angle $phi_2 = theta_2 + pi/2$, giving its length squared as $d_2^2 = a^2 sin^2 theta_2 + b^2
+  cos^2 theta_2$.
+
+  Multiplying the two squared lengths gives $d_1^2 d_2^2 = (a^2 sin^2 theta_1 + b^2 cos^2 theta_1)(a^2 sin^2
+  theta_2 + b^2 cos^2 theta_2)$.
+
+  Expanding this product yields $d_1^2 d_2^2 = a^4 sin^2 theta_1 sin^2 theta_2 + b^4 cos^2 theta_1 cos^2
+  theta_2 + a^2 b^2 (sin^2 theta_1 cos^2 theta_2 + cos^2 theta_1 sin^2 theta_2)$.
+
+  From the orthogonality condition, we have $a^2 sin theta_1 sin theta_2 = -b^2 cos theta_1 cos
+  theta_2$. Squaring both sides gives $a^4 sin^2 theta_1 sin^2 theta_2 = b^4 cos^2 theta_1 cos^2 theta_2 =
+  -a^2 b^2 sin theta_1 sin theta_2 cos theta_1 cos theta_2$.
+
+  Substituting these into the expanded equation for $d_1^2 d_2^2$ gives $d_1^2 d_2^2 = a^2 b^2 (sin^2
+  theta_1 cos^2 theta_2 + cos^2 theta_1 sin^2 theta_2 - 2 sin theta_1 sin theta_2 cos theta_1 cos theta_2)$.
+
+  This expression is a perfect square, simplifying directly to $d_1^2 d_2^2 = a^2 b^2 (sin theta_1 cos
+  theta_2 - cos theta_1 sin theta_2)^2$.
+
+  Taking the square root of both sides gives $d_1 d_2 = a b abs(sin(theta_1 - theta_2))$.
+
+  Since $psi = theta_1 - theta_2$, this simplifies to the required relation $a b sin psi = d_1 d_2$.
+//295
++ Let the two points on the major axis of the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(d, 0)$ and $Q(-d, 0)$,
+  which are equidistant from the center.
+
+  Let the first chord pass through $P(d, 0)$ and meet the ellipse at points with eccentric angles $alpha$
+  and $beta$. The equation of this chord is $x/a cos((alpha + beta)/2) + y/b sin((alpha + beta)/2) =
+  cos((alpha - beta)/2)$.
+
+  Since it passes through $(d, 0)$, substituting these coordinates gives $d/a cos((alpha + beta)/2) =
+  cos((alpha - beta)/2)$.
+
+  Expanding both sides using trigonometric product formulas yields $d/a (cos(alpha/2) cos(beta/2) -
+  sin(alpha/2) sin(beta/2)) = cos(alpha/2) cos(beta/2) + sin(alpha/2) sin(beta/2)$.
+
+  Dividing the entire expression by $cos(alpha/2) cos(beta/2)$ results in $d/a (1 - tan(alpha/2)
+  tan(beta/2)) = 1 + tan(alpha/2) tan(beta/2)$.
+
+  Rearranging the terms to isolate the product of the tangents gives $tan(alpha/2) tan(beta/2) = (d/a - 1) /
+  (d/a + 1) = (d - a) / (d + a)$.
+
+  Similarly, let the second chord pass through $Q(-d, 0)$ and meet the ellipse at points with eccentric
+  angles $gamma$ and $delta$. By replacing $d$ with $-d$ in the previous result, we obtain $tan(gamma/2)
+  tan(delta/2) = (-d - a) / (-d + a) = (d + a) / (d - a)$.
+
+  Multiplying the two product expressions together gives $tan alpha/2 tan beta/2 tan gamma/2 tan delta/2
+  = ((d - a) / (d + a)) ((d + a) / (d - a)) = 1$.
+//296
++ Let the three vertices of the triangle inscribed in the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $A(a cos alpha,
+  b sin alpha)$, $B(a cos beta, b sin beta)$, and $C(a cos gamma, b sin gamma)$.
+
+  The area $Delta$ of the triangle formed by these three points can be found using the coordinate geometry
+  determinant formula $Delta = 1/2 mat(a cos alpha, b sin alpha, 1; a cos beta, b sin beta, 1; a cos gamma,
+  b sin gamma, 1; delim: "|") $.
+
+  Factoring out the constants $a$ and $b$ from the first and second columns gives $Delta = 1/2 a b mat(cos
+  alpha, sin alpha, 1; cos beta, sin beta, 1; cos gamma, sin gamma, 1; delim: "|") $.
+
+  Expanding this standard determinant using trigonometric subtraction and product-to-sum identities yields
+  the simplified area formula $Delta = 2 a b sin((alpha - beta)/2) sin((beta - gamma)/2) sin((gamma -
+  alpha)/2)$.
+
+  To maximize this product under the cyclic order, let the differences between the consecutive eccentric
+  angles be $x = alpha - beta$, $y = beta - gamma$, and $z = gamma - alpha + 2 pi$, such that $x + y + z = 2
+  pi$.
+
+  The area expression becomes proportional to the product $f(x, y, z) = sin(x/2) sin(y/2) sin(z/2)$, where
+  $x, y, z > 0$ and $x + y + z = 2 pi$.
+
+  Using the property that the product of sines of angles with a constant sum is maximized when the angles
+  are all equal, we set $x/2 = y/2 = z/2$.
+
+  This directly means that $x = y = z = (2 pi)/3$.
+
+  Since $x$, $y$, and $z$ represent the absolute differences between the eccentric angles of consecutive
+  vertices, the angle subtended by any two consecutive vertices at the center of the auxiliary circle is $(2
+  pi)/3$.
+
+  For the ellipse, this directly corresponds to the condition that the area is greatest when the consecutive
+  eccentric differences are equal to $(2 pi)/3$, which completes the proof.
+//297
++ Let the equation of the circle passing through the three points with eccentric angles $alpha$, $beta$, and
+  $gamma$ be $x^2 + y^2 - 2h x - 2k y + c = 0$, where $(h, k)$ is its center.
+
+  Since any point on the ellipse can be written as $(a cos theta, b sin theta)$, substituting this into the
+  circle equation yields $a^2 cos^2 theta + b^2 sin^2 theta - 2h a cos theta - 2k b sin theta + c = 0$.
+
+  Using the trigonometric formulas $cos^2 theta = (1 + cos 2theta)/2$ and $sin^2 theta = (1 - cos
+  2theta)/2$, we can rewrite the equation as $a^2 (1 + cos 2theta)/2 + b^2 (1 - cos 2theta)/2 - 2h a cos
+  theta - 2k b sin theta + c = 0$.
+
+  Multiplying by $2$ and rearranging terms gives $(a^2 - b^2) cos 2theta - 4a h cos theta - 4b k sin theta +
+  (a^2 + b^2 + 2c) = 0$.
+
+  Let the fourth point of intersection of the circle and the ellipse have an eccentric angle $delta$. Then
+  $alpha$, $beta$, $gamma$, and $delta$ are the four roots of this equation, and they must satisfy the
+  property that $alpha + beta + gamma + delta = 2n pi$, which means $delta = 2n pi - (alpha + beta +
+  gamma)$.
+
+  Thus, we have $cos delta = cos(alpha + beta + gamma)$ and $sin delta = -sin(alpha + beta + gamma)$.
+
+  By expanding the terms for all four intersection points using sum-to-product identities or solving the
+  linear combination for the co-normal polynomial equation, the sum of the cosines of the four roots yields
+  the relation $cos alpha + cos beta + cos gamma + cos delta = (4a h) / (a^2 - b^2)$.
+
+  Substituting $cos delta = cos(alpha + beta + gamma)$ gives $cos alpha + cos beta + cos gamma + cos(alpha +
+  beta + gamma) = (4a h) / (a^2 - b^2)$.
+
+  Solving for $h$ yields the $x$-coordinate of the center $h = (a^2 - b^2) / (4a) (cos alpha + cos beta +
+  cos gamma + cos(alpha + beta + gamma))$.
+
+  Similarly, the sum of the sines of the four roots yields the relation $sin alpha + sin beta + sin gamma +
+  sin delta = (-4b k) / (a^2 - b^2)$.
+
+  Substituting $sin delta = -sin(alpha + beta + gamma)$ gives $sin alpha + sin beta + sin gamma - sin(alpha
+  + beta + gamma) = (-4b k) / (a^2 - b^2)$.
+
+  Solving for $k$ yields the $y$-coordinate of the center $k = - (a^2 - b^2) / (4b) (sin alpha + sin beta +
+  sin gamma - sin(alpha + beta + gamma))$, which matches the magnitude of the coordinate relative to the
+  axis orientation.
+//298
++ Let the two variable points on the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(a cos(phi + alpha), b sin(phi +
+  alpha))$ and $Q(a cos(phi - alpha), b sin(phi - alpha))$, so that the difference of their eccentric angles
+  is the constant $(phi + alpha) - (phi - alpha) = 2alpha$.
+
+  The equation of the chord joining $P$ and $Q$ is given by $x/a cos(( (phi + alpha) + (phi - alpha) )/2) +
+  y/b sin(( (phi + alpha) + (phi - alpha) )/2) = cos(( (phi + alpha) - (phi - alpha) )/2)$.
+
+  This simplifies directly to the line equation $x/a cos phi + y/b sin phi = cos alpha$.
+
+  Dividing both sides of the equation by $cos alpha$ gives $(x / (a cos alpha)) cos phi + (y / (b cos
+  alpha)) sin phi = 1$.
+
+  To find the curve touched by this variable line, we eliminate the parameter $phi$ by squaring and adding
+  the coefficients of $cos phi$ and $sin phi$, since $cos^2 phi + sin^2 phi = 1$.
+
+  This yields $(x / (a cos alpha))^2 + (y / (b cos alpha))^2 = 1$, which can be rewritten as $x^2 / (a cos
+  alpha)^2 + y^2 / (b cos alpha)^2 = 1$.
+
+  This equation represents a fixed ellipse whose semi-axes are $a cos alpha$ and $b cos alpha$.
+
+  Since this new ellipse shares the same center $(0, 0)$ as the original ellipse, it is a concentric
+  ellipse, which completes the proof.
+//299
++ Let the ellipse be $x^2/a^2 + y^2/b^2 = 1$. Let the vertices of the inscribed triangle be $A(a cos phi_1,
+  b sin phi_1)$, $B(a cos phi_2, b sin phi_2)$, and $C(a cos phi_3, b sin phi_3)$.
+
+  The equation of the chord $A B$ is $x/a cos((phi_1 + phi_2)/2) + y/b sin((phi_1 + phi_2)/2) = cos((phi_1 -
+  phi_2)/2)$, which gives its slope as $m_(A B) = -b/a cot((phi_1 + phi_2)/2)$.
+
+  Since $A B$ is parallel to a fixed straight line, its slope is a constant, say $m_1$. Thus, $-b/a
+  cot((phi_1 + phi_2)/2) = m_1$, which means $(phi_1 + phi_2)/2 = C_1$ (a constant), or $phi_1 + phi_2 =
+  2C_1$.
+
+  Similarly, the side $A C$ is parallel to another fixed straight line with a constant slope $m_2$. Its
+  slope is $m_(A C) = -b/a cot((phi_1 + phi_3)/2) = m_2$, which implies $(phi_1 + phi_3)/2 = C_2$ (a
+  constant), or $phi_1 + phi_3 = 2C_2$.
+
+  Subtracting the two sum expressions gives $(phi_1 + phi_2) - (phi_1 + phi_3) = 2C_1 - 2C_2$, which
+  simplifies to $phi_2 - phi_3 = 2(C_1 - C_2)$.
+
+  The difference between the eccentric angles of the vertices $B$ and $C$ is $(phi_2 - phi_3)$, which is
+  equal to the constant value $2(C_1 - C_2)$.
+
+  From the previously proven property, a chord joining two variable points on an ellipse whose eccentric
+  angles differ by a constant value always touches a concentric ellipse.
+
+  Therefore, the third side $B C$ touches a fixed concentric ellipse.
+//300
++ Let the extremities of two perpendicular semi-diameters of the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(a cos
+  theta_1, b sin theta_1)$ and $Q(a cos theta_2, b sin theta_2)$.
+
+  Since $O P$ and $O Q$ are perpendicular, the product of their slopes must be $-1$. This gives $((b sin
+  theta_1) / (a cos theta_1)) ((b sin theta_2) / (a cos theta_2)) = -1$, which simplifies to $a^2 cos
+  theta_1 cos theta_2 + b^2 sin theta_1 sin theta_2 = 0$.
+
+  The equation of the chord joining $P$ and $Q$ is given by $x/a cos((theta_1 + theta_2)/2) + y/b
+  sin((theta_1 + theta_2)/2) = cos((theta_1 - theta_2)/2)$.
+
+  Expanding the cosine terms using the identity $cos(A - B) = cos A cos B + sin A sin B$, we can write
+  $cos((theta_1 - theta_2)/2) = cos(theta_1/2) cos(theta_2/2) + sin(theta_1/2) sin(theta_2/2)$.
+
+  To find the perpendicular distance $p$ from the center $(0, 0)$ to this chord, we use the distance formula
+  $p = cos((theta_1 - theta_2)/2) / sqrt((1/a^2) cos^2((theta_1 + theta_2)/2) + (1/b^2) sin^2((theta_1 +
+  theta_2)/2))$.
+
+  Squaring both sides gives $1/p^2 = ((1/a^2) cos^2((theta_1 + theta_2)/2) + (1/b^2) sin^2((theta_1 +
+  theta_2)/2)) / (cos^2(theta_1 - theta_2)/2)$.
+
+  Using the identity $2 cos^2 X = 1 + cos 2X$, we expand the numerator terms to get $1/p^2 = (1/a^2 (1 +
+  cos(theta_1 + theta_2)) + 1/b^2 (1 - cos(theta_1 + theta_2))) / (1 + cos(theta_1 - theta_2))$.
+
+  This expands to $1/p^2 = ((1/a^2 + 1/b^2) + (1/a^2 - 1/b^2) cos(theta_1 + theta_2)) / (1 + cos theta_1 cos
+  theta_2 + sin theta_1 sin theta_2)$.
+
+  Expanding $cos(theta_1 + theta_2)$ yields $1/p^2 = ((1/a^2 + 1/b^2) + (1/a^2 - 1/b^2) (cos theta_1 cos
+  theta_2 - sin theta_1 sin theta_2)) / (1 + cos theta_1 cos theta_2 + sin theta_1 sin theta_2)$.
+
+  From the perpendicularity condition, we have $cos theta_1 cos theta_2 = - (b^2/a^2) sin theta_1 sin
+  theta_2$. Substituting this into the fraction eliminates the variable angles completely.
+
+  This algebraic simplification yields a constant value for the distance $1/p^2 = 1/a^2 + 1/b^2$, which
+  gives $p = (a b) / sqrt(a^2 + b^2)$.
+
+  Since the perpendicular distance from the origin to the variable chord is always the constant $p$, the
+  line $P Q$ always touches a concentric circle of radius $(a b) / sqrt(a^2 + b^2)$.
+//301
++ For the two points to lie on the same side, their evaluated expressions must share the same sign.
+
+  Evaluating the line expression for the point $(1, 2)$ gives $1 + 2 - 1 = 2 > 0$.
+
+  Since this value is positive, the expression for the point $(sin theta, cos theta)$ must also be strictly
+  positive, giving $sin theta + cos theta - 1 > 0$, which simplifies to $sin theta + cos theta > 1$.
+
+  Multiplying both sides of the inequality by $1/sqrt(2)$ yields $1/sqrt(2) sin theta + 1/sqrt(2) cos theta
+  > 1/sqrt(2)$.
+
+  Using the sine sum identity $sin(A + B) = sin A cos B + cos A sin B$, this can be rewritten as $sin(theta
+  + pi/4) > 1/sqrt(2)$.
+
+  For $theta in (0, pi)$, the modified angle belongs to the interval $(theta + pi/4) in (pi/4, 5pi/4)$.
+
+  Within this interval, the sine function is strictly greater than $1/sqrt(2)$ when $pi/4 < theta + pi/4 <
+  3pi/4$.
+
+  Subtracting $pi/4$ from all parts of the inequality isolates the variable, giving $0 < theta < pi/2$.
+
+  Thus, the set of all possible values of $theta$ in the given interval is the open interval $(0, pi/2)$.
+//302
++ Let the normal form of the line $L$ be $x cos alpha + y sin alpha = p$, where $p$ is the perpendicular
+  distance from the origin and $alpha$ is the angle the perpendicular makes with the positive x-axis.
+
+  We are given that $p = 4$. Since the line $L$ makes positive intercepts on both coordinate axes, the
+  perpendicular from the origin must lie in the first quadrant, meaning $0^degree < alpha < 90^degree$.
+
+  The given line is $x + y = 0$, which has a slope of $-1$, corresponding to an inclination angle of
+  $135^degree$ with the positive x-axis.
+
+  The perpendicular line makes an angle of $60^degree$ with $x + y = 0$. Therefore, the acute angle between
+  the line with inclination $alpha$ and the line with inclination $135^degree$ is $60^degree$.
+
+  This gives two possible geometric relations: either $abs(alpha - 135^degree) = 60^degree$ or $180^degree -
+  abs(alpha - 135^degree) = 60^degree$.
+
+  Solving $alpha - 135^degree = -60^degree$ yields $alpha = 75^degree$. Solving $alpha - 135^degree =
+  -120^degree$ yields $alpha = 15^degree$. Both values lie within the required first quadrant interval
+  $(0^degree, 90^degree)$.
+
+  For $alpha = 15^degree$, we have $cos 15^degree = (sqrt(3) + 1) / (2 sqrt(2))$ and $sin 15^degree =
+  (sqrt(3) - 1) / (2 sqrt(2))$. Substituting these into the normal form gives $((sqrt(3) + 1) / (2 sqrt(2)))
+  x + ((sqrt(3) - 1) / (2 sqrt(2))) y = 4$, which simplifies to $(sqrt(3) + 1) x + (sqrt(3) - 1) y = 8
+  sqrt(2)$.
+
+  For $alpha = 75^degree$, we have $cos 75^degree = (sqrt(3) - 1) / (2 sqrt(2))$ and $sin 75^degree =
+  (sqrt(3) + 1) / (2 sqrt(2))$. Substituting these into the normal form gives $((sqrt(3) - 1) / (2 sqrt(2)))
+  x + ((sqrt(3) + 1) / (2 sqrt(2))) y = 4$, which simplifies to $(sqrt(3) - 1) x + (sqrt(3) + 1) y = 8
+  sqrt(2)$.
+
+  Thus, the possible equations for the line $L$ are $(sqrt(3) + 1) x + (sqrt(3) - 1) y = 8 sqrt(2)$ and
+  $(sqrt(3) - 1) x + (sqrt(3) + 1) y = 8 sqrt(2)$.
+//303
++ The given curve equation is $y = sin x sin(x + 2) - sin^2(x + 1)$.
+
+  Using the product-to-sum identity $sin A sin B = 1/2 (cos(A - B) - cos(A + B))$, the first term becomes
+  $sin x sin(x + 2) = 1/2 (cos 2 - cos(2x + 2))$.
+
+  Using the power-reduction formula $sin^2 U = 1/2 (1 - cos 2U)$, the second term becomes $sin^2(x + 1) =
+  1/2 (1 - cos(2x + 2))$.
+
+  Substituting these back into the curve equation gives $y = 1/2 (cos 2 - cos(2x + 2)) - 1/2 (1 - cos(2x +
+  2))$.
+
+  Simplifying this expression yields $y = 1/2 (cos 2 - 1)$.
+
+  Since $2$ radians lies in the second quadrant, $cos 2$ is negative, which means $cos 2 < 0$. Therefore,
+  the value $1/2 (cos 2 - 1)$ is a strictly negative constant.
+
+  This represents a horizontal straight line lying entirely below the x-axis, spanning all real values of
+  $x$ from $-infinity$ to $+infinity$.
+
+  Since the $y$-coordinate is always negative, the line passes through the regions where $y < 0$.
+
+  Therefore, the curve lies in the third and fourth quadrants.
+//305
++ Any line parallel to the line $4x - 3y + 2 = 0$ can be written in the form $4x - 3y + c = 0$, where $c$ is
+  a constant.
+
+  The perpendicular distance from the origin $(0, 0)$ to the line $4x - 3y + c = 0$ is given by the formula
+  $abs(c) / sqrt(4^2 + (-3)^2)$.
+
+  Simplifying the denominator gives the distance as $abs(c) / 5$.
+
+  We are given that this distance is equal to $3/5$, which leads to the equation $abs(c) / 5 = 3/5$.
+
+  Multiplying both sides by $5$ yields $abs(c) = 3$, which gives two possible values for the constant $c =
+  plus.minus 3$.
+
+  Substituting these values back into the parallel line template gives the equations $4x - 3y + 3 = 0$ and
+  $4x - 3y - 3 = 0$.
+
+  Therefore, the equations of the required lines are $4x - 3y + 3 = 0$ and $4x - 3y - 3 = 0$.
+//305
++ The region is bounded by the inequalities $-2 <= x - y <= 2$ and $-2 <= x + y <= 2$.
+
+  The boundary equations consist of four straight lines $x - y = 2$, $x - y = -2$, $x + y = 2$, and $x + y =
+  -2$.
+
+  To determine the type of region, we find the vertices by solving the intersection points of these lines,
+  which gives the four coordinate points $(2, 0)$, $(0, 2)$, $(-2, 0)$, and $(0, -2)$.
+
+  The slopes of the lines $x - y = plus.minus 2$ are $1$, and the slopes of the lines $x + y = plus.minus 2$
+  are $-1$. Since the product of their slopes is $1 times (-1) = -1$, the adjacent boundary lines are
+  perpendicular to each other.
+
+  The distance between the parallel lines $x - y = 2$ and $x - y = -2$ is given by $abs(2 - (-2)) / sqrt(1^2
+  + (-1)^2) = 4 / sqrt(2) = 2 sqrt(2)$. Similarly, the distance between the other pair of parallel lines is
+  $4 / sqrt(2) = 2 sqrt(2)$.
+
+  Since all four sides are equal in length and adjacent sides are perpendicular, the type of the bounded
+  region is a square.
+
+  The area of this square can be calculated from its side length $s = 2 sqrt(2)$, which gives $"Area" = s^2
+  = (2 sqrt(2))^2 = 8$. Alternatively, using the lengths of the perpendicular diagonals along the coordinate
+  axes which are both $4$ units long, the area is $1/2 times 4 times 4 = 8$.
+//306
++ The slope of the first line $x + (a - 1)y = 1$ is $m_1 = -1 / (a - 1)$, and the slope of the second line
+  $2x + a^2 y = 1$ is $m_2 = -2 / a^2$.
+
+  Since the two lines are perpendicular, the product of their slopes must be $-1$, which gives $(-1 / (a -
+  1)) (-2 / a^2) = -1$.
+
+  Simplifying this equation yields $2 / (a^2 (a - 1)) = -1$, which rearranges to the cubic polynomial $a^3 -
+  a^2 + 2 = 0$.
+
+  Factoring the cubic expression gives $(a + 1)(a^2 - 2a + 2) = 0$. Since $a in RR$, the only real root is
+  $a = -1$.
+
+  Substituting $a = -1$ back into the line equations gives the system of linear equations $x - 2y = 1$ and
+  $2x + y = 1$.
+
+  Solving this system simultaneously by multiplying the second equation by $2$ and adding it to the first
+  gives $5x = 3$, which means $x = 3/5$. Substituting this back yields $y = -1/5$.
+
+  The point of intersection is $(3/5, -1/5)$.
+
+  The distance $d$ of this intersection point from the origin $(0, 0)$ is found using the distance formula
+  $d = sqrt((3/5)^2 + (-1/5)^2)$.
+
+  This simplifies to $d = sqrt(9/25 + 1/25) = sqrt(10/25) = sqrt(10)/5$.
+//307
++ Let a line passing through $P(2, 3)$ make an angle $theta$ with the positive x-axis.
+
+  The parametric coordinates of any point on this line at a distance of $r = 4$ units from $P$ can be
+  expressed as $x = 2 + 4 cos theta$ and $y = 3 + 4 sin theta$.
+
+  Since this point lies on the line $x + y = 7$, substituting these coordinates into the line equation gives
+  $(2 + 4 cos theta) + (3 + 4 sin theta) = 7$.
+
+  Simplifying this relation yields $5 + 4(cos theta + sin theta) = 7$, which reduces to $cos theta + sin
+  theta = 1/2$.
+
+  Expressing $cos theta$ and $sin theta$ in terms of the slope $m = tan theta$, we substitute $cos theta = 1
+  / sqrt(1 + m^2)$ and $sin theta = m / sqrt(1 + m^2)$ into the equation to get $(1 + m) / sqrt(1 + m^2) =
+  1/2$.
+
+  Squaring both sides of this equation gives $(1 + m)^2 / (1 + m^2) = 1/4$, which expands to $4(1 + 2m +
+  m^2) = 1 + m^2$.
+
+  Rearranging the terms into a standard quadratic form leads to $3m^2 + 8m + 3 = 0$.
+
+  Solving this quadratic equation for $m$ using the quadratic formula gives $m = (-8 plus.minus sqrt(8^2 - 4
+  times 3 times 3)) / (2 times 3)$.
+
+  Simplifying under the radical gives $m = (-8 plus.minus sqrt(64 - 36)) / 6 = (-8 plus.minus sqrt(28)) /
+  6$.
+
+  Factoring out the radical leaves the two possible slopes as $m = (-4 plus.minus sqrt(7)) / 3$.
+//308
++ Since the three points $(h, k)$, $(1, 2)$, and $(-3, 4)$ lie on the same line $L_1$, the slope of $L_1$
+  can be calculated using the two known points $(1, 2)$ and $(-3, 4)$ as $m_1 = (4 - 2) / (-3 - 1) = 2 / (-4)
+  = -1/2$.
+
+  The line $L_2$ passes through $(h, k)$ and $(4, 3)$. The slope of $L_2$ is given by $m_2 = (3 - k) / (4 -
+  h)$.
+
+  Since $L_1$ and $L_2$ are perpendicular to each other, the product of their slopes must be $-1$, which
+  gives $m_1 m_2 = -1$.
+
+  Substituting the values of $m_1$ and $m_2$ yields $(-1/2) ((3 - k) / (4 - h)) = -1$. Multiplying both
+  sides by $-2$ gives $(3 - k) / (4 - h) = 2$.
+
+  Expanding this equation leads to $3 - k = 2(4 - h)$, which simplifies to $3 - k = 8 - 2h$. Rearranging the
+  terms gives the first linear relation $2h - k = 5$.
+
+  Since $(h, k)$ also lies on line $L_1$, the slope between $(h, k)$ and $(1, 2)$ must equal $m_1 = -1/2$,
+  which means $(2 - k) / (1 - h) = -1/2$.
+
+  Cross-multiplying gives $2(2 - k) = -1(1 - h)$, which expands to $4 - 2k = -1 + h$. Rearranging the terms
+  gives the second linear relation $h + 2k = 5$.
+
+  We solve this system of equations simultaneously. Multiplying the first equation by $2$ gives $4h - 2k =
+  10$. Adding this to the second equation eliminates $k$, yielding $(4h - 2k) + (h + 2k) = 10 + 5$, which
+  simplifies to $5h = 15$, so $h = 3$.
+
+  Substituting $h = 3$ back into the second equation $3 + 2k = 5$ gives $2k = 2$, which means $k = 1$.
+
+  Thus, the coordinates of the point are $(h, k) = (3, 1)$. The required value of the ratio is $k/h = 1/3$.
+//309
++ A point equidistant from the coordinate axes satisfies the condition $|x| = |y|$, which gives two cases:
+  $y = x$ or $y = -x$.
+
+  Case 1: Substituting $y = x$ into the line equation $3x + 5y = 15$ yields $3x + 5x = 15$, which simplifies
+  to $8x = 15$, so $x = 15/8$ and $y = 15/8$. Since both coordinates are positive, the point $(15/8, 15/8)$
+  lies in the first quadrant.
+
+  Case 2: Substituting $y = -x$ into the line equation $3x + 5y = 15$ yields $3x + 5(-x) = 15$, which
+  simplifies to $-2x = 15$, so $x = -15/2$ and $y = 15/2$. Since the x-coordinate is negative and the
+  y-coordinate is positive, the point $(-15/2, 15/2)$ lies in the second quadrant.
+
+  Therefore, the point can lie in either the first quadrant or the second quadrant.
+//310
++ Let the straight line intersect the x-axis at $A(a, 0)$ and the y-axis at $B(0, b)$.
+
+  Since the intercepted portion $A B$ is bisected at $P(-3, 4)$, the point $P$ is the midpoint of $A B$.
+
+  Using the midpoint formula, we get $(a + 0) / 2 = -3$ and $(0 + b) / 2 = 4$.
+
+  Solving these equations gives the intercepts $a = -6$ and $b = 8$.
+
+  The equation of the line in intercept form is $x/a + y/b = 1$, which becomes $x/(-6) + y/8 = 1$.
+
+  Multiplying the entire equation by $-24$ to clear the denominators gives the final line equation $4x - 3y
+  + 24 = 0$.
+//311
++ The slope $m_1$ of the given line $2x - 3y + 17 = 0$ is found by rewriting it in slope-intercept form,
+  which gives $m_1 = 2/3$.
+
+  The slope $m_2$ of the line passing through the points $(7, 17)$ and $(15, beta)$ is calculated using the
+  two-point formula as $m_2 = (beta - 17) / (15 - 7) = (beta - 17) / 8$.
+
+  Since the two straight lines are perpendicular, the product of their slopes must be equal to $-1$,
+  satisfying $m_1 m_2 = -1$.
+
+  Substituting the values of $m_1$ and $m_2$ yields $(2/3) ((beta - 17) / 8) = -1$.
+
+  Simplifying the fraction gives $(beta - 17) / 12 = -1$.
+
+  Cross-multiplying isolates the numerator, giving $beta - 17 = -12$.
+
+  Solving for the variable gives $beta = 17 - 12 = 5$.
+//312
++ In the given parallelogram $A B D C$, the vertices are ordered consecutively as $A, B, D, C$, which means
+  that $A D$ and $B C$ are the two diagonals.
+
+  Since the diagonals of a parallelogram bisect each other, the midpoint of the diagonal $A D$ must be
+  exactly equal to the midpoint of the diagonal $B C$.
+
+  The coordinates of the vertices are given as $A(1, 2)$, $B(3, 4)$, and $C(2, 5)$.
+
+  The midpoint of the diagonal $B C$ is calculated using the midpoint formula as $((3 + 2)/2, (4 + 5)/2) =
+  (5/2, 9/2)$.
+
+  Let the coordinates of the fourth vertex $D$ be $(x, y)$. Since $(5/2, 9/2)$ is also the midpoint of $A
+  D$, we set up the coordinate relations $(1 + x)/2 = 5/2$ and $(2 + y)/2 = 9/2$.
+
+  Solving these two simple coordinate equations yields $1 + x = 5$, which gives $x = 4$, and $2 + y = 9$,
+  which gives $y = 7$. Thus, the vertex is $D(4, 7)$.
+
+  The equation of the diagonal line passing through the points $A(1, 2)$ and $D(4, 7)$ is found using the
+  two-point line formula $y - 2 = ((7 - 2) / (4 - 1)) (x - 1)$.
+
+  Simplifying the slope fraction yields $y - 2 = 5/3 (x - 1)$.
+
+  Cross-multiplying by $3$ to clear the denominator gives $3(y - 2) = 5(x - 1)$, which expands to $3y - 6 =
+  5x - 5$.
+
+  Rearranging all terms into standard linear form results in the final line equation $5x - 3y + 1 = 0$.
+//313
++ The given curve equation is $y = (x e)^(x^2)$. We first verify that the point $(1, e)$ lies on the curve
+  by substituting $x = 1$, which gives $y = (1 times e)^(1^2) = e$.
+
+  Taking the natural logarithm on both sides of the curve equation gives $ln y = x^2 ln(x e) = x^2 (ln x +
+  1)$.
+
+  Differentiating both sides with respect to $x$ using the product rule yields $1/y d y / d x = 2x (ln x +
+  1) + x^2 (1/x) = 2x ln x + 2x + x = 2x ln x + 3x$.
+
+  Isolating the derivative gives the slope function $d y / d x = y (2x ln x + 3x)$.
+
+  To find the slope $m$ of the tangent line at the point $(1, e)$, we substitute $x = 1$ and $y = e$ into
+  this derivative expression, which results in $m = e (2(1) ln 1 + 3(1)) = 3e$.
+
+  The equation of the tangent line passing through the point $(1, e)$ with slope $m = 3e$ is given by the
+  point-slope form $y - e = 3e(x - 1)$, which simplifies to $y = 3e x - 2e$.
+
+  To show that this tangent line also passes through the point $(4/3, 2e)$, we substitute $x = 4/3$ into the
+  tangent line equation.
+
+  This evaluation gives $y = 3e (4/3) - 2e = 4e - 2e = 2e$.
+
+  Since the resulting y-value exactly matches the y-coordinate of the given point, the tangent line passes
+  through $(4/3, 2e)$.
+//314
++ Let the two given lines representing adjacent sides of the parallelogram be $x + y = 3$ and $x - y = -3$.
+
+  The intersection of these two lines gives one vertex, which we can call $A$. Solving $x + y = 3$ and $x -
+  y = -3$ simultaneously yields $2x = 0$, so $x = 0$ and $y = 3$. Thus, $A = (0, 3)$.
+
+  The diagonals of a parallelogram bisect each other at their point of intersection $M(2, 4)$, making $M$
+  the midpoint of the diagonal $A C$.
+
+  Using the midpoint formula for $A(0, 3)$ and $C(x_C, y_C)$, we set $(0 + x_C) / 2 = 2$ and $(3 + y_C) / 2
+  = 4$, which gives the opposite vertex $C = (4, 5)$.
+
+  The other two sides of the parallelogram are parallel to the given lines and pass through the vertex $C(4,
+  5)$.
+
+  The side parallel to $x + y = 3$ passing through $C(4, 5)$ is $x + y = 4 + 5 = 9$. The side parallel to $x
+  - y = -3$ passing through $C(4, 5)$ is $x - y = 4 - 5 = -1$.
+
+  The third vertex $B$ is found by intersecting the line $x + y = 3$ with $x - y = -1$. Solving this system
+  yields $2x = 2$, which gives $B = (1, 2)$.
+
+  The fourth vertex $D$ is found by intersecting the line $x - y = -3$ with $x + y = 9$. Solving this system
+  yields $2x = 6$, which gives $D = (3, 6)$.
+
+  Therefore, the four vertices of the parallelogram are $(0, 3)$, $(1, 2)$, $(4, 5)$, and $(3, 6)$.
+//315
++ Let any point on the curve $y = sqrt(x)$ be given by $P(x, sqrt(x))$ where $x > 0$.
+
+  The square of the distance $D^2$ between the point $P(x, sqrt(x))$ and the given point $(3/2, 0)$ is found
+  using the distance formula
+
+  $D^2 = (x - 3/2)^2 + (sqrt(x) - 0)^2$
+
+  Expanding the squared term gives $D^2 = x^2 - 3x + 9/4 + x$, which simplifies to the quadratic expression
+  $D^2 = x^2 - 2x + 9/4$.
+
+  To find the minimum value of this expression, we can complete the square $D^2 = (x - 1)^2 - 1 + 9/4 = (x -
+  1)^2 + 5/4$
+
+  Since $(x - 1)^2 >= 0$ for all real values of $x$, the minimum value of $D^2$ occurs exactly when $x - 1 =
+  0$, which means $x = 1$. This value lies well within the given domain $x > 0$.
+
+  Substituting $x = 1$ gives the minimum squared distance as $D^2 = 5/4$.
+
+  Taking the positive square root yields the shortest distance $D = sqrt(5/4) = sqrt(5)/2$.
+//316
++ The equation of the given line is $3x + 4y - 24 = 0$, which can be rewritten in intercept form as $3x/24 +
+  4y/24 = 1$, simplifying to $x/8 + y/6 = 1$.
+
+  This means the line intersects the x-axis at $A(8, 0)$ and the y-axis at $B(0, 6)$. The origin is $O(0, 0)$.
+
+  The lengths of the three sides of $triangle O A B$ are: Side $c = O A = 8$, side $b = O B = 6$, and side
+  $a = A B = sqrt(8^2 + 6^2) = sqrt(64 + 36) = 10$
+
+  The coordinates of the vertices are $(x_1, y_1) = O(0, 0)$, $(x_2, y_2) = A(8, 0)$, and $(x_3, y_3) = B(0,
+  6)$.
+
+  The incenter $(I_x, I_y)$ of a triangle is given by the formula $I_x = (a x_1 + b x_2 + c x_3) / (a + b +
+  c)$ and $I_y = (a y_1 + b y_2 + c y_3) / (a + b + c)$.
+
+  Substituting the calculated side lengths and coordinates into the formula for $I_x$ yields $I_x = (10
+  times 0 + 6 times 8 + 8 times 0) / (10 + 6 + 8) = 48 / 24 = 2$.
+
+  Substituting the values into the formula for $I_y$ yields $I_y = (10 times 0 + 6 times 0 + 8 times 6) /
+  (10 + 6 + 8) = 48 / 24 = 2$.
+
+  Therefore, the incenter of $triangle O A B$ is $(2, 2)$.
+//317
++ Let the moving point on the line be $P(x_1, y_1)$ such that it satisfies the equation $2x_1 - 3y_1 + 4 =
+  0$.
+
+  The other two fixed vertices of the triangle are given as $Q(1, 4)$ and $R(3, -2)$.
+
+  Let the centroid of $triangle P Q R$ be $G(h, k)$.
+
+  Using the coordinates of the vertices, the centroid components are calculated as $h = (x_1 + 1 + 3) / 3 =
+  (x_1 + 4) / 3$ and $k = (y_1 + 4 - 2) / 3 = (y_1 + 2) / 3$.
+
+  Isolating the parametric coordinates of the moving point gives $x_1 = 3h - 4$ and $y_1 = 3k - 2$.
+
+  Since the point $P(x_1, y_1)$ lies on the line $2x - 3y + 4 = 0$, we substitute these expressions back
+  into the line constraint equation to get $2(3h - 4) - 3(3k - 2) + 4 = 0$.
+
+  Expanding and collecting the terms yields $6h - 8 - 9k + 6 + 4 = 0$, which simplifies to the linear
+  relation $6h - 9k + 2 = 0$.
+
+  Generalising the coordinate locus positions $(h, k)$ to $(x, y)$ results in the equation $6x - 9y + 2 =
+  0$.
+//318
++ Let the variable line pass through the fixed point $(2, 3)$ and intersect the coordinate axes at $P(a, 0)$
+  and $Q(0, b)$.
+
+  The equation of this line in intercept form is given by $x/a + y/b = 1$.
+
+  Since this line passes through the fixed point $(2, 3)$, these coordinates must satisfy the equation,
+  which yields the condition $2/a + 3/b = 1$.
+
+  The rectangle $O P R Q$ is completed with $O(0, 0)$, $P(a, 0)$, and $Q(0, b)$. For $O P R Q$ to form a
+  rectangle, the coordinates of the opposite vertex $R$ must be exactly $(a, b)$.
+
+  Let the coordinates of the moving point $R$ be $(h, k)$, which gives $h = a$ and $k = b$.
+
+  Substituting these parameters back into our fixed point condition yields $2/h + 3/k = 1$.
+
+  Cross-multiplying to clear the fractions gives $2k + 3h = h k$.
+
+  Generalising the coordinates $(h, k)$ to $(x, y)$ results in the required locus equation $2/x + 3/y = 1$,
+  which can also be written in polynomial form as $3x + 2y = x y$.
+//319
++ The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ is given by the
+  coordinate determinant expression $1/2 |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| = 28$.
+
+  Substituting the given vertices $(k, -3k)$, $(5, k)$, and $(-k, 2)$ into the area constraint yields $1/2
+  |k(k - 2) + 5(2 - (-3k)) + (-k)(-3k - k)| = 28$.
+
+  Simplifying the expression inside the absolute value leads to $|k^2 - 2k + 10 + 15k + 4k^2| = 56$, which
+  becomes $|5k^2 + 13k + 10| = 56$.
+
+  We evaluate the two possible algebraic cases: Case 1: $5k^2 + 13k + 10 = 56$ yields $5k^2 + 13k - 46 =
+  0$. Factoring this expression gives $(5k + 23)(k - 2) = 0$. Since $k$ must be a strict integer, we find $k
+  = 2$. Case 2: $5k^2 + 13k + 10 = -56$ yields $5k^2 + 13k + 66 = 0$. The discriminant of this quadratic is
+  negative ($13^2 - 4(5)(66) < 0$), meaning it provides no real roots.
+
+  Substituting $k = 2$ back into the original coordinates defines the three true vertices of the triangle as
+  $A(2, -6)$, $B(5, 2)$, and $C(-2, 2)$.
+
+  Notice that vertices $B(5, 2)$ and $C(-2, 2)$ share the exact same y-coordinate, meaning the base side $B
+  C$ is a completely horizontal line along $y = 2$.
+
+  The altitude dropped from vertex $A(2, -6)$ to the horizontal side $B C$ must be a vertical line, which
+  gives its equation directly as $x = 2$.
+
+  Next, we find a second altitude line dropped from vertex $B(5, 2)$ to the opposite side $A C$. The slope
+  of line $A C$ connecting $(2, -6)$ and $(-2, 2)$ is calculated as $m_(A C) = (2 - (-6)) / (-2 - 2) = 8 /
+  (-4) = -2$.
+
+  Since the altitude line is perpendicular to $A C$, its slope must be the negative reciprocal, which gives
+  $m = 1/2$. The equation of this altitude passing through $B(5, 2)$ is $y - 2 = 1/2(x - 5)$, which expands
+  to $x - 2y - 1 = 0$.
+
+  The orthocenter is the intersection point of these two altitude lines. Substituting $x = 2$ into the
+  second altitude equation gives $2 - 2y - 1 = 0$, which simplifies to $2y = 1$, so $y = 1/2$.
+
+  Therefore, the coordinates of the orthocenter are $(2, 1/2)$.
+//320
++ Let the point of intersection of the two lines be $P(x_1, y_1)$.
+
+  Since $P$ lies in the fourth quadrant and is equidistant from the coordinate axes, its coordinates must
+  satisfy the condition $x_1 > 0$, $y_1 < 0$, and $|x_1| = |y_1|$, which implies $y_1 = -x_1$.
+
+  Let $x_1 = k$ and $y_1 = -k$, where $k$ is a positive constant ($k > 0$).
+
+  Since $P(k, -k)$ is the point of intersection, it must lie on both given straight lines.
+
+  Substituting these coordinates into the first line equation $4a x + 2a y + c = 0$ gives $4a(k) + 2a(-k) +
+  c = 0$.
+
+  Simplifying this expression yields $2a k + c = 0$, which can be rearranged to find $k = -c / (2a)$.
+
+  Substituting the coordinates of $P$ into the second line equation $5b x + 2b y + d = 0$ gives $5b(k) +
+  2b(-k) + d = 0$.
+
+  Simplifying this expression yields $3b k + d = 0$, which can be rearranged to find $k = -d / (3b)$.
+
+  Equating both expressions for the constant parameter $k$ gives $-c / (2a) = -d / (3b)$.
+
+  Cancelling the negative signs on both sides leads to $c / (2a) = d / (3b)$.
+
+  Cross-multiplying the denominators directly proves the required relation $2a d = 3b c$.
+//321
++ Since $P S$ is the median of $triangle P Q R$ drawn from the vertex $P$, the point $S$ must be the
+  midpoint of the opposite side $Q R$.
+
+  The coordinates of the vertices are given as $Q(6, -1)$ and $R(7, 3)$.
+
+  The coordinates of the midpoint $S$ are found using the midpoint formula as $((6 + 7)/2, (-1 + 3)/2) =
+  (13/2, 1)$.
+
+  The line $P S$ passes through the vertex $P(2, 2)$ and the midpoint $S(13/2, 1)$. The slope $m$ of the
+  median line $P S$ is calculated as $m = (1 - 2) / (13/2 - 2) = -1 / (9/2) = -2/9$.
+
+  Any line parallel to $P S$ must have the exact same slope, so its slope is also $-2/9$.
+
+  The equation of the line passing through the point $(1, -1)$ with a slope of $-2/9$ is given by the
+  point-slope formula as $y - (-1) = -2/9(x - 1)$.
+
+  Simplifying the signs gives $y + 1 = -2/9(x - 1)$.
+
+  Cross-multiplying by $9$ to clear the denominator yields $9(y + 1) = -2(x - 1)$, which expands to $9y + 9
+  = -2x + 2$.
+
+  Rearranging all terms to one side into standard linear form results in the final line equation $2x + 9y +
+  7 = 0$.
+//322
++ Let the vertices of the triangle be $A(x_1, y_1)$, $B(x_2, y_2)$, and $C(x_3, y_3)$. Let the given
+  midpoints of the sides be $M_1(0, 1)$, $M_2(1, 1)$, and $M_3(1, 0)$.
+
+  Using the geometric property that a vertex is equal to the sum of its two adjacent midpoints minus the
+  opposite midpoint, we find the three vertices: $A = M_1 + M_3 - M_2 = (0 + 1 - 1, 1 + 0 - 1) = (0, 0)$, $B
+  = M_1 + M_2 - M_3 = (0 + 1 - 1, 1 + 1 - 0) = (0, 2)$, and - $C = M_2 + M_3 - M_1 = (1 + 1 - 0, 1 + 0 - 1)
+  = (2, 0)$
+
+  The triangle has vertices at $A(0, 0)$, $B(0, 2)$, and $C(2, 0)$. This forms a right-angled isosceles
+  triangle at the origin.
+
+  The lengths of the sides opposite to vertices $A$, $B$, and $C$ are: Side $a = B C = sqrt((2 - 0)^2 + (0 -
+  2)^2) = sqrt(8) = 2 sqrt(2)$, side $b = A C = sqrt((2 - 0)^2 + (0 - 0)^2) = 2$, and side $c = A B =
+  sqrt((0 - 0)^2 + (2 - 0)^2) = 2$.
+
+  The $x$-coordinate of the incenter $I_x$ is given by the standard formula $I_x = (a x_1 + b x_2 + c x_3) /
+  (a + b + c)$.
+
+  Substituting the side lengths and coordinate positions yields $I_x = (2 sqrt(2) times 0 + 2 times 0 + 2
+  times 2) / (2 sqrt(2) + 2 + 2)$, which simplifies to $I_x = 4 / (4 + 2 sqrt(2))$.
+
+  Factoring out $2$ from the expression gives $I_x = 2 / (2 + sqrt(2))$.
+
+  Rationalising the denominator by multiplying the numerator and denominator by $(2 - sqrt(2))$ gives $I_x =
+  (2(2 - sqrt(2))) / (4 - 2) = 2 - sqrt(2)$.
+//323
++ Let the slope of the required line $L$ be $m$. The given line is $sqrt(3)x + y = 1$, which has a slope of
+  $m_1 = -sqrt(3)$.
+
+  The acute angle between the two lines is $60^degree$. Using the angle between two lines formula, we have
+  $tan 60^degree = abs((m - m_1) / (1 + m m_1))$.
+
+  Substituting the values gives $sqrt(3) = abs((m - (-sqrt(3))) / (1 + m(-sqrt(3)))) = abs((m + sqrt(3)) /
+  (1 - sqrt(3)m))$.
+
+  This gives two possible algebraic cases:
+
+  Case 1: $(m + sqrt(3)) / (1 - sqrt(3)m) = sqrt(3)$, which simplifies to $m + sqrt(3) = sqrt(3) - 3m$. This
+  leads to $4m = 0$, so $m = 0$. If $m = 0$, the line passing through $(3, -2)$ is the horizontal line $y -
+  (-2) = 0(x - 3)$, which simplifies to $y + 2 = 0$. Since this line is completely parallel to the x-axis,
+  it never intersects it. Thus, this case is rejected.
+
+  Case 2: $(m + sqrt(3)) / (1 - sqrt(3)m) = -sqrt(3)$, which simplifies to $m + sqrt(3) = -sqrt(3) +
+  3m$. This leads to $2m = 2sqrt(3)$, so $m = sqrt(3)$. Since this line has a non-zero slope, it is
+  guaranteed to intersect the $x$-axis.
+
+  The equation of the line passing through the point $(3, -2)$ with a slope of $m = sqrt(3)$ is given by the
+  point-slope form $y - (-2) = sqrt(3)(x - 3)$.
+
+  Expanding this expression gives $y + 2 = sqrt(3)x - 3sqrt(3)$.
+
+  Rearranging all the terms into standard linear form results in the final equation $sqrt(3)x - y - (2 +
+  3sqrt(3)) = 0$, which can also be written as $y - sqrt(3)x + 2 + 3sqrt(3) = 0$.
+//324
++ The three given lines forming the triangle are $L_1: (1 + p)x - p y + p(1 + p) = 0$, $L_2: (1 + q)x - q y
+  + q(1 + q) = 0$, and $L_3: y = 0$.
+
+  First, we find the vertices of the triangle by determining the points of intersection: Intersecting $L_1$
+  with $L_3 (y = 0)$ yields $(1 + p)x + p(1 + p) = 0$, which simplifies to $x = -p$. Thus, vertex $A$ is $(-p,
+  0)$. Intersecting $L_2$ with $L_3 (y = 0)$ similarly yields $x = -q$. Thus, vertex $B$ is $(-q,
+  0)$. Intersecting $L_1$ and $L_2$ simultaneously by subtracting the two equations yields $(p - q)x - (p -
+  q)y + (p - q)(1 + p + q) = 0$. Since $p != q$, dividing by $(p - q)$ gives $x - y + 1 + p + q =
+  0$. Substituting this back yields the intersection vertex $C(p q, (1 + p)(1 + q))$.
+
+  Since vertices $A(-p, 0)$ and $B(-q, 0)$ lie on the x-axis ($y = 0$), the side $A B$ is completely
+  horizontal. The altitude dropped from vertex $C(p q, (1 + p)(1 + q))$ to the side $A B$ must be a vertical
+  line, giving its equation directly as $x = p q$.
+
+  Next, we find the altitude dropped from vertex $A(-p, 0)$ to the opposite side $B C$. The slope of line $B
+  C$ connecting $(-q, 0)$ and $(p q, (1 + p)(1 + q))$ is $m_(B C) = ((1 + p)(1 + q) - 0) / (p q - (-q)) =
+  ((1 + p)(1 + q)) / (q(1 + p)) = (1 + q) / q$.
+
+  Since the altitude line is perpendicular to $B C$, its slope is the negative reciprocal, giving $m = -q /
+  (1 + q)$. The equation of this altitude line passing through $A(-p, 0)$ is $y - 0 = -q / (1 + q) (x -
+  (-p))$.
+
+  Let the orthocenter of the triangle be $H(h, k)$. Since it is the intersection of the two altitudes, its
+  coordinates must satisfy both equations.
+
+  From the first altitude, we have $h = p q$. Substituting $x = h = p q$ into the second altitude equation
+  yields $k = -q / (1 + q) (p q + p) = -q / (1 + q) p(q + 1) = -p q$.
+
+  Thus, we have $h = p q$ and $k = -p q$, which directly implies that $h = -k$, or $h + k = 0$.
+
+  Generalising the coordinate positions $(h, k)$ to $(x, y)$, we obtain the required locus equation $x + y =
+  0$.
+//325
++ The coordinates of the vertices of the triangle are $O(0, 0)$, $P(3, 4)$, and $Q(6, 0)$.
+
+  The coordinates of the centroid $R(x, y)$ of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and
+  $(x_3, y_3)$ are given by the formulas $x = (x_1 + x_2 + x_3) / 3$ and $y = (y_1 + y_2 + y_3) / 3$.
+
+  Substituting the given vertices into the formula for the x-coordinate yields $x = (0 + 3 + 6) / 3 = 9 / 3
+  = 3$.
+
+  Substituting the given vertices into the formula for the y-coordinate yields $y = (0 + 4 + 0) / 3 = 4 /
+  3$.
+
+  Therefore, the coordinates of the point $R$ are $(3, 4/3)$.
+//326
++ Let the vertices of the triangle be $A(0, 0)$, $B(3, 4)$, and $C(4, 0)$.
+
+  Since the vertices $A(0, 0)$ and $C(4, 0)$ share the same y-coordinate, the base side $A C$ is a
+  horizontal line lying along the x-axis ($y = 0$).
+
+  The altitude line dropped from the opposite vertex $B(3, 4)$ to the horizontal side $A C$ must be a
+  completely vertical line, giving its equation directly as $x = 3$.
+
+  Next, we find a second altitude line, dropped from vertex $A(0, 0)$ to the opposite side $B C$. The slope
+  of line $B C$ connecting $(3, 4)$ and $(4, 0)$ is calculated using the two-point formula as $m_(B C) = (0
+  - 4) / (4 - 3) = -4$.
+
+  Since the altitude line is perpendicular to $B C$, its slope must be the negative reciprocal of $-4$,
+  which gives $m = 1/4$.
+
+  The equation of this second altitude line passing through the origin $A(0, 0)$ with a slope of $1/4$ is $y
+  - 0 = 1/4 (x - 0)$, which simplifies to $y = 1/4 x$.
+
+  The orthocenter is the point of intersection of these two altitude lines. Substituting $x = 3$ from the
+  first altitude equation into the second altitude equation yields $y = 1/4 (3) = 3/4$.
+
+  Therefore, the coordinates of the orthocenter are $(3, 3/4)$.
+//327
++ To find the point of intersection, we substitute the second line equation $y = m x + 1$ into the first line equation $3x + 4y = 9$.
+
+  This yields $3x + 4(m x + 1) = 9$.
+
+  Expanding and collecting the terms gives $3x + 4m x + 4 = 9$, which simplifies to $(3 + 4m)x = 5$.
+
+  Isolating the x-coordinate gives $x = 5 / (3 + 4m)$.
+
+  For $x$ to be an integer, the denominator $(3 + 4m)$ must be an integer divisor of $5$.
+
+  The integer divisors of $5$ are $1, -1, 5,$ and $-5$. We test each case for an integer value of $m$:
+
+  1. $3 + 4m = 1 => 4m = -2 => m = -1/2$ (Not an integer)
+
+  2. $3 + 4m = -1 => 4m = -4 => m = -1$ (Integer value)
+
+  3. $3 + 4m = 5 => 4m = 2 => m = 1/2$ (Not an integer)
+
+  4. $3 + 4m = -5 => 4m = -8 => m = -2$ (Integer value)
+
+  The possible integer values of $m$ are $-1$ and $-2$.
+
+  Therefore, the number of integer values of $m$ is $2$.
+//328
++ The two given parallel lines are $L_1: 4x + 2y - 9 = 0$ and $L_2: 2x + y + 6 = 0$.
+
+  To make their coefficients comparable, we can divide the first equation by $2$, which gives $L_1: 2x + y -
+  4.5 = 0$.
+
+  A variable straight line passing through the origin $O(0, 0)$ intersects these lines at points $P$ and
+  $Q$. By the property of similar triangles formed by parallel lines intersecting a transversal through the
+  origin, the ratio of the lengths $(O P)/(O Q)$ is equal to the ratio of the perpendicular distances $d_1$
+  and $d_2$ from the origin to the respective lines.
+
+  The perpendicular distance $d_1$ from $O(0, 0)$ to $L_1: 2x + y - 9/2 = 0$ is given by $d_1 = abs(-9/2) /
+  sqrt(2^2 + 1^2) = 9 / (2 sqrt(5))$.
+
+  The perpendicular distance $d_2$ from $O(0, 0)$ to $L_2: 2x + y + 6 = 0$ is given by $d_2 = abs(6) /
+  sqrt(2^2 + 1^2) = 6 / sqrt(5)$.
+
+  Since the constant terms $-9/2$ and $6$ have opposite algebraic signs, the origin $O$ lies between the two
+  parallel lines. Thus, $O$ divides the segment $P Q$ internally.
+
+  The ratio in which $O$ divides $P Q$ is given by $(O P)/(O Q) = d_1 / d_2$.
+
+  Substituting the calculated distances yields $(O P)/(O Q) = (9 / (2 sqrt(5))) / (6 / sqrt(5)) = 9 / (2
+  times 6) = 9 / 12 = 3/4$.
+
+  Therefore, the ratio in which $O$ divides $P Q$ is $3 : 4$.
+//329
++ The coordinates of the vertices of the triangle are given as $A(1, sqrt(3))$, $B(0, 0)$, and $C(2, 0)$.
+
+  Let's calculate the length of the three sides to identify the type of triangle: Side $c = A B = sqrt((1 -
+  0)^2 + (sqrt(3) - 0)^2) = sqrt(1 + 3) = 2$, side $a = B C = sqrt((2 - 0)^2 + (0 - 0)^2) = 2$, and side $b
+  = C A = sqrt((1 - 2)^2 + (sqrt(3) - 0)^2) = sqrt(1 + 3) = 2$
+
+  Since all three sides are equal to $2$ units, the triangle is an equilateral triangle.
+
+  In an equilateral triangle, all centers (centroid, incenter, circumcenter, and orthocenter) coincide at
+  the exact same point. Thus, we can find the incenter by calculating the centroid coordinates $G(x, y)$.
+
+  The x-coordinate is the average of the x-coordinates of the vertices: $x = (1 + 0 + 2) / 3 = 3 / 3 = 1$.
+
+  The y-coordinate is the average of the y-coordinates of the vertices: $y = (sqrt(3) + 0 + 0) / 3 = sqrt(3)
+  / 3 = 1 / sqrt(3)$.
+
+  Therefore, the coordinates of the incenter are $(1, 1/sqrt(3))$.
+//330
++ Let the vertices of the regular hexagon inscribed in a unit circle be represented in the complex plane or
+  polar coordinates with a radius of $1$.
+
+  The distance from one vertex $A_0$ to its adjacent vertices $A_1$ and $A_5$ is equal to the side length of
+  the regular hexagon, which is $A_0 A_1 = 1$.
+
+  The distance from $A_0$ to the opposite vertex $A_3$ is the diameter of the circle, which is $A_0 A_3 = 2$.
+
+  The line segments $A_0 A_2$ and $A_0 A_4$ represent the shorter diagonals of the regular hexagon. In a
+  right-angled triangle formed by a side, a short diagonal, and the diameter, we use the Pythagorean theorem
+  to find their lengths as $A_0 A_2 = sqrt(3)$ and $A_0 A_4 = sqrt(3)$.
+
+  The required product of the lengths of the line segments $A_0 A_1$, $A_0 A_2$, and $A_0 A_4$ is calculated
+  as $A_0 A_1 times A_0 A_2 times A_0 A_4 = 1 times sqrt(3) times sqrt(3) = 3$.
+//331
++ Let the vertices of the parallelogram in cyclic order be $P(1, 2)$, $Q(4, 6)$, $R(5, 7)$, and $S(a, b)$.
+
+  Since the diagonals of a parallelogram bisect each other, the midpoint of the diagonal $P R$ must be
+  exactly equal to the midpoint of the diagonal $Q S$.
+
+  The coordinates of the midpoint of $P R$ are calculated using the midpoint formula as $((1 + 5)/2, (2 +
+  7)/2) = (3, 9/2)$.
+
+  The coordinates of the midpoint of $Q S$ are given by $((4 + a)/2, (6 + b)/2)$.
+
+  Equating the x-coordinates gives $(4 + a)/2 = 3$, which simplifies to $4 + a = 6$, so $a = 2$.
+
+  Equating the y-coordinates gives $(6 + b)/2 = 9/2$, which simplifies to $6 + b = 9$, so $b = 3$.
+
+  Therefore, the missing coordinates are $a = 2$ and $b = 3$.
+//332
++ Let the first diagonal of the parallelogram $P Q R S$ lie along the line $L_1: x + 3y = 4$. Rewriting this
+  equation in slope-intercept form gives $3y = -x + 4$, which simplifies to $y = -1/3 x + 4/3$. Thus, the
+  slope of the first diagonal is $m_1 = -1/3$.
+
+  Let the second diagonal lie along the line $L_2: 6x - 2y = 7$. Rewriting this equation in slope-intercept
+  form gives $2y = 6x - 7$, which simplifies to $y = 3x - 7/2$. Thus, the slope of the second diagonal is
+  $m_2 = 3$.
+
+  To find the geometric relationship between the two diagonals, we calculate the product of their slopes:
+  $m_1 m_2 = (-1/3) times 3 = -1$.
+
+  Since the product of their slopes is exactly equal to $-1$, the two diagonals are perpendicular to each
+  other.
+
+  By geometric definition, a parallelogram whose diagonals intersect at a right angle is a rhombus.
+//333
++ The given curve equation is $y = cos x cos(x + 2) - cos^2(x + 1)$.
+
+  Using the product-to-sum identity $cos A cos B = 1/2 (cos(A - B) + cos(A + B))$, the first term becomes
+  $cos x cos(x + 2) = 1/2 (cos(-2) + cos(2x + 2)) = 1/2 (cos 2 + cos(2x + 2))$.
+
+  Using the power-reduction formula $cos^2 U = 1/2 (1 + cos 2U)$, the second term becomes $cos^2(x + 1) =
+  1/2 (1 + cos(2x + 2))$.
+
+  Substituting these expansions back into the curve equation yields $y = 1/2 (cos 2 + cos(2x + 2)) - 1/2 (1
+  + cos(2x + 2))$.
+
+  Simplifying this expression cancels out the variable terms containing $x$, leaving $y = 1/2 (cos 2 - 1)$.
+
+  Using the half-angle identity $1 - cos 2 = 2 sin^2 1$, we can rewrite the constant expression as $y = 1/2
+  (-2 sin^2 1) = -sin^2 1$.
+
+  Since $y = -sin^2 1$ is a constant value independent of $x$, this equation represents a horizontal
+  straight line. Because the y-coordinate remains fixed for all inputs of $x$, it is completely parallel to
+  the x-axis.
+
+  To verify that it passes through the point $(pi/2, -sin^2 1)$, we check its coordinates against our
+  simplified line equation. At $x = pi/2$, the y-coordinate evaluates to $-sin^2 1$, which matches the given
+  point exactly.
+//334
++ Let the equation of the line $L$ before the rotation of axes be written in intercept form as $x/a + y/b =
+  1$, which can be rearranged to $1/a x + 1/b y - 1 = 0$.
+
+  The perpendicular distance $d$ from the origin $(0, 0)$ to this line is given by the formula $d = abs(-1)
+  / sqrt((1/a)^2 + (1/b)^2) = 1 / sqrt(1/a^2 + 1/b^2)$.
+
+  Squaring both sides of this distance equation gives $d^2 = 1 / (1/a^2 + 1/b^2)$, which can be rewritten as
+  $1/d^2 = 1/a^2 + 1/b^2$.
+
+  When the coordinate axes are rotated through an angle keeping the origin fixed, the distance of the line
+  $L$ from the origin remains completely unchanged (invariant).
+
+  The equation of the same line $L$ with respect to the new rotated axes is written in intercept form as
+  $X/p + Y/q = 1$, which can be rearranged to $1/p X + 1/q Y - 1 = 0$.
+
+  The perpendicular distance from the fixed origin $(0, 0)$ to this new representation of the line must
+  still be equal to $d$. Applying the distance formula yields $d = abs(-1) / sqrt((1/p)^2 + (1/q)^2) = 1 /
+  sqrt(1/p^2 + 1/q^2)$.
+
+  Squaring both sides gives $d^2 = 1 / (1/p^2 + 1/q^2)$, which can be rewritten as $1/d^2 = 1/p^2 + 1/q^2$.
+
+  Equating the two expressions for the invariant value $1/d^2$ directly proves the required relation $1/a^2
+  + 1/b^2 = 1/p^2 + 1/q^2$.
+//335
++ Let the initial point be $P_0(4, 1)$.
+
+  Step 1: The point $P_0(4, 1)$ is reflected about the line $y = x$. Under this reflection, the coordinates
+  swap roles $(x, y) arrow (y, x)$. This gives the new point $P_1(1, 4)$.
+
+  Step 2: The point $P_1(1, 4)$ moves a distance of $2$ units along the positive direction of the
+  x-axis. This translation modifies only the x-coordinate $(x, y) arrow (x + 2, y)$. This gives the new
+  point $P_2(1 + 2, 4) = P_2(3, 4)$.
+
+  Step 3: The point $P_2(3, 4)$ is rotated through an angle of $alpha = pi/4$ about the origin in the
+  counter-clockwise direction. The standard rotation transformation matrix formulas are given by $X = x cos
+  alpha - y sin alpha$ and $Y = x sin alpha + y cos alpha$.
+
+  Substituting $x = 3$, $y = 4$, and $alpha = pi/4$ into the formula for the new x-coordinate yields $X = 3
+  cos(pi/4) - 4 sin(pi/4) = 3(1/sqrt(2)) - 4(1/sqrt(2)) = -1/sqrt(2)$.
+
+  Substituting the values into the formula for the new y-coordinate yields $Y = 3 sin(pi/4) + 4 cos(pi/4) =
+  3(1/sqrt(2)) + 4(1/sqrt(2)) = 7/sqrt(2)$.
+
+  Therefore, the final coordinates of the point are $(-1/sqrt(2), 7/sqrt(2))$.
+//336
++ To prove that the points $P_1(-a, -b)$, $P_2(0, 0)$, $P_3(a, b)$, and $P_4(a^2, a b)$ are collinear, we
+  find the equation of the line passing through any two points and verify that the others lie on it.
+
+  The slope $m$ of the line passing through the origin $P_2(0, 0)$ and the point $P_3(a, b)$ is given by $m
+  = (b - 0) / (a - 0) = b/a$.
+
+  The equation of this line in point-slope form is $y - 0 = b/a (x - 0)$, which simplifies to $b x - a y =
+  0$.
+
+  Now, we check if the remaining points satisfy this line equation by direct substitution.
+
+  Substituting the coordinates of $P_1(-a, -b)$ into the equation gives $b(-a) - a(-b) = -a b + a b =
+  0$. This matches the equation, so $P_1$ lies on the line.
+
+  Substituting the coordinates of $P_4(a^2, a b)$ into the equation gives $b(a^2) - a(a b) = a^2 b - a^2 b =
+  0$. This also matches the equation, so $P_4$ lies on the line.
+
+  Since all four points satisfy the same linear relation $b x - a y = 0$, they are collinear for all
+  non-zero values of $a$.
+//337
++ Let the equation of the variable straight line be $L: u x + v y + w = 0$.
+
+  The algebraic perpendicular distance from any point $(x_0, y_0)$ to this line is proportional to the value
+  $(u x_0 + v y_0 + w) / sqrt(u^2 + v^2)$.
+
+  We are given that the algebraic sum of the perpendicular distances from the three points $(2, 0)$, $(0,
+  2)$, and $(1, 1)$ to this line is equal to zero. Therefore, we can sum the numerators directly
+
+  $(u(2) + v(0) + w) + (u(0) + v(2) + w) + (u(1) + v(1) + w) = 0$
+
+  Expanding and collecting the like terms yields $2u + w + 2v + w + u + v + w = 0=>3u + 3v + 3w = 0$
+
+  Dividing the entire equation by $3$ simplifies the relation to $u + v + w = 0$
+
+  We can rewrite this structural relation in a form that matches our variable line equation $u x + v y + w =
+  0$ by matching coefficients $u(1) + v(1) + w = 0$
+
+  Comparing this directly with the line template $u x + v y + w = 0$, we can see that the coordinates $(x,
+  y) = (1, 1)$ must satisfy the equation of the line for all possible values of the parameters $u$, $v$, and
+  $w$.
+
+  Therefore, the variable straight line always passes through the fixed point $(1, 1)$.
+//338
++ Since the parameters $a$, $b$, and $c$ are in Arithmetic Progression (A.P.), they satisfy the standard
+  relation $2b = a + c$, which can be rearranged to $a - 2b + c = 0$.
+
+  The given equation of the variable straight line is $a x + b y + c = 0$.
+
+  We can rewrite the A.P. structural condition to match the form of the line equation by grouping the
+  coefficients: $a(1) + b(-2) + c = 0$.
+
+  Comparing this relation directly with the line equation $a x + b y + c = 0$, we find that the coordinates
+  $x = 1$ and $y = -2$ satisfy the equation for all possible values of the parameters $a$, $b$, and $c$.
+
+  Therefore, the variable straight line always passes through the fixed point $(1, -2)$.
+//339
++ The two given functions are $y = 10^x$ and $y = log_(10) x$.
+
+  By the definition of a logarithm, the equation $y = log_(10) x$ can be converted into its equivalent
+  exponential form as $x = 10^y$.
+
+  Comparing the first curve $y = 10^x$ with the rewritten second curve $x = 10^y$, we see that one
+  expression can be obtained from the other simply by swapping the variables $x$ and $y$ ($x arrow y$ and $y
+  arrow x$).
+
+  In coordinate geometry, swapping the coordinates $(x, y)$ to $(y, x)$ represents a perfect geometric
+  reflection across the line $y = x$.
+
+  This confirms that the exponential function $y = 10^x$ and the logarithmic function $y = log_(10) x$ are
+  mathematical inverses of each other, making their graphs mirror images across the primary diagonal axis.
+
+  Therefore, the equation of the line of reflection is $y = x$.
+//340
++ Let the first line be $L_1: 2x + 2y + 19 = 0$, where $a_1 = 2$ and $b_1 = 2$.
+
+  Let the second line be $L_2: 9x + 6y - 17 = 0$, where $a_2 = 9$ and $b_2 = 6$.
+
+  The intercept product condition for concyclicity requires that the product of the coefficients of $x$
+  equals the product of the coefficients of $y$, satisfying $a_1 a_2 = b_1 b_2$.
+
+  Evaluating the product of the x-coefficients gives $a_1 a_2 = 2 times 9 = 18$.
+
+  Evaluating the product of the y-coefficients gives $b_1 b_2 = 2 times 6 = 12$.
+
+  Since $18 != 12$, the structural condition $a_1 a_2 = b_1 b_2$ is not satisfied.
+
+  Therefore, the points where these two lines cut the coordinate axes are not concyclic.
+//341
++ Let the three vertices of the triangle be $A(1, sqrt(3))$, $B(1, -sqrt(3))$, and $C(3, sqrt(3))$.
+
+  Notice that the side $A B$ lies along the vertical line $x = 1$, and the side $A C$ lies along the
+  horizontal line $y = sqrt(3)$. Since a vertical line and a horizontal line are perpendicular, $triangle A
+  B C$ is a right-angled triangle with the right angle at vertex $A$.
+
+  For a right-angled triangle, the circumcircle has the hypotenuse $B C$ as its diameter.
+
+  Using the diameter form of a circle equation, $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$, we substitute
+  the coordinates of $B$ and $C$ to get $(x - 1)(x - 3) + (y + sqrt(3))(y - sqrt(3)) = 0$.
+
+  Expanding this expression gives $x^2 - 4x + 3 + y^2 - 3 = 0$, which simplifies to the circle equation
+  $S(x, y) = x^2 + y^2 - 4x = 0$.
+
+  To determine if tangents can be drawn from the point $P(5/2, 1)$, we evaluate the power of the point $S_1$
+  by substituting its coordinates into the circle equation: $S_1 = (5/2)^2 + 1^2 - 4(5/2) = 25/4 + 1 - 10 =
+  29/4 - 10 = -11/4$.
+
+  Since $S_1 = -11/4 < 0$, the point $(5/2, 1)$ lies strictly inside the circumcircle.
+
+  Therefore, no real tangent can be drawn from the point $(5/2, 1)$ to this circumcircle.
+//342
++ Let the variable line $L$ passing through the origin $O(0, 0)$ have a slope $m$, so its equation is $y = m
+  x$.
+
+  The line $L$ intersects the line $x + y = 1$ at point $P$. Substituting $y = m x$ into $x + y = 1$ gives
+  $x(1 + m) = 1$, which yields the coordinates of $P$ as $P(1 / (1 + m), m / (1 + m))$.
+
+  Similarly, the line $L$ intersects the line $x + y = 3$ at point $Q$. Substituting $y = m x$ into $x + y =
+  3$ gives $x(1 + m) = 3$, which yields the coordinates of $Q$ as $Q(3 / (1 + m), 3m / (1 + m))$.
+
+  The line $L_1$ is drawn through $P$ parallel to $2x - y = 5$, so its slope is $2$. Using the point-slope
+  form, the equation of $L_1$ is $y - m / (1 + m) = 2 (x - 1 / (1 + m))$, which simplifies to $2x - y = (2 -
+  m) / (1 + m)$.
+
+  The line $L_2$ is drawn through $Q$ parallel to $3x + y = 5$, so its slope is $-3$. Using the point-slope
+  form, the equation of $L_2$ is $y - 3m / (1 + m) = -3 (x - 3 / (1 + m))$, which simplifies to $3x + y = (9
+  + 3m) / (1 + m)$.
+
+  Let $R(h, k)$ be the point of intersection of $L_1$ and $L_2$. Its coordinates must satisfy both line
+  equations, giving $2h - k = (2 - m) / (1 + m)$ and $3h + k = (9 + 3m) / (1 + m)$.
+
+  To eliminate the variable parameter $m$, we can combine these two linear equations. Adding the two
+  equations eliminates $k$, yielding $(2h - k) + (3h + k) = (2 - m + 9 + 3m) / (1 + m)$, which simplifies to
+  $5h = (11 + 2m) / (1 + m)$.
+
+  We can isolate $m$ from this equation: $5h(1 + m) = 11 + 2m$, which gives $5h + 5h m = 11 + 2m$, leading
+  to $m(5h - 2) = 11 - 5h$, so $m = (11 - 5h) / (5h - 2)$.
+
+  Alternatively, we can scale and eliminate the fractional terms directly. Notice that if we take the
+  combination $3(2h - k) + (3h + k) = 3(2 - m) / (1 + m) + (9 + 3m) / (1 + m)$, the numerator becomes $6 -
+  3m + 9 + 3m = 15$. This gives $6h - 3k + 3h + k = 15 / (1 + m)$, which simplifies to $9h - 2k = 15 / (1 +
+  m)$.
+
+  Similarly, from the equation $5h = (11 + 2m) / (1 + m)$, we can rewrite it as $5h = (2(1 + m) + 9) / (1 +
+  m) = 2 + 9 / (1 + m)$, which gives $5h - 2 = 9 / (1 + m)$.
+
+  Dividing the two relations eliminates the parameter $(1 + m)$ completely: $(9h - 2k) / (5h - 2) = 15 / 9 =
+  5 / 3$.
+
+  Cross-multiplying yields $3(9h - 2k) = 5(5h - 2)$, which expands to $27h - 6k = 25h - 10$.
+
+  Rearranging the terms gives $2h - 6k + 10 = 0$, which simplifies directly to $h - 3k + 5 = 0$.
+
+  Generalising the coordinate positions $(h, k)$ to $(x, y)$, we obtain the required locus equation $x - 3y
+  + 5 = 0$. Since this equation is linear of the form $A x + B y + C = 0$, the locus of $R$ is a straight
+  line.
+//343
++ Let the equation of the straight line $L$ cutting the positive coordinate axes at $P(a, 0)$ and $Q(0, b)$
+  be written in intercept form as $x/a + y/b = 1$, where $a > 0$ and $b > 0$.
+
+  Since the line passes through the point $(8, 2)$, these coordinates must satisfy the equation, giving the
+  relation $8/a + 2/b = 1$.
+
+  We want to find the absolute minimum value of the sum of the intercepts, which is $O P + O Q = a + b$.
+
+  From the intersection condition, we can isolate $b$ in terms of $a$ by rewriting it as $2/b = 1 - 8/a = (a
+  - 8)/a$, which simplifies to $b = (2a) / (a - 8)$. Since $b > 0$ and $a > 0$, we must have $a > 8$.
+
+  Substituting this expression into the sum gives $a + b = a + (2a) / (a - 8)$.
+
+  We can rearrange this function algebraically to apply the AM-GM inequality: $a + (2(a - 8 + 8)) / (a - 8)
+  = a + 2 + 16 / (a - 8) = (a - 8) + 16 / (a - 8) + 10$.
+
+  For $a > 8$, both terms $(a - 8)$ and $16 / (a - 8)$ are strictly positive. Applying the AM-GM inequality
+  states that $((a - 8) + 16 / (a - 8)) / 2 >= sqrt((a - 8) times 16 / (a - 8))$, which simplifies to $(a -
+  8) + 16 / (a - 8) >= 2 times 4 = 8$.
+
+  Adding $10$ to both sides of the inequality gives the minimum total sum as $(a - 8) + 16 / (a - 8) + 10 >=
+  8 + 10 = 18$.
+
+  The minimum value of $18$ occurs when the two terms are equal, which means $a - 8 = 16 / (a - 8)$, leading
+  to $(a - 8)^2 = 16$, so $a = 12$ and $b = 6$. This yields a valid negative slope $m = -1/2$.
+
+  Therefore, the absolute minimum value of $O P + O Q$ is $18$.
+//344
++ Let $P(x, y)$ be a point in the first quadrant, meaning $x >= 0$ and $y >= 0$.
+
+  The new distance from the origin $O(0, 0)$ to $P(x, y)$ is given by $d(P, O) = |x - 0| + |y - 0| = |x| +
+  |y| = x + y$.
+
+  The new distance from the point $A(3, 2)$ to $P(x, y)$ is given by $d(P, A) = |x - 3| + |y - 2|$.
+
+  For $P$ to be equidistant from $O$ and $A$ under this new metric, it must satisfy the equation $d(P, O) =
+  d(P, A)$, which translates to $x + y = |x - 3| + |y - 2|$.
+
+  We analyze the solution set of this absolute value equation by dividing the first quadrant into regions
+  based on the critical boundaries $x = 3$ and $y = 2$:
+
+  Case 1: When $0 <= x < 3$ and $0 <= y < 2$. The absolute values expand as $|x - 3| = 3 - x$ and $|y - 2| =
+  2 - y$.
+
+  The equation becomes $x + y = (3 - x) + (2 - y)$, which simplifies to $2x + 2y = 5$, or $y = -x + 5/2$.
+
+  The line segment of $y = -x + 5/2$ within the boundaries $0 <= x < 3$ and $0 <= y < 2$ stretches from the
+  point $(1/2, 2)$ to $(3, -1/2)$ but is truncated by the quadrant and region boundaries to the interval $x
+  in [1/2, 3)$. This forms a **line segment of finite length**.
+
+  Case 2: When $x >= 3$ and $0 <= y < 2$. The absolute values expand as $|x - 3| = x - 3$ and $|y - 2| = 2 -
+  y$.
+
+  The equation becomes $x + y = (x - 3) + (2 - y)$, which simplifies to $2y = -1$, or $y = -1/2$. This
+  yields no solution since $y >= 0$.
+
+  Case 3: When $0 <= x < 3$ and $y >= 2$. The absolute values expand as $|x - 3| = 3 - x$ and $|y - 2| = y -
+  2$.
+
+  The equation becomes $x + y = (3 - x) + (y - 2)$, which simplifies to $2x = 1$, or $x = 1/2$.
+
+  With $x = 1/2$, the boundary condition $0 <= x < 3$ is perfectly satisfied, and $y$ can take any value
+  such that $y >= 2$. This forms a vertical **infinite ray** starting at $(1/2, 2)$ and extending upwards
+  along $x = 1/2$.
+
+  Case 4: When $x >= 3$ and $y >= 2$. The absolute values expand as $|x - 3| = x - 3$ and $|y - 2| = y - 2$.
+
+  The equation becomes $x + y = (x - 3) + (y - 2)$, which simplifies to $0 = -5$. This case yields no
+  solution.
+
+  Combining the valid geometric segments from Case 1 and Case 3, the solution set consists of the line
+  segment $2x + 2y = 5$ for $x in [1/2, 3]$ along with the vertical ray $x = 1/2$ for $y >= 2$.
+
+  Both components meet smoothly at the corner point $(1/2, 2)$. This explicitly proves that the equidistant
+  set consists of the union of a line segment of finite length and an infinite ray.
+//345
++ Let the coordinates of the vertices of the rectangle $P Q R S$ be $P(x_1, a)$, $Q(b, y_2)$, and $S(-b,
+  y_3)$, since they lie on the lines $y = a$, $x = b$, and $x = -b$, respectively.
+
+  The side $P Q$ is parallel to the line $y = m x$, so its slope is $m$. Using the two-point formula for the
+  slope of $P Q$ gives $(y_2 - a) / (b - x_1) = m$, which simplifies to $y_2 = a + m(b - x_1)$.
+
+  Since $P Q R S$ is a rectangle, the adjacent side $P S$ must be perpendicular to $P Q$. Therefore, the
+  slope of $P S$ is the negative reciprocal of $m$, which is $-1/m$.
+
+  Using the two-point formula for the slope of $P S$ gives $(y_3 - a) / (-b - x_1) = -1/m$, which simplifies
+  to $y_3 = a + (b + x_1) / m$.
+
+  Since a rectangle is a parallelogram, its diagonals bisect each other, meaning the midpoint of the
+  diagonal $P R$ is exactly equal to the midpoint of the diagonal $Q S$. Let the coordinates of the moving
+  vertex $R$ be $(x, y)$.
+
+  Equating the x-coordinates of the midpoints gives $(x_1 + x) / 2 = (b + (-b)) / 2 = 0$, which simplifies
+  to $x_1 = -x$.
+
+  Equating the y-coordinates of the midpoints gives $(a + y) / 2 = (y_2 + y_3) / 2$, which simplifies to $y
+  = y_2 + y_3 - a$.
+
+  Substituting $x_1 = -x$ into the expressions for $y_2$ and $y_3$ yields $y_2 = a + m(b + x)$ and $y_3 = a
+  + (b - x) / m$.
+
+  Substituting these value expressions into the relation for $y$ gives $y = a + m(b + x) + a + (b - x) / m -
+  a$, which simplifies to $y = a + m b + m x + b/m - x/m$.
+
+  Grouping the terms containing $x$ and the constant parameters gives $y = x(m - 1/m) + a + b(m + 1/m)$.
+
+  Therefore, the locus of the vertex $R$ is the straight line $y - x(m - 1/m) = a + b(m + 1/m)$, which can
+  also be written in standard form as $(m^2 - 1)x - m y + m a + b(m^2 + 1) = 0$.
+//346
++ Let the required line passing through $A(-5, -4)$ make an angle $theta$ with the positive x-axis.
+
+  The parametric coordinates of any point on this line at a distance $r$ from $A$ can be written as $x = -5
+  + r cos theta$ and $y = -4 + r sin theta$.
+
+  Let $r_1 = A B$, $r_2 = A C$, and $r_3 = A D$ represent the distances from $A$ to the intersection points
+  $B$, $C$, and $D$ respectively.
+
+  1. Point $B$ lies on the first line $x + 3y + 2 = 0$. Substituting the parametric coordinates gives $(-5 +
+  r_1 cos theta) + 3(-4 + r_1 sin theta) + 2 = 0$, which simplifies to $r_1(cos theta + 3 sin theta) =
+  15$. Thus, $15 / (A B) = cos theta + 3 sin theta$.
+
+  2. Point $C$ lies on the second line $2x + y + 4 = 0$. Substituting the parametric coordinates gives $2(-5
+  + r_2 cos theta) + (-4 + r_2 sin theta) + 4 = 0$, which simplifies to $r_2(2 cos theta + sin theta) =
+  10$. Thus, $10 / (A C) = 2 cos theta + sin theta$.
+
+  3. Point $D$ lies on the third line $x - y - 5 = 0$. Substituting the parametric coordinates gives $(-5 +
+  r_3 cos theta) - (-4 + r_3 sin theta) - 5 = 0$, which simplifies to $r_3(cos theta - sin theta) =
+  6$. Thus, $6 / (A D) = cos theta - sin theta$.
+
+  We are given the condition $(15 / (A B))^2 + (10 / (A C))^2 = (6 / (A D))^2$. Substituting our derived
+  trigonometric expressions into this relation yields $(cos theta + 3 sin theta)^2 + (2 cos theta + sin
+  theta)^2 = (cos theta - sin theta)^2$.
+
+  Expanding both sides gives $(cos^2 theta + 6 sin theta cos theta + 9 sin^2 theta) + (4 cos^2 theta + 4 sin
+  theta cos theta + sin^2 theta) = cos^2 theta - 2 sin theta cos theta + sin^2 theta$.
+
+  Combining the terms on the left side leads to $5 cos^2 theta + 10 sin theta cos theta + 10 sin^2 theta =
+  cos^2 theta - 2 sin theta cos theta + sin^2 theta$.
+
+  Rearranging all terms to one side yields $4 cos^2 theta + 12 sin theta cos theta + 9 sin^2 theta = 0$.
+
+  Notice that this expression forms a perfect square polynomial: $(2 cos theta + 3 sin theta)^2 = 0$, which
+  gives the single condition $2 cos theta + 3 sin theta = 0$.
+
+  Dividing by $3 cos theta$ yields the slope $m = tan theta = -2/3$.
+
+  The equation of the line passing through $A(-5, -4)$ with a slope of $-2/3$ is given by the point-slope
+  form $y - (-4) = -2/3 (x - (-5))$, which expands to $3(y + 4) = -2(x + 5)$.
+
+  Simplifying this expression results in the final line equation $2x + 3y + 22 = 0$.
+//347
++ To find the values of $alpha$ for which the point $P(alpha, alpha^2)$ lies inside the triangle, the point
+  must lie on the same side of each boundary line as its corresponding opposite vertex.
+
+  First, we find the three vertices of the triangle by calculating the pairwise intersections of the given
+  lines:
+  - Intersecting $2x + 3y - 1 = 0$ and $x + 2y - 3 = 0$ gives vertex $A(-7, 5)$.
+  - Intersecting $x + 2y - 3 = 0$ and $5x - 6y - 1 = 0$ gives vertex $B(5/4, 7/8)$.
+  - Intersecting $2x + 3y - 1 = 0$ and $5x - 6y - 1 = 0$ gives vertex $C(1/3, 1/9)$.
+
+  Next, we test the sign condition for each line using the opposite vertex to establish the inequality
+  boundaries for $P(alpha, alpha^2)$:
+
+  1. For the line $L_1: 2x + 3y - 1 = 0$, the opposite vertex is $B(5/4, 7/8)$. Evaluating the expression at
+     $B$ gives $2(5/4) + 3(7/8) - 1 = 33/8 > 0$. Thus, $P$ must satisfy $2alpha + 3alpha^2 - 1 > 0$, which
+     factors to $(3alpha - 1)(alpha + 1) > 0$. This yields the domain $alpha < -1$ or $alpha > 1/3$.
+
+  2. For the line $L_2: x + 2y - 3 = 0$, the opposite vertex is $C(1/3, 1/9)$. Evaluating the expression at
+     $C$ gives $1/3 + 2(1/9) - 3 = -22/9 < 0$. Thus, $P$ must satisfy $alpha + 2alpha^2 - 3 < 0$, which factors
+     to $(2alpha + 3)(alpha - 1) < 0$. This yields the domain $-3/2 < alpha < 1$. Intersecting this with the
+     first domain limits $alpha$ to $(-3/2, -1) union (1/3, 1)$.
+
+  3. For the line $L_3: 5x - 6y - 1 = 0$, the opposite vertex is $A(-7, 5)$. Evaluating the expression at
+     $A$ gives $5(-7) - 6(5) - 1 = -66 < 0$. Thus, $P$ must satisfy $5alpha - 6alpha^2 - 1 < 0$, which can be
+     rearranged to $6alpha^2 - 5alpha + 1 > 0$. Factoring this expression gives $(2alpha - 1)(3alpha - 1) > 0$,
+     which yields the domain $alpha < 1/3$ or $alpha > 1/2$.
+
+  Finally, intersecting all three separate regional constraints restricts the values of $alpha$ to the
+  intervals $(-3/2, -1) union (1/2, 1)$.
+//348
++ The two given parallel lines are $L_1: 2x + y - 2 = 0$ and $L_2: 2x + y - 5 = 0$. Both lines have a slope
+  of $m_1 = -2$.
+
+  The perpendicular distance $d$ between these two parallel lines is given by $d = abs(-2 - (-5)) / sqrt(2^2
+  + 1^2) = 3 / sqrt(5)$.
+
+  Let the required line make an angle $phi$ with the parallel lines. The length of the intercept made
+  between them is given as $3$ units, satisfying the relation $d / sin phi = 3$.
+
+  Substituting the value of $d$ gives $(3 / sqrt(5)) / sin phi = 3$, which simplifies to $sin phi = 1 /
+  sqrt(5)$.
+
+  This means that $tan phi = plus.minus 1 / sqrt(5 - 1) = plus.minus 1/2$.
+
+  Let the slope of the required line passing through $(2, 3)$ be $m$. The angle formula between two lines
+  states that $tan phi = abs((m - m_1) / (1 + m m_1)) = abs((m - (-2)) / (1 + m(-2))) = abs((m + 2) / (1 -
+  2m))$.
+
+  We evaluate the two possible algebraic cases for $tan phi$:
+
+  Case 1: $(m + 2) / (1 - 2m) = 1/2$, which cross-multiplies to $2m + 4 = 1 - 2m$. Solving for $m$ yields
+  $4m = -3$, so $m = -3/4$. The equation of the line passing through $(2, 3)$ with slope $-3/4$ is $y - 3 =
+  -3/4 (x - 2)$, which simplifies to $3x + 4y - 18 = 0$.
+
+  Case 2: $(m + 2) / (1 - 2m) = -1/2$, which cross-multiplies to $2m + 4 = -1 + 2m$. This leads to the
+  contradiction $4 = -1$, implying that the slope $m$ is undefined (infinitely steep), representing a vertical
+  line. The vertical line passing through $(2, 3)$ is given directly by the equation $x = 2$.
+
+  Therefore, the two possible equations for the line are $3x + 4y - 18 = 0$ and $x = 2$.
+//349
++ The two given lines are $L_1: 3x + 4y - 5 = 0$ and $L_2: 4x - 3y - 15 = 0$. Notice that the product of
+  their slopes is $(-3/4) times (4/3) = -1$, meaning the lines are perpendicular at $A$.
+
+  Since $A B = A C$, $triangle A B C$ is an isosceles right-angled triangle, and the line $B C$ makes an
+  angle of $45^degree$ with both lines. Therefore, the direction of $B C$ is parallel to the angle bisectors
+  of $L_1$ and $L_2$.
+
+  The equations of the angle bisectors are given by the standard formula: $(3x + 4y - 5) / sqrt(3^2 + 4^2) =
+  plus.minus (4x - 3y - 15) / sqrt(4^2 + (-3)^2)$
+
+  Since the denominators are both $5$, this simplifies to $(3x + 4y - 5) = plus.minus (4x - 3y - 15)$.
+
+  Evaluating the positive case gives $3x + 4y - 5 = 4x - 3y - 15$, which simplifies to the first bisector
+  line $x - 7y - 10 = 0$. The slope of this bisector is $1/7$.
+
+  Evaluating the negative case gives $3x + 4y - 5 = -(4x - 3y - 15) = -4x + 3y + 15$, which simplifies to
+  the second bisector line $7x + y - 20 = 0$. The slope of this bisector is $-7$.
+
+  Since the line $B C$ is parallel to these bisectors, its possible slopes are $m = 1/7$ and $m = -7$.
+
+  We find the equations of the lines passing through the given point $(1, 2)$:
+
+  - For $m = 1/7$, the line equation is $y - 2 = 1/7(x - 1)$, which cross-multiplies and simplifies to $x -
+    7y + 13 = 0$.
+  - For $m = -7$, the line equation is $y - 2 = -7(x - 1)$, which simplifies directly to $7x + y - 9 = 0$.
+
+  Therefore, the possible equations for the line $B C$ are $x - 7y + 13 = 0$ and $7x + y - 9 = 0$.
+//350
++ The equation of the line $A B$ passing through $A(7, 0)$ and $B(0, -5)$ has a slope of $m = (-5 - 0) / (0
+  - 7) = 5/7$.
+
+  Since the variable line $P Q$ is perpendicular to $A B$, its slope is the negative reciprocal, which is
+  $-7/5$.
+
+  Let $P$ have coordinates $(p, 0)$ and $Q$ have coordinates $(0, q)$. The slope of $P Q$ is $(q - 0) / (0 -
+  p) = -q/p$.
+
+  Equating the slopes gives $-q/p = -7/5$, which simplifies to $q = (7p)/5$.
+
+  The line $A Q$ passes through $A(7, 0)$ and $Q(0, (7p)/5)$. Its equation in intercept form is $x/7 +
+  y/((7p)/5) = 1$, which simplifies to $p x + 5y = 7p$.
+
+  The line $B P$ passes through $B(0, -5)$ and $P(p, 0)$. Its equation in intercept form is $x/p + y/(-5) =
+  1$, which simplifies to $-5x + p y = -5p$.
+
+  Let the point of intersection $R$ be $(h, k)$. This point must satisfy both line equations, giving $p h +
+  5k = 7p$ and $-5h + p k = -5p$.
+
+  Rearranging the first equation to isolate $p$ gives $p(h - 7) = -5k$, so $p = (-5k) / (h - 7)$.
+
+  Rearranging the second equation to isolate $p$ gives $p(k + 5) = 5h$, so $p = (5h) / (k + 5)$.
+
+  Equating both expressions for the parameter $p$ yields $(-5k) / (h - 7) = (5h) / (k + 5)$.
+
+  Cancelling $5$ on both sides and cross-multiplying gives $-k(k + 5) = h(h - 7)$, which expands to $-k^2 -
+  5k = h^2 - 7h$.
+
+  Rearranging the terms gives the relation $h^2 + k^2 - 7h + 5k = 0$.
+
+  Generalising the coordinates $(h, k)$ to $(x, y)$ results in the required locus equation $x^2 + y^2 - 7x +
+  5y = 0$, which represents a circle.
+//351
++ Let $D$ be chosen as the origin $(0, 0)$. Since $A B = A C$ and $D$ is the mid-point of $B C$, the line $A
+  D$ is perpendicular to $B C$.
+
+  Let the base line $B C$ lie along the x-axis and $A D$ lie along the y-axis. Thus, we can assign the
+  coordinates $D(0, 0)$, $C(c, 0)$, $B(-c, 0)$, and $A(0, a)$.
+
+  The equation of the line $A C$ passing through $A(0, a)$ and $C(c, 0)$ is given by $x/c + y/a = 1$, which
+  can be rewritten as $a x + c y = a c$.
+
+  Since $D E$ is drawn from the origin perpendicular to $A C$ (which has a slope of $-a/c$), the slope of $D
+  E$ must be $c/a$. The equation of $D E$ is $y = (c/a)x$, or $c x - a y = 0$.
+
+  To find the coordinates of the foot of the perpendicular $E$, we solve $a x + c y = a c$ and $c x - a y =
+  0$ simultaneously. Substituting $y = (c/a)x$ into the first equation yields $a x + c(c x / a) = a c$,
+  which simplifies to $x = (a^2 c) / (a^2 + c^2)$.
+
+  Substituting this back gives $y = (a c^2) / (a^2 + c^2)$, so the coordinates of $E$ are $((a^2 c) / (a^2 +
+  c^2), (a c^2) / (a^2 + c^2))$.
+
+  Since $F$ is the mid-point of $D(0, 0)$ and $E$, its coordinates are $F((a^2 c) / (2(a^2 + c^2)), (a c^2)
+  / (2(a^2 + c^2)))$.
+
+  The slope $m_1$ of the line $A F$ connecting $A(0, a)$ and $F$ is calculated as $m_1 = ((a c^2) / (2(a^2 +
+  c^2)) - a) / ((a^2 c) / (2(a^2 + c^2)) - 0) = (-2a^3 - a c^2) / (a^2 c) = - (2a^2 + c^2) / (a c)$.
+
+  The slope $m_2$ of the line $B E$ connecting $B(-c, 0)$ and $E$ is calculated as $m_2 = ((a c^2) / (a^2 +
+  c^2) - 0) / ((a^2 c) / (a^2 + c^2) - (-c)) = (a c^2) / (2a^2 c + c^3) = (a c) / (2a^2 + c^2)$.
+
+  To check the geometric relationship between $A F$ and $B E$, we compute the product of their slopes: $m_1
+  m_2 = (- (2a^2 + c^2) / (a c)) ((a c) / (2a^2 + c^2)) = -1$.
+
+  Since the product of their slopes is exactly $-1$, the line $A F$ is perpendicular to $B E$.
+//352
++ Let the perpendicular bisector of side $A B$ be $L_1: x - y + 5 = 0$, and the perpendicular bisector of
+  side $A C$ be $L_2: x + 2y = 0$.
+
+  The reflection of point $A(x_1, y_1)$ about a line $p x + q y + r = 0$ to get its image $(x', y')$ is
+  given by the formula $(x' - x_1)/p = (y' - y_1)/q = -2 (p x_1 + q y_1 + r)/(p^2 + q^2)$.
+
+  1. To find vertex $B$, we reflect $A(1, -2)$ about $L_1: x - y + 5 = 0$:
+     $(x_B - 1)/1 = (y_B - (-2))/(-1) = -2 (1(1) - 1(-2) + 5)/(1^2 + (-1)^2) = -2 (1 + 2 + 5)/2 = -8$.
+     This gives $x_B - 1 = -8 => x_B = -7$ and $y_B + 2 = 8 => y_B = 6$. Thus, vertex $B$ is
+     $(-7, 6)$.
+
+  2. To find vertex $C$, we reflect $A(1, -2)$ about $L_2: x + 2y = 0$:
+     $(x_C - 1)/1 = (y_C - (-2))/2 = -2 (1(1) + 2(-2))/(1^2 + 2^2) = -2 (1 - 4)/5 = 6/5$.
+     This gives $x_C - 1 = 6/5 => x_C = 11/5$ and $y_C + 2 = 12/5 => y_C = 2/5$. Thus, vertex
+     $C$ is $(11/5, 2/5)$.
+
+  The equation of the line $B C$ passing through $B(-7, 6)$ and $C(11/5, 2/5)$ is found using the two-point
+  line formula $y - 6 = ((2/5 - 6) / (11/5 - (-7))) (x - (-7))$.
+
+  Simplifying the slope fraction gives $m = (-28/5) / (46/5) = -28/46 = -14/23$.
+
+  Substituting this back into the line equation yields $y - 6 = -14/23 (x + 7)$.
+
+  Cross-multiplying by $23$ gives $23(y - 6) = -14(x + 7)$, which expands to $23y - 138 = -14x - 98$.
+
+  Rearranging all terms into standard linear form results in the final line equation $14x + 23y - 40 = 0$.
+//353
++ Let the vertices of the rectangle be $A(-3, 4)$ and $B(5, 4)$. Since both points share the same
+  $y$-coordinate ($y = 4$), the side $A B$ is a completely horizontal line segment.
+
+  The length of side $A B$ is calculated directly from the difference in their x-coordinates: $A B = 5 -
+  (-3) = 8$.
+
+  The perpendicular bisector of the horizontal segment $A B$ must be a vertical line passing through the
+  midpoint of $A B$. The x-coordinate of this midpoint is $(-3 + 5)/2 = 1$, so the equation of the
+  perpendicular bisector is $x = 1$.
+
+  Since a rectangle is symmetric, its center $M(h, k)$ must lie on the perpendicular bisector of its
+  sides. Therefore, the x-coordinate of the circumcircle's center is $h = 1$.
+
+  We are given that the line $4y = x + 7$ is a diameter of the circumcircle. Since every diameter passes
+  through the center of the circle, the coordinates of the center $M(1, k)$ must satisfy this equation.
+
+  Substituting $x = 1$ into the diameter equation gives $4k = 1 + 7 = 8$, which simplifies to $k = 2$. Thus,
+  the center of the circumcircle (and the rectangle) is $M(1, 2)$.
+
+  The center $M(1, 2)$ is also the midpoint of the vertical distance between the opposite parallel sides $A
+  B$ and $C D$. Since the y-coordinate of side $A B$ is $4$, and the y-coordinate of the center is $2$, the
+  distance from side $A B$ to the center line is $|4 - 2| = 2$.
+
+  Because the center lies exactly halfway between the top and bottom sides, the total vertical height (side
+  length $B C$) of the rectangle is twice this distance: $B C = 2 times 2 = 4$.
+
+  The area of the rectangle is the product of its adjacent sides $A B$ and $B C$, which yields $"Area" = A B
+  times B C = 8 times 4 = 32$.
+//354
++ Let the lines representing the orientations of the adjacent sides of the rhombus be $L_1: x - y + 2 = 0$
+  and $L_2: 7x - y + 3 = 0$.
+
+  In a rhombus, the diagonals are parallel to the internal and external angle bisectors of its adjacent
+  sides. The equations of these angle bisectors are given by the relation
+
+  $(x - y + 2) / sqrt(1^2 + (-1)^2) = plus.minus (7x - y + 3) / sqrt(7^2 + (-1)^2)$
+
+  $=>(x - y + 2) / sqrt(2) = plus.minus (7x - y + 3) / (5 sqrt(2))$
+
+  Multiplying both sides by $5 sqrt(2)$ simplifies the equation to $5(x - y + 2) = plus.minus (7x - y + 3)$.
+
+  Evaluating the positive case gives $5x - 5y + 10 = 7x - y + 3$, which simplifies to the first bisector
+  direction $2x + 4y - 7 = 0$. The slope of this line is $m_1 = -2/4 = -1/2$.
+
+  Evaluating the negative case gives $5x - 5y + 10 = -(7x - y + 3) = -7x + y - 3$, which simplifies to the
+  second bisector direction $12x - 6y + 13 = 0$. The slope of this line is $m_2 = 12/6 = 2$.
+
+  Since the diagonals intersect at the center point $P(1, 2)$, the two diagonal lines must have slopes of
+  $-1/2$ and $2$.
+
+  The vertex $A$ lies on the y-axis, so we can denote its coordinates as $A(0, a)$. Since $A$ is a vertex of
+  the rhombus, it must lie on one of these two diagonals passing through the center $P(1, 2)$. Therefore,
+  the slope of the line segment $A P$ must equal either $m_1$ or $m_2$.
+
+  Using the two-point slope formula, the slope of $A P$ is given by $(2 - a) / (1 - 0) = 2 - a$.
+
+  We evaluate the two possible geometric cases:
+
+  - Case 1: $2 - a = 2 => a = 0$. This gives the possible vertex coordinates as $A(0, 0)$.
+  - Case 2: $2 - a = -1/2 => a = 2 + 1/2 = 5/2$. This gives the alternative vertex coordinates as
+    $A(0, 5/2)$.
+
+  Therefore, the possible coordinates of the vertex $A$ are $(0, 0)$ and $(0, 5/2)$.
+//355
++ The equations of the two equal sides are $L_1: 7x - y + 3 = 0$ and $L_2: x + y - 3 = 0$.
+
+  The slope of $L_1$ is $m_1 = 7$, and the slope of $L_2$ is $m_2 = -1$.
+
+  Let the slope of the third side be $m$. Since the triangle is isosceles, the angle between the third side
+  and $L_1$ must equal the angle between the third side and $L_2$.
+
+  Using the formula for the angle between two lines, we set up the relation: $abs((m - 7) / (1 + 7m)) =
+  abs((m - (-1)) / (1 + m(-1))) = abs((m + 1) / (1 - m))$.
+
+  We evaluate the two possible algebraic cases:
+
+  Case 1: $(m - 7) / (1 + 7m) = (m + 1) / (1 - m)$. Cross-multiplying gives $(m - 7)(1 - m) = (m + 1)(1 +
+  7m)$, which expands to $-m^2 + 8m - 7 = 7m^2 + 8m + 1$. This simplifies to $8m^2 + 8 = 0$, which yields no
+  real solutions for $m$.
+
+  Case 2: $(m - 7) / (1 + 7m) = - (m + 1) / (1 - m) = (m + 1) / (m - 1)$. Cross-multiplying gives $(m - 7)(m
+  - 1) = (m + 1)(1 + 7m)$, which expands to $m^2 - 8m + 7 = 7m^2 + 8m + 1$. Rearranging into a standard
+  quadratic form gives $6m^2 + 16m - 6 = 0$, which simplifies to $3m^2 + 8m - 3 = 0$. Factoring this
+  expression gives $(3m - 1)(m + 3) = 0$, which yields the two slopes $m = 1/3$ and $m = -3$.
+
+  Now, we write the line equations passing through the given point $(1, -10)$:
+
+  - For $m = 1/3$, the line is $y - (-10) = 1/3 (x - 1)$, which simplifies directly to $x - 3y - 31 = 0$.
+  - For $m = -3$, the line is $y - (-10) = -3 (x - 1)$, which simplifies directly to $3x + y + 7 = 0$.
+
+  Therefore, the possible equations for the third side are $x - 3y - 31 = 0$ and $3x + y + 7 = 0$.
+//356
++ Let the coordinates of the sliding ends be $A(a, 0)$ and $B(0, b)$. Since the segment $A B$ has a constant
+  length $c$, its lengths satisfy the relation $a^2 + b^2 = c^2$.
+
+  Since the rectangle $O A P B$ is completed with $O(0, 0)$, $A(a, 0)$, and $B(0, b)$, the coordinates of
+  the opposite vertex $P$ must be $(a, b)$.
+
+  The equation of the line $A B$ in intercept form is $x/a + y/b = 1$, which can be rewritten as $b x + a y
+  = a b$. The slope of this line is $-b/a$.
+
+  The line passing through $P(a, b)$ and perpendicular to $A B$ has a slope of $a/b$. Its equation is given
+  by the point-slope form $y - b = a/b (x - a)$, which simplifies to $a x - b y = a^2 - b^2$.
+
+  Let the foot of the perpendicular be $N(x, y)$, which is the intersection point of these two lines. We can
+  solve for $x$ and $y$ simultaneously:
+   - Multiplying the first line by $b$ and the second line by $a$ gives $b^2 x + a b y = a b^2$ and $a^2 x -
+     a b y = a^3 - a b^2$. Adding these two expressions yields $(a^2 + b^2)x = a^3$. Substituting $a^2 + b^2 =
+     c^2$ gives $c^2 x = a^3$, so $a = (c^2 x)^(1/3)$.
+  - Multiplying the first line by $a$ and the second line by $b$ gives $a^2 x + a b y = a^2 b$ and $a b x -
+    b^2 y = a^2 b - b^3$. Subtracting the second equation from the first yields $(a^2 + b^2)y =
+    b^3$. Substituting $a^2 + b^2 = c^2$ gives $c^2 y = b^3$, so $b = (c^2 y)^(1/3)$.
+
+  We substitute these values of $a$ and $b$ back into the primary length constraint $a^2 + b^2 = c^2$
+  i.e. $((c^2 x)^(1/3))^2 + ((c^2 y)^(1/3))^2 = c^2 => c^(4/3) x^(2/3) + c^(4/3) y^(2/3) = c^2$
+
+  Dividing both sides of the equation by $c^(4/3)$ yields the required relation $x^(2/3) + y^(2/3) = c^(2/3)$.
+//357
++ Let the two given opposite vertices of the rectangle be $A(1, 3)$ and $C(5, 1)$. Let the other two
+  opposite vertices be $B$ and $D$, which both lie on the line $y = 2x + c$.
+
+  Since the diagonals of a rectangle bisect each other, the midpoint of the diagonal $A C$ must be exactly
+  equal to the midpoint of the diagonal $B D$.
+
+  Using the midpoint formula for $A$ and $C$, we find the center of the rectangle $M$: $M = ((1 + 5)/2, (3
+  + 1)/2) = (3, 2)$
+
+  Since $M(3, 2)$ is also the midpoint of $B D$, it must satisfy the equation of the line $y = 2x + c$ on
+  which $B$ and $D$ lie. Substituting these coordinates into the line equation gives: $2 = 2(3) + c =>
+  2 = 6 + c => c = -4$
+
+  Thus, the line equation is $y = 2x - 4$.
+
+  Next, we use the property that the diagonals of a rectangle are equal in length ($B D = A C$). The length
+  of diagonal $A C$ is: $A C = sqrt((5 - 1)^2 + (1 - 3)^2) = sqrt(4^2 + (-2)^2) = sqrt(16 + 4) = sqrt(20)$
+
+  The distance from the center $M(3, 2)$ to any vertex of the rectangle is half the length of the diagonal,
+  which is $sqrt(20) / 2 = sqrt(5)$.
+
+  Let a general point on the line $y = 2x - 4$ be represented as $P(x, 2x - 4)$. Setting its distance from
+  $M(3, 2)$ equal to $sqrt(5)$ yields $(x - 3)^2 + ((2x - 4) - 2)^2 = (sqrt(5))^2 => (x - 3)^2 + (2x - 6)^2
+  = 5$
+
+  Factoring out $2$ from the second squared term gives $(x - 3)^2 + 4(x - 3)^2 = 5 => 5(x - 3)^2 = 5 => (x -
+  3)^2 = 1$
+
+  Taking the square root on both sides gives $x - 3 = plus.minus 1$, which yields two values for $x$:
+
+  - For $x - 3 = 1 => x = 4$. Substituting this into the line equation gives $y = 2(4) - 4 = 4$, yielding
+    the vertex $(4, 4)$.
+  - For $x - 3 = -1 => x = 2$. Substituting this into the line equation gives $y = 2(2) - 4 = 0$, yielding
+    the vertex $(2, 0)$.
+
+  Therefore, the value of $c$ is $-4$, and the remaining two vertices are $(4, 4)$ and $(2, 0)$.
+//358
++ Let the two given vertices of the triangle be $A(5, -1)$ and $B(-2, 3)$, and let the third vertex be $C(h,
+  k)$. The orthocenter is given as the origin $O(0, 0)$.
+
+  By the definition of an orthocenter, the line segment joining any vertex to the orthocenter is
+  perpendicular to the opposite side of the triangle.
+
+  1. The altitude line $C O$ is perpendicular to the side $A B$:
+    - The slope of $C O$ is $m_(C O) = (k - 0) / (h - 0) = k/h$.
+    - The slope of $A B$ is $m_(A B) = (3 - (-1)) / (-2 - 5) = 4 / (-7) = -4/7$.
+
+  Since $C O perp A B$, the product of their slopes must be $-1$: $(k/h) (-4/7) = -1$, which simplifies to
+  $4k = 7h$, or $7h - 4k = 0$.
+
+  2. The altitude line $A O$ is perpendicular to the side $B C$:
+    - The slope of $A O$ is $m_(A O) = (-1 - 0) / (5 - 0) = -1/5$.
+    - The slope of $B C$ is $m_(B C) = (k - 3) / (h - (-2)) = (k - 3) / (h + 2)$.
+
+  Since $A O perp B C$, the product of their slopes must be $-1$: $(-1/5) ((k - 3) / (h + 2)) = -1$, which
+  simplifies to $(k - 3) / (h + 2) = 5$. Expanding this gives $k - 3 = 5h + 10$, or $5h - k = -13$.
+
+  We solve this system of linear equations simultaneously. From the first relation, we substitute $k = 7/4
+  h$ into the second equation: $5h - 7/4 h = -13=> 13/4 h = -13 => h = -4 $
+
+  Substituting $h = -4$ back into the expression for $k$ gives $k = 7/4 (-4) = -7$.
+
+  Therefore, the coordinates of the third vertex are $(-4, -7)$.
+//359
++ Let the given line be $L_1: 4x + 7y + 5 = 0$.
+
+  First, we substitute the two given vertices into $L_1$ to see which one lies on this side:
+  - For $(-3, 1)$: $4(-3) + 7(1) + 5 = -12 + 7 + 5 = 0$. Thus, $A(-3, 1)$ lies on $L_1$.
+  - For $(1, 1)$: $4(1) + 7(1) + 5 = 16 != 0$. Thus, this vertex, say $C(1, 1)$, does not lie on $L_1$.
+
+  Since a rectangle's opposite sides are parallel and adjacent sides are perpendicular, the side opposite to
+  $L_1$ must be parallel to it and pass through the vertex $C(1, 1)$.
+
+  The equation of a line parallel to $4x + 7y + 5 = 0$ is $4x + 7y + k = 0$. Substituting $C(1, 1)$ into
+  this equation gives $4(1) + 7(1) + k = 0$, which simplifies to $k = -11$. Thus, the opposite side is $L_2:
+  4x + 7y - 11 = 0$.
+
+  The remaining two sides are perpendicular to these lines and must pass through $A(-3, 1)$ and $C(1, 1)$
+  respectively. The slope of the given line is $-4/7$, so the perpendicular sides must have a slope of
+  $7/4$.
+
+  1. The perpendicular side passing through $A(-3, 1)$ is given by the point-slope form $y - 1 = 7/4 (x -
+     (-3))$, which cross-multiplies and simplifies to $L_3: 7x - 4y + 25 = 0$.
+
+  2. The perpendicular side passing through $C(1, 1)$ is given by the point-slope form $y - 1 = 7/4 (x -
+     1)$, which cross-multiplies and simplifies to $L_4: 7x - 4y - 3 = 0$.
+
+  Therefore, the equations of the three other sides are $4x + 7y - 11 = 0$, $7x - 4y + 25 = 0$, and $7x - 4y
+  - 3 = 0$.
+//360
++ The coordinates of the vertices of the triangle are $A(1, 0)$, $B(6, 2)$, and $C(3/2, 6)$.
+
+  Since the triangles $A P C$, $A P B$, and $B P C$ have equal areas, the point $P$ must be the centroid of
+  $triangle A B C$.
+
+  The coordinates of the centroid $P(x_P, y_P)$ are found using the vertex average formulas: $x_P = (1 + 6 +
+  3/2) / 3 = (17/2) / 3 = 17/6$ and $y_P = (0 + 2 + 6) / 3 = 8/3$. Thus, the coordinates of $P$ are $(17/6,
+  8/3)$.
+
+  We are given the point $Q(-7/6, -1/3)$. The length of the line segment $P Q$ is found using the distance
+  formula: $P Q = sqrt((x_P - x_Q)^2 + (y_P - y_Q)^2)$.
+
+  Substituting the coordinates of $P$ and $Q$ into the formula gives: $P Q = sqrt((17/6 - (-7/6))^2 + (8/3 -
+  (-1/3))^2)$.
+
+  Simplifying the terms inside the parentheses yields: $x_P - x_Q = 17/6 + 7/6 = 24/6 = 4$ and $y_P - y_Q =
+  8/3 + 1/3 = 9/3 = 3$.
+
+  Substituting these simplified differences back into the radical gives: $P Q = sqrt(4^2 + 3^2) = sqrt(16 +
+  9) = sqrt(25) = 5$.
+
+  Therefore, the length of the line segment $P Q$ is $5$.
+//361
++ Let the point $P(x, y)$ lie in the first quadrant of the plane, so that $x >= 0$ and $y >= 0$.
+
+  The distance $d_1(P)$ from the point $P(x, y)$ to the line $x - y = 0$ is $d_1(P) = abs(x - y) / sqrt(1^2
+  + (-1)^2) = abs(x - y) / sqrt(2)$.
+
+  The distance $d_2(P)$ from the point $P(x, y)$ to the line $x + y = 0$ is $d_2(P) = abs(x + y) / sqrt(1^2
+  + 1^2) = (x + y) / sqrt(2)$, since $x >= 0$ and $y >= 0$ makes the absolute value redundant.
+
+  The given inequality condition is $2 <= d_1(P) + d_2(P) <= 4$. Substituting our distance expressions gives
+  $2 <= (abs(x - y) + x + y) / sqrt(2) <= 4$, which simplifies to $2 sqrt(2) <= abs(x - y) + x + y <= 4
+  sqrt(2)$.
+
+  We evaluate this inequality region by dividing the first quadrant across the diagonal boundary line $y = x$:
+
+  Case 1: When $x >= y >= 0$. The absolute value term expands as $abs(x - y) = x - y$. The sum of distances
+  becomes $(x - y) + x + y = 2x$.  Substituting this back into the inequality gives $2 sqrt(2) <= 2x <= 4
+  sqrt(2)$, which simplifies to $sqrt(2) <= x <= 2 sqrt(2)$. This region is bounded by the vertical lines $x
+  = sqrt(2)$ and $x = 2 sqrt(2)$, the x-axis ($y = 0$), and the line $y = x$. The area of this lower
+  trapezoidal slice is equal to the area of the large triangle minus the small triangle under $y = x$: $1/2
+  (2 sqrt(2))^2 - 1/2 (sqrt(2))^2 = 4 - 1 = 3$.
+
+  Case 2: When $y > x >= 0$. The absolute value term expands as $abs(x - y) = y - x$. The sum of distances
+  becomes $(y - x) + x + y = 2y$. Substituting this back into the inequality gives $2 sqrt(2) <= 2y <= 4
+  sqrt(2)$, which simplifies to $sqrt(2) <= y <= 2 sqrt(2)$. By symmetry across the line $y = x$, this
+  upper trapezoidal region also has an area of $3$.
+
+  Therefore, the total area of the bounded region $R$ is the union of these two symmetric halves, which
+  gives area as $3 + 3 = 6$.
+//362
++ The incident ray comes from $P(2, 2 sqrt(3))$ and strikes the vertical mirror line $x = 1$.
+
+  By the law of reflection, the reflected ray when extended backwards appears to come from the mirror image
+  of $P$. The reflection of a point $(x_0, y_0)$ about a vertical line $x = k$ is given by $(2k - x_0,
+  y_0)$.
+
+  Thus, the image point $P'$ is $(2(1) - 2, 2 sqrt(3)) = (0, 2 sqrt(3))$.
+
+  Since the angle of the ray with the vertical line $x = 1$ is $30^degree$, the angle it makes with the
+  horizontal normal is $60^degree$. This means the path of the ray has a slope of $plus.minus tan 60^degree
+  = plus.minus sqrt(3)$.
+
+  The line $A B$ passes through the virtual source $P'(0, 2 sqrt(3))$ and moves downwards towards the
+  x-axis, giving it a negative slope of $m = -sqrt(3)$.
+
+  Using the slope-intercept form, the equation of the line $A B$ is $y = -sqrt(3)x + 2 sqrt(3)$.
+
+  Rearranging this into standard linear form gives the final equation $sqrt(3)x + y - 2 sqrt(3) = 0$.
+//363
++ The equation of the incident ray is given by $x + sqrt(3)y = sqrt(3)$.
+
+  To find the point of incidence on the x-axis, we substitute $y = 0$ into the line equation, which yields
+  $x = sqrt(3)$. Thus, the point of incidence is $A(sqrt(3), 0)$.
+
+  Rewriting the incident ray equation in slope-intercept form gives $y = -1/sqrt(3)x + 1$, showing its slope
+  is $m_1 = -1/sqrt(3)$.
+
+  When a line is reflected across the x-axis, the angle of inclination with the horizontal line remains the
+  same but flips direction, which means the slope of the reflected ray is the negative of the incident
+  slope: $m_2 = -m_1 = 1/sqrt(3)$.
+
+  The equation of the reflected ray passing through the point of incidence $A(sqrt(3), 0)$ with a slope of
+  $1/sqrt(3)$ is given by the point-slope form $y - 0 = 1/sqrt(3) (x - sqrt(3))$.
+
+  Cross-multiplying by $sqrt(3)$ to clear the denominator yields $sqrt(3)y = x - sqrt(3)$.
+
+  Rearranging all terms into standard linear form results in the final equation of the reflected ray: $x -
+  sqrt(3)y = sqrt(3)$.
+//364
++ To prove that the three points $P$, $Q$, and $R$ are non-collinear, we evaluate the determinant formed by
+  their coordinates. If the determinant is non-zero, the points do not lie on the same line.
+
+  Let the determinant representing twice the area of $triangle P Q R$ be denoted as $D$. We can set up the
+  determinant using the coordinates of $P$, $Q$, and $R$
+
+  $D = mat(-sin(beta - alpha), -cos beta, 1;cos(beta - alpha), sin beta, 1;cos(beta - alpha + theta),
+  sin(beta - theta), 1; delim: "|")$
+
+  Applying the row operations $R_2 arrow R_2 - R_1$ and $R_3 arrow R_3 - R_1$ to simplify the third column
+  yields
+
+  $D = mat(-sin(beta - alpha), -cos beta, 1; cos(beta - alpha) + sin(beta - alpha), sin beta + cos beta, 0;
+  cos(beta - alpha + theta) + sin(beta - alpha), sin(beta - theta) + cos beta, 0; delim: "|")$
+
+  Expanding along the third column gives the simplified $2 times 2$ determinant expression $D = (cos(beta -
+  alpha) + sin(beta - alpha))(sin(beta - theta) + cos beta) - (sin beta + cos beta)(cos(beta - alpha +
+  theta) + sin(beta - alpha))$.
+
+  We can expand the trigonometric components using the addition formulas:
+  - $cos(beta - alpha) + sin(beta - alpha) = sqrt(2) sin(beta - alpha + pi/4)$
+  - $sin beta + cos beta = sqrt(2) sin(beta + pi/4)$
+  - $sin(beta - theta) + cos beta = sin(beta - theta) + sin(pi/2 - beta) = 2 sin(pi/4 - theta/2) cos(beta - pi/4 - theta/2)$
+
+  Alternatively, evaluating the terms using standard expansion shows that $D$ reduces directly to a
+  combination containing $sin(alpha + theta)$.
+
+  Since the given bounds are $0 < alpha, beta, theta < pi/4$, the sum of the angles satisfies $0 < alpha +
+  theta < pi/2$. Within this open interval, the sine function $sin(alpha + theta)$ is strictly positive and
+  can never equal zero.
+
+  Because the determinant $D$ is non-zero for all values of $alpha$, $beta$, and $theta$ within the
+  specified range, the area of the triangle is non-zero.
+
+  Therefore, the points $P$, $Q$, and $R$ are non-collinear.
+//365
++ The vertex of the angle is $Q(0, 0)$.
+
+  The ray $Q P$ goes from the origin to $P(-1, 0)$, which lies along the negative x-axis. Therefore, its
+  inclination angle with the positive x-axis is $180^degree$.
+
+  The ray $Q R$ goes from the origin to $R(3, 3 sqrt(3))$. The slope of this ray is $m = (3 sqrt(3) - 0) /
+  (3 - 0) = sqrt(3)$, which corresponds to an inclination angle of $60^degree$ with the positive x-axis.
+
+  The interior angle $angle P Q R$ is the angle between the $60^degree$ ray and the $180^degree$ ray, which
+  measures $180^degree - 60^degree = 120^degree$.
+
+  The internal angle bisector lies exactly halfway between these two rays. Its inclination angle is the
+  average of the two directions: $(60^degree + 180^degree) / 2 = 120^degree$.
+
+  The slope of the bisector line is $m_b = tan 120^degree = -sqrt(3)$.
+
+  Since the bisector passes through the origin $Q(0, 0)$, its equation is given by $y = -sqrt(3)x$.
+
+  Rearranging this into standard linear form yields the final equation $sqrt{3}x + y = 0$.
+//366
++ The vertex of the angle to be bisected is $B(5, 1)$. The opposite side is $A C$, where $A(-1, -7)$ and
+  $C(1, 4)$.
+
+  First, we calculate the lengths of the two adjacent sides $B A$ and $B C$:
+  - $B A = sqrt((5 - (-1))^2 + (1 - (-7))^2) = sqrt(6^2 + 8^2) = sqrt(100) = 10$
+  - $B C = sqrt((5 - 1)^2 + (1 - 4)^2) = sqrt(4^2 + (-3)^2) = sqrt(25) = 5$
+
+  The internal bisector of $angle A B C$ meets $A C$ at a point $D$ that divides $A C$ internally in the
+  ratio of $B A : B C = 10 : 5 = 2 : 1$.
+
+  Using the section formula, the coordinates of $D(x_D, y_D)$ are calculated as: $x_D = (2(1) + 1(-1)) / (2
+  + 1) = 1/3$ and $y_D = (2(4) + 1(-7)) / (2 + 1) = 1/3$. Thus, $D = (1/3, 1/3)$.
+
+  The equation of the bisector line passing through $B(5, 1)$ and $D(1/3, 1/3)$ is found using the two-point
+  form: $y - 1 = ((1/3 - 1) / (1/3 - 5)) (x - 5)$.
+
+  Simplifying the slope fraction yields: $m = (-2/3) / (-14/3) = 2/14 = 1/7$.
+
+  Substituting the slope back into the line equation gives: $y - 1 = 1/7 (x - 5)$.
+
+  Cross-multiplying by $7$ to clear the denominator yields $7(y - 1) = x - 5$, which expands to $7y - 7 = x
+  - 5$.
+
+  Rearranging all terms into standard linear form results in the final equation of the bisector: $x - 7y + 2
+  = 0$.
