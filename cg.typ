@@ -104,5 +104,6 @@
 #include "conic-sections-solutions.typ"
 #include "miscellaneous-solutions.typ"
 
+#part("License")
 #show: appendices.with("Appendices", hide-parent: false)
 #include "fdl-1.3.typ"

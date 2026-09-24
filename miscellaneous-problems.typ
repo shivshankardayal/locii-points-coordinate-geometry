@@ -1253,3 +1253,400 @@
 //366
 + The vertices of a triangle are $A(-1, -7), B(5, 1)$ and $C(1, 4)$. Find the equation of the bisector of
   $angle A B C$.
+//367
++ The area of the triangle formed by the intersection of line parallel to $x$-axis and passing through $P(h,
+  k)$ with the lines $y = x$ and $x + y = 2$ is $4h^2$. Find the locus of point $P$
+//368
++ Find the equation of the line which bisects the obtuse angle between the lines $x - 2y + 4 = 0$ and $4x -
+  3y + 2 = 0$.
+//369
++ Lines $L_1 equiv a x + b y + c = 0$ and $L_2 equiv l x + m y + n = 0$ intersect at point $P$ and make an
+  angle $theta$ with each other. Find the equation of line $L$ different from $L_2$ which passes through $P$
+  and makes the same angle $theta$ with $L_1$.
+//370
++ A triangle has a vertex at $(1, 2)$ and the mid-points of the two sides through it are $(-1, 1)$ and $(2,
+  3)$. Find the centroid of the triangle.
+//371
++ Consider the set of all lines $p x + q y + r = 0$ such that $3p + 2q + 4r = 0$. Prove that these lines are
+  concurrent at $(3/4, 1/2)$.
+//372
++ Two sides of a rhombus are along the lines $x - y + 1 = 0$ and $7x - y - 5 = 0$. If its diagonals
+  intersect at $(-1, -2)$ then find its vertices.
+//373
++ Find the area of the parallelogram formed by the lines $y = m x, y = m x + 1, y = n x$ and $y = n x + 1$.
+//374
++ Find the type of the triangle formed by the vertices $(0, 8/3), (1, 3)$ and $(82, 30)$.
+//375
++ Find the type of the triangle formed by the lines $x + y = 0, 3x + y - 4 = 0$ and $x + 3y - 4 = 0$.
+//376
++ Find the condition for the lines $p x + q y + r = 0, q x + r y + p = 0$ and $r x + p y + q = 0$ to be
+  concurrent.
+//377
++ The coordinates of $A, B, C$ are $(6, 3), (-3, 5), (4, -2)$ respectively and $P$ is any point $(x,
+  y)$. Show that the ratio of the areas of the triangles $Delta P B C$ and $Delta A B C$ is $lr(|(x + y -
+  2)/7|)$.
+//378
++ A straight line $L$ is perpendicular to the line $5x - y = 1$. The area of the triangle formed by the line
+  $L$ and the coordinate axes is $5$. Find the equation of the line $L$.
+//379
++ Find the area of the triangle formed by the lines $x + y = 3$ and angle bisectors of the pair of straight
+  lines $x^2 - y^2 + 2y = 1$.
+//380
++ Show that all chords of the curve $3x^2 - y^2 - 2x + 4y = 0$, which subtend a right angle at the origin
+  pass through a fixed point. Find the coordinates of that point.
+//381
++ Let $P Q R$ be a right angled isosceles triangle, right angled at $P(2, 1)$. If the equation of the line
+  $Q R$ is $2x + y = 3$, then find the equation representing the pair of lines $P Q$ and $P R$.
+//382
++ Find the equation of the circle touching the $x$-axis at $(3, 0)$ and making an intercept of $8$ with
+  $y$-axis.
+//383
++ Let $O(0, 0)$ and $A(0, 1)$ be two fixed points, then find the locus of a point $P$ such that perimeter of
+  $triangle A O P$ is $4$.
+//384
++ If a circle of radius $R$ passes through the origin $O$ and intersects coordinate axes at $A$ and $B$,
+  then find the locus of the foot of the perpendicular from $O$ on $A B$.
+//385
++ A square is inscribed in the circle $x^2 + y^2 - 6x + 8y - 103 = 0$ with its sides parallel to coordinate
+  axes. Find the distance of the vertex of this square which is nearest to the origin.
+//386
++ If the area of an equilateral triangle inscribed in the circle $x^2 + y^2 + 10x + 12y + c = 0$ is
+  $27sqrt(3)$ sq. units, then find $c$.
+//387
++ Let the orthocenter and centroid of a triangle be $A(-3, 5)$ and $B(3, 3)$, respectively. If $C$ is the
+  circumcenter of the triangle, then  find the raidus of the circle having $A C$ as a diameter.
+//388
++ Find the center of the circle inscribed in a square formed by the lines $x^2 - 8x + 12 = 0$ and $y^2 - 14y
+  + 45 = 0$.
+//389
++ Let $A B$ be a chord of the circle $x^2 + y^2 = r^2$ subtending a right angle at the center. Find the
+  locus of the centroid of the $triangle P A B$ as $P$ moves on the circle.
+//390
++ The lines $2x - 3y = 5$ and $3x - 4y = 7$ are diameters of a circle of area $154$ sq. units. Find the
+  equation of this circle.
+//391
++ Find the center of the circle passing thorugh the point $(0, 1)$ and touching the curve $y = x^2$ at $(2,
+  4)$.
+//392
++ Find the equation of the circle(s) touching $x$-axis at $(3, 0)$ and having an incept of $2sqrt(7)$ on
+  $y$-axis.
+//393
++ Let $L_1$ be a straight line passing through the origin and $L_2$ be the straight line $x + y = 1$. If the
+  intercepts made by the circle $x^2 + y^2 - x + 3y = 0$ on $L_1$ and $L_2$ are equal, then find the
+  equation(s) of $L_1$.
+//394
++ The lines $3x - 4y + 4 = 0$ and $6x - 8y - 7 = 0$ are tangents to the same circle. Find the radius of the
+  circle.
+//395
++ If $A$ and $B$ are points in the plane such that $(P A)/(P B) = k$(constant) for all $P$ on a given
+  circle, then find the values of $k$.
+//396
++ Find whether $x + 3y = 0$ is a diameter of the circle $x^2 + y^2 - 6x + 2y = 0$.
+//397
++ Let $C$ be any cicle with center $(0, sqrt(2))$. Prove that at most two rational points can be on $C$.(A
+  rational point is a point both of whose coordinates are rational numbers.)
+//398
++ Consider a curve $a x^2 + 2h x y + b y^2 = 1$ and a point $P$ not on the curve. A line drawn from the
+  point $P$ intersect the curve at $Q$ and $R$. If the product $P Q.P R$ is independent of the slope of the
+  line, then show that the curve is a circle.
+//399
++ A circle passes through three points $A, B$ and $C$ with the line segment $A C$ as its diameter. A line
+  passing through $A$ intersects the chord $B C$ at a point $D$ inside the circle. If angles $D A B$ and $C
+  A B$ are $alpha$ and $beta$ respectively and the distance between the point $A$ and the mid-point of the
+  line segment $D C$ is $d$. prove that the area of the circle is $(pi d^2cos^2alpha)/(cos^2alpha +
+  cos^2beta + 2cos alpha cos beta cos(beta - alpha))$.
+//400
++ If $(m_1, 1/m_i), m_i > 0, i = 1, 2, 3, 4$ are four distinct points on a circle, then show that
+  $m_1m_2m_3m_4 = 1$.
+//401
++ The abscissae of two points $A$ and $B$ are the roots of the equation $x^2 + 2a x - b^2 = 0$ and their
+  ordinates are the roots of the equation $y^2 + 2p y - q^2 = 0$. Find the equation and the radius of the
+  circle with $A B$ as the diameter.
+//402
++ For how many values of $p$, the circle $x^2 + y^2 + 2x + 4y - p = 0$ and the coordinate axes have exactly
+  three points in common?
+//403
++ The straight line $2x - 3y = 1$ divide the circular region $x^2 + y^2 <= 6$ into two parts. If $S = {(2,
+  3/4), (5/2, 3/4), (1/4, -1/4), (1/8, 1/4)}$, then find the number of point(s) in $S$ lying in the smaller
+  part.
+//404
++ Let $S$ be a circle defined by the equation $x^2 + y^2 = 4$. Let $E_1E_2$ and $F_1F_2$ be the chords
+  passing through the point $P_0(1, 1)$ and parallel to $x$-axis and the $y$-axis respectively. Let $G_1G_2$
+  be the chord of $S$ passing through $P_0$ and having slope $-1$. Let the tangents to $S$ at $E_1$ and $E_2$
+  meet at $E_3$, then tangents at $F_1$ and $F_2$ meet at $F_3$, and the tangents to $S$ at $G_1$ and $G_2$
+  meet at $G_3$. Find the curve on which $E_3, F_3$ and $G_3$ lie.
+//405
++ Let $S$ be a circle defined by the equation $x^2 + y^2 = 4$. Let $P$ be a point on the circle $S$ with
+  both coordinates being positive. Let the tangent to $S$ at $P$ intersect the coordinate axes at $M$ and
+  $N$. Find the curve on which mid-point of $M N$ lie.
+//406
++ The circles $x^2 + y^2 + 5K x + 2y + K = 0$ and $2(x^2 + y^2) + 2K x + 3y - 1 = 0, (K in R)$ intersect at
+  points $P$ and $Q$. For how many values of $K$ will the line $4x + 5y - K = 0$ pass through $P$ and $Q$.
+//407
++ A tangent to the circles $x^2 + y^2 = 1$ intersects the coordinate axes at $P$ and $Q$. Find the locus of
+  mid-point of $P Q$.
+//408
++ A variable line $3x + 4y - lambda = 0$ is such that two circles $x^2 + y^2 - 2x - 2y + 1 = 0$ and $x^2 +
+  y^2 - 18x - 2y + 78 = 0$ are on its opposite sides. Find the set of all values of $lambda$.
+//409
++ Let $C_1$ and $C_2$ be the centers of the circles $x^2 + y^2 - 2x - 2y - 2 = 0$ and $x^2 + y^2 - 6x - 6y +
+  14 = 0$. If $P$ and $Q$ be the points of intersection of these circles, then find the area of the
+  quadrilateral $C_1C_2P Q$.
+//410
++ Find the values of $r$ if the circles $x^2 + y^2 16x - 20y + 164 = r^2$ and $(x - 4)^2 + (y - 7)^2 = 36$
+  intersect at two different points.
+//411
++ If one of the diameters of the circle $x^2 + y^2 - 4x + 6y - 12 = 0$ is a chord of a circle $S$, whose
+  center is $(-3, 2)$, then find the radius of $S$.
+//412
++ If one of the diameters of the circle $x^2 + y^2 - 2x - 6y + 6 = 0$ is a chord of a circle with center
+  $(2, 1)$, then find the radius of the circle.
+//413
++ Find the number of common tangents to the circles $x^2 + y^2 - 4x - 6y - 12 = 0$ and $x^2 + y^2 + 6x + 18y
+  + 26 = 0$.
+//414
++ Let $C$ be the circle with center at $(1, 1)$ and radius $1$. If $T$ be a circle centered at $(0, y)$
+  passing through origin and touching the circle $C$ externally, then find the radius of $T$.
+//415
++ If the circles $x^2 + y^2 + 2x + 2k y + 6 = 0$ and $x^2 + y^2 + 2k y + k = 0$ intersect orthogonally, then
+  find $k$.
+//416
++ The $triangle P Q R$ is inscribed in the circle $x^2 + y^2 = 25$. If $Q$ and $R$ have coordinates $(3, 4)$
+  and $(-4, 3)$ respectively, then find the $angle Q P R$.
+//417
++ Find the number of common tangents to the circles $x^2 + y^2 = 4$ and $x^2 + y^2 - 6x - 8y = 24$.
+//418
++ The angle between a pair of tangents drawn from a point $P$ to the circle $x^2 + y^2 + 4x - 6y +
+  9sin^2alpha + 13 cos^2alpha = 0$ is $2alpha$. Find the locus of the point $P$.
+//419
++ If the two circles $(x - 1)^2 + (y - 3)^2 = r^2$ and $x^2 + y^2 - 8x + 2y + 8 = 0$ intersect in two
+  distinct points then find the possible values for $r$.
+//420
++ If a circle passes through the point $(a, b)$ and cuts the circle $x^2 + y^2 = k^2$ orthogonally, then
+  find the equation to the locus of its center.
+//421
++ Let $T$ be the line passing through the points $P(-2, 7)$ and $Q(2, -5)$. Let $F_1$ be the set of all
+  pairs of circles $(S_1, S_2)$ such that $T$ is tangents to $S_1$ at $P$ and tangent to $S_2$ at $Q$, and
+  also such that $S_1$ and $S_2$ touch each other at $M$. Let $E_1$ be the set representing the locus of $M$
+  as the pair $(S_1, S_2)$ varies in $F_1$. Let the set of all straight line segments joining a pair of
+  distinct points of $E_1$ and passing through $R(1, 1)$ be $F_2$. Let $E_2$ be the set of the mid-points of
+  the line segments in the set $F_2$. Find $E_1$ and $E_2$.
+//422
++ A circle $S$ passes through the point $(0, 1)$ and is orthogonal to the circles $(x - 1)^2 + y^2 = 16$ and
+  $x^2 + y^2 = 1$. Find the equation of $S$.
+//423
++ Let $A B C D$ be a square of side length $2$ units. $C_2$ is the circle through $A, B, C, D$ and $C_1$ is
+  the circle touching all the sides of square $A B C D$. $L$ is a line through $A$. If $P$ is a point of
+  $C_1$ and $Q$ is a point on $C_2$, then find $(P A^2 + P B^2 + P C^2 + P D^2)/(Q A^2 + Q B^2 + Q C^2 + Q
+  D^2)$.
+//424
++ Let $A B C D$ be a square of side length $2$ units. $C_2$ is the circle through $A, B, C, D$ and $C_1$ is
+  the circle touching all the sides of square $A B C D$. $L$ is a line through $A$. A circle touches line
+  $L$ and the circle $C_1$ externally such that both the circles are on the same side of the line. Find the
+  locus of the center of the circle.
+//425
++ Let $A B C D$ be a square of side length $2$ units. $C_2$ is the circle through $A, B, C, D$ and $C_1$ is
+  the circle touching all the sides of square $A B C D$. $L$ is a line through $A$. A line $M$ through $A$
+  is drawn parallel to $B D$. Point $S$ moves such that its distances from the line $B D$ and vertex $A$ are
+  equal. If locus of $S$ cuts $M$ at $T_2$ and $T_3$ and $A C$ at $T_1$, then find the area of $triangle
+  T_1T_2T_2$.
+//426
++ Let $C_1$ and $C_2$ be two circles with $C_2$ lying inside $C_1$. A cicle $C$ lying inside $C_1$ touches
+  $C_1$ internally and $C_2$ extranally. Find the locus of the center of $C$.
+//427
++ Three circles touch one another externally. The tangents at their points of contact meet at a point whose
+  distance from a point of contact is $4$. Find the ratio of product of radii to the sum of radii of the
+  circles.
+//428
++ A rectangle is inscribed in a circle with a diameter lying along the line $3y = x + 7$. If the two
+  adjacent vertices of the rectangle are $(-8, 5)$ and $(6, 5)$, then find the area of the rectangle.
+//429
++ The tangent and normal lines at $(sqrt(3), 1)$ to the circle $x^2 + y^2 = 4$ and the $x$-axis form a
+  triangle. Find the area of this triangle.
+//430
++ The straight line $x + 2y = 1$ meets the coordinate axes at $A$ and $B$. A circle is drawn through $A, B$
+  and the origin. Find the sum of perpendicular distances from $A$ and $B$ on the tangent to the circle at
+  the origin.
+//431
++ If a circle $C$ passing through the point $(4, 0)$ touches the circle $x^2 + y^2 + 4x - 6y = 12$
+  externally at the point $(1, -1)$, then find the radius of $C$.
+//432
++ If the tangent at $(1, 7)$ to the curve $x^2 = y - 6$ touches the circle $x^2 + y^2 + 16x + 12y + c = 0$,
+  then find the value of $c$.
+//433
++ Let $A B C D$ be a quadrilateral with area $18$, with side $A B$ parallel to the side $C D$ and $A B = 2C
+  D$. Let $A D$ be perpendicular to $A B$ and $C D$. If a circle is drawn inside the quadrilateral touching
+  all the sides of $A B C D$, then find its radius.
+//434
++ If the tangent on point $P$ of the circle $x^2 + y^2 + 6x + 6y = 2$ meets the straight line $5x - 2y + 6 =
+  0$ at $Q$ on the $y$-axis, then find the length of $P Q$.
+//435
++ Let $P Q$ and $R S$ be tangents at the extremities of the diameter $P R$ of a circle of radius $r$. If $P
+  S$ and $R Q$ intersect at a point on the circumference of the circle then find $r$ in terms of $P Q$ and
+  $R S$.
+//436
++ Let $R S$ be the diameter of the circle $x^2 + y^2 = 1$, where $S$ is the point $(1, 0)$. Let $P$ be a
+  variable point(other than $R$ and $S$) on the circles and tangents to the circle at $S$ and $P$ meet at a
+  point $Q$. The normal to the circle at $P$ intersects a line drawn through $Q$ parallel to $R S$ at point
+  $E$. Find the equation to the locus of $E$.
+//437
++ The circle $C_1 equiv x^2 + y^2 = 3$ with center $O$ intersects the parabola $x^2 = 2y$ at the point $P$
+  in the first quadrant. Let the tangent to the circle $C_1$ at $P$ touch two other circles $C_2$ and $C_3$
+  at $R_2$ and $R_3$ respectively. Suppose $C_2$ and $C_3$ have equal raddi of $2sqrt(3)$ units and centers
+  at $Q_2$ and $Q_3$. Find $Q_2Q_3, R_2R_3, Delta O R_2R_3$ and $Delta P Q_2Q_3$.
+//438
++ A tangent $P T$ is drawn to the circle $x^2 + y^2 = 4$ at the point $P(sqrt(3), 1)$. A straight line $L$
+  perpendicular to $P T$ is a tangent to the circle $(x - 3)^2 + y^2 = 1$. Find the equation(s) of $L$. Find
+  common tangents to the circles.
+//439
++ A circle $C$ of the radius $1$ is inscribed in an equilateral $triangle P Q R$. The points of contacts of
+  the circle $C$ with the sides $P Q, Q R$ and $R P$ are $D, E$ and $F$ respectively. The line $P Q$ is
+  given by $sqrt(3) + y - 6 = 0$ and the point $D$ is $((3sqrt(3))/2, 3/2)$. Further it is given that the
+  origin and the center of $C$ are on the same side of $P Q$. Find the equation of the circle $C$, points
+  $E$ and $F$ and equations of $Q R$ and $R P$.
+//440
++ A circle is inscribed in an equilateral triagle of side $a$. Find the area of the square inscribed inside
+  the circle.
+//441
++ A circle passes through the point of intersection of the coordinate axes with the lines $lambda x - y + 1
+  = 0$ and $x - 2y + 3 = 0$. Find $lambda$.
+//442
++ Find the equation of the circle touching the line $2x + 3y + 1 = 0$ at the point $(1, -1)$ and is
+  orthogonal to the circle which has the line segment having end points $(0, -1)$ and $(-2, 3)$ as diameter.
+//443
++ Find the coordinates of the point at which the circles $x^2 + y^2 - 4x - 2y + 4 = 0$ and $x^2 + y^2 - 12x
+  - 8y + 36 = 0$ touch each other. Also, find the equations of common tangents touching the circles the
+  distinct points.
+//444
++ Two circles, each of radius $5$ units, touch each other at $(1, 2)$. If the equation of their common
+  tangent is $4x + 3y = 10$, find the equation of the circles.
+//445
++ Let the point $B$ be the reflection of the point $A(2, 3)$ w.r.t. the line $8x - 6y - 23 = 0$. Let $Gamma_A$
+  and $Gamma_B$ be the circles of radii $2$ and $1$ with centers $A$ and $B$ respectively. Let $T$ be a
+  common tangent to both the circles such that both the circles are on the same side of $T$. If $C$ is the
+  point of intersection of $T$ and the line passing through $A$ and $B$, then find the length of $A C$.
+//446
++ The centers of two circles $C_1$ and $C_2$ each of units radius are at a distance of $6$ units from each
+  other. Let $P$ be the mid-point of the line segment joining the centers of $C_1$ and $C_2$ and $C$ be a
+  circle touching circles $C_1$ and $C_2$ externally. If a common tangent to $C_1$ and $C$ passing through
+  $P$ is also a tangent to $C_2$ and $C$, then find the radius of the circle $C$.
+//447
++ Find the locus of the centers of the circles, which touch the circle, $x^2 + y^2 = 1$ externally, also
+  touch the $y$-axis and lie in the first quadrant.
+//448
++ The line $x = y$ touches a circle at the point $(1, 1)$. If the circle also passes through the point $(1,
+  -3)$, then find its radius.
+//449
++ Two circles with equal radii are intersecting at the points $(0, 1)$ and $(0, -1)$. The tangent at the
+  point $(0, 1)$ to one of the circles passes through the other circle. Find the distance between the
+  centers of the circles.
+//450
++ Three circles of radii $a, b, c(a < b < c)$ touch each other externally. If $x$-axis is their common
+  tangent then prove that $1/sqrt(a) = 1/sqrt(b) + 1/sqrt(c)$.
+//451
++ Find the locus of the center of the circle which touches $x^2 + (y - 1)^2 = 1$ externally and also touches
+  $x$-axis.
+//452
++ If two distinct chords, drawn from the point $(p, q)$ on the circle $x^2 + y^2 = p x + q y$ (where $p q !=
+  0$) are bisected by the $x$-axis.
+//453
++ Find the locus of the center of a circle, which touches externally the circle $x^2 + y^2 - 6x - 6y + 14 =
+  0$ and also touches $y$-axis.
+//454
++ Find the center of the circle passing through the points $(0, 0), (1, 0)$ and touches the circle $x^2 +
+  y^2 = 9$.
+//455
++ Find the equation of the circle passing through $(1, 1)$ and points of intersection of $x^2 + y^2 + 13x -
+  3y = 0$ and $2x^2 + 2y^2 + 4x - 7y - 25 = 0$.
+//456
++ For each natural number $k$, let $C_k$ denotes the circle with radius $k$ cm. and center at the origin. On
+  the circle $C_k$ a particle moves $k$ cm in the counter clockwise direction. After completing its motion
+  on $C_k$ the particle moves to $C_(k + 1)$ in the radial direction. The motion of particle continues in
+  this manner. The particle starts at $(1, 0)$. The particle start at $(1, 0)$. If the particle crosses the
+  positive direction of $x$-axis for the first time on the circle $C_n$ then find $n$.
+//457
++ The intercept on the line $y = x$ by the circle $x^2 + y^2 - 2x = 0$ is $A B$. Find the equation of the
+  circle with $A B$ as the diameter.
+//458
++ If the circle $C_1: x^2 + y^2 = 16$ intersects with another circle $C_2$ of radius $5$ such that the
+  common chord is of maximum length and has a slope of $3/4$, then find the coordinates of the center of
+  $C_2$.
+//459
++ Consider the family of circles $x^2 + y^2 = r^2, 2 < r < 5$. If in the first quadrant, the common tangent
+  to this family and the ellipse $4x^2 + 25y^2 = 100$ meets the coordinate axes at $A$ and $B$, then find
+  the equation to the locus of the mid-point of $A B$.
+//460
++ Consider a family of circles passing through two fixed points $A(3, 7)$ and $B(6, 5)$. Show that the
+  chords in which the circle $x^2 + y^2 - 4x - 6y - 3 = 0$ cuts the members of family are concurrent at a
+  point. Find the coordinates of this point.
+//461
++ A circle touches the line $y = x$ at a point $P$ such that $O P = 4sqrt(2)$, where $O$ is the origin. The
+  circle contains the point $(-10, 2)$ in its interior and the length of its chord on the line $x + y = 0$
+  is $6sqrt(2)$. Determine the equation of the circle.
+//462
++ Let $S equiv x^2 + y^2 + 2g x + 2f y + c = 0$ be a given circle. Find the locus of the foot of the
+  perpendicular drawn from the origin upon any chord of $S$ which subtends a right angle at the origin.
+//463
++ Let a given line $L_1$ intersect the $x$ and $y$ axes at $P$ and $Q$ respectively. Let another line $L_2$
+  perpendicular to the line $L_1$, cut the $x$ and $y$ axes at $R$ and $S$ respectively. Show that the locus
+  of point of intersection of the line $P S$ and $Q R$ is a circle passing through the origin.
+//464
++ Find the equations of the circles passing through $(-4, 3)$ and touching the lines $x + y = 2$ and $x - y
+  = 2$.
+//465
++ Find the equation of the circle which passes through the point $(2, 0)$ and whose center is the limit of
+  the point of intersection of the lines $3x + 5y = 1, (2 + c)x + 5c^2y = 1$ as $c$ tends to $1$.
+//466
++ A line $y = m x + 1$ intersects the circle $(x - 3)^2 + (y + 2)^2 = 25$ at points $P$ and $Q$. If the
+  mid-point of the line segment $P Q$ has $x$-coordinate $-3/5$ then find the values of $m$.
+//467
++ If the angle of intersection at a point where the circles with radii $5$ cm and $12$ cm intersect is
+  $90^degree$, then find the length of their common chord.
+//468
++ Find the sum of the squares of the lengths of the chords intercepted on the circle $x^2 + y^2 = 16$, by
+  the lines $x + y = n, n in NN$.
+//469
++ Find the locus of the centers of those circles, which touch the circle, $x^2 + y^2 - 8x - 8y - 4 = 0$,
+  externally and also touch the $x$-axis.
+//470
++ Find the locus of mid-point of the chord of contact of tangents drawn from points lying on the straight
+  line $4x - 5y = 20$ to the circle $x^2 + y^2 = 9$.
+//471
++ Tangents are drawn from the point $P(1, 8)$ to the circle $x^2 + y^2 - 6x - 4y - 11 = 0$ touch the circle
+  at points $A$ and $B$. Find the equation of the circumcircle of a $triangle P A B$.
+//472
++ Find the locus of the mid-point of the chord of the circle $x^2 + y^2 = 4$, which subtend at right angle
+  at the origin.
+//473
++ Find the points through which the chord of contact of the pair of tangents drawn from each point on the
+  line $2x + y = 4$ to the circle $x^2 + y^2 = 1$ passes.
+//474
++ Find the equation of the locus of the mid-points of the chord of the circle $4x^2 + 4y^2 - 12 x + 4y + 1 =
+  0$ that subtend an angle of $(2pi)/3$ at the center.
+//474
++ Find the area of the triangle formed by the tangents from the point $(4, 3)$ to the circle $x^2 + y^2 = 9$
+  and their chord of contact.
+//475
++ From the point $A(0, 3)$ on the circle $x^2 + 4x + (y - 3)^2 = 0$ a chord $A B$ is drawn and extended to a
+  point $M$ such that $A M = 2A B$. Find the equation to the locus of point $M$.
+//477
++ Find the equation of line passing through the points of intersection of $3x^2 + 3y^2 - 2x + 12y - 9 = 0$
+  and $x^2 + y^2 + 6x + 2y - 15 = 0$.
+//478
++ Let $x^2 + y^2 - 4x - 2y - 11 = 0$ be a circle. Find the area of quadrilateral formed by a pair of
+  tangents from $(4, 5)$ with a pair of radii.
+//479
++ From the origin chords are drawn to the circle $(x - 1)^2 + y^2 = 1$. Find the equation of the locus of
+  the mid-points of these chords.
+//480
++ Let $2x^2 + y^2 - 3x y = 0$ be the equation of a pair of tangents drawn from the origin $O$ to a circle of
+  radius $3$ with center in the first quadrant. If $A$ is one of the points of contact, find the length of
+  $O A$.
+//481
++ Let $T_1, T_2$ and be two tangents drawn from $(-2, 0)$ onto the circle $C: x^2 + y^2 = 1$. Determine the
+  circles touching $C$ and having $T_1, T_2$ as their pair of tangents. Further, find the equations of all
+  possible common tangents to these circles when taken two at a time.
+//482
++ $C_1$ and $C_2$ are two concentric circles, the raidus of $C_2$ being twice of $C_1$. From a point $P$ on
+  $C_2$, tangents $P A$ and $P B$ are drawn to $C_1$. Prove that the centroid of the $triangle P A B$ lies
+  on $C_1$.
