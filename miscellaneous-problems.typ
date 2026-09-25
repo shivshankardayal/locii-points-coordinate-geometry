@@ -1623,10 +1623,10 @@
 //474
 + Find the equation of the locus of the mid-points of the chord of the circle $4x^2 + 4y^2 - 12 x + 4y + 1 =
   0$ that subtend an angle of $(2pi)/3$ at the center.
-//474
+//475
 + Find the area of the triangle formed by the tangents from the point $(4, 3)$ to the circle $x^2 + y^2 = 9$
   and their chord of contact.
-//475
+//476
 + From the point $A(0, 3)$ on the circle $x^2 + 4x + (y - 3)^2 = 0$ a chord $A B$ is drawn and extended to a
   point $M$ such that $A M = 2A B$. Find the equation to the locus of point $M$.
 //477
@@ -1650,3 +1650,108 @@
 + $C_1$ and $C_2$ are two concentric circles, the raidus of $C_2$ being twice of $C_1$. From a point $P$ on
   $C_2$, tangents $P A$ and $P B$ are drawn to $C_1$. Prove that the centroid of the $triangle P A B$ lies
   on $C_1$.
+//483
++ Find the interval of values of $a$ for which the line $x + y = 0$ bisects two chords drawn from a point
+  $((1 + sqrt(2)a)/2, (1 - sqrt(2)a)/2)$ to the circle $2x^2 + 2y^2 - (1 = sqrt(2)a)x - (1 - sqrt(2)a)y =
+  0$.
+//484
++ Let a circle given by $2x(x - a) + y(2y - b) = 0(a !=0, b!= 0)$. Find the condition on $a$ and $b$ if two
+  chords, each bisected by the $x$-axis can be drawn to the circle from $(a, b/2)$.
+//485
++ Lines $5x + 2y - 10 = 0$ and $5x - 12y - 40 = 0$ touch a circle $C_1$ of diameter $6$. If the center of
+  $C_1$ lies in the first quadrant, find the equation of the circle $C_2$, which is concentric with $C_1$
+  and cuts intercept of length $8$ on these lines.
+//486
++ Through a fixed point $(h, k)$ secants are drawn to the circle $x^2 + y^2 = r^2$. Show that the locus of
+  the mid-points of secants intercepted by the circle is $x^2 + y^2 = h x + k y$.
+//487
++ Let $A$ be the center of the circle $x^2 + y^2 - 2x - 4y - 20 = 0$. Suppose that, the tangents at the
+  points $(1, 7)$ and $D(4, -2)$ on the circle meet at the point $C$. Find the area of the quadrilateral $A
+  B C D$.
+//488
++ Let $O$ be the center of the circle $x^2 + y^2 = r^2$, where $r > sqrt(5)/2$. Suppose $P Q$ is a chord of
+  this circle and the equation of the line passing through $P$ and $Q$ is $2x + 4y = 5$. If the center of
+  circumcircle of the triangle $P O Q$ lies on the line $x + 2y = 4$, then find the value of $r$.
+//489
++ Two parallel chords of a circle of radius $2$ are at a distance $sqrt(3) + 1$ apart. If the chords subtend
+  angles of $pi/k$ and $(2pi)/k$ at the center, then find the value of $[k]$.
+//490
++ Find the locus of a point which divides the line segment joining the point $(0, -1)$ and a point on the
+  parabola, $x^2 = 4y$ internally in the ratio $1:2$.
+//491
++ If the area of the triangle whose one vertex is at the vertex of the parabola, $y^2 + 4(x - a)^2 = 0$ and
+  the other two vertices, are the points of intersection of the parabola and $y$-axis is $250$ sq. units,
+  then find the value of $a$.
+//492
++ A circle cuts a chord of length $4a$ on the $x$-axis and passes through a point on the $y$-axis, distant
+  $2b$ from the origin. Find the locus of center of this circle.
+//493
++ Let $P$ be a point on the parabola $y^2 = 8x,$ which is at a minimum distance from the center $C$ of the
+  circle $x^2 + (y + 6)^2 = 1$. Find the equation of the circle passing through $C$ and having $P$ as the
+  center.
+//494
++ Let $O$ be the vertex and $Q$ be any point on the parabola $x^2 = 8y$. If the point $P$ divides the line
+  segment $O Q$ internally in the ratio $1:3$, then find the locus of $P$.
+//495
++ Let $(x, y)$ be any point on the parabola $y^2 = 4x$. Let $P$ be the point that divides the line segment
+  from $(0, 0)$ to $(x, y)$ in the ratio $1:3$. Find the locus of $P$.
+//496
++ Axis of a parabola is $y = x$ and vertex and focus are at a distance $sqrt(2)$ and $2sqrt(2)$ from the
+  origin respectively. Find the equation of the parabola.
+//497
++ Find the locus of the mid-point of the line segment joining the focus to a moving point on the parabola
+  $y_2 = 4a x$.
+//498
++ Find the equation of the directrix of the parabola $y^2 + 4y + 4x + 2 = 0$.
+//499
++ If the line $x - 1 = 0$ is the directrix of the parabola $y^2 - k x + 8 = 0$, then find the values of $k$.
+//500
++ What curve do the parametric equations $x = t^2 + t + 1$ and $y = t^2 - t + 1$ signify?
+//501
++ Let curve $C$ be the mirror image of the parabola $y^2 = 4x$ w.r.t. the line $x + y + 4 = 0$. If $A$ and
+  $B$ are the points of intersection of $C$ with the line $y = -5$, then find the distance between $A$ and
+  $B$.
+//502
++ Let $S$ be the focus of the parabola $y^2 = 8x$ and $P Q$ be the common chord of the circle $x^2 + y^2 -
+  2x - 4y = 0$ and the given parabola. Find the area of $triangle P Q S$.
+//503
++ Let $L_1$ be a tangent to the parabola $y^2 = 4(x + 1)$ and $L_2$ be a tangent to the parabola $y^2 = 8(x
+  + 2)$ such that $L_1$ and $L_2$ intersect at right angles. Find the locus of point of intersection.
+//504
++ If the line $a x + y = c$, touches both the curves $x^2  + y^2 = 1$ and $y^2 = 4sqrt(2)x$, then find
+  $|c|$.
+//505
++ Find the point of intersection of the tangents to the curve $y = (x - 2)^2 - 1$ at its points of
+  intersection with the line $x - y = 3$.
+//506
++ Find the area(in sq. units) of the smaller of two circles that touch the parabola, $y^2 = 4x$ at the point
+  $(1, 2)$ and $x$-axis.
+//507
++ Find the equation of the tangent to the parabola, $x^2 = 8y$ which makes an angle $theta$ with the
+  positive direction of $x$-axis.
+//508
++ Find the equation of the common tangents to the circle $x^2 + y^2 - 6x = 0$ and the parabola $y^2 = 4x$.
+//509
++ Tangents and normals are drawn at $P(16, 16)$ on the parabola $y^2 = 16x$, which intersects with the axis
+  of the parabola at $A$ and $B$ respectively. If $C$ is the center of the circle through points $P, A$ and
+  $B$ and $angle C P B = theta$, then find value of $tan theta$.
+//510
++ Find the radius of the circle having minimum area, which touches the curve $y = 4 - x^2$ and the lines $y
+  = |x|$.
+//511
++ Find the slope of the tangent touching both the parabolas $y^2 = 4x$ and $x^2 = -32y$.
+//512
++ Consider a tangent at $(1, 7)$ to the curve $x^2 = y - 6$. Find the point at which this tangent touches
+  the circle $x^2 + y^2 + 16x + 12 y + c = 0$.
+//513
++ Find the angle between the tangents drawn from the point $(1, 4)$ to the parabola $y^2 = 4x$.
+//514
++ The focal chord to $y^2 = 16x$ is tangent to $(x - 6)^2 + y^2 = 2$. Find the possible values for slopes of
+  this chord.
+//515
++ Find the equation of common tangents to the curves $y^2 = 8x$ and $x y = -1$.
+//516
++ Find the equation of common tangents touching the circle $(x - 3)^2 + y^2 = 9$ and the parabola $y^2 = 4x$
+  above the $x$-axis.
+//517
++ Let $a, r, s, t$ be non-zero real numbers. Let $P(a t^2, 2a t), Q, R(a r^2, 2a r)$

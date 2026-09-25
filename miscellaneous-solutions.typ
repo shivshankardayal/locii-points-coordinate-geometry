@@ -12758,3 +12758,916 @@ m h + c$, which gives $h = (k - c)/m$.
   Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the locus
   equation $x^2 + y^2 = r^2$. This is identically the equation of the inner circle $C_1$. Therefore, the
   centroid of $triangle P A B$ lies perfectly on the circle $C_1$.
+//483
++ The given equation of the circle can be simplified by dividing every term by $2$, yielding $x^2 + y^2 -
+  ((1 + sqrt(2)a)/2)x - ((1 - sqrt(2)a)/2)y = 0$. Let us denote the constant coordinate expressions as $x_0
+  = (1 + sqrt(2)a)/2$ and $y_0 = (1 - sqrt(2)a)/2$. This allows us to rewrite the circle in the compact form
+  $x^2 + y^2 - x_0 x - y_0 y = 0$.
+
+  The given point is $P(x_0, y_0)$. Substituting these coordinates into our simplified circle equation gives
+  $x_0^2 + y_0^2 - x_0^2 - y_0^2 = 0$, which is identically true. This confirms that the point $P(x_0, y_0)$
+  lies perfectly on the circumference of the circle.
+
+  Let a variable chord drawn from the point $P(x_0, y_0)$ terminate at another point $B$ on the circle. We
+  are given that this chord is bisected by the line $x + y = 0$. Let the midpoint of the chord be $M(h, -h)$
+  since it must lie on this line.
+
+  Using the standard midpoint formula, the coordinates of the other endpoint $B$ can be written in terms of
+  $h$ as $B(2h - x_0, -2h - y_0)$. Since $B$ is a point on the circle, its coordinates must satisfy the
+  circle equation, giving $(2h - x_0)^2 + (-2h - y_0)^2 - x_0 (2h - x_0) - y_0 (-2h - y_0) = 0$.
+
+  Expanding each bracketed term yields $4h^2 - 4h x_0 + x_0^2 + 4h^2 + 4h y_0 + y_0^2 - 2h x_0 + x_0^2 + 2h
+  y_0 + y_0^2 = 0$. Grouping like terms together transforms the expression into $8h^2 - 6h x_0 + 6h y_0 +
+  2x_0^2 + 2y_0^2 = 0$. Dividing the entire equation by the common factor $2$ simplifies it to the quadratic
+  equation $4h^2 - 3(x_0 - y_0)h + x_0^2 + y_0^2 = 0$.
+
+  Now we calculate the individual parameter values in terms of $a$:
+  - The difference component is $x_0 - y_0 = (1 + sqrt(2)a)/2 - (1 - sqrt(2)a)/2 = (2sqrt(2)a)/2 =
+    sqrt(2)a$.
+  - The sum-of-squares component is $x_0^2 + y_0^2 = ((1 + sqrt(2)a)^2 + (1 - sqrt(2)a)^2)/4 = (1 +
+    2sqrt(2)a + 2a^2 + 1 - 2sqrt(2)a + 2a^2)/4 = (2 + 4a^2)/4 = (1 + 2a^2)/2$.
+
+  Substituting these components back into our quadratic equation gives $4h^2 - 3(sqrt(2)a)h + (1 + 2a^2)/2 =
+  0$.
+
+  For the line to bisect exactly two distinct chords, this quadratic equation must have two distinct real
+  roots for the midpoint parameter $h$. This geometric condition requires the discriminant $D$ of the
+  quadratic equation to be strictly greater than zero ($D > 0$).
+
+  Evaluating the discriminant condition yields $D = (-3sqrt(2)a)^2 - 4(4)((1 + 2a^2)/2) > 0$. Expanding the
+  squares gives $18a^2 - 8(1 + 2a^2) > 0$, which simplifies to $18a^2 - 8 - 16a^2 > 0$, or $2a^2 - 8 > 0$.
+
+  Isolating the variable gives $2a^2 > 8$, which reduces directly to $a^2 > 4$. Taking the square root
+  establishes the required interval of values for the parameter as $a in (-infinity, -2) union (2,
+  infinity)$.
+//484
++ The equation of the given circle can be rewritten in standard form by dividing every term by $2$, yielding
+  $x^2 + y^2 - a x - (b/2)y = 0$.
+
+  The given point from which the chords are drawn is $P(a, b/2)$. Substituting these coordinates into the
+  circle equation gives $a^2 + (b/2)^2 - a(a) - (b/2)(b/2) = a^2 + b^2/4 - a^2 - b^2/4 = 0$, which confirms
+  that the point $P$ lies perfectly on the circumference of the circle.
+
+  Let a variable chord drawn from $P(a, b/2)$ terminate at another point $Q$ on the circle. We are given
+  that this chord is bisected by the x-axis. Let the midpoint of the chord be $M(h, 0)$ since it must lie on
+  the horizontal axis.
+
+  Using the standard midpoint formula with the coordinates of $P(a, b/2)$ and $M(h, 0)$, the coordinates of
+  the other endpoint $Q$ can be written in terms of $h$ as $Q(2h - a, -b/2)$.
+
+  Since $Q$ is a point on the circle, its coordinates must satisfy the circle equation, giving $(2h - a)^2 +
+  (-b/2)^2 - a(2h - a) - (b/2)(-b/2) = 0$.
+
+  Expanding each bracketed term yields $4h^2 - 4a h + a^2 + b^2/4 - 2a h + a^2 + b^2/4 = 0$. Grouping like
+  terms together transforms the expression into $4h^2 - 6a h + 2a^2 + b^2/2 = 0$.
+
+  Multiplying the entire equation by $2$ to clear the fractional component gives the quadratic equation
+  $8h^2 - 12a h + 4a^2 + b^2 = 0$ in terms of the midpoint position parameter $h$.
+
+  For two distinct chords to be drawn under these conditions, this quadratic equation must have two distinct
+  real roots for the parameter $h$. This geometric condition requires the discriminant $D$ of the quadratic
+  equation to be strictly greater than zero ($D > 0$).
+
+  Evaluating the discriminant condition yields $D = (-12a)^2 - 4(8)(4a^2 + b^2) > 0$. Expanding the
+  numerical products gives $144a^2 - 32(4a^2 + b^2) > 0$, which simplifies to $144a^2 - 128a^2 - 32b^2 > 0$.
+
+  Combining the variable terms results in $16a^2 - 32b^2 > 0$, which reduces directly to $16a^2 >
+  32b^2$. Dividing both sides by $16$ isolates the final required condition as $a^2 > 2b^2$.
+//485
++ The equations of the two given tangent lines are $L_1: 5x + 12y - 10 = 0$ and $L_2: 5x - 12y - 40 =
+  0$. Since the first circle $C_1$ has a diameter of $6$, its radius is $R_1 = 3$.
+
+  Let the center of $C_1$ be $M(h, k)$. Since the center lies in the first quadrant, we have $h > 0$ and $k
+  > 0$. The perpendicular distance from $M(h, k)$ to both lines must equal the radius $3$.
+
+  Using the perpendicular distance formula for $L_1$, we get $abs(5h + 12k - 10) / sqrt(5^2 + 12^2) = 3$,
+  which simplifies to $abs(5h + 12k - 10) / 13 = 3$, or $abs(5h + 12k - 10) = 39$.
+
+  Using the perpendicular distance formula for $L_2$, we get $abs(5h - 12y - 40) / sqrt(5^2 + (-12)^2) = 3$,
+  which simplifies to $abs(5h - 12k - 40) / 13 = 3$, or $abs(5h - 12k - 40) = 39$.
+
+  Evaluating these absolute value conditions for the first quadrant yields the linear system $5h + 12k - 10
+  = 39$ and $5h - 12k - 40 = -39$. Solving these equations simultaneously gives the coordinates of the
+  center as $M(5, 2)$.
+
+  The second circle $C_2$ is concentric with $C_1$, so its center is also at $M(5, 2)$. We are given that
+  $C_2$ intercepts a chord of length $8$ on these lines.
+
+  The perpendicular distance $d$ from the center $M(5, 2)$ to either line is equal to the radius of the
+  inner circle, which is $d = 3$. The half-length of the intercepted chord is $8 / 2 = 4$.
+
+  Applying the Pythagorean theorem to the right-angled triangle formed by the center, the perpendicular
+  foot, and an intersection point on the line, the radius $R_2$ of $C_2$ satisfies $R_2^2 = d^2 +
+  ("half-chord")^2 = 3^2 + 4^2 = 9 + 16 = 25$.
+
+  Using the standard center-radius form, the equation of the circle $C_2$ is written as $(x - 5)^2 + (y -
+  2)^2 = 25$. Expanding this relation gives $x^2 - 10x + 25 + y^2 - 4y + 4 = 25$, which simplifies to the
+  final equation $x^2 + y^2 - 10x - 4y + 25 = 0$.
+//486
++ Let the fixed point through which the secant lines are drawn be $A(h, k)$. The given circle equation is
+  $x^2 + y^2 = r^2$, which is centered at the origin $O(0, 0)$.
+
+  Let $M(x_1, y_1)$ be the moving midpoint of a chord intercepted by the circle along any such secant line.
+
+  A fundamental geometric property of circles states that the line segment connecting the center of a circle
+  to the midpoint of any chord is completely perpendicular to that chord. Therefore, the line segment $O M$
+  connecting the origin $O(0, 0)$ to the midpoint $M(x_1, y_1)$ must be perpendicular to the secant line
+  passing through $A(h, k)$ and $M(x_1, y_1)$.
+
+  The slope of the line segment $O M$ is calculated using the coordinates as $m_1 = (y_1 - 0) / (x_1 - 0) =
+  y_1 / x_1$.
+
+  The slope of the secant chord line passing through the fixed point $A(h, k)$ and the midpoint $M(x_1,
+  y_1)$ is given by the expression $m_2 = (y_1 - k) / (x_1 - h)$.
+
+  Since these two lines are perpendicular, the product of their slopes must equal $-1$, satisfying the
+  standard relation $m_1 dot m_2 = -1$. Substituting our slope expressions into this relation yields $(y_1
+  / x_1) dot ((y_1 - k) / (x_1 - h)) = -1$.
+
+  Cross-multiplying to clear the fractional denominators gives $y_1(y_1 - k) = -x_1(x_1 - h)$, which expands
+  directly to $y_1^2 - k y_1 = -x_1^2 + h x_1$.
+
+  Rearranging all the components onto one side of the equation gives $x_1^2 + y_1^2 = h x_1 + k y_1$.
+
+  Generalising the midpoint coordinates $(x_1, y_1)$ to the standard continuous variables $(x, y)$ results
+  in the final locus equation $x^2 + y^2 = h x + k y$. Completing the square reveals that this locus is
+  another circle described by $(x - h/2)^2 + (y - k/2)^2 = (h^2 + k^2)/4$, which always passes through both
+  the origin and the fixed point $(h, k)$.
+//487
++ The equation of the given circle is $x^2 + y^2 - 2x - 4y - 20 = 0$. Comparing this with the general circle
+  equation identifies its center at $A(1, 2)$ and its radius as $R = sqrt(1^2 + 2^2 - (-20)) = sqrt(1 + 4 +
+  20) = sqrt(25) = 5$. Let the first given point be denoted as $B(1, 7)$, which lies on the circle since
+  $1^2 + 7^2 - 2(1) - 4(7) - 20 = 0$.
+
+  The equation of the tangent line to a circle at any point $(x_1, y_1)$ is found using the standard
+  replacement formula $x x_1 + y y_1 + g(x + x_1) + f(y + y_1) + c = 0$.
+  - For the point $B(1, 7)$, the tangent line equation is $x(1) + y(7) - 1(x + 1) - 2(y + 7) - 20 = 0$,
+    which simplifies directly to $5y - 35 = 0$, or $y = 7$.
+  - For the point $D(4, -2)$, the tangent line equation is $x(4) + y(-2) - 1(x + 4) - 2(y - 2) - 20 = 0$,
+    which simplifies directly to $3x - 4y - 20 = 0$.
+
+  The two tangents intersect at the point $C$. To find the coordinates of $C$, we solve the linear system by
+  substituting $y = 7$ into the second tangent equation, giving $3x - 4(7) - 20 = 0$, which simplifies to
+  $3x - 48 = 0$, or $x = 16$. Thus, the intersection point is $C(16, 7)$.
+
+  The length of the tangent line segment $L$ is the distance from the intersection point $C(16, 7)$ to the
+  point of tangency $B(1, 7)$, which is calculated as $L = 16 - 1 = 15$.
+
+  The quadrilateral $A B C D$ formed by the two radii ($A B$ and $A D$) and the two tangent segments ($C B$
+  and $C D$) can be divided along the line segment $A C$ into two congruent right-angled triangles,
+  $triangle A B C$ and $triangle A D C$.
+
+  The area of each right-angled triangle is given by the formula $1/2 times R times L$. Since the
+  quadrilateral is composed of two identical triangles, its total area simplifies directly to the product of
+  the radius and the tangent length, satisfying $Delta = 2 times (1/2 times R times L) = R times L$.
+
+  Substituting the radius $R = 5$ and the tangent length $L = 15$ into this geometric relationship results
+  in the final area value as $Delta = 5 times 15 = 75$ square units.
+//488
++ The equation of the given circle is $S_1: x^2 + y^2 - r^2 = 0$, which is centered at the origin $O(0,
+  0)$. Let $S_2$ denote the circumcircle of $triangle P O Q$.
+
+  Since the circumcircle $S_2$ passes through the origin $O(0, 0)$, its general equation can be written
+  without a constant term as $S_2: x^2 + y^2 + 2g x + 2f y = 0$.
+
+  The common chord of the two circles $S_1$ and $S_2$ is the line passing through their points of
+  intersection $P$ and $Q$. The equation of this common chord is found by evaluating the radical axis $S_2 -
+  S_1 = 0$, which gives $2g x + 2f y + r^2 = 0$.
+
+  We are given that the equation of the line passing through $P$ and $Q$ is $2x + 4y = 5$, which can be
+  rewritten in general form as $2x + 4y - 5 = 0$.
+
+  Since both equations represent the exact same straight line, their corresponding coefficients must be
+  perfectly proportional. Comparing the templates gives the relation $2g / 2 = 2f / 4 = r^2 / -5 = k$, where
+  $k$ is a scalar constant.
+
+  Isolating the parameters in terms of $k$ gives $g = k$ and $f = 2k$. Substituting these into the constant
+  term relation yields $r^2 = -5k$, which isolates the multiplier as $k = -r^2 / 5$.
+
+  The center of the circumcircle $S_2$ is located at the coordinates $(-g, -f) = (-k, -2k)$. Substituting
+  our expression for $k$ into these coordinates determines the position of the center as $(r^2 / 5, 2r^2 /
+  5)$.
+
+  We are given that this center lies directly on the straight line $x + 2y = 4$. Substituting the center
+  coordinates into the line equation sets up the equality $(r^2 / 5) + 2(2r^2 / 5) = 4$.
+
+  Combining the fractional components on the left side simplifies the relation to $r^2 / 5 + 4r^2 / 5 = 4$,
+  which reduces directly to $5r^2 / 5 = 4$, or $r^2 = 4$.
+
+  Taking the square root for a positive radius isolates the final value as $r = 2$, which perfectly
+  satisfies the given boundary constraint $r > sqrt(5)/2$.
+//489
++ Let the center of the circle be $O(0, 0)$ and its radius be $R = 2$. Let the two parallel chords be $A B$
+  and $C D$, which subtend angles of $pi/k$ and $(2pi)/k$ at the center, respectively.
+
+  The perpendicular line from the center to any chord bisects both the chord and its central subtended
+  angle. Thus, the perpendicular distances from the center $O$ to the chords are given by the cosine
+  component of the half-angles:
+  - The distance to chord $A B$ is $d_1 = R cos(pi / (2k)) = 2 cos(pi / (2k))$.
+  - The distance to chord $C D$ is $d_2 = R cos((2pi) / (2k)) = 2 cos(pi / k)$.
+
+  Assuming the two chords lie on opposite sides of the center to maximize their separation, the total
+  distance between them is the sum of these distances, satisfying $d_1 + d_2 = sqrt(3) + 1$: $2 cos(pi /
+  (2k)) + 2 cos(pi / k) = sqrt(3) + 1$
+
+  Let us substitute a variable $theta = pi / (2k)$ to simplify the trigonometric structure. The identity
+  becomes $2 cos theta + 2 cos(2theta) = sqrt(3) + 1$. Dividing the entire equation by $2$ simplifies it to
+  $cos theta + cos(2theta) = (sqrt(3) + 1) / 2$
+
+  Using the double-angle identity $cos(2theta) = 2 cos^2 theta - 1$, we can rewrite this as a standard
+  quadratic equation in terms of $cos theta$ i.e. $cos theta + 2 cos^2 theta - 1 = sqrt(3)/2 + 1/2 =>
+  2 cos^2 theta + cos theta - (3 + sqrt(3))/2 = 0$
+
+  Multiplying the equation by $2$ to clear the fraction yields $4 cos^2 theta + 2 cos theta - (3 + sqrt(3))
+  = 0$. We can factor this expression by grouping terms symmetrically $4 cos^2 theta - 3 + 2 cos theta -
+  sqrt(3) = 0 => (2 cos theta - sqrt(3))(2 cos theta + sqrt(3)) + (2 cos theta - sqrt(3)) = 0$
+
+  Factoring out the shared binomial grouping isolates the product as $(2 cos theta - sqrt(3))(2 cos theta +
+  sqrt(3) + 1) = 0$
+
+  Evaluating each factor for a valid real cosine value:
+  - From $2 cos theta + sqrt(3) + 1 = 0$, we find $cos theta = -(sqrt(3) + 1) / 2$, which evaluates to
+    approximately $-1.36$. Since a real cosine value cannot be less than $-1$, this case yields no valid
+    solution.
+  - From $2 cos theta - sqrt(3) = 0$, we find $cos theta = sqrt(3)/2$.
+
+  Since $theta = pi / (2k)$ is an acute angle, solving $cos(pi / (2k)) = sqrt(3)/2$ yields $pi / (2k) = pi /
+  6 => 2k = 6 => k = 3$
+
+  The largest integer less than or equal to $k$ is given by the greatest integer function $[k] = [3] = 3$.
+//490
++ Let the fixed point be $A(0, -1)$. Let an arbitrary point on the parabola $x^2 = 4y$ be represented in
+  standard parametric form as $Q(2t, t^2)$, where $t$ is a real parameter.
+
+  Let $M(h, k)$ be the moving point that divides the line segment joining $A(0, -1)$ and $Q(2t, t^2)$
+  internally in the ratio $1:2$.
+
+  Applying the standard internal section formula to the endpoints $A(0, -1)$ and $Q(2t, t^2)$ with the ratio
+  $m:n = 1:2$ yields $h = (1(2t) + 2(0)) / (1 + 2) = (2t) / 3$ and $k = (1(t^2) + 2(-1)) / (1 + 2) = (t^2 -
+  2) / 3$
+
+  From the horizontal coordinate relation, we isolate the parameter $t$ as $3h = 2t => t = (3h) / 2$.
+
+  To eliminate the parameter, we substitute this expression for $t$ back into our vertical coordinate
+  relation $3k = ((3h) / 2)^2 - 2=>3k = (9h^2) / 4 - 2$
+
+  Multiplying every term in the equation by $4$ to clear the fractional denominator gives $12k = 9h^2 - 8$
+
+  Rearranging the terms to place the variables on one side isolates the relationship as $9h^2 - 12k = 8$
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $9x^2 - 12y = 8$.
+//491
++ The equation of the given parabola can be rewritten in standard horizontal form as $y^2 = -4(x -
+  a^2)$. Comparing this with the standard template reveals that the vertex of the parabola is located at the
+  point $V(a^2, 0)$.
+
+  To find where the parabola intersects the y-axis, we substitute $x = 0$ into its equation, which yields
+  $y^2 + 4(0 - a^2) = 0$, simplifying to $y^2 = 4a^2$. Taking the square root gives $y = plus.minus
+  2a$. Thus, the remaining two vertices of the triangle are $B(0, 2a)$ and $C(0, -2a)$.
+
+  The base of this triangle lies entirely along the y-axis between the points $B$ and $C$, giving its total
+  length as $"Base" = 2a - (-2a) = 4a$ (assuming $a > 0$ for geometric convenience).
+
+  The height of the triangle is the perpendicular distance from the third vertex $V(a^2, 0)$ to the y-axis
+  line, which is simply its horizontal coordinate, giving $"Height" = a^2$.
+
+  The area of the triangle is calculated using the standard formula $"Area" = 1/2 dot "Base" dot
+  "Height"$. Substituting our derived geometric expressions sets up the relation $1/2 dot (4a) dot (a^2) =
+  250$.
+
+  Simplifying the algebraic products reduces the equation to $2a^3 = 250$, which divides by $2$ to give $a^3
+  = 125$. Taking the cube root isolates the final parameter value directly as $a = 5$.
+//492
++ Let the center of the variable circle be $P(h, k)$ and its radius be $R$.
+
+  The circle intercepts a chord of length $4a$ on the x-axis. The perpendicular distance from the center
+  $P(h, k)$ to the x-axis is given by the absolute vertical coordinate $|k|$. This perpendicular line
+  bisects the chord into two segments of length $2a$. Applying the Pythagorean theorem to the right-angled
+  triangle formed by the center, the perpendicular foot, and an intersection point on the x-axis yields the
+  radius relation $R^2 = k^2 + (2a)^2 = k^2 + 4a^2$.
+
+  We are also given that the circle passes through a point on the y-axis that is at a distance of $2b$ from
+  the origin. The coordinates of this point can be either $(0, 2b)$ or $(0, -2b)$, which can be compactly
+  written as $(0, plus.minus 2b)$.
+
+  Since this point lies on the circumference of the circle, its distance to the center $P(h, k)$ must be
+  exactly equal to the radius $R$. Using the standard distance formula between two points, we write the
+  relation $(h - 0)^2 + (k - (plus.minus 2b))^2 = R^2$, which expands directly to $h^2 + k^2 minus.plus 4b k
+  + 4b^2 = R^2$.
+
+  To eliminate the variable radius parameter $R$, we substitute our first radius relation $R^2 = k^2 + 4a^2$
+  into this expanded distance equation. This substitution transforms the relation into $h^2 + k^2 minus.plus
+  4b k + 4b^2 = k^2 + 4a^2$.
+
+  Canceling the shared quadratic term $k^2$ from both sides of the equation simplifies the expression to
+  $h^2 minus.plus 4b k + 4b^2 - 4a^2 = 0$, which can be grouped as $h^2 minus.plus 4b k + 4(b^2 - a^2) = 0$.
+
+  Generalising the center parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the
+  final locus equation $x^2 plus.minus 4b y + 4(b^2 - a^2) = 0$. This algebraic result represents a pair of
+  parabolas.
+//493
++ The given circle is $x^2 + (y + 6)^2 = 1$, which has its center at $C(0, -6)$. Let $P$ be a variable point
+  on the parabola $y^2 = 8x$.
+
+  The parametric coordinates of any point on the parabola $y^2 = 4a x$ with $a = 2$ can be written as
+  $P(2t^2, 4t)$, where $t$ is a real parameter.
+
+  The point $P$ is at a minimum distance from the center $C(0, -6)$ if the normal to the parabola at $P$
+  passes directly through $C$. The standard equation of the normal to the parabola at the point parameter
+  $t$ is $y = -t x + 2a t + a t^3$. Substituting $a = 2$ gives $y = -t x + 4t + 2t^3$.
+
+  Since this normal line passes through $C(0, -6)$, we substitute these coordinates into the normal
+  equation, yielding $-6 = -t(0) + 4t + 2t^3$, which simplifies to $2t^3 + 4t + 6 = 0$. Dividing the entire
+  relation by $2$ gives the cubic equation $t^3 + 2t + 3 = 0$.
+
+  By inspection, $t = -1$ is a root because $(-1)^3 + 2(-1) + 3 = 0$. Since the derivative of the cubic
+  function is $3t^2 + 2 > 0$, it is strictly increasing and has only one real root. Thus, $t = -1$.
+
+  Substituting $t = -1$ back into our parametric template determines the explicit coordinates of point $P$
+  as $P(2(-1)^2, 4(-1)) = P(2, -4)$.
+
+  The required circle has its center at $P(2, -4)$ and passes through $C(0, -6)$. The squared radius $R^2$
+  of this circle is the squared distance between $P$ and $C$, which evaluates to $R^2 = (2 - 0)^2 + (-4 -
+  (-6))^2 = 4 + 4 = 8$.
+
+  Using the standard center-radius form, the equation of the required circle is written as $(x - 2)^2 + (y +
+  4)^2 = 8$. Expanding this relation gives $x^2 - 4x + 4 + y^2 + 8y + 16 = 8$, which simplifies to the final
+  general equation $x^2 + y^2 - 4x + 8y + 12 = 0$.
+//494
++ The equation of the given parabola is $x^2 = 8y$. By inspecting the equation, the vertex of this parabola
+  is at the origin $O(0, 0)$.
+
+  Let any variable point $Q$ on the parabola be represented in standard parametric form as $Q(4t, 2t^2)$,
+  where $t$ is a real parameter.
+
+  Let $P(h, k)$ be the moving point that divides the line segment $O Q$ internally in the ratio $1:3$. This
+  means the ratio segments map from $O$ to $P$ as $1$ and from $P$ to $Q$ as $3$.
+
+  Applying the standard internal section formula to the endpoints $O(0, 0)$ and $Q(4t, 2t^2)$ with the ratio
+  $m:n = 1:3$ yields $h = (1(4t) + 3(0)) / (1 + 3) = (4t) / 4 = t$ and $k = (1(2t^2) + 3(0)) / (1 + 3) =
+  (2t^2) / 4 = t^2 / 2$
+
+  From the horizontal coordinate relation, we isolate the parameter directly as $t = h$.
+
+  To eliminate the parameter, we substitute this expression for $t$ back into our vertical coordinate
+  relation $k = h^2 / 2$
+
+  Cross-multiplying by $2$ to clear the fraction gives $h^2 = 2k$
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $x^2 = 2y$.
+//495
++ Let any variable point on the parabola $y^2 = 4x$ be denoted by $(x, y)$. The starting endpoint of the
+  line segment is the origin $O(0, 0)$.
+
+  Let $P(h, k)$ be the moving point that divides the line segment from $O(0, 0)$ to $(x, y)$ internally in
+  the ratio $1:3$.
+
+  Applying the standard internal section formula to the endpoints $O(0, 0)$ and $(x, y)$ with the ratio $m:n
+  = 1:3$ yields $h = (1 \cdot x + 3 \cdot 0) / (1 + 3) = x / 4$ and $k = (1 \cdot y + 3 \cdot 0) / (1 + 3) =
+  y / 4$.
+
+  We isolate the initial coordinates in terms of the moving midpoint parameters, which gives $x = 4h$ and $y
+  = 4k$.
+
+  Since the point $(x, y)$ lies on the given parabola $y^2 = 4x$, substituting our expressions into this
+  equation yields $(4k)^2 = 4(4h)$.
+
+  Expanding the terms simplifies the relation directly to $16k^2 = 16h$, which reduces to $k^2 = h$.
+
+  Generalising the coordinates $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $y^2 = x$.
+//496
++ The axis of the parabola is given by the line $y = x$, which has an angle of inclination of
+  $45^degree$. Both the vertex $V$ and the focus $S$ must lie on this axis line.
+
+  We are given that the vertex and the focus are located at a distance of $sqrt(2)$ and $2sqrt(2)$ from the
+  origin, respectively. Under the standard convention where both points lie in the first quadrant, their
+  coordinates are found using parametric distance transformations:
+  - For the vertex $V$, the coordinates are $(sqrt(2) cos(45^degree), sqrt(2) sin(45^degree)) = (1, 1)$.
+  - For the focus $S$, the coordinates are $(2sqrt(2) cos(45^degree), 2sqrt(2) sin(45^degree)) = (2, 2)$.
+
+  The distance $a$ between the vertex $V(1, 1)$ and the focus $S(2, 2)$ is calculated using the distance
+  formula as $a = sqrt((2 - 1)^2 + (2 - 1)^2) = sqrt(2)$.
+
+  The directrix of a parabola is a straight line that is completely perpendicular to its axis. Since the
+  slope of the axis $y = x$ is $1$, the slope of the directrix line must be the negative reciprocal, which
+  is $-1$.
+
+  Furthermore, the directrix intersects the axis line at a point, say $K$, such that the vertex $V$ is the
+  exact midpoint of the segment $K S$. Since $S$ is at a distance of $a = sqrt(2)$ from $V$ moving outward
+  along the axis, the point $K$ must be at a distance of $a = sqrt(2)$ from $V$ moving backward towards the
+  origin. This places $K$ exactly at the origin $(0, 0)$.
+
+  Since the directrix has a slope of $-1$ and passes through the origin $(0, 0)$, its equation is given by
+  $y - 0 = -1(x - 0)$, which simplifies to the standard linear form $x + y = 0$.
+
+  By the fundamental geometric definition of a parabola, any moving point $P(x, y)$ on its curve must be
+  completely equidistant from the focus $S(2, 2)$ and the directrix line $x + y = 0$. Setting up this
+  distance equality gives $sqrt((x - 2)^2 + (y - 2)^2) = abs(x + y) / sqrt(1^2 + 1^2)$.
+
+  Squaring both sides of this equation to clear the radical and absolute value components yields $(x - 2)^2
+  + (y - 2)^2 = (x + y)^2 / 2$.
+
+  Multiplying the entire relation by $2$ to eliminate the fractional denominator expands the expression to
+  $2(x^2 - 4x + 4 + y^2 - 4y + 4) = (x + y)^2$.
+
+  Expanding both sides fully gives $2x^2 + 2y^2 - 8x - 8y + 16 = x^2 + 2x y + y^2$.
+
+  Rearranging and grouping the terms systematically yields $x^2 - 2x y + y^2 = 8x + 8y - 16$.
+
+  Factoring both sides results in the final general equation of the parabola as $(x - y)^2 = 8(x + y - 2)$.
+//497
++ The equation of the given parabola is $y^2 = 4a x$. By inspecting the equation, the coordinates of its
+  focus are $S(a, 0)$.
+
+  Let a variable moving point on this parabola be represented in standard parametric form as $Q(a t^2, 2a
+  t)$, where $t$ is a real parameter.
+
+  Let $M(h, k)$ be the moving midpoint of the line segment joining the focus $S(a, 0)$ and the point $Q(a
+  t^2, 2a t)$.
+
+  Applying the standard midpoint formula to the components of $S$ and $Q$ yields $h = (a + a t^2) / 2$ and
+  $k = (0 + 2a t) / 2 = a t$
+
+  From the vertical coordinate relation, we isolate the parameter $t$ in terms of our moving coordinates as
+  $t = k / a$.
+
+  To eliminate the parameter, we substitute this expression for $t$ back into our horizontal coordinate
+  relation $2h = a + a (k / a)^2 => 2h = a + k^2 / a$
+
+  Multiplying the entire equation by $a$ to clear the fractional denominator yields $2a h = a^2 + k^2 => k^2
+  = 2a h - a^2$
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $y^2 = 2a x - a^2$.
+//498
++ The equation of the given parabola is $y^2 + 4y + 4x + 2 = 0$. To find its structural components, we group
+  the vertical terms together and complete the square.
+
+  Adding $4$ to both sides of the vertical expression gives $y^2 + 4y + 4 + 4x + 2 = 4$, which simplifies to
+  $(y + 2)^2 + 4x + 2 = 4$.
+
+  Rearranging the linear terms onto the right-hand side yields $(y + 2)^2 = -4x + 2$, which can be factored
+  into the standard form as $(y + 2)^2 = -4(x - 1/2)$.
+
+  Comparing this with the standard horizontal template $(y - k)^2 = -4a(x - h)$ identifies the parameters as
+  the vertex $V(h, k) = (1/2, -2)$ and the focal scaling factor $4a = 4 => a = 1$.
+
+  Since the squared variable is $y$ and the coefficient on the right-hand side is negative, the parabola
+  opens horizontally to the left.
+
+  The directrix of a horizontally opening parabola is a vertical line located at a distance of $a$ units
+  backward from the vertex component $h$. The equation of this directrix line is given by $x = h + a$.
+
+  Substituting our derived values $h = 1/2$ and $a = 1$ into this boundary relation results in the final
+  equation $x = 1/2 + 1 => x = 3/2$
+//499
++ The equation of the given parabola is $y^2 - k x + 8 = 0$, which can be rearranged as $y^2 = k x -
+  8$. Factoring out the parameter $k$ gives the standard horizontal form $y^2 = k(x - 8/k)$.
+
+  By comparing this equation with the standard template $(y - y_0)^2 = 4a(x - x_0)$, the vertex of the
+  parabola is located at the coordinates $V(8/k, 0)$. The focal distance parameter satisfies $4a = k$, which
+  means $a = k/4$.
+
+  We evaluate the position of the directrix line based on the sign of the parameter $k$:
+  - If $k > 0$, the parabola opens horizontally to the right. The equation of the directrix is located at a
+    distance of $a$ units to the left of the vertex, which is given by $x = x_0 - a = 8/k - k/4$.
+  - If $k < 0$, the parabola opens horizontally to the left. The equation of the directrix is located at a
+    distance of $|a|$ units to the right of the vertex, which is given by $x = x_0 + |a| = 8/k + (-k/4) = 8/k
+    - k/4$.
+
+  In both geometric configurations, the algebraic expression for the directrix line is identically $x = 8/k
+  - k/4$. We are given that the equation of the directrix is the line $x - 1 = 0$, or $x = 1$. Setting up
+  the equality yields $8/k - k/4 = 1$.
+
+  To eliminate the fractional denominators, we multiply the entire equation by the common multiple $4k$,
+  which transforms the expression into $32 - m^2 = 4k$, where $m^2$ is a typo for $k^2$, giving $32 - k^2 =
+  4k$. Grouping all the terms onto one side results in the standard quadratic equation $k^2 + 4k - 32 = 0$.
+
+  Factoring this quadratic equation gives $(k + 8)(k - 4) = 0$. Solving for the parameter isolates the two
+  possible valid values as $k = 4$ or $k = -8$.
+//500
++ The given parametric equations are $x = t^2 + t + 1$ and $y = t^2 - t + 1$. To identify the curve, we
+  eliminate the parameter $t$ by combining the two algebraic relations.
+
+  Adding the two equations removes the linear $t$ terms $x + y = (t^2 + t + 1) + (t^2 - t + 1) = 2t^2 + 2 =
+  2(t^2 + 1)$
+
+  Subtracting the second equation from the first removes the quadratic and constant components, isolating
+  $t$ directly $x - y = (t^2 + t + 1) - (t^2 - t + 1) = 2t => t = (x - y) / 2$
+
+  Now we substitute this expression for $t$ back into our addition relation to fully eliminate the parameter
+  $x + y = 2(((x - y) / 2)^2 + 1) = 2((x - y)^2 / 4 + 1) = (x - y)^2 / 2 + 2$
+
+  Multiplying the entire equation by $2$ to clear the fractional component yields $2x + 2y = (x - y)^2 + 4
+  => (x - y)^2 = 2x + 2y - 4$
+
+  Rearranging the terms into standard algebraic form gives $x^2 - 2x y + y^2 - 2x - 2y + 4 = 0$
+
+  We evaluate the nature of this second-degree curve by checking its discriminant or second-degree
+  polynomial coefficients. Comparing this with the general conic template $A x^2 + 2B x y + C y^2 + 2D x +
+  2E y + F = 0$, we identify $A = 1$, $B = -1$, and $C = 1$.
+
+  The structural characteristic discriminant for a conic is given by the expression $B^2 - A
+  C$. Substituting our coefficient values yields $B^2 - A C = (-1)^2 - (1)(1) = 1 - 1 = 0$.
+
+  By definition, any non-degenerate second-degree equation where the discriminant $B^2 - A C$ is identically
+  equal to zero signifies a parabola. Since the quadratic portion forms a perfect square $(x - y)^2$, this
+  represents an inclined parabola whose axis is parallel to the line $y = x$.
+//501
++ Let any arbitrary point $P$ on the given parabola $y^2 = 4x$ be represented in standard parametric form as
+  $P(t^2, 2t)$, where $t$ is a real parameter.
+
+  Let the point $Q(x, y)$ be the mirror image of $P(t^2, 2t)$ across the line mirror $x + y + 4 = 0$. Using
+  the standard transformation formula for the reflection of a coordinate point across a straight line, we
+  write the simultaneous relation $(x - t^2) / 1 = (y - 2t) / 1 = (-2(t^2 + 2t + 4)) / (1^2 + 1^2)$
+
+  Simplifying the right-hand side scale factor yields $(-2(t^2 + 2t + 4)) / 2 = -(t^2 + 2t + 4)$. We
+  separate this into two independent parametric coordinate expressions:
+  - For $x$: $x - t^2 = -t^2 - 2t - 4 => x = -2t - 4$
+  - For $y$: $y - 2t = -t^2 - 2t - 4 => y = -t^2 - 4$
+
+  We are given that the curve $C$ (traced by the reflected point $Q$) intersects the line $y = -5$ at points
+  $A$ and $B$. Substituting $y = -5$ into our vertical coordinate expression allows us to isolate the matching
+  values of the parameter $t$ i.e. $-5 = -t^2 - 4 => t^2 = 1 => t = \pm 1$
+
+  Now, we substitute these two parameter components back into our horizontal coordinate expression to find
+  the $x$-coordinates of the intersection points:
+  - For $t = 1$, we get $x_1 = -2(1) - 4 = -6$, which corresponds to point $A(-6, -5)$.
+  - For $t = -1$, we get $x_2 = -2(-1) - 4 = -2$, which corresponds to point $B(-2, -5)$.
+
+  Since both points $A$ and $B$ share the exact same y-coordinate ($y = -5$), the distance between them is
+  simply the absolute difference of their $x$-coordinates $"Distance " A B = |x_2 - x_1| = |-2 - (-6)| = |-2
+  + 6| = 4$
+
+  Therefore, the distance between the intersection points $A$ and $B$ is $4$ units.
+//502
++ The equation of the given parabola is $y^2 = 8x$. By comparing this with the standard template $y^2 = 4a
+  x$, the focal coefficient is $4a = 8 => a = 2$, which gives the coordinates of the focus as $S(2,
+  0)$.
+
+  To find the intersection points $P$ and $Q$ of the parabola and the circle $x^2 + y^2 - 2x - 4y = 0$, we
+  substitute $y^2 = 8x$ into the circle equation. This substitution simplifies the relation to $x^2 + 8x -
+  2x - 4y = 0$, which yields $x^2 + 6x - 4y = 0$.
+
+  From the parabola equation, we express the horizontal coordinate as $x = y^2 / 8$. Substituting this into
+  our simplified intersection relation gives $(y^2 / 8)^2 + 6(y^2 / 8) - 4y = 0$, which expands to $y^4 / 64
+  + (3y^2) / 4 - 4y = 0$.
+
+  Multiplying the entire equation by $64$ to clear the fractional denominators yields $y^4 + 48y^2 - 256y =
+  0$. Factoring out the shared variable $y$ gives $y(y^3 + 48y - 256) = 0$.
+
+  This equation shows that the first intersection point has a vertical coordinate of $y = 0$, which gives $x
+  = 0^2 / 8 = 0$, corresponding to the origin point $P(0, 0)$.
+
+  To find the remaining real roots, we evaluate the cubic factor $y^3 + 48y - 256 = 0$. By testing small
+  integers, we find that $y = 4$ is a valid root since $4^3 + 48(4) - 256 = 64 + 192 - 256 = 0$. Factoring
+  out $(y - 4)$ leaves the quadratic expression $y^2 + 4y + 64 = 0$, which has a negative discriminant and
+  produces no further real roots.
+
+  Substituting $y = 4$ back into our horizontal expression determines the second intersection point as $x =
+  4^2 / 8 = 2$, corresponding to the point $Q(2, 4)$.
+
+  The vertices of $triangle P Q S$ are now explicitly given by the coordinates $P(0, 0)$, $Q(2, 4)$, and
+  $S(2, 0)$.
+
+  Notice that the points $S(2, 0)$ and $Q(2, 4)$ both share the exact same x-coordinate, meaning the segment
+  $S Q$ forms a perfectly vertical base for the triangle along the line $x = 2$. The length of this base is
+  the vertical distance between the two points, which evaluates to $"Base" = 4 - 0 = 4$.
+
+  The third vertex is the origin $P(0, 0)$, and its perpendicular distance to the vertical line $x = 2$
+  gives the height of the triangle as $"Height" = 2 - 0 = 2$.
+
+  The area of $triangle P Q S$ is calculated using the standard formula $"Area" = 1/2 dot "Base" dot
+  "Height"$. Substituting our derived values results in the final calculation as $"Area" = 1/2 dot 4 dot
+  2 = 4$ square units.
+//503
++ The first parabola is given by the equation $y^2 = 4(x + 1)$. Comparing this with the standard horizontal
+  form $y^2 = 4a X$ where $X = x + 1$ identifies the focal parameter as $a = 1$. The standard equation of a
+  tangent line $L_1$ with slope $m_1$ to this parabola is written as $y = m_1(x + 1) + 1 / m_1$.
+
+  The second parabola is given by the equation $y^2 = 8(x + 2)$. Comparing this with the standard horizontal
+  form $y^2 = 4a' X'$ where $X' = x + 2$ identifies the focal parameter as $a' = 2$. The standard equation
+  of a tangent line $L_2$ with slope $m_2$ to this parabola is written as $y = m_2(x + 2) + 2 / m_2$.
+
+  We are given that the two tangent lines $L_1$ and $L_2$ intersect at right angles ($90^degree$). The
+  geometric condition for perpendicular lines states that the product of their slopes must equal $-1$, which
+  allows us to substitute $m_2 = -1 / m_1$ into the second tangent equation. This substitution yields $y =
+  (-1 / m_1)(x + 2) + 2 / (-1 / m_1)$, which simplifies directly to $y = -1 / m_1 (x + 2) - 2m_1$.
+
+  Let the moving point of intersection of these two perpendicular tangents be $P(h, k)$. Since $P$ lies on
+  both lines, its coordinates must satisfy both linear equations simultaneously:
+  - From the first line $L_1$, we have $k = m_1(h + 1) + 1 / m_1$, which clears fractions to form the
+    quadratic equation $m_1^2 (h + 1) - k m_1 + 1 = 0$.
+  - From the second line $L_2$, we have $k = -1 / m_1 (h + 2) - 2m_1$, which clears fractions to form the
+    quadratic equation $2m_1^2 + k m_1 + (h + 2) = 0$.
+
+  To eliminate the variable slope parameter $m_1$, we add these two quadratic equations together, which
+  cancels out the linear $k m_1$ terms $(h + 1)m_1^2 - k m_1 + 1 + 2m_1^2 + k m_1 + h + 2 = 0$
+
+  Grouping the remaining terms by common expressions transforms the relation into $(h + 3)m_1^2 + (h + 3) =
+  0$. Factoring out the shared binomial grouping isolates the product equation as $(h + 3)(m_1^2 + 1) = 0$.
+
+  Since the slope $m_1$ represents a real geometric line, its value must be real, which means the quadratic
+  expression $m_1^2 + 1$ can never equal zero ($m_1^2 + 1 != 0$). Therefore, the first factor must satisfy
+  the equation $h + 3 = 0 => h = -3$.
+
+  Generalising the horizontal parameter $h$ to the standard continuous variable $x$ results in the final
+  locus equation $x + 3 = 0$.
+//504
++ The equation of the given parabola is $y^2 = 4sqrt(2)x$, which gives the focal parameter $A =
+  sqrt(2)$. Any tangent to this parabola with slope $m$ can be written as $y = m x + sqrt(2) / m$.
+
+  Comparing this with the given line $a x + y = c => y = -a x + c$, we find the structural components are $m
+  = -a$ and $c = sqrt(2) / m$.
+
+  Since this line is also tangent to the circle $x^2 + y^2 = 1$, the perpendicular distance from the center
+  $(0, 0)$ to the line must equal its radius $1$ i.e. $abs(c) / sqrt((-a)^2 + 1) = 1 => c^2 = a^2 + 1$
+
+  Substituting $c = -sqrt(2) / a$ into this condition yields $2 / a^2 = a^2 + 1 => a^4 + a^2 - 2 = 0 => (a^2
+  + 2)(a^2 - 1) = 0$
+
+  Since $a^2$ must be real and positive, we find $a^2 = 1$. Substituting this back into the distance
+  relation isolates the final intercept parameter $c^2 = 1 + 1 = 2 => abs(c) = sqrt(2)$.
+//505
++ The equation of the curve is $y = (x - 2)^2 - 1$, which expands to $y = x^2 - 4x + 3$. The equation of the line can be rewritten as $y = x - 3$.
+
+  To find the points of intersection, we equate the two expressions for $y$, yielding $x - 3 = x^2 - 4x +
+  3$, which rearranges to the quadratic equation $x^2 - 5x + 6 = 0$. Factoring gives $(x - 2)(x - 3) = 0$,
+  which yields two horizontal intersection components at $x = 2$ and $x = 3$.
+  - For $x = 2$, substituting into the line gives $y = 2 - 3 = -1$, corresponding to the point $A(2, -1)$.
+  - For $x = 3$, substituting into the line gives $y = 3 - 3 = 0$, corresponding to the point $B(3, 0)$.
+
+  Next, we differentiate the curve equation with respect to $x$ to find the slope function $(d y)/(d x) = 2x
+  - 4$. We evaluate this derivative at each intersection point to find the slopes of the tangents:
+  - At $A(2, -1)$, the tangent slope is $m_A = 2(2) - 4 = 0$. The equation of this horizontal tangent line
+    is $y - (-1) = 0(x - 2) => y = -1$.
+  - At $B(3, 0)$, the tangent slope is $m_B = 2(3) - 4 = 2$. The equation of this tangent line is $y - 0 =
+    2(x - 3) => y = 2x - 6$.
+
+  To find the point of intersection of these two tangents, we substitute the horizontal line $y = -1$ into
+  the second tangent equation, which gives $-1 = 2x - 6$. Solving for the horizontal component yields $2x =
+  5 => x = 5/2$.
+
+  Therefore, the point of intersection of the tangents is $(5/2, -1)$.
+//506
++ The equation of the parabola is $y^2 = 4x$. The equation of the tangent line to this parabola at the point
+  $(1, 2)$ is given by the standard replacement formula $y(2) = 2(x + 1)$, which simplifies to the linear form
+  $x - y + 1 = 0$.
+
+  The family of all circles touching the line $x - y + 1 = 0$ at the specific point $(1, 2)$ can be
+  expressed using the combination template $(x - 1)^2 + (y - 2)^2 + lambda (x - y + 1) = 0$. Expanding the
+  terms and grouping them into the general circle form yields $x^2 + y^2 + (lambda - 2)x - (lambda + 4)y +
+  (lambda + 5) = 0$.
+
+  For a circle to touch the x-axis, the structural coefficient constraint requires $g^2 = c$. Comparing our
+  family parameters with the general form identifies $2g = lambda - 2 => g = (lambda - 2) / 2$ and $c =
+  lambda + 5$.
+
+  Substituting these definitions into the touch condition sets up the quadratic relation $((lambda - 2) /
+  2)^2 = lambda + 5$, which expands to $(lambda^2 - 4lambda + 4) / 4 = lambda + 5$. Cross-multiplying by $4$
+  and rearranging all terms onto one side gives $lambda^2 - 8lambda - 16 = 0$.
+
+  Applying the quadratic formula to this equation isolates the parameter values as $lambda = (8 plus.minus
+  sqrt(64 - 4(1)(-16))) / 2 = (8 plus.minus 8sqrt(2)) / 2 = 4 plus.minus 4sqrt(2)$.
+
+  Since the circle touches the x-axis, its radius is given directly by the absolute value of its vertical
+  center coordinate, satisfying $R = abs(f) = abs((lambda + 4) / 2)$. We evaluate the radius for both values
+  of $lambda$ to find the smaller circle:
+  - For $lambda_1 = 4 + 4sqrt(2)$, the radius is $R_1 = (4 + 4sqrt(2) + 4) / 2 = 4 + 2sqrt(2)$.
+  - For $lambda_2 = 4 - 4sqrt(2)$, the radius is $R_2 = abs((4 - 4sqrt(2) + 4) / 2) = 4 - 2sqrt(2)$.
+
+  The smaller circle has a radius of $R = 4 - 2sqrt(2)$. The area of this circle is calculated using the
+  standard formula $"Area" = pi R^2 = pi (4 - 2sqrt(2))^2$.
+
+  Expanding the squared binomial expression gives $(4 - 2sqrt(2))^2 = 16 - 16sqrt(2) + 8 = 24 - 16sqrt(2) =
+  8(3 - 2sqrt(2))$. Therefore, the area of the smaller circle is $8(3 - 2sqrt(2))pi$ square units.
+//507
++ The equation of the given vertical parabola is $x^2 = 8y$. Comparing this with the standard vertical
+  template $x^2 = 4a y$ identifies the focal parameter as $4a = 8 => a = 2$.
+
+  The slope of the tangent line is given by the trigonometric relation $m = tan theta$, where $theta$ is the
+  angle made with the positive direction of the x-axis.
+
+  The general equation of a tangent with slope $m$ to a vertical parabola $x^2 = 4a y$ is given by the
+  formula $y = m x - a m^2$.
+
+  Substituting our derived parameter values $a = 2$ and $m = tan theta$ into this standard template yields
+  the final equation $y = x tan theta - 2 tan^2 theta$.
+//508
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  general equation of a tangent with a non-zero slope $m$ to this parabola is given by the formula $y = m x
+  + 1 / m$, which can be rearranged in standard linear form as $m x - y + 1 / m = 0$.
+
+  The equation of the circle is $x^2 + y^2 - 6x = 0$. By completing the square, it can be written as $(x -
+  3)^2 + y^2 = 9$, which shows its center is located at $C(3, 0)$ and its radius is $R = 3$.
+
+  For the tangent line to touch the circle, the perpendicular distance from the center $C(3, 0)$ to the line
+  must be exactly equal to the radius $3$ i.e. $abs(m(3) - 0 + 1 / m) / sqrt(m^2 + (-1)^2) = 3 => abs(3m + 1
+  / m) = 3 sqrt(m^2 + 1)$
+
+  Squaring both sides of this equation to clear the radical and absolute value components yields $(3m + 1 /
+  m)^2 = 9(m^2 + 1)$, which expands to $9m^2 + 6 + 1 / m^2 = 9m^2 + 9$.
+
+  Canceling the shared quadratic terms simplifies the relation directly to $6 + 1 / m^2 = 9 => 1 / m^2 = 3
+  => m^2 = 1 / 3 => m = plus.minus 1 / sqrt(3)$.
+
+  Substituting these two slope values back into our tangent template produces two common tangents:
+  - For $m = 1 / sqrt(3)$, the equation is $y = 1 / sqrt(3)x + sqrt(3) => x - sqrt(3)y + 3 = 0$.
+  - For $m = -1 / sqrt(3)$, the equation is $y = -1 / sqrt(3)x - sqrt(3) => x + sqrt(3)y + 3 = 0$.
+
+  Concurrently, we inspect the behavior at the origin $(0, 0)$, which lies on both curves. The tangent to
+  the parabola at its vertex $(0, 0)$ is the vertical line $x = 0$. The tangent to the circle at the origin
+  $(0, 0)$ is also found to be $x = 0$. Since both curves touch each other externally at the origin, the
+  line $x = 0$ forms the third common tangent.
+//509
++ The equation of the given parabola is $y^2 = 16x$. Comparing this with the standard template $y^2 = 4a x$
+  identifies the focal parameter as $4a = 16 => a = 4$. The axis of this parabola is the x-axis ($y = 0$).
+
+  The point on the parabola is given as $P(16, 16)$. Differentiating the parabola equation with respect to
+  $x$ gives $2y (d y / d x) = 16 => d y / d x = 8 / y$. Evaluating this at $P(16, 16)$ yields the slope of
+  the tangent line as $m_t = 8 / 16 = 1/2$.
+
+  Using the point-slope form with $P(16, 16)$ and $m_t = 1/2$, the equation of the tangent line is $y - 16 =
+  1/2 (x - 16) => x - 2y + 16 = 0$. This tangent line intersects the x-axis ($y = 0$) at point $A$, giving
+  $x + 16 = 0 => x = -16$. Thus, the coordinates are $A(-16, 0)$.
+
+  The slope of the normal line is the negative reciprocal of the tangent slope, which evaluates to $m_n =
+  -2$. Using the point-slope form with $P(16, 16)$ and $m_n = -2$, the equation of the normal line is $y -
+  16 = -2(x - 16) => 2x + y - 48 = 0$. This normal line intersects the x-axis ($y = 0$) at point $B$, giving
+  $2x - 48 = 0 => x = 24$. Thus, the coordinates are $B(24, 0)$.
+
+  Since the tangent and normal at any point on a curve are always completely perpendicular to each other,
+  the angle $angle A P B$ is exactly $90^degree$. This makes $triangle P A B$ a right-angled triangle at
+  vertex $P$. Therefore, the circle passing through the vertices $P$, $A$, and $B$ must have the hypotenuse
+  segment $A B$ as its diameter.
+
+  The center $C$ of this circumcircle is the exact midpoint of the diameter segment $A B$. Using the
+  coordinates of $A(-16, 0)$ and $B(24, 0)$, the center coordinates are $C((-16 + 24) / 2, 0) = C(4, 0)$.
+
+  Since $C$ is the center of the circle and $A B$ is a diameter, the segment $C P$ is a radius of the
+  circle, meaning $C P = C B$. This equality makes $triangle C P B$ an isosceles triangle with base $P B$,
+  which establishes that $angle C B P = angle C P B = theta$.
+
+  The angle $theta$ is therefore equal to the angle that the normal line $P B$ makes with the x-axis. Since
+  the slope of the normal line is $-2$, the angle of inclination satisfies $tan(180^degree - theta) = 2$ or
+  directly looking at the interior angle of the triangle formed by $P(16, 16)$, $B(24, 0)$, and the
+  projection on the x-axis, the tangent of the acute angle with the horizontal is calculated as $tan theta =
+  abs(m_n) = 2$.
+//510
++ The equation of the given parabola is $y = 4 - x^2$, which has its vertex located at $V(0, 4)$. The given
+  boundary equations are the absolute lines $y = |x|$, which consist of the two intersecting lines $y = x$
+  and $y = -x$.
+
+  Due to the perfect symmetry of both the parabola and the lines about the y-axis, the circle having the
+  minimum area must have its center lying on the y-axis. Let the center of this circle be $C(0, 4 - r)$,
+  where $r$ is its radius. This choice guarantees that the circle is tangent to the parabola at its highest
+  vertex point $V(0, 4)$.
+
+  Since the circle must simultaneously touch the line $y = x$ (rearranged as $x - y = 0$) in the first
+  quadrant, the perpendicular distance from the center $C(0, 4 - r)$ to this line must equal the radius $r$:
+  $abs(0 - (4 - r)) / sqrt(1^2 + (-1)^2) = r => abs(r - 4) / sqrt(2) = r$
+
+  Evaluating the absolute value gives the linear relation $4 - r = sqrt(2) r$
+
+  Grouping the radius terms on one side to isolate $r$ yields $r(sqrt(2) + 1) = 4 => r = 4 / (sqrt(2) + 1)$
+
+  To rationalize the denominator, we multiply both the numerator and the denominator by $(sqrt(2) - 1)$ i.e.
+  $r = (4(sqrt(2) - 1)) / ((sqrt(2) + 1)(sqrt(2) - 1)) = (4(sqrt(2) - 1)) / (2 - 1) = 4(sqrt(2) - 1)$
+
+  Therefore, the radius of the circle with the minimum area is $4(sqrt(2) - 1)$ units.
+//511
++ The equation of the first parabola is $y^2 = 4x$. By comparing this with the standard template $y^2 = 4a
+  x$, the focal parameter is $4a = 4 => a = 1$. The general equation of a tangent line with slope $m$ to
+  this parabola is given by the formula $y = m x + a / m = m x + 1 / m$.
+
+  This same line also touches the second vertical parabola $x^2 = -32y$. To find the condition of tangency,
+  we substitute the linear template $y = m x + 1 / m$ into the second parabola equation $x^2 = -32(m x + 1 /
+  m) => x^2 + 32m x + 32 / m = 0$
+
+  For the straight line to be tangent to the curve, this quadratic intersection equation must produce equal
+  real roots. This geometric constraint requires the discriminant $D$ of the quadratic equation to be
+  identically equal to zero ($D = 0$) i.e. $(32m)^2 - 4(1)(32 / m) = 0 =>m = 1 / 2$.
+//512
++ The equation of the given parabola is $x^2 = y - 6$, which can be rewritten as $y = x^2 + 6$. The point
+  $P(1, 7)$ lies on this curve since $7 = 1^2 + 6$.
+
+  To find the slope of the tangent line at $P(1, 7)$, we differentiate the curve equation with respect to
+  $x$: $(d y)/(d x) = 2x$
+
+  Evaluating this derivative at $x = 1$ yields the slope of the tangent line as $m = 2(1) = 2$. Using the
+  standard point-slope form with $P(1, 7)$ and $m = 2$, the equation of the tangent line is $y - 7 = 2(x -
+  1) => y - 7 = 2x - 2 => 2x - y + 5 = 0$
+
+  This tangent line touches the circle $x^2 + y^2 + 16x + 12y + c = 0$. By comparing the circle equation
+  with the standard general template, the center of the circle is located at $C(-8, -6)$.
+
+  The point of contact where a tangent line touches a circle is the foot of the perpendicular dropped from
+  the center of the circle to that tangent line. The line passing through the center $C(-8, -6)$
+  perpendicular to the tangent line (which has a slope of $2$) must have a slope equal to the negative
+  reciprocal, which is $-1/2$.
+
+  Using the point-slope form, the equation of this normal line is $y - (-6) = -1/2 (x - (-8)) => y + 6 =
+  -1/2 (x + 8) => 2y + 12 = -x - 8 => x + 2y + 20 = 0$
+
+  The point of contact is the intersection point of the tangent line $2x - y + 5 = 0$ and the normal line $x
+  + 2y + 20 = 0$. From the tangent line, we express the vertical coordinate as $y = 2x + 5$. Substituting
+  this into the normal equation yields $x + 2(2x + 5) + 20 = 0 => x + 4x + 10 + 20 = 0 => 5x + 30 = 0 => x =
+  -6$
+
+  Substituting $x = -6$ back into our linear expression determines the vertical coordinate as $y = 2(-6) + 5
+  = -7$. Therefore, the point at which the tangent touches the circle is $(-6, -7)$.
+//513
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  general equation of a tangent line with slope $m$ to this parabola is given by the formula $y = m x + 1 /
+  m$.
+
+  Since the tangents pass through the external point $(1, 4)$, we substitute $x = 1$ and $y = 4$ into this
+  template, yielding $4 = m(1) + 1 / m$. Multiplying the entire relation by $m$ and rearranging the terms
+  onto one side results in the standard quadratic equation $m^2 - 4m + 1 = 0$.
+
+  Let $m_1$ and $m_2$ be the slopes of the two distinct tangent lines. According to Vieta's formulas, the
+  sum and product of the roots satisfy $m_1 + m_2 = 4$ and $m_1 m_2 = 1$.
+
+  The absolute difference between the two slopes is evaluated using the identity $(m_1 - m_2)^2 = (m_1 +
+  m_2)^2 - 4m_1 m_2$. Substituting our values gives $(m_1 - m_2)^2 = 4^2 - 4(1) = 16 - 4 = 12$, which
+  isolates the difference component as $abs(m_1 - m_2) = sqrt(12) = 2sqrt(3)$.
+
+  The angle $theta$ between the two tangent lines is determined by the standard trigonometric formula $tan
+  theta = abs((m_1 - m_2) / (1 + m_1 m_2))$. Substituting our derived components into this formula gives
+  $tan theta = (2sqrt(3)) / (1 + 1) = (2sqrt(3)) / 2 = sqrt(3)$.
+
+  Since $tan theta = sqrt(3)$, the acute angle between the two tangents is exactly $theta = pi/3$ or
+  $60^degree$.
+//514
++ The equation of the given parabola is $y^2 = 16x$. Comparing this with the standard form $y^2 = 4a x$
+  identifies the focal parameter as $4a = 16 => a = 4$. Therefore, the coordinates of the focus are $S(4,
+  0)$.
+
+  Let $m$ be the slope of the focal chord line. Since this chord must pass through the focus $S(4, 0)$, its
+  equation is written in point-slope form as $y - 0 = m(x - 4)$, which expands to the standard linear layout
+  $m x - y - 4m = 0$.
+
+  The given circle is $(x - 6)^2 + y^2 = 2$. By inspecting the equation, its center is located at $C(6, 0)$
+  and its radius is $R = sqrt(2)$.
+
+  For the focal chord line to touch the circle as a tangent, the perpendicular distance from the center
+  $C(6, 0)$ to the line must be exactly equal to the radius $sqrt(2)$.
+
+  Using the standard perpendicular distance formula from a point to a line yields the equation $abs(m(6) - 0
+  - 4m) / sqrt(m^2 + (-1)^2) = sqrt(2) => abs(2m) / sqrt(m^2 + 1) = sqrt(2)$
+
+  Squaring both sides of this equation to clear the radical and absolute value components gives $(4m^2) /
+  (m^2 + 1) = 2=>m = 1$ or $m = -1$.
+//515
++ The equation of the first parabola is $y^2 = 8x$, which, when compared to the standard form $y^2 = 4a x$,
+  gives the focal parameter $4a = 8 => a = 2$. The general equation of a tangent with slope $m$ to this
+  parabola is given by the formula $y = m x + a / m = m x + 2 / m$.
+
+  This same line also serves as a tangent to the rectangular hyperbola $x y = -1$. To find the condition of
+  tangency, we substitute our linear tangent equation $y = m x + 2 / m$ directly into the hyperbola equation
+  $x(m x + 2 / m) = -1 => m x^2 + 2 / m x + 1 = 0$
+
+  For the line to touch the curve as a tangent, this quadratic intersection equation must produce equal real
+  roots. This geometric constraint requires the discriminant $D$ of the quadratic equation to be identically
+  equal to zero ($D = 0$) $(2 / m)^2 - 4(m)(1) = 0 => 4 / m^2 - 4m = 0$
+
+  Dividing by $4$ and cross-multiplying by $m^2$ to eliminate the fractional denominator isolates the relation
+  as $1 - m^3 = 0 => m^3 = 1$
+
+  Taking the real cube root isolates the slope parameter value directly as $m = 1$.
+
+  Now we substitute the derived value $m = 1$ back into our original tangent line equation template $y = 1x
+  + 2 / 1 => y = x + 2$
+
+  Rearranging the terms into standard form gives the final linear equation $x - y + 2 = 0$.
+//516
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  general equation of a tangent with a non-zero slope $m$ to this parabola is given by the formula $y = m x
+  + 1 / m$, which can be rearranged in standard linear form as $m x - y + 1 / m = 0$.
+
+  The equation of the circle is $(x - 3)^2 + y^2 = 9$, which shows its center is located at $C(3, 0)$ and
+  its radius is $R = 3$.
+
+  For the tangent line to touch the circle, the perpendicular distance from the center $C(3, 0)$ to the line
+  must be exactly equal to the radius $3$ i.e. $abs(m(3) - 0 + 1 / m) / sqrt(m^2 + (-1)^2) = 3 => abs(3m + 1
+  / m) = 3 sqrt(m^2 + 1)$
+
+  Squaring both sides of this equation to clear the radical and absolute value components yields $(3m + 1 /
+  m)^2 = 9(m^2 + 1)$, which expands to $9m^2 + 6 + 1 / m^2 = 9m^2 + 9$.
+
+  Canceling the shared quadratic terms simplifies the relation directly to $6 + 1 / m^2 = 9 => 1 / m^2 = 3
+  => m^2 = 1 / 3 => m = plus.minus 1 / sqrt(3)$.
+
+  This gives two non-vertical common tangents:
+  - For $m = 1 / sqrt(3)$, the equation is $y = 1 / sqrt(3)x + sqrt(3) => x - sqrt(3)y + 3 = 0$.
+  - For $m = -1 / sqrt(3)$, the equation is $y = -1 / sqrt(3)x - sqrt(3) => x + sqrt(3)y + 3 = 0$.
+
+  To find the one that touches the curves above the x-axis, we look at the points of contact. Substituting
+  the first line $x = sqrt(3)y - 3$ into the parabola $y^2 = 4x$ gives $y^2 - 4sqrt(3)y + 12 = 0 => (y -
+  2sqrt(3))^2 = 0 => y = 2sqrt(3)$. Since the vertical coordinate of the point of contact is strictly
+  positive ($y > 0$), this tangent touches the curves perfectly above the x-axis.
+
+  Therefore, the equation of the required common tangent is $x - sqrt(3)y + 3 = 0$.
