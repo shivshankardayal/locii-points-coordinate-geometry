@@ -13671,3 +13671,2356 @@ m h + c$, which gives $h = (k - c)/m$.
   positive ($y > 0$), this tangent touches the curves perfectly above the x-axis.
 
   Therefore, the equation of the required common tangent is $x - sqrt(3)y + 3 = 0$.
+//517
++ The equation of the given parabola is $y^2 = 4a x$. The point $P$ is represented by the parametric
+  coordinate $t$, giving $P(a t^2, 2a t)$.
+
+  Since $P Q$ is a focal chord, the parameter of the opposite endpoint $Q$ satisfies the inverse relation
+  $t_Q = -1/t$, which gives the explicit coordinates as $Q(a/t^2, -2a/t)$.
+
+  The point $R$ has the parameter $r$, giving $R(a r^2, 2a r)$. The slope of the straight line $Q R$
+  connecting these two points is calculated as $m_(Q R) = (2a r - (-2a/t)) / (a r^2 - a/t^2) = (2a(r + 1/t))
+  / (a(r^2 - 1/t^2)) = 2 / (r - 1/t) = (2t) / (r t - 1)$.
+
+  The line $P K$ connects the point $P(a t^2, 2a t)$ and the fixed point $K(2a, 0)$. The slope of this line
+  is given by $m_(P K) = (2a t - 0) / (a t^2 - 2a) = (2t) / (t^2 - 2)$.
+
+  We are given that the lines $Q R$ and $P K$ are parallel. Equating their slopes yields the relation $(2t)
+  / (r t - 1) = (2t) / (t^2 - 2)$. Since $t$ is a non-zero real number, we divide both sides by $2t$,
+  leaving $1 / (r t - 1) = 1 / (t^2 - 2)$, which simplifies to $r t - 1 = t^2 - 2$. Solving for the
+  parameter isolates the value as $r t = t^2 - 1 => r = (t^2 - 1)/t$.
+
+  For the second part, we are given the condition $s t = 1$, which means the parameter for point $S$ is $s =
+  1/t$. We find where the tangent at $P(t)$ and the normal at $S(s)$ intersect:
+  - The standard equation of the tangent line to the parabola at parameter $t$ is $y t = x + a t^2$.
+  - The standard equation of the normal line to the parabola at parameter $s$ is $y + s x = 2a s + a
+    s^3$. Substituting $s = 1/t$ transforms the normal line into $y + x/t = 2a/t + a/t^3$, which expands by
+    multiplying by $t$ to $t y + x = 2a + a/t^2$.
+
+  To find their intersection point, we solve this system of linear equations simultaneously. From the
+  tangent equation, we isolate the horizontal component as $x = t y - a t^2$. Substituting this expression
+  into our expanded normal relation yields $t y + (t y - a t^2) = 2a + a/t^2$.
+
+  Combining the variable terms gives $2t y = a t^2 + 2a + a/t^2$, which can be factored as $2t y = a(t +
+  1/t)^2 = a((t^2 + 1)/t)^2 = a(t^2 + 1)^2 / t^2$. Dividing both sides by $2t$ isolates the vertical
+  coordinate (ordinate) directly as $y = a(t^2 + 1)^2 / (2t^3)$.
+
+  Now we substitute this vertical expression back into our horizontal isolation formula to find the matching
+  $x$-coordinate $x = t (a(t^2 + 1)^2 / (2t^3)) - a t^2 = a(t^4 + 2t^2 + 1) / (2t^2) - (2a t^4) / (2t^2) =
+  a(1 + 2t^2 - t^4) / (2t^2)$.
+
+  Therefore, the two lines meet at the point coordinates $(a(1 + 2t^2 - t^4) / (2t^2), a(t^2 + 1)^2 /
+  (2t^3))$.
+//518
++ The equation of the given parabola is $y^2 - 2y - 4x + 5 = 0$. By completing the square for the vertical
+  variables, it can be rewritten in standard horizontal form as $(y - 1)^2 = 4(x - 1)$. This identifies the
+  vertex of the parabola at $(1, 1)$ and the focal parameter as $a = 1$. The equation of its directrix is $x
+  - 1 = -1 => x = 0$, which is the y-axis.
+
+  Let any moving point $P$ on this parabola be represented in standard parametric form as $P(1 + t^2, 1 +
+  2t)$, where $t$ is a real parameter.
+
+  The standard equation of a tangent line with parameter $t$ to this horizontal parabola is $t(y - 1) = (x -
+  1) + t^2$. We are given that this tangent line meets the directrix $x = 0$ at the point $Q$. Substituting
+  $x = 0$ into the tangent relation yields $t(y - 1) = -1 + t^2 => y - 1 = t - 1/t => y = 1 + t -
+  1/t$. Thus, the explicit coordinates are $Q(0, 1 + t - 1/t)$.
+
+  Let $R(h, k)$ be the moving point which divides the segment $Q P$ externally in the ratio $1/2 : 1 = 1 :
+  2$. By the geometric definition of external section ratios, the distance relation satisfies $Q R / P R = 1
+  / 2 => P R = 2 Q R$. Because $R$ lies outside the segment and is closer to $Q$, the ordering of the points
+  along the straight line must be $R - Q - P$. This positioning implies that the intersection point $Q$ is
+  the exact midpoint of the line segment $R P$.
+
+  Applying the standard midpoint average formula to the horizontal and vertical coordinate tracks gives $0 =
+  (h + 1 + t^2) / 2 => h = -1 - t^2 => t^2 = -(h + 1) => 1 + t - 1/t = (k + 1 + 2t) / 2 => 2 + 2t - 2/t = k
+  + 1 + 2t => 1 - 2/t = k => t = 2 / (1 - k)$
+
+  To eliminate the variable parameter $t$, we substitute our expression for $t$ back into the first
+  quadratic relation $(2 / (1 - k))^2 = -(h + 1) => 4 / (1 - k)^2 = -(h + 1) => (h + 1)(k - 1)^2 = -4$
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $(x + 1)(y - 1)^2 = -4$, which can be neatly rearranged to $(x + 1)(y - 1)^2 + 4 = 0$.
+//519
++ Let any arbitrary point on the parabola $y = x^2$ be represented as $P(x, x^2)$. The given fixed point is
+  $A(0, c)$.
+
+  The squared distance $D$ between the moving point $P(x, x^2)$ and the fixed point $A(0, c)$ is calculated
+  using the distance formula $D = (x - 0)^2 + (x^2 - c)^2 = x^2 + x^4 - 2c x^2 + c^2 = x^4 + (1 - 2c)x^2 +
+  c^2$
+
+  To find the minimum value of this expression, we substitute a new variable $u = x^2$. Since $x$ is a real
+  coordinate, the variable $u$ must be non-negative ($u >= 0$). The squared distance function can be
+  rewritten as a quadratic function in terms of $u$ i.e. $f(u) = u^2 + (1 - 2c)u + c^2$
+
+  The graph of this quadratic function is an upward-opening parabola whose vertex occurs at the value $u = -
+  (1 - 2c) / (2(1)) = c - 1/2$
+
+  We evaluate the absolute minimum of $f(u)$ over the valid domain $u >= 0$ by considering two separate
+  cases based on the location of this vertex:
+
+  Case 1: When $0 <= c <= 1/2$. In this interval, the vertex location $u = c - 1/2$ is less than or equal to
+  zero. Since $u$ cannot be negative, the quadratic function $f(u)$ is strictly increasing throughout the
+  entire valid domain $u >= 0$. Therefore, the absolute minimum occurs at the boundary point $u = 0$:
+  $f(0) = 0^2 + (1 - 2c)(0) + c^2 = c^2$
+
+  Taking the positive square root gives the shortest distance as $sqrt(c^2) = c$.
+
+  Case 2: When $1/2 < c <= 5$. In this interval, the vertex location $u = c - 1/2$ is strictly positive ($u
+  > 0$), which means it lies perfectly within our valid domain. Therefore, the absolute minimum occurs
+  exactly at the vertex $u = c - 1/2$: $f(c - 1/2) = (c - 1/2)^2 + (1 - 2c)(c - 1/2) + c^2=>f(c - 1/2) = c^2
+  - c + 1/4 + c - 1/2 - 2c^2 + c + c^2 = c - 1/4$
+
+  Taking the positive square root gives the shortest distance as $sqrt(c - 1/4)$.
+//520
++ The equation of the given parabola is $y^2 = 8x$, which identifies the focal parameter as $4a = 8 => a =
+  2$. The endpoints of its latus rectum are given by $L_1(a, 2a) = L_1(2, 4)$ and $L_2(a, -2a) = L_2(2,
+  -4)$. The given point on the parabola is $P(1/2, 2)$.
+
+  The first triangle is formed by the vertices $L_1(2, 4)$, $L_2(2, -4)$, and $P(1/2, 2)$. The base $L_1
+  L_2$ is a vertical segment along the line $x = 2$ with a length of $4 - (-4) = 8$. The height of this
+  triangle is the perpendicular distance from $P(1/2, 2)$ to the line $x = 2$, which evaluates to $2 - 1/2 =
+  3/2$. Thus, the area $Delta_1$ is calculated as $Delta_1 = 1/2 dot 8 dot 3/2 = 6$.
+
+  According to a fundamental geometric theorem of parabolas, the area of a triangle formed by any three
+  points on a parabola is always exactly twice the area of the triangle formed by the tangent lines drawn at
+  those same three points. This direct theorem yields the relationship $Delta_1 / Delta_2 = 2$.
+
+  We can verify this explicitly by finding the intersection points of the three tangent lines. The
+  parameters for the three points are $t_1 = 1$, $t_2 = -1$, and $t_3 = 1/2$. The equations of the tangents
+  are $x - y + 2 = 0$, $x + y + 2 = 0$, and $2x - y + 1 = 0$. Solving these pairwise gives the vertices of
+  the second triangle as $T_1(-2, 0)$, $T_2(1, 3)$, and $T_3(-1, -1)$. Using the coordinate area formula,
+  the area of this tangent triangle is $Delta_2 = 1/2 abs(-2(3 - (-1)) + 1(-1 - 0) + (-1)(0 - 3)) = 1/2
+  abs(-8 - 1 + 3) = 3$.
+
+  Dividing the two explicitly calculated areas confirms the ratio directly as $Delta_1 / Delta_2 = 6 / 3 =
+  2$.
+//521
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  equation of the circle is $x^2 + y^2 - 4x - 16y + 64 = 0$, which can be rearranged by completing the
+  square as $(x - 2)^2 + (y - 8)^2 = 4$. This identifies the center of the circle at $S(2, 8)$ and its
+  radius as $R = 2$.
+
+  The shortest distance between any point on a parabola and a circle occurs along the common normal line,
+  which must pass directly through the center of the circle $S(2, 8)$.
+
+  Let any moving point on the parabola be represented in standard parametric form as $P(t^2, 2t)$, where $t$
+  is a real parameter. The equation of the normal to the parabola $y^2 = 4x$ at this point is given by the
+  formula $y = -t x + 2a t + a t^3$. Substituting $a = 1$ simplifies the normal template to $y = -t x + 2t +
+  t^3$.
+
+  Since this normal line passes through the circle center $S(2, 8)$, we substitute these coordinates into
+  our equation, yielding $8 = -t(2) + 2t + t^3$. Canceling the linear terms leaves the cubic relation $t^3 =
+  8$, which isolates the parameter value directly as $t = 2$.
+
+  Substituting $t = 2$ back into our parametric template determines the explicit coordinates of point $P$ as
+  $P(2^2, 2(2)) = P(4, 4)$.
+
+  Now we evaluate each of the three requested geometric parameters:
+
+  1. The distance $S P$ is calculated using the standard distance formula between $S(2, 8)$ and $P(4, 4)$,
+     which gives $S P = sqrt((4 - 2)^2 + (4 - 8)^2) = sqrt(2^2 + (-4)^2) = sqrt(4 + 16) = sqrt(20) = 2sqrt(5)$.
+
+  2. The equation of the normal line at $P(4, 4)$ is found by substituting $t = 2$ back into our normal
+     relation, yielding $y = -2x + 2(2) + 2^3 => y = -2x + 12$. To find its x-intercept, we set $y = 0$, which
+     gives $2x = 12 => x = 6$. Thus, the x-intercept of the normal line is $6$.
+
+  3. The point $Q$ lies on the circumference of the circle and on the line segment $S P$. Since the segment
+     $S P$ represents a radius line passing through the center $S$, it is completely normal to the circle at
+     the point $Q$. The tangent line to the circle at $Q$ must be perpendicular to this normal line $S
+     P$. Given that the slope of the normal line is $m_n = -2$, the slope of the tangent line at $Q$ must be
+     the negative reciprocal, which evaluates to $-1 / (-2) = 1/2$.
+//522
++ The given differential equation can be grouped by factoring its linear and quadratic parts: $((x^2 + 4x +
+  4) + y(x + 2)) d y / d x - y^2 = 0 => ((x + 2)^2 + y(x + 2)) d y / d x - y^2 = 0$
+
+  To simplify the structure, we introduce a change of variable by substituting $t = x + 2$, which gives $d x
+  = d t$. Rearranging the terms to isolate the derivative $(d t)/(d y)$ yields $(t^2 + y t) - y^2(d t)/(d y)
+  = 0 => (d t)/(d y) - t / y = t^2 / y^2$
+
+  This is a classical Bernoulli differential equation. To solve it, we divide the entire equation by $t^2$,
+  which gives $1 / t^2(d t)/(d y) - 1 / (y t) = 1 / y^2$
+
+  Now we introduce another substitution $z = 1/t$, which yields $(d z)/(d y) = -1 / t^2 (d t)/(d
+  y)$. Substituting this into our relation transforms it into a standard first-order linear differential
+  equation:  $-(d z)/(d y) - z / y = 1 / y^2 => (d z)/(d y) + z / y = -1 / y^2$
+
+  The integrating factor for this linear system is calculated as $I.F. = e^(integral 1/y d y) = e^(ln y) =
+  y$. Multiplying the equation by this factor allows us to integrate directly: $z dot y = integral y (-1 / y^2) d
+  y + C => z dot y = - integral 1/y d y + C => z dot y = -ln y + C$
+
+  Substituting back $z = 1/t = 1 / (x + 2)$ results in the general solution $y / (x + 2) = -ln y + C$
+
+  We are given that the solution curve passes through the point $(1, 3)$. Substituting $x = 1$ and $y = 3$
+  allows us to find the constant parameter $C$ $3 / (1 + 2) = -ln 3 + C => 1 = -ln 3 + C => C = 1 + ln 3$
+
+  Thus, the exact equation of the solution curve is $y / (x + 2) = -ln y + 1 + ln 3 => y / (x + 2) = 1 -
+  ln(y / 3)$
+
+  First, we check for intersection with the line $y = x + 2$. Substituting $y = x + 2$ into our solution curve
+  equation gives $(x + 2) / (x + 2) = 1 - ln((x + 2) / 3) => 1 = 1 - ln((x + 2) / 3) => ln((x + 2) / 3) = 0
+  => (x + 2) / 3 = 1 => x + 2 = 3 => x = 1$
+  Substituting $x = 1$ back into the line equation gives $y = 1 + 2 = 3$. Since $x = 1$ satisfies the domain
+  restriction $x > 0$, the curve intersects $y = x + 2$ exactly at one point, which is $(1, 3)$.
+
+  Second, we check for intersection with the curve $y = (x + 3)^2$. Substituting this into our solution
+  curve gives $(x + 3)^2 / (x + 2) = 1 - ln((x + 3)^2 / 3)=>ln((x + 3)^2 / 3) + (x + 3)^2 / (x + 2) - 1 = 0$
+
+  For the valid domain track $x > 0$, let us inspect the magnitude of each component:
+  - Since $x > 0$, we have $x + 3 > 3$, which means $(x + 3)^2 > 9$. Therefore, the logarithmic term
+    satisfies $ln((x + 3)^2 / 3) > ln(9 / 3) = ln 3 approx 1.098$.
+  - The fractional term satisfies $(x + 3)^2 / (x + 2) = (x^2 + 6x + 9) / (x + 2) = (x(x + 2) + 4(x + 2) +
+    1) / (x + 2) = x + 4 + 1 / (x + 2)$, which is strictly greater than $4$ for all $x > 0$.
+
+  Combining these minimum boundaries shows that the entire left-hand side expression is strictly greater
+  than $1.098 + 4 - 1 = 4.098$, which can never equal zero for any $x > 0$. Therefore, this simultaneous
+  system has no real roots, confirming there are no points of intersection with $y = (x + 3)^2$ in the given
+  domain.
+//523
++ The equation of the given parabola is $y^2 = 4a x$. Let any arbitrary moving point $P$ on this parabola be
+  represented in standard parametric form as $P(a t^2, 2a t)$, where $t$ is a real parameter. The axis of
+  this parabola is the x-axis ($y = 0$).
+
+  The standard equation of a tangent line with parameter $t$ to this parabola is given by the formula $y t =
+  x + a t^2$. We are given that this tangent line meets the axis of the parabola ($y = 0$) at point
+  $T$. Substituting $y = 0$ into the tangent relation isolates the horizontal coordinate as $x = -a
+  t^2$. Thus, the coordinates are $T(-a t^2, 0)$.
+
+  The standard equation of a normal line with parameter $t$ to this parabola is given by the formula $y = -t
+  x + 2a t + a t^3$. We are given that this normal line meets the axis of the parabola ($y = 0$) at point
+  $N$. Substituting $y = 0$ into the normal relation isolates the horizontal coordinate as $0 = -t x + 2a t
+  + a t^3 => t x = 2a t + a t^3$. For non-degenerate parameters ($t != 0$), we divide by $t$ to get $x = 2a
+  + a t^2$. Thus, the coordinates are $N(2a + a t^2, 0)$.
+
+  Let the centroid of $triangle P T N$ be $G(h, k)$. Using the standard centroid average formula for the
+  three vertices $P(a t^2, 2a t)$, $T(-a t^2, 0)$, and $N(2a + a t^2, 0)$, we write the coordinate track:
+  $h = (a t^2 + (-a t^2) + (2a + a t^2)) / 3 = (2a + a t^2) / 3$ and $k = (2a t + 0 + 0) / 3 = (2a t) / 3$
+
+  From the vertical coordinate track, we isolate the parameter $t$ in terms of our moving coordinates as $3k
+  = 2a t => t = (3k) / (2a)$.
+
+  To eliminate the parameter, we substitute this expression for $t$ back into our horizontal coordinate
+  track $3h = 2a + a ((3k) / (2a))^2 => 3h = 2a + a ((9k^2) / (4a^2)) => 3h = 2a + (9k^2) / (4a)$
+
+  Multiplying the entire equation by $4a$ to clear the fractional denominator yields $12a h = 8a^2 + 9k^2 =>
+  9k^2 = 12a h - 8a^2$
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $9y^2 = 4a(3x - 2a)$
+
+  Dividing both sides by $9$ transforms the expression into the standard vertex-shifted template $y^2 = 4a /
+  3 (x - (2a) / 3)$.
+//524
++ The equation of the given parabola is $y^2 = 4x$. Comparing this with the standard form $y^2 = 4a x$
+  identifies the focal parameter as $4a = 4 => a = 1$.
+
+  The latus rectum is the chord passing through the focus perpendicular to the axis of the parabola. For $a
+  = 1$, the endpoints of the latus rectum are given by the standard parametric coordinates $L_1(a, 2a) =
+  L_1(1, 2)$ and $L_2(a, -2a) = L_2(1, -2)$.
+
+  The equation of the normal to the parabola at any point $(x_1, y_1)$ is given by the formula $y - y_1 =
+  -y_1 / (2a) (x - x_1)$.
+  - For the first endpoint $L_1(1, 2)$, the normal line equation is $y - 2 = -2 / 2 (x - 1) => y - 2 = -x +
+    1 => x + y - 3 = 0$.
+  - For the second endpoint $L_2(1, -2)$, the normal line equation is $y - (-2) = -(-2) / 2 (x - 1) => y + 2
+    = x - 1 => x - y - 3 = 0$.
+
+  We are given that these two normal lines are tangent to the circle $(x - 3)^2 + (y + 2)^2 = r^2$. By
+  inspecting the equation, the center of this circle is located at $C(3, -2)$ and its radius is $r$.
+
+  For a straight line to touch a circle as a tangent, the perpendicular distance from the center of the
+  circle to that line must be exactly equal to its radius $r$. Using the first normal line $x + y - 3 = 0$ and
+  the center $C(3, -2)$, we apply the standard perpendicular distance formula: $r = abs(1(3) + 1(-2) - 3) /
+  sqrt(1^2 + 1^2) = abs(3 - 2 - 3) / sqrt(2) = abs(-2) / sqrt(2) = 2 / sqrt(2) = sqrt(2)$
+
+  We get the same value using the second normal line $x - y - 3 = 0$ i.e. $r = abs(1(3) - 1(-2) - 3) /
+  sqrt(1^2 + (-1)^2) = abs(3 + 2 - 3) / sqrt(2) = abs(2) / sqrt(2) = sqrt(2)$
+
+  Squaring the radius isolates the final requested parameter value as $r^2 = (sqrt(2))^2 = 2$.
+//525
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  standard equation of a normal line with slope $m$ to this parabola is given by the template $y = m x - 2a
+  m - a m^3$. Substituting $a = 1$ simplifies the normal equation to $y = m x - 2m - m^3$.
+
+  If three distinct normals are drawn from a point $P(x, y)$ to the parabola, then their slopes $m_1, m_2,
+  m_3$ must be the three roots of the cubic equation $m^3 + (2 - x)m + y = 0$.
+
+  According to Vieta's formulas for a cubic equation, the relationships between the roots and the
+  coefficients satisfy:
+  - The sum of the roots is $m_1 + m_2 + m_3 = 0$.
+  - The product of the roots taken two at a time is $m_1 m_2 + m_2 m_3 + m_3 m_1 = 2 - x$.
+  - The product of all three roots is $m_1 m_2 m_3 = -y$.
+
+  We are given the condition that the product of two of the slopes is a constant value, satisfying $m_1 m_2
+  = alpha$. Substituting this into the product of all three roots gives $alpha m_3 = -y$, which allows us to
+  isolate the third slope parameter as $m_3 = -y / alpha$.
+
+  Since $m_3$ is a valid root of the original cubic equation, it must satisfy the polynomial relation
+  identically. Substituting $m_3 = -y / alpha$ into the cubic equation yields $(-y / alpha)^3 + (2 - x)(-y /
+  alpha) + y = 0$.
+
+  Expanding the terms and factoring out $y$ for non-degenerate curves ($y != 0$) simplifies the relation to
+  $-y^2 / alpha^3 - (2 - x)/alpha + 1 = 0$. Multiplying the entire equation by $alpha^3$ to clear the
+  fractional denominators gives $-y^2 - alpha^2 (2 - x) + alpha^3 = 0$.
+
+  Rearranging the terms to isolate $y^2$ on one side reveals the equation of the locus as $y^2 = alpha^2 x +
+  alpha^2 (alpha - 2)$.
+
+  The problem states that this locus of $P$ is a part of the parabola itself, which is $y^2 = 4x$. By
+  comparing our derived locus equation with the given parabola $y^2 = 4x$, we equate the corresponding
+  coefficients of $x$ and the constant terms:
+  - For the coefficient of $x$, we have $alpha^2 = 4 => alpha = plus.minus 2$.
+  - For the constant term, we have $alpha^2 (alpha - 2) = 0$.
+
+  Evaluating both values of $alpha$ in the constant term constraint, we find that $alpha = 2$ satisfies $4(2
+  - 2) = 0$ perfectly, whereas $alpha = -2$ yields a contradiction since $4(-2 - 2) = -16 != 0$. Thus, the
+  unique valid value for the parameter is $alpha = 2$.
+//526
++ The equation of the given parabola is $y^2 = x$, which identifies the focal parameter as $4a = 1 => a =
+  1/4$. The general equation of a normal line with slope $m$ to this parabola is given by the formula $y = m
+  x - 2a m - a m^3$. Substituting $a = 1/4$ simplifies the normal template to $y = m x - m / 2 - m^3 / 4$.
+
+  Since the normals are drawn from the point $(c, 0)$, we substitute $x = c$ and $y = 0$ into this template,
+  yielding $0 = m c - m / 2 - m^3 / 4$. Factoring out the shared variable $m$ gives the cubic equation $m(c
+  - 1/2 - m^2 / 4) = 0$.
+
+  This factored equation shows that one root is always $m = 0$. Substituting $m = 0$ back into our normal
+  relation yields $y = 0$, which proves that one normal is always the $x$-axis.
+
+  For three distinct real normals to be drawn from the point, the remaining quadratic factor must produce
+  two real, non-zero roots for $m$. Setting the factor to zero gives $m^2 / 4 = c - 1/2 => m^2 = 4c - 2$.
+
+  For the roots to be real and distinct from zero, the expression must be strictly positive, satisfying $m^2
+  > 0$. This condition gives $4c - 2 > 0 => 4c > 2 => c > 1/2$. This proves that $c$ must be strictly
+  greater than $1/2$.
+
+  The slopes of the other two normals, $m_1$ and $m_2$, are the roots of $m^2 = 4c - 2$, which gives $m_1
+  dot m_2 = -(4c - 2) = 2 - 4c$.
+
+  We are given that these two remaining normals are perpendicular to each other. The geometric condition for
+  perpendicular lines requires the product of their slopes to equal $-1$, satisfying $m_1 dot m_2 = -1$.
+
+  Equating our product expressions gives $2 - 4c = -1$. Rearranging the terms to isolate the variable gives
+  $4c = 3$, which isolates the final parameter value directly as $c = 3/4$.
+//527
++ The equation of the given vertical parabola is $x^2 = 4y$. Comparing this with the standard vertical
+  template $x^2 = 4a y$ identifies the focal parameter as $4a = 4 => a = 1$.
+
+  Let any variable point on this parabola be represented in standard parametric form as $P(2a t, a t^2) =
+  P(2t, t^2)$, where $t$ is a real parameter.
+
+  Differentiating the parabola equation with respect to $x$ gives $2x = 4 (d y / d x) => (d y/(d x) = x /
+  2$. Evaluating this derivative at $P(2t, t^2)$ identifies the slope of the tangent line as $m_t = 2t / 2 =
+  t$.
+
+  The slope of the normal line is the negative reciprocal of the tangent slope, which evaluates to $m_n =
+  -1/t$. Using the point-slope form with point $P(2t, t^2)$ and slope $m_n = -1/t$, the equation of the
+  normal line is $y - t^2 = -1/t (x - 2t) => t y - t^3 = -x + 2t => x + t y = t^3 + 2t$
+
+  We are given that this normal line passes through the point $(1, 2)$. Substituting $x = 1$ and $y = 2$
+  into our normal equation yields $1 + t(2) = t^3 + 2t => 1 + 2t = t^3 + 2t$
+
+  Canceling the linear $2t$ terms from both sides simplifies the expression directly to the cubic equation
+  $t^3 = 1$. Taking the real cube root isolates the unique valid parameter value as $t = 1$.
+
+  Substituting $t = 1$ back into our original normal line template gives the final equation $x + 1(y) = 1^3
+  + 2(1) => x + y = 3$
+
+  Rearranging the terms into standard general form results in the linear expression $x + y - 3 = 0$.
+//528
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  general equation of a normal line with slope $m$ to this parabola is given by the formula $y = m x - 2a m
+  - a m^3$. Substituting $a = 1$ simplifies the normal template to $y = m x - 2m - m^3$.
+
+  Since the three distinct normals pass through the point $(h, 0)$, we substitute $x = h$ and $y = 0$ into
+  this template, yielding $0 = m h - 2m - m^3$. Factoring out the shared variable $m$ gives the cubic
+  equation $m(h - 2 - m^2) = 0$.
+
+  This factored relation shows that one root is always $m = 0$, which corresponds to the normal drawn at the
+  vertex of the parabola. For three distinct normals to exist at three different points, the remaining
+  quadratic factor must produce two real, distinct, and non-zero roots for the slope parameter $m$. Setting
+  this factor to zero gives $m^2 = h - 2$.
+
+  For the roots to be real and non-zero, the expression on the right-hand side must be strictly greater than
+  zero, satisfying $m^2 > 0$. This geometric requirement translates directly to the inequality $h - 2 >
+  0$. Solving for the parameter isolates the final condition as $h > 2$, completing the proof.
+//529
++ The equation of the given parabola is $y^2 = 16x$. Comparing this with the standard form $y^2 = 4a x$
+  identifies the focal parameter as $4a = 16 => a = 4$.
+
+  Let one end of the focal chord be represented in standard parametric form as $P(a t_1^2, 2a t_1)$. We are
+  given that this endpoint is located at $(1, 4)$. Substituting $a = 4$ into the vertical coordinate tracks
+  gives $2(4)t_1 = 4 => 8t_1 = 4 => t_1 = 1/2$.
+
+  According to a fundamental geometric theorem of parabolas, the parameters of the two endpoints of any
+  focal chord satisfy the inverse relation $t_1 dot t_2 = -1$. Substituting our derived parameter value
+  isolates the parameter of the opposite endpoint $Q$ as $(1/2)t_2 = -1 => t_2 = -2$.
+
+  The length $L$ of a focal chord connecting two endpoints with parameters $t_1$ and $t_2$ on a parabola is
+  calculated using the standard formula $L = a(t_1 - t_2)^2$.
+
+  Substituting our derived parameter values $a = 4$, $t_1 = 1/2$, and $t_2 = -2$ into this geometric
+  relationship yields $L = 4(1/2 - (-2))^2 = 4(1/2 + 2)^2 = 4(5/2)^2 = 4(25/4) = 25$
+
+  Therefore, the length of the focal chord is exactly $25$ units.
+//530
++ The equation of the given parabola is $x^2 = 4y$, which represents a vertical parabola with its vertex at
+  the origin $O(0, 0)$. The equation of the intercepting chord line is $x - sqrt(2)y + 4sqrt(2) = 0$.
+
+  To find the coordinates of the intersection points, we rearrange the line equation to isolate the vertical
+  component $sqrt(2)y = x + 4sqrt(2) => y = x / sqrt(2) + 4$
+
+  Substituting this expression for $y$ directly into our parabola template yields the quadratic intersection
+  equation in terms of $x$ i.e. $x^2 = 4(x / sqrt(2) + 4) => x^2 = (4 / sqrt(2))x + 16 => x^2 - 2sqrt(2)x -
+  16 = 0$
+
+  Let $x_1$ and $x_2$ be the horizontal coordinates of the two distinct intersection points. According to
+  Vieta's formulas, the sum and product of these roots satisfy:
+  - $x_1 + x_2 = 2sqrt(2)$
+  - $x_1 dot x_2 = -16$
+
+  The absolute horizontal difference between the endpoints is evaluated using the algebraic identity $(x_1 -
+  x_2)^2 = (x_1 + x_2)^2 - 4 x_1 x_2$. Substituting our values gives $(x_1 - x_2)^2 = (2sqrt(2))^2 - 4(-16)
+  = 8 + 64 = 72 => abs(x_1 - x_2) = sqrt(72) = 6sqrt(2)$
+
+  From our isolated linear relationship, the slope of the chord line is $m = 1 / sqrt(2)$. The absolute
+  vertical difference between the endpoints is related to the horizontal difference by the slope parameter,
+  satisfying $abs(y_1 - y_2) = m abs(x_1 - x_2) = (1 / sqrt(2))(6sqrt(2)) = 6$.
+
+  The total length $L$ of the chord is calculated using the standard distance formula $L = sqrt((x_1 -
+  x_2)^2 + (y_1 - y_2)^2) = sqrt(72 + 6^2) = sqrt(72 + 36) = sqrt(108) = 6sqrt(3)$
+
+  Therefore, the length of the chord is exactly $6sqrt(3)$ units.
+//531
++ The equation of the given parabola is $y^2 = 16x$. The equation of a chord of a parabola having a midpoint
+  $(h, k)$ is determined using the standard relation $T = S_1$.
+
+  For the parabola $y^2 - 16x = 0$, the operational components are:
+  - $T = y k - 8(x + h)$
+  - $S_1 = k^2 - 16h$
+
+  Setting up the equality $T = S_1$ yields the equation of the chord $y k - 8x - 8h = k^2 - 16h => 8x - k y
+  = 8h - k^2$
+
+  We are given that the equation of this chord is $2x + y = p$. To compare the coefficients directly, we
+  multiply this given line equation by $4$ i.e. $8x + 4y = 4p$
+
+  Comparing the corresponding linear coefficients and constant terms of the two equivalent line equations gives:
+  - For the y-coefficient: $-k = 4 => k = -4$
+  - For the constant term: $8h - k^2 = 4p$
+
+  Substituting $k = -4$ into the constant term relation gives $8h - (-4)^2 = 4p => 8h - 16 = 4p$
+
+  Dividing the entire equation by $4$ isolates the relationship between the horizontal midpoint coordinate
+  and the intercept parameter $2h - 4 = p => p = 2h - 4$
+
+  Therefore, for any valid chord, the vertical midpoint coordinate must be exactly $k = -4$, and the
+  parameters $p$ and $h$ must satisfy $p = 2h - 4$. Testing a standard integer configuration (such as $h =
+  3$) isolates the matching values as $p = 2(3) - 4 = 2$, yielding the specific solution set $p = 2$, $h =
+  3$, and $k = -4$.
+//532
++ Let the coordinates of the two distinct points on the parabola $y^2 = 4x$ be $A(t_1^2, 2t_1)$ and
+  $B(t_2^2, 2t_2)$.
+
+  The slope $m$ of the chord $A B$ is given by $m = (2t_2 - 2t_1)/(t_2^2 - t_1^2) = 2/(t_1 + t_2)$.
+
+  Since $A B$ is a diameter of the circle, the center $M$ of the circle is the midpoint of $A B$, which
+  gives its y-coordinate as $y_M = (2t_1 + 2t_2)/2 = t_1 + t_2$.
+
+  The axis of the parabola is the x-axis, given by $y = 0$. Since the circle touches the x-axis, the
+  perpendicular distance from the center $M$ to the axis must be equal to the radius $r$ of the circle.
+
+  This gives the condition $|y_M| = r$, which simplifies to $|t_1 + t_2| = r$.
+
+  Substituting this relation into the expression for the slope yields $|m| = 2/r$.
+
+  Therefore, the slope of $A B$ is $m = plus.minus 2/r$.
+//533
++ Let the parameters of the endpoints of the focal chord $P Q$ be $t_1$ and $t_2$, so $t_1 t_2 = -1$.
+
+  The tangents at $P$ and $Q$ intersect at the point $T(-a, a(t_1 + t_2))$. Since $T$ lies on the line $y =
+  2x + a$, we have $a(t_1 + t_2) = 2(-a) + a$, which simplifies to $t_1 + t_2 = -1$.
+
+  Using the identity $(t_1 - t_2)^2 = (t_1 + t_2)^2 - 4t_1 t_2$, we find $(t_1 - t_2)^2 = (-1)^2 - 4(-1) =
+  5$, so $|t_1 - t_2| = sqrt(5)$.
+
+  The length of the focal chord $P Q$ is given by $a(t_1 - t_2)^2 = 5a$.
+
+  The slopes of the lines joining the vertex $O(0,0)$ to $P$ and $Q$ are $m_1 = 2/t_1$ and $m_2 = 2/t_2$.
+
+  The tangent of the angle $theta$ subtended at the vertex is given by $tan theta = lr(|(m_1 - m_2) / (1 + m_1
+  m_2)|)$.
+
+  Substituting the slopes gives $m_1 - m_2 = 2(t_2 - t_1)/(t_1 t_2) = 2(t_1 - t_2)$ and $1 + m_1 m_2 = 1 +
+  4/(t_1 t_2) = -3$.
+
+  Thus, we obtain $tan theta = lr(|(2(t_1 - t_2)) / (-3)|) = (2sqrt(5))/3$.
+//534
++ Let $P(x_1, y_1)$ be the variable point from which tangents are drawn to the parabola $y^2 = 4a x$.
+
+  The equation of any tangent to the parabola having a slope $m$ can be written as $y = m x + a/m$, which
+  simplifies to the quadratic form in $m$: $m^2 x - m y + a = 0$.
+
+  Since the tangents pass through $P(x_1, y_1)$, their slopes $m_1$ and $m_2$ are the roots of the quadratic
+  equation $m^2 x_1 - m y_1 + a = 0$.
+
+  According to Vieta's formulas, the sum of the slopes is $m_1 + m_2 = y_1 / x_1$ and the product of the
+  slopes is $m_1 m_2 = a / x_1$.
+
+  The angle between the two tangents is given as $45^degree$. Using the standard tangent angle formula, we
+  have $tan(45^degree) = |(m_1 - m_2) / (1 + m_1 m_2)| = 1$.
+
+  Squaring both sides to eliminate the absolute value yields $(m_1 - m_2)^2 = (1 + m_1 m_2)^2$.
+
+  Using the algebraic identity $(m_1 - m_2)^2 = (m_1 + m_2)^2 - 4m_1 m_2$, we rewrite the relation as $(m_1
+  + m_2)^2 - 4m_1 m_2 = (1 + m_1 m_2)^2$.
+
+  Substituting the values of the sum and product of the slopes into this relation gives $(y_1 / x_1)^2 - 4(a
+  / x_1) = (1 + a / x_1)^2$.
+
+  Multiplying the entire equation by $x_1^2$ to clear the denominators yields $y_1^2 - 4a x_1 = (x_1 +
+  a)^2$.
+
+  Expanding the right side gives $y_1^2 - 4a x_1 = x_1^2 + 2a x_1 + a^2$.
+
+  Rearranging all terms to one side results in $x_1^2 - y_1^2 + 6a x_1 + a^2 = 0$.
+
+  Replacing $(x_1, y_1)$ with general coordinates $(x, y)$, we obtain the locus equation as $x^2 - y^2 + 6a
+  x + a^2 = 0$.
+
+  Comparing this second-degree equation with the standard form $A x^2 + 2B x y + C y^2 + 2D x + 2E y + F =
+  0$, we find $A = 1$, $B = 0$, and $C = -1$.
+
+  Evaluating the discriminant for the type of conic section gives $B^2 - A C = 0^2 - (1)(-1) = 1 > 0$.
+
+  Since the discriminant is strictly positive and $A != C$, the locus of $P$ represents a hyperbola.
+//535
++ Let the equation of a tangent to the parabola $y^2 = 4a x$ with slope $m$ be $y = m x + a/m$, or $m^2 x -
+  m y + a = 0$.
+
+  For this line to be a tangent to the circle $x^2 + y^2 = a^2/2$, its perpendicular distance from the
+  origin $(0, 0)$ must equal the radius $a/sqrt(2)$.
+
+  This gives the condition $|a/m| / sqrt(m^2 + 1) = a/sqrt(2)$, which squares to $2 = m^2(m^2 + 1)$. Solving
+  this quadratic in $m^2$ gives $m^2 = 1$, so $m = plus.minus 1$.
+
+  The equations of the two common tangents are $y = x + a$ and $y = -x - a$. Intersecting these two lines
+  gives the point $A(-a, 0)$ from which they originate.
+
+  The chord of contact of the circle with respect to $A(-a, 0)$ is given by $x(-a) + y(0) = a^2/2$, which
+  simplifies to the vertical line $x = -a/2$.
+
+  The chord of contact of the parabola with respect to $A(-a, 0)$ is given by $y(0) = 2a(x - a)$, which
+  simplifies to the vertical line $x = a$.
+
+  The two parallel chords of contact $x = -a/2$ and $x = a$ along with the two common tangents form an
+  isosceles trapezoid.
+
+  The intersection of the common tangents with $x = -a/2$ gives the vertices $(-a/2, a/2)$ and $(-a/2,
+  -a/2)$, so the length of the shorter parallel side is $b_1 = a$.
+
+  The intersection of the common tangents with $x = a$ gives the vertices $(a, 2a)$ and $(a, -2a)$, so the
+  length of the longer parallel side is $b_2 = 4a$.
+
+  The height $h$ of the trapezoid is the distance between the two parallel vertical lines, computed as $h =
+  a - (-a/2) = (3a)/2$.
+
+  The area of the quadrilateral is given by the trapezoid area formula $1/2 (b_1 + b_2) h = 1/2 (a + 4a)
+  ((3a)/2) = 1/2 (5a) ((3a)/2) = (15a^2)/4$.
+//536
++ Let the parameters of the points $A, B$, and $C$ on the parabola $y^2 = 4a x$ be $t_1, t_2$, and $t_3$
+  respectively.
+
+  The coordinates of the vertices are $A(a t_1^2, 2a t_1)$, $B(a t_2^2, 2a t_2)$, and $C(a t_3^2, 2a t_3)$.
+
+  The area of $triangle A B C$ is given by half the absolute value of the determinant of their coordinates:
+  $Delta_(A B C) = a^2 |(t_1 - t_2)(t_2 - t_3)(t_3 - t_1)|$.
+
+  The tangents at $A$ and $B$ intersect at $R(a t_1 t_2, a(t_1 + t_2))$, the tangents at $B$ and $C$
+  intersect at $P(a t_2 t_3, a(t_2 + t_3))$, and the tangents at $C$ and $A$ intersect at $Q(a t_3 t_1,
+  a(t_3 + t_1))$.
+
+  The area of the triangle $P Q R$ formed by these points of intersection is given by half the absolute
+  value of the determinant of their coordinates: $Delta_(P Q R) = 1/2 a^2 |(t_1 - t_2)(t_2 - t_3)(t_3 -
+  t_1)|$.
+
+  Comparing the two area expressions shows that the area of $triangle A B C$ is exactly twice the area of
+  $triangle P Q R$.
+
+  Therefore, the ratio of the area of $triangle A B C$ to the area of $triangle P Q R$ is $2 : 1$.
+//537
++ Let the endpoints of the variable chord be $A(a t_1^2, 2a t_1)$ and $B(a t_2^2, 2a t_2)$.
+
+  The slope of the chord $A B$ is given by $(2a t_2 - 2a t_1)/(a t_2^2 - a t_1^2) = 2/(t_1 + t_2)$. Since
+  the slope is $2$, we have $2/(t_1 + t_2) = 2$, which gives the relation $t_1 + t_2 = 1$, or $t_2 = 1 -
+  t_1$.
+
+  Let $P(x_0, y_0)$ be the variable point dividing the segment $A B$ internally in the ratio $1:2$. By the
+  section formula, the coordinates of $P$ are $x_0 = (a t_2^2 + 2a t_1^2)/3$ and $y_0 = (2a t_2 + 4a
+  t_1)/3$.
+
+  Substituting $t_2 = 1 - t_1$ into the y-coordinate equation gives $y_0 = (2a(1 - t_1) + 4a t_1)/3 = (2a +
+  2a t_1)/3$.
+
+  Solving this relation for $t_1$ yields $t_1 = (3y_0)/(2a) - 1$, which also means $t_2 = 1 - t_1 = 2 -
+  (3y_0)/(2a)$.
+
+  Substituting these expressions for $t_1$ and $t_2$ into the x-coordinate equation gives $3x_0 / a = (2 -
+  (3y_0)/(2a))^2 + 2((3y_0)/(2a) - 1)^2$.
+
+  Expanding and collecting the terms with respect to $y_0$ simplifies the expression to $3x_0 / a =
+  (27y_0^2)/(4a^2) - (12y_0)/a + 6$.
+
+  Multiplying both sides by $4a^2$ to clear the denominators leads to $12a x_0 = 27y_0^2 - 48a y_0 + 24a^2$.
+
+  Dividing by $3$ and replacing $(x_0, y_0)$ with general coordinates $(x, y)$ produces the locus equation
+  $9y^2 - 16a y + 8a^2 = 4a x$.
+
+  To find the vertex, we rewrite the parabola in standard form by completing the square on the y-terms: $9(y
+  - (8a)/9)^2 = 4a x - 8a^2 + 64a^2 / 9 = 4a(x - (2a)/9)$.
+
+  This can be written as $(y - (8a)/9)^2 = (4a)/9 (x - (2a)/9)$, which represents a parabola.
+
+  Therefore, the vertex of this parabola is $((2a)/9, (8a)/9)$.
+//538
++ Let the coordinates of the points $P$ and $Q$ on the parabola $y^2 = 4a x$ be $P(a t_1^2, 2a t_1)$ and
+  $Q(a t_2^2, 2a t_2)$. The vertex of the parabola is the origin $O(0, 0)$.
+
+  The slopes of the chords $O P$ and $O Q$ are $m_1 = (2a t_1) / (a t_1^2) = 2/t_1$ and $m_2 = (2a t_2) / (a
+  t_2^2) = 2/t_2$.
+
+  Since the chords $O P$ and $O Q$ are at a right angle to one another, the product of their slopes must be
+  $-1$, which gives $(2/t_1)(2/t_2) = -1$, or $t_1 t_2 = -4$.
+
+  The equation of the straight line passing through $P$ and $Q$ is given by $y(t_1 + t_2) = 2x + 2a t_1
+  t_2$.
+
+  Substituting the orthogonality condition $t_1 t_2 = -4$ into the line equation simplifies it to $y(t_1 +
+  t_2) = 2x - 8a$, which can be rearranged as $2(x - 4a) - y(t_1 + t_2) = 0$.
+
+  The axis of the parabola is the x-axis ($y = 0$). Setting $y = 0$ in the line equation yields $2(x - 4a) =
+  0$, which gives $x = 4a$.
+
+  Since this intersection point $(4a, 0)$ is independent of the variable parameters $t_1$ and $t_2$, the
+  chord $P Q$ always cuts the axis at a fixed point.
+
+  Let $M(x_0, y_0)$ be the moving midpoint of the segment $P Q$. By the midpoint formula, its coordinates
+  are $x_0 = a(t_1^2 + t_2^2)/2$ and $y_0 = a(t_1 + t_2)$.
+
+  Using the algebraic expansion identity, we rewrite the x-coordinate expression as $2x_0 / a = t_1^2 +
+  t_2^2 = (t_1 + t_2)^2 - 2t_1 t_2$.
+
+  Substituting $t_1 + t_2 = y_0/a$ and $t_1 t_2 = -4$ into this relation gives $2x_0 / a = (y_0/a)^2 - 2(-4)
+  = y_0^2/a^2 + 8$.
+
+  Multiplying both sides of the equation by $a^2$ simplifies it to $2a x_0 = y_0^2 + 8a^2$, which can be
+  rearranged to isolate the squared term as $y_0^2 = 2a(x_0 - 4a)$.
+
+  Replacing the specific coordinates $(x_0, y_0)$ with general coordinates $(x, y)$, we obtain the final
+  equation of the locus as $y^2 = 2a(x - 4a)$.
+//539
++ For the ellipse $x^2/18 + y^2/4 = 1$, we have $a^2 = 18$ and $b^2 = 4$. The square of its eccentricity is
+  $e_1^2 = 1 - b^2/a^2 = 1 - 4/18 = 7/9$.
+
+  For the hyperbola $x^2/9 - y^2/4 = 1$, we have $a^2 = 9$ and $b^2 = 4$. The square of its eccentricity is
+  $e_2^2 = 1 + b^2/a^2 = 1 + 4/9 = 13/9$.
+
+  Since the point $(e_1, e_2)$ lies on the curve $15x^2 + 3y^2 = k$, substituting these values into the
+  equation yields $15e_1^2 + 3e_2^2 = k$.
+
+  Substituting the values of $e_1^2$ and $e_2^2$ gives $15(7/9) + 3(13/9) = k$.
+
+  Simplifying the fractions leads to $105/9 + 39/9 = k$, which combines to $144/9 = k$.
+
+  Thus, the value of $k$ is $16$.
+//540
++ Since the focus is at $(0, 5sqrt(3))$, the ellipse is vertical with its equation written in the form
+  $x^2/b^2 + y^2/a^2 = 1$, where $a > b$.
+
+  The distance from the center to the focus is given by $c = sqrt(a^2 - b^2) = 5sqrt(3)$, which squares to
+  $a^2 - b^2 = 75$.
+
+  The difference between the lengths of the major and minor axes is $10$, so $2a - 2b = 10$, which
+  simplifies to $a - b = 5$, or $a = b + 5$.
+
+  Substituting $a = b + 5$ into the focus relation yields $(b + 5)^2 - b^2 = 75$.
+
+  Expanding this expression gives $b^2 + 10b + 25 - b^2 = 75$, which simplifies to $10b = 50$, or $b = 5$.
+
+  Using $a = b + 5$, we find the semi-major axis length is $a = 10$.
+
+  The length of the latus rectum for a vertical ellipse is given by the formula $(2b^2)/a$.
+
+  Substituting the values of $a$ and $b$ results in $(2.5^2)/10 = 50/10 = 5$.
+//541
++ Let the equation of the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with $a > b$. The foci are $S(a e, 0)$ and
+  $S'(-a e, 0)$, and an extremity of the minor axis is $B(0, b)$.
+
+  Since $B$ lies on the y-axis and the foci are symmetric about the y-axis, the distances $B S$ and $B S'$
+  are equal, making $triangle S' B S$ an isosceles right-angled triangle with $B S = B S' = a$.
+
+  Applying Pythagoras' theorem to $triangle S' B S$ gives $S S'^2 = B S^2 + B S'^2$, which simplifies to
+  $(2a e)^2 = a^2 + a^2$, or $4a^2 e^2 = 2a^2$, yielding $e^2 = 1/2$.
+
+  Using the ellipse relation $b^2 = a^2(1 - e^2)$, substituting $e^2 = 1/2$ gives $b^2 = a^2/2$, or $a^2 =
+  2b^2$, which implies $a = b sqrt(2)$.
+
+  The area of $triangle S' B S$ is $1/2 dot S S' dot O B = 1/2 (2a e) b = a e b = 8$.
+
+  Substituting $a = b sqrt(2)}$ and $e = 1/sqrt(2)$ into the area equation gives $(b sqrt(2))(1/sqrt(2)) b =
+  8$, which simplifies to $b^2 = 8$.
+
+  Using $a^2 = 2b^2 = 16$, we find the semi-major axis length is $a = 4$.
+
+  The length of the latus rectum of the ellipse is given by the formula $(2b^2)/a$.
+
+  Substituting the values of $a$ and $b^2$ results in $(2.8)/4 = 4$.
+//542
++ The ellipse $E_1: x^2/9 + y^2/4 = 1$ has vertices at $(plus.minus 3, 0)$ and $(0, plus.minus 2)$, meaning
+  the bounding rectangle $R$ has vertices at $(plus.minus 3, plus.minus 2)$.
+
+  Let the equation of the circumscribing ellipse $E_2$ centered at the origin be $x^2/a^2 + y^2/b^2 = 1$.
+
+  Since $E_2$ passes through the point $(0, 4)$, substituting these coordinates into its equation gives
+  $0^2/a^2 + 4^2/b^2 = 1$, which simplifies to $b^2 = 16$.
+
+  The ellipse $E_2$ also passes through the rectangle vertex $(3, 2)$. Substituting these coordinates along
+  with $b^2 = 16$ gives $3^2/a^2 + 2^2/16 = 1$.
+
+  Simplifying this relation gives $9/a^2 + 1/4 = 1$, which solves to $9/a^2 = 3/4$, or $a^2 = 12$.
+
+  Since $b^2 > a^2$, $E_2$ is a vertical ellipse, and its eccentricity $e$ is given by the formula $e =
+  sqrt(1 - a^2/b^2)$.
+
+  Substituting the values of $a^2$ and $b^2$ yields $e = sqrt(1 - 12/16) = sqrt(1/4) = 1/2$.
+//543
++ Dividing the given equation $16x^2 + 25y^2 = 400$ by $400$ gives the standard form of the ellipse $x^2/25
+  + y^2/16 = 1$, where $a^2 = 25$ and $b^2 = 16$.
+
+  The semi-major axis length is $a = 5$, and the eccentricity $e$ satisfies $a^2 e^2 = a^2 - b^2 = 25 - 16 =
+  9$, which gives the focus distance $c = a e = 3$.
+
+  Thus, the points $F_1(3, 0)$ and $F_2(-3, 0)$ are exactly the two foci of this ellipse.
+
+  By the focal property definition of an ellipse, the sum of the distances from any point $P$ on the curve
+  to its two foci is equal to the length of the major axis $2a$.
+
+  Therefore, we find $P F_1 + P F_2 = 2(5) = 10$.
+//544
++ #figure(
+    image("images/misc-544.pdf"),
+    caption: [],
+  )
+
+  For any ellipse $x^2/a^2 + y^2/b^2 = 1$, a point on the curve can be represented as $(a cos theta, b sin
+  theta)$. The area of an inscribed rectangle with sides parallel to the axes is $4 a b cos theta sin theta
+  = 2 a b sin(2theta)$, which reaches its maximum value of $2 a b$ when $theta = pi/4$.
+
+  Thus, for the first ellipse $E_1$ with $a_1 = 3$ and $b_1 = 2$, the area of the largest inscribed rectangle
+  $R_1$ is given by $2 a_1 b_1 = 2(3)(2) = 12$. The vertices of this rectangle are $(plus.minus 3/sqrt(2),
+  plus.minus 2/sqrt(2))$, meaning its sides are defined by $x = plus.minus 3/sqrt(2)$ and $y = plus.minus
+  2/sqrt(2)$.
+
+  The ellipse $E_2$ of largest area inscribed in $R_1$ must touch the midpoints of the sides of
+  $R_1$. Therefore, its semi-axes are $a_2 = 3/sqrt(2)$ and $b_2 = 2/sqrt(2)$.
+
+  By repeating this optimization process, the largest rectangle $R_2$ inscribed in $E_2$ has an area of $2
+  a_2 b_2 = 2(3/sqrt(2))(2/sqrt(2)) = 6$.
+
+  In general, the semi-axes of the $n$-th ellipse satisfy $a_n = a_(n-1)/sqrt(2)$ and $b_n =
+  b_(n-1)/sqrt(2)$. Consequently, the area of the $n$-th inscribed rectangle $R_n$ forms a geometric
+  progression given by $"area of" R_n = 12(1/2)^(n-1)$.
+
+  The sum of the areas of the rectangles from $n = 1$ to $N$ is evaluated using the geometric series sum
+  formula: $sum_(n=1)^N "area of" R_n = sum_(n=1)^N 12(1/2)^(n-1) = 12 ((1 - (1/2)^N) / (1 - 1/2)) = 24(1 -
+  (1/2)^N)$.
+
+  Since $(1/2)^N > 0$ for each positive integer $N$, the term $1 - (1/2)^N$ is always strictly less than
+  $1$.
+
+  Therefore, we conclude that $sum_(n=1)^N "area of" R_n < 24$ holds true for every positive integer $N$.
+//545
++ #figure(
+    image("images/misc-545.pdf"),
+    caption: [],
+  )
+  Let the equation of any tangent to the parabola $y^2 = 4x$ with slope $m$ be given by $y = m x + 1/m$,
+  which can be rewritten as $m^2 x - m y + 1 = 0$.
+
+  For this line to be a tangent to the circle $x^2 + y^2 = 1/2$, its perpendicular distance from the center
+  at the origin $(0, 0)$ must equal the radius $1/sqrt(2)$.
+
+  This gives the condition $|1/m| / sqrt(m^2 + 1) = 1/sqrt(2)$, which squares to $2 / m^2 = m^2 +
+  1$. Solving this equation yields $m^4 + m^2 - 2 = 0$, which factors as $(m^2 - 1)(m^2 + 2) = 0$, giving $m
+  = plus.minus 1$.
+
+  The equations of the two common tangents are $y = x + 1$ and $y = -x - 1$. Intersecting these two lines
+  gives their point of intersection as $Q(-1, 0)$, so the distance from the origin is $O Q = 1$.
+
+  Given that the minor axis length of the ellipse is $sqrt(2)$, its semi-minor axis is $b = sqrt(2)/2 =
+  1/sqrt(2)$. This confirms that $O Q = 1$ is the semi-major axis $a = 1$.
+
+  The equation of this ellipse centered at the origin is $x^2/1^2 + y^2/(1/sqrt(2))^2 = 1$, which simplifies
+  to $x^2 + 2y^2 = 1$.
+
+  The eccentricity $e$ of the ellipse is given by the formula $e = sqrt(1 - b^2/a^2) = sqrt(1 - 1/2) =
+  1/sqrt(2)$.
+
+  The length of its latus rectum is given by the formula $(2b^2)/a = (2(1/2))/1 = 1$.
+
+  To find the area of the region bounded by the ellipse between $x = 1/sqrt(2)}$ and $x = 1$, we isolate $y$
+  from the ellipse equation to get $y = plus.minus 1/sqrt(2) sqrt(1 - x^2)$.
+
+  The total bounded area across both the upper and lower halves is given by the integral $A = 2
+  display(integral_(1/sqrt(2))^1 1/sqrt(2) sqrt(1 - x^2) d x) = sqrt(2) display(integral_(1/sqrt(2))^1
+  sqrt(1 - x^2) d x)$.
+
+  Using the standard integration formula $display(integral sqrt(1 - x^2) d x) = x/2 sqrt(1 - x^2) + 1/2
+  arcsin(x)$, we evaluate the limits to get $A = sqrt(2) [ (0 + 1/2 dot pi/2) - (1/(2sqrt(2)) dot 1/sqrt(2)
+  + 1/2 dot pi/4) ] = sqrt(2) [ pi/4 - 1/4 - pi/8 ] = sqrt(2) [ pi/8 - 1/4 ]$.
+
+  Simplifying the expression directly produces the required bounded area value as $(pi - 2)/(4sqrt(2))$.
+//546
++ Let the equation of the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with $a > b$. The foci are $F(a e, 0)$ and
+  $F'(-a e, 0)$, and the extremity of the semi-minor axis is $B(0, b)$.
+
+  Since $B$ lies on the y-axis, it is equidistant from both foci, meaning $B F = B F' = a$.
+
+  The angle $F B F'$ is given as a right angle. Applying Pythagoras' theorem to the right-angled triangle
+  $triangle F B F'$ yields $F F'^2 = B F^2 + B F'^2$.
+
+  Substituting the corresponding segment lengths gives $(2a e)^2 = a^2 + a^2$, which simplifies to $4a^2 e^2
+  = 2a^2$.
+
+  Taking the square root directly yields the eccentricity of the ellipse as $e = 1/sqrt(2)$.
+//547
++ The vertical lines $x = 1$ and $x = -1$ are the common tangents to both the circle $x^2 + y^2 = 1$ and the
+  hyperbola $x^2 - y^2 = 1$ at their vertices $(1,0)$ and $(-1,0)$.
+
+  The focus is given at the point $P(1/2, 1)$. The distances from $P$ to the two common tangents are $lr(|1/2 -
+  1|) = 1/2$ and $lr(|1/2 - (-1)|) = 3/2$. Therefore, the directrix nearer to the point $P$ is the line $x = 1$.
+
+  By the focus-directrix property of conics, the distance from any point $(x, y)$ on the ellipse to the
+  focus $P(1/2, 1)$ is equal to the product of its eccentricity $e = 1/2$ and its perpendicular distance to
+  the directrix $x = 1$.
+
+  This gives the relation $sqrt((x - 1/2)^2 + (y - 1)^2) = 1/2 |x - 1|$.
+
+  Squaring both sides to eliminate the radical and absolute value yields $(x - 1/2)^2 + (y - 1)^2 = 1/4 (x -
+  1)^2$.
+
+  Expanding the terms on both sides gives $x^2 - x + 1/4 + y^2 - 2y + 1 = 1/4 (x^2 - 2x + 1)$.
+
+  Multiplying the entire equation by $4$ to clear the denominators results in $4x^2 - 4x + 4y^2 - 8y + 5 =
+  x^2 - 2x + 1$.
+
+  Rearranging all the terms to one side yields the final equation of the ellipse as $3x^2 + 4y^2 - 2x - 8y +
+  4 = 0$.
+//548
++ Let the equation of the ellipse be $x^2/a^2 + y^2/b^2 = 1$ with $a > b$. The coordinates of the foci are
+  $F_1(a e, 0)$ and $F_2(-a e, 0)$.
+
+  The base of the triangle $triangle P F_1 F_2$ is the fixed distance between the two foci, which is $F_1
+  F_2 = 2a e = 2sqrt(a^2 - b^2)$.
+
+  Let the variable point on the ellipse be represented parametrically as $P(a cos theta, b sin theta)$. The
+  height $h$ of the triangle with respect to the base on the x-axis is the absolute value of the
+  y-coordinate of $P$, given by $h = |b sin theta|$.
+
+  The area $Delta$ of the triangle is given by $Delta = 1/2 dot "base" dot "height" = 1/2 (2a e)
+  |b sin theta| = a e b |sin theta| = b sqrt(a^2 - b^2) |sin theta|$.
+
+  The area reaches its maximum value when $|sin theta| = 1$, which occurs when the point $P$ is located at
+  either of the extremities of the minor axis, $(0, plus.minus b)$.
+
+  Therefore, the maximum value of the area $Delta$ is $b e a = b sqrt(a^2 - b^2)$.
+//549
++ Let the parametric coordinates of the point $P$ on the ellipse $x^2/a^2 + y^2/b^2 = 1$ be $P(a cos theta,
+  b sin theta)$.
+
+  The line through $P$ parallel to the y-axis is $x = a cos theta$. This line meets the auxiliary circle
+  $x^2 + y^2 = a^2$ at the point $Q$. Since $P$ and $Q$ lie on the same side of the x-axis, the coordinates
+  of $Q$ are $Q(a cos theta, a sin theta)$.
+
+  Let the moving point $R(h, k)$ divide the line segment $P Q$ internally in the ratio $P R : R Q = r : s$.
+
+  Since $P, R, Q$ all lie on the same vertical line, their x-coordinates are equal, giving $h = a cos
+  theta$, which can be rewritten as $cos theta = h/a$.
+
+  Using the section formula for the y-coordinate of $R$, we have $k = (r(a sin theta) + s(b sin theta)) / (r
+  + s) = ((r a + s b) / (r + s)) sin theta$.
+
+  Solving this relation for $sin theta$ yields $sin theta = (k(r + s)) / (r a + s b)$.
+
+  Using the fundamental trigonometric identity $cos^2 theta + sin^2 theta = 1$, we substitute the
+  expressions for $cos theta$ and $sin theta$ to eliminate the parameter $theta$.
+
+  This gives $(h/a)^2 + [ (k(r + s)) / (r a + s b) ]^2 = 1$, which simplifies to $h^2/a^2 + (k^2(r + s)^2) /
+  (r a + s b)^2 = 1$.
+
+  Replacing the specific coordinates $(h, k)$ with general coordinates $(x, y)$, we obtain the final locus
+  equation as $x^2/a^2 + (y^2(r + s)^2) / (r a + s b)^2 = 1$.
+//550
++ For the ellipse $x^2/9 + y^2/8 = 1$, we have $a^2 = 9$ and $b^2 = 8$, so the focal distance is $c = sqrt(9
+  - 8) = 1$. The foci are given as $F_1(-1, 0)$ and $F_2(1, 0)$.
+
+  The parabola has its vertex at the origin and focus at $F_2(1, 0)$, so its equation is $y^2 = 4x$.
+
+  To find the intersection points $M$ and $N$, we substitute $y^2 = 4x$ into the ellipse equation to get
+  $x^2/9 + (4x)/8 = 1$, which simplifies to the quadratic form $2x^2 + 9x - 18 = 0$.
+
+  Solving this gives the valid positive root $x = 3/2$, which yields $y = plus.minus sqrt(6)$. Since $N$ is in the
+  fourth quadrant, the intersection points are $M(3/2, sqrt(6))$ and $N(3/2, -sqrt(6))$.
+
+  In $triangle F_1 M N$, the side $M N$ lies on the vertical line $x = 3/2$, meaning the altitude from
+  $F_1(-1, 0)$ to $M N$ is the horizontal line $y = 0$ (the x-axis).
+
+  The slope of $F_1 N$ is $(-sqrt(6) - 0)/(3/2 - (-1)) = (-2sqrt(6))/5$, so the altitude from $M$ to $F_1 N$
+  has a perpendicular slope of $5/(2sqrt(6))$.
+
+  The equation of this altitude is $y - sqrt(6) = 5/(2sqrt(6)) (x - 3/2)$. Setting $y = 0$ to find the
+  intersection with the x-axis gives $-6 = 5/2 (x - 3/2)$, which solves to $x = -9/10$.
+
+  Thus, the orthocenter of $triangle F_1 M N$ is $(-9/10, 0)$.
+
+  The tangents to the ellipse at $M$ and $N$ intersect at a point $R$ on the x-axis. The chord of contact
+  from $R(x_R, 0)$ is $(x x_R)/ 9 = 1$, matching $x = 3/2$, which gives $x_R = 6$, so $R(6, 0)$.
+
+  The normal to the parabola $y^2 = 4x$ at $M(3/2, sqrt(6))$ has a slope of $-sqrt(6)/2$, and its equation
+  is $y - sqrt(6) = -sqrt(6)/2 (x - 3/2)$. Setting $y = 0$ yields the x-intercept $Q(7/2, 0)$.
+
+  The area of $triangle M Q R$ with base $Q R = |6 - 7/2| = 5/2$ and height $sqrt(6)$ is $1/2 (5/2) sqrt(6)
+  = (5sqrt(6))/4$.
+
+  The area of the quadrilateral $M F_1 N F_2$ is found by taking the difference between the areas of
+  $triangle F_1 M N$ and $triangle F_2 M N$, since both foci lie to the left of the chord $M N$: $1/2 dot M
+  N dot (M_x - F_(1x)) - 1/2 dot M N dot (M_x - F_(2x)) = 1/2 (2sqrt(6))(3/2 - (-1)) - 1/2 (2sqrt(6))(3/2 -
+  1) = 2sqrt(6)$.
+
+  Taking the ratio of the area of $triangle M Q R$ to the area of the quadrilateral gives $((5sqrt(6))/4) /
+  (2sqrt(6)) = 5/8$.
+//551
++ Let the endpoint of the latus rectum of the parabola $y^2 = 4lambda x$ be chosen as $P(lambda, 2lambda)$
+  without loss of generality.
+
+  Differentiating the parabola equation gives $2y y' = 4lambda$, which yields the slope of the tangent at
+  $P$ as $m_1 = (2lambda)/(2lambda) = 1$.
+
+  Since the tangents to the parabola and the ellipse are perpendicular to each other, the slope of the
+  tangent to the ellipse at $P$ must be $m_2 = -1$.
+
+  Differentiating the ellipse equation $x^2/a^2 + y^2/b^2 = 1$ gives $(2x)/a^2 + (2y y')/b^2 = 0$, so the
+  slope at $P$ is $m_2 = -(b^2 lambda)/(2 a^2 lambda) = -b^2 / (2a^2)$.
+
+  Equating this to $-1$ yields $-b^2 / (2a^2) = -1$, which simplifies to $b^2 = 2a^2$.
+
+  Since $b^2 > a^2$, the major axis lies along the y-axis, and the eccentricity $e$ is given by the formula
+  $e = sqrt(1 - a^2/b^2)$.
+
+  Substituting $b^2 = 2a^2$ into this formula gives $e = sqrt(1 - a^2/(2a^2)) = sqrt(1 - 1/2) = 1/sqrt(2)$.
+
+  Thus, the eccentricity of the ellipse is $1/sqrt(2)$.
+//552
++ Let the equation of any tangent to the ellipse $x^2/a^2 + y^2/b^2 = 1$ with slope $m$ be written as $y - m
+  x = plus.minus sqrt(a^2 m^2 + b^2)$.
+
+  The line passing through a focus $(plus.minus a e, 0)$ and perpendicular to this tangent has a slope of
+  $-1/m$, so its equation is $y = -1/m (x minus.plus a e)$, which simplifies to $x + m y = plus.minus a e$.
+
+  To eliminate the variable parameter $m$, we square both line equations and add them together.
+
+  Squaring the tangent equation gives $(y - m x)^2 = a^2 m^2 + b^2$, and squaring the perpendicular line
+  equation gives $(x + m y)^2 = a^2 e^2 = a^2 - b^2$.
+
+  Adding the left sides expands to $y^2 - 2m x y + m^2 x^2 + x^2 + 2m x y + m^2 y^2$, which factors into
+  $(x^2 + y^2)(1 + m^2)$.
+
+  Adding the right sides yields $(a^2 m^2 + b^2) + (a^2 - b^2) = a^2 m^2 + a^2 = a^2(1 + m^2)$.
+
+  Equating the combined sides gives $(x^2 + y^2)(1 + m^2) = a^2(1 + m^2)$.
+
+  Canceling the common factor $(1 + m^2)$ from both sides directly produces the required locus equation $x^2
+  + y^2 = a^2$.
+//553
++ The equation of the ellipse can be rewritten in standard form by dividing by $12$, giving $x^2/4 + y^2/3 =
+  1$, where $a^2 = 4$ and $b^2 = 3$.
+
+  The normal at point $P$ is parallel to the line $2x + y = 4$, which has a slope of $-2$. This means the
+  slope of the normal is $m = -2$, and consequently, the slope of the tangent at $P$ is $m_t = 1/2$.
+
+  The equation of a tangent to the ellipse with slope $m_t$ is given by $y = m_t x plus.minus sqrt(a^2 m_t^2 +
+  b^2)$. Substituting $m_t = 1/2$, $a^2 = 4$, and $b^2 = 3$ yields $y = 1/2 x plus.minus sqrt(4(1/4) + 3) =
+  1/2 x plus.minus 2$.
+
+  Since the tangent passes through $Q(4, 4)$, substituting these coordinates into the tangent equations
+  shows that only $y = 1/2 x + 2$ satisfies the point ($4 = 1/2(4) + 2$). Thus, the tangent equation is $x -
+  2y + 4 = 0$.
+
+  The equation of the tangent at a general point $P(x_1, y_1)$ on the ellipse is $3x_1 x + 4y_1 y - 12 =
+  0$. Comparing coefficients with $x - 2y + 4 = 0$ gives $(3x_1)/1 = (4y_1)/(-2) = -12/4$.
+
+  Solving these ratios yields $x_1 = -1$ and $y_1 = 3/2$, so the coordinates of point $P$ are $(-1, 3/2)$.
+
+  The length of $P Q$ between $P(-1, 3/2)$ and $Q(4, 4)$ is found using the distance formula: $P Q = sqrt((4
+  - (-1))^2 + (4 - 3/2)^2) = sqrt(25 + 25/4) = sqrt(125/4) = (5sqrt(5))/2$.
+//554
++ The equation of the tangent to the ellipse $3x^2 + 5y^2 = 32$ at the point $P(2, 2)$ is given by $3x(2) +
+  5y(2) = 32$, which simplifies to $3x + 5y = 16$.
+
+  To find the x-intercept $Q$, we set $y = 0$ in the tangent equation, yielding $3x = 16$, which gives
+  $Q(16/3, 0)$.
+
+  The slope of the tangent line is $-3/5$, so the slope of the normal line at $P(2, 2)$ is $5/3$. The
+  equation of the normal is $y - 2 = 5/3 (x - 2)$, which simplifies to $5x - 3y = 4$.
+
+  To find the x-intercept $R$, we set $y = 0$ in the normal equation, yielding $5x = 4$, which gives $R(4/5,
+  0)$.
+
+  The base of $triangle P Q R$ lies along the x-axis between $R$ and $Q$, so its length is $Q R = 16/3 - 4/5
+  = 68/15$.
+
+  The height of the triangle is the y-coordinate of the vertex $P$, which is $2$.
+
+  Therefore, the area of $triangle P Q R$ is computed as $1/2 dot "base" dot "height" = 1/2 (68/15) (2) =
+  68/15$.
+//555
++ The equation of the tangent to the parabola $y^2 = x$ at the point $(alpha, beta)$ is $y beta = 1/2 (x +
+  alpha)$, which simplifies to $x - 2beta y + alpha = 0$, or $y = 1/(2beta) x + alpha/(2beta)$.
+
+  Since the point $(alpha, beta)$ lies on the parabola, it satisfies the curve equation giving $beta^2 =
+  alpha$.
+
+  The line is also a tangent to the ellipse $x^2 + 2y^2 = 1$, which can be written in standard form as
+  $x^2/1 + y^2/(1/2) = 1$, where $a^2 = 1$ and $b^2 = 1/2$.
+
+  The condition of tangency for an ellipse $y = m x + c$ requires $c^2 = a^2 m^2 + b^2$. Substituting the
+  slope $m = 1/(2beta)$ and the y-intercept $c = alpha/(2beta)$ yields $(alpha/(2beta))^2 = 1 dot
+  (1/(2beta))^2 + 1/2$.
+
+  Multiplying the entire equation by $4beta^2$ to clear the denominators simplifies the expression to
+  $alpha^2 = 1 + 2beta^2$.
+
+  Substituting $beta^2 = alpha$ into this relation gives the quadratic equation $alpha^2 - 2alpha - 1 = 0$.
+
+  Solving this quadratic equation using the quadratic formula yields $alpha = (2 plus.minus sqrt(4 - 4(1)(-1))) / 2
+  = 1 plus.minus sqrt(2)$.
+
+  Since $beta > 0$ and $beta^2 = alpha$, the value of $alpha$ must be strictly positive.
+
+  Therefore, we find $alpha = 1 + sqrt(2)$.
+//556
++ The equation of the tangent to the ellipse $x^2/a^2 + y^2/b^2 = 1$ at the point $(3, -9/2)$ is given by
+  $(3x)/a^2 - (9y)/(2b^2) = 1$.
+
+  The given tangent line is $x - 2y = 12$, which can be rewritten in intercept form as x/12 - y/6 = 1.
+
+  Comparing the coefficients of the two equations gives $3/a^2 = 1/12$, which solves to $a^2 = 36$, and
+  $9/(2b^2) = 1/6$, which solves to $b^2 = 27$.
+
+  Since $a^2 = 36$, we find the semi-major axis length is $a = 6$.
+
+  The length of the latus rectum of a horizontal ellipse is given by the formula $(2b^2)/a$.
+
+  Substituting the values of $a$ and $b^2$ results in $2(27)/6 = 54/6 = 9$.
+//557
++ The equation of the given ellipse is $4x^2 + y^2 = 8$.
+
+  First, we find the slope of the tangent line at the point $(1, 2)$. The standard equation of a tangent to
+  the ellipse at any point $(x_1, y_1)$ is given by the replacement formula $4x x_1 + y y_1 =
+  8$. Substituting the coordinates $(1, 2)$ yields $4x(1) + y(2) = 8 => 4x + 2y = 8 => 2x + y =
+  4$. Rearranging this into slope-intercept form gives $y = -2x + 4$, which isolates the slope of the first
+  tangent as $m_1 = -2$.
+
+  We are given that the tangents at $(1, 2)$ and $(a, b)$ are completely perpendicular to each other. The
+  geometric condition for perpendicular lines requires the product of their slopes to equal $-1$, satisfying
+  $m_1 dot m_2 = -1$. Substituting our value gives $(-2) dot m_2 = -1 => m_2 = 1/2$.
+
+  The point $(a, b)$ lies directly on the circumference of the ellipse, so its coordinates must satisfy the
+  curve relation $4a^2 + b^2 = 8$.
+
+  The equation of the tangent line at this point $(a, b)$ is given by $4a x + b y = 8$, which rearranges to
+  $b y = -4a x + 8 => y = (-4a / b)x + 8 / b$. This isolates the slope of the second tangent line as $m_2 =
+  -4a / b$.
+
+  Equating our two slope expressions for $m_2$ sets up the equality $-4a / b = 1/2$. Cross-multiplying to
+  solve for the parameter gives $b = -8a$.
+
+  To eliminate the parameter $b$, we substitute this expression back into our initial ellipse boundary
+  condition $4a^2 + b^2 = 8$ i.e. $4a^2 + (-8a)^2 = 8 => 4a^2 + 64a^2 = 8 => 68a^2 = 8$
+
+  $=> a^2 = 8 / 68 = 2 / 17$.
+//558
++ The equation of the given ellipse is $x^2 + 2y^2 = 2$, which can be rewritten in standard form by dividing
+  by $2$ as $x^2 / 2 + y^2 / 1 = 1$. This identifies the square of the semi-major axis as $a^2 = 2$ and the
+  square of the semi-minor axis as $b^2 = 1$.
+
+  Any parametric point on this ellipse can be represented as $P(sqrt(2) cos phi, sin phi)$, where $phi$ is
+  the eccentric angle. Since the tangents are drawn at all points other than the four vertices, we have $cos
+  phi != 0, plus.minus 1$ and $sin phi != 0, plus.minus 1$.
+
+  The standard equation of a tangent line to the ellipse at this parametric point is $(x dot sqrt(2) cos
+  phi) / 2 + (y dot sin phi) / 1 = 1$, which simplifies directly to $(x cos phi) / sqrt(2) + y sin phi = 1$.
+
+  To find the intercepts $A$ and $B$ where this tangent line meets the coordinate axes, we evaluate the
+  boundary positions:
+  - Setting $y = 0$ gives the horizontal intercept at $A(sqrt(2)/(cos phi), 0)$.
+  - Setting $x = 0$ gives the vertical intercept at $B(0, 1/(sin phi))$.
+
+  Let the mid-point of the intercepted line segment $A B$ be $M(h, k)$. Using the standard midpoint average
+  formula, we relate these coordinates to our trigonometric parameter components as $h = sqrt(2) / (2 cos
+  phi) = 1 / (sqrt(2) cos phi)$ and $k = 1 / (2 sin phi)$.
+
+  Isolating the trigonometric parameters in terms of the moving midpoint coordinates yields $cos phi = 1 /
+  (sqrt(2)h)$ and $sin phi = 1 / (2k)$.
+
+  To eliminate the variable parameter $phi$, we substitute these expressions into the fundamental
+  Pythagorean trigonometric identity $cos^2 phi + sin^2 phi = 1$, which sets up the algebraic relation $(1 /
+  (sqrt(2)h))^2 + (1 / (2k))^2 = 1$.
+
+  Expanding the squared fractions simplifies the equation directly to $1 / (2h^2) + 1 / (4k^2) = 1$.
+
+  Generalising the midpoint parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the
+  final locus curve equation $1 / (2x^2) + 1 / (4y^2) = 1$. Multiplying by $4x^2 y^2$ to clear the
+  denominators gives the alternative polynomial layout $2y^2 + x^2 = 4x^2 y^2$.
+//559
++ The equation of the given parabola is $y^2 = 4x$, which identifies the focal parameter as $a = 1$. The
+  general equation of a tangent with a non-zero slope $m$ to this parabola is given by the formula $y = m x
+  + 1 / m$.
+
+  This same line also serves as a tangent to the rectangular hyperbola $x y = 2$. To find the condition of
+  tangency, we substitute our linear tangent equation directly into the hyperbola equation, which yields
+  $x(m x + 1 / m) = 2$.
+
+  Expanding the terms and multiplying by $m$ to rearrange it into a standard quadratic equation in terms of
+  $x$ gives $m x^2 + 1/m x - 2 = 0$.
+
+  For the line to touch the curve as a tangent, this quadratic intersection equation must produce equal real
+  roots. This geometric constraint requires the discriminant $D$ of the quadratic equation to be identically
+  equal to zero ($D = 0$).
+
+  Evaluating the discriminant condition yields $(1 / m)^2 - 4(m)(-2) = 0$, which simplifies to $1 / m^2 + 8m
+  = 0$.
+
+  Multiplying the entire expression by $m^2$ to clear the fractional denominator isolates the cubic relation
+  as $1 + 8m^3 = 0 => 8m^3 = -1 => m^3 = -1/8$.
+
+  Taking the real cube root isolates the slope parameter value directly as $m = -1/2$.
+
+  Now we substitute the derived value $m = -1/2$ back into our original tangent line equation template,
+  which gives $y = -1/2 x + 1 / (-1/2) => y = -1/2 x - 2$.
+
+  Multiplying the entire equation by $2$ and rearranging all the terms onto one side results in the final
+  linear equation $x + 2y + 4 = 0$.
+//560
++ The center of the ellipse is given at the origin $O(0, 0)$ and its eccentricity is $e = 1/2$. We are given
+  that one of its directrices is the vertical line $x = -4$.
+
+  The standard equation of a vertical directrix line for an ellipse centered at the origin is $x =
+  -a/e$. Equating this to our given line value yields $-a/e = -4 => a/e = 4$.
+
+  Substituting the eccentricity value $e = 1/2$ into this relation allows us to calculate the semi-major
+  axis length $a$: $a / (1/2) = 4 => 2a = 4 => a = 2$
+
+  Squaring this value gives $a^2 = 4$. Next, we use the standard structural eccentricity relationship $b^2 =
+  a^2(1 - e^2)$ to find the semi-minor axis length $b$: $b^2 = 4(1 - (1/2)^2) = 4(1 - 1/4) = 4(3/4) = 3$
+
+  Substituting $a^2 = 4$ and $b^2 = 3$ into the standard template results in the equation of the ellipse as
+  $x^2 / 4 + y^2 / 3 = 1$. We can verify that the given point $P(1, 3/2)$ lies on this curve since $1^2/4 +
+  (3/2)^2/3 = 1/4 + (9/4)/3 = 1/4 + 3/4 = 1$.
+
+  The standard point-form equation of the normal line to an ellipse $x^2/a^2 + y^2/b^2 = 1$ at a specific
+  point $(x_1, y_1)$ is given by the formula: $(a^2 x) / x_1 - (b^2 y) / y_1 = a^2 - b^2$
+
+  Substituting our derived parameters $a^2 = 4$, $b^2 = 3$, and the point coordinates $x_1 = 1$, $y_1 = 3/2$
+  into this normal line formula yields: $(4x) / 1 - (3y) / (3/2) = 4 - 3$
+
+  Simplifying the individual fraction components and constant evaluations transforms the expression directly
+  to: $4x - 2y = 1$
+
+  Rearranging the terms into standard general layout results in the final linear equation $4x - 2y - 1 = 0$.
+//561
++ The equation of the given ellipse is $x^2 / 9 + y^2 / 5 = 1$. Comparing this with the standard template
+  $x^2 / a^2 + y^2 / b^2 = 1$ identifies the squared parameters as $a^2 = 9 => a = 3$ and $b^2 = 5 => b =
+  sqrt(5)$.
+
+  The eccentricity $e$ of this ellipse is calculated using the standard structural relationship $b^2 = a^2
+  (1 - e^2)$: $5 = 9(1 - e^2) => 1 - e^2 = 5/9 => e^2 = 4/9 => e = 2/3$
+
+  The value of the focal coordinate scaling is $a e = 3 \cdot (2/3) = 2$. The four endpoints of the latus
+  rectum chords are given by the standard parametric templates $(plus.minus a e, plus.minus b^2 / a)$, which
+  evaluates explicitly to the four points $(plus.minus 2, plus.minus 5/3)$.
+
+  Due to the perfect four-fold reflectional symmetry of the ellipse across both coordinate axes, the tangent
+  lines drawn at these four endpoints intersect to form a symmetric rhombus-shaped quadrilateral. The total
+  area of this quadrilateral is exactly four times the area of the right-angled triangle enclosed by the
+  tangent line in the first quadrant and the coordinate axes.
+
+  The endpoint of the latus rectum lying entirely within the first quadrant is $P(2, 5/3)$. The standard
+  equation of the tangent line to the ellipse at any point $(x_1, y_1)$ is given by the replacement formula:
+  $(x x_1) / a^2 + (y y_1) / b^2 = 1$
+
+  Substituting the coordinates of $P(2, 5/3)$ along with $a^2 = 9$ and $b^2 = 5$ into this tangent template
+  yields $(2x) / 9 + ((5/3)y) / 5 = 1 => (2x) / 9 + y / 3 = 1$
+
+  To find the intercepts where this boundary tangent line cuts the coordinate axes, we evaluate the edge positions:
+  - Setting $y = 0$ isolates the horizontal intercept at $x = 9/2$, giving vertex $A(9/2, 0)$.
+  - Setting $x = 0$ isolates the vertical intercept at $y = 3$, giving vertex $B(0, 3)$.
+
+  The area of the right-angled triangle formed by this tangent line and the origin in the first quadrant is
+  calculated using the standard formula:
+  $"Area"_(triangle) = 1/2 \cdot "Base" \cdot "Height" = 1/2 \cdot 9/2 \cdot 3 = 27/4$
+
+  Since the total quadrilateral is composed of four identical symmetric quadrants, its complete surface area
+  evaluates directly to: $"Total Area" = 4 \cdot "Area"_(triangle) = 4 \cdot (27 / 4) = 27$.
+//562
++ The equation of the given ellipse is $x^2 + 4y^2 = 16$, which can be rewritten in standard form by
+  dividing by $16$ as $x^2 / 16 + y^2 / 4 = 1$. This identifies the square of the semi-major axis as $a^2 =
+  16 => a = 4$ and the square of the semi-minor axis as $b^2 = 4 => b = 2$.
+
+  The eccentricity $e$ of the ellipse is calculated using the relation $b^2 = a^2 (1 - e^2)$, which gives $4
+  = 16(1 - e^2) => 1 - e^2 = 1/4 => e^2 = 3/4 => e = sqrt(3) / 2$. The equations of the latus rectum lines
+  are given by $x = plus.minus a e = plus.minus 4(sqrt(3) / 2) = plus.minus 2sqrt(3)$.
+
+  Let any moving point $P$ on this ellipse be represented in standard parametric form as $P(4 cos theta, 2
+  sin theta)$, where $theta$ is a real parameter.
+
+  The standard point-form equation of the normal line to the ellipse at $P(4 cos theta, 2 sin theta)$ is
+  given by the formula $(a^2 x) / x_1 - (b^2 y) / y_1 = a^2 - b^2$. Substituting our parameters yields
+  $(16x) / (4 cos theta) - (4y) / (2 sin theta) = 16 - 4$, which simplifies to $(4x)/(cos theta) - (2y) /
+  (sin theta) = 12$, or $(2x) /(cos theta) - y /(sin theta) = 6$.
+
+  We are given that this normal line meets the x-axis ($y = 0$) at point $Q$. Substituting $y = 0$ into our
+  normal relation isolates the horizontal coordinate as $(2x) / cos theta = 6 => 2x = 6 cos theta => x = 3
+  cos theta$. Thus, the coordinates are $Q(3 cos theta, 0)$.
+
+  Let $M(h, k)$ be the moving midpoint of the line segment $P Q$. Using the standard midpoint average
+  formula, we relate these coordinates to our trigonometric components as $h = (4 cos theta + 3 cos theta) /
+  2 = (7 cos theta) / 2$ and $k = (2 sin theta + 0) / 2 = sin theta$.
+
+  Isolating the trigonometric parameters in terms of the moving midpoint coordinates yields $cos theta =
+  (2h) / 7$ and $sin theta = k$. To eliminate the parameter $theta$, we substitute these expressions into
+  the identity $cos^2 theta + sin^2 theta = 1$, which sets up the algebraic relation $((2h) / 7)^2 + k^2 = 1
+  => (4h^2) / 49 + k^2 = 1$.
+
+  Generalising the parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the locus
+  equation $(4x^2) / 49 + y^2 = 1$.
+
+  To find the points at which this locus intersects the latus rectum lines, we substitute $x = plus.minus
+  2sqrt(3)$ into our locus equation. Since $x^2 = (plus.minus 2sqrt(3))^2 = 12$, the equation becomes
+  $(4(12)) / 49 + y^2 = 1 => 48 / 49 + y^2 = 1$.
+
+  Subtracting $48/49$ from both sides isolates the vertical coordinate as $y^2 = 1 - 48 / 49 = 1 / 49 => y =
+  plus.minus 1 / 7$.
+
+  Therefore, the locus of $M$ intersects the latus rectum of the given ellipse at the four distinct points
+  $(plus.minus 2sqrt(3), plus.minus 1 / 7)$.
+//563
++ The equation of the given ellipse is $x^2 + 9y^2 = 9$. Dividing the entire equation by $9$ transforms it
+  into the standard form $x^2 / 9 + y^2 / 1 = 1$. This identifies the square of the semi-major axis as $a^2
+  = 9 => a = 3$ and the square of the semi-minor axis as $b^2 = 1 => b = 1$.
+
+  Let the chosen extremity of the major axis be $A(3, 0)$ and the extremity of the minor axis be $B(0,
+  1)$. The intercept form of the line passing through these two points is given by $x / 3 + y / 1 = 1$,
+  which can be rearranged to isolate the horizontal variable as $x = 3 - 3y$.
+
+  The auxiliary circle of the ellipse is concentric with the origin and has a radius equal to the semi-major
+  axis $a = 3$, giving its equation as $x^2 + y^2 = 9$.
+
+  To find the intersection point $M$, we substitute the expression $x = 3 - 3y$ directly into the equation
+  of the auxiliary circle, yielding $(3 - 3y)^2 + y^2 = 9$. Expanding this equation gives $9 - 18y + 9y^2 +
+  y^2 = 9$, which simplifies to $10y^2 - 18y = 0$.
+
+  Factoring out the common terms gives $2y(5y - 9) = 0$. This yields two solutions:
+  - $y = 0$, which gives $x = 3$, corresponding to the starting vertex $A(3, 0)$.
+  - $y = 9/5$, which gives $x = 3 - 3(9/5) = -12/5$, corresponding to the point $M(-12/5, 9/5)$.
+
+  The triangle $A M O$ is formed by the vertices $O(0, 0)$, $A(3, 0)$, and $M(-12/5, 9/5)$. Since both $O$
+  and $A$ lie along the horizontal x-axis, the segment $O A$ forms the base of the triangle with a length of
+  $"Base" = 3 - 0 = 3$.
+
+  The height of this triangle is the perpendicular distance from the third vertex $M$ to the horizontal line
+  of the base, which is simply the absolute value of the vertical coordinate of $M$, giving $"Height" =
+  9/5$.
+
+  The area of $triangle A M O$ is calculated using the standard geometric formula $"Area" = 1/2 dot "Base"
+  dot "Height"$. Substituting our derived values results in the final calculation:
+  $"Area" = 1/2 dot 3 dot 9/5 = 27/10 = 2.7$
+//564
++ The equation of the given ellipse is $x^2 + 2y^2 = 2$, which can be rewritten in standard form by dividing
+  the entire expression by $2$ as $x^2 / 2 + y^2 / 1 = 1$. This identifies the square of the semi-major axis
+  as $a^2 = 2$ and the square of the semi-minor axis as $b^2 = 1$.
+
+  Any parametric point on this ellipse can be represented as $P(sqrt(2) cos phi, sin phi)$, where $phi$ is
+  the eccentric angle.
+
+  The standard equation of a tangent line to the ellipse at this parametric point is $(x dot sqrt(2) cos
+  phi) / 2 + (y dot sin phi) / 1 = 1$, which simplifies directly to $(x cos phi) / sqrt(2) + y sin phi = 1$.
+
+  To find the intercepts $A$ and $B$ where this tangent line meets the coordinate axes, we evaluate the
+  boundary positions:
+  - Setting $y = 0$ gives the horizontal intercept at $A(sqrt(2)/(cos phi), 0)$.
+  - Setting $x = 0$ gives the vertical intercept at $B(0, 1/(sin phi))$.
+
+  Let the mid-point of the intercepted line segment $A B$ be $M(h, k)$. Using the standard midpoint average
+  formula, we relate these coordinates to our trigonometric parameter components as $h = sqrt(2) / (2 cos
+  phi) = 1 / (sqrt(2) cos phi)$ and $k = 1 / (2 sin phi)$.
+
+  Isolating the trigonometric parameters in terms of the moving midpoint coordinates yields $cos phi = 1 /
+  (sqrt(2)h)$ and $sin phi = 1 / (2k)$.
+
+  To eliminate the variable parameter $phi$, we substitute these expressions into the fundamental
+  Pythagorean trigonometric identity $cos^2 phi + sin^2 phi = 1$, which sets up the algebraic relation $(1 /
+  (sqrt(2)h))^2 + (1 / (2k))^2 = 1$.
+
+  Expanding the squared fractions simplifies the equation directly to $1 / (2h^2) + 1 / (4k^2) = 1$.
+
+  Generalising the midpoint parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in the
+  final locus curve equation $1 / (2x^2) + 1 / (4y^2) = 1$. Multiplying by $4x^2 y^2$ to clear the
+  denominators gives the alternative polynomial layout $2y^2 + x^2 = 4x^2 y^2$.
+//565
++ The equation of the given ellipse is $x^2 / 27 + y^2 = 1$, which has the semi-major axis squared parameter
+  $a^2 = 27 => a = 3sqrt(3)$ and the semi-minor axis squared parameter $b^2 = 1 => b = 1$. The point of
+  tangency is specified in parametric coordinates as $P(3sqrt(3) cos theta, sin theta)$.
+
+  The standard equation of a tangent line to an ellipse at any given parametric point $(x_1, y_1)$ is found
+  using the replacement formula $(x x_1) / a^2 + (y y_1) / b^2 = 1$. Substituting our values yields $(x
+  dot 3sqrt(3) cos theta) / 27 + (y dot sin theta) / 1 = 1$
+
+  Simplifying the fraction isolates the linear tangent relationship as $(x cos theta) / (3sqrt(3)) + y sin theta = 1$
+
+  To find the intercepts where this tangent line cuts the coordinate axes, we evaluate the boundary edge
+  positions:
+  - Setting $y = 0$ isolates the horizontal intercept at $x = (3sqrt(3))/(cos theta)$.
+  - Setting $x = 0$ isolates the vertical intercept at $y = 1/(sin theta)$.
+
+  Since the parameter domain restriction is $theta in (0, pi/2)$, both the horizontal and vertical
+  intercepts are strictly positive. Let $S(theta)$ represent the total sum of these two intercepts:
+  $S(theta) = (3sqrt(3))/(cos theta) + 1/(sin theta) = 3sqrt(3) sec theta + csc theta$
+
+  To find the value of $theta$ that minimizes this objective function, we differentiate $S(theta)$ with
+  respect to $theta$ and set the resulting derivative equal to zero ($S'(theta) = 0$):  $S'(theta) =
+  3sqrt(3) sec theta tan theta - csc theta cot theta = 0$
+
+  Expressing the trigonometric terms using their primary sine and cosine definitions yields $3sqrt(3) (1 /
+  (cos theta)) (sin theta)/(cos theta) = 1 /(sin theta) (cos theta)/(sin theta) => (3sqrt(3) sin theta)
+  /(cos^2 theta) = (cos theta)/(sin^2 theta)$
+
+  Cross-multiplying to group the matching trigonometric functions together gives $3sqrt(3) sin^3 theta =
+  cos^3 theta => (sin^3 theta)/(cos^3 theta) = 1 / (3sqrt(3))$
+
+  Taking the cube root of both sides simplifies the relation directly to $tan^3 theta = 1 / (sqrt(3))^3 =>
+  tan theta = 1 / sqrt(3)$
+
+  Since $theta$ must be an acute angle belonging to the first quadrant $(0, pi/2)$, solving the equation
+  isolates the unique valid parameter value as $theta = pi/6$.
+//566
++ The equation of the given line is $m x - y - b sqrt(1 + m^2) = 0$.
+
+  The first circle is $x^2 + y^2 = b^2$, which has its center at the origin $O_1(0, 0)$ and a radius of
+  $b$. The perpendicular distance $d_1$ from $O_1(0, 0)$ to the line is: $d_1 = abs(m(0) - 0 - b sqrt(1 +
+  m^2)) / sqrt(m^2 + 1) = (b sqrt(1 + m^2)) / sqrt(m^2 + 1) = b$
+
+  Since $d_1$ is identically equal to the radius $b$, this line is automatically tangent to the first circle
+  for any real value of $m$.
+
+  The second circle is $(x - a)^2 + y^2 = b^2$, which has its center at $O_2(a, 0)$ and a radius of $b$. For
+  the line to be a common tangent, the perpendicular distance $d_2$ from $O_2(a, 0)$ to the line must also
+  be exactly equal to the radius $b$ i.e. $abs(m(a) - 0 - b sqrt(1 + m^2)) / sqrt(m^2 + 1) = b$
+
+  Cross-multiplying by the denominator yields the absolute relation $abs(m a - b sqrt(1 + m^2)) = b sqrt(1 +
+  m^2)$
+
+  This absolute value equality splits into two separate algebraic cases:
+  - Case 1: $m a - b sqrt(1 + m^2) = -b sqrt(1 + m^2) => m a = 0$. Since $a > 0$, this yields $m = 0$, which
+    is not a positive value.
+  - Case 2: $m a - b sqrt(1 + m^2) = b sqrt(1 + m^2) => m a = 2b sqrt(1 + m^2)$.
+
+  We square both sides of this second equation to eliminate the radical component $m^2 a^2 = 4b^2 (1 + m^2)
+  => m^2 a^2 = 4b^2 + 4b^2 m^2$
+
+  Rearranging the terms to group the variable $m^2$ onto one side gives $m^2 a^2 - 4b^2 m^2 = 4b^2 => m^2
+  (a^2 - 4b^2) = 4b^2$
+
+  Isolating the squared slope parameter yields $m^2 = (4b^2) / (a^2 - 4b^2)$
+
+  We are given that $a > 2b > 0$, which guarantees that $a^2 > 4b^2$, making the denominator strictly
+  positive. Taking the positive square root isolates the final required slope value directly as: $m = (2b) /
+  sqrt(a^2 - 4b^2)$.
+//567
++ The equation of the given ellipse is $x^2 / 4 + y^2 = 1$, which identifies the squared semi-major axis as
+  $a^2 = 4$ and the squared semi-minor axis as $b^2 = 1$. The given straight line is $y = 4x + c$, which
+  identifies the slope parameter as $m = 4$.
+
+  The standard condition for a straight line $y = m x + c$ to touch the ellipse $x^2 / a^2 + y^2 / b^2 = 1$
+  as a tangent line is given by the algebraic relation $c^2 = a^2 m^2 + b^2$.
+
+  Substituting our derived parameters into this formula yields $c^2 = 4(4^2) + 1 = 4(16) + 1 = 64 + 1 = 65$
+
+  Taking the square root isolates the two possible valid values for the intercept parameter $c = plus.minus
+  sqrt(65)$
+
+  Therefore, there are exactly $2$ distinct real values of $c$ for which the straight line touches the
+  ellipse.
+//568
++ The equation of the circle is $S: x^2 + (y - 1)^2 = 2$. The straight line that touches all three curves is
+  $x + y = 3$.
+
+  First, we find the point of tangency $P$ on the circle $S$. The point $P$ is the foot of the perpendicular
+  dropped from the center of the circle $C(0, 1)$ to the tangent line $x + y - 3 = 0$. Using the foot of the
+  perpendicular formula gives $(x - 0) / 1 = (y - 1) / 1 = -(0 + 1 - 3) / (1^2 + 1^2) = 1$. This isolates
+  the coordinates of point $P$ directly as $P(1, 2)$.
+
+  The line $x + y = 3$ has an inclination of $135^degree$, so its unit direction vectors can be represented
+  parametrically as $(plus.minus 1 / sqrt(2), minus.plus 1 / sqrt(2))$. Given that the distance along the
+  line from $P$ to the points $Q$ and $R$ is $r = (2sqrt(2)) / 3$, the parametric equations for these points
+  are $x = 1 plus.minus (2sqrt(2)) / 3 dot 1 / sqrt(2) = 1 plus.minus 2/3$ and $y = 2 minus.plus
+  (2sqrt(2)) / 3 dot 1 / sqrt(2) = 2 minus.plus 2/3$
+
+  Evaluating both cases yields two distinct coordinate points on the line:
+  - Case 1: $(1 + 2/3, 2 - 2/3) = (5/3, 4/3)$
+  - Case 2: $(1 - 2/3, 2 + 2/3) = (1/3, 8/3)$
+
+  Now we determine the equations and eccentricities of the two ellipses by matching these points:
+
+  For the first ellipse $E_1$, the major axis lies along the x-axis, so its equation is $x^2 / a^2 + y^2 /
+  b^2 = 1$ with $a > b$. The standard point of contact for a tangent line $x / 3 + y / 3 = 1$ is given by
+  $Q(a^2 / 3, b^2 / 3)$. Since $a > b$, the horizontal coordinate must be greater than the vertical
+  coordinate ($x > y$), which uniquely matches the first point $(5/3, 4/3)$.
+
+  Equating the components gives $a^2 / 3 = 5/3 => a^2 = 5$ and $b^2 / 3 = 4/3 => b^2 = 4$.
+
+  The eccentricity $e_1$ of $E_1$ is calculated using the relationship $e_1 = sqrt(1 - b^2 / a^2) = sqrt(1 -
+  4/5) = 1 / sqrt(5)$.
+
+  For the second ellipse $E_2$, the major axis lies along the y-axis, so its equation is $x^2 / c^2 + y^2 /
+  d^2 = 1$ with $d > c$. The standard point of contact for the tangent line is given by $R(c^2 / 3, d^2 /
+  3)$. Since $d > c$, the vertical coordinate must be greater than the horizontal coordinate ($y > x$),
+  which uniquely matches the second point $(1/3, 8/3)$. Equating the components gives $c^2 / 3 = 1/3 => c^2
+  = 1$ and $d^2 / 3 = 8/3 => d^2 = 8$.
+
+  The eccentricity $e_2$ of $E_2$ is calculated using the relationship $e_2 = sqrt(1 - c^2 / d^2) = sqrt(1 -
+  1/8) = sqrt(7/8)$.
+//569
++ The equation of the given circle is $x^2 + y^2 = 16$, which has its center at the origin $O(0, 0)$ and a
+  radius of $R = 4$. The equation of the ellipse is $x^2 / 25 + y^2 / 4 = 1$, which identifies the squared
+  semi-axes as $a^2 = 25$ and $b^2 = 4$.
+
+  The standard equation of a tangent line with slope $m$ to this ellipse is written in slope-intercept form
+  as $y = m x + sqrt(25m^2 + 4)$, or in general form as $m x - y + sqrt(25m^2 + 4) = 0$.
+
+  For this line to also touch the circle as a common tangent, the perpendicular distance from the center
+  $O(0, 0)$ to the line must be exactly equal to the circle's radius $4$: $abs(m(0) - 0 + sqrt(25m^2 + 4)) /
+  sqrt(m^2 + (-1)^2) = 4 => sqrt(25m^2 + 4) / sqrt(m^2 + 1) = 4$
+
+  Squaring both sides of this equation to eliminate the radical component yields $25m^2 + 4 = 16(m^2 + 1) =>
+  25m^2 + 4 = 16m^2 + 16$
+
+  Grouping the variable terms onto one side isolates the squared slope parameter as $9m^2 = 12 => m^2 = 4 /
+  3$
+
+  Since the common tangent is located in the first quadrant, it must slope downward to intercept both
+  positive coordinate axes, which requires a negative slope value of $m = -2 / sqrt(3)$. Substituting this
+  slope back into our tangent template gives $y = -2 / sqrt(3) x + sqrt(25(4/3) + 4) => y = -2 / sqrt(3) x +
+  sqrt(112 / 3) => y = -2 / sqrt(3) x + (4sqrt(7)) / sqrt(3)$
+
+  Multiplying the entire equation by $sqrt(3)$ and rearranging all terms onto one side results in the final
+  linear equation $2x + sqrt(3)y = 4sqrt(7)$
+
+  To calculate the length of the intercepted segment between the axes, we evaluate the boundary positions:
+  - Setting $y = 0$ isolates the horizontal intercept at $x = 2sqrt(7)$, giving point $A(2sqrt(7), 0)$.
+  - Setting $x = 0$ isolates the vertical intercept at $y = (4sqrt(7)) / sqrt(3)$, giving point $B(0,
+    (4sqrt(7)) / sqrt(3))$.
+
+  The total length $L$ of the intercept between the coordinate axes is calculated using the Pythagorean
+  distance formula between points $A$ and $B$: $L = sqrt((2sqrt(7))^2 + ((4sqrt(7)) / sqrt(3))^2) = sqrt(28
+  + 112 / 3) = sqrt((84 + 112) / 3) = sqrt(196 / 3) = 14 / sqrt(3)$.
+//570
++ Let the common center of the circle and the ellipse be at the origin $O(0, 0)$. The circle is given by
+  $x^2 + y^2 = a^2$, which is the auxiliary circle of the ellipse $x^2 / a^2 + y^2 / b^2 = 1$.
+
+  Since $A B C$ is an equilateral triangle inscribed in the auxiliary circle, its vertices are spaced at an
+  angle of $(2pi)/3$ from one another. Let the parametric eccentric angle of vertex $A$ be $alpha$. Then the
+  eccentric angles of vertices $B$ and $C$ can be written as $beta = alpha + (2pi)/3$ and $gamma = alpha +
+  (4pi)/3$.
+
+  The perpendiculars from $A, B, C$ to the major axis (x-axis) meet the ellipse at $P, Q, R$. By definition,
+  the eccentric angles of points $P, Q, R$ on the ellipse are identical to the parametric angles of $A, B,
+  C$, which are $alpha$, $beta$, and $gamma$.
+
+  The standard point-form equation of a normal line to the ellipse at any eccentric angle $phi$ is given by
+  $a x sec phi - b y csc phi = a^2 - b^2$. Multiplying the entire relation by $sin phi cos phi$ simplifies the
+  equation to the linear form $a x sin phi - b y cos phi - (a^2 - b^2) / 2 sin 2phi = 0$
+
+  Writing this normal equation for each of the three points $P(alpha)$, $Q(beta)$, and $R(gamma)$ gives a
+  system of three straight lines $L_1: a x sin alpha - b y cos alpha - (a^2 - b^2) / 2 sin 2alpha = 0$,
+  $L_2: a x sin beta - b y cos beta - (a^2 - b^2) / 2 sin 2beta = 0$ and $L_3: a x sin gamma - b y cos gamma
+  - (a^2 - b^2) / 2 sin 2gamma = 0$
+
+  For these three linear lines to be concurrent, the determinant of their coefficients must be identically
+  equal to zero ($Delta = 0$) $Delta = abs(mat(a sin alpha, -b cos alpha, -(a^2 - b^2) / 2 sin 2alpha; a sin
+  beta, -b cos beta, -(a^2 - b^2) / 2 sin 2beta; a sin gamma, -b cos gamma, -(a^2 - b^2) / 2 sin 2gamma;
+  delim:"|"))$
+
+  Factoring out the shared non-zero scalar constants $a$, $-b$, and $-(a^2 - b^2)/2$ from columns 1, 2, and
+  3 transforms the condition to checking the core trigonometric determinant $D = abs(mat(sin alpha, cos
+  alpha, sin 2alpha; sin beta, cos beta, sin 2beta; sin gamma, cos gamma, sin 2gamma; delim:"|"))$
+
+  Since $beta = alpha + (2pi)/3$ and $gamma = alpha + (4pi)/3$, we apply standard trigonometric
+  sum-to-product identities to evaluate the sum of the components across each column:
+  - For column 1: $sin alpha + sin beta + sin gamma = sin alpha + 2 sin(alpha + pi) cos((2pi)/3) = sin alpha
+    + 2(-sin alpha)(-1/2) = sin alpha - sin alpha = 0$
+  - For column 2: $cos alpha + cos beta + cos gamma = cos alpha + 2 cos(alpha + pi) cos((2pi)/3) = cos alpha
+    + 2(-cos alpha)(-1/2) = cos alpha - cos alpha = 0$
+  - For column 3: $sin 2alpha + sin 2beta + sin 2gamma = sin 2alpha + 2 sin(2alpha + 2pi) cos((4pi)/3) = sin
+    2alpha + 2(sin 2alpha)(-1/2) = sin 2alpha - sin 2alpha = 0$
+
+  Performing the row operation $R_1 -> R_1 + R_2 + R_3$ replaces the first row of the determinant with $[0,
+  0, 0]$ because the sum of each column is zero. Since a determinant containing an entire row of zeros is
+  identically equal to $0$, we find $D = 0$, which ensures $Delta = 0$. This mathematically completes the
+  proof that the three normal lines are concurrent.
+//571
++ The equation of the inner ellipse is $E_1: x^2 + 4y^2 = 4$, which can be rewritten in standard form as
+  $x^2 / 4 + y^2 / 1 = 1$, identifying $a_1^2 = 4$ and $b_1^2 = 1$. The equation of the outer ellipse is
+  $E_2: x^2 + 2y^2 = 6$, which can be rewritten in standard form as $x^2 / 6 + y^2 / 3 = 1$, identifying
+  $a_2^2 = 6$ and $b_2^2 = 3$.
+
+  Let the tangents drawn to the outer ellipse $E_2$ at the intersection points $P$ and $Q$ meet at a moving
+  point $T(h, k)$.
+
+  By definition, the secant line $P Q$ is the chord of contact of tangents drawn from the external point
+  $T(h, k)$ to the outer ellipse $E_2$. The standard equation of this chord of contact is given by the
+  relation $T = 0$: $(x h) / 6 + (y k) / 3 = 1 => h x + 2k y = 6$
+
+  Rearranging this linear equation into slope-intercept form $y = m x + c$ gives $2k y = -h x + 6 => y = (-h
+  / (2k))x + 3 / k$
+
+  This isolates the line parameters as the slope $m = -h / (2k)}$ and the vertical intercept $c = 3 / k$.
+
+  We are given that this line $P Q$ is a tangent to the inner ellipse $E_1$. The standard condition for a
+  straight line $y = m x + c$ to touch an ellipse $x^2 / a^2 + y^2 / b^2 = 1$ is $c^2 = a^2 m^2 + b^2$.
+
+  Substituting our inner ellipse parameters $a_1^2 = 4, b_1^2 = 1$ along with our derived slope and
+  intercept expressions into this tangency condition yields $(3 / k)^2 = 4(-h / (2k))^2 + 1$
+
+  Expanding the squared fractions simplifies the equation to $9 / k^2 = 4(h^2 / (4k^2)) + 1 => 9 / k^2 = h^2
+  / k^2 + 1$
+
+  Multiplying the entire equation by the common denominator $k^2$ to eliminate the fractional tracks gives
+  $9 = h^2 + k^2 => h^2 + k^2 = 9$
+
+  Generalising the intersection parameters $(h, k)$ to the standard continuous variables $(x, y)$ results in
+  the locus equation $x^2 + y^2 = 9$.
+
+  The director circle of any standard ellipse $x^2 / a^2 + y^2 / b^2 = 1$ is the locus of the point of
+  intersection of its perpendicular tangents, given by the formula $x^2 + y^2 = a^2 + b^2$. For our outer
+  ellipse $E_2$, the director circle equation is $x^2 + y^2 = 6 + 3 = 9$.
+
+  Since the point of intersection $T$ lies perfectly on the director circle of the outer ellipse $E_2$, the
+  tangents drawn from to $E_2$ at points $P$ and $Q$ are guaranteed to be at right angles ($90^degree$).
+//572
++ Let the center of the ellipse be at the origin $O(0, 0)$. Let any arbitrary moving point $P$ on the
+  ellipse $x^2 / a^2 + y^2 / b^2 = 1$ be represented in standard parametric form as $P(a cos theta, b sin
+  theta)$, where $theta$ is the eccentric angle.
+
+  According to the focal property of an ellipse, the distances from a point $P$ to the two foci $F_1(a e,
+  0)$ and $F_2(-a e, 0)$ are given by the expressions $P F_1 = a - a e cos theta$ and $P F_2 = a + a e cos
+  theta$.
+
+  Taking the difference between these two focal distances yields $P F_1 - P F_2 = (a - a e cos theta) - (a +
+  a e cos theta) = -2a e cos theta$
+
+  Squaring both sides of this difference expression gives the left-hand side (LHS) of our target identity
+  $"(LHS)" = (P F_1 - P F_2)^2 = 4a^2 e^2 cos^2 theta$
+
+  Next, we evaluate the right-hand side (RHS) involving the distance $d$. The standard equation of the
+  tangent line to the ellipse at the point $P(a cos theta, b sin theta)$ is given by the replacement template:
+  $x / a cos theta + y / b sin theta = 1 => x / a cos theta + y / b sin theta - 1 = 0$
+
+  The perpendicular distance $d$ from the center $O(0, 0)$ to this tangent line is calculated using the
+  standard formula: $d = abs(0 + 0 - 1) / sqrt((cos theta / a)^2 + (sin theta / b)^2) = 1 / sqrt(cos^2 theta
+  / a^2 + sin^2 theta / b^2)$
+
+  Squaring and inverting this relation yields the expression for $1 / d^2$: $1 / d^2 = cos^2 theta / a^2 +
+  sin^2 theta / b^2$
+
+  Now we substitute this into the fractional expression on the right-hand side $b^2 / d^2 = b^2 (cos^2
+  theta / a^2 + sin^2 theta / b^2) = b^2 / a^2 cos^2 theta + sin^2 theta$
+
+  Using the fundamental identity $sin^2 theta = 1 - cos^2 theta$, we simplify the grouping $(1 - b^2 / d^2)$
+  as $1 - b^2 / d^2 = 1 - b^2 / a^2 cos^2 theta - (1 - cos^2 theta) = cos^2 theta - b^2 / a^2 cos^2 theta =
+  cos^2 theta (1 - b^2 / a^2)$
+
+  From the structural parameters of an ellipse, the semi-minor axis satisfies $b^2 = a^2(1 - e^2)$, which
+  can be rearranged to $1 - b^2 / a^2 = e^2$. Substituting this eccentricity definition back into our
+  relation simplifies it to $1 - b^2 / d^2 = e^2 cos^2 theta$
+
+  Finally, multiplying this expression by the scaling factor $4a^2$ completes the evaluation of the
+  right-hand side (RHS) $"(RHS)" = 4a^2 (1 - b^2 / d^2) = 4a^2 e^2 cos^2 theta$
+
+  Since both the left-hand side and right-hand side evaluate to the identical algebraic expression $4a^2 e^2
+  cos^2 theta$, the identity $(P F_1 - P F_2)^2 = 4a^2(1 - b^2/d^2)$ is proven.
+//573
++ Assuming the standard typo in the ellipse equation, it is written as $x^2/9 + y^2/5 = 1$, where $a^2 = 9$
+  and $b^2 = 5$.
+
+  The focal distance satisfies $c^2 = a^2 - b^2 = 9 - 5 = 4$, which gives $c = 2$. Since $f_1 > 0$ and $f_2
+  < 0$, the foci are $f_1 = 2$ and $f_2 = -2$.
+
+  The first parabola $P_1$ has its vertex at $(0,0)$ and focus at $(2,0)$, so its equation is $y^2 =
+  8x$. The equation of any tangent $T_1$ with slope $m_1$ is $y = m_1 x + 2/m_1$.
+
+  Since $T_1$ passes through $(2f_2, 0) = (-4, 0)$, substituting these coordinates gives $0 = -4m_1 +
+  2/m_1$, which simplifies to $4m_1^2 = 2$, yielding $1/m_1^2 = 2$.
+
+  The second parabola $P_2$ has its vertex at $(0,0)$ and focus at $(-2,0)$, so its equation is $y^2 =
+  -8x$. The equation of any tangent $T_2$ with slope $m_2$ is $y = m_2 x - 2/m_2$.
+
+  Since $T_2$ passes through $(f_1, 0) = (2, 0)$, substituting these coordinates gives $0 = 2m_2 - 2/m_2$,
+  which simplifies to $2m_2^2 = 2$, yielding $m_2^2 = 1$.
+
+  Adding the two calculated values results in $1/m_1^2 + m_2^2 = 2 + 1 = 3$.
+//574
++ The equation of the ellipse can be rewritten in standard form by dividing by $12$, giving $x^2/4 + y^2/3 =
+  1$, where $a^2 = 4$ and $b^2 = 3$.
+
+  The focal distance $c$ for the ellipse satisfies $c^2 = a^2 - b^2 = 4 - 3 = 1$, which gives $c = 1$. Thus,
+  the foci are at $(plus.minus 1, 0)$.
+
+  Since the hyperbola has the same foci, its focal distance is also $c = 1$, meaning $a_h^2 + b_h^2 = 1$.
+
+  The length of the transverse axis of the hyperbola is given as $2a_h = sqrt(2)$, which gives the
+  semi-transverse axis as $a_h = 1/sqrt(2)$, so $a_h^2 = 1/2$.
+
+  Using the hyperbola relation $b_h^2 = c^2 - a_h^2$, we substitute the values to find $b_h^2 = 1 - 1/2 =
+  1/2$.
+
+  Therefore, the equation of the hyperbola is $x^2/(1/2) - y^2/(1/2) = 1$, which simplifies to $x^2 - y^2 =
+  1/2$.
+//575
++ The equation of the parabola is $y^2 = 12x$, so $a = 3$. Any tangent to this parabola with slope $m$ can
+  be written as $y = m x + 3/m$, or $m^2 x - m y + 3 = 0$.
+
+  The equation of the hyperbola can be written in standard form by dividing by $8$, giving $x^2/1 - y^2/8 =
+  1$, where $a_h^2 = 1$ and $b_h^2 = 8$.
+
+  The condition of tangency for a line $y = m x + c$ to a hyperbola requires $c^2 = a_h^2 m^2 -
+  b_h^2$. Substituting our line parameters gives $(3/m)^2 = 1(m^2) - 8$, which simplifies to $9/m^2 = m^2 -
+  8$.
+
+  Multiplying by $m^2$ yields the quartic form $m^4 - 8m^2 - 9 = 0$, which factors as $(m^2 - 9)(m^2 + 1) =
+  0$, giving $m = plus.minus 3$.
+
+  Substituting $m = 3$ and $m = -3$ back into the tangent equation gives the two common tangents as $y = 3x
+  + 1$ and $y = -3x - 1$. Intersecting these two lines gives their point of intersection $P$ as $(-1/3, 0)$.
+
+  The focal distance of the hyperbola satisfies $c_h^2 = a_h^2 + b_h^2 = 1 + 8 = 9$, which gives $c_h =
+  3$. Since $S$ lies on the positive x-axis, the foci are $S(3, 0)$ and $S'(-3, 0)$.
+
+  Let the point $P(-1/3, 0)$ divide the line segment $S S'$ internally in the ratio $k : 1$. By the section
+  formula for the x-coordinate, we have $-1/3 = (k(-3) + 1(3)) / (k + 1)$.
+
+  Cross-multiplying to clear the denominator yields $-(k + 1) = 3(-3k + 3)$, which expands to $-k - 1 = -9k
+  + 9$.
+
+  Rearranging the terms to isolate $k$ gives $8k = 10$, which solves to $k = 5/4$.
+
+  Therefore, the point $P$ divides the focal segment $S S'$ internally in the ratio $5 : 4$.
+//576
++ The equation of the hyperbola can be written in standard form by dividing by $144$, giving $x^2/9 - y^2/16
+  = 1$, where $a^2 = 9$ and $b^2 = 16$.
+
+  The semi-transverse axis length is $a = 3$, and its eccentricity $e$ is given by the formula $e = sqrt(1 +
+  b^2/a^2) = sqrt(1 + 16/9) = sqrt(25/9) = 5/3$.
+
+  The given directrix is $5x + 9 = 0$, which can be rewritten as $x = -9/5$.
+
+  Since the general equation for the directrices of a standard hyperbola is $x = plus.minus a/e$,
+  substituting $a = 3$ and $e = 5/3$ gives $a/e = 3 / (5/3) = 9/5$. This confirms that $x = -9/5$ is the
+  negative directrix of the hyperbola.
+
+  The focus corresponding to a given directrix lies on the same side of the origin along the transverse
+  axis. The general coordinates for the foci are $(plus.minus a e, 0)$.
+
+  Computing the focal distance gives $a e = 3(5/3) = 5$.
+
+  Therefore, the focus corresponding to the negative directrix $x = -9/5$ is $(-5, 0)$.
+//577
++ The vertices of the hyperbola are at $(\pm 2, 0)$, which implies that the center is at the origin $(0, 0)$
+  and the semi-transverse axis length is $a = 2$.
+
+  The given focus is at $(-3, 0)$, which indicates that the hyperbola is horizontal, and the distance from
+  the center to the focus is $c = a e = 3$.
+
+  The relationship between the axes of a hyperbola is defined by the formula $c^2 = a^2 + b^2$, which can be
+  rearranged to find the square of the semi-conjugate axis as $b^2 = c^2 - a^2$.
+
+  Substituting the values of $a$ and $c$ gives $b^2 = 3^2 - 2^2 = 9 - 4 = 5$.
+
+  The standard equation of a horizontal hyperbola centered at the origin is written as $x^2/a^2 - y^2/b^2 =
+  1$.
+
+  Substituting $a^2 = 4$ and $b^2 = 5$ directly produces the required equation of the hyperbola as $x^2/4 -
+  y^2/5 = 1$.
+//578
++ The length of the conjugate axis is given as $2b = 5$, which gives the semi-conjugate axis as $b = 5/2$.
+
+  The distance between the foci is given as $2c = 13$, which gives the focal distance from the center as $c
+  = 13/2$.
+
+  The relationship between the axes of a hyperbola is defined by the formula $c^2 = a^2 + b^2$, which can be
+  rearranged to find the square of the semi-transverse axis as $a^2 = c^2 - b^2$.
+
+  Substituting the values of $b$ and $c$ gives $a^2 = (13/2)^2 - (5/2)^2 = 169/4 - 25/4 = 144/4 = 36$, which
+  yields $a = 6$.
+
+  The eccentricity $e$ of a hyperbola is defined by the ratio of the focal distance to the semi-transverse
+  axis length, given by $e = c/a$.
+
+  Substituting the values of $a$ and $c$ results in $e = (13/2) / 6 = 13/12$.
+//579
++ The nature of the curve and its eccentricity depend on the value of the parameter $r$:
+
+  Case 1: When $r > 1$. If $r > 1$, then $1 - r < 0$, which can be rewritten as $-(r - 1)$ where $r - 1 >
+  0$. Substituting this back transforms the relation into $x^2/(r - 1) + y^2/(1 + r) = 1$.
+
+  Since both denominators are positive and $1 + r > r - 1$, this equation represents a *vertical ellipse*
+  with $a^2 = r - 1$ and $b^2 = 1 + r$.
+
+  The eccentricity $e$ is given by $e = sqrt(1 - a^2/b^2) = sqrt(1 - (r - 1)/(1 + r)) = sqrt(2/(r + 1))$.
+
+  Case 2: When $0 < r < 1$. If $0 < r < 1$, both denominators $(1 + r)$ and $(1 - r)$ are strictly
+  positive. The equation matches the standard form of a *vertical hyperbola* given by $y^2/(1 + r) - x^2/(1
+  - r) = 1$.
+
+  The eccentricity $e$ is given by $e = sqrt(1 + (1 - r)/(1 + r)) = sqrt(((1 + r) + (1 - r))/(1 + r)) =
+  sqrt(2/(r + 1))$.
+
+  In both cases, the eccentricity shares the identical simplified expression $e = sqrt(2/(r + 1))$.
+//580
++ The hyperbola has its transverse axis of length $2a = 4$ along the x-axis, which gives the semi-transverse
+  axis length as $a = 2$, or $a^2 = 4$.
+
+  Since the center is at the origin $(0, 0)$ and the transverse axis is horizontal, its equation can be
+  written in standard form as $x^2/4 - y^2/b^2 = 1$.
+
+  The hyperbola passes through the point $(4, 2)$. Substituting these coordinates into the equation yields
+  $4^2/4 - 2^2/b^2 = 1$.
+
+  Simplifying the terms gives $4 - 4/b^2 = 1$, which reduces to $4/b^2 = 3$, or $b^2 = 4/3$.
+
+  The eccentricity $e$ of a horizontal hyperbola is given by the formula $e = sqrt(1 + b^2/a^2)$.
+
+  Substituting the values $a^2 = 4$ and $b^2 = 4/3$ yields $e = sqrt(1 + (4/3)/4) = sqrt(1 + 1/3) =
+  sqrt(4/3) = 2/sqrt(3)$.
+
+  Thus, the eccentricity of the hyperbola is $2/sqrt(3)$.
+//581
++ The given hyperbola is $x^2/(cos^2 theta) - y^2/(sin^2 theta) = 1$, where $a^2 = cos^2 theta$ and $b^2 =
+  sin^2 theta$.
+
+  The eccentricity $e$ of a standard horizontal hyperbola is given by the formula $e = sqrt(1 + b^2/a^2)$.
+
+  Substituting the values of $a^2$ and $b^2$ gives $e = sqrt(1 + (sin^2 theta)/(cos^2 theta)) = sqrt(1 +
+  tan^2 theta) = sec theta$.
+
+  Since $0 < theta < pi/2$, we have $sec theta > 0$. We are given that the eccentricity is greater than $2$,
+  so $sec theta > 2$, which implies $cos theta  0$. We evaluate its values at the boundaries of the interval
+  $0 < x < 1/2$:
+  - As $x -> 1/2^-$, $L(x) -> 2(2 - 1/2) = 3$.
+  - As $x -> 0^+$, $L(x) -> infinity$.
+
+  Therefore, the range of the length of the latus rectum is $(3, infinity)$, meaning the length is always
+  strictly greater than $3$.
+//582
++ Let the equation of the hyperbola be $x^2/a^2 - y^2/b^2 = 1$ with semi-transverse axis $a$, semi-conjugate
+  axis $b$, and focal distance $c = a e$, where $e$ is the eccentricity.
+
+  The length of the latus rectum is given as $8$, which satisfies the formula $(2b^2)/a = 8$, simplifying to
+  $b^2 = 4a$.
+
+  The length of the conjugate axis is $2b$, and the distance between the foci is $2c$. We are given that the
+  conjugate axis is equal to half of the distance between its foci, so $2b = 1/2 (2c)$, which simplifies to
+  $2b = c$.
+
+  Squaring this relation gives $4b^2 = c^2$.
+
+  Using the fundamental hyperbola identity $c^2 = a^2 + b^2$, we substitute $c^2$ into our relation to get
+  $4b^2 = a^2 + b^2$, which simplifies to $3b^2 = a^2$.
+
+  Substituting the first relation $b^2 = 4a$ into $3b^2 = a^2$ gives $3(4a) = a^2$, which yields $12a =
+  a^2$. Since $a != 0$, we find the semi-transverse axis length is $a = 12$.
+
+  Using $b^2 = 4a$, we find the square of the semi-conjugate axis is $b^2 = 4(12) = 48$.
+
+  The eccentricity $e$ of the hyperbola is computed using the standard formula $e = sqrt(1 + b^2/a^2)$.
+
+  Substituting $a^2 = 144$ and $b^2 = 48$ gives $e = sqrt(1 + 48/144) = sqrt(1 + 1/3) = sqrt(4/3) =
+  2/sqrt(3)$.
+
+  Thus, the eccentricity of the hyperbola is $2/sqrt(3)$.
+//583
++ The equation of the hyperbola can be rearranged into standard form by completing the square for the $x$
+  and $y$ terms $(x^2 - 2sqrt(2)x) - 2(y^2 + 2sqrt(2)y) = 6$
+
+  Adding and subtracting the balancing constants gives $(x - sqrt(2))^2 - 2 - 2(y + sqrt(2))^2 + 4 = 6$
+
+  Dividing both sides by $4$ produces the standard equation ((x - sqrt(2))^2)/4 - ((y + sqrt(2))^2)/2 = 1
+
+  This represents a horizontal hyperbola centered at $(sqrt(2), -sqrt(2))$ where $a^2 = 4$ ($a = 2$) and
+  $b^2 = 2$ ($b = sqrt(2)$). The focal distance from the center is $c = sqrt(a^2 + b^2) = sqrt(4 + 2) =
+  sqrt(6)$.
+
+  For any branch of the hyperbola, the vertex $A$, the focus $C$ on the same side, and an endpoint of the
+  latus rectum $B$ have the following geometric configuration:
+  - The line segment $A C$ lies along the horizontal transverse axis, serving as the base of $triangle A B
+    C$. Its length is $A C = c - a = sqrt(6) - 2$.
+  - The line segment $B C$ is part of the vertical latus rectum, which is perpendicular to the transverse
+    axis at $C$, serving as the height of $triangle A B C$. Its length is half the latus rectum, given by $B C
+    = b^2 / a = 2 / 2 = 1$.
+
+  The area of the right-angled triangle $triangle A B C$ is given by the formula $1/2 dot text("base") dot
+  text("height") = 1/2 (sqrt(6) - 2)(1)$.
+
+  Therefore, the area of $triangle A B C$ is $(sqrt(6) - 2)/2$ square units.
+//584
++ Write $A(a, a^2)$ and $B(b, b^2)$ with $a != b$ on $y = x^2$, and $C(1, 1)$ with $C != A, B$.
+
+  The line $A B$ has slope $(b^2 - a^2)/(b - a) = a + b$, so its equation is $y - a^2 = (a + b)(x -
+  a)$, i.e. $y = (a + b)x - a b$. Since $A B$ passes through the focus $F(0, 1/4)$, we get $-a b =
+  1/4$, i.e. $a b = -1/4$.
+
+  Let the orthocenter be $H(x, y)$. The altitude from $C$ is perpendicular to $A B$, and the altitude
+  from $A$ is perpendicular to $B C$:
+  $(x - 1)(b - a) + (y - 1)(b^2 - a^2) = 0$ and $(x - a)(1 - b) + (y - a^2)(1 - b^2) = 0$.
+
+  Solving these two linear equations gives $H_y = -a b - a - b - 1$ and $H_x = a^2b + a^2 + a b^2 +
+  2a b + 2a + b^2 + 2b + 1$.
+
+  Put $s = a + b$ and $p = a b = -1/4$. Then $a^2 + b^2 = s^2 - 2p$, so $H_y = -(s + p) - 1 = -s -
+  3/4$ and $H_x = s^2 + p s + 2s + 1 = s^2 + 7s/4 + 1$.
+
+  Hence $s = -(y + 3/4)$, and eliminating $s$ gives $x = y^2 - y/4 + 1/4$, i.e. $(y - 1/8)^2 = x -
+  15/64$. This is a parabola with vertex $(15/64, 1/8)$ and axis $y = 1/8$ (a horizontal line
+  opening in the direction of positive $x$).
+
+  The triangle is degenerate exactly when $C$ lies on $A B$, i.e. $1 = s - p = s + 1/4$, so $s =
+  3/4$. This happens exactly when ${a, b} = {1, -1/4}$, i.e. one of $A, B$ equals $C$. The
+  corresponding formal point is $H = (23/8, -3/2)$. Since $s^2 - 4p = s^2 + 1 > 0$, every other real
+  value of $s$ occurs for real $a, b$ with $a b = -1/4$.
+
+  Therefore, the locus of $H$ is the parabola $(y - 1/8)^2 = x - 15/64$ with the single point
+  $(23/8, -3/2)$ removed.
+//585
++ The equation of the given ellipse is $3x^2 + 4y^2 = 12$. Dividing by $12$ converts it to standard form as
+  $x^2 / 4 + y^2 / 3 = 1$, identifying the squared semi-axes as $a_E^2 = 4$ and $b_E^2 = 3$.
+
+  The eccentricity $e_E$ of the ellipse is found using the structural relation $b_E^2 = a_E^2 (1 - e_E^2)$,
+  which gives $3 = 4(1 - e_E^2) => e_E^2 = 1/4 => e_E = 1/2$. The coordinates of its foci are $(plus.minus
+  a_E e_E, 0) = (plus.minus 2(1/2), 0) = (plus.minus 1, 0)$.
+
+  Since the required hyperbola is confocal with this ellipse, its foci are also located at $(plus.minus 1,
+  0)$. This gives the focal parameter relation for the hyperbola as $a_H e_H = 1$.
+
+  We are given that the length of the transverse axis of the hyperbola is $2sin theta$, which gives $2a_H =
+  2sin theta => a_H = sin theta$. Squaring this value gives $a_H^2 = sin^2 theta$.
+
+  Substituting $a_H = sin theta$ into the focal relation isolates its eccentricity component as $(sin theta)
+  e_H = 1 => e_H = 1 / sin theta = csc theta$.
+
+  The semi-minor axis squared parameter $b_H^2$ for a hyperbola satisfies the standard formula $b_H^2 =
+  a_H^2 (e_H^2 - 1)$. Substituting our derived values transforms the expression into $b_H^2 = sin^2 theta
+  (csc^2 theta - 1) = sin^2 theta dot cos^2 theta / sin^2 theta = cos^2 theta$.
+
+  Substituting $a_H^2 = sin^2 theta$ and $b_H^2 = cos^2 theta$ into the standard template results in the
+  final equation of the hyperbola $x^2 / sin^2 theta - y^2 / cos^2 theta = 1$
+
+  Using primary trigonometric identities, this can also be compactly written as $x^2 csc^2 theta - y^2 sec^2
+  theta = 1$.
+//586
++ The equation of the given ellipse is $x^2 / 16 + y^2 / 25 = 1$. Since the vertical denominator is greater
+  than the horizontal denominator ($25 > 16$), this is a vertical ellipse with its major axis along the
+  y-axis, identifying the parameters as $a^2 = 16$ and $b^2 = 25 => b = 5$.
+
+  The eccentricity $e_1$ of this vertical ellipse is calculated using the standard structural relation $a^2
+  = b^2(1 - e_1^2)$ i.e. $16 = 25(1 - e_1^2) => 1 - e_1^2 = 16/25 => e_1^2 = 9/25 => e_1 = 3/5$
+
+  The coordinates of the foci of this vertical ellipse are given by $(0, plus.minus b e_1) = (0, plus.minus
+  5 dot (3/5)) = (0, plus.minus 3)$.
+
+  We are given that the hyperbola passes directly through these foci $(0, plus.minus 3)$. Since these points
+  lie on the vertical y-axis, the hyperbola must also be a vertical hyperbola described by the standard
+  template $y^2 / B^2 - x^2 / A^2 = 1$
+
+  Substituting the vertex position $(0, plus.minus 3)$ directly into this template isolates the vertical
+  semi-axis parameter as $B = 3 => B^2 = 9$.
+
+  We are given the eccentricity product relationship $e_1 dot e_2 = 1$. Substituting our value $e_1 = 3/5$
+  determines the eccentricity of the hyperbola as $(3/5) dot e_2 = 1 => e_2 = 5/3$
+
+  For a vertical hyperbola, the eccentricity relationship satisfies the standard formula $A^2 = B^2(e_2^2 -
+  1)$. Substituting our derived values $B^2 = 9$ and $e_2 = 5/3$ into this formula yields $A^2 = 9((5/3)^2 -
+  1) = 9(25/9 - 1) = 9(16/9) = 16$
+
+  Substituting $B^2 = 9$ and $A^2 = 16$ back into our vertical hyperbola template results in the final
+  equation $y^2 / 9 - x^2 / 16 = 1$
+
+  Multiplying by the common multiple $144$ gives the alternative polynomial layout $16y^2 - 9x^2 = 144$.
+//587
++ The equation of the given hyperbola is $x^2/(cos^2 alpha) - y^2/(sin^2 alpha) = 1$. Comparing this with
+  the standard horizontal hyperbola template $x^2 / a^2 - y^2 / b^2 = 1$ identifies the squared semi-axis
+  parameters as $a^2 = cos^2 alpha => a = cos alpha$ and $b^2 = sin^2 alpha => b = sin alpha$
+
+  Let $e$ be the eccentricity of this hyperbola. The standard structural parameter relationship for a
+  horizontal hyperbola is given by the formula $b^2 = a^2 (e^2 - 1)$.
+
+  Substituting our trigonometric definitions for $a^2$ and $b^2$ into this formula yields $sin^2 alpha =
+  cos^2 alpha (e^2 - 1)$
+
+  To isolate the variable term, we divide both sides of the equation by $cos^2 alpha$ i.e. $(sin^2 alpha)/
+  (cos^2 alpha) = e^2 - 1 => tan^2 alpha = e^2 - 1$
+
+  Rearranging the terms to isolate the squared eccentricity gives $e^2 = 1 + tan^2 alpha$
+
+  Using the fundamental Pythagorean trigonometric identity $1 + tan^2 alpha = sec^2 alpha$, we simplify the
+  expression to $e^2 = sec^2 alpha => e = sec alpha$
+
+  The coordinates of the foci for a standard horizontal hyperbola are given by the expressions $(plus.minus
+  a e, 0)$. The abscissae (horizontal coordinates) of these foci are $x = plus.minus a e$.
+
+  Substituting our derived expressions for the semi-major axis $a = cos alpha$ and the eccentricity $e = sec
+  alpha$ into this coordinate formula yields $x = plus.minus (cos alpha) dot (sec alpha)$
+
+  Since the secant function is the exact reciprocal of the cosine function ($sec alpha = 1 /(cos alpha)$),
+  their product cancels out identically $x = plus.minus (cos alpha) dot (1 /(cos alpha)) => x = plus.minus
+  1$
+
+  Therefore, the abscissae of the foci are fixed at the invariant boundary locations $x = 1$ and $x =
+  -1$. Since these values contain no trigonometric components, they remain completely constant regardless of
+  any change in the parameter $alpha$, completing the proof.
+//588
++ The given equation is $x^2 / (1 - r) - y^2 / (1 + r) = 1$, and we are given the constraint $|r| < 1$.
+
+  The condition $|r| < 1$ translates directly to the continuous interval $-1 < r < 1$. We evaluate the
+  algebraic signs of both denominators within this boundaries:
+  - For the first denominator: since $r < 1$, we subtract $r$ from $1$ to find $1 - r > 0$, which is
+    strictly positive.
+  - For the second denominator: since $r > -1$, we add $r$ to $1$ to find $1 + r > 0$, which is also
+    strictly positive.
+
+  Let us introduce two positive real parameters defined as $a^2 = 1 - r$ and $b^2 = 1 + r$. Substituting
+  these parameter representations back into the given template transforms the relation into the standard
+  layout $x^2 / a^2 - y^2 / b^2 = 1$
+
+  By definition, any second-degree conic section matching this template where both $a^2$ and $b^2$ are
+  positive real numbers signifies a horizontal hyperbola.
+//589
++ Let the equation of the variable straight line with slope $4$ be $y = 4x + c$, where $c$ is a variable
+  parameter.
+
+  To find the intersection points with the hyperbola $x y = 1$, we substitute the linear expression for $y$
+  into the hyperbola equation, giving $x(4x + c) = 1$, which simplifies to the quadratic intersection
+  equation $4x^2 + c x - 1 = 0$.
+
+  Let the two distinct intersection points be $A(x_1, y_1)$ and $B(x_2, y_2)$, where $x_1$ and $x_2$ are the
+  roots of the quadratic equation. According to Vieta's formulas, we have:
+  - $x_1 + x_2 = -c / 4$
+  - $x_1 dot x_2 = -1 / 4$
+
+  Let $P(h, k)$ be the moving point that divides the segment $A B$ internally in the ratio $1:2$. Applying
+  the standard internal section formula yields $h = (2x_1 + x_2) / 3$ and $k = (2y_1 + y_2) / 3$
+
+  Since both endpoints lie on the line $y = 4x + c$, we substitute $y_1 = 4x_1 + c$ and $y_2 = 4x_2 + c$
+  into the vertical coordinate relation, giving $k = (2(4x_1 + c) + (4x_2 + c)) / 3 = (4(2x_1 + x_2) + 3c) /
+  3 = 4h + c$
+
+  This simplifies directly to isolate the parameter as $c = k - 4h$.
+
+  Now we solve for the individual roots $x_1$ and $x_2$ using our linear system $2x_1 + x_2 = 3h$ and $x_1 +
+  x_2 = -c / 4$
+
+  Subtracting the second relation from the first isolates the first root as $x_1 = 3h + c / 4$. Substituting
+  this back gives the second root as $x_2 = -3h - c / 2$.
+
+  To fully eliminate the parameters, we substitute these root expressions into the product identity $x_1 dot
+  x_2 = -1 / 4$ i.e. $(3h + c / 4)(-3h - c / 2) = -1 / 4 => (3h + c / 4)(3h + c / 2) = 1 / 4$
+
+  Expanding the fractional product gives $((12h + c) / 4) dot ((6h + c) / 2) = 1 / 4 => (12h + c)(6h + c) =
+  2 => 72h^2 + 18h c + c^2 = 2$
+
+  Finally, we substitute our earlier parameter expression $c = k - 4h$ into this relation $72h^2 + 18h(k -
+  4h) + (k - 4h)^2 = 2 => 72h^2 + 18h k - 72h^2 + k^2 - 8h k + 16h^2 = 2 => 16h^2 + 10h k + k^2 = 2$
+
+  Generalising the coordinates $(h, k)$ to the standard continuous variables $(x, y)$ results in the final
+  locus equation $16x^2 + 10x y + y^2 = 2$.
+//590
++ The vertices of the hyperbola are at $(plus.minus 6, 0)$, which identifies it as a horizontal hyperbola
+  centered at the origin with the semi-transverse axis length $a = 6 => a^2 = 36$. The general equation of
+  this hyperbola is $x^2 / 36 - y^2 / b^2 = 1$.
+
+  We are given that the hyperbola passes through the point $P(10, 16)$. Substituting these coordinates into
+  the curve relation allows us to calculate the semi-conjugate axis squared parameter $b^2$ i.e. $10^2 / 36
+  - 16^2 / b^2 = 1 => 100 / 36 - 256 / b^2 = 1 => 25 / 9 - 1 = 256 / b^2 => 16 / 9 = 256 / b^2$
+
+  Isolating the variable gives $b^2 = (256 dot 9) / 16 = 16 dot 9 = 144$
+
+  The standard point-form equation of the normal line to a horizontal hyperbola $x^2 / a^2 - y^2 / b^2 = 1$
+  at a specific point $(x_1, y_1)$ is given by the formula $(a^2 x) / x_1 + (b^2 y) / y_1 = a^2 + b^2$
+
+  Substituting our derived parameters $a^2 = 36$, $b^2 = 144$, and the point coordinates $x_1 = 10$, $y_1 =
+  16$ into this normal formula yields $(36) / 10 + (144y) / 16 = 36 + 144$
+
+  Simplifying the individual fraction components and constant evaluations transforms the expression directly
+  to $(18x) / 5 + 9y = 180 => 2x + 5y = 100$.
+//591
++ The equation of the first parabola is $y^2 = 16x$, which identifies the focal parameter as $a = 4$. Any
+  tangent to this parabola with slope $m$ can be written as $y = m x + 4 / m$.
+
+  This same line also serves as a tangent to the rectangular hyperbola $x y = -4$. Substituting the linear
+  template directly into the hyperbola equation yields $x(m x + 4 / m) = -4 => m x^2 + 4 / m x + 4 = 0$
+
+  For the line to touch the curve as a tangent, this quadratic intersection equation must produce equal real
+  roots, requiring its discriminant to equal zero ($D = 0$) i.e. $(4 / m)^2 - 4(m)(4) = 0 => 16 / m^2 - 16m
+  = 0$
+
+  Dividing by $16$ and multiplying by $m^2$ to eliminate the fractional denominator isolates the cubic
+  relation $1 - m^3 = 0 => m^3 = 1 => m = 1$
+
+  Substituting the derived slope $m = 1$ back into our original tangent template results in the final linear
+  equation $y = 1x + 4 / 1 => y = x + 4$.
+//592
++ The equation of the given hyperbola is $x^2 / 24 - y^2 / 18 = 1$. Comparing this with the standard
+  template $x^2 / a^2 - y^2 / b^2 = 1$ identifies the squared semi-axes parameters as $a^2 = 24$ and $b^2 =
+  18$. The given straight line is $y = m x + 7sqrt(3)$, which identifies the vertical intercept as $c =
+  7sqrt(3) => c^2 = 147$.
+
+  The standard condition for a straight line $y = m x + c$ to touch a horizontal hyperbola as a normal line
+  is given by the algebraic relationship $c^2 = (m^2 (a^2 + b^2)^2) / (a^2 - b^2 m^2)$
+
+  Substituting the derived hyperbola parameters $a^2 = 24$, $b^2 = 18$, and the sum component $a^2 + b^2 =
+  24 + 18 = 42$ into this tangency condition yields  $147 = (m^2 (42)^2) / (24 - 18 m^2) => 147 = (1764 m^2)
+  / (24 - 18 m^2) => m = plus.minus 2 / sqrt(5)$
+//593
++ The equation of a standard horizontal hyperbola is $x^2 / a^2 - y^2 / b^2 = 1$. We are given that its
+  eccentricity is $e = 2$.
+
+  Using the standard relationship between the semi-axes of a hyperbola, we have $b^2 = a^2 (e^2 -
+  1)$. Substituting $e = 2$ gives $b^2 = a^2 (2^2 - 1) = 3a^2$
+
+  Substituting $b^2 = 3a^2$ into the hyperbola template simplifies the equation to $x^2 / a^2 - y^2 / (3a^2)
+  = 1 => 3x^2 - y^2 = 3a^2$
+
+  Since the hyperbola passes through the point $(4, 6)$, its coordinates must satisfy this relation $3(4^2)
+  - 6^2 = 3a^2 => 48 - 36 = 3a^2 => 12 = 3a^2 => a^2 = 4$
+
+  Since $a^2 = 4$, we find $b^2 = 3(4) = 12$. The equation of the hyperbola is $x^2 / 4 - y^2 / 12 = 1$.
+
+  The standard point-form equation of the tangent line to a hyperbola at any given point $(x_1, y_1)$ is
+  found using the replacement formula $(x x_1) / a^2 - (y y_1) / b^2 = 1$. Substituting our parameters along
+  with the point coordinates $(4, 6)$ yields $(x dot 4) / 4 - (y dot 6) / 12 = 1$
+
+  Simplifying the individual fraction components transforms the expression directly to the final linear
+  equation $x - y / 2 = 1 => 2x - y = 2$.
+//594
++ The equation of the given hyperbola is $4x^2 - 5y^2 = 20$. Dividing the entire equation by $20$ transforms
+  it into the standard form $x^2 / 5 - y^2 / 4 = 1$
+
+  This identifies the semi-axes squared parameters as $a^2 = 5$ and $b^2 = 4$.
+
+  The target tangent line must be completely parallel to the line $x - y = 2$. Rearranging this given line
+  into slope-intercept form gives $y = x - 2$, which isolates its slope as $m = 1$. Since parallel lines
+  share the exact same slope, the tangent line must also have a slope of $m = 1$.
+
+  The standard condition for a line $y = m x + c$ to touch a horizontal hyperbola $x^2 / a^2 - y^2 / b^2 =
+  1$ as a tangent is given by the algebraic relation $c^2 = a^2 m^2 - b^2$
+
+  Substituting our derived parameters $a^2 = 5$, $b^2 = 4$, and $m = 1$ into this condition yields $c^2 =
+  5(1^2) - 4 = 5 - 4 = 1 => c = plus.minus 1$
+
+  Substituting the slope $m = 1$ and the intercept components $c = plus.minus 1$ back into the linear
+  slope-intercept template results in the two tangent equations $y = x plus.minus 1$
+
+  Rearranging the terms into general form gives the final linear expressions $x - y + 1 = 0$ and $x - y - 1
+  = 0$.
+//595
++ The hyperbola is $x^2 / 9 - y^2 / 36 = 1$. The chord of contact $P Q$ from the external point $R(0, 3)$ is
+  found using $T = 0$: $(x dot 0) / 9 - (y dot 3) / 36 = 1 => y = -12$
+
+  Substituting $y = -12$ into the hyperbola equation isolates the horizontal components $x^2 / 9 - 144 / 36
+  = 1 => x^2 / 9 = 5 => x = plus.minus 3sqrt(5)$
+
+  This yields the endpoints $P(-3sqrt(5), -12)$ and $Q(3sqrt(5), -12)$.
+  - The horizontal length of the base is $"Base" = 3sqrt(5) - (-3sqrt(5)) = 6sqrt(5)$.
+  - The vertical distance from vertex $R(0, 3)$ to the base line $y = -12$ gives $"Height" = 3 - (-12) =
+    15$.
+
+  The total area evaluates to $"Area" = 1/2 dot 6sqrt(5) dot 15 = 45sqrt(5)$.
+//596
++ Let the standard equation of the horizontal hyperbola be $x^2 / a^2 - y^2 / b^2 = 1$.
+
+  The foci are located at $(plus.minus a e, 0) = (plus.minus 2, 0)$, which gives the focal track relation
+  $a^2 e^2 = 4$. Using the structural formula for a hyperbola, we have $b^2 = a^2 e^2 - a^2 = 4 -
+  a^2$. Substituting this into our template yields $x^2 / a^2 - y^2 / (4 - a^2) = 1$
+
+  Since the hyperbola passes through the point $P(sqrt(2), sqrt(3))$, its coordinates must satisfy the
+  equation $2 / a^2 - 3 / (4 - a^2) = 1$
+
+  Clearing the fractional denominators by cross-multiplying gives $2(4 - a^2) - 3a^2 = a^2 (4 - a^2) => 8 -
+  5a^2 = 4a^2 - a^4 => a^4 - 9a^2 + 8 = 0$
+
+  Factoring this quadratic equation in terms of $a^2$ yields $(a^2 - 1)(a^2 - 8) = 0$. Since $b^2 = 4 - a^2$
+  must remain strictly positive for a real conjugate axis, $a^2$ must be less than $4$. Therefore, we select
+  $a^2 = 1$, which gives $b^2 = 4 - 1 = 3$. The resulting hyperbola equation is $x^2 / 1 - y^2 / 3 = 1$.
+
+  The standard point-form equation of the tangent line to the hyperbola at $P(sqrt(2), sqrt(3))$ is found
+  using the replacement formula $T = 0$ i.e. $(x dot sqrt(2)) / 1 - (y dot sqrt(3)) / 3 = 1 => sqrt(2)x - y /
+  sqrt(3) = 1$
+
+  Multiplying the entire equation by $sqrt(3)$ to eliminate the fractional component results in the final
+  linear equation $sqrt(6)x - y = sqrt(3)$.
+//597
++ The equation of the given horizontal hyperbola is $x^2 / a^2 - y^2 / b^2 = 1$. The standard point-form
+  equation of the normal line to a horizontal hyperbola at any given point $(x_1, y_1)$ on its curve is
+  $(a^2 x) / x_1 + (b^2 y) / y_1 = a^2 + b^2$
+
+  We are given that the normal is drawn at the point $P(6, 3)$. Substituting these coordinates into the
+  normal line template yields $(a^2 x) / 6 + (b^2 y) / 3 = a^2 + b^2$
+
+  We are given that this normal line intersects the x-axis at the point $(9, 0)$. Substituting $x = 9$ and
+  $y = 0$ into our normal equation gives $(a^2 (9)) / 6 + 0 = a^2 + b^2 => 3/2 a^2 = a^2 + b^2$
+
+  Subtracting $a^2$ from both sides isolates the relationship between the semi-axes squared parameters $1/2
+  a^2 = b^2 => a^2 = 2b^2$
+
+  The standard structural definition for the eccentricity $e$ of a horizontal hyperbola is given by the
+  formula $b^2 = a^2(e^2 - 1)$.
+
+  Substituting our derived parameter relation $b^2 = 1/2 a^2$ into this eccentricity formula transforms the
+  expression into $1/2 a^2 = a^2(e^2 - 1)$
+
+  Since $a^2$ represents a non-zero length parameter, we divide both sides of the equation by $a^2$ to clear
+  the variable $1/2 = e^2 - 1 => e^2 = 1 + 1/2 => e^2 = 3/2 => e = sqrt(3/2)$.
+//598
++ The equation of the given hyperbola is $x^2 - 2y^2 = 4$. Dividing the entire equation by $4$ converts it
+  into the standard form $x^2 / 4 - y^2 / 2 = 1$, identifying the semi-axes squared parameters as $a^2 = 4$
+  and $b^2 = 2$.
+
+  The given tangent line equation is $2x + sqrt(6)y = 2$. To compare this with standard templates, we
+  rearrange it to isolate the constant term on the right-hand side as $2x + sqrt(6)y = 2 => x + (sqrt(6) /
+  2)y = 1$
+
+  Let the required point of contact on the hyperbola be $P(x_1, y_1)$. The standard equation of the tangent
+  line to the hyperbola at this specific point is found using the replacement formula $T = 0$ i.e. $(x x_) /
+  4 - (y y_1) / 2 = 1 => (x_1 / 4)x - (y_1 / 2)y = 1$
+
+  Since both linear equations represent the exact same straight line, their corresponding variable
+  coefficients must be perfectly equal. Comparing the matching components yields two independent tracks
+  - For the $x$-coefficient: $x_1 / 4 = 1 => x_1 = 4$
+  - For the $y$-coefficient: $-y_1 / 2 = sqrt(6) / 2 => y_1 = -sqrt(6)$
+
+  Therefore, the exact coordinates for the point of contact are $(4, -sqrt(6))$. We can verify that this
+  point lies perfectly on the hyperbola since $4^2 - 2(-sqrt(6))^2 = 16 - 2(6) = 16 - 12 = 4$.
+//599
++ The equation of a normal line to the hyperbola at a parameter angle $alpha$ is $a x sin alpha + b y = (a^2
+  + b^2) tan alpha$. Let $C = a^2 + b^2$.
+
+  The normal line equations passing through $(h, k)$ for points $P(theta)$ and $Q(phi = pi/2 - theta)$ are:
+  $a h sin theta + b k = C tan theta$ -- (1)
+  $a h cos theta + b k = C cot theta$ -- (2)
+
+  Subtracting equation (2) from equation (1) eliminates the variable component $b k$ gives $a h (sin theta -
+  cos theta) = C (tan theta - cot theta) = C (sin^2 theta - cos^2 theta) / (sin theta cos theta)$
+
+  Dividing by the shared factor $(sin theta - cos theta)$ isolates the horizontal coordinate $a h = C (sin
+  theta + cos theta) / (sin theta cos theta) => h = (a^2 + b^2) /(a (sec theta + csc theta))$
+
+  Substituting this expression for $a h$ back into equation (1) isolates the vertical coordinate $b k = C
+  tan theta - C (sin theta + cos theta) /(cos theta) = -C => k = -(a^2 + b^2) / b$.
+//600
++ The normal cuts off equal intercepts on the coordinate axes, which fixes its slope at $m_n =
+  -1$. Consequently, the perpendicular tangent line must have a slope of $m_t = 1$.
+
+  Since the tangent line passes through $(1, 0)$ with a slope of $1$, its equation is $y = 1(x - 1) => x - y
+  = 1$.
+
+  Comparing this with the standard point-form tangent template $(x x_1)/a^2 - (y y_1)/b^2 = 1$ at the point
+  $P(x_1, y_1)$ yields the coordinate values $x_1 / a^2 = 1 => x_1 = a^2$ and $y_1 / b^2 = 1 => y_1 = b^2$
+
+  Substituting $P(a^2, b^2)$ into the hyperbola equation gives $a^2 - b^2 = 1 => b^2 = a^2 -
+  1$. Substituting this relation into the eccentricity formula isolates the value directly $e = sqrt(1 + b^2
+  / a^2) = sqrt(1 + (a^2 - 1) / a^2) = sqrt(2 - 1 / a^2)$
+
+  The triangle is bounded by the x-axis, the tangent line (intercepting the x-axis at $(1, 0)$), and the
+  normal line $y - b^2 = -1(x - a^2)$ (intercepting the x-axis at $(a^2 + b^2, 0)$).
+  - The horizontal base length is $"Base" = (a^2 + b^2) - 1 = (a^2 - 1) + b^2 = 2b^2$.
+  - The vertical altitude from vertex $P$ to the base line is $"Height" = b^2$.
+
+  The total area evaluates to $Delta = 1/2 dot (2b^2) dot (b^2) = b^4$.
+//601
++ The equation of the given tangent line is $2x - y + 1 = 0$, which can be rewritten in slope-intercept form
+  as $y = 2x + 1$. This isolates the slope parameter as $m = 2$ and the vertical intercept as $c = 1$.
+
+  The equation of the hyperbola is $x^2 / a^2 - y^2 / 16 = 1$, which identifies the semi-conjugate axis
+  squared parameter as $b^2 = 16$.
+
+  The standard condition for a straight line $y = m x + c$ to touch a horizontal hyperbola $x^2 / a^2 - y^2
+  / b^2 = 1$ as a tangent is given by the algebraic relation $c^2 = a^2 m^2 - b^2$
+
+  Substituting our derived parameters into this formula yields $1^2 = a^2 (2^2) - 16 => 1 = 4a^2 - 16$
+
+  Grouping the constant terms together gives $4a^2 = 17 => a^2 = 17 / 4$
+
+  Taking the square root isolates the value of the semi-axis parameter directly as $a = sqrt(17) / 2$.
+//602
++ The point $P(x_1, y_1)$ lies on the hyperbola $H: x^2 - y^2 = 1$, which gives the relation $x_1^2 - y_1^2
+= 1$. Differentiating both sides with respect to $x_1$ yields $2x_1 - 2y_1 (d y_1) / (d x_1) = 0 => (d y_1)
+/ (d x_1) = x_1 / y_1 " and " (d x_1) / (d y_1) = y_1 / x_1$
+
+  The equation of the tangent line to the hyperbola at $P(x_1, y_1)$ is $x x_1 - y y_1 = 1$. This tangent
+  cuts the x-axis ($y = 0$) at point $M$, yielding $x x_1 = 1 => x = 1 / x_1$, so $M(1 / x_1, 0)$.
+
+  The equation of the normal line to the hyperbola at $P(x_1, y_1)$ is $y - y_1 = -y_1 / x_1 (x -
+  x_1)$. Since the circle $S$ touches the hyperbola at $P$, the normal line must pass directly through its
+  center $N(x_2, 0)$. Substituting $x = x_2$ and $y = 0$ yields $-y_1 = -y_1 / x_1 (x_2 - x_1) => x_1 = x_2
+  - x_1 => x_2 = 2x_1$. Thus, the center coordinates are $N(2x_1, 0)$.
+
+  The centroid $(l, m)$ of $triangle P M N$ is calculated using the vertices $P(x_1, y_1)$, $M(1 / x_1, 0)$,
+  and $N(2x_1, 0)$: $l = (x_1 + 1 / x_1 + 2x_1) / 3 = x_1 + 1 / (3x_1)$ and $m = (y_1 + 0 + 0) / 3 = y_1 /
+  3$
+
+  Now we compute the requested total derivatives:
+  - Differentiating $l$ with respect to $x_1$:
+    $(d l) / (d x_1) = 1 - 1 / (3x_1^2)$
+
+  - Differentiating $m$ with respect to $x_1$ using the chain rule:
+    $(d m) / (d x_1) = (d m) / (d y_1) dot (d y_1) / (d x_1) = 1/3 dot x_1 / y_1 = x_1 / (3y_1)$
+
+  - Differentiating $l$ with respect to $y_1$ using the chain rule:
+    $(d l) / (d y_1) = (d l) / (d x_1) dot (d x_1) / (d y_1) = (1 - 1 / (3x_1^2)) dot y_1 / x_1 = y_1 / x_1 - y_1 / (3x_1^3)$
+
+  - Differentiating $m$ with respect to $y_1$:
+    $(d m) / (d y_1) = 1 / 3$.
+//603
++ The equation of the given hyperbola is $x^2 / 9 - y^2 / 4 = 1$, which identifies the semi-axes squared
+  parameters as $a^2 = 9$ and $b^2 = 4$. The target tangent lines must be parallel to $2x - y = 1$, which
+  has a slope of $m = 2$.
+
+  The condition for a line $y = m x + c$ to be tangent to a horizontal hyperbola is $c^2 = a^2 m^2 -
+  b^2$. Substituting our values gives $c^2 = 9(2^2) - 4 = 36 - 4 = 32 => c = plus.minus 4sqrt(2)$
+
+  The standard point-form equation of a tangent to the hyperbola at a point $P(x_1, y_1)$ is given by the
+  replacement template $(x x_1) / a^2 - (y y_1) / b^2 = 1$. Rearranging our tangent lines to match this layout
+  gives $2x - y = minus.plus 4sqrt(2) => minus.plus (2 / (4sqrt(2)))x plus.minus (1 / (4sqrt(2)))y = 1$
+
+  Comparing the variable coefficients of these two equivalent tangent expressions yields $x_1 / 9 =
+  minus.plus 2 / (4sqrt(2)) => x_1 = minus.plus 18 / (4sqrt(2)) = minus.plus 9 / (2sqrt(2))$ and $-y_1 / 4 =
+  plus.minus 1 / (4sqrt(2)) => y_1 = minus.plus 4 / (4sqrt(2)) = minus.plus 1 / sqrt(2)$
+
+  Matching the signs symmetrically isolates the two distinct points of contact on the hyperbola branches as
+  $(9 / (2sqrt(2)), 1 / sqrt(2)) " and " (-9 / (2sqrt(2)), -1 / sqrt(2))$.
+//604
++ The circle is $x^2 + y^2 - 8x = 0$ and the hyperbola is $x^2 / 9 - y^2 / 4 = 1$.
+
+  Part 1: Circle with diameter $A B$ Substituting $y^2 = 8x - x^2$ into the hyperbola equation yields $x^2 /
+  9 - (8x - x^2) / 4 = 1 => 13x^2 - 72x - 36 = 0 => (x - 6)(13x + 6) = 0$
+
+  Selecting the valid root $x = 6$ gives $y^2 = 48 - 36 = 12 => y = plus.minus 2sqrt(3)$, yielding the
+  endpoints $A(6, 2sqrt(3))$ and $B(6, -2sqrt(3))$. Applying the diametric form $(x - 6)^2 + (y^2 - 12) = 0$
+  results in the circle equation $x^2 + y^2 - 12x + 24 = 0$.
+
+  Part 2: Common tangent with positive slope. Any tangent to the hyperbola with slope $m$ is given by $m x -
+  y + sqrt(9m^2 - 4) = 0$. For it to touch the circle (center $(4, 0)$, radius $4$), the perpendicular
+  distance must equal the radius: $abs(4m + sqrt(9m^2 - 4)) / sqrt(m^2 + 1) = 4 => 64m^2(9m^2 - 4) = (20 -
+  9m^2)^2 => 495m^4 + 104m^2 - 400 = 0 => (5m^2 - 4)(99m^2 + 100) = 0$
+
+  For a real positive slope, $m^2 = 4/5 => m = 2 / sqrt(5)$. Substituting this back into the tangent
+  template and clearing fractions isolates the final line equation $2x - sqrt(5)y + 4 = 0$.
+//605
++ The equation of the directrix of the horizontal hyperbola $x^2/a^2 - y^2/b^2 = 1$ intersecting the
+  positive x-axis is $x = a/e$. Thus, the point of intersection with the x-axis is $(a/e, 0)$.
+
+  Since the line $2x + y = 1$ passes through this point, substituting its coordinates gives $2(a/e) + 0 = 1
+  => e = 2a => a = e/2$
+
+  Next, rearranging the tangent line into slope-intercept form gives $y = -2x + 1$, identifying the slope as
+  $m = -2$ and the vertical intercept as $c = 1$.
+
+  The standard condition of tangency for a horizontal hyperbola is $c^2 = a^2 m^2 - b^2$. Substituting $b^2
+  = a^2(e^2 - 1)$ along with our line parameters yields $1^2 = 4a^2 - a^2(e^2 - 1) => 1 = 5a^2 - a^2 e^2$
+
+  Substituting $a = e/2$ into this relationship helps eliminate the semi-major axis component $1 = 5(e/2)^2
+  - (e/2)^2 e^2 => 1 = (5e^2)/4 - e^4/4$
+
+  Multiplying by $4$ to clear the fractions and grouping all terms onto one side forms the biquadratic
+  polynomial $e^4 - 5e^2 + 4 = 0 => (e^2 - 1)(e^2 - 4) = 0$
+
+  This yields $e^2 = 1$ or $e^2 = 4$. Since the eccentricity of a hyperbola must be strictly greater than
+  $1$ ($e > 1$), we reject $e^2 = 1$. Taking the positive square root isolates the final parameter value
+  directly $e^2 = 4 => e = 2$.
+//606
++ The equation of the given hyperbola is $x^2 - y^2 = 9$. We are given that the straight line $x = 9$, which
+  can be rewritten as $x - 9 = 0$, is the chord of contact for this hyperbola.
+
+  Let the external point from which the pair of tangents is drawn be $P(x_1, y_1)$. The standard equation of
+  the chord of contact from an external point to the hyperbola is given by the replacement template $T = 0$
+  i.e. $x x_1 - y y_1 - 9 = 0$
+
+  Since this equation must be identical to the given chord line $x - 9 = 0$, we compare their corresponding
+  linear coefficients and constant terms:
+  - For the x-coefficient: $x_1 = 1$
+  - For the y-coefficient: $-y_1 = 0 => y_1 = 0$
+
+  Thus, the external point from which the tangents are drawn is $P(1, 0)$.
+
+  The joint equation of the pair of tangents drawn from an external point $P(x_1, y_1)$ to a conic curve is
+  determined using the standard identity $T^2 = S dot S_1$. For our hyperbola configuration, the components
+  are evaluated at $P(1, 0)$ as:
+  - $S = x^2 - y^2 - 9$
+  - $S_1 = 1^2 - 0^2 - 9 = -8$
+  - $T = x(1) - y(0) - 9 = x - 9$
+
+  Substituting these components into the joint identity yields $(x - 9)^2 = (x^2 - y^2 - 9)(-8) => 9x^2 -
+  8y^2 - 18x + 9 = 0$.
+//607
++ The equation of the circle is $x^2 + y^2 = a^2$ and the equation of the rectangular hyperbola (referred to
+  as a parabola in some historical contest misprints) is $x y = c^2$.
+
+  To find the horizontal coordinates of the four intersection points, we substitute the vertical component
+  $y = c^2 / x$ from the hyperbola into the circle equation $x^2 + (c^2 / x)^2 = a^2 => x^2 + c^4 / x^2 = a^2$
+
+  Multiplying by $x^2$ to clear the denominator and grouping all terms onto one side results in a standard
+  quartic polynomial equation in terms of $x$ i.e. $x^4 - a^2 x^2 + c^4 = 0$
+
+  This quartic polynomial can be fully expanded to show all its degree terms as $x^4 + 0 dot x^3 - a^2 x^2 +
+  0 dot x + c^4 = 0$. Let $x_1, x_2, x_3, x_4$ be the four real roots representing the horizontal
+  coordinates of points $P, Q, R, S$. According to Vieta's formulas for a quartic polynomial:
+  - The sum of the roots is $sum_(i=1)^4 x_i = -0 / 1 = 0$.
+  - The product of the roots is $product_(i=1)^4 x_i = c^4 / 1 = c^4$.
+
+  By full coordinate track symmetry, substituting $x = c^2 / y$ into the circle equation yields an identical
+  quartic polynomial layout for the vertical coordinates $y^4 - a^2 y^2 + c^4 = 0$
+  This gives the corresponding vertical root properties as $sum_(i=1)^4 y_i = 0$ and $product_(i=1)^4 y_i =
+  c^4$.
+
+  Now we combine these independent coordinate properties to evaluate the two requested expressions:
+
+  1. For the total summation of all coordinate components, we group the horizontal and vertical sums together:
+     $sum_(i=1)^4 (x_i + y_i) = sum_(i=1)^4 x_i + sum_(i=1)^4 y_i = 0 + 0 = 0$
+
+  2. For the total product of all coordinate components, we rewrite the terms using the associative law of
+     multiplication: $product_(i=1)^4 (x_i y_i) = (product_(i=1)^4 x_i) dot (product_(i=1)^4 y_i) = c^4 dot
+     c^4 = c^8$.
+//608
++ Let $P(x_1, y_1)$ be a point on the hyperbola, so $x_1^2 / 9 - y_1^2 / 4 = 1$. The chord of contact from
+     $P$ to the circle $x^2 + y^2 = 9$ is $x x_1 + y y_1 = 9$.
+
+  Let $M(h, k)$ be the midpoint of this chord. The equation of the chord using its midpoint is $x h + y k =
+  h^2 + k^2$.
+
+  Comparing the two equivalent line equations gives the proportionality track $x_1 / h = y_1 / k = 9 / (h^2
+  + k^2) => x_1 = (9h) / (h^2 + k^2), quad y_1 = (9k) / (h^2 + k^2)$
+
+  Substituting these expressions into the hyperbola relation eliminates the external variables $1 / 9 ((9h)
+  / (h^2 + k^2))^2 - 1 / 4 ((9k) / (h^2 + k^2))^2 = 1 => (9h^2) / (h^2 + k^2)^2 - (81k^2) / (4(h^2 + k^2)^2)
+  = 1$
+
+  Multiplying by $(h^2 + k^2)^2$ and generalising $(h, k)$ to $(x, y)$ yields the final locus $x^2 / 9 - y^2
+  / 4 = (x^2 + y^2)^2 / 81$.

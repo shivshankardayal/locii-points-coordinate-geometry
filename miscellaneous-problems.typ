@@ -1754,4 +1754,317 @@
 + Find the equation of common tangents touching the circle $(x - 3)^2 + y^2 = 9$ and the parabola $y^2 = 4x$
   above the $x$-axis.
 //517
-+ Let $a, r, s, t$ be non-zero real numbers. Let $P(a t^2, 2a t), Q, R(a r^2, 2a r)$
++ Let $a, r, s, t$ be non-zero real numbers. Let $P(a t^2, 2a t), Q, R(a r^2, 2a r)$ and $(a s^2, 2a s)$ be
+  the distinct points on the parabola $y^2 = 4a x$. Suppose that $P Q$ is the focal chord and lines $Q R$
+  and $P K$ are parallel where $K$ is the point $(2a, 0)$. Find the value or $r$. If $s t = 1$, then the
+  tangent at $P$ and the normal at $S$ to the parabola $y^2 = 4a x$ meet at which point?
+//518
++ At any point $P$ on the parabola $y^2 - 2y - 4x + 5 = 0$ a tangent is drawn which meets the directrix at
+  $Q$. Find the locus of point $R$, which divides $Q P$ externally in the ration $1/2:1$.
+//519
++ Find the shortest distance of the point $(0, c)$ from the parabola $y = x^2$, where $0 <= c <= 5$.
+//520
++ Consider the parabola $y^2 = 8x$. Let $Delta_1$ be the area of the triangle formed by the endpoints of its
+  latus rectum and the point $P(1/2, 2)$ on the parabola and $Delta_2$ be the area of the triangle formed
+  by drawing tangents at $P$ and the end points of latus rectum. Find $Delta_1/Delta_2$.
+//521
++ Let $P$ be a point on the parabola $y^2 = 4x$, which is at shortest distance from $S$ of the circle $x^2 +
+  y^2 - 4x - 16y + 64 = 0$. Let $Q$be the point on the circle dividing the line segment internally. Find $S
+  P$, the $x$ intercept of the normla to the parabola at $P$ and slope of the tangent to the parabola at
+  $Q$.
+//522
++ A solution curve of the differential equation $(x^2 + x y + 4x + 2y + 4)(d y)/(d x) - y^2 = 0, x > 0$
+  passes through the point $(1, 3)$. Find the points of intersection with $y = x + 2$ and $y = (x + 3)^2$.
+//523
++ The tangent $P T$ and the normal $P N$ to the parabola $y^2 = 4a x$ at a point $P$ on it meet its axis at
+  $T$ and $N$ respectively. Find the locus of the centroid of the triangle $P T N$.
+//524
++ If the normals of the parabola $y^2 = 4x$ drawn at the end points of its latus rectum are tangents to the
+  circle $(x - 3)^2 + (y + 2)^2 = r^2$, then find the value of $r^2$.
+//525
++ Normals are drawn from the point $P$ with slopes $m_1, m_2, m_3$ to the parabola $y^2 = 4x$. If locus of
+  $P$ with $m_1m_2 = alpha$ is a part of parabola itself, then find the value of $alpha$.
+//526
++ Three normals are drawn from $(c, 0)$ to the curve $y^2 = x$. Show that $c$ must be greater than
+  $1/2$. One normal is always the $x$-axis. Find $c$ for which the other two normals are always
+  perpenducular to each other.
+//527
++ Find the equation of the normal to the curve $x^2 = 4y$ which passes through the point $(1, 2)$.
+//528
++ Suppose that the normals drawn at three different points on the parabola $y^2 = 4x$ pass through the point
+  $(h, 0)$. Show that $h > 2$.
+//529
++ If one end of the focal chord of the parabola, $y^2 = 16x$ is at $(1, 4)$, then find the length of the
+  focal chord.
+//530
++ Find the length of the chord of parabola $x^2 = 4y$ having equation $x - sqrt(2)y + 4sqrt(2) = 0$.
+//531
++ If a chord, which is not a tangent, of the parabola $y^2 = 16x$ has the equation $2x + y = p$, and
+  mid-point is $(h, k)$, then find the values of $p, h$ and $k$.
+//532
++ Let $A$ and $B$ be two distinct points on the parabola $y^2 = 4x$. If the axis of the parabola touches a
+  circle of radius $r$ having $A B$ as a diameter, then find the slope of $A B$.
+//533
++ Let $P Q$ be a focal chord of the parabola $y^2 = 4a x$. The tangents to the parabola at $P$ and $Q$ meet
+  at a point lying on the line $y = 2x + a, a > 0$. Find the length of chord $P Q$. If chord $P Q$ subtends
+  an angle $theta$ at the vertex of the parabola then find $tan theta$.
+//534
++ The angle between a pair of tangents drawn from a point $P$ to the parabola $y^2 = 4a x$ is
+  $45^degree$. Show that the locus of the point $P$ is a hyperbola.
+//535
++ From a point $A$ common tangents are drawn to the circle $x^2 + y^2 = a^2/2$ and parabola $y^2 = 4a
+  x$. Find the area of the quadrilateral formed by the common tangents, the chord of contact of the circle
+  and the chord of contact of the hyperbola.
+//536
++ Points $A, B$ and $C$ lies on the parabola $y^2 = 4a x$. The tangents to the parabola at $A, B$ and $C$,
+  taken in pairs, intersect at $P, Q$ and $R$. Find the ratio of the areas of the triangles $A B C$ and $P Q
+  R$.
+//537
++ Show that the locus of a point that divides a chord of slope $2$ of the parabola $y^2 = 4a x$ internally
+  in the ratio $1:2$ is a parabola. Find the vertex of this parabola.
+//538
++ Through the vertex $O$ of the parabola $y^2 = 4a x$, chords $O P$ and $O Q$ are drawn at right angle to
+  one another. Show that for all positions of $P, P Q$ cuts the axis of the parabola at a fixed point. Also,
+  find the locus of mid-point of $P Q$.
+//539
++ If $e_1$ and $e_2$ are the eccentricities of the ellipse $x^2/18 + y^2/4 = 1$ and the hyperbola $x^2/9 -
+  y^2/4 = 1$ respectively and $(e_1, e_2)$ is a point on the ellipse $15x^2 + 3y^2 = k$, then find $k$.
+//540
++ In an ellipse, with center at the origin, if the difference of the lengths of major axis and minor axis is
+  $10$ and one of the foci is at $(0, 5sqrt(3))$, then find the length of its latus rectum.
+//541
++ Let $S$ and $S'$ be the foci of an ellipse and $B$ be any of the extremities of its minor axis. If
+  $triangle S'B S$ is a right angled triangle with right angle at $B$ and area of $S'B S$ is $8$ sq. units,
+  then find the  length of latus rectum of the ellipse.
+//542
++ The ellipse $E_1: x^2/9 + y^2/4 = 1$ is inscribed in a rectangle $R$ whose sides are parallel to the
+  coordinate axes. Another ellipse $E_2$ passing through the point $(0, 4)$ circumscribes the rectangle
+  $R$. Find the eccentricity of ellipse $E_2$.
+//543
++ If $P = (x, y), F_1 = (3, 0), F_2 = (-3, 0)$ and $16x^2 + 25y^2 = 400$, then find $P F_1 + P F_2$.
+//544
++ Define the relations ${E_1, E_2, E_3, dots.h}$ of ellipse and ${R_1, R_2, R_3, dots.h}$ of rectangles as
+  follows: $E_1: x^2/9 + y^2/4 = 1, R_1:$ rectangle of largest area, with sides parallel to the axes
+  inscribed in $E_1$, $E_n : x^2/a_n^2 + y^2/b_n^2 = 1$ of the largest area inscribed in $R_{n - 1}, n > 1$
+  and $R_n:$ rectangle of largest area, with sides parallel to the axes, inscribed in $E_n, n > 1$. Prove
+  that $display(sum_(n = 1)^N)("area of" R_n) < 24$, for each positive integer $N$.
+//545
++ Consider two straight lines, each of which is tangent to both the circle $x^2 + y^2 = 1/2$ and the
+  parabola $y^2 = 4x$. Let these lines interssect at $Q$. Consider the ellipse whose center is at the origin
+  $O$ and whose semi-minor axis is $O Q$. If the length of the minor axis of the ellipse is $sqrt(2)$, then
+  find the eccentricity of the ellipse and its latus rectum. Find the area of the region bounded by the
+  ellipse between $x = 1/sqrt(2)$ and $x = 1$.
+//546
++ An ellipse has $O B$ as a semi-minor axis. $F$ and $F'$ are its foci and the angle $F B F'$ is a right
+  angle. Find the eccentricity of the ellipse.
+//547
++ An ellipse has eccentricity $1/2$ and one focus at the point $P(1/2, 1)$. Its one directrix is the common
+  tangent, nearer to the point $P$, to the circle $x^2 + y^2 = 1$ and the hyperbola $x^2 - y^2 = 1$. Find
+  the equation of the ellipse.
+//548
++ Let $P$ be a variable point on the ellipse $x^2/a^2 + y^2/b^2 = 1$ with foci $F_1$ and $F_2$. If $Delta$
+  is the area of the $triangle P F_1F_2$, then find its maximum value.
+//549
++ Let $P$ be a point on the ellipse $x^2/a^2 + y^2/b^2 = 1, 0 < b < a$. Let a line parallel to $y$-axis pass
+  through $P$ meet the circle $x^2 + y^2 = a^2$ at the point $Q$ such that $P$ and $Q$ are on the same side
+  of $x$-axis. For two positive real numbers $r$ and $s$, find the locus of the point $R$ on $P Q$ such that
+  $P R:R Q = r:s$ as $P$ varies over the ellipse.
+//550
++ Let $F_1(x_1, 0)$ and $F_2(x_2, 0)$, for $x_1 < 0$ and $x_2 > 0$, be the foci of the ellipse $x^2/9 +
+  y^2/8 = 1$. Suppose a parabola having the vertex at the origin and focus at $F_2$ intersects the ellipse
+  at point $M$ and at point $N$ in the fourth quadrant. Find the orthocenter of $triangle F_1M N$. If the
+  tangents to the ellipse at $M$ and $N$ at $R$ and the normal to parabola at $M$ meets the $x$-axis at $Q$,
+  then find the ratio of area of $triangle M Q R$ to the area of the $square M F_1N F_2$.
+//551
++ Let $a, b$ and $lambda$ be positive real numbers. Suppose $P$ is an endpoint of the latus rectum of the
+  parabola $y^2 = 4lambda x$, and suppose the ellipse $x^2/a^2 + y^2/b^2 = 1$ passes thoutgh the point
+  $P$. If tangents to the parabola and the ellipse at the point $P$ are perpendicular to each other, then
+  find the eccentricity of the ellipse.
+//552
++ Find the locus of the foot of the perpendicular drawn upon any tangent to the ellipse, $x^2/a^2 + y^2/b^2
+  = 1$ from any of its foci.
+//553
++ If the normal to the ellipse $3x^2 + 4y^2 = 12$ at a point $P$ on it is parallel to the line $2x + y = 4$
+  and the tangent to the ellipse at $P$ passes through $Q(4, 4)$, then find the length of $P Q$.
+//554
++ The tangent and normal to the ellipse $3x^2 + 5y^2 = 32$ at the point $P(2, 2)$ meets the $x$-axis at $Q$
+  and $R$, respectively. Find $Delta P Q R$.
+//555
++ If the tangent to the parabola $y^2 = x$ at a point $(alpha, beta)(beta > 0)$ is also a tangent to the
+  ellipse $x^2 + 2y^2 = 1$, then find the value of $alpha$.
+//556
++ If the line $x - 2y = 12$ is tangent to the ellipse $x^2/a^2 + y^2/b^2 = 1$ at the point $(3, -9/2)$, then
+  find the length of the latus rectum of ellipse.
+//557
++ If the tangents on the ellipse $4x^2 + y^2 = 8$ at the points $(1, 2)$ and $(a, b)$ are perpendicular to
+  each other then find $a^2$.
+//558
++ If tangents are drawn to the ellipse $x^2 + 2y^2 = 2$ at all points on the ellipse other than its four
+  vertices, then find the curve on which the mid-points of the tangents intercepted between the coordinates
+  axes lie.
+//559
++ Find the equation of common tangent to the parabola $y^2 = 4x$ and the hyperbola $x y = 2$.
+//560
++ The eccentricity of an ellipse whose center is at the origin is $1/2$. If one of its directrices is $x =
+  -4$, then find the equation to the normal to it at $(1, 3/2)$.
+//561
++ Find the area of the quadrilateral formed by the tangents at the end points of the latus rectum to the
+  ellipse $x^2/9 + y^2/5 = 1$.
+//562
++ The normal at a point $P$ on the ellipse $x^2 + 4y^2 = 16$ meets the $x$-axis at $Q$. If $M$ is the
+  mid-point of the line segment $P Q$, then find the points at which the locus of $M$ intersects the latus
+  rectum of the given ellipse.
+//563
++ The line passing through the extremity $A$ of the major axis and extremity $B$ of the minor axis of the
+  ellipse $x^2 + 9y^2 = 9$ meets its auxiliary circle at point $M$. Find the area of the triangle $A M O$.
+//564
++ Tangents are drawn to the ellipse $x^2 + 2y^2 = 2$, then find the locus of the mid-point of the intercept
+  made by the tangents between the coordinate axes.
+//565
++ Tangents is drawn to ellipse $x^2/27 + y^2 = 1$ at $(3sqrt(3)cos theta, sin theta)$ where $theta in (0,
+  pi/2)$. Find the value of $theta$ such that the sum of intercepts on the axes made by this tangent is
+  minimum.
+//566
++ If $a > 2b > 0$, then find the positive value of $m$ for which $y = m x - b sqrt(1 + m^2)$ is a common
+  tangent to $x^2 + y^2 = b^2$ and $(x - a)^2 + y^2 = b^2$.
+//567
++ Find the number of values of $c$ such that the straight line $y = 4x + c$ touches the curve $x^2/4 + y^2
+  = 1$.
+//568
++ Let $E_1$ and $E_2$ be two ellipses whose centers are at the origin. The major axes of $E_1$ and $E_2$
+  lie along the $x$-axis and $y$-axis, respectively. Let $S$ be the circle $x^2 + (y - 1)^2 = 2$. The
+  straight line touches the curve $S, E_1$ and $E_2$ at $P, Q$ and $R$, respectively. Supposes that $P Q = P
+  R = (2 sqrt(2))/3$. If $e_1$ and $e_2$ are the eccentricities of $E_1$ and $E_2$, respectively, then find
+  $e_1$ and $e_2$.
+//569
++ Find the equation of common tangent in $1$st quadrant to the circle $x^2 + y^2 = 16$ and the ellipse
+  $x^2/25 + y^2/4 = 1$. Also find the length of the intercept of the tangent between the coordinate axes.
+//570
++ Let $A B C$ be an equilateral triangle inscribed in the circle $x^2 + y^2 = a^2$. Suppose perpendiculars
+  from $A, B$ and $C$ to the major axis of the ellipse $x^2/a^2 + y^2/b^2 = 1, (a > b)$ meets the ellipse at
+  $P, Q$ and $R$ respectively so that $P, Q, R$ lie on the same side of the major axis as $A, B, C$
+  respectively. Prove that the normals to the ellipse draw at $P, Q, R$ are concurrent.
+//571
++ A tangent to the ellipse $x^2 + 4y^2 = 4$ meets the ellipse $x^2 + 2y^2 = 6$ at $P$ and $Q$. Prove that
+  the tangents at $P$ and $Q$ of the ellipse $x^2 + 2y^2 = 6$ are at right angles.
+//572
++ Let $d$ be the perpendicular distance between the center of the ellipse $x^2/a^2 + y^2/b^2 = 1$ to the
+  tangent drawn at a point $P$ on the ellipse. If $F_1$ and $F_2$ are two foci of the ellipse, then show
+  that $(P F_1 - P F_2)^2 = 4a^2(1 - b^2/d^2)$.
+//573
++ Suppose that the foci of the ellipse $x^2/9 + x^2/5 = 1$ are $(f_1, 0)$ and $(f_2, 0)$ where $f_1 > 0$ and
+  $f_2 < 0$. Let $P_1$ and $P_2$ be two parabolas with common vertex $(0, 0)$ with foci at $(f_1, 0)$ and
+  $(f_2, 0)$ respectively. Let $T_1$ be a tangent to $P_1$ which passes through $(2f_2, 0)$ and $T_2$ be a
+  tangent to $P_2$ which passes through $(f_1, 0)$. If $m_1$ is the slope of $T_1$ and $m_2$ the slope of
+  $T_2$, then find the values of $1/m_1^2 + m_2^2$.
+//574
++ A hyperbola having the transverse axis of length $sqrt(2)$ has the same foci as that of the ellipse $3x^2
+  + 4y^2 = 12$. Find the equation of the hyperbola.
+//575
++ Let $P$ be the point of intersection of the common tangents to the parabola $y^2 = 12x$ and the hyperbola
+  $8x^2 - y^2 = 8$. If $S$ and $S'$ denotes the foci of the hyperbola, where $S$ lies on the positive
+  $x$-axis. Find the ratio in which $P$ divides $S S'$.
+//576
++ If $5x + 9 = 0$ is the directrix of the hyperbola $16x^2 - 9y^2 = 144$, then find its corresponding focus.
+//577
++ If the vertices of a hyperbola be at $(plus.minus 2, 0)$ and one of its foci be at $(-3, 0)$, then find
+  the equation of the hyperbola.
+//578
++ If a hyperbola has length of its conjugate axis equal to $5$ and the distance between its foci is $13$,
+  then find its eccentricity.
+//579
++ Let $S = {(x, y) in RR^2: y^2/(1 + r) - x^2/(1 - r)) = 1}$, then find the nature of the curve and its
+  eccentricity.
+//580
++ A hyperbola has its center at the origin, passes through the point $(4, 2)$ and has transverse axis of
+  length $4$ along the $x$-axis. Find the eccentricity of the hyperbola.
+//581
++ Let $0 < theta < pi/2$. If the eccentricity of the hyperbola $x^2/(cos^2theta) - y^2/(sin^2theta) = 1$ is
+  greater than $2$, then find the range of length of its latus rectum.
+//582
++ Find the eccentricity of the hyperbola whose length of latus rectum is equal to $8$ and the length of
+  its conjugate axis is equal to half of the distance between its foci.
+//583
++ Consider a branch of the hyperbola $x^2 - 2y^2 - 2sqrt(2)x - 4sqrt(2)y - 6 = 0$ with vertex at the point
+  $A$. Let $B$ be one of the end points of its latus rectum. If $C$ is the focus of the hyperbola nearer to
+  the point $A$, then find the area of the $triangle A B C$.
+//584
++ Let $A$ and $B$ be distinct variable points on the parabola $y = x^2$ such that the line $A B$ passes
+  through the focus $F(0, 1/4)$. Let $C = (1, 1)$ be fixed, distinct from $A$ and $B$, and let $H$ be the
+  orthocenter of $triangle A B C$. Prove that the locus of $H$ is contained in a parabola, find its equation,
+  vertex and axis, and determine which point of the parabola does not belong to the locus.
+//585
++ A hyperbola, having the transverse axis of length $2sin theta$, is confocal with the ellipse $3x^2 + 4y^2
+  = 12$, then find its equation.
+//586
++ If $e_1$ is the eccentricity of the ellipse $x^2/16 + y^2/25 = 1$ and $e_2$ is the eccentricity of the
+  hyperbola passing through the foci of ellipse and $e_1e_2 = 1$, then find the equation of the hyperbola.
+//587
++ For hyperbola $x^2/(cos^2alpha) - y^2/(sin^2alpha) = 1$, prove that abcissaae of the foci remain constant
+  with change in $alpha$.
+//588
++ Which curves does the equation $x^2/(1 - r) - y^2/(1 + r) = 1, |r| < 1$ represent?
+//589
++ A variable straight line of slope $4$ intersect the hyperbola $x y = 1$ at two points. Find the locus of
+  the point which divides the line segment between these two points in the ratio $1:2$.
+//590
++ If a hyperbola passes through the point $P(10, 16)$ and it has vertices at $(plus.minus 6, 0)$, then find
+  the equation of normal at $P$.
+//591
++ Find the equation of common tangents to the curves $y^2 = 16x$ and $x y = -4$.
+//592
++ If the line $y = m x + 7sqrt(3)$ is normal to the hyperbola $x^2/24 - y^2/18 = 1$, then find the values of
+  $m$.
+//593
++ If the eccentricity of the standard hyperbola passing through the point $(4, 6)$ is $2$, then find the
+  equation of the tangent to the hyperbola at $(4, 6)$.
+//594
++ Find the equation of a tangent to the hyperbola $4x^2 - 5y^2 = 20$ parallel to the line $x - y = 2$.
+//595
++ Tangents are drawn to the hyperbola $4x^2 - y^2 = 36$ at the points $P$ and $Q$. If these tangents
+  intersect at $R(0, 3)$, then find the area of the triangle $P Q R$.
+//596
++ If a hyperbola passes through the point $P(sqrt(2), sqrt(3))$ and has foci at $(plus.minus 2, 0)$, then
+  find the equation of the tangent to this hyperbola at $P$.
+//597
++ Let $P(6, 3)$ be a point on the hyperboala $x^2/a^2 - y^2/b^2 = 1$. If the normal at the point $P$
+  intersects the $x$-axis at $(9, 0)$, then find the eccentricity of the hyperbola.
+//598
++ If the line $2x + sqrt(6)y = 2$ touches the hyperbola $x^2 - 2y^2 = 4$, then find the point of contact.
+//599
++ Let $P(a sec theta, b tan theta)$ and $Q(a sec phi, b tan phi)$, where $theta + phi = pi/2$, be two points
+  on the hyperbola $x^2/a^2 - y^2/b^2 = 1$. If $(h, k)$ is the point of intersection of normals at $P$ and
+  $Q$, then find $h$ and $k$.
+//600
++ Let $a$ and $b$ be positive real numbers such that $a > 1$ and $b < a$. Let $P$ be a pointin the first
+  quadrant that lies on the hyperbola $x^2/a^2 - y^2/b^2 = 1$. Suppose the tangent to the hyperbola at $P$
+  passes through the point $(1, 0)$ and suppose the norman to the hyperbola at $P$ cuts off equal intercepts
+  at coordinate axes. Let $Delta$ denote the area of the triangle formed by the tangent at $P$, the normal
+  at $P$ and the $x$-axis. Find the eccentricuty of the hyperbola and $Delta$.
+//601
++ If $2x - y + 1 = 0$ is a tangent to the hyperbola $x^2/a^2 - y^2/16 = 1$, then find $a$.
+//602
++ Consider the hyperbola $H: x^2 - y^2 = 1$ and a circle $S$ with center $N(x_2, 0)$. Suppose $H$ and $S$
+  touch each other at a point $P(x_1, y_1)$ with $x_1 > 0$ and $y_1 > 0$. The common tangent to $H$ and $S$
+  at $P$ intersects the $x$-axis at point $M$. If $(l, m)$ is the centroid of the $triangle P M N$, then
+  find $(d l)/(d x_1), (d m)/(d x_1), (d l)/(d y_1)$ and $(d m)/(d y_1)$.
+//603
++ Tangents are drawn to the  hyperbola $x^2/9 - y^2/4 = 1$ parallel to the straight line $2x - y = 1$. Find
+  the points of contacts on the hyperbola.
+//604
++ The circle $x^2 + y^2 - 8x = 0$ and the hyperbola $x^2/9 - y^2/4 = 1$ intersect at point $A$ and $B$. Find
+  the equation of the circle having $A B$ as the diameter. Find the equation of a common tangent, with
+  positive slope, to the circle and the hyperbola.
+//605
++ The line $2x + y = 1$ is tangent to the hyperbola $x^2/a^2 - y^2/b^2 = 1$. If this line passes through the
+  point of intersection of the directrix and the $x$-axis, then find the eccentricity of the hyperbola.
+//606
++ If $x = 9$ is the chord of contact of the hyperbola $x^2 - y^2 = 9$, then find the equation of
+  corresponding pair of tangents.
+//607
++ If a circle $x^2 + y^2 = a^2$ intersects the parabola $x y = c^2$ in four points $P(x_1, y_1), Q(x_2,
+  y_2), R(x_3, y_3), S(x_4, y_4)$, then find $display(sum_(i = 1)^4 (x_i + y_i))$ and $display(product_(i=
+  1)^4 (x_i y_i))$.
+//608
++ Tangents are drawn from any point on the hyperbola $x^2/9 - y^2/4 = 1$ to the circle $x^2 + y^2 = 9$. Find
+  the locus of the mid-point of chord of contact.
