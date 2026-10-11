@@ -1,10 +1,10 @@
-#import "@preview/bookly:5.0.0": *
+#import "@preview/bookly:5.2.0": *
 #import "@preview/cetz:0.5.2"
 #import "@preview/ctz-euclide:0.1.0": *
 
 #show: bookly.with(
     author: "Shiv S. Dayal",
-    title: "A Point on Coordinate \n Geometry",
+    title: "A Point on Coordinate \nGeometry",
     fonts: (
         body: "Libertinus Serif",
         math: "Libertinus Math",
@@ -12,42 +12,49 @@
     ),
     lang: "en",
     theme: orly,
-    title-page: book-title-page(
-        subtitle: "A Problem Oriented Approach",
-        edition: "Version 0.1.0",
-        series: "",
-        institution: "",
-        version-usage: [*A Point on Coordinate Geometry*
-
-            #set text(fill: red)
-
-            Early Draft[#datetime.today().display("[month repr:long] [day], [year]")]
-
-            #set text(fill: black)
-            Copyleft $copyleft$ 2025 Shiv Shankar Dayal.
-
-            Licensed under the GNU FDLv3 (the “License”). All rights reserved.
-
-            Permission is granted to copy, distribute and/or modify this document under the
-            terms of the GNU Free Documentation License, Version 1.3 or any later version
-            published by the Free Software Foundation; with no Invariant Sections, no
-            Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
-            in the section entitled "GNU Free Documentation License".]
-    ),
+    title-page: [ #set page(margin: 0pt, paper: "iso-b5")
+        #image("images/cp1.pdf")
+    ],
     config-options: (
         open-right: true,
-        par-indent: true,
+        par-indent: false,
         paper-size: "iso-b5",
-    )
+    ),
 )
+
+#[
+  #set page(numbering: none, footer: none)
+  #align(center + horizon)[_To my family_]
+]
+
+#[
+  #set page(numbering: none, footer: none)
+  #align(bottom)[*A Point on Coordinate Geometry*
+
+#set text(fill: red)
+
+Early Draft[#datetime.today().display("[month repr:long] [day], [year]")]
+
+#set text(fill: black)
+Copyleft $copyleft$ 2025 Shiv Shankar Dayal.
+
+Licensed under the GNU FDLv3 (the “License”). All rights reserved.
+
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.3 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled "GNU Free Documentation License".]
+]
 
 #show: front-matter
 
 #include "preface.typ"
 
+#tableofcontents
+
 #show: main-matter
 
-#tableofcontents
 
 #part[Theory and Problems]
 #set heading(numbering: "1.1.1")

@@ -16024,3 +16024,1114 @@ m h + c$, which gives $h = (k - c)/m$.
 
   Multiplying by $(h^2 + k^2)^2$ and generalising $(h, k)$ to $(x, y)$ yields the final locus $x^2 / 9 - y^2
   / 4 = (x^2 + y^2)^2 / 81$.
+//609
++ Let the line through $A(4, 3)$ have slope $m$. Its intersection with $x - y - 2 = 0$ yields the
+  coordinates of point $B$: $x = (4m - 5) / (m - 1), quad y = (2m - 3) / (m - 1)$
+
+  Using the distance formula, the squared length of the segment $A B$ evaluates to $A B^2 = (1 + m^2) / (m -
+  1)^2$
+
+  We are given $A B = sqrt(29) / 3 => A B^2 = 29 / 9$. Equating the two expressions yields $(1 + m^2) / (m -
+  1)^2 = 29 / 9 => 10m^2 - 29m + 10 = 0 => (2m - 5)(5m - 2) = 0$
+
+  Since the slope must be strictly greater than one ($m > 1$), we choose $m = 5/2$. Substituting this back
+  into the coordinate formulas for $B$ determines its explicit position $x = (10 - 5) / (3/2) = 10 / 3, quad
+  y = (5 - 3) / (3/2) = 4 / 3$
+
+  This yields the intersection point $B(10/3, 4/3)$. We substitute these coordinates into the target
+  equation $x + 2y = 6$ i.e. $10 / 3 + 2(4 / 3) = 18 / 3 = 6$
+
+  Since the equality holds perfectly, point $B$ is proven to lie on the line $x + 2y = 6$.
+//610
++ The equation of the circle is $x^2 + y^2 - 2x + 2f y + 1 = 0$, which identifies its center at the
+  coordinates $C(1, -f)$.
+
+  Since any diameter of a circle must pass directly through its center, the coordinates $C(1, -f)$ must
+  satisfy both given linear equations:
+  1. From $2p x - y = 1$, substituting yields $2p(1) - (-f) = 1 => 2p + f = 1 => f = 1 - 2p$.
+  2. From $2x + p y = 4p$, substituting yields $2(1) + p(-f) = 4p => 2 - p f = 4p$.
+
+  To eliminate the vertical center component $f$, we substitute the expression $f = 1 - 2p$ into the second
+  relation $2 - p(1 - 2p) = 4p => 2 - p + 2p^2 = 4p => 2p^2 - 5p + 2 = 0$
+
+  Factoring this quadratic equation gives $(2p - 1)(p - 2) = 0$, which yields two possible values for the
+  parameter: $p = 1/2$ or $p = 2$. We evaluate the matching center coordinates for both cases:
+  - For $p = 1/2$, we find $f = 1 - 2(1/2) = 0$, giving the center point $C(1, 0)$.
+  - For $p = 2$, we find $f = 1 - 2(2) = -3$, giving the center point $C(1, 3)$.
+
+  The equation of the given hyperbola is $3x^2 - y^2 = 3$. Dividing by $3$ converts it into standard form as
+  $x^2 / 1 - y^2 / 3 = 1$, identifying the squared semi-axes parameters as $a^2 = 1$ and $b^2 = 3$. The
+  condition for a line $y = m x + c$ to touch this hyperbola as a tangent is $c^2 = a^2 m^2 - b^2 = m^2 -
+  3$.
+
+  We test both possible circle center points against this tangency condition:
+
+  - Case 1: Tangent passes through $C(1, 0)$.
+    The line equation is $y - 0 = m(x - 1) => y = m x - m$, identifying the intercept as $c =
+    -m$. Substituting this into the tangency condition gives $(-m)^2 = m^2 - 3 => m^2 = m^2 - 3 => 0 = -3$,
+    which is geometrically impossible.
+
+  - Case 2: Tangent passes through $C(1, 3)$.
+    The line equation is $y - 3 = m(x - 1) => y = m x + (3 - m)$, identifying the intercept as $c = 3 -
+    m$. Substituting this into the condition gives:
+    $(3 - m)^2 = m^2 - 3 => 9 - 6m + m^2 = m^2 - 3$
+
+  Canceling the squared slope terms simplifies the relation directly to $9 - 6m = -3 => 6m = 12 => m = 2$
+
+  Since $m = 2$ perfectly satisfies the domain constraint $m in (0, infinity)$, the slope of the tangent
+  line is $2$.
+//611
++ The parabola is $75x^2 = 64(5y - 3)$. The equation of the tangent at $P(8/5, 6/5)$ is found
+  using standard replacement as $3x - 4y = 0$.
+
+  The family of circles touching $3x - 4y = 0$ at $P(8/5, 6/5)$ is given by$(x - 8/5)^2 + (y - 6/5)^2 +
+  lambda(3x - 4y) = 0 => x^2 + y^2 + (3lambda - 16/5)x - (4lambda + 12/5)y + 4 = 0$
+
+  Identifying the coefficients gives $2f = -(4lambda + 12/5)$ and $c = 4$. For a circle to touch the y-axis,
+  the constraint requires $f^2 = c$ i.e. $(-(2lambda + 6/5))^2 = 4 => 2lambda + 6/5 = plus.minus 2$
+
+  This yields two valid parameters: $lambda_1 = 2/5$ and $lambda_2 = -8/5$. Since the circles touch the
+  $y$-axis, the radii are given by $R = abs(g) = abs((3lambda - 16/5) / 2)$:
+  - For $lambda_1 = 2/5$: $g_1 = -1 => R_1 = 1 => d_1 = 2$
+  - For $lambda_2 = -8/5$: $g_2 = -4 => R_2 = 4 => d_2 = 8$
+
+  The total sum of the two diameters is $d_1 + d_2 = 2 + 8 = 10$.
+//612
++ The signs for the given half-planes are $3alpha - 4beta + 12 > 0$ and $8alpha + 6beta + 11 > 0$.
+
+  Setting the perpendicular distances from $L_1$ and $L_2$ equal to $1$ yields the linear equations $(3alpha
+  - 4beta + 12) / 5 = 1 => 3alpha - 4beta = -7$ and $(8alpha + 6beta + 11) / 10 = 1 => 8alpha + 6beta = -1$
+
+  Solving this system simultaneously gives the coordinates $alpha = -23/25$ and $beta = 53/50$.
+
+  Evaluating the final target expression results in $alpha + beta = 7/50 => 100(alpha + beta) = 100 dot 7/50
+  = 14$.
+//613
++ The x-intercept of the first line $x/7 + y/(2sqrt(6)) = 1$ is found by setting $y = 0$, which gives $(7,
+  0)$. Since the ellipse $x^2/a^2 + y^2/b^2 = 1$ meets this line on the x-axis, it passes through $(7, 0)$,
+  yielding $a^2 = 49$.
+
+  The $y$-intercept of the second line $x/7 - y/(2sqrt(6)) = 1$ is found by setting $x = 0$, which gives
+  $(0, -2sqrt(6))$. Since the ellipse meets this line on the y-axis, it passes through $(0, -2sqrt(6))$,
+  yielding $b^2 = (-2sqrt(6))^2 = 24$.
+
+  Since $a^2 > b^2$, it is a horizontal ellipse. The eccentricity $e$ is given by the standard formula $e =
+  sqrt(1 - b^2/a^2)$.
+
+  Substituting the values of $a^2 = 49$ and $b^2 = 24$ into the formula gives $e = sqrt(1 - 24/49) =
+  sqrt(25/49) = 5/7$.
+
+  Thus, the eccentricity of the ellipse is $5/7$.
+//614
++ The equation of the parabola can be rewritten by completing the square for the $y$ terms $y^2 - 2y = 2x +
+  1 => (y - 1)^2 = 2x + 2 = 2(x + 1)$.
+
+  Let us introduce a shifted coordinate system by setting $X = x + 1$ and $Y = y - 1$. The equation
+  transforms into the standard form $Y^2 = 2X$, which corresponds to $4a = 2$, giving $a = 1/2$.
+
+  Transforming the given points $A(1, 3)$ and $B(1, -1)$ into the $(X, Y)$ system yields:
+  - For $A(1, 3)$: $X_A = 1 + 1 = 2$ and $Y_A = 3 - 1 = 2$.
+  - For $B(1, -1)$: $X_B = 1 + 1 = 2$ and $Y_B = -1 - 1 = -2$.
+
+  Using the parametric form $(a t^2, 2a t)$ for $Y^2 = 2X$, the parameter $t_1$ for point $A$ satisfies $2a
+  t_1 = 2(1/2)t_1 = 2$, which gives $t_1 = 2$. Similarly, for point $B$, $2(1/2)t_2 = -2$, which gives $t_2
+  = -2$.
+
+  The intersection point $P$ of the two tangents in the $(X, Y)$ system is given by the standard formulas
+  $X_P = a t_1 t_2$ and $Y_P = a(t_1 + t_2)$.
+
+  Substituting the values gives $X_P = 1/2 (2)(-2) = -2$ and $Y_P = 1/2 (2 + (-2)) = 0$.
+
+  Converting back to the original coordinate system, the coordinates of $P$ are $x_P = X_P - 1 = -3$ and
+  $y_P = Y_P + 1 = 1$, giving $P(-3, 1)$.
+
+  The line segment $A B$ forms the base of $triangle P A B$. Since both $A(1, 3)$ and $B(1, -1)$ lie on the
+  vertical line $x = 1$, the length of the base is $A B = |3 - (-1)| = 4$.
+
+  The perpendicular height $h$ from the vertex $P(-3, 1)$ to the vertical baseline $x = 1$ is $h = |1 -
+  (-3)| = 4$.
+
+  The area of $triangle P A B$ is computed using the standard area formula $1/2 dot text("base") dot
+  text("height") = 1/2 (4)(4) = 8$.
+//615
++ The equation of the given ellipse is $x^2/16 + y^2/7 = 1$, where $a^2 = 16$ and $b^2 = 7$.
+
+  The focal distance squared for this ellipse satisfies $c^2 = a^2 - b^2 = 16 - 7 = 9$, which gives $c =
+  3$. Thus, the coordinates of the foci are $(plus.minus 3, 0)$.
+
+  The equation of the hyperbola is $x^2/144 - y^2/alpha = 1/25$. Dividing both sides by $1/25$ converts it
+  into the standard form $x^2 / (144/25) - y^2 / (alpha/25) = 1$.
+
+  From this standard form, the semi-axes values are $a_h^2 = 144/25$ (giving $a_h = 12/5$) and $b_h^2 =
+  alpha/25$.
+
+  Since the foci of the hyperbola coincide with those of the ellipse, its focal distance must also be $c_h =
+  3$, meaning $c_h^2 = 9$.
+
+  Using the fundamental relationship for a hyperbola $c_h^2 = a_h^2 + b_h^2$, we substitute the known values
+  to get $9 = 144/25 + alpha/25$.
+
+  Multiplying by $25$ gives $225 = 144 + alpha$, which solves to $alpha = 81$. Substituting this back gives
+  $b_h^2 = 81/25$.
+
+  The length of the latus rectum of a hyperbola is given by the formula $L = (2b_h^2)/a_h$.
+
+  Substituting our values into the formula yields $L = (2(81/25)) / (12/5) = (162/25) dot (5/12) = 162/60 =
+  27/10$.
+//616
++ The equation of the first circle is $x^2 + y^2 + 6x + 8y + 16 = 0$. Its center is $C_1(-3, -4)$ and its
+  radius is $r_1 = sqrt((-3)^2 + (-4)^2 - 16) = 3$.
+
+  The equation of the second circle is $x^2 + y^2 + 2(3 - sqrt(3))x + 2(4 - sqrt(6))y = k + 6sqrt(3) +
+  8sqrt(6)$. Its center is $C_2(-3 + sqrt(3), -4 + sqrt(6))$.
+
+  The distance between the two centers is computed as $C_1 C_2 = sqrt((-3 + sqrt(3) - (-3))^2 + (-4 +
+  sqrt(6) - (-4))^2) = sqrt((sqrt(3))^2 + (sqrt(6))^2) = sqrt(3 + 6) = 3$.
+
+  Since the two circles touch internally, the distance between their centers is equal to the absolute
+  difference of their radii, so $|r_2 - r_1| = C_1 C_2$, which gives $|r_2 - 3| = 3$. Given $k > 0$, the
+  larger radius is $r_2 = 6$.
+
+  Because $r_2 = 2r_1$, the first center $C_1$ acts as the midpoint between the contact point $P(alpha,
+  beta)$ and the second center $C_2$. Thus, the coordinates satisfy $P = 2C_1 - C_2$.
+
+  Evaluating the components for $P$ gives $alpha = 2(-3) - (-3 + sqrt(3)) = -3 - sqrt(3)$ and $beta = 2(-4)
+  - (-4 + sqrt(6)) = -4 - sqrt(6)$.
+
+  Substituting these coordinates into the required expression yields $(alpha + sqrt(3))^2 + (beta +
+  sqrt(6))^2 = (-3 - sqrt(3) + sqrt(3))^2 + (-4 - sqrt(6) + sqrt(6))^2 = (-3)^2 + (-4)^2 = 9 + 16 = 25$.
+//617
++ The two given lines $L_1: 4x - 3y + k_1 = 0$ and $L_2: 4x - 3y + k_2 = 0$ are parallel tangents to the
+  circle $C$.
+
+  A straight line passing through the center of the circle intersects these parallel lines at $A(-1, 2)$ and
+  $B(3, -6)$. By symmetry, the center of the circle $C(x_c, y_c)$ must be the midpoint of the line segment
+  $A B$.
+
+  Using the midpoint formula, the coordinates of the center are $x_c = (-1 + 3)/2 = 1$ and $y_c = (2 - 6)/2
+  = -2$, giving the center as $(1, -2)$.
+
+  Since the point $A(-1, 2)$ lies on $L_1$, substituting its coordinates gives $4(-1) - 3(2) + k_1 = 0$,
+  which solves to $k_1 = 10$.
+
+  Since the point $B(3, -6)$ lies on $L_2$, substituting its coordinates gives $4(3) - 3(-6) + k_2 = 0$,
+  which solves to $k_2 = -30$.
+
+  The perpendicular distance between the two parallel tangent lines is equal to the diameter $2R$ of the
+  circle. Using the distance formula between parallel lines, we have $2R = |k_1 - k_2| / sqrt(4^2 + (-3)^2)
+  = |10 - (-30)| / 5 = 40 / 5 = 8$.
+
+  Thus, the radius of the circle is $R = 4$.
+
+  Substituting the center $(1, -2)$ and the radius $R = 4$ into the standard circle equation directly yields
+  $(x - 1)^2 + (y + 2)^2 = 16$.
+//618
++ The equation of the circle is $x^2 + y^2 = 2$, which gives its radius as $r = sqrt(2)$. For the parabola
+  $y^2 = x$, the standard form $y^2 = 4a x$ gives $4a = 1$, which means $a = 1/4$.
+
+  Any tangent to the parabola $y^2 = x$ with a slope $m$ can be written in the standard form as $y = m x +
+  1/(4m)$, or $m^2 x - m y + 1/(4m) = 0$.
+
+  For this line to also be a tangent to the circle $x^2 + y^2 = 2$, its perpendicular distance from the
+  center at the origin $(0, 0)$ must be equal to the circle's radius $sqrt(2)$.
+
+  Applying the perpendicular distance formula gives $|1/(4m)| / sqrt(m^2 + 1) = sqrt(2)$.
+
+  Squaring both sides to eliminate the absolute value and the radical yields $1 / (16m^2 (m^2 + 1)) = 2$.
+
+  Cross-multiplying to clear the denominator leads to $32m^2 (m^2 + 1) = 1$, which expands to the quartic
+  equation $32m^4 + 32m^2 - 1 = 0$.
+
+  Treating this as a quadratic equation in terms of $m^2$ and solving using the quadratic formula gives $m^2
+  = (-32 plus.minus sqrt(32^2 - 4(32)(-1))) / (2(32)) = (-32 plus.minus sqrt(1024 + 128)) / 64 = (-32
+  plus.minus 24sqrt(2)) / 64$.
+
+  Since $m^2$ must be strictly positive for real slopes, we take the positive root, which yields $m^2 = (-4
+  + 3sqrt(2)) / 8 = (3sqrt(2) - 4) / 8$.
+
+  Because $y = m_1 x + c_1$ and $y = m_2 x + c_2$ are two distinct common tangents ($m_1 != m_2$), their
+  slopes $m_1$ and $m_2$ correspond to the two real roots $m = plus.minus sqrt(m^2)$. This means $m_1 =
+  -m_2$, giving their product as $m_1 m_2 = -m^2$.
+
+  Taking the absolute value of the product gives $|m_1 m_2| = m^2 = (3sqrt(2) - 4) / 8$.
+
+  Multiplying this value by $8$ directly produces the required result: $8|m_1 m_2| = 3sqrt(2) - 4$.
+//619
++ Let the coordinates of the center of the variable circle be $C(h, k)$, and let its radius be $R$.
+
+  Since the circle touches the $y$-axis (given by the equation $x = 0$), the radius must equal the
+  perpendicular distance from the center to this vertical axis, yielding $R = |h|$.
+
+  The circle also touches the line $x + y = 0$. The perpendicular distance from the center $C(h, k)$ to this
+  line must also be equal to the radius $R$, giving $R = |h + k| / sqrt(1^2 + 1^2) = |h + k| / sqrt(2)$.
+
+  Equating the two expressions for the radius gives $|h| = |h + k| / sqrt(2)$.
+
+  Squaring both sides to eliminate the absolute value bars and the square root gives $h^2 = (h + k)^2 / 2$.
+
+  Cross-multiplying by $2$ to clear the fraction yields $2h^2 = h^2 + 2h k + k^2$.
+
+  Rearranging all the terms to the left side of the equation results in $h^2 - 2h k - k^2 = 0$.
+
+  Replacing the specific coordinates $(h, k)$ of the center with general coordinates $(x, y)$, we obtain the
+  final locus equation as $x^2 - 2x y - y^2 = 0$.
+//620
++ The equation of the parabola is given by $y = x - x^2$. Differentiating to find the vertex $V$, we set $y'
+  = 1 - 2x = 0$, which gives the x-coordinate as $x = 1/2$.
+
+  Substituting $x = 1/2$ back into the parabola equation gives the y-coordinate as $y = 1/2 - (1/2)^2 =
+  1/4$. Thus, the vertex is $V(1/2, 1/4)$.
+
+  The line $y = 4 + k x$ is tangent to the parabola. Equating the two curves gives $4 + k x = x - x^2$,
+  which can be rearranged into the standard quadratic form $x^2 + (k - 1)x + 4 = 0$.
+
+  Since the line is a tangent, this quadratic equation must have exactly one real root, meaning its
+  discriminant $D$ must equal zero $D = (k - 1)^2 - 4(1)(4) = 0 => (k - 1)^2 = 16$.
+
+  Solving this gives $k - 1 = plus.minus 4$. Since we are given that $k > 0$, we take the positive root $k -
+  1 = 4$, which yields the slope of the tangent line as $k = 5$.
+
+  Substituting $k = 5$ back into the quadratic equation gives $x^2 + 4x + 4 = 0$, or $(x + 2)^2 = 0$, which
+  solves to the x-coordinate of the point of contact $P$ as $x = -2$.
+
+  Substituting $x = -2$ into the tangent line equation gives the y-coordinate of $P$ as $y = 4 + 5(-2) =
+  -6$, so the point of contact is $P(-2, -6)$.
+
+  The slope of the line $P V$ joining $P(-2, -6)$ and $V(1/2, 1/4)$ is found using the slope formula $m =
+  (1/4 - (-6)) / (1/2 - (-2)) = (25/4) / (5/2) = 25/4 dot 2/5 = 5/2$.
+//621
++ The equation of the ellipse is $x^2/4 + y^2/2 = 1$, and the line is $y = x + 1$.
+
+  Substituting $y = x + 1$ into the ellipse equation gives $x^2/4 + (x + 1)^2/2 = 1$.
+
+  Multiplying the entire equation by $4$ to clear the denominators yields $x^2 + 2(x + 1)^2 = 4$.
+
+  Expanding and simplifying the terms results in the quadratic equation $3x^2 + 4x - 2 = 0$.
+
+  Let the roots of this equation be $x_1$ and $x_2$, which represent the x-coordinates of points $P$ and
+  $Q$. By Vieta's formulas, we have $x_1 + x_2 = -4/3$ and $x_1 x_2 = -2/3$.
+
+  The squared difference between the roots is computed as $(x_2 - x_1)^2 = (x_1 + x_2)^2 - 4x_1 x_2 =
+  (-4/3)^2 - 4(-2/3) = 16/9 + 8/3 = 40/9$.
+
+  Since the slope of the line $y = x + 1$ is $1$, the change in $y$ is equal to the change in $x$, meaning
+  $y_2 - y_1 = x_2 - x_1$.
+
+  The square of the distance $P Q$ (the diameter of the circle) is given by the distance formula $P Q^2 =
+  (x_2 - x_1)^2 + (y_2 - y_1)^2 = 2(x_2 - x_1)^2 = 2(40/9) = 80/9$.
+
+  Since $r$ is the radius of the circle, the radius squared is $r^2 = P Q^2 / 4 = (80/9) / 4 = 20/9$.
+
+  We need to evaluate $(3r)^2$, which expands to $9r^2$. Substituting the value of $r^2$ gives $9(20/9) =
+  20$.
+//622
++ The equation of the hyperbola is $x^2/a^2 - y^2/b^2 = 1$. The eccentricity is given as $e = 5/4$.
+
+  Using the eccentricity relation for a hyperbola, we have $e^2 = 1 + b^2/a^2$, which gives $(5/4)^2 = 1 +
+  b^2/a^2 => 25/16 = 1 + b^2/a^2 => b^2/a^2 = 9/16 => b^2 = 9/16 a^2$.
+
+  Since the point $P(8/sqrt(5), 12/5)$ lies on the hyperbola, its coordinates must satisfy the equation
+  $((8/sqrt(5))^2)/a^2 - ((12/5)^2)/b^2 = 1 => 64/(5a^2) - 144/(25b^2) = 1$.
+
+  Substituting $b^2 = 9/16 a^2$ into this relation yields $64/(5a^2) - 144 / (25 (9/16 a^2)) = 1 =>
+  64/(5a^2) - 256/(25a^2) = 1$.
+
+  Multiplying the entire equation by $25a^2$ to clear the denominators gives $320 - 256 = 25a^2 => 64 =
+  25a^2 => a^2 = 64/25$.
+
+  Using $b^2 = 9/16 a^2$, we find $b^2 = 9/16 (64/25) = 36/25$.
+
+  The equation of the normal to a hyperbola at a point $(x_1, y_1)$ is given by the formula $(a^2 x)/x_1 +
+  (b^2 y)/y_1 = a^2 + b^2$. Substituting our values gives $((64/25)x)/(8/sqrt(5)) + ((36/25)y)/(12/5) =
+  64/25 + 36/25 => (8sqrt(5))/25 x + 3/5 y = 4$.
+
+  To match the given normal equation form $8sqrt(5)x + beta y = lambda$, we multiply the entire equation by
+  $25$ i.e. $8sqrt(5)x + 15y = 100$.
+
+  Comparing this with the given line equation, we identify $beta = 15, lambda = 100$.
+
+  Therefore, the required value is $lambda - beta = 100 - 15 = 85$.
+//623
++ Let $P(x, y)$. The sum of its squared distances to $(1, 2)$ and $(-2, 1)$ is $14$ i.e. $[(x - 1)^2 + (y -
+  2)^2] + [(x + 2)^2 + (y - 1)^2] = 14$
+
+  Expanding and dividing by $2$ yields the locus equation $x^2 + y^2 + x - 3y - 2 = 0$
+
+  Setting $y = 0$ gives the x-intercepts $A$ and $B$ i.e. $x^2 + x - 2 = 0 => (x + 2)(x - 1) = 0 => x = -2, 1 => A B = 3$
+
+  Setting $x = 0$ gives the y-intercepts $C$ and $D$ i.e. $y^2 - 3y - 2 = 0 => C D = |y_1 - y_2| = sqrt(3^2
+  - 4(-2)) = sqrt(17)$
+
+  Since the diagonals lie on the coordinate axes, they are perpendicular. The area of quadrilateral $A B C
+  D$ is $Delta = 1/2 dot A B dot C D = (3sqrt(17))/2$
+//624
++ The tangent to $y^2 = 24x$ at $(alpha, beta)$ is $beta y = 12(x + alpha)$, giving a slope of $12/beta$.
+  Since it is perpendicular to $2x + 2y = 5$ (slope $-1$), we have $12/beta = 1 => beta = 12$
+
+  Substituting $beta = 12$ into $beta^2 = 24alpha$ yields $144 = 24alpha => alpha = 6$
+
+  Thus, the hyperbola is $x^2/36 - y^2/144 = 1$ and the point is $(alpha + 4, beta + 4) = (10, 16)$. The
+  equation of the normal at $(x_1, y_1)$ is $(a^2 x)/x_1 + (b^2 y)/y_1 = a^2 + b^2$.
+
+  Substituting our values gives $(36x)/10 + (144y)/16 = 36 + 144 => 18/5 x + 9y = 180$. Dividing the entire
+  equation by $9$ and clearing fractions yields $2x + 5y = 100$.
+//625
++ The intersection of $A B$ ($2x + y = 0$) and $C A$ ($x - y = 3$) gives the vertex $A(1, -2)$.
+
+  The orthocenter is $H(2, a)$. The altitude $A H$ has a slope of $(a - (-2)) / (2 - 1) = a + 2$. Since $A
+  H$ is perpendicular to $B C$ ($x + p y = 15a$, which has a slope of $-1/p$), the product of their slopes
+  is $-1$ i.e. $(a + 2)(-1/p) = -1 => a + 2 = p => a = p - 2$
+
+  The vertex $B$ is the intersection of $A B$ ($y = -2x$) and $B C$ ($x + p y = 15a$). Substituting $y$
+  gives $x - 2p x = 15a => x_B = 15a / (1 - 2p), y_B = -30a / (1 - 2p)$
+
+  The altitude from $B$ to $C A$ (slope $1$) must pass through $H(2, a)$ and have a perpendicular slope of
+  $-1$ i.e. $(y_B - a) / (x_B - 2) = -1 => x_B + y_B = a + 2$
+
+  Substituting $a + 2 = p$ and the expressions for $x_B, y_B$ yields $(15a - 30a) / (1 - 2p) = p => -15a /
+  (1 - 2p) = p$
+
+  Substituting $a = p - 2$ into this equation gives $-15(p - 2) = p(1 - 2p) => 2p^2 - 16p + 30 = 0 => p^2 -
+  8p + 15 = 0$
+
+  Solving the quadratic equation gives $(p - 3)(p - 5) = 0$, so $p = 3$ or $p = 5$.
+  - If $p = 3$, then $a = 3 - 2 = 1$ (satisfies $-1/2 < a < 2$).
+  - If $p = 5$, then $a = 5 - 2 = 3$ (does not satisfy the given range).
+
+  Therefore, the only valid solution is $p = 3$.
+//626
++ The equation of the ellipse can be rewritten in standard form as $x^2/(5/2) + y^2/(5/3) = 1$, where $a^2 =
+  5/2$ and $b^2 = 5/3$.
+
+  The equation of a tangent with slope $m$ passing through the point $(1, 3)$ is given by $3 - m = plus.minus
+  sqrt(a^2 m^2 + b^2) => (3 - m)^2 = 5/2 m^2 + 5/3$
+
+  Expanding and multiplying by $6$ to clear the denominators yields the quadratic equation in $m$ i.e. $54 -
+  36m + 6m^2 = 15m^2 + 10 => 9m^2 + 36m - 44 = 0$
+
+  By Vieta's formulas, the sum and product of the slopes $m_1$ and $m_2$ of the two tangents are $m_1 + m_2
+  = -4, m_1 m_2 = -44/9$
+
+  The squared difference between the slopes is $(m_1 - m_2)^2 = (m_1 + m_2)^2 - 4m_1 m_2 = (-4)^2 - 4(-44/9)
+  = 16 + 176/9 = 320/9$
+
+  Taking the square root gives the absolute difference $|m_1 - m_2| = (8sqrt(5))/3$.
+
+  The acute angle $theta$ between the tangents is found using the tangent angle formula $tan theta = lr(|(m_1 -
+  m_2) / (1 + m_1 m_2)|) = lr(|((8sqrt(5))/3) / (1 - 44/9)|) = lr(|((8sqrt(5))/3) / (-35/9)|) = (24sqrt(5))/35$
+
+  Therefore, the acute angle is $theta = arctan((24sqrt(5))/35)$.
+//627
++ Let the equation of the common tangent line be $y = m x + c$.
+
+  For the first parabola $y = x^2$, substituting the line equation gives $x^2 - m x - c = 0$. For tangency,
+  the discriminant must be zero $D_1 = m^2 - 4(1)(-c) = 0 => 4c = -m^2$
+
+  For the second parabola $y = -(x - 2)^2 = -x^2 + 4x - 4$, substituting the line equation gives $-x^2 + 4x
+  - 4 = m x + c$, which simplifies to $x^2 + (m - 4)x + (c + 4) = 0$. For tangency, its discriminant must
+  also be zero $D_2 = (m - 4)^2 - 4(1)(c + 4) = 0 => m^2 - 8m - 4c = 0$
+
+  Substituting $4c = -m^2$ into the second discriminant equation yields $m^2 - 8m - (-m^2) = 0 => 2m^2 - 8m
+  = 0 => 2m(m - 4) = 0$
+
+  This gives two possible slopes: $m = 0$ or $m = 4$.
+  - For $m = 0$, the intercept is $c = 0$, giving the tangent line $y = 0$.
+  - For $m = 4$, the intercept is $c = -4$, giving the tangent line $y = 4x - 4$.
+//628
++ Let the coordinates of $P$ and $Q$ be $(x_1, y_1)$ and $(x_2, y_2)$.
+
+  We are given that $x_1, x_2$ are the roots of $x^2 - 4x - 6 = 0$, which means $(x - x_1)(x - x_2) = x^2 -
+  4x - 6$
+
+  Similarly, $y_1, y_2$ are the roots of $y^2 + 2y - 7 = 0$, which means $(y - y_1)(y - y_2) = y^2 + 2y - 7$
+
+  The equation of a circle described on $P Q$ as a diameter is given by the diametric form $(x - x_1)(x -
+  x_2) + (y - y_1)(y - y_2) = 0$
+
+  Substituting the quadratic expressions into this equation yields $(x^2 - 4x - 6) + (y^2 + 2y - 7) = 0 =>
+  x^2 + y^2 - 4x + 2y - 13 = 0$
+
+  Comparing this with the given standard equation $x^2 + y^2 + 2a x + 2b y + c = 0$, we equate the
+  coefficients: $2a = -4 => a = -2$, $2b = 2 => b = 1$ and $c = -13$.
+
+  Evaluating the required expression gives $a + b - c = -2 + 1 - (-13) = 12$.
+//629
++ The equation of the hyperbola can be rewritten in standard form by dividing by $6$ i.e. $x^2 / (6/k) - y^2
+  / 6 = 1$
+
+  Since the directrix is given as the vertical line $x = 1$, it is a horizontal hyperbola where $a^2 = 6/k$
+  and $b^2 = 6$.
+
+  The standard formula for the directrix is $x = a/e$. Given that $x = 1$, we have $a/e = 1 => a = e => a^2 = e^2$
+
+  Using the hyperbola eccentricity identity $e^2 = 1 + b^2/a^2$, we substitute $e^2 = a^2$ and $b^2 = 6$
+  i.e. $a^2 = 1 + 6/a^2 => a^4 - a^2 - 6 = 0$
+
+  Factoring this quadratic equation in terms of $a^2$ gives $(a^2 - 3)(a^2 + 2) = 0$
+
+  Since $a^2$ must be strictly positive, we take $a^2 = 3$.
+
+  Substituting $a^2 = 6/k$ gives $3 = 6/k => k = 2$
+
+  Therefore, substituting $k = 2$ back into the original relation yields the hyperbola equation $2x^2 - y^2 = 6$.
+//630
++ The height $h$ of the equilateral triangle $triangle P Q R$ is the perpendicular distance from the vertex
+  $R(3, 7)$ to the line $x + y - 5 = 0$: $h = |3 + 7 - 5| / sqrt(1^2 + 1^2) = 5 / sqrt(2)$
+
+  For an equilateral triangle, the relation between its area and its height $h$ is given by $Delta = h^2 / sqrt(3)$
+
+  Substituting the value of $h$ into the area formula yields $Delta = (5/sqrt(2))^2 / sqrt(3) = (25/2) /
+  sqrt(3) = 25 / (2sqrt(3)) = (25sqrt(3))/6$.
+//631
++ Let the center of the circle $C$ be $M(h, k)$. Since $C$ passes through $A(2, -1)$ and $B(3, 4)$, $M$ must
+  lie on the perpendicular bisector of the segment $A B$.
+
+  The midpoint of $A B$ is $((2+3)/2, (-1+4)/2) = (5/2, 3/2)$. The slope of $A B$ is $(4 - (-1))/(3 - 2) =
+  5$, so the perpendicular bisector has a slope of $-1/5$.
+
+  The equation of the perpendicular bisector is $y - 3/2 = -1/5 (x - 5/2) => x + 5y = 10 => x =
+  10 - 5y$
+
+  Since the center $M(h, k)$ lies on this line, its coordinates can be written as $(10 - 5k, k)$. It also
+  lies on the circle $(x - 5)^2 + (y - 1)^2 = 13/2$ i.e. $(10 - 5k - 5)^2 + (k - 1)^2 = 13/2 => 25(1 - k)^2
+  + (k - 1)^2 = 13/2$
+
+  $26(k - 1)^2 = 13/2 => (k - 1)^2 = 1/4 => k - 1 = plus.minus 1/2$
+
+  - If $k - 1 = 1/2 => k = 3/2$, then $h = 5/2$. This gives the center $M(5/2, 3/2)$, which is the midpoint
+    of $A B$. However, the problem states that $A B$ is *not* a diameter of $C$, so this solution is rejected.
+  - If $k - 1 = -1/2 => k = 1/2$, then $h = 10 - 5(1/2) = 15/2$. This gives the valid center $M(15/2, 1/2)$.
+
+  The squared radius $r^2$ is the distance squared from $M(15/2, 1/2)$ to $A(2, -1)$ is $r^2 = (15/2 - 2)^2
+  + (1/2 - (-1))^2 = (11/2)^2 + (3/2)^2 = 121/4 + 9/4 = 130/4 = 65/2$.
+//632
++ The equation of the parabola is $y^2 = 6x$, which gives $4a = 6 => a = 3/2$. Any point on the parabola can
+  be parameterized as $P(a t^2, 2a t) = (3/2 t^2, 3t)$.
+
+  The equation of the normal at $P$ is given by $y = -t x + 2a t + a t^3 => y = -t x + 3t + 3/2 t^3$
+
+  Since the normal passes through the point $(5, -8)$, we substitute these coordinates $-8 = -5t + 3t + 3/2
+  t^3 => 3t^3 - 4t + 16 = 0$
+
+  Testing for integer roots gives $t = -2$. Substituting $t = -2$ gives the coordinates of $P$ as $x = 3/2
+  (-2)^2 = 6, y = 3(-2) = -6 => P(6, -6)$
+
+  The equation of the tangent at $P(6, -6)$ to the parabola is $y y_1 = 2a(x + x_1) => -6y = 3(x + 6) => x +
+  2y + 6 = 0$
+
+  The directrix of the parabola is the vertical line $x = -a = -3/2$. To find the intersection point $Q$, we
+  substitute $x = -3/2$ into the tangent line equation $-3/2 + 2y + 6 = 0 => 2y + 9/2 = 0 => y = -9/4$
+
+  Therefore, the coordinates of the point $Q$ are $(-3/2, -9/4)$.
+//633
++ The first curve is the circle $4(x^2 + y^2) = 9$, which can be rewritten as $x^2 + y^2 = 9/4$, giving its
+  radius as $r = 3/2$. The second curve is the parabola $y^2 = 4x$, where $a = 1$.
+
+  Any tangent to the parabola $y^2 = 4x$ with slope $m$ can be expressed as $y = m x + 1/m$, or $m^2 x - m y
+  + 1 = 0$.
+
+  For this line to be a tangent to the circle $x^2 + y^2 = 9/4$, its perpendicular distance from the origin
+  $(0, 0)$ must be equal to the radius $3/2$: $|1| / sqrt((m^2)^2 + (-m)^2) = 3/2 => 1 / (|m|sqrt(m^2 + 1)) = 3/2$
+
+  Squaring both sides to eliminate the radical and absolute value yields $1 / (m^2(m^2 + 1)) = 9/4 => 9m^4 +
+  9m^2 - 4 = 0$
+
+  Factoring this quadratic equation in terms of $m^2$ gives $(3m^2 - 1)(3m^2 + 4) = 0$
+
+  Since $m^2$ must be strictly positive for real slopes, we take $3m^2 = 1 => m^2 = 1/3$, which gives the
+  slopes as $m = plus.minus 1/sqrt(3)$.
+
+  Substituting these slopes back into the tangent equation gives the two common tangents as $y = 1/sqrt(3)x
+  + sqrt(3)$ and $y = -1/sqrt(3)x - sqrt(3)$. Intersecting these two lines yields their point of
+  intersection $Q(-3, 0)$.
+
+  The distance from the origin to $Q$ is $O Q = 3$. For the ellipse, the semi-minor axis is $b = O Q = 3$
+  and the semi-major axis is $a = 6$.
+
+  The square of the eccentricity $e^2$ is computed as $e^2 = 1 - b^2/a^2 = 1 - 3^2/6^2 = 1 - 9/36 = 3/4$
+
+  The length of the latus rectum $l$ of the ellipse is given by $l = (2b^2)/a = (2(3^2))/6 = 18/6 = 3$
+
+  Evaluating the required expression results in $l / e^2 = 3 / (3/4) = 4$.
+//634
++ Let the equation of the common tangent line with slope $m$ be $y = m x + c$.
+
+  For the ellipse $x^2/16 + y^2/9 = 1$, where $a^2 = 16$ and $b^2 = 9$, the condition of tangency requires
+  $c^2 = a^2 m^2 + b^2 = 16m^2 + 9$
+
+  For the circle $x^2 + y^2 = 12$, where $r^2 = 12$, the condition of tangency requires $c^2 = r^2(1 + m^2)
+  = 12(1 + m^2) = 12m^2 + 12$
+
+  Equating the two expressions for $c^2$ to find the common tangent yields $16m^2 + 9 = 12m^2 + 12$
+
+  Rearranging the terms to isolate the $m^2$ components gives $16m^2 - 12m^2 = 12 - 9 => 4m^2 = 3 => m^2 =
+  3/4$
+
+  Evaluating the required expression results in $12m^2 = 12(3/4) = 9$.
+//635
++ Let the fixed point be $A(4, 3)$. Let $Q(x_1, y_1)$ be a variable point on the given ellipse $x^2 + 2y^2 =
+  4$, so its coordinates satisfy $x_1^2 + 2y_1^2 = 4$
+
+  Let $P(h, k)$ be the mid-point of the line segment joining $A(4, 3)$ and $Q(x_1, y_1)$. By the mid-point
+  formula, we have $h = (x_1 + 4) / 2 => x_1 = 2h - 4$ and $k = (y_1 + 3) / 2 => y_1 = 2k - 3$
+
+  Substituting these expressions for $x_1$ and $y_1$ into the ellipse equation yields $(2h - 4)^2 + 2(2k - 3)^2 = 4$
+
+  Expanding the squared terms gives $(4h^2 - 16h + 16) + 2(4k^2 - 12k + 9) = 4 => 4h^2 - 16h + 16 + 8k^2 - 24k + 18 = 4$
+
+  Grouping like terms and simplifying leads to $4h^2 + 8k^2 - 16h - 24k + 30 = 0$
+
+  Dividing the entire equation by $2$ produces $2h^2 + 4k^2 - 8h - 12k + 15 = 0$
+
+  Replacing the specific coordinates $(h, k)$ with general coordinates $(x, y)$, we obtain the final locus
+  equation $2x^2 + 4y^2 - 8x - 12y + 15 = 0$.
+//636
++ The equation of the hyperbola is $x^2/16 - y^2/4 = 1$, where $a^2 = 16$ and $b^2 = 4$.
+
+  The equation of a tangent line $L_1$ to the hyperbola with slope $m$ is given by $y = m x plus.minus
+  sqrt(a^2 m^2 - b^2) => y - m x = plus.minus sqrt(16m^2 - 4)$
+
+  The line $L_2$ passes through the origin and is perpendicular to $L_1$, so its slope is $-1/m$. Its
+  equation is $y = -1/m x => m = -x/y$
+
+  To find the locus of the point of intersection, we substitute $m = -x/y$ into the tangent line equation $y
+  - (-x/y)x = plus.minus sqrt(16(-x/y)^2 - 4)$
+
+  Simplifying the left-hand side and the radical yields $(x^2 + y^2)/y = plus.minus sqrt(16x^2 - 4y^2)/y$
+
+  Multiplying both sides by $y$ to clear the denominators gives $x^2 + y^2 = plus.minus sqrt(16x^2 - 4y^2)$
+
+  Squaring both sides to eliminate the square root results in $(x^2 + y^2)^2 = 16x^2 - 4y^2$
+
+  Comparing this with the given locus form $(x^2 + y^2)^2 = alpha x^2 + beta y^2$, we identify $alpha = 16,
+  beta = -4$.
+//637
++ The circle equation is $x^2 + y^2 - 10x - 14y + 65 = 0$. By completing the square, its center is
+  identified as $C(5, 7)$.
+
+  The parabola is $y^2 = 8x$, so $4a_p = 8 => a_p = 2$. Any point on the parabola can be parameterized as
+  $P(2t^2, 4t)$, where $a = 2t^2$ and $b = 4t$.
+
+  The equation of the tangent at $P$ to the parabola is $y(4t) = 4(x + 2t^2) => t y = x + 2t^2$
+
+  Since the tangent passes through the center $C(5, 7)$, substituting $x = 5$ and $y = 7$ yields $7t = 5 +
+  2t^2 => 2t^2 - 7t + 5 = 0$
+
+  Factoring this quadratic equation gives $(2t - 5)(t - 1) = 0 => t_1 = 1, t_2 = 5/2$
+
+  Now we find the values of $a$ and $b$ corresponding to each root:
+  - For $t_1 = 1$: $a_1 = 2(1)^2 = 2$ and $b_1 = 4(1) = 4$.
+  - For $t_2 = 5/2$: $a_2 = 2(5/2)^2 = 25/2$ and $b_2 = 4(5/2) = 10$.
+
+  Evaluating the required products gives $A = a_1 dot a_2 = 2 dot 25/2 = 25$ and $B = b_1 dot b_2 = 4 dot 10
+  = 40$.
+//638
++ Since the triangles $triangle A P B$ and $triangle A B C$ share the same vertex $A$ and their bases $B P$
+  and $B C$ lie along the same line, the ratio of their areas equals the ratio of their bases $Delta_1 /
+  Delta_2 = B P / B C = 4/7$
+
+  Since $P$ lies on the side $B C$, it divides the segment $B C$ internally in the ratio $4 : 3$. Using the
+  section formula with $B(-4, 3)$ and $C(-2, -5)$, the coordinates of $P$ are $x_P = (4(-2) + 3(-4)) / (4 +
+  3) = -20/7$ and $y_P = (4(-5) + 3(3)) / (4 + 3) = -11/7$
+
+  The equation of the line $A C$ passing through $A(1, 1)$ and $C(-2, -5)$ has a slope of $2$ i.e. $y - 1 =
+  2(x - 1) => 2x - y - 1 = 0$. Setting $y = 0$ gives its x-intercept at the point $X_1(1/2, 0)$.
+
+  The equation of the line $A P$ passing through $A(1, 1)$ and $P(-20/7, -11/7)$ has a slope of $2/3$
+  i.e. $y - 1 = 2/3 (x - 1) => 2x - 3y + 1 = 0$. Setting $y = 0$ gives its x-intercept at the point $X_2(-1/2,
+  0)$.
+
+  The region enclosed by the lines $A P, A C$, and the x-axis forms a triangle with vertices $A(1, 1)$,
+  $X_1(1/2, 0)$, and $X_2(-1/2, 0)$.
+
+  The length of the base along the x-axis is $"base" = 1/2 - (-1/2) = 1$
+
+  The perpendicular height is given by the y-coordinate of vertex $A$, which is $1$. The enclosed area is:
+  $"Area" = 1/2 dot "base" dot "height" = 1/2 (1)(1) = 1/2$.
+//639
++ The circle equation is $x^2 + y^2 - 2g x + 6y - 19c = 0$. Since it passes through $(6, 1)$, we substitute
+  these coordinates $6^2 + 1^2 - 2g(6) + 6(1) - 19c = 0 => 43 - 12g - 19c = 0$
+
+  The center of the circle is $(g, -3)$. Since it lies on the line $x - 2c y = 8$, we substitute the center
+  coordinates $g - 2c(-3) = 8 => g + 6c = 8 => g = 8 - 6c$
+
+  Substituting $g = 8 - 6c$ into the first equation yields $43 - 12(8 - 6c) - 19c = 0 => 43 - 96 + 72c - 19c
+  = 0 => -53 + 53c = 0 => c = 1$
+
+  Using $c = 1$, we find $g = 8 - 6(1) = 2$. Substituting these values back gives the circle equation $x^2 +
+  y^2 - 4x + 6y - 19 = 0$
+
+  To find the x-intercept, we set $y = 0$ i.e. $x^2 - 4x - 19 = 0$
+
+  The length of the intercept is the absolute difference between the roots of this quadratic equation, given
+  by $2sqrt((-2)^2 - (-19))$ i.e. $"Intercept" = 2sqrt{4 + 19} = 2sqrt(23)$
+//640
++ The equation of the given hyperbola is $H: x^2/49 - y^2/64 = -1$, which can be rewritten as $y^2/64 -
+  x^2/49 = 1$. This is a vertical hyperbola with $b_h^2 = 64$ and $a_h^2 = 49$.
+
+  The vertices of this hyperbola lie along the y-axis at $(0, plus.minus 8)$. Since the ellipse $E: x^2/a^2
+  + y^2/b^2 = 1$ passes through these vertices, its vertical semi-axis length satisfies $b^2 = 64$, meaning
+  $b = 8$.
+
+  The eccentricity $e_H$ of the vertical hyperbola is given by the formula $e_H = sqrt(1 + a_h^2/b_h^2) =
+  sqrt(1 + 49/64) = sqrt(113)/8$
+
+  We are given that the product of the eccentricities of $E$ and $H$ is $1/2$, so $e_E dot e_H = 1/2$
+  i.e. $e_E dot sqrt(113)/8 = 1/2 => e_E = 4/sqrt(113)$
+
+  Since the major axis of the ellipse coincides with the transverse axis of the hyperbola (along the
+  $y$-axis), it is a vertical ellipse ($b > a$). The eccentricity equation is $e_E^2 = 1 - a^2/b^2$:
+  $(4/sqrt(113))^2 = 1 - a^2/64 => 16/113 = 1 - a^2/64$
+
+  Rearranging to solve for $a^2$ yields $a^2/64 = 1 - 16/113 = 97/113 => a^2 = (64 dot 97)/113$
+
+  The length of the latus rectum $l$ for a vertical ellipse is given by the formula $l =
+  (2a^2)/b$. Substituting the values of $a^2$ and $b = 8$ results in $l = (2 dot (64 dot 97)/113) / 8 = (16
+  dot 97)/113 = 1552/113$.
+//641
++ The equation of the ellipse can be rewritten by completing the square for both variables $(x^2 + 2x) +
+  4(y^2 + 2y) - lambda = 0 => (x + 1)^2 - 1 + 4((y + 1)^2 - 1) - lambda = 0 => (x + 1)^2 + 4(y + 1)^2 =
+  lambda + 5$
+
+  Dividing by $lambda + 5$ transforms the equation into the standard form $((x + 1)^2) / (lambda + 5) + ((y +
+  1)^2) / ((lambda + 5) / 4) = 1$
+
+  Comparing this with $x^2/a^2 + y^2/b^2 = 1$, we find $a^2 = lambda + 5$ and $b^2 = (lambda + 5) / 4$.
+
+  The length of the latus rectum is given as $4$, which satisfies the formula $(2b^2)/a = 4$: $(2 ((lambda +
+  5) / 4)) / sqrt(lambda + 5) = 4 => (lambda + 5) / (2sqrt(lambda + 5)) = 4 => sqrt(lambda + 5) = 8$
+
+  Squaring both sides yields $lambda + 5 = 64 => lambda = 59$
+
+  The length of the major axis $l$ is given by $2a$: $l = 2sqrt(lambda + 5) = 2sqrt(64) = 2(8) = 16$.
+//642
++ The intersection of $A B$ ($2x + y = 0$) and $C A$ ($x - y = 3$) gives the first vertex $A(1, -2)$.
+
+  Since $P(2, 3)$ is the circumcenter, the squared circumradius $R^2$ is the distance from $P$ to vertex
+  $A$: $R^2 = P A^2 = (2 - 1)^2 + (3 - (-2))^2 = 1 + 25 = 26$
+
+  The equation of the circumcircle is $(x - 2)^2 + (y - 3)^2 = 26$.
+
+  Vertex $C$ is the intersection of the line $C A$ ($y = x - 3$) and the circumcircle. Substituting $y = x -
+  3$ into the circle equation yields $(x - 2)^2 + (x - 6)^2 = 26 => 2x^2 - 16x + 40 = 26 => x^2 - 8x + 7 =
+  0$
+
+  Factoring gives $(x - 7)(x - 1) = 0$. Since $x = 1$ is vertex $A$, we get $x_C = 7$ and $y_C = 4$, forming
+  the vertex $C(7, 4)$.
+
+  The length of the side $A C$ is $A C = sqrt((7 - 1)^2 + (4 - (-2))^2) = sqrt(6^2 + 6^2) = sqrt(72)$
+
+  Vertex $B$ is the intersection of $A B$ ($y = -2x$) and the circumcircle. Substituting $y = -2x$ yields
+  $(x - 2)^2 + (-2x - 3)^2 = 26 => 5x^2 + 8x - 13 = 0 => (5x + 13)(x - 1) = 0$. Since $x = 1$ is vertex $A$,
+  we get $x_B = -13/5$ and $y_B = 26/5$, forming the vertex $B(-13/5, 26/5)$.
+
+  Since $B C$ is the line $x + p y = 39$, substituting the coordinates of vertex $C(7, 4)$ into this
+  equation gives $7 + p(4) = 39 => 4p = 32 => p = 8$
+
+  The area of $triangle A B C$ with vertices $A(1, -2)$, $B(-13/5, 26/5)$, and $C(7, 4)$ is calculated via
+  the determinant formula: $"Area" = 1/2 lr(|1(26/5 - 4) - (-2)(-13/5 - 7) + 7(-2 - 26/5)|) = 162/5 = 32.4$.
+//643
++ The circle $C_1$ passes through the origin $O(0, 0)$ and has a diameter of $4$ along the positive x-axis,
+  which gives its equation as $x^2 + y^2 - 4x = 0$.
+
+  The line $y = 2x$ intersects $C_1$ at the origin and at the point $A$. Substituting $y = 2x$ into the
+  circle equation yields $x^2 + (2x)^2 - 4x = 0 => 5x^2 - 4x = 0 => x_A = 4/5$
+
+  Using $y = 2x$, the y-coordinate is $y_A = 8/5$, giving the coordinates of point $A$ as $(4/5, 8/5)$.
+
+  The circle $C_2$ has $O A$ as its diameter. The tangent to $C_2$ at the endpoint of the diameter $A$ must
+  be perpendicular to the line segment $O A$.
+
+  Since the slope of $O A$ is $2$, the slope of the tangent line at $A$ is $-1/2$. The equation of this
+  tangent line passing through $A(4/5, 8/5)$ is $y - 8/5 = -1/2 (x - 4/5) => 5x + 10y = 20 => x + 2y = 4$
+
+  The tangent line intersects the coordinate axes at:
+  - The x-axis ($y = 0$): $P(4, 0)$
+  - The y-axis ($x = 0$): $Q(0, 2)$
+
+  The ratio $Q A : A P$ can be determined by comparing the differences between the x-coordinates of the
+  collinear points $Q$, $A$, and $P$: $Q A / A P = (x_A - x_Q) / (x_P - x_A) = (4/5 - 0) / (4 - 4/5) = (4/5)
+  / (16/5) = 4 / 16 = 1 / 4$
+
+  Therefore, the ratio $Q A : A P$ is $1 : 4$.
+//644
++ In any parabola, the perpendicular distance from the focus to the tangent at the vertex is equal to
+  one-fourth of the length of the latus rectum.
+
+  Given that the length of the latus rectum is $16$, this perpendicular distance $d$ must be $d = 16 / 4 =
+  4$
+
+  The focus of the parabola is $S(a, a)$ and the equation of the tangent at the vertex is $x + y - a = 0$.
+
+  Using the perpendicular distance formula from a point to a line, we have $d = |a + a - a| / sqrt(1^2 +
+  1^2) = |a| / sqrt(2)$
+
+  Equating this expression to the calculated distance of $4$ yields $|a| / sqrt(2) = 4 => |a| = 4sqrt(2)$.
+//645
++ Let the equation of the common tangent line be $y = m x + c$.
+
+  For the ellipse $C_1: x^2/4 + y^2/9 = 1$, the condition of tangency requires $c^2 = 4m^2 + 9$
+
+  For the hyperbola $C_2: x^2/42 - y^2/143 = 1$, the condition of tangency requires $c^2 = 42m^2 - 143$
+
+  Equating the two expressions for $c^2$ to find the common slope gives $42m^2 - 143 = 4m^2 + 9 => 38m^2 =
+  152 => m^2 = 4 => m = plus.minus 2$
+
+  Substituting $m^2 = 4$ back into the first condition yields $c^2 = 4(4) + 9 = 25$, so $c = plus.minus 5$.
+
+  The four possible common tangent lines are $y = plus.minus 2x plus.minus 5$. The only line among these
+  that does not pass through the fourth quadrant is $y = 2x + 5$
+
+  The standard point of contact $(x_1, y_1)$ on the ellipse $x^2/a_1^2 + y^2/b_1^2 = 1$ for the tangent $y =
+  m x + c$ is given by $(-a_1^2 m / c, b_1^2 / c)$. Substituting $m = 2, c = 5, a_1^2 = 4, b_1^2 = 9$ gives
+  $x_1 = - (4 dot 2) / 5 = -8/5$
+
+  The standard point of contact $(x_2, y_2)$ on the hyperbola $x^2/a_2^2 - y^2/b_2^2 = 1$ for the tangent $y
+  = m x + c$ is given by $(-a_2^2 m / c, -b_2^2 / c)$. Substituting $m = 2, c = 5, a_2^2 = 42, b_2^2 = 143$
+  gives $x_2 = - (42 dot 2) / 5 = -84/5$
+
+  Evaluating the required expression results in $2x_1 + x_2 = 2(-8/5) + (-84/5) = -16/5 - 84/5 = -100/5 =
+  -20$
+
+  Taking the absolute value gives $|2x_1 + x_2| = 20$.
+//646
++ The point $B$ lies at the intersection of the base line $B C: 2x + y = 4$ and the given line $x + 2y =
+  7$. Solving these two linear equations simultaneously yields the coordinates of $B$: $y = 4 - 2x => x +
+  2(4 - 2x) = 7 => -3x = -1 => x = 1/3, y = 10/3 => B(1/3, 10/3)$
+
+  In an isosceles triangle with vertex $A(6, 1)$ and base $B C$, the perpendicular bisector of the base is
+  also the altitude drawn from vertex $A$. Since the slope of $B C$ is $-2$, the slope of this perpendicular
+  line is $1/2$.
+
+  The equation of this altitude line (on which both the midpoint of the base and the circumcenter must lie)
+  is $y - 1 = 1/2 (x - 6) => x - 2y = 4$
+
+  Let the circumcenter of the triangle be $O(h, k)$. Since $O$ lies on the altitude line $x - 2y = 4$, its
+  coordinates can be written in terms of a single parameter as $(4 + 2k, k)$.
+
+  By definition, the circumcenter is equidistant from all vertices of the triangle, so $O A^2 = O B^2$: $(6
+  - (4 + 2k))^2 + (1 - k)^2 = (1/3 - (4 + 2k))^2 + (10/3 - k)^2 => (2 - 2k)^2 + (1 - k)^2 = (-11/3 - 2k)^2 +
+  (10/3 - k)^2$
+
+  Expanding both sides of the equation yields $5k^2 - 10k + 5 = 5k^2 + 8k + 221/9$
+
+  Canceling the $5k^2$ terms and isolating $k$ gives $-18k = 221/9 - 5 => -18k = 176/9 => k = -88/81$
+
+  Substituting $k = -88/81$ back into the expression for $h$ gives $h = 4 + 2(-88/81) = 324/81 - 176/81 =
+  148/81$
+
+  Therefore, the coordinates of the circumcenter are $(148/81, -88/81)$.
+
+  In an isosceles triangle with vertex $A(6, 1)$, the altitude drawn from $A$ to the base $B C$ bisects $B
+  C$ at its midpoint $D$. Thus, $D$ is the foot of the perpendicular from $A(6, 1)$ to the base line $2x + y
+  = 4$.
+
+  From the previous result, the equation of this perpendicular altitude line is $x - 2y = 4$. Intersecting
+  it with the base line $2x + y = 4$ yields the coordinates of the midpoint $D$: $x = 2y + 4 => 2(2y + 4) +
+  y = 4 => 5y = -4 => y_D = -4/5, x_D = 12/5$
+
+  The centroid $G$ of a triangle divides the median line segment joining the vertex $A(6, 1)$ to the
+  opposite midpoint $D(12/5, -4/5)$ internally in the ratio $2 : 1$.
+
+  Using the section formula, the coordinates of the centroid $G$ are $x_G = (2(12/5) + 1(6)) / (2 + 1) =
+  (24/5 + 30/5) / 3 = (54/5) / 3 = 18/5$ and $y_G = (2(-4/5) + 1(1)) / (2 + 1) = (-8/5 + 5/5) / 3 = (-3/5) /
+  3 = -1/5$.
+//647
++ The ellipse is $x^2/a^2 + y^2/b^2 = 1$ with $a > b$. Given the eccentricity $e = 1/4$, the axis relation
+  satisfies $b^2 = a^2(1 - e^2) = a^2(1 - 1/16) => b^2 = 15/16 a^2$
+
+  The ellipse passes through the point $(-4sqrt(2/5), 3)$. Substituting these coordinates into the equation
+  yields $((-4sqrt(2/5))^2) / a^2 + 3^2 / b^2 = 1 => 32 / (5a^2) + 9 / b^2 = 1$
+
+  Substituting $b^2 = 15/16 a^2$ into this relation gives $32 / (5a^2) + 9 / (15/16 a^2) = 1 => 32 / (5a^2) +
+  48 / (5a^2) = 1$
+
+  Combining the fractions leads to $80 / (5a^2) = 1 => 16 / a^2 = 1 => a^2 = 16 => a = 4$
+
+  Using the relation for $b^2$: $b^2 = 15/16 (16) = 15 => b = sqrt(15)$
+//648
++ From the first relation, we can express $n$ in terms of $l$ and $m$: $n = l + m$
+
+  Substituting this expression for $n$ into the second relation yields $3l^2 + m^2 + c(l + m)l = 0 => 3l^2 +
+  m^2 + c l^2 + c l m = 0$
+
+  Grouping the terms into a quadratic form gives $(3 + c)l^2 + c l m + m^2 = 0$
+
+  Dividing the entire equation by $m^2$ (assuming $m != 0$) creates a quadratic equation in terms of the
+  ratio $(l/m)$: $(3 + c)(l/m)^2 + c(l/m) + 1 = 0$
+
+  For the two straight lines to be parallel, their direction cosines must be proportional, which means this
+  quadratic equation must have equal roots. Therefore, its discriminant $D$ must be equal to zero $D = c^2 -
+  4(3 + c)(1) = 0 => c^2 - 4c - 12 = 0$
+
+  Factoring this quadratic equation gives $(c - 6)(c + 2) = 0$
+
+  Solving for $c$ yields $c = 6 " or " c = -2$.
+//649
++ The endpoints of one side are $A(1, 2)$ and $B(3, 6)$. The length of this side is $A B = sqrt((3 - 1)^2 +
+  (6 - 2)^2) = sqrt(4 + 16) = sqrt(20)$
+
+  The midpoint of $A B$ is $M(2, 4)$ and its slope is $(6 - 2)/(3 - 1) = 2$.
+
+  The perpendicular bisector of $A B$ passes through the center of the circumscribing circle. Its equation
+  is $y - 4 = -1/2 (x - 2) => x + 2y - 10 = 0$
+
+  The center of the circle $O(x_0, y_0)$ lies on both this perpendicular bisector and the given diameter $2x
+  - y + 4 = 0$. Solving these equations simultaneously gives $y_0 = 2x_0 + 4 => x_0 + 2(2x_0 + 4) - 10 = 0
+  => 5x_0 = 2 => x_0 = 2/5, y_0 = 24/5$
+
+  The perpendicular distance $d$ from the center $O(2/5, 24/5)$ to the side $A B$ is the distance from $O$
+  to the midpoint $M(2, 4)$: $d = sqrt((2 - 2/5)^2 + (4 - 24/5)^2) = sqrt((8/5)^2 + (-4/5)^2) = sqrt(80/25)
+  = sqrt(80)/5$
+
+  For a rectangle inscribed in a circle, the distance from the center to a side is exactly half the length
+  of the adjacent perpendicular side $B C$: $B C = 2d = (2sqrt(80))/5$
+
+  Therefore, the area of the rectangle $R$ is $"Area" = A B dot B C = sqrt(20) dot (2sqrt(80))/5 =
+  (2sqrt(1600))/5 = (2 dot 40)/5 = 16$.
+//650
++ The first parabola is $y^2 = 2x$, which gives $4a_p = 2 => a_p = 1/2$. Its vertex is $V(0, 0)$ and its
+  focus is $S(1/2, 0)$.
+
+  Let the center of the circle be $M(h, k)$. Since it has a radius of $2$ and passes through $(0, 0)$ and
+  $(1/2, 0)$, its horizontal coordinate must be exactly halfway between them $h = 1/4$
+
+  Using the radius condition $h^2 + k^2 = R^2$, we solve for $k$: $(1/4)^2 + k^2 = 2^2 => k^2 = 4 - 1/16 =
+  63/16 => k = plus.minus sqrt(63)/4$
+
+  Since the circle touches the parabola $y = (x - 1/4)^2 + alpha$ ($alpha > 0$) at its vertex $x = 1/4$,
+  the y-coordinate at the point of tangency is $y = alpha$.
+
+  Substituting $x = 1/4$ and $y = alpha$ into the circle equation $(x - 1/4)^2 + (y - k)^2 = 4$ yields $0 +
+  (alpha - sqrt(63)/4)^2 = 4 => alpha - sqrt(63)/4 = 2$
+
+  Solving for $alpha$ gives $alpha = 2 + sqrt(63)/4 = (8 + sqrt(63))/4$.
+//651
++ The axis of the parabola passes through the vertex $V(5, 4)$ and is perpendicular to the directrix $3x + y
+  - 29 = 0$ (slope $-3$). The slope of the axis is $1/3$, giving its equation as: $y - 4 = 1/3 (x - 5) => x
+  - 3y + 7 = 0$
+
+  Solving the directrix $3x + y = 29$ and the axis $x - 3y = -7$ simultaneously gives their intersection
+  point $Z(8, 5)$.
+
+  Since the vertex $V(5, 4)$ is the midpoint between the focus $S(x_1, y_1)$ and $Z(8, 5)$, we use the
+  midpoint formula: $(x_1 + 8)/2 = 5 => x_1 = 2$ and $(y_1 + 5)/2 = 4 => y_1 = 3 => S(2, 3)$
+
+  By the definition of a parabola, the distance from any point $P(x, y)$ on the curve to the focus $S(2, 3)$
+  equals its perpendicular distance to the directrix $3x + y - 29 = 0$: $(x - 2)^2 + (y - 3)^2 = ((3x + y -
+  29)^2) / (3^2 + 1^2) => 10(x^2 - 4x + 4 + y^2 - 6y + 9) = 9x^2 + y^2 + 841 + 6x y - 174x - 58y$
+
+  Expanding and grouping all terms onto the left side yields $x^2 + 9y^2 - 6x y + 134x - 2y - 711 = 0$
+
+  Comparing this with $x^2 + a y^2 + b x y + c x + d y + k = 0$, we identify $a = 9, b = -6, c = 134, d =
+  -2, k = -711$
+
+  Evaluating the required sum results in $a + b + c + d + k = 9 - 6 + 134 - 2 - 711 = -576$.
+//652
++ The equation of the circle can be rewritten by dividing by $4$: $x^2 + y^2 - 3x + 2y + k/4 = 0$
+
+  The center of the circle is $M(3/2, -1)$, and its radius squared is: $R^2 = (3/2)^2 + (-1)^2 - k/4 = 13/4
+  - k/4 = (13 - k)/4$. For a valid real circle, we must have $R^2 > 0 => k < 13$.
+
+  Condition 1: The circle lies entirely inside the fourth quadrant.
+  The center $M(3/2, -1)$ is already in the fourth quadrant. For the entire circle to stay within this
+  quadrant, its radius $R$ must be strictly less than the shortest distance from the center to either
+  coordinate axis:
+  - Distance to the y-axis is $3/2$.
+  - Distance to the x-axis is $|-1| = 1$.
+
+  Taking the stricter boundary, we must have $R < 1 => R^2 < 1$: $(13 - k)/4 < 1 => 13 - k < 4 => k >
+  9$. Combining this with $k < 13$ gives the first range: $9 < k < 13$.
+
+  Condition 2: The point $(1, -1/3)$ lies on or inside the circle. Substituting these coordinates into the
+  original inequality expression yields: $4(1)^2 + 4(-1/3)^2 - 12(1) + 8(-1/3) + k <= 0 => 4 + 4/9 - 12 -
+  8/3 + k <= 0 => -8 - 20/9 + k <= 0 => -92/9 + k <= 0 => k <= 92/9$
+
+  Combining both conditions by finding their intersection produces the final set of values $9 < k <= 92/9$.
+//653
++ The line $L_1: 4x + 3y + 2 = 0$ passes through the center $P$ of the circle $C$. The line $L_2: 3x - 4y -
+  11 = 0$ touches the circle at the point $Q$, meaning $L_2$ is a tangent at $Q$.
+
+  Since the radius $P Q$ is always perpendicular to the tangent line $L_2$, the line containing $P Q$ must
+  have a slope of $-1 / (3/4) = -4/3$.
+
+  The slope of $L_1$ is also $-4/3$. Since $L_1$ passes through $P$ and has the correct perpendicular slope,
+  the line segment $P Q$ lies exactly along the line $L_1$. Thus, the point $Q$ is the intersection of $L_1$
+  and $L_2$: $4x + 3y = -2$ and $3x - 4y = 11$
+
+  Multiplying the first equation by $4$ and the second equation by $3$ yields $16x + 12y = -8$ and $9x - 12y
+  = 33$
+
+  Adding these two equations gives $25x = 25 => x = 1$. Substituting $x = 1$ back gives $y = -2$, so the
+  point of contact is $Q(1, -2)$.
+
+  Since the radius of the circle is $5$, the center $P$ lies on the line $L_1$ at a distance of $5$ units
+  from $Q(1, -2)$. Using the direction cosines of the line (where $cos theta = 3/5$ and $sin theta = -4/5$),
+  the coordinates of $P$ are given by: $P = (1 plus.minus 5(3/5), -2 plus.minus 5(-4/5)) => P(4, -6) " or "
+  P(-2, 2)$
+
+  We are given that the circle lies below the x-axis, which means the center $P$ must have a negative
+  y-coordinate. Therefore, we select $P(4, -6)$.
+
+  The perpendicular distance $d$ from the center $P(4, -6)$ to the line $5x - 12y + 51 = 0$ is found using
+  the distance formula $d = (|5(4) - 12(-6) + 51|) / sqrt(5^2 + (-12)^2) = (|20 + 72 + 51|) / sqrt(25 + 144)
+  = 143 / 13 = 11$.
+//654
++ The orthocenter of an equilateral triangle coincides exactly with its centroid. Let the coordinates of the
+  orthocenter (centroid) $H(x, y)$ be given by the average of the vertices $A(sin t, -cos t)$, $B(cos t, sin
+  t)$, and $C(a, b)$: $x = (sin t + cos t + a) / 3 => 3x - a = sin t + cos t$ and $y = (sin t - cos t + b) /
+  3 => 3y - b = sin t - cos t$
+
+  To find the locus of the orthocenter $H$ as the parameter $t$ varies, we eliminate $t$ by squaring and
+  adding both equations $(3x - a)^2 + (3y - b)^2 = (sin t + cos t)^2 + (sin t - cos t)^2$
+
+  Expanding the right-hand side using trigonometric identities yields $(3x - a)^2 + (3y - b)^2 = (sin^2 t +
+  cos^2 t + 2sin t cos t) + (sin^2 t + cos^2 t - 2sin t cos t) = 1 + 1 = 2$
+
+  Dividing the entire equation by $9$ transforms it into the standard equation of a circle $(x - a/3)^2 + (y
+  - b/3)^2 = 2/9$
+
+  This shows that the locus of the orthocenter is a circle whose center is located at $(a/3, b/3)$.
+
+  We are given that the center of this locus circle is $(1, 1/3)$. Equating the coordinates of the centers
+  gives $a/3 = 1 => a = 3$ and $b/3 = 1/3 => b = 1$
+
+  Therefore, the coordinates of the third vertex are $C(3, 1)$, which satisfies $a^2 - b^2 = 3^2 - 1^2 = 8$.
+//655
++ The equation of the parabola is $y^2 = 2x - 3$. Let us find the points of contact $P$ and $Q$ for the
+  tangents drawn from $R(0, 1)$.
+
+  The equation of a chord of contact from a point $R(x_1, y_1)$ is given by $y y_1 = (x + x_1) -
+  3$. Substituting $R(0, 1)$ gives the line equation of $P Q$: $y(1) = (x + 0) - 3 => x - y = 3 => x = y +
+  3$
+
+  To find the intersection of this chord line with the parabola, we substitute $x = y + 3$ into the parabola
+  equation $y^2 = 2(y + 3) - 3 => y^2 - 2y - 3 = 0 => (y - 3)(y + 1) = 0$
+
+  This yields the y-coordinates of the points of contact as $y = 3$ and $y = -1$. Using $x = y + 3$, we get
+  the vertices $P(6, 3) "and" Q(2, -1)$
+
+  Now, let us calculate the slopes of the sides of $triangle P Q R$ formed by $P(6, 3)$, $Q(2, -1)$, and
+  $R(0, 1)$:
+    - Slope of $P Q$: $m_1 = (-1 - 3) / (2 - 6) = -4 / (-4) = 1$
+    - Slope of $Q R$: $m_2 = (1 - (-1)) / (0 - 2) = 2 / (-2) = -1$
+
+  Since the product of their slopes is $m_1 dot m_2 = 1 dot (-1) = -1$, the side $P Q$ is perpendicular to
+  $Q R$.
+
+  Thus, $triangle P Q R$ is a right-angled triangle with the right angle at vertex $Q(2, -1)$. In any
+  right-angled triangle, the orthocenter coincides exactly with the vertex containing the right angle.
+
+  Therefore, the orthocenter of $triangle P Q R$ is $(2, -1)$.
+//656
++ The equation of the circle can be rewritten by completing the square for both $x$ and $y$ terms $(x^2 - x
+  + 1/4) + (y^2 + 2y + 1) = 11/4 + 1/4 + 1 => (x - 1/2)^2 + (y + 1)^2 = 4$
+
+  This gives the center as $C(1/2, -1)$ and the square of the radius as $R^2 = 4$, which means $R = 2$.
+
+  Since the line passes through the center $C$ and intersects the circle at $Q$ and $R$, the segment $Q R$
+  forms a diameter of the circle. Thus, the length of the base of $triangle P Q R$ is $Q R = 2R = 4$
+
+  The point $P$ lies on the circle, so the distance $C P = R = 2$. The line containing the diameter $Q R$
+  makes an angle of $pi/4$ with the segment $C P$.
+
+  The perpendicular height $h$ from the vertex $P$ to the diameter line $Q R$ is given by $h = C P dot
+  sin(pi/4) = 2 dot 1/sqrt(2) = sqrt(2)$
+
+  The area of $triangle P Q R$ is computed using the standard triangle area formula $Delta = 1/2
+  "base" dot "height" = 1/2 (4)(sqrt(2)) = 2sqrt(2)$.
+//657
++ The hyperbola is a standard rectangular hyperbola $H: x^2 - y^2 = 1$, so its eccentricity is $e_H =
+  sqrt(2)$.
+
+  The eccentricity $e_E$ of the ellipse $E: x^2/a^2 + y^2/b^2 = 1$ is the reciprocal of $e_H$: $e_E =
+  1/sqrt(2)$
+
+  Using the ellipse eccentricity relation $e_E^2 = 1 - b^2/a^2$, we have $(1/sqrt(2))^2 = 1 - b^2/a^2 => 1/2
+  = 1 - b^2/a^2 => b^2/a^2 = 1/2 => a^2 = 2b^2$
+
+  The common tangent line is $y = sqrt(5/2)x + K$, which has a slope of $m = sqrt(5/2)$.
+
+  For this line to be a tangent to the hyperbola $x^2 - y^2 = 1$ (where $a_h^2 = 1, b_h^2 = 1$), it must
+  satisfy the condition of tangency $K^2 = a_h^2 m^2 - b_h^2$: $K^2 = 1(5/2) - 1 = 3/2$
+
+  For the same line to be a tangent to the ellipse $x^2/a^2 + y^2/b^2 = 1$, it must satisfy the condition of
+  tangency $K^2 = a^2 m^2 + b^2$. Substituting $K^2 = 3/2, m^2 = 5/2,$ and $a^2 = 2b^2$ yields $3/2 =
+  (2b^2)(5/2) + b^2 => 3/2 = 5b^2 + b^2 => 3/2 = 6b^2 => b^2 = 1/4 => b = 1/2$
+
+  Using $a^2 = 2b^2$: $a^2 = 2(1/4) = 1/2 => a = 1/sqrt(2)$.
+//658
++ The circle equation can be rewritten by completing the square for the $x$ terms $(x - 2)^2 + y^2 = 1$
+
+  This gives the center of the circle as $C(2, 0)$ and its radius as $R = 1$.
+
+  The distance from the origin $O(0, 0)$ to the center $C(2, 0)$ is $d = 2$. The length of the tangent $L$
+  from the origin to the circle is $L = sqrt(d^2 - R^2) = sqrt(2^2 - 1^2) = sqrt(3) => O A = O B = sqrt(3)$
+
+  In the right-angled triangle $O A C$ (with the right angle at vertex $A$), let $angle A O C = theta$. The
+  sine of this angle is $sin theta = R / d = 1/2 => theta = 30^degree$
+
+  By symmetry, the total angle between the two tangents is $angle A O B = 2theta = 60^degree$.
+
+  The area of $triangle O A B$ can be computed using the side-angle area formula $Delta = 1/2 dot O A dot O
+  B dot sin(angle A O B) = 1/2 (sqrt(3))(sqrt(3)) sin(60^degree) = 1/2 (3) (sqrt(3)/2) = (3sqrt(3))/4$.
+//659
++ The equation of the hyperbola is $H: x^2/a^2 - y^2/b^2 = 1$. Since it passes through the point $(2sqrt(2),
+  -2sqrt(2))$, we substitute these coordinates $((2sqrt(2))^2)/a^2 - ((-2sqrt(2))^2)/b^2 = 1 => 8/a^2 -
+  8/b^2 = 1$
+
+  The focus of $H$ with a positive abscissa is $S(a e, 0)$ and the other focus is $S'(-a e, 0)$. The
+  parabola has its focus at $S(a e, 0)$ and its directrix passes through $S'(-a e, 0)$. Since the axis of
+  the parabola lies along the x-axis, its directrix is the vertical line $x = -a e$.
+
+  The distance from the focus to the directrix of the parabola is $a e - (-a e) = 2a e$. The length of the
+  latus rectum of a standard parabola is twice the distance from its focus to its directrix, which gives:
+  $"Latus rectum of parabola" = 2(2a e) = 4a e$
+
+  We are given that the length of the latus rectum of the parabola is $e$ times the length of the latus
+  rectum of $H$ (which is $(2b^2)/a$): $4a e = e ((2b^2)/a) => 4a = (2b^2)/a => b^2 = 2a^2$
+
+  Substituting $b^2 = 2a^2$ into the initial hyperbola equation gives  $8/a^2 - 8/(2a^2) = 1 => 8/a^2 -
+  4/a^2 = 1 => 4/a^2 = 1 => a^2 = 4$
+
+  Since $a > 0$, we find $a = 2$, which gives $b^2 = 2(4) = 8$. Using the hyperbola eccentricity identity
+  $b^2 = a^2(e^2 - 1)$: $8 = 4(e^2 - 1) => 2 = e^2 - 1 => e^2 = 3 => e = sqrt(3)$
+
+  Now we determine the focal coordinate of the parabola $a e = 2(sqrt(3)) = 2sqrt(3)$
+
+  Thus, the focus of the parabola is at $(2sqrt(3), 0)$ and its directrix is $x = -2sqrt(3)$. The vertex is
+  the midpoint at the origin $(0, 0)$, meaning the parabola opens to the right with standard form $y^2 = 4A
+  x$, where $A = 2sqrt(3)$.
+
+  Therefore, the equation of the parabola is $y^2 = 4(2sqrt(3))x => y^2 = 8sqrt(3)x$.
+//660
++ The given ellipse is $x^2/2 + y^2/4 = 1$, where $a^2 = 2$ and $b^2 = 4$. Since $b^2 > a^2$, it is a
+  vertical ellipse with its major axis along the y-axis.
+
+  The eccentricity $e$ is given by $a^2 = b^2(1 - e^2) => 2 = 4(1 - e^2) => e = 1/sqrt(2)$
+
+  The focus on the negative major axis (negative y-axis) is $S(0, -b e) = 0, -2(1/sqrt(2)) = S(0,
+  -sqrt(2))$.
+
+  The equation of the chord of contact $P Q$ from the external point $R(sqrt(2), 2sqrt(2) - 2)$ is $(x
+  x_1)/2 + (y y_1)/4 = 1 => (x sqrt(2))/2 + (y(2sqrt(2) - 2))/4 = 1$
+
+  Multiplying by $2$ simplifies the line equation to $sqrt(2)x + (sqrt(2) - 1)y = 2 => sqrt(2)x = 2 - (sqrt(2) - 1)y$
+
+  To find the points of intersection $P$ and $Q$, we substitute this expression into the cleared ellipse
+  equation $2x^2 + y^2 = 4$: $2( (2 - (sqrt(2) - 1)y)/sqrt(2) )^2 + y^2 = 4 => [2 - (sqrt(2) - 1)y]^2 + y^2
+  = 4 => 4 - 4(sqrt(2) - 1)y + (3 - 2sqrt(2))y^2 + y^2 = 4 => (4 - 2sqrt(2))y^2 - 4(sqrt(2) - 1)y = 0$
+
+  Factoring out $2(sqrt(2) - 1)y$ from the equation yields $2(sqrt(2) - 1)y(sqrt(2)y - 2) = 0$
+
+  This gives the y-coordinates of the points of contact as $y = 0$ and $y = sqrt(2)$. Substituting these
+  back into the line equation gives the coordinates of $P$ and $Q$:
+  - For $y = 0$: $sqrt(2)x = 2 => x = sqrt(2) => P(sqrt(2), 0)$
+  - For $y = sqrt(2)$: $sqrt(2)x + (sqrt(2) - 1)sqrt(2) = 2 => sqrt(2)x + 2 - sqrt(2) = 2 => x = 1 => Q(1,
+    sqrt(2))$
+
+  Now, we calculate the squared distances from the focus $S(0, -sqrt(2))$: $S P^2 = (sqrt(2) - 0)^2 + (0 -
+  (-sqrt(2)))^2 = 2 + 2 = 4$ and $S Q^2 = (1 - 0)^2 + (sqrt(2) - (-sqrt(2)))^2 = 1 + (2sqrt(2))^2 = 1 + 8 =
+  9$
+
+  Adding these two values together gives $S P^2 + S Q^2 = 4 + 9 = 13$.

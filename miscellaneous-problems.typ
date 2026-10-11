@@ -2068,3 +2068,183 @@
 //608
 + Tangents are drawn from any point on the hyperbola $x^2/9 - y^2/4 = 1$ to the circle $x^2 + y^2 = 9$. Find
   the locus of the mid-point of chord of contact.
+//609
++ A line, with slope greater than one, passes through the point $A(4, 3)$ and intersects the line $x - y - 2
+  = 0$ at the point $B$. If the length of the line $A B$ is $sqrt(29)/3$, then prove that $B$ also lies on
+  the line $x + 2y = 6$.
+//610
++ Let the equation of two diamters of the circle $x^2 + y^2- 2x + 2f y + 1 = 0$ be $2p x - 2y = 1$ and $2x +
+  p y = 4p$. Then find the slope $m in (0, infinity)$ of the tangent to the hyperbola $3x^2 - y^2 = 3$
+  passing through the center of the circle.
+//611
++ Find the sum of diameters of the circle that touch (i) the parabola $75x^2 = 64(5y - 3)$ at the point
+  $(8/5, 6/5)$ and (ii) the $y$-axis.
+//612
++ Let the point $P(alpha, beta)$ at a unit distance from each of the two lines $L_1: 3x - 4y + 12 = 0$ and
+  $L_2: 8x + 6y + 11 = 0$. If $P$ lies below $L_1$ and above $L_2$ then find $100(alpha + beta)$.
+//613
++ If the ellipse $x^2/a^2 + y^2/b^1 = 1$ meets the line $x/7 + y/(2sqrt(6)) = 1$ on the $x$-axis abd the
+  line $x/7 - y/(2sqrt(6)) = 1$ on the $y$-axis, then find the eccentricity of the ellipse.
+//614
++ The tangents at the point $A(1, 3)$ and $B(1, -1)$ on the parabola $y^2 - 2x - 2y = 1$ meet at the point
+  $P$. Find the area of the $triangle P A B$.
+//615
++ Let the foci of the ellipse $x^2/16 + y^2/7 = 1$ and the hyperbola $x^2/144 - y^2/alpha = 1/25$
+  coincide. Find the length of latus rectum of the parabola.
+//616
++ If the circles $x^2 + y^2 + 6x + 8y + 16 = 0$ and $x^2 + y^2 + 2(3 - sqrt(3))x + 2(4 - sqrt(6))y = k +
+  6sqrt(3) + 8sqrt(6), k > 0$ touch internally at the point $P(alpha, beta)$, then find $(alpha + sqrt(3))^2
+  + (beta + sqrt(6))^2$.
+//617
++ Let a circle $C$ touch the lines $L_1: 4x - 3y + k_1 = 0$ and $L_2: 4x - 3y + k_1 = 0, k_1, k_2 in RR$. If
+  a line passing through the center of the circle $C$ intersects $L_1$ at $(-1, 2)$ and $L_2$ at $(3, -6)$,
+  then find the equation of the circle $C$.
+//618
++ If $y = m_1x + c_1$ and $y = m_2x + c_2, m_1 != m_2$ are two common tangents of circle $x^2 + y^2 = 2$ and
+  parabola $y^2 = x$, then find the value of $8|m_1m_2|$.
+//619
++ A circle touches both the $y$-axis and the line $x + y = 0$. Find the locus of its center.
+//620
++ If the line $y = 4 + k x, k > 0$, is the tangent to the parabola $y = x - x^2$ at the point $P$ and $V$ is
+  the vertex of the parabola, then find the slope of the line $P V$.
+//621
++ The line $y = x + 1$ meets the ellipse $x^2/4 + y^2/2 = 1$ at two points $P$ and $Q$. If $r$ is the radius
+  of the circle with $P Q$ as the diameter, then find $(3r)^2$.
+//622
++ Let the eccentricity of the hyperbola $x^2/a^2 - y^2/b^2 = 1$ be $5/4$. If the equation of the normal of
+  the point $(8/sqrt(5), 12/5)$ on the hyperbola $8sqrt(5)x + beta y = lambda$, then find $lambda - beta$.
+//623
++ A point $P$ moves so that the sum of square of its distances from points $(1, 2)$ and $(-2, 1)$ is
+  $14$. Let $f(x, y) = 0$ be the locus of $P$, which intersects the $x$-axis at the points $A, B$ and the
+  $y$-axis at $C, D$. Find the area of the quadrilateral $A B C D$.
+//624
++ Let the tangent drawn to the parabola $y^2 = 24x$ at the point $(alpha, beta)$ is perpendicular to the
+  line $2x + 2y = 5$. Find the normal to the parabola $x^2/alpha^2 - y/beta^2 = 1$ at $(alpha + 4, beta +
+  4).$
+//625
++ The equations of the sides $A B, B C$ and $C A$ of a $triangle A B C$ are $2x + y = 0, x + p y = 15a$ and
+  $x - y = 3$ respectively. If its orthocenter is $(2, a)$, $-1/2 < a < 2$, then find $p$.
+//626
++ Find the acute angle between the pair of tangents drawn to the ellipse $2x^2 + 3y^2 = 5$ from the point
+  $(1, 3)$.
+//627
++ Find the equation of a common tangent to the parabolas $y = x^2$ and $y = -(x - 2)^2$.
+//628
++ Let the abscissae of the two points $P$ and $Q$ on a circle be the roots of $x^2 - 4x - 6 = 0$ and the
+  ordinates of $P$ and $Q$ be the roots of $y^2 + 2y - 7 = 0$. If $P Q$ is a diameter of the circle $x^2 +
+  y^2 + 2a x + 2b y + c = 0$, then find the value of $a + b - c$.
+//629
++ If the line $x - 1 = 0$ is a directrix of the hyperbola $k x^2 - y^2 = 6$, then find the equation of the
+  hyperbola.
+//630
++ Let $R(3, 7)$ be a point and let $P$ and $Q$ be two points of the line $x + y = 5$ such that $P Q R$ is
+  an equilateral triangle. Find the area of the $triangle P Q R$.
+//631
++ Let $C$ be a circle passing through the points $A(2, -1)$ and $B(3, 4)$. The line segment $A B$ is not a
+  diameter of $C$. If $r$ is radius of $C$ and its center lies on the circle $(x - 5)^2 + (y - 1)^2 = 13/2$,
+  then find $r^2$.
+//632
++ Let the normal at the point $P$ on the parabola $y^2 = 6x$ pass through the point $(6, -8)$. If the
+  tangent at $P$ to the parabola intersect its directrix at a point $Q$, then find $Q$.
+//633
++ Let the common tangents to the curves $4(x^2 + y^2) = 9$ and $y^2 = 4x$ intersect at the point $Q$. Let an
+  ellipse, centered at the origin $O$, has lengths of semi-minor and semi-major axes equal to $O Q$ and $6$,
+  respectively. If $e$ and $l$ denotes the eccentricity and the length of the latus recturm of this ellipse,
+  respectively, then find $l/e^2$.
+//634
++ If $m$ is the slope of a common tangent to the curves $x^2/16 + y^2/9 = 1$ and $x^2 + y^2 = 12$, then find
+  $12m^2$.
+//635
++ Find the locus of mid-points of the line segment joining the point $(4, 3)$ and the points on the ellipse
+  $x^2 + 2y^2 = 4$.
+//636
++ Let a line $L_1$ be a tangent to the parabola $x^2/16 - y^2/4 = 1$ and let $L_2$ be the line passing
+  through the origin and perpendicular to $L_1$. If the locus of the point of intersection of $L_1$ and
+  $L_2$ is $(x^2 + y^2)^2 = alpha x^2 + beta y^2$, then find $alpha$ and $beta$.
+//637
++ Let $P(a, b)$ be a point on the parabola $y^2 = 8x$ such that the tangent at $P$ passes through the center
+  of the circle $x^2 + y^2 - 10x -14y + 65 = 0$. Let $A = display(product a_i)$ and $B = display(product
+  b_i)$, then find $A$ and $B$.
+//638
++ Let $A(1, 1), B(-4, 3), C(-2, -5)$ be vertices of a triangle $A B C, P$ be a point on side $B C$, and
+  $Delta_1$ and $Delta_2$ be the areas of the triangle $A P B$ and $A B C$, respectively. If
+  $Delta_1:Delta_2 = 4:7$ then find the area enclosed by the lines $A P, A C$ and the $x$-axis.
+//639
++ If the circle $x^2 + y^2 - 2g x + 6y - 19c = 0, g, c in RR$ passes through the point $(6, 1)$ and its
+  center lies on the line $x - 2c y = 8$, then find the length of intercept of the circle on $x$-axis.
+//640
++ An ellipse $E: x^2/a^2 + y^2/b^2 = 1$ passes through the vertices of the parabols $H: x^2/49 - y^2/64 =
+  -1$. Let the major and minor axes of the ellipse $E$ coincide with the transverse and conjugate axes of
+  the hyperbola $H$. Let the product of the eccentricities of $E$ and $H$ be $1/2$. Find the length of latus
+  rectum of of the ellipse $E$.
+//641
++ If the length of latus rectum of the ellipse $x^2 + y^2 + 2x + 8y - lambda = 0$ is $4$, and $l$ is the
+  langeth of latus rectum, then find $l$ and $lambda$.
+//642
++ The equations of the sides $A B, B C$ and $C A$ of a triangle $A B C$ are $2x + y = 0, x + p y = 39$ and
+  $x - y = 3$ respectively and $P(2, 3)$ is its circumcenter. Find $p, A C$ and the area of the triangle $A
+  B C$.
+//643
++ A circle $C_1$ passes through the origin $O$ and has diameter $4$ on the positve $x$-axis. The line $y =
+  2x$ gives a chord $O A$ of circle $C_1$. Let $C_2$ be the circle with $O A$ as the diameter. If the
+  tangent to $C_2$ at the point $A$ meets the $x$-axis at $P$ and $y$-axis at $Q$, then find $Q A:A P$.
+//644
++ If the length of the latus rectum of a parabola, whose focus is $(a, a)$ and the tangent at its vertex $x
+  + y = a$, is $16$, then find $|a|$.
+//645
++ A common tangent $T$ to the curves $C_1: x^2/4 + y^2/9 = 1$ and $C_2: x^2/42 - y^2/143 = 1$ does not pass
+  through the fourth quadrant. If $T$ touches $C_1$ at $(x_1, y_1)$ and $C_2$ at $(x_2, y_2)$, then find
+  $|2x_1 + x_2|$.
+//646
++ In an isosceles triangle $A B C$, the vertex is $(6, 1)$ and the equation of the base $B C$ is $2x + y =
+  4$. Let the point $B$ lies on the line $x + 2y = 7$. Find the centroid and circumcenter of the triangle $A
+  B C$.
+//647
++ Let the eccentricity of an ellipse $x^2/a^2 + y^2/b^2 = 1, a > b$, be $1/4$. If this ellipse passes
+  through the point $-4 sqrt(2/5), 3$, then find $a$ and $b$.
+//648
++ If two straight lines whose direction cosines are given by the relations $l + m - n = 0, 3l^2 + m^2+ c n l
+  = 0$, are parallel then find $c$.
+//649
++ A rectangle $R$ with end points of one of its side as $(1, 2)$ and $(3, 6)$ is inscribed in a circle. If
+  the equation of a diameter of the circle is $2x - y + 4 = 0$, then find the area of $R$.
+//650
++ A circle of radius $2$ unit passes through the vertex and the focus of the parabola $y^2 = 2x$ and
+  touches the parabola $y = (x - 1/4)^2 + alpha, alpha > 0$, then find $alpha$.
+//651
++ If the equation of the parabola, whose vertex is at $(5, 4)$ and the directrix is $3x + y - 29 = 0$, is
+  $x^2 + a y^2 + b x y + c x + d y + k = 0$, then find $a + b + c + d + k$.
+//652
++ Find the set of values of $k$ for which the circle $C: 4x^2 + 4y^2 - 12x + 8y + k = 0$ lies inside the
+  fourth quadrant and the point $(1, -1/3)$ lies on or inside the circle $C$.
+//653
++ Let a circle $C$ of radius $5$ lie below the $x$-axis. The line $L_1 = 4x + 3y - 2$ passes through the
+  center $P$ of the circle $C$ and intersects the circle $L_2 = 3x - 4y - 11 = 0$ at $Q$. The line $L_2$
+  touches $C$ at the point $Q$. Find the distance of $P$ from the line $5x - 12y + 51 = 0$.
+//654
++ Let $t in (0, 2pi)$, if $A B C$ is an equilateral triangle with vertices $A(sin t, -cos t), B(cos t, sin
+  t)$ and $C(a, b)$ such that the orthocenter lies on a circle with center $(1, 1/3)$, then find $a$ and
+  $B$.
+//655
++ If the tangents drawn at the point $P$ and $Q$ on the parabola $y^2 = 2x - 3$ intersect at a point $R(0,
+  1)$, then find the orthocenter of the triangle $P Q R$.
+//656
++ Let $C$ be the center of the circle $x^2 + y^2 - x + 2y = 11/4$ and $P$ be a point on the circle. A line
+  passes through the point $C$, makes an angle of $pi/4$ with the line $C P$ and intersects the circle at
+  the point $Q$ and $R$. Find the area of the triangle $P Q R$.
+//657
++ For the hyperbola $H: x^2 - y^2 = 1$ and the ellipse $E: x^2/a^2 + y^2/b^2 = 1, a > b > 0$, let the
+  eccentricity be the reciprocal of the eccentricity of $H$ and the line $y = sqrt(5/2)x + K$ be a common
+  tangent of $E$ and $H$ . Find $a$ and $b$.
+//658
++ Let the tangents at two points $A$ and $B$ on the circle $x^2 + y^2 - 4x + 3 = 0$ meet at origin $O(0,
+  0)$. Find the area of the triangle $O A B$.
+//659
++ Let the hyperbola $H: x^2/a^2 - y^2/b^2 = 1$ pass through the point $(2sqrt(2), -2sqrt(2))$. A parabola is
+  drawn whose focus is same as the focus of $H$ with positive abscissa and the directrix of the parabola
+  passes through the other focus of $H$. If the length of the latus rectum of the parabola is $e$ times the
+  length of latus rectum of $H$, then find the equation of the parabola.
+//660
++ Let the tangents at the points $P$ and $Q$ on the ellipse $x^2/2 + y^2/4 = 1$ meet at the point
+  $R(sqrt(2), 2sqrt(2) - 2)$. If $S$ is the focus of the ellipse on its negative major axis, then find $S
+  P^2 + S Q^2$.
