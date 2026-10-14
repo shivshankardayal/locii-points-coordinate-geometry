@@ -9,7 +9,7 @@ doing so. Please create a PR or send me text of the problem and I will add it.
 
 ## Download Link
 
-A download link will be provided once it is reasonably complete.
+You can download is from https://ashtavakra.org
 
 Note that this build will almost always lag the sources till we reach a stable release.
 
