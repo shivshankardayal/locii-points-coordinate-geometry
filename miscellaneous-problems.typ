@@ -2248,3 +2248,349 @@
 + Let the tangents at the points $P$ and $Q$ on the ellipse $x^2/2 + y^2/4 = 1$ meet at the point
   $R(sqrt(2), 2sqrt(2) - 2)$. If $S$ is the focus of the ellipse on its negative major axis, then find $S
   P^2 + S Q^2$.
+//661
++ Let the eccentricity of the hyperbola $H: x^2/a^2 - y^2/b^2 = 1$ be $sqrt(5/2)$ and length of its latus
+  rectum be $6sqrt(2)$. If $y = 2x + c$ is a tangent to the hyperbola $H$, then find the value of $c$.
+//662
++ If the tangents drawn at the point $O(0, 0)$ and $P(1 + sqrt(5), 2)$ on the circle $x^2 + y^2 - 2x - 4y =
+  0$ intersect at the point $Q$, then find the area of the triangle $O P Q$.
+//663
++ A ray of light passing through the point $(2, 3)$ reflects on the $x$-axis at point $A$ and the reflected
+  ray passes through the point $Q(5, 4)$. Let $R$ be the point that divides the line segment $A Q$
+  internally in the ratio $2:1$. Let the coordinates of the foot of the perpendicular $M$ from $R$ on the
+  bisector of the angle $P A Q$ be $(alpha, beta)$. Find the values of $alpha$ and $beta$.
+//664
++ Let $L$ be a line which is normal to the curve $y = 2x^2 + x + 2$ at a point $P$ on the curve. If the
+  point $Q(6, 4)$ lies on the line $L$ and $O$ is origin, then find $Delta O P Q$.
+//665
++ Let the lines $y + 2x = sqrt(11) + 7sqrt(7)$ and $2y + x = 2sqrt(11) + 6sqrt(7)$ be normal to a circle $C:
+  (x - h)^2 + (y - k)^2 = r^2$. If the line $sqrt(11)x - 3x = (5sqrt(77))/3 + 11$ is tangent to the circle
+  $C$, then find the value of $h, k$ and $r$.
+//666
++ Let a triangle be bounded by the lines $L_1: 2x + 5y = 10, L_2: -4x + 3y = 12$ and the line $L_3$, which
+  passes through the point $P(2, 3)$ intersect $L_2$ at $A$ and $L_1$ at $B$. If the point $P$ divides the
+  line segment $A B$, internally in the ration $1:3$, then find the area of the triangle.
+//667
++ Let $a > 0, b > 0$. Let $e$ and $l$ respectively be the eccentricity and length of the latus rectum of the
+  hyperbola $x^2/a^2 - y^2/b^1 = 1$. Let $e'$ and $l'$ respectively the eccentricity and length of the latus
+  rectum of its conjugate hyperbola. If $e^2 = 11/14 l$ and $(e')^2 = 11/8 l'$ then find $a$ and $b$.
+//668
++ If one of the diameters of the circle $x^2 + y^2 - 2sqrt(2)x - 6sqrt(2)y + 14 = 0$ is a chord of the
+  circle $(x - 2sqrt(2))^2 + (y - 2sqrt(2))^2 = r^2$, then find the value of $r^2$.
+//669
++ Let a line $L$ pass through the point of intersection of the lines $b x + 10y - 8 = 0$ and $2x - 3y = 0, b
+  in RR - {4/3}$. If the line $L$ also passes through the point $(1, 1)$ and touches the circle $17(x^2 +
+  y^2) = 16$, then find the eccentricity of the ellipse $x^2/5 + y^2/b^2 = 1$.
+//670
++ Let the focal chord of the parabola $P: y^2 = 4x$ along the line $L: y = m x + c, m > 0$ meet the parabola
+  at the points $M$ and $N$. Let the line $L$ be a tangent to the hyperbola $H: x^2 - y^2 = 4$. If $O$ is
+  the vertex of $P$ and $F$ is the focus of $H$ on the positive $x$-axis, then find the area of the
+  quadrilateral $O M F N$.
+//671
++ Let the mirror image of the circle $C_1: x^2 + y^2 - 2x - 6y + alpha = 0$ in line $y = x + 1$ be $C_2:
+  5x^2 + 5y^2 + 10g x + 10f y + 38 = 0$. If $r$ is the radius of the circle $C_2$, then find $alpha + 6r^2$.
+//672
++ Let $m_1, m_2$ be the slopes of two adjacent sides of a square of side $a$ such that $a^2 + 11a + 3(m_1^2
+  + m_2^2) = 220$. If one vertex of the square is $(10(cos alpha - sin alpha), 10(sin alpha + cos alpha))$,
+  where $alpha in (0, pi/2)$ and the equation of one diagonal is $(cos alpha - sin alpha)x + (sin alpha +
+  cos alpha)y = 10$, then find $a, sin alpha$ and $cos alpha$.
+//673
++ Let $A(alpha, -2), B(alpha, 6)$ and $C()alpha/4, -2$ be vertices of a $triangle A B C$. If $(5, alpha/4)$
+  is the circumcenter of the $triangle A B C$, then find its area, perimeter, circumradius and inradius.
+//674
++ Let $A B$ be a chord of length $12$ of the circle $(x - 2)^2 + (y + 1)^2 = 169/4$. If tangents are drawn
+  to the circles at the points $A$ and $B$ intersect at the point $P$, then find the distance of $P$ from $A
+  B$.
+//675
++ Find the distance between the two points $A$ and $A'$ which lie on $y = 2$ such that both the line
+  segments $A B$ and $A'B$(where $B$ is the point $(2, 3)$) subtend angle $pi/4$ at the origin.
+//676
++ Let $P Q$ be a focal chord of the parabola $y^2 = 4x$ such that it subtends an angle of $pi/2$ at the
+  point $(3, 0)$. Let the line segment $P Q$ be also a focal chord of the ellipse $E: x^2/a^2 + y^2/b^2 = 1,
+  a^2 > b^2$. Find the eccentricity $e$ of the ellipse.
+//677
++ Let the tangent to the circle $C_1: x^2 + y^2 = 2$ at the point $M(-1, 1)$ intersect the circle $C_2: (x -
+  3)^2 + (y - 2)^2 = 5$, at two distinct points $A$ and $B$. If the tangent to the circle $C_2$ at the
+  points $A$ and $B$ intersect at $N$, then find the area of the triangle $A N B$.
+//678
++ Let $H: x^2/a^2 - y^2/b^2 = 1, a > 0, b > 0$ be a hyperbola such that the sum of lengths of the transverse
+  and conjugate axes is $4(2sqrt(2) + sqrt(14))$. If the eccentricity of $H$ is $sqrt(11)/2$, then find
+  $a$ and $b$.
+//679
++ Let $P: y^2 = 4a x, a > 0$ be a parabola with focus $S$. Let the tangents to the parabola $P$ makes an
+  angle of $pi/4$ with the line $y = 3x + 5$ touch the parabola $P$ at $A$ and $B$. Find the value of $a$
+  for which $A, B$ and $S$ are collinear.
+//680
++ Let a triangle $A B C$ be inscribed in the circle $x^2 - sqrt(2)(x + y) + y^2 = 0$ such that $angle B A C
+  = pi/2$. If the length of the side $A B$ is $sqrt(2)$, then find the area of the triangle $A B C$.
+//681
++ Find the distance of the origin from the centroid of the triangle whose two sides have the equation $x -
+  2y + 1 = 0$ and $2x - y - 1 = 0$ and whose orthoccenter is $(7/3, 7/3)$.
+//682
++ Let $A B C$ be the triangle with $A B = 1, A C = 3$ and $angle B A C = pi/2$. If a circle of radius $r >
+  0$ touches the side $A B, A C$ and also touches internally the circumcircle of the triangle $A B C$, then
+  find the value of $r$.
+//683
++ Consider the parabola $y^2 = 4x$. Let $S$ be the focus of the parabola. A pair of tangents drawn to the
+  parabola from the point $P = (-2, 1)$ meet the parabola at $P_1$ and $P_2$. Let $Q_1$ and $Q_2$ be points
+  on the line $S P_1$ and $S P_2$ respectively such that $P Q_1$ is perpendicular to $S P_1$ and $P Q_2$ is
+  perpendicular to $S P_2$. Find $S, P_1, P_2, Q_1, Q_2$.
+//684
++ Consider the ellipse $x^2/4 + y^2/3 = 1$. Let $H(alpha, 0), 0 < alpha < 2$ be a point. A straight line
+  drawn through $H$ parallel to $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$
+  respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive
+  $x$-axis at point $G$. Suppose the straight line joining $F$ and the origin makes an angle $phi$ with the
+  positive $x$-axis, then find the area of the triangle $F G H$.
+//685
++ Consider the hyperbola $x^2/100 - y^2/64 = 1$ with foci at $S$ and $S_1$, where $S$ lies on the positive
+  $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $angle S P S_1 = alpha, alpha <
+  pi/2$. The straight line passing through the point $S$ and having the same slope as that of tangent at $P$
+  to the hyperbola, intersects the straight line $S_1P$ at $P_1$. Let $delta$ be the distance of $P$ from
+  the straight line $S P_1$ and $beta = S_1P$. Find $(beta delta)/9sin(alpha/2)$.
+//686
++ If the orthocenter of the triangle, whose vertices are $(1, 2), (2, 3)$ and $(3, 1)$ is $(alpha, beta)$,
+  then find the quadratic equation whose roots are $alpha + 4beta$ and $4alpha + beta$.
+//687
++ Let $P(x_0, y_0)$ be the point on the hyperbola $3x^2 - 4y^2 = 36$, which is nearest to the line $3x + 2y
+  = 1$, then find $x_0$ and $y_0$.
+//688
++ The line $x = 8$ is the directrix of the ellipse $E: x^2/a^2 + y^2/b^2 = 1$ with the corresponding focus
+  $(2, 0)$. If the tangent to $E$ at the point $P$ in the first quadrant passes through the point $(0,
+  4sqrt(3))$ and intersects the $x$-axis at $Q$, then find the length of $P Q$.
+//689
++ If the $x$-intercept of a focal chord of the parabola $y^2 = 8x + 4y + 4$ is $3$, then find the length of
+  the chord.
+//690
++ The straight lines $L_1$ and $L_2$ pass through the origin and trisect the line segment of the line $L: 9x
+  + 5y = 45$ between the axes. If $m_1$ and $m_2$ are the slopes of the lines $L_1$ and $L_2$, then find the
+  equation of the line on which the point of intersection of the line $y = (m_1 + m_2)x$ with $L$ lie.
+//691
++ Let the tangents to the curve $x^2 + 2x - 4y + 9 = 0$ at the point $P(1, 3)$ on it meets the $y$-axis at
+  $A$. Let the line passing through $P$ and parallel to the line $x - 3y = 6$ meet the parabola $y^2 = 4x$
+  at $B$. If $B$ lies on the line $2x - 3y = 8$, then find $A B$.
+//692
++ A circle passing through the point $P(alpha, beta)$ in the first quadrant touches the two coordinate axes
+  at the points $A$ and $B$. The point $P$ is above the line $A B$. The point $Q$ on the line segment $A B$
+  is the foot of the perpendicular from $P$ on $A B$. If $P Q$ is $11$ units then find $alpha beta$.
+//693
++ If the tangents at the points $P$ and $Q$ of the circle $x^2 + y^2 - 2x + y = 5$ meet at the point $R(9/4,
+  2)$ then find $Delta P Q R$.
+//694
++ Let the eccentricity of an ellipse $x^2/a^2 + y^2/b^2 = 1$ is reciprocal to that of the hyperbola $2x^2 -
+  2y^2 = 1$. If the ellipse intersects the hyperbola at right angles, then find the length of latus rectum
+  of the ellipse.
+//695
++ Let $R$ be the focus of the parabola $y^2 = 20x$ and the line $y = m x + c$ intersect the parabola at two
+  points $P$ and $Q$. Let the point $G(10, 10)$ be the centroid of the triangle $P Q R$. If $c - m = 6$,
+  then find $P Q$.
+//696
++ Consider a circle $C_1: x^2 + y^2 - 4x - 2y = alpha - 5$. Let its mirror image in the line $y = 2x + 1$ be
+  another circle $C_2: 5x^2 + 5y^2 - 10f x - 10g y + 36 = 0$. Let $r$ be the circle of $C_2$. Then find
+  $alpha + r$.
+//697
++ Let $O$ be the origin and $O P$ and $O Q$ be the tangents to the circle $x^2 + y^2 - 6x + 4y + 8 = 0$ at
+  the points $P$ and $Q$ on it. If the circumcircle of the triangle $O P Q$ passes through the point
+  $(alpha, 1/2)$, then find the values of $alpha$.
+//698
++ Let $A(0, 1), B(1, 1)$ and $C(1, 0)$ be the mid-points of the sides of the triangle with incenter at the
+  point $D$. If the focus of the parabola $y^2 = 4a x$ passing through $D$ is $(alpha + beta sqrt(3), 0)$,
+  where $alpha$ and $beta$ are rational numbers, then find $alpha$ and $beta$.
+//699
++ The ordinates of the points $P$ and $Q$ on the parabola with focus $(3, 0)$ and directrix $x = -3$ are in
+  the ratio $3:1$. If $R(alpha, beta)$ is the point of intersection of the tangents to the parabola at $P$
+  and $Q$, then find $alpha$ and $beta$.
+//700
++ A line segment $A B$ of length $lambda$ moves such that the points $A$ and $B$ remain on the periphery of
+  a circle of radius $lambda$. Find the locus of the point, that divides the line segment $A B$ in the ratio
+  of $2:3$.
+//701
++ Let the ellipse $E: x^2 + 9y^2 = 9$ intersect the positive $x$ and $y$ axes at points $A$ and $B$
+  respectively. Let the major-axis of $E$ be a diameter to a circle $C$. Let the line passing through $A$
+  and $B$ meet the circle $C$ at the point $P$. Find the area of the triangle $A P O$.
+//702
++ Let a common tangent to the curves $y^2 = 4x$ and $(x - 4)^2 + y^2 = 16$ touch the curves at points $P$
+  and $Q$. Find the length of $P Q$.
+//703
++ Let $A$ be the point $(1, 2)$ and $B$ be any point on the curve $x^2 + y^2 = 16$. If the center of the
+  locus of the point $P$, which divides the line segment $A B$in the ratio $3:2$ is the point $C(alpha,
+  beta)$, then find the length $A C$.
+//704
++ Let a circle of radius $4$ be concentric to the ellipse $15x^2 + 19y^2 = 285$, then find the angle at
+  which common tangents are inclined to the minor axis of the ellipse.
+//705
++ Let the equations of two adjacent sides of a parallelogram $A B C D$ be $2x - 3y = -23$ and $5x + 4y =
+  23$. If the equation of its one diagonal $A C$ is $3x + 7y = 23$ and the distance $A$ from the other
+  diagonal is $d$, then find $d$.
+//706
++ Let $R$ be a rectangle given by the sides $x = 0, x = 2, y = 0$ and $y = 5$. Let $A(alpha, 0)$ and $B(0,
+  beta)$ such that $alpha in [0, 2]$ and $beta in [0, 5]$ such that the line segment $A B$ divides the
+  rectangle $R$ in the ratio $4:1$, then find the locus of mid-point of $A B$.
+//707
++ Let $H_n: x^2/(1 + n) - y^2/(3 + n) = 1, n in NN$. Let $k$ be the smallest even value of $n$ such that the
+  eccentricity of $H_k$ is a rational number. Find the length of latus rectum of $H_k$.
+//708
++ If the radius of the largest circle with center $(2, 0)$ inscribed in the ellipse $x^2 + 4y^2 = 36$ is
+  $r$, then find $r$.
+//709
++ Let the tangent to the parabola $y^2 = 12x$ at the point $(3, alpha)$ be perpendicular to the line $2x +
+  2y = 3$. Find the square of distance of the point $(6, -4)$ from the normal to the hyperbola $alpha^2x^2 -
+  9y^2 = 9alpha^2$ at its point $(alpha - 1, alpha + 2)$.
+//710
++ If the line $L_1: 3y - 2x = 3$ is the angular bisector of the line $L_2: x - y + 1 = 0$ and $L_3: alpha x
+  + beta y + 17 = 0$, then find $alpha$ and $beta$.
+//711
++ Let $P((2sqrt(3))/sqrt(7), 6/sqrt(7)), Q, R$ and $S$ be four points on the ellipse $9x^2 + 4y^2 = 36$. Let
+  $P Q$ and $R S$ be mutually perpendicular and pass through origin. Find $P Q$ and $R S$.
+//712
++ If the point $(alpha, 7/sqrt(3))$ lies on the curve traced by the mid-points of the line segments of the
+  lines $x cos theta + y sin theta = 7, theta in (0, pi/2)$ between the coordinate axes then find $alpha$.
+//713
++ Two circles in the first quadrant of radii $r_1$ and $r_2$ touch the coordinate axes. Each of them cuts
+  off an intercept of $2$ units with the line $x + y = 2$. Find $r_1$ and $r_2$.
+//714
++ Let $P Q$ be a focal chord of the parabola $y^2 = 36x$ of length $100$, making an acute angle with
+  positive direction of $x$-axis. Let the ordinate of $P$ be positive and $M$ be the point on the line
+  segment $P Q$ such that $P M:M Q = 3:1$. Find the equation of the line passing through $M$ and
+  perpendicular to $P Q$.
+//715
++ Let the tangent and normal at the point $(3sqrt(3), 1)$ on the ellipse $x^2/36 + y^2/4 = 1$ meet the
+  $y$-axis at the points $A$ and $B$ respectively. Let the circle $C$ be drawn with $A B$ as a diameter and
+  the line $x = 2sqrt(5)$ intersect $C$ at the points $P$ and $Q$. If the tangents at $P$ and $Q$ intersect
+  at point $(alpha, beta)$, then find this point.
+//716
++ Let $m_1$ and $m_2$ be the slopes of the tangents drawn from the point $P(4, 1)$ to the hyperbola $H:
+  y^2/25 - x^2/16 = 1$. If $Q$ is the point from which tangents are drawn to $H$ have slopes $|m_1|$ and
+  $|m_2|$ and they make positive intercepts $alpha, beta$ on the $x$-axis then find $(P Q)^2/(alpha beta)$.
+//717
++ Let the center of the circle $C$ be $(alpha, beta)$ and its radius $r < 8$. Let $3x + 4y = 24$ and $3x -
+  4y = 32$ be two tangents and $4x + 3y = 1$ be a normal to $C$. Find the center and the radius.
+//718
++ Let $(alpha, beta)$ be the centroid of the triangle formed by the lines $15x - y = 82, 6x - 5y = -4$ and
+  $9x + 4y = 17$. Find the equation whose roots are $alpha + 2beta$ and $2alpha - beta$.
+//719
++ The foci of a hyperbola are $(plus.minus 2, 0)$ and its eccentricity is $3/2$. A tangent, perpendicular to
+  the line $2x + 3y = 6$ is drawn at a point in the first quadrant of the hyperbola. Find the intercepts
+  made by the tangent on the axes.
+//720
++ If $(alpha, beta)$ is the orthocenter of the triangle $A B C$ with vertices $A(3, -7), B(-1, 2)$ and $C(4,
+  5)$, then find the orthocenter.
+//721
++ Let an ellipse with center $(1, 0)$ and latus rectum of length $1./2$ have its major axis along
+  $x$-axis. If its minor axis subtends an angle $60^degree$ at the foci, then find the lengths of the major
+  and minor axes.
+//722
++ Consider the triangle with vertices $A(2, 1), B(0, 0)$ and $C(t, 4), t in [0, 4]$. If the maximum and the
+  minimum perimeters of such triangles are obtained at $t = alpha$ and $t = beta$, then find them.
+//723
++ The equations of the sides $A B$ and $A C$ of a triangle $A B C$ are $(lambda + 1)x + lambda y = 4$ and
+  $lambda x + (1 - lambda)y + lambda = 0$ respectively. Its vertex $A$ is on the $y$-axis and its
+  orthocenter is $(1, 2)$. Find the length of the tangent from the point $C$ to the part of the parabola
+  $y^2 = 6x$ in the first quadrant.
+//724
++ The locus of mid-points of the chords of the circle $C_1: (x - 4)^2 + (y - 5)^2 = 4$ which subtend an
+  angle $theta_i$ at the center of circle $C_1$, is a circle of radius $r_i$. If $theta_1 = pi/3, theta_3 =
+  (2pi)/3$ and $r_1^2 = r_2^2 + r_3^2$ then find $theta_2$.
+//725
++ The equations of the sides $A B, B C$ and $C A$ of a triangle $A B C$ are: $2x + y = 0, x + p y = 21a, (a
+  != 0)$ and $x - y = 3$ respectively. Let $P(2, a)$ be the centroid of $triangle A B C$, then find $B C$.
+//726
++ Let a tangent to the curve $y^2 = 24x$ meet the curve $x y = 2$ at the points $A$ and $B$. Find the locus
+  of mid-point of $A B$.
+//727
++ Let $C$ be the largest circle centered at $(2, 0)$ inscribed in the ellipse $x^2/36 + y^2/16 = 1$. If
+  $(1, alpha)$ lies on the circle then find $alpha$.
+//728
++ Let a tangent to the curve $9x^2 + 16y^2 = 144$ intersect the coordinate axes at $A$ and $B$. Find the
+  minimum length of $A B$.
+//729
++ The points of intersection of the line $a x + b y = 0 (a != b)$ and the circle $x^2 + y^2 - 2x = 0$ are
+  $A(alpha, 0)$ and $B(1, beta)$. Find the image of the circle with $A B$ as a diameter in the line $x + y +
+  2 = 0$.
+//730
++ Find the distance of the point $(6, -2sqrt(2))$ from the common tangent $y = m x + c; m > 0$, of the
+  curves $x = 2y^2$ and $x = 1 + y^2$.
+//731
++ The vertices of a hyperbola $H$ are $(plus.minus 6, 0)$ and its eccentricity is $sqrt(5)/2$. Let $N$ be
+  the normal to $H$ at a point in the first quadrant and parallel to the line $sqrt(2)x + y =
+  2sqrt(2)$. Find the length of line segment $N$ between $H$ and the $y$-axis.
+//732
++ The equations of two sides of a variable triangle are $x = 0$ and $y = 3$, and its third side is a tangent
+  to the parabola $y^2 = 6x$. Find the locus of its circumcenter.
+//733
++ Points $P(-3, 2), Q(9, 10)$ and $R(alpha, 4)$ lie on a circle $C$ with $P R$ as its diameter. The tangents
+  to $C$ at the points $Q$ and $R$ intersect at the point $S$. If $S$ lies on the line $2x - k y = 1$, then
+  find $k$.
+//734
++ A triangle is formed by $x$-axis, $y$-axis and the line $3x + 4y = 60$. Find the number of points $P(a,
+  b)$ which lie strictly inside the triangle where $a$ is an integer and $b$ is a multiple of $a$.
+//735
++ A light ray emits from the origin making an angle $30^degree$ with the positive $x$-axis. After getting
+  reflected by the line $x + y = 1$, if this ray intersects $x$-axis at $Q$, then find $Q$.
+//736
++ Let $B$ and $C$ be two points on the line $y + x = 0$ such that $B$ and $C$ are symmetric w.r.t. the
+  origin. Suppose $A$ is the point on $y - 2x = 2$ such that $triangle A B C$ is an equilateral
+  triangle. Find $Delta A B C$.
+//737
++ Let the tangents at the points $A(4, -11)$ and $B(8, -5)$ on the circle $x^2 + y^2 - 3x + 10y - 15 = 0$,
+  intersect at the point $C$. Find the radius of the circle whose center is $C$ and the line joining $A$ and
+  $B$ is its tangent.
+//738
++ If a tangent at a point $P$ on the parabola $y^2 = 3x$ is parallel to the line $x + 2y = 1$ and the
+  tangents at the points $Q$ and $R$ on the ellipse $x^2/4 + y^2/1 = 1$ are perpendicular to the line $x - y
+  = 2$, then find $Delta P Q R$.
+//739
++ A triangle is formed by the tangents at the point $(2, 2)$ on the curves $y^2 = 2x$ and $x^2 + y^2 = 4x$,
+  and the line $x + y + 2 = 0$. Find the circumradius of the circumcircle.
+//740
++ A circle with center $(2, 3)$ and radius $4$ intersects the line $x + y = 3$ at the points $P$ and $Q$. If
+  the tangents at $P$ and $Q$ intersect at the point $(alpha, beta)$, then find it.
+//741
++ Let $y = x + 2, 4y = 3x + 6$ and $3y = 4x + 1$ be three tangent lines to the circle $(x - h)^2 + (y - k)^2
+  = r^2$, then find $h + k$.
+//742
++ If $P(h, k)$ be the point on the parabola $x = 4y^2$, which is nearest to the point $Q(0, 33)$, then find
+  the distance of $P$ from the directrix of the parabola $y^2 = 4(x + y)$.
+//743
++ Let $A$ be a point on the $x$-axis. Common tangents are drawn from $A$ to the curves $x^2 + y^2 = 8$ and
+  $y^2 = 16x$. If one of these tangents touches the two curves at $Q$ and $R$, then find $Q R$.
+//744
++ The parabolas: $a x^2 + 2b x + c y = 0$ and $d x^2 + 2e x + f y = 0$ intersect on the line $y = 1$. If $a,
+  b, c, d, e, f$ are positive real numbers and $a, b, c$ are in G.P., then prove that $d/a, e/b, f/c$ are in
+  A.P.
+//745
++ Let $P(a_1, b_1)$ and $Q(a_2, b_2)$ be two distinct points on a circle with center $C(sqrt(2),
+  sqrt(3))$. Let $O$ be the origin and $O C$ be perpendicular to both $C P$ and $C Q$. If the area of the
+  triangle $O C P$ is $sqrt(35)/2$, then find $a_1^2 + a_2^2 + b_1^2 + b_2^2$.
+//746
++ If the maximum distance of normal to the ellipse $x^2/4 + y^2/b^2 = 1, b < 2$, from the origin is $1$,
+  then find the eccentricity of the ellipse.
+//747
++ Let $y = f(x)$ represents a parabola with focus $(-1/2, 0)$ and directrix $y = -1/2$. Then find the no. of
+  elements in the set $S = {x in RR: tan^(-1)(sqrt(f(x)) + sin^(-1)sqrt(f(x) + 1)) = pi/2}$.
+//748
++ Let a circle $C_1$ be obtained on rolling the circle $x^2 + y^2 - 4x - 6y + 11 = 0$ upwards $4$ units on
+  the tangent $T$ to it at the point $(3, 2)$. Let $C_2$ be the image of $C_1$ in $T$. Let $A$ and $B$ be the
+  centers of circles $C_1$ and $C_2$ respectively, and $M$ and $N$ be respectively the feet of the
+  perpendiculars drawn from $A$ and $B$ on the $x$-axis, then find the area of the trapezium $A M N B$.
+//749
++ Find the set of all values of $a^2$ for which the line $x + y = 0$ bisects two distinct drawn from a point
+  $P((1 + a)/2, (1 - a)/2)$ on the circle $2x^2 + 2y^2 - (1 + a)x - (1 - a)y = 0$.
+//750
++ Let $S$ be the set of all $a in NN$ such that the area of the triangle formed by the tangent at the point
+  $P(b, c), b, c in NN$ on the parabola $y^2 = 2a x$ and the lines $x = b, y = 0$ is 16, then find
+  $display(sum_(a in S)a)$.
+//751
++ Let $T_1$ and $T_2$ be two distinct common tangents to the ellipse $E: x^2/6 + y^2/3 = 1$ and the parabola
+  $P: y^2 = 12x$. Suppose that the tangents $T_1$ touches $P$ and $E$ at the points $A_1$ and $A_2$
+  respectively and the tangent $T_2$ touches $P$ and $E$ at the points $A_3$ and $A_4$ respectively. Find
+  the area of the quadrilateral $A_1A_2A_3A_4$. Find the point of intersection of the two tangents.
+//752
++ Let $P$ be a point on the parabola $y^2 = 4a x$, where $a > 0$. The normal to the parabola at $P$ meets
+  the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is
+  $120$. Find the slope of the normal and $a$.
+//753
++ Let $C_1$ be the circle of radius $1$ with center at the origin. Let $C_2$ be the circle of radius $r$
+  with center at the point $A = (4, 1)$ , where $1 < r < 3$. Two distinct common tangents $P Q$ and $S T$ of
+  $C_1$ and $C_2$ are drawn. The tangent $P Q$ touches $C_1$ at $P$ and $C_2$ at $Q$. The tangent $S T$
+  touches $C_1$ at $S$ and $C_2$ at $T$. Mid-points of the line segments $P Q$ and $S T$ are joined to form
+  a line which meets the $x$-axis at a point $B$. If $A B =5$ , then find the value of $r$.

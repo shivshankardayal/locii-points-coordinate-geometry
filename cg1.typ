@@ -2,6 +2,14 @@
 #import "@preview/cetz:0.5.2"
 #import "@preview/ctz-euclide:0.1.0": *
 
+#set par(
+        first-line-indent: 1em,
+        justify: true,
+        spacing: 1em
+    )
+#set block(breakable: true, spacing: 1em)
+#set text(spacing: 150%)
+
 #show: bookly.with(
     author: "Shiv S. Dayal",
     title: "A Point on Coordinate \nGeometry",
